@@ -12,6 +12,13 @@
     ]
   },
   "proxy": {
-    "command": "node server/index.js"
+    "command": "node server/index.js",
+    "retry": false
+  },
+  "environment": {
+    "COUCHDB_URL": "https://c38aeb6d-2e18-40ca-b7e9-404da06abd39-bluemix.cloudant.com",
+    "ADMIN_USERNAME": "c38aeb6d-2e18-40ca-b7e9-404da06abd39-bluemix",
+    "METADATA_USERNAME": "pokemongo-metadata",
+    "METADATA_PASSWORD": "readonly"
   }
 }
