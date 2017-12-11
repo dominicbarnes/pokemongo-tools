@@ -1,0 +1,22 @@
+{
+  "name": "Tropius",
+  "dex": 357,
+  "generation": 3,
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 198,
+    "attack": 136,
+    "defense": 165
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1846,
+  "buddyDistance": 5,
+  "height": 2.01,
+  "weight": 100,
+  "_id": "POKEMON_TROPIUS"
+}

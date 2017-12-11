@@ -1,0 +1,28 @@
+{
+  "name": "Carvanha",
+  "dex": 318,
+  "generation": 3,
+  "types": [
+    "water",
+    "dark"
+  ],
+  "baseStats": {
+    "stamina": 90,
+    "attack": 171,
+    "defense": 39
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_SHARPEDO",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 874,
+  "buddyDistance": 5,
+  "height": 0.79,
+  "weight": 20.8,
+  "_id": "POKEMON_CARVANHA"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Cascoon",
+  "dex": 268,
+  "generation": 3,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 60,
+    "defense": 91
+  },
+  "previousEvolution": "POKEMON_WURMPLE",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_DUSTOX",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 517,
+  "buddyDistance": 5,
+  "height": 0.71,
+  "weight": 11.5,
+  "_id": "POKEMON_CASCOON"
+}

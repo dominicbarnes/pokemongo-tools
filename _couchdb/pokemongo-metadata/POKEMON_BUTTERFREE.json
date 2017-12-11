@@ -1,0 +1,22 @@
+{
+  "name": "Butterfree",
+  "dex": 12,
+  "generation": 1,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 167,
+    "defense": 151
+  },
+  "previousEvolution": "POKEMON_METAPOD",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1701,
+  "buddyDistance": 1,
+  "height": 1.1,
+  "weight": 32,
+  "_id": "POKEMON_BUTTERFREE"
+}

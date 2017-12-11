@@ -1,0 +1,28 @@
+{
+  "name": "Spinarak",
+  "dex": 167,
+  "generation": 2,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 105,
+    "defense": 73
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_ARIADOS",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 685,
+  "buddyDistance": 1,
+  "height": 0.51,
+  "weight": 8.5,
+  "_id": "POKEMON_SPINARAK"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Ralts",
+  "dex": 280,
+  "generation": 3,
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "baseStats": {
+    "stamina": 56,
+    "attack": 79,
+    "defense": 63
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_KIRLIA",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 436,
+  "buddyDistance": 5,
+  "height": 0.41,
+  "weight": 6.6,
+  "_id": "POKEMON_RALTS"
+}

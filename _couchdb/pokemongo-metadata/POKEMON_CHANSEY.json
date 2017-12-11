@@ -1,0 +1,27 @@
+{
+  "name": "Chansey",
+  "dex": 113,
+  "generation": 1,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 500,
+    "attack": 60,
+    "defense": 176
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_BLISSEY",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1469,
+  "buddyDistance": 5,
+  "height": 1.1,
+  "weight": 34.6,
+  "_id": "POKEMON_CHANSEY"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Lanturn",
+  "dex": 171,
+  "generation": 2,
+  "types": [
+    "water",
+    "electric"
+  ],
+  "baseStats": {
+    "stamina": 250,
+    "attack": 146,
+    "defense": 146
+  },
+  "previousEvolution": "POKEMON_CHINCHOU",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2077,
+  "buddyDistance": 3,
+  "height": 1.19,
+  "weight": 22.5,
+  "_id": "POKEMON_LANTURN"
+}

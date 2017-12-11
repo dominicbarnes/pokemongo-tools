@@ -1,0 +1,22 @@
+{
+  "name": "Xatu",
+  "dex": 178,
+  "generation": 2,
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 130,
+    "attack": 192,
+    "defense": 146
+  },
+  "previousEvolution": "POKEMON_NATU",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1975,
+  "buddyDistance": 3,
+  "height": 1.5,
+  "weight": 15,
+  "_id": "POKEMON_XATU"
+}

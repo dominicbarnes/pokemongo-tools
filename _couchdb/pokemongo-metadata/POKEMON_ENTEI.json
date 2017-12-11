@@ -1,0 +1,21 @@
+{
+  "name": "Entei",
+  "dex": 244,
+  "generation": 2,
+  "types": [
+    "fire"
+  ],
+  "baseStats": {
+    "stamina": 230,
+    "attack": 235,
+    "defense": 176
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": "legendary",
+  "maxCP": 3377,
+  "buddyDistance": 20,
+  "height": 2.11,
+  "weight": 198,
+  "_id": "POKEMON_ENTEI"
+}

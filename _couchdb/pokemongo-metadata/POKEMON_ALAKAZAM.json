@@ -1,0 +1,21 @@
+{
+  "name": "Alakazam",
+  "dex": 65,
+  "generation": 1,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 110,
+    "attack": 271,
+    "defense": 194
+  },
+  "previousEvolution": "POKEMON_KADABRA",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2887,
+  "buddyDistance": 3,
+  "height": 1.5,
+  "weight": 48,
+  "_id": "POKEMON_ALAKAZAM"
+}

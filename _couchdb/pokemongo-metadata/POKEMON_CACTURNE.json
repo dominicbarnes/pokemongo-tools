@@ -1,0 +1,22 @@
+{
+  "name": "Cacturne",
+  "dex": 332,
+  "generation": 3,
+  "types": [
+    "grass",
+    "dark"
+  ],
+  "baseStats": {
+    "stamina": 140,
+    "attack": 221,
+    "defense": 115
+  },
+  "previousEvolution": "POKEMON_CACNEA",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2092,
+  "buddyDistance": 5,
+  "height": 1.3,
+  "weight": 77.4,
+  "_id": "POKEMON_CACTURNE"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Delibird",
+  "dex": 225,
+  "generation": 2,
+  "types": [
+    "ice",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 90,
+    "attack": 128,
+    "defense": 90
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 937,
+  "buddyDistance": 5,
+  "height": 0.89,
+  "weight": 16,
+  "_id": "POKEMON_DELIBIRD"
+}

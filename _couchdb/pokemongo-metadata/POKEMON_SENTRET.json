@@ -1,0 +1,27 @@
+{
+  "name": "Sentret",
+  "dex": 161,
+  "generation": 2,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 70,
+    "attack": 79,
+    "defense": 77
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_FURRET",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 519,
+  "buddyDistance": 1,
+  "height": 0.79,
+  "weight": 6,
+  "_id": "POKEMON_SENTRET"
+}

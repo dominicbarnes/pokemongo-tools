@@ -1,0 +1,28 @@
+{
+  "name": "Kirlia",
+  "dex": 281,
+  "generation": 3,
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "baseStats": {
+    "stamina": 76,
+    "attack": 117,
+    "defense": 100
+  },
+  "previousEvolution": "POKEMON_RALTS",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_GARDEVOIR",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 843,
+  "buddyDistance": 5,
+  "height": 0.79,
+  "weight": 20.2,
+  "_id": "POKEMON_KIRLIA"
+}

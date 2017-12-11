@@ -1,0 +1,28 @@
+{
+  "name": "Ivysaur",
+  "dex": 2,
+  "generation": 1,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 151,
+    "defense": 151
+  },
+  "previousEvolution": "POKEMON_BULBASAUR",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_VENUSAUR",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1552,
+  "buddyDistance": 3,
+  "height": 1,
+  "weight": 13,
+  "_id": "POKEMON_IVYSAUR"
+}

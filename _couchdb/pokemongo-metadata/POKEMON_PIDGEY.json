@@ -1,0 +1,28 @@
+{
+  "name": "Pidgey",
+  "dex": 16,
+  "generation": 1,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 85,
+    "defense": 76
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_PIDGEOTTO",
+      "candy": 12,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 580,
+  "buddyDistance": 1,
+  "height": 0.3,
+  "weight": 1.8,
+  "_id": "POKEMON_PIDGEY"
+}

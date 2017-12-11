@@ -1,0 +1,27 @@
+{
+  "name": "Cleffa",
+  "dex": 173,
+  "generation": 2,
+  "types": [
+    "fairy"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 75,
+    "defense": 91
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_CLEFAIRY",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 620,
+  "buddyDistance": 1,
+  "height": 0.3,
+  "weight": 3,
+  "_id": "POKEMON_CLEFFA"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Geodude",
+  "dex": 74,
+  "generation": 1,
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 132,
+    "defense": 163
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_GRAVELER",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1193,
+  "buddyDistance": 1,
+  "height": 0.4,
+  "weight": 20,
+  "_id": "POKEMON_GEODUDE"
+}

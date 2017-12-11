@@ -1,0 +1,28 @@
+{
+  "name": "Haunter",
+  "dex": 93,
+  "generation": 1,
+  "types": [
+    "ghost",
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 90,
+    "attack": 223,
+    "defense": 112
+  },
+  "previousEvolution": "POKEMON_GASTLY",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_GENGAR",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1716,
+  "buddyDistance": 3,
+  "height": 1.6,
+  "weight": 0.1,
+  "_id": "POKEMON_HAUNTER"
+}

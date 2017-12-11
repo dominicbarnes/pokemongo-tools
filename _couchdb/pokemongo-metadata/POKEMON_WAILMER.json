@@ -1,0 +1,27 @@
+{
+  "name": "Wailmer",
+  "dex": 320,
+  "generation": 3,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 260,
+    "attack": 136,
+    "defense": 68
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_WAILORD",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1424,
+  "buddyDistance": 5,
+  "height": 2.01,
+  "weight": 130,
+  "_id": "POKEMON_WAILMER"
+}

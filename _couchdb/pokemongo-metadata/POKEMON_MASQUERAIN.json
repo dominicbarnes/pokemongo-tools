@@ -1,0 +1,22 @@
+{
+  "name": "Masquerain",
+  "dex": 284,
+  "generation": 3,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 140,
+    "attack": 192,
+    "defense": 161
+  },
+  "previousEvolution": "POKEMON_SURSKIT",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2135,
+  "buddyDistance": 5,
+  "height": 0.79,
+  "weight": 3.6,
+  "_id": "POKEMON_MASQUERAIN"
+}

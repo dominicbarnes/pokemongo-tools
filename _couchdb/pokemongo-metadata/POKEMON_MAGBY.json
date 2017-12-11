@@ -1,0 +1,27 @@
+{
+  "name": "Magby",
+  "dex": 240,
+  "generation": 2,
+  "types": [
+    "fire"
+  ],
+  "baseStats": {
+    "stamina": 90,
+    "attack": 151,
+    "defense": 108
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_MAGMAR",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1178,
+  "buddyDistance": 5,
+  "height": 0.71,
+  "weight": 21.4,
+  "_id": "POKEMON_MAGBY"
+}

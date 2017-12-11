@@ -1,0 +1,22 @@
+{
+  "name": "Magcargo",
+  "dex": 219,
+  "generation": 2,
+  "types": [
+    "fire",
+    "rock"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 139,
+    "defense": 209
+  },
+  "previousEvolution": "POKEMON_SLUGMA",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1543,
+  "buddyDistance": 1,
+  "height": 0.79,
+  "weight": 55,
+  "_id": "POKEMON_MAGCARGO"
+}

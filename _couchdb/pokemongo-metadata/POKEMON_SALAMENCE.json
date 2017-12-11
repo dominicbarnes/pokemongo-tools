@@ -1,0 +1,22 @@
+{
+  "name": "Salamence",
+  "dex": 373,
+  "generation": 3,
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 190,
+    "attack": 277,
+    "defense": 168
+  },
+  "previousEvolution": "POKEMON_SHELGON",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 3532,
+  "buddyDistance": 5,
+  "height": 1.5,
+  "weight": 102.6,
+  "_id": "POKEMON_SALAMENCE"
+}

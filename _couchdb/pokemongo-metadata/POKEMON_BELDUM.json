@@ -1,0 +1,28 @@
+{
+  "name": "Beldum",
+  "dex": 374,
+  "generation": 3,
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 96,
+    "defense": 141
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_METANG",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 843,
+  "buddyDistance": 5,
+  "height": 0.61,
+  "weight": 95.2,
+  "_id": "POKEMON_BELDUM"
+}

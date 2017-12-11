@@ -1,0 +1,28 @@
+{
+  "name": "Baltoy",
+  "dex": 343,
+  "generation": 3,
+  "types": [
+    "ground",
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 77,
+    "defense": 131
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_CLAYDOL",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 676,
+  "buddyDistance": 5,
+  "height": 0.51,
+  "weight": 21.5,
+  "_id": "POKEMON_BALTOY"
+}

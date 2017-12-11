@@ -1,0 +1,32 @@
+{
+  "name": "Wurmple",
+  "dex": 265,
+  "generation": 3,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "stamina": 90,
+    "attack": 75,
+    "defense": 61
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_SILCOON",
+      "candy": 12,
+      "item": null
+    },
+    {
+      "pokemon": "POKEMON_CASCOON",
+      "candy": 12,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 502,
+  "buddyDistance": 5,
+  "height": 0.3,
+  "weight": 3.6,
+  "_id": "POKEMON_WURMPLE"
+}

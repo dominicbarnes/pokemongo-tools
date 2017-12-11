@@ -1,0 +1,21 @@
+{
+  "name": "Castform",
+  "dex": 351,
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 140,
+    "attack": 139,
+    "defense": 139
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1486,
+  "buddyDistance": 5,
+  "height": 0.3,
+  "weight": 0.8,
+  "_id": "POKEMON_CASTFORM"
+}

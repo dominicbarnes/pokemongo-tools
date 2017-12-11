@@ -1,0 +1,21 @@
+{
+  "name": "Pinsir",
+  "dex": 127,
+  "generation": 1,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "stamina": 130,
+    "attack": 238,
+    "defense": 197
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2770,
+  "buddyDistance": 5,
+  "height": 1.5,
+  "weight": 55,
+  "_id": "POKEMON_PINSIR"
+}

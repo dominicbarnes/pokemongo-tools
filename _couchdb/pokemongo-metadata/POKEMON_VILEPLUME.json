@@ -1,0 +1,22 @@
+{
+  "name": "Vileplume",
+  "dex": 45,
+  "generation": 1,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 150,
+    "attack": 202,
+    "defense": 170
+  },
+  "previousEvolution": "POKEMON_GLOOM",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2367,
+  "buddyDistance": 3,
+  "height": 1.2,
+  "weight": 18.6,
+  "_id": "POKEMON_VILEPLUME"
+}

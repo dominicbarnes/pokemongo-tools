@@ -1,0 +1,27 @@
+{
+  "name": "Metapod",
+  "dex": 11,
+  "generation": 1,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 45,
+    "defense": 94
+  },
+  "previousEvolution": "POKEMON_CATERPIE",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_BUTTERFREE",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 419,
+  "buddyDistance": 1,
+  "height": 0.7,
+  "weight": 9.9,
+  "_id": "POKEMON_METAPOD"
+}

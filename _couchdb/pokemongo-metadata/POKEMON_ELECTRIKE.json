@@ -1,0 +1,27 @@
+{
+  "name": "Electrike",
+  "dex": 309,
+  "generation": 3,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 123,
+    "defense": 78
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_MANECTRIC",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 810,
+  "buddyDistance": 5,
+  "height": 0.61,
+  "weight": 15.2,
+  "_id": "POKEMON_ELECTRIKE"
+}

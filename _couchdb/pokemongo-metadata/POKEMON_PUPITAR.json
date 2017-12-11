@@ -1,0 +1,28 @@
+{
+  "name": "Pupitar",
+  "dex": 247,
+  "generation": 2,
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "baseStats": {
+    "stamina": 140,
+    "attack": 155,
+    "defense": 133
+  },
+  "previousEvolution": "POKEMON_LARVITAR",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_TYRANITAR",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1608,
+  "buddyDistance": 5,
+  "height": 1.19,
+  "weight": 152,
+  "_id": "POKEMON_PUPITAR"
+}

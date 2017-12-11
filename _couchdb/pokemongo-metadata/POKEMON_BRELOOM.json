@@ -1,0 +1,22 @@
+{
+  "name": "Breloom",
+  "dex": 286,
+  "generation": 3,
+  "types": [
+    "grass",
+    "fighting"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 241,
+    "defense": 153
+  },
+  "previousEvolution": "POKEMON_SHROOMISH",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2407,
+  "buddyDistance": 5,
+  "height": 1.19,
+  "weight": 39.2,
+  "_id": "POKEMON_BRELOOM"
+}

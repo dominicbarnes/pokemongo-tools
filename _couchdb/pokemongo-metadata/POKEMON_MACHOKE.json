@@ -1,0 +1,27 @@
+{
+  "name": "Machoke",
+  "dex": 67,
+  "generation": 1,
+  "types": [
+    "fighting"
+  ],
+  "baseStats": {
+    "stamina": 160,
+    "attack": 177,
+    "defense": 130
+  },
+  "previousEvolution": "POKEMON_MACHOP",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_MACHAMP",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1910,
+  "buddyDistance": 3,
+  "height": 1.5,
+  "weight": 70.5,
+  "_id": "POKEMON_MACHOKE"
+}

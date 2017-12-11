@@ -1,0 +1,22 @@
+{
+  "name": "Cradily",
+  "dex": 346,
+  "generation": 3,
+  "types": [
+    "rock",
+    "grass"
+  ],
+  "baseStats": {
+    "stamina": 172,
+    "attack": 152,
+    "defense": 198
+  },
+  "previousEvolution": "POKEMON_LILEEP",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2081,
+  "buddyDistance": 5,
+  "height": 1.5,
+  "weight": 60.4,
+  "_id": "POKEMON_CRADILY"
+}

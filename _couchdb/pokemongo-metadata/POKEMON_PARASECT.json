@@ -1,0 +1,22 @@
+{
+  "name": "Parasect",
+  "dex": 47,
+  "generation": 1,
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 165,
+    "defense": 146
+  },
+  "previousEvolution": "POKEMON_PARAS",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1657,
+  "buddyDistance": 3,
+  "height": 1,
+  "weight": 29.5,
+  "_id": "POKEMON_PARASECT"
+}

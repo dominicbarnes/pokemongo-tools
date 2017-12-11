@@ -1,0 +1,21 @@
+{
+  "name": "Dunsparce",
+  "dex": 206,
+  "generation": 2,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 200,
+    "attack": 131,
+    "defense": 131
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1615,
+  "buddyDistance": 3,
+  "height": 1.5,
+  "weight": 14,
+  "_id": "POKEMON_DUNSPARCE"
+}

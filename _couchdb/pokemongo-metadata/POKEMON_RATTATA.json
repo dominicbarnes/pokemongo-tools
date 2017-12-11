@@ -1,0 +1,27 @@
+{
+  "name": "Rattata",
+  "dex": 19,
+  "generation": 1,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 60,
+    "attack": 103,
+    "defense": 70
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_RATICATE",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 588,
+  "buddyDistance": 1,
+  "height": 0.3,
+  "weight": 3.5,
+  "_id": "POKEMON_RATTATA"
+}

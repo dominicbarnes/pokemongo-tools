@@ -1,0 +1,21 @@
+{
+  "name": "Plusle",
+  "dex": 311,
+  "generation": 3,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 167,
+    "defense": 147
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1681,
+  "buddyDistance": 5,
+  "height": 0.41,
+  "weight": 4.2,
+  "_id": "POKEMON_PLUSLE"
+}

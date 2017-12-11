@@ -1,0 +1,28 @@
+{
+  "name": "Doduo",
+  "dex": 84,
+  "generation": 1,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 70,
+    "attack": 158,
+    "defense": 88
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_DODRIO",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1011,
+  "buddyDistance": 3,
+  "height": 1.4,
+  "weight": 39.2,
+  "_id": "POKEMON_DODUO"
+}

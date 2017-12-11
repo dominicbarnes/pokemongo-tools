@@ -1,0 +1,22 @@
+{
+  "name": "Gligar",
+  "dex": 207,
+  "generation": 2,
+  "types": [
+    "ground",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 130,
+    "attack": 143,
+    "defense": 204
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1758,
+  "buddyDistance": 5,
+  "height": 1.09,
+  "weight": 64.8,
+  "_id": "POKEMON_GLIGAR"
+}

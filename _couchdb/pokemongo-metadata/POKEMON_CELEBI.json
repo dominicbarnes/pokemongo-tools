@@ -1,0 +1,22 @@
+{
+  "name": "Celebi",
+  "dex": 251,
+  "generation": 2,
+  "types": [
+    "psychic",
+    "grass"
+  ],
+  "baseStats": {
+    "stamina": 200,
+    "attack": 210,
+    "defense": 210
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": "mythic",
+  "maxCP": 3090,
+  "buddyDistance": 20,
+  "height": 0.61,
+  "weight": 5,
+  "_id": "POKEMON_CELEBI"
+}

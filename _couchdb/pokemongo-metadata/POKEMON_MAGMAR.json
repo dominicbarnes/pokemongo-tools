@@ -1,0 +1,21 @@
+{
+  "name": "Magmar",
+  "dex": 126,
+  "generation": 1,
+  "types": [
+    "fire"
+  ],
+  "baseStats": {
+    "stamina": 130,
+    "attack": 206,
+    "defense": 169
+  },
+  "previousEvolution": "POKEMON_MAGBY",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2254,
+  "buddyDistance": 5,
+  "height": 1.3,
+  "weight": 44.5,
+  "_id": "POKEMON_MAGMAR"
+}

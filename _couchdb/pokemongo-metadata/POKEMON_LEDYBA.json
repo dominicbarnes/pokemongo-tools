@@ -1,0 +1,28 @@
+{
+  "name": "Ledyba",
+  "dex": 165,
+  "generation": 2,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 72,
+    "defense": 142
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_LEDIAN",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 663,
+  "buddyDistance": 1,
+  "height": 0.99,
+  "weight": 10.8,
+  "_id": "POKEMON_LEDYBA"
+}

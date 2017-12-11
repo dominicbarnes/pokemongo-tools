@@ -1,0 +1,27 @@
+{
+  "name": "Vulpix",
+  "dex": 37,
+  "generation": 1,
+  "types": [
+    "fire"
+  ],
+  "baseStats": {
+    "stamina": 76,
+    "attack": 96,
+    "defense": 122
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_NINETALES",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 774,
+  "buddyDistance": 3,
+  "height": 0.6,
+  "weight": 9.9,
+  "_id": "POKEMON_VULPIX"
+}

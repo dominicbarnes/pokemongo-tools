@@ -1,0 +1,28 @@
+{
+  "name": "Marill",
+  "dex": 183,
+  "generation": 2,
+  "types": [
+    "water",
+    "fairy"
+  ],
+  "baseStats": {
+    "stamina": 140,
+    "attack": 37,
+    "defense": 93
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_AZUMARILL",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 420,
+  "buddyDistance": 3,
+  "height": 0.41,
+  "weight": 8.5,
+  "_id": "POKEMON_MARILL"
+}

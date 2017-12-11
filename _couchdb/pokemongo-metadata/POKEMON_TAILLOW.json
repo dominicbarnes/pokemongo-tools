@@ -1,0 +1,28 @@
+{
+  "name": "Taillow",
+  "dex": 276,
+  "generation": 3,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 106,
+    "defense": 61
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_SWELLOW",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 642,
+  "buddyDistance": 5,
+  "height": 0.3,
+  "weight": 2.3,
+  "_id": "POKEMON_TAILLOW"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Mewtwo",
+  "dex": 150,
+  "generation": 1,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 193,
+    "attack": 300,
+    "defense": 182
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": "legendary",
+  "maxCP": 3982,
+  "buddyDistance": 20,
+  "height": 2,
+  "weight": 122,
+  "_id": "POKEMON_MEWTWO"
+}

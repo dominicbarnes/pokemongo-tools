@@ -1,0 +1,27 @@
+{
+  "name": "Mankey",
+  "dex": 56,
+  "generation": 1,
+  "types": [
+    "fighting"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 148,
+    "defense": 87
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_PRIMEAPE",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1002,
+  "buddyDistance": 3,
+  "height": 0.5,
+  "weight": 28,
+  "_id": "POKEMON_MANKEY"
+}

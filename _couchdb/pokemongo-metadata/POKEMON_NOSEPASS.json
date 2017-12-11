@@ -1,0 +1,21 @@
+{
+  "name": "Nosepass",
+  "dex": 299,
+  "generation": 3,
+  "types": [
+    "rock"
+  ],
+  "baseStats": {
+    "stamina": 60,
+    "attack": 82,
+    "defense": 236
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 831,
+  "buddyDistance": 5,
+  "height": 0.99,
+  "weight": 97,
+  "_id": "POKEMON_NOSEPASS"
+}

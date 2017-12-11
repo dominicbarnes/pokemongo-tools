@@ -1,0 +1,22 @@
+{
+  "name": "Shuckle",
+  "dex": 213,
+  "generation": 2,
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "baseStats": {
+    "stamina": 40,
+    "attack": 17,
+    "defense": 396
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 300,
+  "buddyDistance": 3,
+  "height": 0.61,
+  "weight": 20.5,
+  "_id": "POKEMON_SHUCKLE"
+}

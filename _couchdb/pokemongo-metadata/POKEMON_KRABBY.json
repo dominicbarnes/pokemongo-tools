@@ -1,0 +1,27 @@
+{
+  "name": "Krabby",
+  "dex": 98,
+  "generation": 1,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 60,
+    "attack": 181,
+    "defense": 156
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_KINGLER",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1386,
+  "buddyDistance": 3,
+  "height": 0.4,
+  "weight": 6.5,
+  "_id": "POKEMON_KRABBY"
+}

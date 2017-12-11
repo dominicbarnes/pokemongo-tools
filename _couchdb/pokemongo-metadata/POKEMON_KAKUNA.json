@@ -1,0 +1,28 @@
+{
+  "name": "Kakuna",
+  "dex": 14,
+  "generation": 1,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 90,
+    "attack": 46,
+    "defense": 86
+  },
+  "previousEvolution": "POKEMON_WEEDLE",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_BEEDRILL",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 392,
+  "buddyDistance": 1,
+  "height": 0.6,
+  "weight": 10,
+  "_id": "POKEMON_KAKUNA"
+}

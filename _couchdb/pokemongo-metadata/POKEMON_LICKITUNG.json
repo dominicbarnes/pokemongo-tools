@@ -1,0 +1,21 @@
+{
+  "name": "Lickitung",
+  "dex": 108,
+  "generation": 1,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 180,
+    "attack": 108,
+    "defense": 137
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1322,
+  "buddyDistance": 3,
+  "height": 1.2,
+  "weight": 65.5,
+  "_id": "POKEMON_LICKITUNG"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Makuhita",
+  "dex": 296,
+  "generation": 3,
+  "types": [
+    "fighting"
+  ],
+  "baseStats": {
+    "stamina": 144,
+    "attack": 99,
+    "defense": 54
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_HARIYAMA",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 745,
+  "buddyDistance": 5,
+  "height": 0.99,
+  "weight": 86.4,
+  "_id": "POKEMON_MAKUHITA"
+}

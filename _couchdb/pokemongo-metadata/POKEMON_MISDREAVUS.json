@@ -1,0 +1,21 @@
+{
+  "name": "Misdreavus",
+  "dex": 200,
+  "generation": 2,
+  "types": [
+    "ghost"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 167,
+    "defense": 167
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1781,
+  "buddyDistance": 3,
+  "height": 0.71,
+  "weight": 1,
+  "_id": "POKEMON_MISDREAVUS"
+}

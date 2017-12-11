@@ -1,0 +1,22 @@
+{
+  "name": "Ledian",
+  "dex": 166,
+  "generation": 2,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 110,
+    "attack": 107,
+    "defense": 209
+  },
+  "previousEvolution": "POKEMON_LEDYBA",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1275,
+  "buddyDistance": 1,
+  "height": 1.4,
+  "weight": 35.6,
+  "_id": "POKEMON_LEDIAN"
+}

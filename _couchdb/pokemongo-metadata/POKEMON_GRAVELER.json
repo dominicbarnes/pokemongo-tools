@@ -1,0 +1,28 @@
+{
+  "name": "Graveler",
+  "dex": 75,
+  "generation": 1,
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "baseStats": {
+    "stamina": 110,
+    "attack": 164,
+    "defense": 196
+  },
+  "previousEvolution": "POKEMON_GEODUDE",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_GOLEM",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1815,
+  "buddyDistance": 1,
+  "height": 1,
+  "weight": 105,
+  "_id": "POKEMON_GRAVELER"
+}

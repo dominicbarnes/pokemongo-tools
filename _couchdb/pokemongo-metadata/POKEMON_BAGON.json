@@ -1,0 +1,27 @@
+{
+  "name": "Bagon",
+  "dex": 371,
+  "generation": 3,
+  "types": [
+    "dragon"
+  ],
+  "baseStats": {
+    "stamina": 90,
+    "attack": 134,
+    "defense": 107
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_SHELGON",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1053,
+  "buddyDistance": 5,
+  "height": 0.61,
+  "weight": 42.1,
+  "_id": "POKEMON_BAGON"
+}

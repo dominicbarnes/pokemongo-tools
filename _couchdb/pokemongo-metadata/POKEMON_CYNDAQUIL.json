@@ -1,0 +1,27 @@
+{
+  "name": "Cyndaquil",
+  "dex": 155,
+  "generation": 2,
+  "types": [
+    "fire"
+  ],
+  "baseStats": {
+    "stamina": 78,
+    "attack": 116,
+    "defense": 96
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_QUILAVA",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 831,
+  "buddyDistance": 3,
+  "height": 0.51,
+  "weight": 7.9,
+  "_id": "POKEMON_CYNDAQUIL"
+}

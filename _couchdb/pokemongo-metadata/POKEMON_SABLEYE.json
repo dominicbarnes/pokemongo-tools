@@ -1,0 +1,22 @@
+{
+  "name": "Sableye",
+  "dex": 302,
+  "generation": 3,
+  "types": [
+    "dark",
+    "ghost"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 141,
+    "defense": 141
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1305,
+  "buddyDistance": 5,
+  "height": 0.51,
+  "weight": 11,
+  "_id": "POKEMON_SABLEYE"
+}

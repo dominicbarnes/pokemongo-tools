@@ -1,0 +1,21 @@
+{
+  "name": "Mightyena",
+  "dex": 262,
+  "generation": 3,
+  "types": [
+    "dark"
+  ],
+  "baseStats": {
+    "stamina": 140,
+    "attack": 171,
+    "defense": 137
+  },
+  "previousEvolution": "POKEMON_POOCHYENA",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1783,
+  "buddyDistance": 5,
+  "height": 0.99,
+  "weight": 37,
+  "_id": "POKEMON_MIGHTYENA"
+}

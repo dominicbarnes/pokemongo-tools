@@ -1,0 +1,27 @@
+{
+  "name": "Caterpie",
+  "dex": 10,
+  "generation": 1,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "stamina": 90,
+    "attack": 55,
+    "defense": 62
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_METAPOD",
+      "candy": 12,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 393,
+  "buddyDistance": 1,
+  "height": 0.3,
+  "weight": 2.9,
+  "_id": "POKEMON_CATERPIE"
+}

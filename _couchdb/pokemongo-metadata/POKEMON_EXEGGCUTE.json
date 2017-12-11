@@ -1,0 +1,28 @@
+{
+  "name": "Exeggcute",
+  "dex": 102,
+  "generation": 1,
+  "types": [
+    "grass",
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 107,
+    "defense": 140
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_EXEGGUTOR",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1102,
+  "buddyDistance": 3,
+  "height": 0.4,
+  "weight": 2.5,
+  "_id": "POKEMON_EXEGGCUTE"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Wartortle",
+  "dex": 8,
+  "generation": 1,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 118,
+    "attack": 126,
+    "defense": 155
+  },
+  "previousEvolution": "POKEMON_SQUIRTLE",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_BLASTOISE",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1324,
+  "buddyDistance": 3,
+  "height": 1,
+  "weight": 22.5,
+  "_id": "POKEMON_WARTORTLE"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Goldeen",
+  "dex": 118,
+  "generation": 1,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 90,
+    "attack": 123,
+    "defense": 115
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_SEAKING",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1006,
+  "buddyDistance": 3,
+  "height": 0.6,
+  "weight": 15,
+  "_id": "POKEMON_GOLDEEN"
+}

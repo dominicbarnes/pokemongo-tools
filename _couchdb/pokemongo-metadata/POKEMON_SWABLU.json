@@ -1,0 +1,28 @@
+{
+  "name": "Swablu",
+  "dex": 333,
+  "generation": 3,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 90,
+    "attack": 76,
+    "defense": 139
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_ALTARIA",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 722,
+  "buddyDistance": 5,
+  "height": 0.41,
+  "weight": 1.2,
+  "_id": "POKEMON_SWABLU"
+}

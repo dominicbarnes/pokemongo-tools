@@ -1,0 +1,21 @@
+{
+  "name": "Suicune",
+  "dex": 245,
+  "generation": 2,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 200,
+    "attack": 180,
+    "defense": 235
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": "legendary",
+  "maxCP": 2823,
+  "buddyDistance": 20,
+  "height": 2.01,
+  "weight": 187,
+  "_id": "POKEMON_SUICUNE"
+}

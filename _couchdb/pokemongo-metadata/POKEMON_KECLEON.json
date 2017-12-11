@@ -1,0 +1,21 @@
+{
+  "name": "Kecleon",
+  "dex": 352,
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 161,
+    "defense": 212
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1924,
+  "buddyDistance": 5,
+  "height": 0.99,
+  "weight": 22,
+  "_id": "POKEMON_KECLEON"
+}

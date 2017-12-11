@@ -1,0 +1,28 @@
+{
+  "name": "Sealeo",
+  "dex": 364,
+  "generation": 3,
+  "types": [
+    "ice",
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 180,
+    "attack": 137,
+    "defense": 132
+  },
+  "previousEvolution": "POKEMON_SPHEAL",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_WALREIN",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1607,
+  "buddyDistance": 5,
+  "height": 1.09,
+  "weight": 87.6,
+  "_id": "POKEMON_SEALEO"
+}

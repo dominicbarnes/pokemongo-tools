@@ -1,0 +1,22 @@
+{
+  "name": "Rayquaza",
+  "dex": 384,
+  "generation": 3,
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 210,
+    "attack": 312,
+    "defense": 187
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": "legendary",
+  "maxCP": 4354,
+  "buddyDistance": 5,
+  "height": 7.01,
+  "weight": 206.5,
+  "_id": "POKEMON_RAYQUAZA"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Slowpoke",
+  "dex": 79,
+  "generation": 1,
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 180,
+    "attack": 109,
+    "defense": 109
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_SLOWBRO",
+      "candy": 50,
+      "item": null
+    },
+    {
+      "pokemon": "POKEMON_SLOWKING",
+      "candy": 50,
+      "item": {
+        "id": "ITEM_KINGS_ROCK"
+      }
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1204,
+  "buddyDistance": 3,
+  "height": 1.2,
+  "weight": 36,
+  "_id": "POKEMON_SLOWPOKE"
+}

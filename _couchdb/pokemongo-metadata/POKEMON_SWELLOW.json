@@ -1,0 +1,22 @@
+{
+  "name": "Swellow",
+  "dex": 277,
+  "generation": 3,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 185,
+    "defense": 130
+  },
+  "previousEvolution": "POKEMON_TAILLOW",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1747,
+  "buddyDistance": 5,
+  "height": 0.71,
+  "weight": 19.8,
+  "_id": "POKEMON_SWELLOW"
+}

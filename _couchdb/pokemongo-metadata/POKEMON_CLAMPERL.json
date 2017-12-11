@@ -1,0 +1,32 @@
+{
+  "name": "Clamperl",
+  "dex": 366,
+  "generation": 3,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 70,
+    "attack": 133,
+    "defense": 149
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_HUNTAIL",
+      "candy": 50,
+      "item": null
+    },
+    {
+      "pokemon": "POKEMON_GOREBYSS",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1091,
+  "buddyDistance": 5,
+  "height": 0.41,
+  "weight": 52.5,
+  "_id": "POKEMON_CLAMPERL"
+}

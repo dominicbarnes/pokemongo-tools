@@ -1,0 +1,21 @@
+{
+  "name": "Golduck",
+  "dex": 55,
+  "generation": 1,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 160,
+    "attack": 191,
+    "defense": 163
+  },
+  "previousEvolution": "POKEMON_PSYDUCK",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2270,
+  "buddyDistance": 3,
+  "height": 1.7,
+  "weight": 76.6,
+  "_id": "POKEMON_GOLDUCK"
+}

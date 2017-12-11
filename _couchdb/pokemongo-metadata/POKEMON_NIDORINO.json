@@ -1,0 +1,27 @@
+{
+  "name": "Nidorino",
+  "dex": 33,
+  "generation": 1,
+  "types": [
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 122,
+    "attack": 137,
+    "defense": 112
+  },
+  "previousEvolution": "POKEMON_NIDORAN_MALE",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_NIDOKING",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1252,
+  "buddyDistance": 3,
+  "height": 0.9,
+  "weight": 19.5,
+  "_id": "POKEMON_NIDORINO"
+}

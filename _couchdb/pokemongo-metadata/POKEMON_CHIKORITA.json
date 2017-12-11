@@ -1,0 +1,27 @@
+{
+  "name": "Chikorita",
+  "dex": 152,
+  "generation": 2,
+  "types": [
+    "grass"
+  ],
+  "baseStats": {
+    "stamina": 90,
+    "attack": 92,
+    "defense": 122
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_BAYLEEF",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 801,
+  "buddyDistance": 3,
+  "height": 0.89,
+  "weight": 6.4,
+  "_id": "POKEMON_CHIKORITA"
+}

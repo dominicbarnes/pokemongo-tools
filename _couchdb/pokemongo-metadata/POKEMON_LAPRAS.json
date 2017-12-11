@@ -1,0 +1,22 @@
+{
+  "name": "Lapras",
+  "dex": 131,
+  "generation": 1,
+  "types": [
+    "water",
+    "ice"
+  ],
+  "baseStats": {
+    "stamina": 260,
+    "attack": 165,
+    "defense": 180
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2603,
+  "buddyDistance": 5,
+  "height": 2.5,
+  "weight": 220,
+  "_id": "POKEMON_LAPRAS"
+}

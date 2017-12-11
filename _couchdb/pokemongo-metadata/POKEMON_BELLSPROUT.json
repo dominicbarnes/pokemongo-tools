@@ -1,0 +1,28 @@
+{
+  "name": "Bellsprout",
+  "dex": 69,
+  "generation": 1,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 139,
+    "defense": 64
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_WEEPINBELL",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 916,
+  "buddyDistance": 3,
+  "height": 0.7,
+  "weight": 4,
+  "_id": "POKEMON_BELLSPROUT"
+}

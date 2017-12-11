@@ -1,0 +1,21 @@
+{
+  "name": "Spinda",
+  "dex": 327,
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 116,
+    "defense": 116
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1088,
+  "buddyDistance": 5,
+  "height": 1.09,
+  "weight": 5,
+  "_id": "POKEMON_SPINDA"
+}

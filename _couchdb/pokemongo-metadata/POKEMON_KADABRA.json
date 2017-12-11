@@ -1,0 +1,27 @@
+{
+  "name": "Kadabra",
+  "dex": 64,
+  "generation": 1,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 232,
+    "defense": 138
+  },
+  "previousEvolution": "POKEMON_ABRA",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_ALAKAZAM",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1859,
+  "buddyDistance": 3,
+  "height": 1.3,
+  "weight": 56.5,
+  "_id": "POKEMON_KADABRA"
+}

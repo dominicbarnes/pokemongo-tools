@@ -1,0 +1,22 @@
+{
+  "name": "Murkrow",
+  "dex": 198,
+  "generation": 2,
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 175,
+    "defense": 87
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1392,
+  "buddyDistance": 3,
+  "height": 0.51,
+  "weight": 2.1,
+  "_id": "POKEMON_MURKROW"
+}

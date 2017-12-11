@@ -1,0 +1,21 @@
+{
+  "name": "Banette",
+  "dex": 354,
+  "generation": 3,
+  "types": [
+    "ghost"
+  ],
+  "baseStats": {
+    "stamina": 128,
+    "attack": 218,
+    "defense": 127
+  },
+  "previousEvolution": "POKEMON_SHUPPET",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2073,
+  "buddyDistance": 3,
+  "height": 1.09,
+  "weight": 12.5,
+  "_id": "POKEMON_BANETTE"
+}

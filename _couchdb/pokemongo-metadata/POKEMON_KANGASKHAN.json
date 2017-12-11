@@ -1,0 +1,21 @@
+{
+  "name": "Kangaskhan",
+  "dex": 115,
+  "generation": 1,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 210,
+    "attack": 181,
+    "defense": 165
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2463,
+  "buddyDistance": 3,
+  "height": 2.2,
+  "weight": 80,
+  "_id": "POKEMON_KANGASKHAN"
+}

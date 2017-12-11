@@ -1,0 +1,27 @@
+{
+  "name": "Snorunt",
+  "dex": 361,
+  "generation": 3,
+  "types": [
+    "ice"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 95,
+    "defense": 95
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_GLALIE",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 772,
+  "buddyDistance": 5,
+  "height": 0.71,
+  "weight": 16.8,
+  "_id": "POKEMON_SNORUNT"
+}

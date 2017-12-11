@@ -1,0 +1,21 @@
+{
+  "name": "Volbeat",
+  "dex": 313,
+  "generation": 3,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "stamina": 130,
+    "attack": 143,
+    "defense": 171
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1620,
+  "buddyDistance": 5,
+  "height": 0.71,
+  "weight": 17.7,
+  "_id": "POKEMON_VOLBEAT"
+}

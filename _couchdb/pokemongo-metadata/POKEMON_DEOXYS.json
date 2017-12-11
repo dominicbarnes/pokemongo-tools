@@ -1,0 +1,21 @@
+{
+  "name": "Deoxys",
+  "dex": 386,
+  "generation": 3,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 1,
+    "attack": 1,
+    "defense": 1
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": "mythic",
+  "maxCP": 15,
+  "buddyDistance": 5,
+  "height": 1.7,
+  "weight": 60.8,
+  "_id": "POKEMON_DEOXYS"
+}

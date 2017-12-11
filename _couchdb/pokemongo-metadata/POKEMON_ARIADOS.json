@@ -1,0 +1,22 @@
+{
+  "name": "Ariados",
+  "dex": 168,
+  "generation": 2,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 140,
+    "attack": 161,
+    "defense": 128
+  },
+  "previousEvolution": "POKEMON_SPINARAK",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1636,
+  "buddyDistance": 1,
+  "height": 1.09,
+  "weight": 33.5,
+  "_id": "POKEMON_ARIADOS"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Ninjask",
+  "dex": 291,
+  "generation": 3,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 122,
+    "attack": 196,
+    "defense": 114
+  },
+  "previousEvolution": "POKEMON_NINCADA",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1751,
+  "buddyDistance": 5,
+  "height": 0.79,
+  "weight": 12,
+  "_id": "POKEMON_NINJASK"
+}

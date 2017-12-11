@@ -1,0 +1,29 @@
+{
+  "name": "Seadra",
+  "dex": 117,
+  "generation": 1,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 110,
+    "attack": 187,
+    "defense": 182
+  },
+  "previousEvolution": "POKEMON_HORSEA",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_KINGDRA",
+      "candy": 100,
+      "item": {
+        "id": "ITEM_DRAGON_SCALE"
+      }
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1979,
+  "buddyDistance": 3,
+  "height": 1.2,
+  "weight": 25,
+  "_id": "POKEMON_SEADRA"
+}

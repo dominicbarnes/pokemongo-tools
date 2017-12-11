@@ -1,0 +1,27 @@
+{
+  "name": "Grimer",
+  "dex": 88,
+  "generation": 1,
+  "types": [
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 160,
+    "attack": 135,
+    "defense": 90
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_MUK",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1269,
+  "buddyDistance": 3,
+  "height": 0.9,
+  "weight": 30,
+  "_id": "POKEMON_GRIMER"
+}

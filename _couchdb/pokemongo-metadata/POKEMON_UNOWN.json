@@ -1,0 +1,21 @@
+{
+  "name": "Unown",
+  "dex": 201,
+  "generation": 2,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 96,
+    "attack": 136,
+    "defense": 91
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1022,
+  "buddyDistance": 5,
+  "height": 0.51,
+  "weight": 5,
+  "_id": "POKEMON_UNOWN"
+}

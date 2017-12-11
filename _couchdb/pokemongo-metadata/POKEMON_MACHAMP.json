@@ -1,0 +1,21 @@
+{
+  "name": "Machamp",
+  "dex": 68,
+  "generation": 1,
+  "types": [
+    "fighting"
+  ],
+  "baseStats": {
+    "stamina": 180,
+    "attack": 234,
+    "defense": 162
+  },
+  "previousEvolution": "POKEMON_MACHOKE",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2889,
+  "buddyDistance": 3,
+  "height": 1.6,
+  "weight": 130,
+  "_id": "POKEMON_MACHAMP"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Heracross",
+  "dex": 214,
+  "generation": 2,
+  "types": [
+    "bug",
+    "fighting"
+  ],
+  "baseStats": {
+    "stamina": 160,
+    "attack": 234,
+    "defense": 189
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2938,
+  "buddyDistance": 3,
+  "height": 1.5,
+  "weight": 54,
+  "_id": "POKEMON_HERACROSS"
+}

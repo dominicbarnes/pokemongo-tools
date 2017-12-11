@@ -1,0 +1,29 @@
+{
+  "name": "Sunkern",
+  "dex": 191,
+  "generation": 2,
+  "types": [
+    "grass"
+  ],
+  "baseStats": {
+    "stamina": 60,
+    "attack": 55,
+    "defense": 55
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_SUNFLORA",
+      "candy": 50,
+      "item": {
+        "id": "ITEM_SUN_STONE"
+      }
+    }
+  ],
+  "rarity": null,
+  "maxCP": 316,
+  "buddyDistance": 3,
+  "height": 0.3,
+  "weight": 1.8,
+  "_id": "POKEMON_SUNKERN"
+}

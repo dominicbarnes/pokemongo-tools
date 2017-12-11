@@ -1,0 +1,27 @@
+{
+  "name": "Ekans",
+  "dex": 23,
+  "generation": 1,
+  "types": [
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 70,
+    "attack": 110,
+    "defense": 102
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_ARBOK",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 778,
+  "buddyDistance": 3,
+  "height": 2,
+  "weight": 6.9,
+  "_id": "POKEMON_EKANS"
+}

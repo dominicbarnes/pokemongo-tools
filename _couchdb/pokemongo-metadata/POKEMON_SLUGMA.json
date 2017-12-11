@@ -1,0 +1,27 @@
+{
+  "name": "Slugma",
+  "dex": 218,
+  "generation": 2,
+  "types": [
+    "fire"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 118,
+    "defense": 71
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_MAGCARGO",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 750,
+  "buddyDistance": 1,
+  "height": 0.71,
+  "weight": 35,
+  "_id": "POKEMON_SLUGMA"
+}

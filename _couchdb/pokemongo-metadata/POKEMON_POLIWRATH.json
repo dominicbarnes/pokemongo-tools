@@ -1,0 +1,22 @@
+{
+  "name": "Poliwrath",
+  "dex": 62,
+  "generation": 1,
+  "types": [
+    "water",
+    "fighting"
+  ],
+  "baseStats": {
+    "stamina": 180,
+    "attack": 182,
+    "defense": 187
+  },
+  "previousEvolution": "POKEMON_POLIWHIRL",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2441,
+  "buddyDistance": 3,
+  "height": 1.3,
+  "weight": 54,
+  "_id": "POKEMON_POLIWRATH"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Claydol",
+  "dex": 344,
+  "generation": 3,
+  "types": [
+    "ground",
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 140,
+    "defense": 236
+  },
+  "previousEvolution": "POKEMON_BALTOY",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1782,
+  "buddyDistance": 5,
+  "height": 1.5,
+  "weight": 108,
+  "_id": "POKEMON_CLAYDOL"
+}

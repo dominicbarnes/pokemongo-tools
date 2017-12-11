@@ -1,0 +1,27 @@
+{
+  "name": "Trapinch",
+  "dex": 328,
+  "generation": 3,
+  "types": [
+    "ground"
+  ],
+  "baseStats": {
+    "stamina": 90,
+    "attack": 162,
+    "defense": 78
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_VIBRAVA",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1092,
+  "buddyDistance": 5,
+  "height": 0.71,
+  "weight": 15,
+  "_id": "POKEMON_TRAPINCH"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Zapdos",
+  "dex": 145,
+  "generation": 1,
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 180,
+    "attack": 253,
+    "defense": 188
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": "legendary",
+  "maxCP": 3330,
+  "buddyDistance": 20,
+  "height": 1.6,
+  "weight": 52.6,
+  "_id": "POKEMON_ZAPDOS"
+}

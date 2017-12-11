@@ -1,0 +1,28 @@
+{
+  "name": "Kabuto",
+  "dex": 140,
+  "generation": 1,
+  "types": [
+    "rock",
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 60,
+    "attack": 148,
+    "defense": 162
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_KABUTOPS",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1172,
+  "buddyDistance": 5,
+  "height": 0.5,
+  "weight": 11.5,
+  "_id": "POKEMON_KABUTO"
+}

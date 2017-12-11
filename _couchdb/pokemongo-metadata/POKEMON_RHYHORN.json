@@ -1,0 +1,28 @@
+{
+  "name": "Rhyhorn",
+  "dex": 111,
+  "generation": 1,
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "baseStats": {
+    "stamina": 160,
+    "attack": 140,
+    "defense": 157
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_RHYDON",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1679,
+  "buddyDistance": 3,
+  "height": 1,
+  "weight": 115,
+  "_id": "POKEMON_RHYHORN"
+}

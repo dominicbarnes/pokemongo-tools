@@ -1,0 +1,21 @@
+{
+  "name": "Glalie",
+  "dex": 362,
+  "generation": 3,
+  "types": [
+    "ice"
+  ],
+  "baseStats": {
+    "stamina": 160,
+    "attack": 162,
+    "defense": 162
+  },
+  "previousEvolution": "POKEMON_SNORUNT",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1945,
+  "buddyDistance": 5,
+  "height": 1.5,
+  "weight": 256.5,
+  "_id": "POKEMON_GLALIE"
+}

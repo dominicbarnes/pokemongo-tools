@@ -1,0 +1,28 @@
+{
+  "name": "Wooper",
+  "dex": 194,
+  "generation": 2,
+  "types": [
+    "water",
+    "ground"
+  ],
+  "baseStats": {
+    "stamina": 110,
+    "attack": 75,
+    "defense": 75
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_QUAGSIRE",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 596,
+  "buddyDistance": 3,
+  "height": 0.41,
+  "weight": 8.5,
+  "_id": "POKEMON_WOOPER"
+}

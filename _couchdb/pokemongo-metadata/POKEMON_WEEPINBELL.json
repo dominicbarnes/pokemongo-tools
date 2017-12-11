@@ -1,0 +1,28 @@
+{
+  "name": "Weepinbell",
+  "dex": 70,
+  "generation": 1,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 130,
+    "attack": 172,
+    "defense": 95
+  },
+  "previousEvolution": "POKEMON_BELLSPROUT",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_VICTREEBEL",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1475,
+  "buddyDistance": 3,
+  "height": 1,
+  "weight": 6.4,
+  "_id": "POKEMON_WEEPINBELL"
+}

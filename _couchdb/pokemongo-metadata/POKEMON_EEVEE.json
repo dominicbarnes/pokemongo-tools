@@ -1,0 +1,47 @@
+{
+  "name": "Eevee",
+  "dex": 133,
+  "generation": 1,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 110,
+    "attack": 104,
+    "defense": 121
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_VAPOREON",
+      "candy": 25,
+      "item": null
+    },
+    {
+      "pokemon": "POKEMON_JOLTEON",
+      "candy": 25,
+      "item": null
+    },
+    {
+      "pokemon": "POKEMON_FLAREON",
+      "candy": 25,
+      "item": null
+    },
+    {
+      "pokemon": "POKEMON_ESPEON",
+      "candy": 25,
+      "item": null
+    },
+    {
+      "pokemon": "POKEMON_UMBREON",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 969,
+  "buddyDistance": 5,
+  "height": 0.3,
+  "weight": 6.5,
+  "_id": "POKEMON_EEVEE"
+}

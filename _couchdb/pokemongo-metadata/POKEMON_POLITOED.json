@@ -1,0 +1,21 @@
+{
+  "name": "Politoed",
+  "dex": 186,
+  "generation": 2,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 180,
+    "attack": 174,
+    "defense": 192
+  },
+  "previousEvolution": "POKEMON_POLIWHIRL",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2371,
+  "buddyDistance": 3,
+  "height": 1.09,
+  "weight": 33.9,
+  "_id": "POKEMON_POLITOED"
+}

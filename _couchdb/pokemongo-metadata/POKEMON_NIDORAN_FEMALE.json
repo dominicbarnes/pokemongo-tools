@@ -1,0 +1,27 @@
+{
+  "name": "Nidoran ♀",
+  "dex": 29,
+  "generation": 1,
+  "types": [
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 110,
+    "attack": 86,
+    "defense": 94
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_NIDORINA",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 736,
+  "buddyDistance": 3,
+  "height": 0.4,
+  "weight": 7,
+  "_id": "POKEMON_NIDORAN_FEMALE"
+}

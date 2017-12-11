@@ -1,0 +1,28 @@
+{
+  "name": "Swinub",
+  "dex": 220,
+  "generation": 2,
+  "types": [
+    "ice",
+    "ground"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 90,
+    "defense": 74
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_PILOSWINE",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 663,
+  "buddyDistance": 3,
+  "height": 0.41,
+  "weight": 6.5,
+  "_id": "POKEMON_SWINUB"
+}

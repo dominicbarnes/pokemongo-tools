@@ -1,0 +1,22 @@
+{
+  "name": "Venusaur",
+  "dex": 3,
+  "generation": 1,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 160,
+    "attack": 198,
+    "defense": 198
+  },
+  "previousEvolution": "POKEMON_IVYSAUR",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2568,
+  "buddyDistance": 3,
+  "height": 2,
+  "weight": 100,
+  "_id": "POKEMON_VENUSAUR"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Zangoose",
+  "dex": 335,
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 146,
+    "attack": 222,
+    "defense": 124
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2214,
+  "buddyDistance": 5,
+  "height": 1.3,
+  "weight": 40.3,
+  "_id": "POKEMON_ZANGOOSE"
+}

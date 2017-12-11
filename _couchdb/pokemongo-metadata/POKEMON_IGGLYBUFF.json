@@ -1,0 +1,28 @@
+{
+  "name": "Igglybuff",
+  "dex": 174,
+  "generation": 2,
+  "types": [
+    "normal",
+    "fairy"
+  ],
+  "baseStats": {
+    "stamina": 180,
+    "attack": 69,
+    "defense": 34
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_JIGGLYPUFF",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 512,
+  "buddyDistance": 1,
+  "height": 0.3,
+  "weight": 1,
+  "_id": "POKEMON_IGGLYBUFF"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Spheal",
+  "dex": 363,
+  "generation": 3,
+  "types": [
+    "ice",
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 140,
+    "attack": 95,
+    "defense": 90
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_SEALEO",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 876,
+  "buddyDistance": 5,
+  "height": 0.79,
+  "weight": 39.5,
+  "_id": "POKEMON_SPHEAL"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Granbull",
+  "dex": 210,
+  "generation": 2,
+  "types": [
+    "fairy"
+  ],
+  "baseStats": {
+    "stamina": 180,
+    "attack": 212,
+    "defense": 137
+  },
+  "previousEvolution": "POKEMON_SNUBBULL",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2440,
+  "buddyDistance": 3,
+  "height": 1.4,
+  "weight": 48.7,
+  "_id": "POKEMON_GRANBULL"
+}

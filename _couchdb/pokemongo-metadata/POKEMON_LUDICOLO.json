@@ -1,0 +1,22 @@
+{
+  "name": "Ludicolo",
+  "dex": 272,
+  "generation": 3,
+  "types": [
+    "water",
+    "grass"
+  ],
+  "baseStats": {
+    "stamina": 160,
+    "attack": 173,
+    "defense": 191
+  },
+  "previousEvolution": "POKEMON_LOMBRE",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2229,
+  "buddyDistance": 5,
+  "height": 1.5,
+  "weight": 55,
+  "_id": "POKEMON_LUDICOLO"
+}

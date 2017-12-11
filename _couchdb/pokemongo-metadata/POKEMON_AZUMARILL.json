@@ -1,0 +1,22 @@
+{
+  "name": "Azumarill",
+  "dex": 184,
+  "generation": 2,
+  "types": [
+    "water",
+    "fairy"
+  ],
+  "baseStats": {
+    "stamina": 200,
+    "attack": 112,
+    "defense": 152
+  },
+  "previousEvolution": "POKEMON_MARILL",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1503,
+  "buddyDistance": 3,
+  "height": 0.79,
+  "weight": 28.5,
+  "_id": "POKEMON_AZUMARILL"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Poliwag",
+  "dex": 60,
+  "generation": 1,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 101,
+    "defense": 82
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_POLIWHIRL",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 695,
+  "buddyDistance": 3,
+  "height": 0.6,
+  "weight": 12.4,
+  "_id": "POKEMON_POLIWAG"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Crobat",
+  "dex": 169,
+  "generation": 2,
+  "types": [
+    "poison",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 170,
+    "attack": 194,
+    "defense": 178
+  },
+  "previousEvolution": "POKEMON_GOLBAT",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2466,
+  "buddyDistance": 1,
+  "height": 1.8,
+  "weight": 75,
+  "_id": "POKEMON_CROBAT"
+}

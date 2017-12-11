@@ -1,0 +1,22 @@
+{
+  "name": "Qwilfish",
+  "dex": 211,
+  "generation": 2,
+  "types": [
+    "water",
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 130,
+    "attack": 184,
+    "defense": 148
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1910,
+  "buddyDistance": 3,
+  "height": 0.51,
+  "weight": 3.9,
+  "_id": "POKEMON_QWILFISH"
+}

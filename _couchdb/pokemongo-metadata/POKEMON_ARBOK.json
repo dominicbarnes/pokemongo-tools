@@ -1,0 +1,21 @@
+{
+  "name": "Arbok",
+  "dex": 24,
+  "generation": 1,
+  "types": [
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 167,
+    "defense": 158
+  },
+  "previousEvolution": "POKEMON_EKANS",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1737,
+  "buddyDistance": 3,
+  "height": 3.5,
+  "weight": 65,
+  "_id": "POKEMON_ARBOK"
+}

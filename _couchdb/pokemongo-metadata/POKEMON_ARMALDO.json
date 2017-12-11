@@ -1,0 +1,22 @@
+{
+  "name": "Armaldo",
+  "dex": 348,
+  "generation": 3,
+  "types": [
+    "rock",
+    "bug"
+  ],
+  "baseStats": {
+    "stamina": 150,
+    "attack": 222,
+    "defense": 183
+  },
+  "previousEvolution": "POKEMON_ANORITH",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2675,
+  "buddyDistance": 5,
+  "height": 1.5,
+  "weight": 68.2,
+  "_id": "POKEMON_ARMALDO"
+}

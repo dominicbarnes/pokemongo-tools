@@ -1,0 +1,33 @@
+{
+  "name": "Nincada",
+  "dex": 290,
+  "generation": 3,
+  "types": [
+    "bug",
+    "ground"
+  ],
+  "baseStats": {
+    "stamina": 62,
+    "attack": 80,
+    "defense": 153
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_NINJASK",
+      "candy": 50,
+      "item": null
+    },
+    {
+      "pokemon": "POKEMON_SHEDINJA",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 674,
+  "buddyDistance": 5,
+  "height": 0.51,
+  "weight": 5.5,
+  "_id": "POKEMON_NINCADA"
+}

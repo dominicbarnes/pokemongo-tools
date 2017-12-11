@@ -1,0 +1,27 @@
+{
+  "name": "Flaaffy",
+  "dex": 180,
+  "generation": 2,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "stamina": 140,
+    "attack": 145,
+    "defense": 112
+  },
+  "previousEvolution": "POKEMON_MAREEP",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_AMPHAROS",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1402,
+  "buddyDistance": 5,
+  "height": 0.79,
+  "weight": 13.3,
+  "_id": "POKEMON_FLAAFFY"
+}

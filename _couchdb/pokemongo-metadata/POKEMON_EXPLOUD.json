@@ -1,0 +1,21 @@
+{
+  "name": "Exploud",
+  "dex": 295,
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 208,
+    "attack": 179,
+    "defense": 142
+  },
+  "previousEvolution": "POKEMON_LOUDRED",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2267,
+  "buddyDistance": 5,
+  "height": 1.5,
+  "weight": 84,
+  "_id": "POKEMON_EXPLOUD"
+}

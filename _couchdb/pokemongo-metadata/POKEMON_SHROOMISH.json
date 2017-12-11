@@ -1,0 +1,27 @@
+{
+  "name": "Shroomish",
+  "dex": 285,
+  "generation": 3,
+  "types": [
+    "grass"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 74,
+    "defense": 110
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_BRELOOM",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 722,
+  "buddyDistance": 5,
+  "height": 0.41,
+  "weight": 4.5,
+  "_id": "POKEMON_SHROOMISH"
+}

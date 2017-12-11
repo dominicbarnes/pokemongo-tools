@@ -1,0 +1,21 @@
+{
+  "name": "Arcanine",
+  "dex": 59,
+  "generation": 1,
+  "types": [
+    "fire"
+  ],
+  "baseStats": {
+    "stamina": 180,
+    "attack": 227,
+    "defense": 166
+  },
+  "previousEvolution": "POKEMON_GROWLITHE",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2839,
+  "buddyDistance": 3,
+  "height": 1.9,
+  "weight": 155,
+  "_id": "POKEMON_ARCANINE"
+}

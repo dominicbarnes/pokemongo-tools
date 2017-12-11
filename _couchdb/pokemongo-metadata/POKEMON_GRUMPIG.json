@@ -1,0 +1,21 @@
+{
+  "name": "Grumpig",
+  "dex": 326,
+  "generation": 3,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 160,
+    "attack": 171,
+    "defense": 211
+  },
+  "previousEvolution": "POKEMON_SPOINK",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2310,
+  "buddyDistance": 5,
+  "height": 0.89,
+  "weight": 71.5,
+  "_id": "POKEMON_GRUMPIG"
+}

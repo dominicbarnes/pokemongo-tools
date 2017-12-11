@@ -1,0 +1,27 @@
+{
+  "name": "Shuppet",
+  "dex": 353,
+  "generation": 3,
+  "types": [
+    "ghost"
+  ],
+  "baseStats": {
+    "stamina": 88,
+    "attack": 138,
+    "defense": 66
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_BANETTE",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 872,
+  "buddyDistance": 3,
+  "height": 0.61,
+  "weight": 2.3,
+  "_id": "POKEMON_SHUPPET"
+}

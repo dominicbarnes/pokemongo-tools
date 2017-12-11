@@ -1,0 +1,27 @@
+{
+  "name": "Grovyle",
+  "dex": 253,
+  "generation": 3,
+  "types": [
+    "grass"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 172,
+    "defense": 130
+  },
+  "previousEvolution": "POKEMON_TREECKO",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_SCEPTILE",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1508,
+  "buddyDistance": 5,
+  "height": 0.89,
+  "weight": 21.6,
+  "_id": "POKEMON_GROVYLE"
+}

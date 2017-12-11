@@ -1,0 +1,22 @@
+{
+  "name": "Articuno",
+  "dex": 144,
+  "generation": 1,
+  "types": [
+    "ice",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 180,
+    "attack": 192,
+    "defense": 249
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": "legendary",
+  "maxCP": 2933,
+  "buddyDistance": 20,
+  "height": 1.7,
+  "weight": 55.4,
+  "_id": "POKEMON_ARTICUNO"
+}

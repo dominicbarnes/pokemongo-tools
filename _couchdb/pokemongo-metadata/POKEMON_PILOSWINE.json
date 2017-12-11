@@ -1,0 +1,22 @@
+{
+  "name": "Piloswine",
+  "dex": 221,
+  "generation": 2,
+  "types": [
+    "ice",
+    "ground"
+  ],
+  "baseStats": {
+    "stamina": 200,
+    "attack": 181,
+    "defense": 147
+  },
+  "previousEvolution": "POKEMON_SWINUB",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2284,
+  "buddyDistance": 3,
+  "height": 1.09,
+  "weight": 55.8,
+  "_id": "POKEMON_PILOSWINE"
+}

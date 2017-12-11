@@ -1,0 +1,28 @@
+{
+  "name": "Larvitar",
+  "dex": 246,
+  "generation": 2,
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 115,
+    "defense": 93
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_PUPITAR",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 904,
+  "buddyDistance": 5,
+  "height": 0.61,
+  "weight": 72,
+  "_id": "POKEMON_LARVITAR"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Rapidash",
+  "dex": 78,
+  "generation": 1,
+  "types": [
+    "fire"
+  ],
+  "baseStats": {
+    "stamina": 130,
+    "attack": 207,
+    "defense": 167
+  },
+  "previousEvolution": "POKEMON_PONYTA",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2252,
+  "buddyDistance": 3,
+  "height": 1.7,
+  "weight": 95,
+  "_id": "POKEMON_RAPIDASH"
+}

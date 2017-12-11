@@ -1,0 +1,28 @@
+{
+  "name": "Smoochum",
+  "dex": 238,
+  "generation": 2,
+  "types": [
+    "ice",
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 90,
+    "attack": 153,
+    "defense": 116
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_JYNX",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1230,
+  "buddyDistance": 5,
+  "height": 0.41,
+  "weight": 6,
+  "_id": "POKEMON_SMOOCHUM"
+}

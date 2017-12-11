@@ -1,0 +1,27 @@
+{
+  "name": "Drowzee",
+  "dex": 96,
+  "generation": 1,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 89,
+    "defense": 158
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_HYPNO",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 992,
+  "buddyDistance": 3,
+  "height": 1,
+  "weight": 32.4,
+  "_id": "POKEMON_DROWZEE"
+}

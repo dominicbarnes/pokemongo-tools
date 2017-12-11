@@ -1,0 +1,22 @@
+{
+  "name": "Venomoth",
+  "dex": 49,
+  "generation": 1,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 140,
+    "attack": 179,
+    "defense": 150
+  },
+  "previousEvolution": "POKEMON_VENONAT",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1937,
+  "buddyDistance": 3,
+  "height": 1.5,
+  "weight": 12.5,
+  "_id": "POKEMON_VENOMOTH"
+}

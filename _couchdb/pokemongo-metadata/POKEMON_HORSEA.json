@@ -1,0 +1,27 @@
+{
+  "name": "Horsea",
+  "dex": 116,
+  "generation": 1,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 60,
+    "attack": 129,
+    "defense": 125
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_SEADRA",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 921,
+  "buddyDistance": 3,
+  "height": 0.4,
+  "weight": 8,
+  "_id": "POKEMON_HORSEA"
+}

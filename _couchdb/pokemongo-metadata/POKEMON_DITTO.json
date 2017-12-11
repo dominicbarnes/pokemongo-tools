@@ -1,0 +1,21 @@
+{
+  "name": "Ditto",
+  "dex": 132,
+  "generation": 1,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 96,
+    "attack": 91,
+    "defense": 91
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 718,
+  "buddyDistance": 3,
+  "height": 0.3,
+  "weight": 4,
+  "_id": "POKEMON_DITTO"
+}

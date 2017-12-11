@@ -1,0 +1,21 @@
+{
+  "name": "Flareon",
+  "dex": 136,
+  "generation": 1,
+  "types": [
+    "fire"
+  ],
+  "baseStats": {
+    "stamina": 130,
+    "attack": 246,
+    "defense": 204
+  },
+  "previousEvolution": "POKEMON_EEVEE",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2904,
+  "buddyDistance": 5,
+  "height": 0.9,
+  "weight": 25,
+  "_id": "POKEMON_FLAREON"
+}

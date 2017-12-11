@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Dominic Barnes -- Creator -- @mako281
+
+# THANKS
+
+    Niantic for creating Pokémon GO
+
+# TECHNOLOGY COLOPHON
+
+    Hoodie (http://hood.ie/)
+    Apex Up (https://up.docs.apex.sh/)
+    Node.js (https://nodejs.org/)

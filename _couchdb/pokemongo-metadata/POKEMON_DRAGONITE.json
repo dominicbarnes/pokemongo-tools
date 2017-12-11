@@ -1,0 +1,22 @@
+{
+  "name": "Dragonite",
+  "dex": 149,
+  "generation": 1,
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 182,
+    "attack": 263,
+    "defense": 201
+  },
+  "previousEvolution": "POKEMON_DRAGONAIR",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 3581,
+  "buddyDistance": 5,
+  "height": 2.2,
+  "weight": 210,
+  "_id": "POKEMON_DRAGONITE"
+}

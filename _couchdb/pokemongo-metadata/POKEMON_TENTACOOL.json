@@ -1,0 +1,28 @@
+{
+  "name": "Tentacool",
+  "dex": 72,
+  "generation": 1,
+  "types": [
+    "water",
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 97,
+    "defense": 182
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_TENTACRUEL",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 956,
+  "buddyDistance": 3,
+  "height": 0.9,
+  "weight": 45.5,
+  "_id": "POKEMON_TENTACOOL"
+}

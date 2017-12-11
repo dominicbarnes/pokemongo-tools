@@ -1,0 +1,22 @@
+{
+  "name": "Dodrio",
+  "dex": 85,
+  "generation": 1,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 218,
+    "defense": 145
+  },
+  "previousEvolution": "POKEMON_DODUO",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2138,
+  "buddyDistance": 3,
+  "height": 1.8,
+  "weight": 85.2,
+  "_id": "POKEMON_DODRIO"
+}

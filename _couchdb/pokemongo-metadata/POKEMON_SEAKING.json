@@ -1,0 +1,21 @@
+{
+  "name": "Seaking",
+  "dex": 119,
+  "generation": 1,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 160,
+    "attack": 175,
+    "defense": 154
+  },
+  "previousEvolution": "POKEMON_GOLDEEN",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2040,
+  "buddyDistance": 3,
+  "height": 1.3,
+  "weight": 39,
+  "_id": "POKEMON_SEAKING"
+}

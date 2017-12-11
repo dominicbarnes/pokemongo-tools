@@ -1,0 +1,22 @@
+{
+  "name": "Gyarados",
+  "dex": 130,
+  "generation": 1,
+  "types": [
+    "water",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 190,
+    "attack": 237,
+    "defense": 197
+  },
+  "previousEvolution": "POKEMON_MAGIKARP",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 3281,
+  "buddyDistance": 1,
+  "height": 6.5,
+  "weight": 235,
+  "_id": "POKEMON_GYARADOS"
+}

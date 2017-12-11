@@ -1,0 +1,27 @@
+{
+  "name": "Seel",
+  "dex": 86,
+  "generation": 1,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 130,
+    "attack": 85,
+    "defense": 128
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_DEWGONG",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 899,
+  "buddyDistance": 3,
+  "height": 1.1,
+  "weight": 90,
+  "_id": "POKEMON_SEEL"
+}

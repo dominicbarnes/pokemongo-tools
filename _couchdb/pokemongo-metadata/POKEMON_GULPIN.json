@@ -1,0 +1,27 @@
+{
+  "name": "Gulpin",
+  "dex": 316,
+  "generation": 3,
+  "types": [
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 140,
+    "attack": 80,
+    "defense": 99
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_SWALOT",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 788,
+  "buddyDistance": 5,
+  "height": 0.41,
+  "weight": 10.3,
+  "_id": "POKEMON_GULPIN"
+}

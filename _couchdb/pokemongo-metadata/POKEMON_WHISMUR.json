@@ -1,0 +1,27 @@
+{
+  "name": "Whismur",
+  "dex": 293,
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 128,
+    "attack": 92,
+    "defense": 42
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_LOUDRED",
+      "candy": 12,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 603,
+  "buddyDistance": 5,
+  "height": 0.61,
+  "weight": 16.3,
+  "_id": "POKEMON_WHISMUR"
+}

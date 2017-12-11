@@ -1,0 +1,27 @@
+{
+  "name": "Wynaut",
+  "dex": 360,
+  "generation": 3,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 190,
+    "attack": 41,
+    "defense": 86
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_WOBBUFFET",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 503,
+  "buddyDistance": 5,
+  "height": 0.61,
+  "weight": 14,
+  "_id": "POKEMON_WYNAUT"
+}

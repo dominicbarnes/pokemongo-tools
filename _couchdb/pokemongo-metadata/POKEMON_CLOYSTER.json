@@ -1,0 +1,22 @@
+{
+  "name": "Cloyster",
+  "dex": 91,
+  "generation": 1,
+  "types": [
+    "water",
+    "ice"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 186,
+    "defense": 323
+  },
+  "previousEvolution": "POKEMON_SHELLDER",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2475,
+  "buddyDistance": 3,
+  "height": 1.5,
+  "weight": 132.5,
+  "_id": "POKEMON_CLOYSTER"
+}

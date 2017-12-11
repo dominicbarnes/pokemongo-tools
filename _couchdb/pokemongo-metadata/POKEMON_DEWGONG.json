@@ -1,0 +1,22 @@
+{
+  "name": "Dewgong",
+  "dex": 87,
+  "generation": 1,
+  "types": [
+    "water",
+    "ice"
+  ],
+  "baseStats": {
+    "stamina": 180,
+    "attack": 139,
+    "defense": 184
+  },
+  "previousEvolution": "POKEMON_SEEL",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1894,
+  "buddyDistance": 3,
+  "height": 1.7,
+  "weight": 120,
+  "_id": "POKEMON_DEWGONG"
+}

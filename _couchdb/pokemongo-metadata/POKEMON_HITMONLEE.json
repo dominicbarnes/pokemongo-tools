@@ -1,0 +1,21 @@
+{
+  "name": "Hitmonlee",
+  "dex": 106,
+  "generation": 1,
+  "types": [
+    "fighting"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 224,
+    "defense": 211
+  },
+  "previousEvolution": "POKEMON_TYROGUE",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2406,
+  "buddyDistance": 5,
+  "height": 1.5,
+  "weight": 49.8,
+  "_id": "POKEMON_HITMONLEE"
+}

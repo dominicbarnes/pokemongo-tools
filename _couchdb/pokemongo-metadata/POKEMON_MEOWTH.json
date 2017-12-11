@@ -1,0 +1,27 @@
+{
+  "name": "Meowth",
+  "dex": 52,
+  "generation": 1,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 92,
+    "defense": 81
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_PERSIAN",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 638,
+  "buddyDistance": 3,
+  "height": 0.4,
+  "weight": 4.2,
+  "_id": "POKEMON_MEOWTH"
+}

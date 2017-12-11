@@ -1,0 +1,27 @@
+{
+  "name": "Treecko",
+  "dex": 252,
+  "generation": 3,
+  "types": [
+    "grass"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 124,
+    "defense": 104
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_GROVYLE",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 923,
+  "buddyDistance": 5,
+  "height": 0.51,
+  "weight": 5,
+  "_id": "POKEMON_TREECKO"
+}

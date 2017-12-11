@@ -1,0 +1,22 @@
+{
+  "name": "Pelipper",
+  "dex": 279,
+  "generation": 3,
+  "types": [
+    "water",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 175,
+    "defense": 189
+  },
+  "previousEvolution": "POKEMON_WINGULL",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1969,
+  "buddyDistance": 5,
+  "height": 1.19,
+  "weight": 28,
+  "_id": "POKEMON_PELIPPER"
+}

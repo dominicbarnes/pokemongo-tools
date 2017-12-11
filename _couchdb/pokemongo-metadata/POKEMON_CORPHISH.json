@@ -1,0 +1,27 @@
+{
+  "name": "Corphish",
+  "dex": 341,
+  "generation": 3,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 86,
+    "attack": 141,
+    "defense": 113
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_CRAWDAUNT",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1107,
+  "buddyDistance": 5,
+  "height": 0.61,
+  "weight": 11.5,
+  "_id": "POKEMON_CORPHISH"
+}

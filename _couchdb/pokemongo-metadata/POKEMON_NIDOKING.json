@@ -1,0 +1,22 @@
+{
+  "name": "Nidoking",
+  "dex": 34,
+  "generation": 1,
+  "types": [
+    "poison",
+    "ground"
+  ],
+  "baseStats": {
+    "stamina": 162,
+    "attack": 204,
+    "defense": 157
+  },
+  "previousEvolution": "POKEMON_NIDORINO",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2386,
+  "buddyDistance": 3,
+  "height": 1.4,
+  "weight": 62,
+  "_id": "POKEMON_NIDOKING"
+}

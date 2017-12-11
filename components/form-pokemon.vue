@@ -1,0 +1,124 @@
+<template>
+  <b-form @submit.stop.prevent="handleSubmit">
+    <b-form-group label="Pokémon" description="Choose the Pokémon species and whether it is shiny">
+      <b-input-group>
+        <b-input-group-addon>
+          <pokesprite v-bind:pokemon="dex" v-bind:shiny="value.shiny"></pokesprite>
+        </b-input-group-addon>
+        <b-form-select id="add-species-input" v-bind:options="pokemon" v-model="value.pokemonID" required size="lg"></b-form-select>
+        <b-input-group-addon>
+          <label>
+            Shiny?
+            <input type="checkbox" v-model="value.shiny"></input>
+          </label>
+        </b-input-group-addon>
+      </b-input-group>
+    </b-form-group>
+
+    <b-form-group id="add-cp" label="CP" label-for="add-cp">
+      <b-form-input id="add-cp-input" type="number" required min="10" v-model.number="value.stats.cp"></b-form-input>
+    </b-form-group>
+
+    <b-form-group id="add-nickname" label="Nickname" label-for="add-nickname">
+      <b-form-input id="add-nickname-input" v-model="value.nickname"></b-form-input>
+    </b-form-group>
+
+    <b-form-group id="add-hp" label="HP" label-for="add-hp">
+      <b-form-input id="add-hp-input" type="number" required min="10" v-model.number="value.stats.hp"></b-form-input>
+    </b-form-group>
+
+    <b-form-group id="add-iv" label="Individual Values (IVs)" description="If known, enter this Pokémon's IVs.">
+      <b-row>
+        <b-col>
+           <b-input-group>
+             <b-input-group-addon>Attack</b-input-group-addon>
+            <b-form-input id="add-iv-attack-input" type="number" min="1" max="15" v-model.number="value.stats.attack"></b-form-input>
+          </b-input-group>
+        </b-col>
+        <b-col>
+          <b-input-group>
+            <b-input-group-addon>Defense</b-input-group-addon>
+            <b-form-input id="add-iv-defense-input" type="number" min="1" max="15" v-model.number="value.stats.defense"></b-form-input>
+          </b-input-group>
+        </b-col>
+        <b-col>
+          <b-input-group>
+            <b-input-group-addon>Stamina</b-input-group-addon>
+            <b-form-input id="add-iv-stamina-input" type="number" min="1" max="15" v-model.number="value.stats.stamina"></b-form-input>
+          </b-input-group>
+        </b-col>
+      </b-row>
+    </b-form-group>
+
+    <b-form-group id="add-caught" label="Date Caught" label-for="add-hp" description="Enter the date this Pokémon was caught/obtained">
+      <b-form-input id="add-caught-input" type="date" min="2016-07-06" v-model="value.caughtAt"></b-form-input>
+    </b-form-group>
+
+    <b-form-group id="add-notes" label="Notes" label-for="add-notes" description="Add your own custom notes about this Pokémon (Markdown supported)">
+      <b-form-textarea id="add-notes-input" :rows="3" v-model="value.notes"></b-form-textarea>
+    </b-form-group>
+
+    <b-button type="submit" variant="primary">Submit</b-button>
+    <b-button type="reset" variant="secondary">Reset</b-button>
+  </b-form>
+</template>
+
+<script>
+  import numeral from 'numeral'
+  import sortBy from 'sort-by'
+  import Pokesprite from './pokesprite.vue'
+
+  export default {
+    props: {
+      value: {
+        type: Object,
+        default() {
+          return { stats: {} }
+        }
+      }
+    },
+
+    computed: {
+      pokemon() {
+        const options = this.$store.state.metadata.pokemon.slice().sort(sortBy('dex')).map(pokemon => {
+          const text = `${pokemon.name} (#${numeral(pokemon.dex).format('000')})`
+          const value = pokemon._id
+          return { text, value }
+        })
+
+        return [ { text: 'Choose a Species', value: null } ].concat(options)
+      },
+
+      dex() {
+        if (!this.value.pokemonID) return 'unknown'
+        const { dex } = this.$store.state.metadata.pokemon.find(pokemon => pokemon._id === this.value.pokemonID)
+        return numeral(dex).format('000')
+      },
+
+      totalIVs() {
+        const { attackIV, defenseIV, staminaIV } = this.value
+        return attackIV + defenseIV + staminaIV
+      }
+    },
+
+    filters: {
+      percentage(value) {
+        return numeral(value).format('0%')
+      }
+    },
+
+    methods: {
+      handleSubmit(e) {
+        this.$emit('submit', this.value)
+      }
+    },
+
+    components: { Pokesprite }
+  }
+</script>
+
+<style scoped>
+  .input-group-addon label {
+    margin: 0;
+  }
+</style>

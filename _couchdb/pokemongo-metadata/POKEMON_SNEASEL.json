@@ -1,0 +1,22 @@
+{
+  "name": "Sneasel",
+  "dex": 215,
+  "generation": 2,
+  "types": [
+    "dark",
+    "ice"
+  ],
+  "baseStats": {
+    "stamina": 110,
+    "attack": 189,
+    "defense": 157
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1868,
+  "buddyDistance": 3,
+  "height": 0.89,
+  "weight": 28,
+  "_id": "POKEMON_SNEASEL"
+}

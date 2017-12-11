@@ -1,0 +1,27 @@
+{
+  "name": "Totodile",
+  "dex": 158,
+  "generation": 2,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 117,
+    "defense": 116
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_CROCONAW",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1011,
+  "buddyDistance": 3,
+  "height": 0.61,
+  "weight": 9.5,
+  "_id": "POKEMON_TOTODILE"
+}

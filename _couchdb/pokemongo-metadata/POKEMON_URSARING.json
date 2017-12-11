@@ -1,0 +1,21 @@
+{
+  "name": "Ursaring",
+  "dex": 217,
+  "generation": 2,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 180,
+    "attack": 236,
+    "defense": 144
+  },
+  "previousEvolution": "POKEMON_TEDDIURSA",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2760,
+  "buddyDistance": 3,
+  "height": 1.8,
+  "weight": 125.8,
+  "_id": "POKEMON_URSARING"
+}

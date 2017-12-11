@@ -1,0 +1,28 @@
+{
+  "name": "Anorith",
+  "dex": 347,
+  "generation": 3,
+  "types": [
+    "rock",
+    "bug"
+  ],
+  "baseStats": {
+    "stamina": 90,
+    "attack": 176,
+    "defense": 100
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_ARMALDO",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1310,
+  "buddyDistance": 5,
+  "height": 0.71,
+  "weight": 12.5,
+  "_id": "POKEMON_ANORITH"
+}

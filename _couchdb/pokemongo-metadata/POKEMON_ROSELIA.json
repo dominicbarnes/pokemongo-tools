@@ -1,0 +1,22 @@
+{
+  "name": "Roselia",
+  "dex": 315,
+  "generation": 3,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 186,
+    "defense": 148
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1718,
+  "buddyDistance": 5,
+  "height": 0.3,
+  "weight": 2,
+  "_id": "POKEMON_ROSELIA"
+}

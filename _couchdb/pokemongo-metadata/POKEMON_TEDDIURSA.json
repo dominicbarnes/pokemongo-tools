@@ -1,0 +1,27 @@
+{
+  "name": "Teddiursa",
+  "dex": 216,
+  "generation": 2,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 142,
+    "defense": 93
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_URSARING",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1184,
+  "buddyDistance": 3,
+  "height": 0.61,
+  "weight": 8.8,
+  "_id": "POKEMON_TEDDIURSA"
+}

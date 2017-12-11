@@ -1,0 +1,22 @@
+{
+  "name": "Lugia",
+  "dex": 249,
+  "generation": 2,
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 212,
+    "attack": 193,
+    "defense": 323
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": "legendary",
+  "maxCP": 3598,
+  "buddyDistance": 20,
+  "height": 5.21,
+  "weight": 216,
+  "_id": "POKEMON_LUGIA"
+}

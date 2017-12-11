@@ -1,0 +1,21 @@
+{
+  "name": "Meganium",
+  "dex": 154,
+  "generation": 2,
+  "types": [
+    "grass"
+  ],
+  "baseStats": {
+    "stamina": 160,
+    "attack": 168,
+    "defense": 202
+  },
+  "previousEvolution": "POKEMON_BAYLEEF",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2227,
+  "buddyDistance": 3,
+  "height": 1.8,
+  "weight": 100.5,
+  "_id": "POKEMON_MEGANIUM"
+}

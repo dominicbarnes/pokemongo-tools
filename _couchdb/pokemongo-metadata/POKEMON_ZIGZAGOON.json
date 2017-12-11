@@ -1,0 +1,27 @@
+{
+  "name": "Zigzagoon",
+  "dex": 263,
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 76,
+    "attack": 58,
+    "defense": 80
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_LINOONE",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 423,
+  "buddyDistance": 5,
+  "height": 0.41,
+  "weight": 17.5,
+  "_id": "POKEMON_ZIGZAGOON"
+}

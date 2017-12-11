@@ -1,0 +1,22 @@
+{
+  "name": "Pidgeot",
+  "dex": 18,
+  "generation": 1,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 166,
+    "attack": 166,
+    "defense": 157
+  },
+  "previousEvolution": "POKEMON_PIDGEOTTO",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1994,
+  "buddyDistance": 1,
+  "height": 1.5,
+  "weight": 39.5,
+  "_id": "POKEMON_PIDGEOT"
+}

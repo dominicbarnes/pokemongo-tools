@@ -1,0 +1,28 @@
+{
+  "name": "Chinchou",
+  "dex": 170,
+  "generation": 2,
+  "types": [
+    "water",
+    "electric"
+  ],
+  "baseStats": {
+    "stamina": 150,
+    "attack": 106,
+    "defense": 106
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_LANTURN",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1067,
+  "buddyDistance": 3,
+  "height": 0.51,
+  "weight": 12,
+  "_id": "POKEMON_CHINCHOU"
+}

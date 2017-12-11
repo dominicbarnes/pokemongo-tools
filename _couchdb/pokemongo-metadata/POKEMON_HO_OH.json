@@ -1,0 +1,22 @@
+{
+  "name": "Ho Oh",
+  "dex": 250,
+  "generation": 2,
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 193,
+    "attack": 239,
+    "defense": 274
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": "legendary",
+  "maxCP": 3889,
+  "buddyDistance": 20,
+  "height": 3.81,
+  "weight": 199,
+  "_id": "POKEMON_HO_OH"
+}

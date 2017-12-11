@@ -1,0 +1,21 @@
+{
+  "name": "Luvdisc",
+  "dex": 370,
+  "generation": 3,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 86,
+    "attack": 81,
+    "defense": 134
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 735,
+  "buddyDistance": 5,
+  "height": 0.61,
+  "weight": 8.7,
+  "_id": "POKEMON_LUVDISC"
+}

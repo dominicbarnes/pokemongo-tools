@@ -1,0 +1,28 @@
+{
+  "name": "Omanyte",
+  "dex": 138,
+  "generation": 1,
+  "types": [
+    "rock",
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 70,
+    "attack": 155,
+    "defense": 174
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_OMASTAR",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1345,
+  "buddyDistance": 5,
+  "height": 0.4,
+  "weight": 7.5,
+  "_id": "POKEMON_OMANYTE"
+}

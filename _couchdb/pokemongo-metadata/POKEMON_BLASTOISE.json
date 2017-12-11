@@ -1,0 +1,21 @@
+{
+  "name": "Blastoise",
+  "dex": 9,
+  "generation": 1,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 158,
+    "attack": 171,
+    "defense": 210
+  },
+  "previousEvolution": "POKEMON_WARTORTLE",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2291,
+  "buddyDistance": 3,
+  "height": 1.6,
+  "weight": 85.5,
+  "_id": "POKEMON_BLASTOISE"
+}

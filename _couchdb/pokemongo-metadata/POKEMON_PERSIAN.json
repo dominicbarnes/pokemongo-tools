@@ -1,0 +1,21 @@
+{
+  "name": "Persian",
+  "dex": 53,
+  "generation": 1,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 130,
+    "attack": 150,
+    "defense": 139
+  },
+  "previousEvolution": "POKEMON_MEOWTH",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1539,
+  "buddyDistance": 3,
+  "height": 1,
+  "weight": 32,
+  "_id": "POKEMON_PERSIAN"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Lotad",
+  "dex": 270,
+  "generation": 3,
+  "types": [
+    "water",
+    "grass"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 71,
+    "defense": 86
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_LOMBRE",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 526,
+  "buddyDistance": 5,
+  "height": 0.51,
+  "weight": 2.6,
+  "_id": "POKEMON_LOTAD"
+}

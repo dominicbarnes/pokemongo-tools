@@ -1,0 +1,27 @@
+{
+  "name": "Spoink",
+  "dex": 325,
+  "generation": 3,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 125,
+    "defense": 145
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_GRUMPIG",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1285,
+  "buddyDistance": 5,
+  "height": 0.71,
+  "weight": 30.6,
+  "_id": "POKEMON_SPOINK"
+}

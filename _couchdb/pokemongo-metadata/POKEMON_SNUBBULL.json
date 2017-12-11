@@ -1,0 +1,27 @@
+{
+  "name": "Snubbull",
+  "dex": 209,
+  "generation": 2,
+  "types": [
+    "fairy"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 137,
+    "defense": 89
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_GRANBULL",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1124,
+  "buddyDistance": 3,
+  "height": 0.61,
+  "weight": 7.8,
+  "_id": "POKEMON_SNUBBULL"
+}

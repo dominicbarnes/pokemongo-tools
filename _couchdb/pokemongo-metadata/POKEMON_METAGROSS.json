@@ -1,0 +1,22 @@
+{
+  "name": "Metagross",
+  "dex": 376,
+  "generation": 3,
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 160,
+    "attack": 257,
+    "defense": 247
+  },
+  "previousEvolution": "POKEMON_METANG",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 3637,
+  "buddyDistance": 5,
+  "height": 1.6,
+  "weight": 550,
+  "_id": "POKEMON_METAGROSS"
+}

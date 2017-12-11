@@ -1,0 +1,21 @@
+{
+  "name": "Chimecho",
+  "dex": 358,
+  "generation": 3,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 150,
+    "attack": 175,
+    "defense": 174
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2095,
+  "buddyDistance": 5,
+  "height": 0.61,
+  "weight": 1,
+  "_id": "POKEMON_CHIMECHO"
+}

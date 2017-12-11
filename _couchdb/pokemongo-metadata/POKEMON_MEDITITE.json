@@ -1,0 +1,28 @@
+{
+  "name": "Meditite",
+  "dex": 307,
+  "generation": 3,
+  "types": [
+    "fighting",
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 60,
+    "attack": 78,
+    "defense": 107
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_MEDICHAM",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 555,
+  "buddyDistance": 5,
+  "height": 0.61,
+  "weight": 11.2,
+  "_id": "POKEMON_MEDITITE"
+}

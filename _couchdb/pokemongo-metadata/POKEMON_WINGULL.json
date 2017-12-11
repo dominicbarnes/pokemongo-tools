@@ -1,0 +1,28 @@
+{
+  "name": "Wingull",
+  "dex": 278,
+  "generation": 3,
+  "types": [
+    "water",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 106,
+    "defense": 61
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_PELIPPER",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 642,
+  "buddyDistance": 5,
+  "height": 0.61,
+  "weight": 9.5,
+  "_id": "POKEMON_WINGULL"
+}

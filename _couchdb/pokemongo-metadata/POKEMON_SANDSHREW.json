@@ -1,0 +1,27 @@
+{
+  "name": "Sandshrew",
+  "dex": 27,
+  "generation": 1,
+  "types": [
+    "ground"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 126,
+    "defense": 145
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_SANDSLASH",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1194,
+  "buddyDistance": 3,
+  "height": 0.6,
+  "weight": 12,
+  "_id": "POKEMON_SANDSHREW"
+}

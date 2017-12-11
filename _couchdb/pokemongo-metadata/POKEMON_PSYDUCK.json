@@ -1,0 +1,27 @@
+{
+  "name": "Psyduck",
+  "dex": 54,
+  "generation": 1,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 122,
+    "defense": 96
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_GOLDUCK",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 966,
+  "buddyDistance": 3,
+  "height": 0.8,
+  "weight": 19.6,
+  "_id": "POKEMON_PSYDUCK"
+}

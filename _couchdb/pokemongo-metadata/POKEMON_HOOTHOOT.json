@@ -1,0 +1,28 @@
+{
+  "name": "Hoothoot",
+  "dex": 163,
+  "generation": 2,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 67,
+    "defense": 101
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_NOCTOWL",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 640,
+  "buddyDistance": 1,
+  "height": 0.71,
+  "weight": 21.2,
+  "_id": "POKEMON_HOOTHOOT"
+}

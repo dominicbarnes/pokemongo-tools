@@ -1,0 +1,28 @@
+{
+  "name": "Nuzleaf",
+  "dex": 274,
+  "generation": 3,
+  "types": [
+    "grass",
+    "dark"
+  ],
+  "baseStats": {
+    "stamina": 140,
+    "attack": 134,
+    "defense": 78
+  },
+  "previousEvolution": "POKEMON_SEEDOT",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_SHIFTRY",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1117,
+  "buddyDistance": 5,
+  "height": 0.99,
+  "weight": 28,
+  "_id": "POKEMON_NUZLEAF"
+}

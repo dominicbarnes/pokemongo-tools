@@ -1,0 +1,28 @@
+{
+  "name": "Lileep",
+  "dex": 345,
+  "generation": 3,
+  "types": [
+    "rock",
+    "grass"
+  ],
+  "baseStats": {
+    "stamina": 132,
+    "attack": 105,
+    "defense": 154
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_CRADILY",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1181,
+  "buddyDistance": 5,
+  "height": 0.99,
+  "weight": 23.8,
+  "_id": "POKEMON_LILEEP"
+}

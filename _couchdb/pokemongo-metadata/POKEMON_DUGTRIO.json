@@ -1,0 +1,21 @@
+{
+  "name": "Dugtrio",
+  "dex": 51,
+  "generation": 1,
+  "types": [
+    "ground"
+  ],
+  "baseStats": {
+    "stamina": 70,
+    "attack": 167,
+    "defense": 147
+  },
+  "previousEvolution": "POKEMON_DIGLETT",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1333,
+  "buddyDistance": 3,
+  "height": 0.7,
+  "weight": 33.3,
+  "_id": "POKEMON_DUGTRIO"
+}

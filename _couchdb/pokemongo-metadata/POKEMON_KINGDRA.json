@@ -1,0 +1,22 @@
+{
+  "name": "Kingdra",
+  "dex": 230,
+  "generation": 2,
+  "types": [
+    "water",
+    "dragon"
+  ],
+  "baseStats": {
+    "stamina": 150,
+    "attack": 194,
+    "defense": 194
+  },
+  "previousEvolution": "POKEMON_SEADRA",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2424,
+  "buddyDistance": 3,
+  "height": 1.8,
+  "weight": 152,
+  "_id": "POKEMON_KINGDRA"
+}

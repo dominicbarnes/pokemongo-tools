@@ -1,0 +1,21 @@
+{
+  "name": "Typhlosion",
+  "dex": 157,
+  "generation": 2,
+  "types": [
+    "fire"
+  ],
+  "baseStats": {
+    "stamina": 156,
+    "attack": 223,
+    "defense": 176
+  },
+  "previousEvolution": "POKEMON_QUILAVA",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2686,
+  "buddyDistance": 3,
+  "height": 1.7,
+  "weight": 79.5,
+  "_id": "POKEMON_TYPHLOSION"
+}

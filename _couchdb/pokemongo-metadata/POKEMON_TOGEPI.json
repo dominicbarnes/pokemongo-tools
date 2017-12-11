@@ -1,0 +1,27 @@
+{
+  "name": "Togepi",
+  "dex": 175,
+  "generation": 2,
+  "types": [
+    "fairy"
+  ],
+  "baseStats": {
+    "stamina": 70,
+    "attack": 67,
+    "defense": 116
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_TOGETIC",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 540,
+  "buddyDistance": 3,
+  "height": 0.3,
+  "weight": 1.5,
+  "_id": "POKEMON_TOGEPI"
+}

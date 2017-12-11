@@ -1,0 +1,27 @@
+{
+  "name": "Diglett",
+  "dex": 50,
+  "generation": 1,
+  "types": [
+    "ground"
+  ],
+  "baseStats": {
+    "stamina": 20,
+    "attack": 109,
+    "defense": 88
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_DUGTRIO",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 465,
+  "buddyDistance": 3,
+  "height": 0.2,
+  "weight": 0.8,
+  "_id": "POKEMON_DIGLETT"
+}

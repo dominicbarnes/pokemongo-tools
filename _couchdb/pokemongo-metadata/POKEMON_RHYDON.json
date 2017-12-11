@@ -1,0 +1,22 @@
+{
+  "name": "Rhydon",
+  "dex": 112,
+  "generation": 1,
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "baseStats": {
+    "stamina": 210,
+    "attack": 222,
+    "defense": 206
+  },
+  "previousEvolution": "POKEMON_RHYHORN",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 3300,
+  "buddyDistance": 3,
+  "height": 1.9,
+  "weight": 120,
+  "_id": "POKEMON_RHYDON"
+}

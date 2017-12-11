@@ -1,0 +1,28 @@
+{
+  "name": "Numel",
+  "dex": 322,
+  "generation": 3,
+  "types": [
+    "fire",
+    "ground"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 119,
+    "defense": 82
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_CAMERUPT",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 957,
+  "buddyDistance": 5,
+  "height": 0.71,
+  "weight": 24,
+  "_id": "POKEMON_NUMEL"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Minun",
+  "dex": 312,
+  "generation": 3,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 147,
+    "defense": 167
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1585,
+  "buddyDistance": 5,
+  "height": 0.41,
+  "weight": 4.2,
+  "_id": "POKEMON_MINUN"
+}

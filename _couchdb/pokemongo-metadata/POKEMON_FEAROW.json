@@ -1,0 +1,22 @@
+{
+  "name": "Fearow",
+  "dex": 22,
+  "generation": 1,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 130,
+    "attack": 182,
+    "defense": 135
+  },
+  "previousEvolution": "POKEMON_SPEAROW",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1814,
+  "buddyDistance": 1,
+  "height": 1.2,
+  "weight": 38,
+  "_id": "POKEMON_FEAROW"
+}

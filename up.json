@@ -1,0 +1,17 @@
+{
+  "name": "pokemongo-tools",
+  "profile": "personal",
+  "hooks": {
+    "prebuild": [
+      "npm install --only dev"
+    ],
+    "build": [
+      "npm run build",
+      "npm prune --production",
+      "npx node-prune"
+    ]
+  },
+  "proxy": {
+    "command": "node server/index.js"
+  }
+}

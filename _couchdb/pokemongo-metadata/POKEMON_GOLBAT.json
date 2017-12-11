@@ -1,0 +1,28 @@
+{
+  "name": "Golbat",
+  "dex": 42,
+  "generation": 1,
+  "types": [
+    "poison",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 150,
+    "attack": 161,
+    "defense": 153
+  },
+  "previousEvolution": "POKEMON_ZUBAT",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_CROBAT",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1830,
+  "buddyDistance": 1,
+  "height": 1.6,
+  "weight": 55,
+  "_id": "POKEMON_GOLBAT"
+}

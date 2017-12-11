@@ -1,0 +1,22 @@
+{
+  "name": "Scizor",
+  "dex": 212,
+  "generation": 2,
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "baseStats": {
+    "stamina": 140,
+    "attack": 236,
+    "defense": 191
+  },
+  "previousEvolution": "POKEMON_SCYTHER",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2801,
+  "buddyDistance": 5,
+  "height": 2.01,
+  "weight": 125,
+  "_id": "POKEMON_SCIZOR"
+}

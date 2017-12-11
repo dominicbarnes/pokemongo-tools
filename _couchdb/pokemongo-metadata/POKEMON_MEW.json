@@ -1,0 +1,21 @@
+{
+  "name": "Mew",
+  "dex": 151,
+  "generation": 1,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 200,
+    "attack": 210,
+    "defense": 210
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": "mythic",
+  "maxCP": 3090,
+  "buddyDistance": 5,
+  "height": 0.4,
+  "weight": 4,
+  "_id": "POKEMON_MEW"
+}

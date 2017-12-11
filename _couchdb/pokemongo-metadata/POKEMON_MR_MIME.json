@@ -1,0 +1,22 @@
+{
+  "name": "Mr Mime",
+  "dex": 122,
+  "generation": 1,
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 192,
+    "defense": 233
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1984,
+  "buddyDistance": 5,
+  "height": 1.3,
+  "weight": 54.5,
+  "_id": "POKEMON_MR_MIME"
+}

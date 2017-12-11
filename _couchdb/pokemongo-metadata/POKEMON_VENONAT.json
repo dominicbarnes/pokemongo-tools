@@ -1,0 +1,28 @@
+{
+  "name": "Venonat",
+  "dex": 48,
+  "generation": 1,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 100,
+    "defense": 102
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_VENOMOTH",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 902,
+  "buddyDistance": 3,
+  "height": 1,
+  "weight": 30,
+  "_id": "POKEMON_VENONAT"
+}

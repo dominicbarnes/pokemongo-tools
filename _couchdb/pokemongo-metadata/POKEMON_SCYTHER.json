@@ -1,0 +1,30 @@
+{
+  "name": "Scyther",
+  "dex": 123,
+  "generation": 1,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 140,
+    "attack": 218,
+    "defense": 170
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_SCIZOR",
+      "candy": 50,
+      "item": {
+        "id": "ITEM_METAL_COAT"
+      }
+    }
+  ],
+  "rarity": null,
+  "maxCP": 2464,
+  "buddyDistance": 5,
+  "height": 1.5,
+  "weight": 56,
+  "_id": "POKEMON_SCYTHER"
+}

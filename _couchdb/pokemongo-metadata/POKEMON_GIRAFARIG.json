@@ -1,0 +1,22 @@
+{
+  "name": "Girafarig",
+  "dex": 203,
+  "generation": 2,
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 140,
+    "attack": 182,
+    "defense": 133
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1863,
+  "buddyDistance": 3,
+  "height": 1.5,
+  "weight": 41.5,
+  "_id": "POKEMON_GIRAFARIG"
+}

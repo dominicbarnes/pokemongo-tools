@@ -1,0 +1,22 @@
+{
+  "name": "Yanma",
+  "dex": 193,
+  "generation": 2,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 130,
+    "attack": 154,
+    "defense": 94
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1326,
+  "buddyDistance": 3,
+  "height": 1.19,
+  "weight": 38,
+  "_id": "POKEMON_YANMA"
+}

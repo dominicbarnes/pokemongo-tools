@@ -1,0 +1,27 @@
+{
+  "name": "Feebas",
+  "dex": 349,
+  "generation": 3,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 40,
+    "attack": 29,
+    "defense": 102
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_MILOTIC",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 220,
+  "buddyDistance": 5,
+  "height": 0.61,
+  "weight": 7.4,
+  "_id": "POKEMON_FEEBAS"
+}

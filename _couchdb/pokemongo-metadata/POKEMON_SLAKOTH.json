@@ -1,0 +1,27 @@
+{
+  "name": "Slakoth",
+  "dex": 287,
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 104,
+    "defense": 104
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_VIGOROTH",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 942,
+  "buddyDistance": 5,
+  "height": 0.79,
+  "weight": 24,
+  "_id": "POKEMON_SLAKOTH"
+}

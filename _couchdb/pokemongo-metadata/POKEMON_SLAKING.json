@@ -1,0 +1,21 @@
+{
+  "name": "Slaking",
+  "dex": 289,
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 300,
+    "attack": 319,
+    "defense": 201
+  },
+  "previousEvolution": "POKEMON_VIGOROTH",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 5441,
+  "buddyDistance": 5,
+  "height": 2.01,
+  "weight": 130.5,
+  "_id": "POKEMON_SLAKING"
+}

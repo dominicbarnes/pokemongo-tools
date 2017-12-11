@@ -1,0 +1,27 @@
+{
+  "name": "Koffing",
+  "dex": 109,
+  "generation": 1,
+  "types": [
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 119,
+    "defense": 164
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_WEEZING",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1091,
+  "buddyDistance": 3,
+  "height": 0.6,
+  "weight": 1,
+  "_id": "POKEMON_KOFFING"
+}

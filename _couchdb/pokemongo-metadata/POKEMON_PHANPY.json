@@ -1,0 +1,27 @@
+{
+  "name": "Phanpy",
+  "dex": 231,
+  "generation": 2,
+  "types": [
+    "ground"
+  ],
+  "baseStats": {
+    "stamina": 180,
+    "attack": 107,
+    "defense": 107
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_DONPHAN",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1175,
+  "buddyDistance": 3,
+  "height": 0.51,
+  "weight": 33.5,
+  "_id": "POKEMON_PHANPY"
+}

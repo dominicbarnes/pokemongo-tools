@@ -1,0 +1,21 @@
+{
+  "name": "Octillery",
+  "dex": 224,
+  "generation": 2,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 150,
+    "attack": 197,
+    "defense": 141
+  },
+  "previousEvolution": "POKEMON_REMORAID",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2124,
+  "buddyDistance": 1,
+  "height": 0.89,
+  "weight": 28.5,
+  "_id": "POKEMON_OCTILLERY"
+}

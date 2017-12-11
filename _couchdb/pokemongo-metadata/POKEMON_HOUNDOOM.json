@@ -1,0 +1,22 @@
+{
+  "name": "Houndoom",
+  "dex": 229,
+  "generation": 2,
+  "types": [
+    "dark",
+    "fire"
+  ],
+  "baseStats": {
+    "stamina": 150,
+    "attack": 224,
+    "defense": 159
+  },
+  "previousEvolution": "POKEMON_HOUNDOUR",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2529,
+  "buddyDistance": 3,
+  "height": 1.4,
+  "weight": 35,
+  "_id": "POKEMON_HOUNDOOM"
+}

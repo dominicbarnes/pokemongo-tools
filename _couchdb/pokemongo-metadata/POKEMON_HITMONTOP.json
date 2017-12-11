@@ -1,0 +1,21 @@
+{
+  "name": "Hitmontop",
+  "dex": 237,
+  "generation": 2,
+  "types": [
+    "fighting"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 173,
+    "defense": 214
+  },
+  "previousEvolution": "POKEMON_TYROGUE",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1905,
+  "buddyDistance": 5,
+  "height": 1.4,
+  "weight": 48,
+  "_id": "POKEMON_HITMONTOP"
+}

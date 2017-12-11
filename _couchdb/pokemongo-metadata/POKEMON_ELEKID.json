@@ -1,0 +1,27 @@
+{
+  "name": "Elekid",
+  "dex": 239,
+  "generation": 2,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "stamina": 90,
+    "attack": 135,
+    "defense": 110
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_ELECTABUZZ",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1073,
+  "buddyDistance": 5,
+  "height": 0.61,
+  "weight": 23.5,
+  "_id": "POKEMON_ELEKID"
+}

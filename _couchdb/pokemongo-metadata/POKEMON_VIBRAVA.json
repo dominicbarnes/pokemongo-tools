@@ -1,0 +1,28 @@
+{
+  "name": "Vibrava",
+  "dex": 329,
+  "generation": 3,
+  "types": [
+    "ground",
+    "dragon"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 134,
+    "defense": 99
+  },
+  "previousEvolution": "POKEMON_TRAPINCH",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_FLYGON",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1065,
+  "buddyDistance": 5,
+  "height": 1.09,
+  "weight": 15.3,
+  "_id": "POKEMON_VIBRAVA"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Vaporeon",
+  "dex": 134,
+  "generation": 1,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 260,
+    "attack": 205,
+    "defense": 177
+  },
+  "previousEvolution": "POKEMON_EEVEE",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 3157,
+  "buddyDistance": 5,
+  "height": 1,
+  "weight": 29,
+  "_id": "POKEMON_VAPOREON"
+}

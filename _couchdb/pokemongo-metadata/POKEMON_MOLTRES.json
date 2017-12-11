@@ -1,0 +1,22 @@
+{
+  "name": "Moltres",
+  "dex": 146,
+  "generation": 1,
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 180,
+    "attack": 251,
+    "defense": 184
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": "legendary",
+  "maxCP": 3272,
+  "buddyDistance": 20,
+  "height": 2,
+  "weight": 60,
+  "_id": "POKEMON_MOLTRES"
+}

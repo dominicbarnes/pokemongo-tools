@@ -1,0 +1,21 @@
+{
+  "name": "Absol",
+  "dex": 359,
+  "generation": 3,
+  "types": [
+    "dark"
+  ],
+  "baseStats": {
+    "stamina": 130,
+    "attack": 246,
+    "defense": 120
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2280,
+  "buddyDistance": 5,
+  "height": 1.19,
+  "weight": 47,
+  "_id": "POKEMON_ABSOL"
+}

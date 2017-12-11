@@ -1,0 +1,22 @@
+{
+  "name": "Beautifly",
+  "dex": 267,
+  "generation": 3,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 189,
+    "defense": 98
+  },
+  "previousEvolution": "POKEMON_SILCOON",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1573,
+  "buddyDistance": 5,
+  "height": 0.99,
+  "weight": 28.4,
+  "_id": "POKEMON_BEAUTIFLY"
+}

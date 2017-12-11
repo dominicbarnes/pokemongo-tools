@@ -1,0 +1,27 @@
+{
+  "name": "Shelgon",
+  "dex": 372,
+  "generation": 3,
+  "types": [
+    "dragon"
+  ],
+  "baseStats": {
+    "stamina": 130,
+    "attack": 172,
+    "defense": 179
+  },
+  "previousEvolution": "POKEMON_BAGON",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_SALAMENCE",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1958,
+  "buddyDistance": 5,
+  "height": 1.09,
+  "weight": 110.5,
+  "_id": "POKEMON_SHELGON"
+}

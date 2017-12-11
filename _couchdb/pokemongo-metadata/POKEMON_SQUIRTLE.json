@@ -1,0 +1,27 @@
+{
+  "name": "Squirtle",
+  "dex": 7,
+  "generation": 1,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 88,
+    "attack": 94,
+    "defense": 122
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_WARTORTLE",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 808,
+  "buddyDistance": 3,
+  "height": 0.5,
+  "weight": 9,
+  "_id": "POKEMON_SQUIRTLE"
+}

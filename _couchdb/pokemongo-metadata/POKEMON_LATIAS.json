@@ -1,0 +1,22 @@
+{
+  "name": "Latias",
+  "dex": 380,
+  "generation": 3,
+  "types": [
+    "dragon",
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 160,
+    "attack": 228,
+    "defense": 268
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": "legendary",
+  "maxCP": 3377,
+  "buddyDistance": 5,
+  "height": 1.4,
+  "weight": 40,
+  "_id": "POKEMON_LATIAS"
+}

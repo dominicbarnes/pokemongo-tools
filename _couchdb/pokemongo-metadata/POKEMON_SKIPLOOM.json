@@ -1,0 +1,28 @@
+{
+  "name": "Skiploom",
+  "dex": 188,
+  "generation": 2,
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 110,
+    "attack": 91,
+    "defense": 127
+  },
+  "previousEvolution": "POKEMON_HOPPIP",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_JUMPLUFF",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 882,
+  "buddyDistance": 3,
+  "height": 0.61,
+  "weight": 1,
+  "_id": "POKEMON_SKIPLOOM"
+}

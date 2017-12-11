@@ -1,0 +1,28 @@
+{
+  "name": "Weedle",
+  "dex": 13,
+  "generation": 1,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 63,
+    "defense": 55
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_KAKUNA",
+      "candy": 12,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 397,
+  "buddyDistance": 1,
+  "height": 0.3,
+  "weight": 3.2,
+  "_id": "POKEMON_WEEDLE"
+}

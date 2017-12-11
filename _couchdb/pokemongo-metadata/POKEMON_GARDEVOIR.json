@@ -1,0 +1,22 @@
+{
+  "name": "Gardevoir",
+  "dex": 282,
+  "generation": 3,
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "baseStats": {
+    "stamina": 136,
+    "attack": 237,
+    "defense": 220
+  },
+  "previousEvolution": "POKEMON_KIRLIA",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2964,
+  "buddyDistance": 5,
+  "height": 1.6,
+  "weight": 48.4,
+  "_id": "POKEMON_GARDEVOIR"
+}

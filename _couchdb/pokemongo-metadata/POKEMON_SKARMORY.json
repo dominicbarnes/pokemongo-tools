@@ -1,0 +1,22 @@
+{
+  "name": "Skarmory",
+  "dex": 227,
+  "generation": 2,
+  "types": [
+    "steel",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 130,
+    "attack": 148,
+    "defense": 260
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2032,
+  "buddyDistance": 5,
+  "height": 1.7,
+  "weight": 50.5,
+  "_id": "POKEMON_SKARMORY"
+}

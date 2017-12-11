@@ -1,0 +1,21 @@
+{
+  "name": "Snorlax",
+  "dex": 143,
+  "generation": 1,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 320,
+    "attack": 190,
+    "defense": 190
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 3355,
+  "buddyDistance": 5,
+  "height": 2.1,
+  "weight": 460,
+  "_id": "POKEMON_SNORLAX"
+}

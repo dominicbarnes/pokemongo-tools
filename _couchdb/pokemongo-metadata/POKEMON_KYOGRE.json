@@ -1,0 +1,21 @@
+{
+  "name": "Kyogre",
+  "dex": 382,
+  "generation": 3,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 200,
+    "attack": 297,
+    "defense": 276
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": "legendary",
+  "maxCP": 4874,
+  "buddyDistance": 5,
+  "height": 4.5,
+  "weight": 352,
+  "_id": "POKEMON_KYOGRE"
+}

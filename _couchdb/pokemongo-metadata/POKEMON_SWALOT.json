@@ -1,0 +1,21 @@
+{
+  "name": "Swalot",
+  "dex": 317,
+  "generation": 3,
+  "types": [
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 200,
+    "attack": 140,
+    "defense": 159
+  },
+  "previousEvolution": "POKEMON_GULPIN",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1872,
+  "buddyDistance": 5,
+  "height": 1.7,
+  "weight": 80,
+  "_id": "POKEMON_SWALOT"
+}

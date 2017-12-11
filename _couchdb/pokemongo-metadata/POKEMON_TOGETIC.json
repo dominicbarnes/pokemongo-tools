@@ -1,0 +1,22 @@
+{
+  "name": "Togetic",
+  "dex": 176,
+  "generation": 2,
+  "types": [
+    "fairy",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 110,
+    "attack": 139,
+    "defense": 191
+  },
+  "previousEvolution": "POKEMON_TOGEPI",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1543,
+  "buddyDistance": 3,
+  "height": 0.61,
+  "weight": 3.2,
+  "_id": "POKEMON_TOGETIC"
+}

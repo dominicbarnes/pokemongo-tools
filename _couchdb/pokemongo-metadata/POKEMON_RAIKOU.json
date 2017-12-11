@@ -1,0 +1,21 @@
+{
+  "name": "Raikou",
+  "dex": 243,
+  "generation": 2,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "stamina": 180,
+    "attack": 241,
+    "defense": 210
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": "legendary",
+  "maxCP": 3349,
+  "buddyDistance": 20,
+  "height": 1.91,
+  "weight": 178,
+  "_id": "POKEMON_RAIKOU"
+}

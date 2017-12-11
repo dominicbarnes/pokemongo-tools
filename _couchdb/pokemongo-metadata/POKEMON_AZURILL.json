@@ -1,0 +1,22 @@
+{
+  "name": "Azurill",
+  "dex": 298,
+  "generation": 3,
+  "types": [
+    "normal",
+    "fairy"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 36,
+    "defense": 71
+  },
+  "previousEvolution": "POKEMON_AZUMARILL",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 316,
+  "buddyDistance": 5,
+  "height": 0.2,
+  "weight": 2,
+  "_id": "POKEMON_AZURILL"
+}

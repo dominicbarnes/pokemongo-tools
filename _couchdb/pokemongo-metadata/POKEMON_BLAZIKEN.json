@@ -1,0 +1,22 @@
+{
+  "name": "Blaziken",
+  "dex": 257,
+  "generation": 3,
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "baseStats": {
+    "stamina": 160,
+    "attack": 240,
+    "defense": 141
+  },
+  "previousEvolution": "POKEMON_COMBUSKEN",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2631,
+  "buddyDistance": 5,
+  "height": 1.91,
+  "weight": 52,
+  "_id": "POKEMON_BLAZIKEN"
+}

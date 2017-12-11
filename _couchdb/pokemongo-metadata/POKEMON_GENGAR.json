@@ -1,0 +1,22 @@
+{
+  "name": "Gengar",
+  "dex": 94,
+  "generation": 1,
+  "types": [
+    "ghost",
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 261,
+    "defense": 156
+  },
+  "previousEvolution": "POKEMON_HAUNTER",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2619,
+  "buddyDistance": 3,
+  "height": 1.5,
+  "weight": 40.5,
+  "_id": "POKEMON_GENGAR"
+}

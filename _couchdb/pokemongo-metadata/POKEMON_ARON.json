@@ -1,0 +1,28 @@
+{
+  "name": "Aron",
+  "dex": 304,
+  "generation": 3,
+  "types": [
+    "steel",
+    "rock"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 121,
+    "defense": 168
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_LAIRON",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1232,
+  "buddyDistance": 5,
+  "height": 0.41,
+  "weight": 60,
+  "_id": "POKEMON_ARON"
+}

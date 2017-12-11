@@ -1,0 +1,21 @@
+{
+  "name": "Registeel",
+  "dex": 379,
+  "generation": 3,
+  "types": [
+    "steel"
+  ],
+  "baseStats": {
+    "stamina": 160,
+    "attack": 143,
+    "defense": 285
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": "legendary",
+  "maxCP": 2261,
+  "buddyDistance": 5,
+  "height": 1.91,
+  "weight": 205,
+  "_id": "POKEMON_REGISTEEL"
+}

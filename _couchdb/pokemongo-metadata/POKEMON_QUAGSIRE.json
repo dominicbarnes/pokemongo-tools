@@ -1,0 +1,22 @@
+{
+  "name": "Quagsire",
+  "dex": 195,
+  "generation": 2,
+  "types": [
+    "water",
+    "ground"
+  ],
+  "baseStats": {
+    "stamina": 190,
+    "attack": 152,
+    "defense": 152
+  },
+  "previousEvolution": "POKEMON_WOOPER",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1929,
+  "buddyDistance": 3,
+  "height": 1.4,
+  "weight": 75,
+  "_id": "POKEMON_QUAGSIRE"
+}

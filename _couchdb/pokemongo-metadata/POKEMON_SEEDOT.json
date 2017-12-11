@@ -1,0 +1,27 @@
+{
+  "name": "Seedot",
+  "dex": 273,
+  "generation": 3,
+  "types": [
+    "grass"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 71,
+    "defense": 86
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_NUZLEAF",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 526,
+  "buddyDistance": 5,
+  "height": 0.51,
+  "weight": 4,
+  "_id": "POKEMON_SEEDOT"
+}

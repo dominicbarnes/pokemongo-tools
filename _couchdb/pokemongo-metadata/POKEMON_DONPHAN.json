@@ -1,0 +1,21 @@
+{
+  "name": "Donphan",
+  "dex": 232,
+  "generation": 2,
+  "types": [
+    "ground"
+  ],
+  "baseStats": {
+    "stamina": 180,
+    "attack": 214,
+    "defense": 214
+  },
+  "previousEvolution": "POKEMON_PHANPY",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 3022,
+  "buddyDistance": 3,
+  "height": 1.09,
+  "weight": 120,
+  "_id": "POKEMON_DONPHAN"
+}

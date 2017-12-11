@@ -1,0 +1,28 @@
+{
+  "name": "Magnemite",
+  "dex": 81,
+  "generation": 1,
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "baseStats": {
+    "stamina": 50,
+    "attack": 165,
+    "defense": 128
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_MAGNETON",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1083,
+  "buddyDistance": 3,
+  "height": 0.3,
+  "weight": 6,
+  "_id": "POKEMON_MAGNEMITE"
+}

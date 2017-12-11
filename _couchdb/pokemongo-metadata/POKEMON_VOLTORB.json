@@ -1,0 +1,27 @@
+{
+  "name": "Voltorb",
+  "dex": 100,
+  "generation": 1,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 109,
+    "defense": 114
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_ELECTRODE",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 857,
+  "buddyDistance": 3,
+  "height": 0.5,
+  "weight": 10.4,
+  "_id": "POKEMON_VOLTORB"
+}

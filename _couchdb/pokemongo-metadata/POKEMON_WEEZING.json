@@ -1,0 +1,21 @@
+{
+  "name": "Weezing",
+  "dex": 110,
+  "generation": 1,
+  "types": [
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 130,
+    "attack": 174,
+    "defense": 221
+  },
+  "previousEvolution": "POKEMON_KOFFING",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2183,
+  "buddyDistance": 3,
+  "height": 1.2,
+  "weight": 9.5,
+  "_id": "POKEMON_WEEZING"
+}

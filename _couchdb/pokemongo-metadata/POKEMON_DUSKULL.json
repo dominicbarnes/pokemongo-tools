@@ -1,0 +1,27 @@
+{
+  "name": "Duskull",
+  "dex": 355,
+  "generation": 3,
+  "types": [
+    "ghost"
+  ],
+  "baseStats": {
+    "stamina": 40,
+    "attack": 70,
+    "defense": 162
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_DUSCLOPS",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 523,
+  "buddyDistance": 3,
+  "height": 0.79,
+  "weight": 15,
+  "_id": "POKEMON_DUSKULL"
+}

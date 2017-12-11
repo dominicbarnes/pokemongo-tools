@@ -1,0 +1,27 @@
+{
+  "name": "Staryu",
+  "dex": 120,
+  "generation": 1,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 60,
+    "attack": 137,
+    "defense": 112
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_STARMIE",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 926,
+  "buddyDistance": 3,
+  "height": 0.8,
+  "weight": 34.5,
+  "_id": "POKEMON_STARYU"
+}

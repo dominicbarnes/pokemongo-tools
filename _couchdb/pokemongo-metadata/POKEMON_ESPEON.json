@@ -1,0 +1,21 @@
+{
+  "name": "Espeon",
+  "dex": 196,
+  "generation": 2,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 130,
+    "attack": 261,
+    "defense": 194
+  },
+  "previousEvolution": "POKEMON_EEVEE",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 3000,
+  "buddyDistance": 5,
+  "height": 0.89,
+  "weight": 26.5,
+  "_id": "POKEMON_ESPEON"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Zubat",
+  "dex": 41,
+  "generation": 1,
+  "types": [
+    "poison",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 83,
+    "defense": 76
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_GOLBAT",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 569,
+  "buddyDistance": 1,
+  "height": 0.8,
+  "weight": 7.5,
+  "_id": "POKEMON_ZUBAT"
+}

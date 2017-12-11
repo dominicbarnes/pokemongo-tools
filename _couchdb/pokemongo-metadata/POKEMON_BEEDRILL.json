@@ -1,0 +1,22 @@
+{
+  "name": "Beedrill",
+  "dex": 15,
+  "generation": 1,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 130,
+    "attack": 169,
+    "defense": 150
+  },
+  "previousEvolution": "POKEMON_KAKUNA",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1777,
+  "buddyDistance": 1,
+  "height": 1,
+  "weight": 29.5,
+  "_id": "POKEMON_BEEDRILL"
+}

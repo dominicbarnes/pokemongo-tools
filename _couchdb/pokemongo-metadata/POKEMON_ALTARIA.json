@@ -1,0 +1,22 @@
+{
+  "name": "Altaria",
+  "dex": 334,
+  "generation": 3,
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 150,
+    "attack": 141,
+    "defense": 208
+  },
+  "previousEvolution": "POKEMON_SWABLU",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1868,
+  "buddyDistance": 5,
+  "height": 1.09,
+  "weight": 20.6,
+  "_id": "POKEMON_ALTARIA"
+}

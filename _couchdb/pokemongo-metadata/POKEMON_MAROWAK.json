@@ -1,0 +1,21 @@
+{
+  "name": "Marowak",
+  "dex": 105,
+  "generation": 1,
+  "types": [
+    "ground"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 144,
+    "defense": 200
+  },
+  "previousEvolution": "POKEMON_CUBONE",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1691,
+  "buddyDistance": 3,
+  "height": 1,
+  "weight": 45,
+  "_id": "POKEMON_MAROWAK"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Lombre",
+  "dex": 271,
+  "generation": 3,
+  "types": [
+    "water",
+    "grass"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 112,
+    "defense": 128
+  },
+  "previousEvolution": "POKEMON_LOTAD",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_LUDICOLO",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1102,
+  "buddyDistance": 5,
+  "height": 1.19,
+  "weight": 32.5,
+  "_id": "POKEMON_LOMBRE"
+}

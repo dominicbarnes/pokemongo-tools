@@ -1,0 +1,21 @@
+{
+  "name": "Blissey",
+  "dex": 242,
+  "generation": 2,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 510,
+    "attack": 129,
+    "defense": 229
+  },
+  "previousEvolution": "POKEMON_CHANSEY",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 3219,
+  "buddyDistance": 5,
+  "height": 1.5,
+  "weight": 46.8,
+  "_id": "POKEMON_BLISSEY"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Pineco",
+  "dex": 204,
+  "generation": 2,
+  "types": [
+    "bug"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 108,
+    "defense": 146
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_FORRETRESS",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1045,
+  "buddyDistance": 5,
+  "height": 0.61,
+  "weight": 7.2,
+  "_id": "POKEMON_PINECO"
+}

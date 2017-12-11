@@ -1,0 +1,7 @@
+*
+
+!node_modules/**
+!public/**
+!server/**
+!package.json
+!config.js

@@ -1,0 +1,28 @@
+{
+  "name": "Hoppip",
+  "dex": 187,
+  "generation": 2,
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 70,
+    "attack": 67,
+    "defense": 101
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_SKIPLOOM",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 508,
+  "buddyDistance": 3,
+  "height": 0.41,
+  "weight": 0.5,
+  "_id": "POKEMON_HOPPIP"
+}

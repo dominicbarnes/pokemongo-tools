@@ -1,0 +1,27 @@
+{
+  "name": "Loudred",
+  "dex": 294,
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 168,
+    "attack": 134,
+    "defense": 81
+  },
+  "previousEvolution": "POKEMON_WHISMUR",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_EXPLOUD",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1233,
+  "buddyDistance": 5,
+  "height": 0.99,
+  "weight": 40.5,
+  "_id": "POKEMON_LOUDRED"
+}

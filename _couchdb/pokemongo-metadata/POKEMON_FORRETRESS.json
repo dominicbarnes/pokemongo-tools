@@ -1,0 +1,22 @@
+{
+  "name": "Forretress",
+  "dex": 205,
+  "generation": 2,
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "baseStats": {
+    "stamina": 150,
+    "attack": 161,
+    "defense": 242
+  },
+  "previousEvolution": "POKEMON_PINECO",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2263,
+  "buddyDistance": 5,
+  "height": 1.19,
+  "weight": 125.8,
+  "_id": "POKEMON_FORRETRESS"
+}

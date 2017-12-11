@@ -1,0 +1,27 @@
+{
+  "name": "Ponyta",
+  "dex": 77,
+  "generation": 1,
+  "types": [
+    "fire"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 170,
+    "defense": 132
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_RAPIDASH",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1502,
+  "buddyDistance": 3,
+  "height": 1,
+  "weight": 30,
+  "_id": "POKEMON_PONYTA"
+}

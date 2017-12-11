@@ -1,0 +1,28 @@
+{
+  "name": "Bulbasaur",
+  "dex": 1,
+  "generation": 1,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 90,
+    "attack": 118,
+    "defense": 118
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_IVYSAUR",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 981,
+  "buddyDistance": 3,
+  "height": 0.7,
+  "weight": 6.9,
+  "_id": "POKEMON_BULBASAUR"
+}

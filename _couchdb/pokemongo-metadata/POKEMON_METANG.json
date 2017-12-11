@@ -1,0 +1,28 @@
+{
+  "name": "Metang",
+  "dex": 375,
+  "generation": 3,
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 138,
+    "defense": 185
+  },
+  "previousEvolution": "POKEMON_BELDUM",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_METAGROSS",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1570,
+  "buddyDistance": 5,
+  "height": 1.19,
+  "weight": 202.5,
+  "_id": "POKEMON_METANG"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Croconaw",
+  "dex": 159,
+  "generation": 2,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 130,
+    "attack": 150,
+    "defense": 151
+  },
+  "previousEvolution": "POKEMON_TOTODILE",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_FERALIGATR",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1598,
+  "buddyDistance": 3,
+  "height": 1.09,
+  "weight": 25,
+  "_id": "POKEMON_CROCONAW"
+}

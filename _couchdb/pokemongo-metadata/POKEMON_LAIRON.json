@@ -1,0 +1,28 @@
+{
+  "name": "Lairon",
+  "dex": 305,
+  "generation": 3,
+  "types": [
+    "steel",
+    "rock"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 158,
+    "defense": 240
+  },
+  "previousEvolution": "POKEMON_ARON",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_AGGRON",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 2004,
+  "buddyDistance": 5,
+  "height": 0.89,
+  "weight": 120,
+  "_id": "POKEMON_LAIRON"
+}

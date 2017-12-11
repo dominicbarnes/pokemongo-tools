@@ -1,0 +1,22 @@
+{
+  "name": "Jumpluff",
+  "dex": 189,
+  "generation": 2,
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 150,
+    "attack": 118,
+    "defense": 197
+  },
+  "previousEvolution": "POKEMON_SKIPLOOM",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1553,
+  "buddyDistance": 3,
+  "height": 0.79,
+  "weight": 3,
+  "_id": "POKEMON_JUMPLUFF"
+}

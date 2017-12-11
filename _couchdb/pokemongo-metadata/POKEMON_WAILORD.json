@@ -1,0 +1,21 @@
+{
+  "name": "Wailord",
+  "dex": 321,
+  "generation": 3,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 340,
+    "attack": 175,
+    "defense": 87
+  },
+  "previousEvolution": "POKEMON_WAILMER",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2258,
+  "buddyDistance": 5,
+  "height": 14.5,
+  "weight": 398,
+  "_id": "POKEMON_WAILORD"
+}

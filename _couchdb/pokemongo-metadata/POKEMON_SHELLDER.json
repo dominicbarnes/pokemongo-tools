@@ -1,0 +1,27 @@
+{
+  "name": "Shellder",
+  "dex": 90,
+  "generation": 1,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 60,
+    "attack": 116,
+    "defense": 168
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_CLOYSTER",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 958,
+  "buddyDistance": 3,
+  "height": 0.3,
+  "weight": 4,
+  "_id": "POKEMON_SHELLDER"
+}

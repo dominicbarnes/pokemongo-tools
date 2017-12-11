@@ -1,0 +1,21 @@
+{
+  "name": "Feraligatr",
+  "dex": 160,
+  "generation": 2,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 170,
+    "attack": 205,
+    "defense": 197
+  },
+  "previousEvolution": "POKEMON_CROCONAW",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2721,
+  "buddyDistance": 3,
+  "height": 2.31,
+  "weight": 88.8,
+  "_id": "POKEMON_FERALIGATR"
+}

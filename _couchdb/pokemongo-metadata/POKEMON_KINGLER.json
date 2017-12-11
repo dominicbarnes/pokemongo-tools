@@ -1,0 +1,21 @@
+{
+  "name": "Kingler",
+  "dex": 99,
+  "generation": 1,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 110,
+    "attack": 240,
+    "defense": 214
+  },
+  "previousEvolution": "POKEMON_KRABBY",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2694,
+  "buddyDistance": 3,
+  "height": 1.3,
+  "weight": 60,
+  "_id": "POKEMON_KINGLER"
+}

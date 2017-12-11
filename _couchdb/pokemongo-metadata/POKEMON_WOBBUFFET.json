@@ -1,0 +1,21 @@
+{
+  "name": "Wobbuffet",
+  "dex": 202,
+  "generation": 2,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 380,
+    "attack": 60,
+    "defense": 106
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1024,
+  "buddyDistance": 3,
+  "height": 1.3,
+  "weight": 28.5,
+  "_id": "POKEMON_WOBBUFFET"
+}

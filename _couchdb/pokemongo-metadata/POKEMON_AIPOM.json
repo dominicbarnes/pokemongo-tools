@@ -1,0 +1,21 @@
+{
+  "name": "Aipom",
+  "dex": 190,
+  "generation": 2,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 110,
+    "attack": 136,
+    "defense": 112
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1188,
+  "buddyDistance": 3,
+  "height": 0.79,
+  "weight": 11.5,
+  "_id": "POKEMON_AIPOM"
+}

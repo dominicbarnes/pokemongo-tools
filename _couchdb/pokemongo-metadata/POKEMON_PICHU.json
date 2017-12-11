@@ -1,0 +1,27 @@
+{
+  "name": "Pichu",
+  "dex": 172,
+  "generation": 2,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "stamina": 40,
+    "attack": 77,
+    "defense": 63
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_PIKACHU",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 376,
+  "buddyDistance": 1,
+  "height": 0.3,
+  "weight": 2,
+  "_id": "POKEMON_PICHU"
+}

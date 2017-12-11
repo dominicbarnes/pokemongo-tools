@@ -1,0 +1,37 @@
+{
+  "name": "Tyrogue",
+  "dex": 236,
+  "generation": 2,
+  "types": [
+    "fighting"
+  ],
+  "baseStats": {
+    "stamina": 70,
+    "attack": 64,
+    "defense": 64
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_HITMONLEE",
+      "candy": 25,
+      "item": null
+    },
+    {
+      "pokemon": "POKEMON_HITMONCHAN",
+      "candy": 25,
+      "item": null
+    },
+    {
+      "pokemon": "POKEMON_HITMONTOP",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 404,
+  "buddyDistance": 5,
+  "height": 0.71,
+  "weight": 21,
+  "_id": "POKEMON_TYROGUE"
+}

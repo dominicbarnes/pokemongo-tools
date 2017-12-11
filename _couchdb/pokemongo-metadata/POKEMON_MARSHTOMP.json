@@ -1,0 +1,28 @@
+{
+  "name": "Marshtomp",
+  "dex": 259,
+  "generation": 3,
+  "types": [
+    "water",
+    "ground"
+  ],
+  "baseStats": {
+    "stamina": 140,
+    "attack": 156,
+    "defense": 133
+  },
+  "previousEvolution": "POKEMON_MUDKIP",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_SWAMPERT",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1617,
+  "buddyDistance": 5,
+  "height": 0.71,
+  "weight": 28,
+  "_id": "POKEMON_MARSHTOMP"
+}

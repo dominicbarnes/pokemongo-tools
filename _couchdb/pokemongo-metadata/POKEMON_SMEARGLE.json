@@ -1,0 +1,21 @@
+{
+  "name": "Smeargle",
+  "dex": 235,
+  "generation": 2,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 110,
+    "attack": 40,
+    "defense": 88
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 389,
+  "buddyDistance": 3,
+  "height": 1.19,
+  "weight": 58,
+  "_id": "POKEMON_SMEARGLE"
+}

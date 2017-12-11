@@ -1,0 +1,27 @@
+{
+  "name": "Skitty",
+  "dex": 300,
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 84,
+    "defense": 84
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_DELCATTY",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 659,
+  "buddyDistance": 5,
+  "height": 0.61,
+  "weight": 11,
+  "_id": "POKEMON_SKITTY"
+}

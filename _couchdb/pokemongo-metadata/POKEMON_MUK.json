@@ -1,0 +1,21 @@
+{
+  "name": "Muk",
+  "dex": 89,
+  "generation": 1,
+  "types": [
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 210,
+    "attack": 190,
+    "defense": 184
+  },
+  "previousEvolution": "POKEMON_GRIMER",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2709,
+  "buddyDistance": 3,
+  "height": 1.2,
+  "weight": 30,
+  "_id": "POKEMON_MUK"
+}

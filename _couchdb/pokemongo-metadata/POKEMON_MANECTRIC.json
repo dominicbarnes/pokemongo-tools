@@ -1,0 +1,21 @@
+{
+  "name": "Manectric",
+  "dex": 310,
+  "generation": 3,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "stamina": 140,
+    "attack": 215,
+    "defense": 127
+  },
+  "previousEvolution": "POKEMON_ELECTRIKE",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2131,
+  "buddyDistance": 5,
+  "height": 1.5,
+  "weight": 40.2,
+  "_id": "POKEMON_MANECTRIC"
+}

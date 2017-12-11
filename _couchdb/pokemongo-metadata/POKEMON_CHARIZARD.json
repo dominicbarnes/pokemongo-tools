@@ -1,0 +1,22 @@
+{
+  "name": "Charizard",
+  "dex": 6,
+  "generation": 1,
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 156,
+    "attack": 223,
+    "defense": 176
+  },
+  "previousEvolution": "POKEMON_CHARMELEON",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2686,
+  "buddyDistance": 3,
+  "height": 1.7,
+  "weight": 90.5,
+  "_id": "POKEMON_CHARIZARD"
+}

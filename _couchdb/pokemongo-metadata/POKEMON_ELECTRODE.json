@@ -1,0 +1,21 @@
+{
+  "name": "Electrode",
+  "dex": 101,
+  "generation": 1,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 173,
+    "defense": 179
+  },
+  "previousEvolution": "POKEMON_VOLTORB",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1900,
+  "buddyDistance": 3,
+  "height": 1.2,
+  "weight": 66.6,
+  "_id": "POKEMON_ELECTRODE"
+}

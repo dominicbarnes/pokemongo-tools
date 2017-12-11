@@ -1,0 +1,22 @@
+{
+  "name": "Shedinja",
+  "dex": 292,
+  "generation": 3,
+  "types": [
+    "bug",
+    "ghost"
+  ],
+  "baseStats": {
+    "stamina": 2,
+    "attack": 153,
+    "defense": 80
+  },
+  "previousEvolution": "POKEMON_NINCADA",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 421,
+  "buddyDistance": 5,
+  "height": 0.79,
+  "weight": 1.2,
+  "_id": "POKEMON_SHEDINJA"
+}

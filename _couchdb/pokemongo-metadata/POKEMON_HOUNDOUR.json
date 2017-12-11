@@ -1,0 +1,28 @@
+{
+  "name": "Houndour",
+  "dex": 228,
+  "generation": 2,
+  "types": [
+    "dark",
+    "fire"
+  ],
+  "baseStats": {
+    "stamina": 90,
+    "attack": 152,
+    "defense": 93
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_HOUNDOOM",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1110,
+  "buddyDistance": 3,
+  "height": 0.61,
+  "weight": 10.8,
+  "_id": "POKEMON_HOUNDOUR"
+}

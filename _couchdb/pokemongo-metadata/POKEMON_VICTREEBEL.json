@@ -1,0 +1,22 @@
+{
+  "name": "Victreebel",
+  "dex": 71,
+  "generation": 1,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 160,
+    "attack": 207,
+    "defense": 138
+  },
+  "previousEvolution": "POKEMON_WEEPINBELL",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2268,
+  "buddyDistance": 3,
+  "height": 1.7,
+  "weight": 15.5,
+  "_id": "POKEMON_VICTREEBEL"
+}

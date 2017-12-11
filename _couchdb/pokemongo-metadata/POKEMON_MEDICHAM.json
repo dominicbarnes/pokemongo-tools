@@ -1,0 +1,22 @@
+{
+  "name": "Medicham",
+  "dex": 308,
+  "generation": 3,
+  "types": [
+    "fighting",
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 121,
+    "defense": 152
+  },
+  "previousEvolution": "POKEMON_MEDITITE",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1275,
+  "buddyDistance": 5,
+  "height": 1.3,
+  "weight": 31.5,
+  "_id": "POKEMON_MEDICHAM"
+}

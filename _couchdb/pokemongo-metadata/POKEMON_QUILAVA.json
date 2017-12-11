@@ -1,0 +1,27 @@
+{
+  "name": "Quilava",
+  "dex": 156,
+  "generation": 2,
+  "types": [
+    "fire"
+  ],
+  "baseStats": {
+    "stamina": 116,
+    "attack": 158,
+    "defense": 129
+  },
+  "previousEvolution": "POKEMON_CYNDAQUIL",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_TYPHLOSION",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1484,
+  "buddyDistance": 3,
+  "height": 0.89,
+  "weight": 19,
+  "_id": "POKEMON_QUILAVA"
+}

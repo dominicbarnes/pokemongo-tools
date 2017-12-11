@@ -1,0 +1,21 @@
+{
+  "name": "Hariyama",
+  "dex": 297,
+  "generation": 3,
+  "types": [
+    "fighting"
+  ],
+  "baseStats": {
+    "stamina": 288,
+    "attack": 209,
+    "defense": 114
+  },
+  "previousEvolution": "POKEMON_MAKUHITA",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2765,
+  "buddyDistance": 5,
+  "height": 2.31,
+  "weight": 253.8,
+  "_id": "POKEMON_HARIYAMA"
+}

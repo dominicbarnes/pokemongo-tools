@@ -1,0 +1,27 @@
+{
+  "name": "Mareep",
+  "dex": 179,
+  "generation": 2,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "stamina": 110,
+    "attack": 114,
+    "defense": 82
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_FLAAFFY",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 887,
+  "buddyDistance": 5,
+  "height": 0.61,
+  "weight": 7.8,
+  "_id": "POKEMON_MAREEP"
+}

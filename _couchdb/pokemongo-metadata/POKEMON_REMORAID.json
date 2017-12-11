@@ -1,0 +1,27 @@
+{
+  "name": "Remoraid",
+  "dex": 223,
+  "generation": 2,
+  "types": [
+    "water"
+  ],
+  "baseStats": {
+    "stamina": 70,
+    "attack": 127,
+    "defense": 69
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_OCTILLERY",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 749,
+  "buddyDistance": 1,
+  "height": 0.61,
+  "weight": 12,
+  "_id": "POKEMON_REMORAID"
+}

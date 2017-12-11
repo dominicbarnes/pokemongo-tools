@@ -1,0 +1,22 @@
+{
+  "name": "Tyranitar",
+  "dex": 248,
+  "generation": 2,
+  "types": [
+    "rock",
+    "dark"
+  ],
+  "baseStats": {
+    "stamina": 200,
+    "attack": 251,
+    "defense": 212
+  },
+  "previousEvolution": "POKEMON_PUPITAR",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 3670,
+  "buddyDistance": 5,
+  "height": 2.01,
+  "weight": 202,
+  "_id": "POKEMON_TYRANITAR"
+}

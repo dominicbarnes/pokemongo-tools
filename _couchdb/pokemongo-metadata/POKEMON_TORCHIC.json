@@ -1,0 +1,27 @@
+{
+  "name": "Torchic",
+  "dex": 255,
+  "generation": 3,
+  "types": [
+    "fire"
+  ],
+  "baseStats": {
+    "stamina": 90,
+    "attack": 130,
+    "defense": 92
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_COMBUSKEN",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 959,
+  "buddyDistance": 5,
+  "height": 0.41,
+  "weight": 2.5,
+  "_id": "POKEMON_TORCHIC"
+}

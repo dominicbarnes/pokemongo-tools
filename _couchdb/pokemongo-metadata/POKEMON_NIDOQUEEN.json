@@ -1,0 +1,22 @@
+{
+  "name": "Nidoqueen",
+  "dex": 31,
+  "generation": 1,
+  "types": [
+    "poison",
+    "ground"
+  ],
+  "baseStats": {
+    "stamina": 180,
+    "attack": 180,
+    "defense": 174
+  },
+  "previousEvolution": "POKEMON_NIDORINA",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2338,
+  "buddyDistance": 3,
+  "height": 1.3,
+  "weight": 60,
+  "_id": "POKEMON_NIDOQUEEN"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Dusclops",
+  "dex": 356,
+  "generation": 3,
+  "types": [
+    "ghost"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 124,
+    "defense": 234
+  },
+  "previousEvolution": "POKEMON_DUSKULL",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1335,
+  "buddyDistance": 3,
+  "height": 1.6,
+  "weight": 30.6,
+  "_id": "POKEMON_DUSCLOPS"
+}

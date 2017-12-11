@@ -1,0 +1,21 @@
+{
+  "name": "Raticate",
+  "dex": 20,
+  "generation": 1,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 110,
+    "attack": 161,
+    "defense": 144
+  },
+  "previousEvolution": "POKEMON_RATTATA",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1549,
+  "buddyDistance": 1,
+  "height": 0.7,
+  "weight": 18.5,
+  "_id": "POKEMON_RATICATE"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Cacnea",
+  "dex": 331,
+  "generation": 3,
+  "types": [
+    "grass"
+  ],
+  "baseStats": {
+    "stamina": 100,
+    "attack": 156,
+    "defense": 74
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_CACTURNE",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1080,
+  "buddyDistance": 5,
+  "height": 0.41,
+  "weight": 51.3,
+  "_id": "POKEMON_CACNEA"
+}

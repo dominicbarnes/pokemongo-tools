@@ -1,0 +1,22 @@
+{
+  "name": "Crawdaunt",
+  "dex": 342,
+  "generation": 3,
+  "types": [
+    "water",
+    "dark"
+  ],
+  "baseStats": {
+    "stamina": 126,
+    "attack": 224,
+    "defense": 156
+  },
+  "previousEvolution": "POKEMON_CORPHISH",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2317,
+  "buddyDistance": 5,
+  "height": 1.09,
+  "weight": 32.8,
+  "_id": "POKEMON_CRAWDAUNT"
+}

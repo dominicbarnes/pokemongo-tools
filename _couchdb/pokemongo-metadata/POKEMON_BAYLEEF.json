@@ -1,0 +1,27 @@
+{
+  "name": "Bayleef",
+  "dex": 153,
+  "generation": 2,
+  "types": [
+    "grass"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 122,
+    "defense": 155
+  },
+  "previousEvolution": "POKEMON_CHIKORITA",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_MEGANIUM",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1296,
+  "buddyDistance": 3,
+  "height": 1.19,
+  "weight": 15.8,
+  "_id": "POKEMON_BAYLEEF"
+}

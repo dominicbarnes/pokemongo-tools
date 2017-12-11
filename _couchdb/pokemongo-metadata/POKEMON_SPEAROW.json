@@ -1,0 +1,28 @@
+{
+  "name": "Spearow",
+  "dex": 21,
+  "generation": 1,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "baseStats": {
+    "stamina": 80,
+    "attack": 112,
+    "defense": 61
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_FEAROW",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 673,
+  "buddyDistance": 1,
+  "height": 0.3,
+  "weight": 2,
+  "_id": "POKEMON_SPEAROW"
+}

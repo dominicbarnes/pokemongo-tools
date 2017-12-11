@@ -1,0 +1,112 @@
+@import url('bootstrap/dist/css/bootstrap.css');
+@import url('bootstrap-vue/dist/bootstrap-vue.css');
+@import url('pokesprite/pokesprite.min.css');
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+:root {
+  --normal: #a8a77a;
+  --fire: #ee8130;
+  --water: #6390f0;
+  --electric: #f7d02c;
+  --grass: #7ac74c;
+  --ice: #96d9d6;
+  --fighting: #c22e28;
+  --poison: #a33ea1;
+  --ground: #e2bf65;
+  --flying: #a98ff3;
+  --psychic: #f95587;
+  --bug: #a6b91a;
+  --rock: #b6a136;
+  --ghost: #735797;
+  --dragon: #6f35fc;
+  --dark: #705746;
+  --steel: #b7b7ce;
+  --fairy: #d685ad;
+}
+
+.type {
+  color: white;
+  text-transform: uppercase;
+}
+
+.type + .type {
+  margin-left: 0.25em;
+}
+
+.type-normal {
+  background-color: var(--normal);
+}
+
+.type-fighting {
+  background-color: var(--fighting);
+}
+
+.type-flying {
+  background-color: var(--flying);
+}
+
+.type-poison {
+  background-color: var(--poison);
+}
+
+.type-ground {
+  background-color: var(--ground);
+}
+
+.type-rock {
+  background-color: var(--rock);
+}
+
+.type-bug {
+  background-color: var(--bug);
+}
+
+.type-ghost {
+  background-color: var(--ghost);
+}
+
+.type-steel {
+  background-color: var(--steel);
+}
+
+.type-fire {
+  background-color: var(--fire);
+}
+
+.type-water {
+  background-color: var(--water);
+}
+
+.type-grass {
+  background-color: var(--grass);
+}
+
+.type-electric {
+  background-color: var(--electric);
+}
+
+.type-psychic {
+  background-color: var(--psychic);
+}
+
+.type-ice {
+  background-color: var(--ice);
+}
+
+.type-dragon {
+  background-color: var(--dragon);
+}
+
+.type-dark {
+  background-color: var(--dark);
+}
+
+.type-fairy {
+  background-color: var(--fairy);
+}

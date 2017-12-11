@@ -1,0 +1,22 @@
+{
+  "name": "Dustox",
+  "dex": 269,
+  "generation": 3,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 98,
+    "defense": 172
+  },
+  "previousEvolution": "POKEMON_CASCOON",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1121,
+  "buddyDistance": 5,
+  "height": 1.19,
+  "weight": 31.6,
+  "_id": "POKEMON_DUSTOX"
+}

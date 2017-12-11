@@ -1,0 +1,22 @@
+{
+  "name": "Sharpedo",
+  "dex": 319,
+  "generation": 3,
+  "types": [
+    "water",
+    "dark"
+  ],
+  "baseStats": {
+    "stamina": 140,
+    "attack": 243,
+    "defense": 83
+  },
+  "previousEvolution": "POKEMON_CARVANHA",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1986,
+  "buddyDistance": 5,
+  "height": 1.8,
+  "weight": 88.8,
+  "_id": "POKEMON_SHARPEDO"
+}

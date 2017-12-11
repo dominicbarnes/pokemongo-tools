@@ -1,0 +1,27 @@
+{
+  "name": "Dragonair",
+  "dex": 148,
+  "generation": 1,
+  "types": [
+    "dragon"
+  ],
+  "baseStats": {
+    "stamina": 122,
+    "attack": 163,
+    "defense": 138
+  },
+  "previousEvolution": "POKEMON_DRATINI",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_DRAGONITE",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1609,
+  "buddyDistance": 5,
+  "height": 4,
+  "weight": 16.5,
+  "_id": "POKEMON_DRAGONAIR"
+}

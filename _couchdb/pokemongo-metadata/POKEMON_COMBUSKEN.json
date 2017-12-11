@@ -1,0 +1,28 @@
+{
+  "name": "Combusken",
+  "dex": 256,
+  "generation": 3,
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 163,
+    "defense": 115
+  },
+  "previousEvolution": "POKEMON_TORCHIC",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_BLAZIKEN",
+      "candy": 100,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1472,
+  "buddyDistance": 5,
+  "height": 0.89,
+  "weight": 19.5,
+  "_id": "POKEMON_COMBUSKEN"
+}

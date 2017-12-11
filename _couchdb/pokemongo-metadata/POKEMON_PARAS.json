@@ -1,0 +1,28 @@
+{
+  "name": "Paras",
+  "dex": 46,
+  "generation": 1,
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "baseStats": {
+    "stamina": 70,
+    "attack": 121,
+    "defense": 99
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_PARASECT",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 836,
+  "buddyDistance": 3,
+  "height": 0.3,
+  "weight": 5.4,
+  "_id": "POKEMON_PARAS"
+}

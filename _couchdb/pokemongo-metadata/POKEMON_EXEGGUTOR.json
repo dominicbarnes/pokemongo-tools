@@ -1,0 +1,22 @@
+{
+  "name": "Exeggutor",
+  "dex": 103,
+  "generation": 1,
+  "types": [
+    "grass",
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 190,
+    "attack": 233,
+    "defense": 158
+  },
+  "previousEvolution": "POKEMON_EXEGGCUTE",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2916,
+  "buddyDistance": 3,
+  "height": 2,
+  "weight": 120,
+  "_id": "POKEMON_EXEGGUTOR"
+}

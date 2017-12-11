@@ -1,0 +1,21 @@
+{
+  "name": "Raichu",
+  "dex": 26,
+  "generation": 1,
+  "types": [
+    "electric"
+  ],
+  "baseStats": {
+    "stamina": 120,
+    "attack": 193,
+    "defense": 165
+  },
+  "previousEvolution": "POKEMON_PIKACHU",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2025,
+  "buddyDistance": 1,
+  "height": 0.8,
+  "weight": 30,
+  "_id": "POKEMON_RAICHU"
+}

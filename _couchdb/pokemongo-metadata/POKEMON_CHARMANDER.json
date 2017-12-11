@@ -1,0 +1,27 @@
+{
+  "name": "Charmander",
+  "dex": 4,
+  "generation": 1,
+  "types": [
+    "fire"
+  ],
+  "baseStats": {
+    "stamina": 78,
+    "attack": 116,
+    "defense": 96
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_CHARMELEON",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 831,
+  "buddyDistance": 3,
+  "height": 0.6,
+  "weight": 8.5,
+  "_id": "POKEMON_CHARMANDER"
+}

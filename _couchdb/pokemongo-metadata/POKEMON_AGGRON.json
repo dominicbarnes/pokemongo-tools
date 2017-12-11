@@ -1,0 +1,22 @@
+{
+  "name": "Aggron",
+  "dex": 306,
+  "generation": 3,
+  "types": [
+    "steel",
+    "rock"
+  ],
+  "baseStats": {
+    "stamina": 140,
+    "attack": 198,
+    "defense": 314
+  },
+  "previousEvolution": "POKEMON_LAIRON",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 3004,
+  "buddyDistance": 5,
+  "height": 2.11,
+  "weight": 360,
+  "_id": "POKEMON_AGGRON"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Delcatty",
+  "dex": 301,
+  "generation": 3,
+  "types": [
+    "normal"
+  ],
+  "baseStats": {
+    "stamina": 140,
+    "attack": 132,
+    "defense": 132
+  },
+  "previousEvolution": "POKEMON_SKITTY",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 1385,
+  "buddyDistance": 5,
+  "height": 1.09,
+  "weight": 32.6,
+  "_id": "POKEMON_DELCATTY"
+}

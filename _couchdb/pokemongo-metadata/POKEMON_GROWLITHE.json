@@ -1,0 +1,27 @@
+{
+  "name": "Growlithe",
+  "dex": 58,
+  "generation": 1,
+  "types": [
+    "fire"
+  ],
+  "baseStats": {
+    "stamina": 110,
+    "attack": 136,
+    "defense": 96
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_ARCANINE",
+      "candy": 50,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1110,
+  "buddyDistance": 3,
+  "height": 0.7,
+  "weight": 19,
+  "_id": "POKEMON_GROWLITHE"
+}

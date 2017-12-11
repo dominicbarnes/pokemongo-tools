@@ -1,0 +1,21 @@
+{
+  "name": "Sandslash",
+  "dex": 28,
+  "generation": 1,
+  "types": [
+    "ground"
+  ],
+  "baseStats": {
+    "stamina": 150,
+    "attack": 182,
+    "defense": 202
+  },
+  "previousEvolution": "POKEMON_SANDSHREW",
+  "nextEvolutions": [],
+  "rarity": null,
+  "maxCP": 2328,
+  "buddyDistance": 3,
+  "height": 1,
+  "weight": 29.5,
+  "_id": "POKEMON_SANDSLASH"
+}

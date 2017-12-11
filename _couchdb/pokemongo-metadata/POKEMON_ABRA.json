@@ -1,0 +1,27 @@
+{
+  "name": "Abra",
+  "dex": 63,
+  "generation": 1,
+  "types": [
+    "psychic"
+  ],
+  "baseStats": {
+    "stamina": 50,
+    "attack": 195,
+    "defense": 103
+  },
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_KADABRA",
+      "candy": 25,
+      "item": null
+    }
+  ],
+  "rarity": null,
+  "maxCP": 1148,
+  "buddyDistance": 3,
+  "height": 0.9,
+  "weight": 19.5,
+  "_id": "POKEMON_ABRA"
+}
