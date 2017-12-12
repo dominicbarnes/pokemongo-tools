@@ -51,7 +51,7 @@ server.register({
 })
 
 process.on('uncaughtException', fatal)
-process.on('unhandledRejection', reason => fatal(new Error(reason)))
+process.on('unhandledRejection', r => log('error', r))
 
 function fatal (err) {
   log('error', err.stack || err.message)
