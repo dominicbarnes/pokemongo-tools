@@ -16,8 +16,8 @@
         <template slot="types" scope="data">
           <type-badge v-for="type in data.item.types" v-bind:type="type" v-text="type"></type-badge>
         </template>
-        <template slot="changed" scope="data">
-          <rel-time v-bind:datetime="data.item.changed" refresh="1m" />
+        <template slot="added" scope="data">
+          <rel-time v-bind:datetime="data.item.added" refresh="1m" />
         </template>
       </b-table>
     </div>
@@ -56,21 +56,20 @@
           { key: 'ivs', label: 'IVs', sortable: true },
           { key: 'types' },
           { key: 'caught', sortable: true },
-          { key: 'changed', sortable: true }
+          { key: 'added', sortable: true }
         ]
       },
 
       items() {
         const byID = this.$store.getters['metadata/pokemonByID']
         return this.$store.getters['pokemon/recent'].map(pokemon => {
-          const { createdAt, updatedAt } = pokemon.hoodie
           const metadata = byID[pokemon.pokemonID] || Object.create(null)
           const name = pokemon.nickname || metadata.name || 'unknown'
           const { attack, defense, stamina } = pokemon.stats
           const totalIVs = attack + defense + stamina
           return {
             caught: pokemon.caughtAt,
-            changed: moment(updatedAt || createdAt).toDate(),
+            added: moment(pokemon.hoodie.createdAt).toISOString(),
             cp: pokemon.stats.cp,
             dex: metadata.dex ? metadata.dex.toString().padStart(3, '0') : null,
             id: pokemon._id,

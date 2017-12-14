@@ -13,7 +13,7 @@
 
     props: {
       datetime: {
-        type: Date,
+        type: [Date, String, Number],
         required: true
       },
       formatTooltip: {
@@ -33,7 +33,7 @@
 
     computed: {
       machine() {
-        return this.datetime.toISOString()
+        return moment(this.datetime).toISOString()
       },
 
       tooltip() {
