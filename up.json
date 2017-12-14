@@ -16,6 +16,7 @@
     "retry": false
   },
   "environment": {
+    "NODE_ENV": "production",
     "COUCHDB_URL": "https://c38aeb6d-2e18-40ca-b7e9-404da06abd39-bluemix.cloudant.com",
     "ADMIN_USERNAME": "c38aeb6d-2e18-40ca-b7e9-404da06abd39-bluemix",
     "METADATA_USERNAME": "pokemongo-metadata",
