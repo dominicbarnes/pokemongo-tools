@@ -1,12 +1,12 @@
 
-const ENV = process.env.NODE_ENV || 'development'
+const { env } = require('./config')
 
 let plugins = [
   require('postcss-import')(),
   require('postcss-url')({ url: 'inline' })
 ]
 
-if (ENV !== 'development') {
+if (env !== 'development') {
   plugins.push(require('cssnano')({ preset: 'default' }))
 }
 
