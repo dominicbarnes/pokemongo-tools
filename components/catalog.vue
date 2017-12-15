@@ -1,31 +1,36 @@
 <template>
-  <b-container fluid class="p-3">
-    <h1>Catalog</h1>
-    <div v-if="items.length">
-      <b-form inline class="mb-2">
-        <b-input type="search" v-model="filter" placeholder="Filter Catalog" class="mr-2"></b-input>
-        <b-button variant="primary" v-bind:to="{ name: 'catalog-add' }">Add Pokémon</b-button>
-      </b-form>
-      <b-table v-bind:fields="fields" v-bind:items="items" v-bind:filter="filter" striped hover>
-        <template slot="icon" scope="data">
-          <pokesprite v-if="data.item.dex" v-bind:pokemon="data.item.dex" v-bind:shiny="data.item.shiny" v-bind:gender="data.item.gender"></pokesprite>
-        </template>
-        <template slot="name" scope="data">
-          <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: data.item.id } }">{{ data.item.name }}</b-link>
-        </template>
-        <template slot="types" scope="data">
-          <type-badge v-for="type in data.item.types" v-bind:type="type" v-text="type"></type-badge>
-        </template>
-        <template slot="added" scope="data">
-          <rel-time v-bind:datetime="data.item.added" refresh="1m" />
-        </template>
-      </b-table>
-    </div>
-    <b-alert v-else show variant="warning">
-      <p>No Pokémon found in your catalog.</p>
-      <p v-if="!loggedIn">Try <b-link v-b-modal="'signin'">logging in</b-link> if you already have an account.</p>
-      <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add your first Pokémon!</b-button>
-    </b-alert>
+  <b-container fluid>
+    <b-row>
+      <b-col cols="2" class="p-3 bg-light">
+        <catalog-filter v-model="filters" />
+      </b-col>
+      <b-col class="p-3">
+        <b-table v-bind:fields="fields" v-bind:items="items" v-bind:filter="filter" striped hover>
+          <template slot="x" scope="data">
+            {{ data.index + 1 }}
+          </template>
+          <template slot="icon" scope="data">
+            <pokesprite v-if="data.item.dex" v-bind:pokemon="data.item.dex" v-bind:shiny="data.item.shiny" v-bind:gender="data.item.gender" />
+          </template>
+          <template slot="name" scope="data">
+            <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: data.item.id } }">{{ data.item.name }}</b-link>
+          </template>
+          <template slot="types" scope="data">
+            <type-badge v-for="type in data.item.types" v-bind:type="type" v-text="type"></type-badge>
+          </template>
+          <template slot="added" scope="data">
+            <rel-time v-bind:datetime="data.item.added" refresh="1m" />
+          </template>
+          <template slot="empty" scope="data">
+            <b-alert show variant="warning">
+              <p>No Pokémon found in your catalog.</p>
+              <p v-if="!loggedIn">Try <b-link v-b-modal="'signin'">logging in</b-link> if you already have an account.</p>
+              <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add your first Pokémon!</b-button>
+            </b-alert>
+          </template>
+        </b-table>
+      </b-col>
+    </b-row>
   </b-container>
 </template>
 
@@ -36,10 +41,11 @@
   import Pokesprite from './pokesprite.vue'
   import RelTime from './rel-time.vue'
   import TypeBadge from './type-badge.vue'
+  import CatalogFilter from './catalog-filter.vue'
 
   export default {
     data() {
-      return { filter: null }
+      return { filters: Object.create(null) }
     },
 
     computed: {
@@ -49,6 +55,7 @@
 
       fields() {
         return [
+          { key: 'x', label: '#' },
           { key: 'icon', label: ' ', tdClass: 'py-0 align-middle' },
           { key: 'name', sortable: true },
           { key: 'dex', sortable: true },
@@ -77,12 +84,27 @@
             gender: pokemon.gender,
             name: name,
             shiny: pokemon.shiny,
+            totalIVs: totalIVs / 45 * 100,
             types: metadata.types
           }
         })
       }
     },
 
-    components: { Pokesprite, RelTime, TypeBadge }
+    methods: {
+      filter(row) {
+        const { keywords, minIV, types } = this.filters
+
+        if (minIV && row.totalIVs < minIV) return false
+        if (types && types.length) {
+          if (types.some(type => row.types.indexOf(type) === -1)) return false
+        }
+        if (keywords) return [ row.name ].concat(row.types).some(value => value.toLowerCase().indexOf(keywords) > -1)
+
+        return true
+      }
+    },
+
+    components: { Pokesprite, RelTime, TypeBadge, CatalogFilter }
   }
 </script>
