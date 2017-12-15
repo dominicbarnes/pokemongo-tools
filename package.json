@@ -58,7 +58,7 @@
     "watch:js": "watchify -d -t babelify -g envify -t vueify index.js -o public/index.js",
     "watch:css": "postcss index.css -o public/index.css -w",
     "couchdb": "docker-compose up -d && wait-port localhost:5984 && couchdb-bootstrap http://admin:secret@localhost:5984 _couchdb",
-    "prestart": "npm run couchdb",
+    "prestart": "npm install && npm run couchdb",
     "start": "concurrently 'node server/index.js' 'npm run watch'",
     "stop": "docker-compose stop",
     "clean": "docker-compose down && rm -rf public"
