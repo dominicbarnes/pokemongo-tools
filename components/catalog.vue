@@ -2,6 +2,7 @@
   <b-container fluid>
     <b-row>
       <b-col cols="2" class="p-3 bg-light">
+        <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary" block class="mb-2">Add Pokémon</b-button>
         <catalog-filter v-model="filters" />
       </b-col>
       <b-col class="p-3">
@@ -16,7 +17,7 @@
             <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: data.item.id } }">{{ data.item.name }}</b-link>
           </template>
           <template slot="types" scope="data">
-            <type-badge v-for="type in data.item.types" v-bind:type="type" v-text="type"></type-badge>
+            <type-badge v-for="type in data.item.types" v-bind:type="type" v-text="type" />
           </template>
           <template slot="added" scope="data">
             <rel-time v-bind:datetime="data.item.added" refresh="1m" />
@@ -72,12 +73,12 @@
         return this.$store.getters['pokemon/recent'].map(pokemon => {
           const metadata = byID[pokemon.pokemonID] || Object.create(null)
           const name = pokemon.nickname || metadata.name || 'unknown'
-          const { attack, defense, stamina } = pokemon.stats
-          const totalIVs = attack + defense + stamina
+          const { attackIV, defenseIV, staminaIV } = pokemon
+          const totalIVs = attackIV + defenseIV + staminaIV
           return {
             caught: pokemon.caughtAt,
             added: moment(pokemon.hoodie.createdAt).toISOString(),
-            cp: pokemon.stats.cp,
+            cp: pokemon.cp,
             dex: metadata.dex ? metadata.dex.toString().padStart(3, '0') : null,
             id: pokemon._id,
             ivs: numeral(totalIVs / 45).format('0%'),

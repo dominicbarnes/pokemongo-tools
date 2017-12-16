@@ -31,11 +31,11 @@
             <tbody>
               <tr>
                 <th>CP</th>
-                <td>{{ catalog.stats.cp | number }}</td>
+                <td>{{ catalog.cp | number }}</td>
               </tr>
               <tr>
                 <th>HP</th>
-                <td>{{ catalog.stats.hp | number }}</td>
+                <td>{{ catalog.hp | number }}</td>
               </tr>
             </tbody>
           </table>
@@ -43,15 +43,15 @@
             <tbody>
               <tr>
                 <th>Attack IV</th>
-                <td>{{ catalog.stats.attack || 'n/a' }}</td>
+                <td>{{ catalog.attackIV || 'n/a' }}</td>
               </tr>
               <tr>
                 <th>Defense IV</th>
-                <td>{{ catalog.stats.defense || 'n/a' }}</td>
+                <td>{{ catalog.defenseIV || 'n/a' }}</td>
               </tr>
               <tr>
                 <th>Stamina IV</th>
-                <td>{{ catalog.stats.stamina || 'n/a' }}</td>
+                <td>{{ catalog.staminaIV || 'n/a' }}</td>
               </tr>
             </tbody>
             <tfoot>
@@ -78,19 +78,19 @@
               <tr>
                 <th>Caught</th>
                 <td>
-                  <time v-bind:datetime="catalog.caughtAt" v-bind:title="catalog.caughtAt | moment('LL')">{{ catalog.caughtAt | relative }}</time>
+                  <rel-time v-bind:datetime="catalog.caughtAt" refresh="1m" />
                 </td>
               </tr>
               <tr v-if="catalog.hoodie.createdAt">
                 <th>Added to Catalog</th>
                 <td>
-                  <time v-bind:datetime="catalog.hoodie.createdAt" v-bind:title="catalog.hoodie.createdAt | moment('LLL')">{{ catalog.hoodie.createdAt | relative }}</time>
+                  <rel-time v-bind:datetime="catalog.hoodie.createdAt" refresh="1m" />
                 </td>
               </tr>
               <tr v-if="catalog.hoodie.updatedAt">
                 <th>Last Updated</th>
                 <td>
-                  <time v-bind:datetime="catalog.hoodie.updatedAt" v-bind:title="catalog.hoodie.updatedAt | moment('LLL')">{{ catalog.hoodie.updatedAt | relative }}</time>
+                  <rel-time v-bind:datetime="catalog.hoodie.updatedAt" refresh="1m" />
                 </td>
               </tr>
             </tbody>
@@ -102,7 +102,6 @@
 </template>
 
 <script>
-  import moment from 'moment'
   import numeral from 'numeral'
 
   export default {
@@ -125,8 +124,8 @@
       },
 
       totalIVs() {
-        const { attack, defense, stamina } = this.catalog.stats
-        const parts = [attack, defense, stamina].filter(Boolean)
+        const { attackIV, defenseIV, staminaIV } = this.catalog
+        const parts = [attackIV, defenseIV, staminaIV].filter(Boolean)
         return parts.reduce((acc, x) => acc + x, 0)
       }
     },
@@ -138,14 +137,6 @@
 
       percentage(input) {
         return numeral(input).format('0%')
-      },
-
-      relative(input) {
-        return moment(input).fromNow()
-      },
-
-      moment(input, format) {
-        return moment(input).format(format)
       }
     },
 
