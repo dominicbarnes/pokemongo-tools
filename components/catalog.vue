@@ -6,14 +6,20 @@
       </b-col>
       <b-col class="p-3">
         <b-row>
+          <b-col class="py-2">
+            Showing
+            <b-badge>{{currentPageRows.length}}</b-badge>
+            of
+            <b-badge>{{totalRows}}</b-badge>
+          </b-col>
           <b-col>
-            <b-pagination v-bind:total-rows="totalRows" v-bind:per-page="perPage" v-model="currentPage" />
+            <b-pagination v-bind:total-rows="totalRows" v-bind:per-page="perPage" v-model="currentPage" align="center" />
           </b-col>
           <b-col class="text-right">
             <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add Pokémon</b-button>
           </b-col>
         </b-row>
-        <b-table v-bind:fields="fields" v-bind:items="items" v-bind:filter="filter" v-bind:per-page="perPage" v-bind:current-page="currentPage" v-on:filtered="updatePagination" striped hover>
+        <b-table v-bind:fields="fields" v-bind:items="items" v-bind:filter="filter" v-bind:per-page="perPage" v-bind:current-page="currentPage" v-on:filtered="updatePagination" v-model="currentPageRows" striped hover>
           <template slot="icon" scope="data">
             <pokesprite v-if="data.item.dex" v-bind:pokemon="data.item.dex" v-bind:shiny="data.item.shiny" v-bind:gender="data.item.gender" />
           </template>
@@ -54,7 +60,8 @@
         filters: Object.create(null),
         perPage: 20,
         currentPage: 1,
-        totalRows: 0
+        totalRows: 0,
+        currentPageRows: []
       }
     },
 
