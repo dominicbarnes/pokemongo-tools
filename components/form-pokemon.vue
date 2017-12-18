@@ -5,7 +5,7 @@
         <b-input-group-addon>
           <pokesprite v-bind:pokemon="dex" v-bind:shiny="value.shiny" />
         </b-input-group-addon>
-        <b-form-select id="add-species-input" v-bind:options="pokemon" v-model="value.pokemonID" required size="lg" />
+        <b-form-select id="add-species-input" v-bind:options="pokemon" v-model="value.pokemonID" required size="lg" v-focus />
         <b-input-group-addon>
           <label class="m-0">
             Shiny?
@@ -107,6 +107,14 @@
     methods: {
       handleSubmit(e) {
         this.$emit('submit', this.value)
+      }
+    },
+
+    directives: {
+      focus: {
+        inserted(el) {
+          el.focus()
+        }
       }
     },
 
