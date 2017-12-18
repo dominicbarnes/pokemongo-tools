@@ -1,5 +1,5 @@
 <template>
-  <b-form @submit.stop.prevent="handleSubmit">
+  <div>
     <b-form-group label="Pokémon" description="Choose the Pokémon species and whether it is shiny">
       <b-input-group>
         <b-input-group-addon>
@@ -7,7 +7,7 @@
         </b-input-group-addon>
         <b-form-select id="add-species-input" v-bind:options="pokemon" v-model="value.pokemonID" required size="lg" />
         <b-input-group-addon>
-          <label>
+          <label class="m-0">
             Shiny?
             <input type="checkbox" v-model="value.shiny" />
           </label>
@@ -54,13 +54,10 @@
       <b-form-input id="add-caught-input" type="date" min="2016-07-06" v-model="value.caughtAt" />
     </b-form-group>
 
-    <b-form-group id="add-notes" label="Notes" label-for="add-notes" description="Add your own custom notes about this Pokémon (Markdown supported)">
-      <b-form-textarea id="add-notes-input" :rows="3" v-model="value.notes" />
+    <b-form-group id="add-notes" label="Notes" label-for="add-notes" description="Add your own custom notes about this Pokémon.">
+      <b-form-textarea id="add-notes-input" v-bind:rows="3" v-model="value.notes" />
     </b-form-group>
-
-    <b-button type="submit" variant="primary">Submit</b-button>
-    <b-button type="reset" variant="secondary">Reset</b-button>
-  </b-form>
+  </div>
 </template>
 
 <script>

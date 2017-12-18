@@ -51,8 +51,8 @@ const actions = {
     await hoodie.store.add(input)
   },
 
-  async update ({ commit }, { id, changes }) {
-    await hoodie.store.update(id, changes)
+  async update ({ commit }, doc) {
+    await hoodie.store.update(doc._id, doc)
   },
 
   async remove ({ commit }, id) {

@@ -103,6 +103,7 @@
 
 <script>
   import numeral from 'numeral'
+  import RelTime from './rel-time.vue'
 
   export default {
     computed: {
@@ -146,6 +147,8 @@
         await this.$store.dispatch('pokemon/remove', pokemon)
         this.$router.push({ name: 'catalog' })
       }
-    }
+    },
+
+    components: { RelTime }
   }
 </script>
