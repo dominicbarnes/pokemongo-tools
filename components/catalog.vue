@@ -2,14 +2,18 @@
   <b-container fluid>
     <b-row>
       <b-col cols="2" class="p-3 bg-light">
-        <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary" block class="mb-2">Add Pokémon</b-button>
         <catalog-filter v-model="filters" />
       </b-col>
       <b-col class="p-3">
-        <b-table v-bind:fields="fields" v-bind:items="items" v-bind:filter="filter" striped hover>
-          <template slot="x" scope="data">
-            {{ data.index + 1 }}
-          </template>
+        <b-row>
+          <b-col>
+            <b-pagination v-bind:total-rows="totalRows" v-bind:per-page="perPage" v-model="currentPage" />
+          </b-col>
+          <b-col class="text-right">
+            <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add Pokémon</b-button>
+          </b-col>
+        </b-row>
+        <b-table v-bind:fields="fields" v-bind:items="items" v-bind:filter="filter" v-bind:per-page="perPage" v-bind:current-page="currentPage" v-on:filtered="updatePagination" striped hover>
           <template slot="icon" scope="data">
             <pokesprite v-if="data.item.dex" v-bind:pokemon="data.item.dex" v-bind:shiny="data.item.shiny" v-bind:gender="data.item.gender" />
           </template>
@@ -46,7 +50,12 @@
 
   export default {
     data() {
-      return { filters: Object.create(null) }
+      return {
+        filters: Object.create(null),
+        perPage: 20,
+        currentPage: 1,
+        totalRows: 0
+      }
     },
 
     computed: {
@@ -56,7 +65,6 @@
 
       fields() {
         return [
-          { key: 'x', label: '#' },
           { key: 'icon', label: ' ', tdClass: 'py-0 align-middle' },
           { key: 'name', sortable: true },
           { key: 'dex', sortable: true },
@@ -103,6 +111,11 @@
         if (keywords) return [ row.name ].concat(row.types).some(value => value.toLowerCase().indexOf(keywords) > -1)
 
         return true
+      },
+
+      updatePagination(items) {
+        this.totalRows = items.length
+        this.currentPage = 1
       }
     },
 
