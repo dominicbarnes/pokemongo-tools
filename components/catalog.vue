@@ -104,7 +104,7 @@
       filter(row) {
         const { keywords, minIV, types } = this.filters
 
-        if (minIV && row.totalIVs < minIV) return false
+        if (minIV && (row.totalIVs || 0) < minIV) return false
         if (types && types.length) {
           if (types.some(type => row.types.indexOf(type) === -1)) return false
         }
