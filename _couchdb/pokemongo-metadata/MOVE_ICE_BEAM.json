@@ -1,0 +1,6 @@
+{
+  "name": "Ice Beam",
+  "type": "ice",
+  "power": 90,
+  "_id": "MOVE_ICE_BEAM"
+}

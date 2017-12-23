@@ -11,11 +11,17 @@
     "attack": 36,
     "defense": 71
   },
-  "previousEvolution": "POKEMON_AZUMARILL",
-  "nextEvolutions": [],
+  "previousEvolution": null,
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_MARILL",
+      "candy": 25,
+      "item": null
+    }
+  ],
   "rarity": null,
   "maxCP": 316,
-  "buddyDistance": 5,
+  "buddyDistance": 3,
   "height": 0.2,
   "weight": 2,
   "_id": "POKEMON_AZURILL"

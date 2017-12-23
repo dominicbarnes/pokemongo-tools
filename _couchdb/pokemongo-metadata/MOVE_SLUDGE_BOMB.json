@@ -1,0 +1,6 @@
+{
+  "name": "Sludge Bomb",
+  "type": "poison",
+  "power": 80,
+  "_id": "MOVE_SLUDGE_BOMB"
+}

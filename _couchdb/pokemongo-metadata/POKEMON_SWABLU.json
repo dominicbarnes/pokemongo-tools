@@ -15,13 +15,13 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_ALTARIA",
-      "candy": 50,
+      "candy": 400,
       "item": null
     }
   ],
   "rarity": null,
   "maxCP": 722,
-  "buddyDistance": 5,
+  "buddyDistance": 1,
   "height": 0.41,
   "weight": 1.2,
   "_id": "POKEMON_SWABLU"

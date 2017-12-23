@@ -15,7 +15,7 @@
   "nextEvolutions": [],
   "rarity": "mythic",
   "maxCP": 3090,
-  "buddyDistance": 20,
+  "buddyDistance": 5,
   "height": 0.61,
   "weight": 5,
   "_id": "POKEMON_CELEBI"

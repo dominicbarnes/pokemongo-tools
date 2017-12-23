@@ -20,7 +20,7 @@
   ],
   "rarity": null,
   "maxCP": 1285,
-  "buddyDistance": 5,
+  "buddyDistance": 1,
   "height": 0.71,
   "weight": 30.6,
   "_id": "POKEMON_SPOINK"

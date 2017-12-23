@@ -20,7 +20,7 @@
   ],
   "rarity": null,
   "maxCP": 788,
-  "buddyDistance": 5,
+  "buddyDistance": 1,
   "height": 0.41,
   "weight": 10.3,
   "_id": "POKEMON_GULPIN"

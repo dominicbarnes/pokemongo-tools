@@ -1,0 +1,6 @@
+{
+  "name": "Solar Beam",
+  "type": "grass",
+  "power": 180,
+  "_id": "MOVE_SOLAR_BEAM"
+}

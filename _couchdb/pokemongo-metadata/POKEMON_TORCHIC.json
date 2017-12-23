@@ -20,7 +20,7 @@
   ],
   "rarity": null,
   "maxCP": 959,
-  "buddyDistance": 5,
+  "buddyDistance": 3,
   "height": 0.41,
   "weight": 2.5,
   "_id": "POKEMON_TORCHIC"

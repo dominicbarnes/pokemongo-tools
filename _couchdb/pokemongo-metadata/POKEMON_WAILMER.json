@@ -14,13 +14,13 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_WAILORD",
-      "candy": 50,
+      "candy": 400,
       "item": null
     }
   ],
   "rarity": null,
   "maxCP": 1424,
-  "buddyDistance": 5,
+  "buddyDistance": 1,
   "height": 2.01,
   "weight": 130,
   "_id": "POKEMON_WAILMER"

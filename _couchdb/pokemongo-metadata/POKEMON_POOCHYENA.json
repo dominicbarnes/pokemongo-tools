@@ -20,7 +20,7 @@
   ],
   "rarity": null,
   "maxCP": 564,
-  "buddyDistance": 5,
+  "buddyDistance": 1,
   "height": 0.51,
   "weight": 13.6,
   "_id": "POKEMON_POOCHYENA"

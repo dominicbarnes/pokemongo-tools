@@ -10,7 +10,7 @@
     "attack": 60,
     "defense": 106
   },
-  "previousEvolution": null,
+  "previousEvolution": "POKEMON_WYNAUT",
   "nextEvolutions": [],
   "rarity": null,
   "maxCP": 1024,

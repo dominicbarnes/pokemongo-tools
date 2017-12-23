@@ -6,15 +6,15 @@
     "water"
   ],
   "baseStats": {
-    "stamina": 200,
-    "attack": 297,
-    "defense": 276
+    "stamina": 182,
+    "attack": 270,
+    "defense": 251
   },
   "previousEvolution": null,
   "nextEvolutions": [],
   "rarity": "legendary",
-  "maxCP": 4874,
-  "buddyDistance": 5,
+  "maxCP": 4074,
+  "buddyDistance": 20,
   "height": 4.5,
   "weight": 352,
   "_id": "POKEMON_KYOGRE"

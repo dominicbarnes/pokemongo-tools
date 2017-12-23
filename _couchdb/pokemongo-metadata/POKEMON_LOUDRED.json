@@ -20,7 +20,7 @@
   ],
   "rarity": null,
   "maxCP": 1233,
-  "buddyDistance": 5,
+  "buddyDistance": 1,
   "height": 0.99,
   "weight": 40.5,
   "_id": "POKEMON_LOUDRED"

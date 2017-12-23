@@ -21,7 +21,7 @@
   ],
   "rarity": null,
   "maxCP": 716,
-  "buddyDistance": 5,
+  "buddyDistance": 1,
   "height": 0.41,
   "weight": 1.9,
   "_id": "POKEMON_BARBOACH"

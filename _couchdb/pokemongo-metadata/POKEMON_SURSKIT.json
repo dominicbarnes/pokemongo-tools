@@ -21,7 +21,7 @@
   ],
   "rarity": null,
   "maxCP": 695,
-  "buddyDistance": 5,
+  "buddyDistance": 1,
   "height": 0.51,
   "weight": 1.7,
   "_id": "POKEMON_SURSKIT"

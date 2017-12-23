@@ -1,0 +1,6 @@
+{
+  "name": "Volt Switch",
+  "type": "electric",
+  "power": 20,
+  "_id": "MOVE_VOLT_SWITCH_FAST"
+}

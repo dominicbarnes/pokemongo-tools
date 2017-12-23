@@ -21,7 +21,7 @@
   ],
   "rarity": null,
   "maxCP": 1310,
-  "buddyDistance": 5,
+  "buddyDistance": 3,
   "height": 0.71,
   "weight": 12.5,
   "_id": "POKEMON_ANORITH"

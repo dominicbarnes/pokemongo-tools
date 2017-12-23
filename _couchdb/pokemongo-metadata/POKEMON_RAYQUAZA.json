@@ -7,15 +7,15 @@
     "flying"
   ],
   "baseStats": {
-    "stamina": 210,
-    "attack": 312,
-    "defense": 187
+    "stamina": 191,
+    "attack": 284,
+    "defense": 170
   },
   "previousEvolution": null,
   "nextEvolutions": [],
   "rarity": "legendary",
-  "maxCP": 4354,
-  "buddyDistance": 5,
+  "maxCP": 3645,
+  "buddyDistance": 20,
   "height": 7.01,
   "weight": 206.5,
   "_id": "POKEMON_RAYQUAZA"

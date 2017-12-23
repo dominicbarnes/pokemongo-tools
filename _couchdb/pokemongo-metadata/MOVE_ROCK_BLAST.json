@@ -1,0 +1,6 @@
+{
+  "name": "Rock Blast",
+  "type": "rock",
+  "power": 50,
+  "_id": "MOVE_ROCK_BLAST"
+}

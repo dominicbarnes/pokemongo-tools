@@ -21,7 +21,7 @@
   ],
   "rarity": null,
   "maxCP": 642,
-  "buddyDistance": 5,
+  "buddyDistance": 1,
   "height": 0.3,
   "weight": 2.3,
   "_id": "POKEMON_TAILLOW"

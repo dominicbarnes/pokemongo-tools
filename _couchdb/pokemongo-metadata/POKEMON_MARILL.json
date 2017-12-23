@@ -11,7 +11,7 @@
     "attack": 37,
     "defense": 93
   },
-  "previousEvolution": null,
+  "previousEvolution": "POKEMON_AZURILL",
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_AZUMARILL",

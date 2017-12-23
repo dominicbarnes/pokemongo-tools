@@ -1,0 +1,6 @@
+{
+  "name": "Charge Beam",
+  "type": "electric",
+  "power": 8,
+  "_id": "MOVE_CHARGE_BEAM_FAST"
+}

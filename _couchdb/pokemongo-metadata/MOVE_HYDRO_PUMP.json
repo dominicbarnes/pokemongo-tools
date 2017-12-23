@@ -1,0 +1,6 @@
+{
+  "name": "Hydro Pump",
+  "type": "water",
+  "power": 130,
+  "_id": "MOVE_HYDRO_PUMP"
+}

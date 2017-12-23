@@ -1,0 +1,6 @@
+{
+  "name": "Poison Jab",
+  "type": "poison",
+  "power": 10,
+  "_id": "MOVE_POISON_JAB_FAST"
+}

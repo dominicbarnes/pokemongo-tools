@@ -20,7 +20,7 @@
   ],
   "rarity": null,
   "maxCP": 603,
-  "buddyDistance": 5,
+  "buddyDistance": 1,
   "height": 0.61,
   "weight": 16.3,
   "_id": "POKEMON_WHISMUR"

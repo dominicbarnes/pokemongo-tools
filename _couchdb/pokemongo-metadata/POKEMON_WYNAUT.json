@@ -14,13 +14,13 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_WOBBUFFET",
-      "candy": 50,
+      "candy": 25,
       "item": null
     }
   ],
   "rarity": null,
   "maxCP": 503,
-  "buddyDistance": 5,
+  "buddyDistance": 3,
   "height": 0.61,
   "weight": 14,
   "_id": "POKEMON_WYNAUT"

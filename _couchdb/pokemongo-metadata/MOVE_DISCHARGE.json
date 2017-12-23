@@ -1,0 +1,6 @@
+{
+  "name": "Discharge",
+  "type": "electric",
+  "power": 65,
+  "_id": "MOVE_DISCHARGE"
+}

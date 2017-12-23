@@ -21,7 +21,7 @@
   ],
   "rarity": null,
   "maxCP": 1232,
-  "buddyDistance": 5,
+  "buddyDistance": 1,
   "height": 0.41,
   "weight": 60,
   "_id": "POKEMON_ARON"
