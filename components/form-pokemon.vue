@@ -27,6 +27,23 @@
       <b-form-input id="add-hp-input" type="number" required min="10" v-model.number="value.hp" />
     </b-form-group>
 
+    <b-form-group id="add-moves" label="Moves">
+      <b-row>
+        <b-col>
+          <b-input-group>
+            <b-input-group-addon>Quick Move</b-input-group-addon>
+            <b-form-select id="add-quick-move" v-bind:options="quickMoves" v-model="value.quickMove" />
+          </b-input-group>
+        </b-col>
+        <b-col>
+          <b-input-group>
+            <b-input-group-addon>Charge Move</b-input-group-addon>
+            <b-form-select id="add-quick-move" v-bind:options="chargeMoves" v-model="value.chargeMove" />
+          </b-input-group>
+        </b-col>
+      </b-row>
+    </b-form-group>
+
     <b-form-group id="add-iv" label="Individual Values (IVs)" description="If known, enter this Pokémon's IVs.">
       <b-row>
         <b-col>
@@ -84,6 +101,24 @@
         })
 
         return [ { text: 'Choose a Species', value: null } ].concat(options)
+      },
+
+      moves() {
+        return this.$store.state.metadata.moves.slice().sort(sortBy('name')).map(move => {
+          const text = `${move.name} (${move.type})`
+          const value = move._id
+          return { text, value }
+        })
+      },
+
+      quickMoves() {
+        const options = this.moves.filter(option => option.value.endsWith('_FAST'))
+        return [ { text: 'Choose a Move', value: null } ].concat(options)
+      },
+
+      chargeMoves() {
+        const options = this.moves.filter(option => !option.value.endsWith('_FAST'))
+        return [ { text: 'Choose a Move', value: null } ].concat(options)
       },
 
       dex() {

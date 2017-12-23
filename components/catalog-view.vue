@@ -68,7 +68,18 @@
 
         <b-col>
           <h2>Moves</h2>
-          <b-alert show variant="warning">Coming Soon</b-alert>
+          <table class="table table-bordered table-sm">
+            <tbody>
+              <tr>
+                <th>Quick Move</th>
+                <td>{{ quickMove }}</td>
+              </tr>
+              <tr>
+                <th>Charge Move</th>
+                <td>{{ chargeMove }}</td>
+              </tr>
+            </tbody>
+          </table>
         </b-col>
 
         <b-col>
@@ -128,6 +139,22 @@
         const { attackIV, defenseIV, staminaIV } = this.catalog
         const parts = [attackIV, defenseIV, staminaIV].filter(Boolean)
         return parts.reduce((acc, x) => acc + x, 0)
+      },
+
+      quickMove() {
+        const { quickMove } = this.catalog
+        if (!quickMove) return 'n/a'
+        const metadata = this.$store.getters['metadata/movesByID'][quickMove]
+        if (!metadata) return 'unknown'
+        return metadata.name
+      },
+
+      chargeMove() {
+        const { chargeMove } = this.catalog
+        if (!chargeMove) return 'n/a'
+        const metadata = this.$store.getters['metadata/movesByID'][chargeMove]
+        if (!metadata) return 'unknown'
+        return metadata.name
       }
     },
 

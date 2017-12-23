@@ -13,6 +13,7 @@ const namespaced = true
 const state = {
   types: {},
   pokemon: [],
+  moves: [],
   loading: true
 }
 
@@ -29,13 +30,21 @@ const getters = {
       acc[pokemon._id] = pokemon
       return acc
     }, Object.create(null))
+  },
+
+  movesByID ({ moves }) {
+    return moves.reduce((acc, move) => {
+      acc[move._id] = move
+      return acc
+    }, Object.create(null))
   }
 }
 
 const mutations = {
   loaded: () => Vue.set(state, 'loading', false),
   types: (state, types) => Vue.set(state, 'types', types),
-  pokemon: (state, pokemon) => Vue.set(state, 'pokemon', pokemon)
+  pokemon: (state, pokemon) => Vue.set(state, 'pokemon', pokemon),
+  moves: (state, moves) => Vue.set(state, 'moves', moves)
 }
 
 const actions = {
@@ -43,14 +52,17 @@ const actions = {
     try {
       commit('types', await store.find('TYPES'))
       commit('pokemon', await store.withIdPrefix('POKEMON_').findAll())
+      commit('moves', await store.withIdPrefix('MOVE_').findAll())
+      commit('loaded')
     } catch (err) {
       console.warn('metadata not found in local cache')
     }
 
     await store.pull()
-    commit('loaded')
     commit('types', await store.find('TYPES'))
     commit('pokemon', await store.withIdPrefix('POKEMON_').findAll())
+    commit('moves', await store.withIdPrefix('MOVE_').findAll())
+    commit('loaded')
   }
 }
 

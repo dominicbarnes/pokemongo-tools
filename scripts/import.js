@@ -40,6 +40,12 @@ const query = `{
     list
     matrix
   }
+  moves {
+    id
+    name
+    type
+    power
+  }
 }`
 
 main().catch(err => console.error(err))
@@ -56,6 +62,7 @@ function docs (data) {
   return []
     .concat(types(data.types))
     .concat(pokemon(data.pokemon))
+    .concat(moves(data.moves))
 }
 
 function types (meta) {
@@ -78,5 +85,13 @@ function pokemon (list) {
       })
     }
     return pokemon
+  })
+}
+
+function moves (list) {
+  return list.map(move => {
+    move._id = `MOVE_${move.id}`
+    delete move.id
+    return move
   })
 }
