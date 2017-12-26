@@ -8,7 +8,10 @@
           <b-navbar-nav>
             <b-nav-item to="/pokedex">Pokédex</b-nav-item>
             <b-nav-item to="/types">Type Chart</b-nav-item>
-            <b-nav-item to="/catalog">Catalog</b-nav-item>
+            <b-nav-item to="/catalog">
+              Catalog
+              <b-badge v-if="catalogCount > 0">{{ catalogCount }}</b-badge>
+            </b-nav-item>
           </b-navbar-nav>
 
           <b-navbar-nav v-show="loggedIn" class="ml-auto">
@@ -93,6 +96,10 @@
 
       username() {
         return this.$store.getters['account/username']
+      },
+
+      catalogCount() {
+        return this.$store.getters['pokemon/count']
       }
     },
 

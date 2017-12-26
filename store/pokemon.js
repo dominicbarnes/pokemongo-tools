@@ -18,6 +18,9 @@ const getters = {
       acc[pokemon._id] = pokemon
       return acc
     }, Object.create(null))
+  },
+  count ({ list }) {
+    return list.length
   }
 }
 
