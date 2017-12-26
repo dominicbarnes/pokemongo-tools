@@ -72,7 +72,8 @@
     </b-form-group>
 
     <b-form-group id="add-notes" label="Notes" label-for="add-notes" description="Add your own custom notes about this Pokémon.">
-      <b-form-textarea id="add-notes-input" v-bind:rows="3" v-model="value.notes" />
+      <!-- <b-form-textarea id="add-notes-input" v-bind:rows="3" v-model="value.notes" /> -->
+      <b-form-input id="add-notes-input" v-model="value.notes" />
     </b-form-group>
   </div>
 </template>
