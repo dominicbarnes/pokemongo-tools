@@ -49,19 +49,19 @@
         <b-col>
            <b-input-group>
              <b-input-group-addon>Attack</b-input-group-addon>
-            <b-form-input id="add-iv-attack-input" type="number" min="1" max="15" v-model.number="value.attackIV" />
+            <b-form-input id="add-iv-attack-input" type="number" min="0" max="15" v-model.number="value.attackIV" />
           </b-input-group>
         </b-col>
         <b-col>
           <b-input-group>
             <b-input-group-addon>Defense</b-input-group-addon>
-            <b-form-input id="add-iv-defense-input" type="number" min="1" max="15" v-model.number="value.defenseIV" />
+            <b-form-input id="add-iv-defense-input" type="number" min="0" max="15" v-model.number="value.defenseIV" />
           </b-input-group>
         </b-col>
         <b-col>
           <b-input-group>
             <b-input-group-addon>Stamina</b-input-group-addon>
-            <b-form-input id="add-iv-stamina-input" type="number" min="1" max="15" v-model.number="value.staminaIV" />
+            <b-form-input id="add-iv-stamina-input" type="number" min="0" max="15" v-model.number="value.staminaIV" />
           </b-input-group>
         </b-col>
       </b-row>
