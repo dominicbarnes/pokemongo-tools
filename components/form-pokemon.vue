@@ -38,7 +38,7 @@
         <b-col>
           <b-input-group>
             <b-input-group-addon>Charge Move</b-input-group-addon>
-            <b-form-select id="add-quick-move" v-bind:options="chargeMoves" v-model="value.chargeMove" />
+            <b-form-select id="add-charge-move" v-bind:options="chargeMoves" v-model="value.chargeMove" />
           </b-input-group>
         </b-col>
       </b-row>
