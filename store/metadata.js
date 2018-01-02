@@ -58,7 +58,7 @@ const mutations = {
 }
 
 const actions = {
-  async fetch ({ commit }) {
+  async fetch ({ commit, state }) {
     try {
       commit('types', await store.find('TYPES'))
       commit('pokemon', await store.withIdPrefix('POKEMON_').findAll())

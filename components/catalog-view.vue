@@ -77,19 +77,13 @@
               <h4 class="card-title card-text">Moves</h4>
             </b-card-body>
             <b-list-group flush>
-              <b-list-group-item v-if="quickMove">
-                Quick Move: <b>{{ quickMove.name }}</b>
-                <div class="float-right">
-                  <type-badge v-bind:type="quickMove.type" />
-                  <b-badge pill>{{ quickMove.power }}</b-badge>
-                </div>
+              <b-list-group-item>
+                <b>Quick Move</b>
+                <move-summary v-bind:move="quickMove" />
               </b-list-group-item>
-              <b-list-group-item v-if="chargeMove">
-                Charge Move: <b>{{ chargeMove.name }}</b>
-                <div class="float-right">
-                  <type-badge v-bind:type="chargeMove.type" />
-                  <b-badge pill>{{ chargeMove.power }}</b-badge>
-                </div>
+              <b-list-group-item>
+                <b>Charge Move</b>
+                <move-summary v-bind:move="chargeMove" />
               </b-list-group-item>
             </b-list-group>
           </b-card>
@@ -169,9 +163,10 @@
   import VueMarkdown from 'vue-markdown'
 
   import { dex } from '../utils'
+  import MoveSummary from './move-summary.vue'
   import Pokesprite from './pokesprite.vue'
-  import TypeBadge from './type-badge.vue'
   import RelTime from './rel-time.vue'
+  import TypeBadge from './type-badge.vue'
 
   export default {
     data() {
@@ -299,7 +294,7 @@
       }
     },
 
-    components: { Pokesprite, VueMarkdown, RelTime, TypeBadge }
+    components: { MoveSummary, Pokesprite, RelTime, TypeBadge, VueMarkdown }
   }
 
   function sum(acc, x) {
