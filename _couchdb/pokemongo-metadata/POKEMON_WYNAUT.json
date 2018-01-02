@@ -18,6 +18,13 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_SPLASH_FAST",
+    "MOVE_COUNTER_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_MIRROR_COAT"
+  ],
   "rarity": null,
   "maxCP": 503,
   "buddyDistance": 3,

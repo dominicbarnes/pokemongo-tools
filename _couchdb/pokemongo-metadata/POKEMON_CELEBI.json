@@ -13,6 +13,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_CONFUSION_FAST",
+    "MOVE_CHARGE_BEAM_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_HYPER_BEAM",
+    "MOVE_PSYCHIC",
+    "MOVE_DAZZLING_GLEAM"
+  ],
   "rarity": "mythic",
   "maxCP": 3090,
   "buddyDistance": 5,

@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_CONFUSION_FAST",
+    "MOVE_CHARGE_BEAM_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_PSYSHOCK",
+    "MOVE_DISARMING_VOICE",
+    "MOVE_SHADOW_SNEAK"
+  ],
   "rarity": null,
   "maxCP": 436,
   "buddyDistance": 5,

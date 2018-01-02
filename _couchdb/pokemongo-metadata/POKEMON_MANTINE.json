@@ -13,6 +13,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_BUBBLE_FAST",
+    "MOVE_WING_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_WATER_PULSE",
+    "MOVE_ICE_BEAM",
+    "MOVE_AERIAL_ACE"
+  ],
   "rarity": null,
   "maxCP": 2032,
   "buddyDistance": 5,

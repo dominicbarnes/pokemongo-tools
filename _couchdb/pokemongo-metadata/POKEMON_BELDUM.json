@@ -19,6 +19,12 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_TAKE_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_STRUGGLE"
+  ],
   "rarity": null,
   "maxCP": 843,
   "buddyDistance": 5,

@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_FEINT_ATTACK_FAST",
+    "MOVE_EMBER_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_CRUNCH",
+    "MOVE_FLAMETHROWER",
+    "MOVE_DARK_PULSE"
+  ],
   "rarity": null,
   "maxCP": 1110,
   "buddyDistance": 3,

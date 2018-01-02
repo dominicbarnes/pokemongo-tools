@@ -12,6 +12,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_THUNDER_SHOCK_FAST",
+    "MOVE_VOLT_SWITCH_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_THUNDER",
+    "MOVE_THUNDERBOLT",
+    "MOVE_WILD_CHARGE"
+  ],
   "rarity": "legendary",
   "maxCP": 3349,
   "buddyDistance": 20,

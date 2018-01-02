@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_PECK_FAST",
+    "MOVE_QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_AERIAL_ACE",
+    "MOVE_DRILL_PECK",
+    "MOVE_SKY_ATTACK"
+  ],
   "rarity": null,
   "maxCP": 673,
   "buddyDistance": 1,

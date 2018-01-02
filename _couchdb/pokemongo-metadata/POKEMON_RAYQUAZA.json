@@ -13,6 +13,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_AIR_SLASH_FAST",
+    "MOVE_DRAGON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_OUTRAGE",
+    "MOVE_AERIAL_ACE",
+    "MOVE_ANCIENT_POWER"
+  ],
   "rarity": "legendary",
   "maxCP": 3645,
   "buddyDistance": 20,

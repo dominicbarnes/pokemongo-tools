@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_PECK_FAST",
+    "MOVE_QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_NIGHT_SHADE",
+    "MOVE_PSYSHOCK",
+    "MOVE_DRILL_PECK"
+  ],
   "rarity": null,
   "maxCP": 925,
   "buddyDistance": 3,

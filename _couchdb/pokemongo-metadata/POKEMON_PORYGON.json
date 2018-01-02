@@ -20,6 +20,15 @@
       }
     }
   ],
+  "quickMoves": [
+    "MOVE_CHARGE_BEAM_FAST",
+    "MOVE_HIDDEN_POWER_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_SOLAR_BEAM",
+    "MOVE_HYPER_BEAM",
+    "MOVE_ZAP_CANNON"
+  ],
   "rarity": null,
   "maxCP": 1567,
   "buddyDistance": 3,

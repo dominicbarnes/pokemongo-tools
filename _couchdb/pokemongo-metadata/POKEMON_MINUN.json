@@ -12,6 +12,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_SPARK_FAST",
+    "MOVE_QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_THUNDERBOLT",
+    "MOVE_DISCHARGE",
+    "MOVE_SWIFT"
+  ],
   "rarity": null,
   "maxCP": 1585,
   "buddyDistance": 3,

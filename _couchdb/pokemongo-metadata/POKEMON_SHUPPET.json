@@ -18,6 +18,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_FEINT_ATTACK_FAST",
+    "MOVE_ASTONISH_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_OMINOUS_WIND",
+    "MOVE_NIGHT_SHADE",
+    "MOVE_SHADOW_SNEAK"
+  ],
   "rarity": null,
   "maxCP": 872,
   "buddyDistance": 3,

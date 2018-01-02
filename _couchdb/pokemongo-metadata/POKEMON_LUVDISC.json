@@ -12,6 +12,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_WATER_GUN_FAST",
+    "MOVE_SPLASH_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_DRAINING_KISS",
+    "MOVE_WATER_PULSE",
+    "MOVE_AQUA_JET"
+  ],
   "rarity": null,
   "maxCP": 735,
   "buddyDistance": 3,

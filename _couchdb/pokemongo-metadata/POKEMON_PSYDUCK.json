@@ -18,6 +18,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_WATER_GUN_FAST",
+    "MOVE_ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_PSYBEAM",
+    "MOVE_AQUA_TAIL",
+    "MOVE_CROSS_CHOP"
+  ],
   "rarity": null,
   "maxCP": 966,
   "buddyDistance": 3,

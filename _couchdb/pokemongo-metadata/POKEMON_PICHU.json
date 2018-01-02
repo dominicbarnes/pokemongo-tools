@@ -18,6 +18,14 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_THUNDER_SHOCK_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_THUNDERBOLT",
+    "MOVE_DISARMING_VOICE",
+    "MOVE_THUNDER_PUNCH"
+  ],
   "rarity": null,
   "maxCP": 376,
   "buddyDistance": 1,

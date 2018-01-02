@@ -13,6 +13,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_STEEL_WING_FAST",
+    "MOVE_BITE_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_ANCIENT_POWER",
+    "MOVE_IRON_HEAD",
+    "MOVE_HYPER_BEAM"
+  ],
   "rarity": null,
   "maxCP": 2608,
   "buddyDistance": 5,

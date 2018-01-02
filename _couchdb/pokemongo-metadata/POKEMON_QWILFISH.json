@@ -13,6 +13,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_POISON_STING_FAST",
+    "MOVE_WATER_GUN_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_AQUA_TAIL",
+    "MOVE_ICE_BEAM",
+    "MOVE_SLUDGE_WAVE"
+  ],
   "rarity": null,
   "maxCP": 1910,
   "buddyDistance": 3,

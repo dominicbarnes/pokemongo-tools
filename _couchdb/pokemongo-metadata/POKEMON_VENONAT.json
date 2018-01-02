@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_BUG_BITE_FAST",
+    "MOVE_CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_POISON_FANG",
+    "MOVE_PSYBEAM",
+    "MOVE_SIGNAL_BEAM"
+  ],
   "rarity": null,
   "maxCP": 902,
   "buddyDistance": 3,

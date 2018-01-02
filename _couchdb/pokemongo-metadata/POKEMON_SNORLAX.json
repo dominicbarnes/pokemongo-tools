@@ -12,6 +12,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_ZEN_HEADBUTT_FAST",
+    "MOVE_LICK_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_HEAVY_SLAM",
+    "MOVE_HYPER_BEAM",
+    "MOVE_EARTHQUAKE"
+  ],
   "rarity": null,
   "maxCP": 3355,
   "buddyDistance": 5,

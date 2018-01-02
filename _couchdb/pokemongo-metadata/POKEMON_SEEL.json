@@ -18,6 +18,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_ICE_SHARD_FAST",
+    "MOVE_LICK_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_AURORA_BEAM",
+    "MOVE_ICY_WIND",
+    "MOVE_AQUA_TAIL"
+  ],
   "rarity": null,
   "maxCP": 899,
   "buddyDistance": 3,

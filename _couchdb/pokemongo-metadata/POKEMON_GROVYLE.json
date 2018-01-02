@@ -18,6 +18,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_QUICK_ATTACK_FAST",
+    "MOVE_BULLET_SEED_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_LEAF_BLADE",
+    "MOVE_AERIAL_ACE",
+    "MOVE_GRASS_KNOT"
+  ],
   "rarity": null,
   "maxCP": 1508,
   "buddyDistance": 3,

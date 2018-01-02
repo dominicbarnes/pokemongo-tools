@@ -18,6 +18,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_POUND_FAST",
+    "MOVE_ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_PSYCHIC",
+    "MOVE_HYPER_BEAM",
+    "MOVE_DAZZLING_GLEAM"
+  ],
   "rarity": null,
   "maxCP": 1469,
   "buddyDistance": 5,

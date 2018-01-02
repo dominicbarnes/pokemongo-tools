@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_STRUGGLE_BUG_FAST",
+    "MOVE_SCRATCH_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_CROSS_POISON",
+    "MOVE_AQUA_JET",
+    "MOVE_ANCIENT_POWER"
+  ],
   "rarity": null,
   "maxCP": 1310,
   "buddyDistance": 3,

@@ -18,6 +18,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_EMBER_FAST",
+    "MOVE_KARATE_CHOP_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_BRICK_BREAK",
+    "MOVE_FIRE_PUNCH",
+    "MOVE_FLAME_BURST"
+  ],
   "rarity": null,
   "maxCP": 1178,
   "buddyDistance": 5,

@@ -13,6 +13,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_STRUGGLE_BUG_FAST",
+    "MOVE_ROCK_THROW_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_ROCK_BLAST",
+    "MOVE_STONE_EDGE",
+    "MOVE_GYRO_BALL"
+  ],
   "rarity": null,
   "maxCP": 300,
   "buddyDistance": 3,

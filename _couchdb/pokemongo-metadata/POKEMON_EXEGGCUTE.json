@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_CONFUSION_FAST",
+    "MOVE_BULLET_SEED_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_SEED_BOMB",
+    "MOVE_PSYCHIC",
+    "MOVE_ANCIENT_POWER"
+  ],
   "rarity": null,
   "maxCP": 1102,
   "buddyDistance": 3,

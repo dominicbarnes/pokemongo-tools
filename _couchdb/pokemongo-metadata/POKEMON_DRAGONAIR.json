@@ -18,6 +18,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_DRAGON_BREATH_FAST",
+    "MOVE_IRON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_WRAP",
+    "MOVE_AQUA_TAIL",
+    "MOVE_DRAGON_PULSE"
+  ],
   "rarity": null,
   "maxCP": 1609,
   "buddyDistance": 5,

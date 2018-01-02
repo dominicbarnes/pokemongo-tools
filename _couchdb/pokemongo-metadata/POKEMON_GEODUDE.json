@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_ROCK_THROW_FAST",
+    "MOVE_TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_ROCK_SLIDE",
+    "MOVE_ROCK_TOMB",
+    "MOVE_DIG"
+  ],
   "rarity": null,
   "maxCP": 1193,
   "buddyDistance": 1,

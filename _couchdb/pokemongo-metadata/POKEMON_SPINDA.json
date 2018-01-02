@@ -12,6 +12,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_SUCKER_PUNCH_FAST",
+    "MOVE_PSYCHO_CUT_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_DIG",
+    "MOVE_ROCK_TOMB",
+    "MOVE_ICY_WIND"
+  ],
   "rarity": null,
   "maxCP": 1088,
   "buddyDistance": 3,

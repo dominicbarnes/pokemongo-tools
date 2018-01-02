@@ -18,6 +18,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_POISON_STING_FAST",
+    "MOVE_SUCKER_PUNCH_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_GRASS_KNOT",
+    "MOVE_BRICK_BREAK",
+    "MOVE_SEED_BOMB"
+  ],
   "rarity": null,
   "maxCP": 1080,
   "buddyDistance": 3,

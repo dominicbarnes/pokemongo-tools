@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_EMBER_FAST",
+    "MOVE_TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_BULLDOZE",
+    "MOVE_HEAT_WAVE",
+    "MOVE_STOMP"
+  ],
   "rarity": null,
   "maxCP": 957,
   "buddyDistance": 3,

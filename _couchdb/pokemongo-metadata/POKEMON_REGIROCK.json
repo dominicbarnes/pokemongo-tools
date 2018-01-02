@@ -12,6 +12,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_ROCK_THROW_FAST",
+    "MOVE_ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_STONE_EDGE",
+    "MOVE_ZAP_CANNON",
+    "MOVE_FOCUS_BLAST"
+  ],
   "rarity": "legendary",
   "maxCP": 3087,
   "buddyDistance": 20,

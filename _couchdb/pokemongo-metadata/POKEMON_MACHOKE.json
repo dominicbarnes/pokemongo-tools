@@ -18,6 +18,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_LOW_KICK_FAST",
+    "MOVE_KARATE_CHOP_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_SUBMISSION",
+    "MOVE_BRICK_BREAK",
+    "MOVE_DYNAMIC_PUNCH"
+  ],
   "rarity": null,
   "maxCP": 1910,
   "buddyDistance": 3,

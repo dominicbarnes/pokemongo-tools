@@ -13,6 +13,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_ROCK_THROW_FAST",
+    "MOVE_CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_PSYCHIC",
+    "MOVE_ROCK_SLIDE",
+    "MOVE_MOONBLAST"
+  ],
   "rarity": null,
   "maxCP": 2245,
   "buddyDistance": 3,

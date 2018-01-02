@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_TACKLE_FAST",
+    "MOVE_METAL_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_IRON_HEAD",
+    "MOVE_ROCK_TOMB",
+    "MOVE_BODY_SLAM"
+  ],
   "rarity": null,
   "maxCP": 1232,
   "buddyDistance": 1,

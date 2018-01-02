@@ -18,6 +18,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_TACKLE_FAST",
+    "MOVE_ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_DIG",
+    "MOVE_GRASS_KNOT",
+    "MOVE_THUNDERBOLT"
+  ],
   "rarity": null,
   "maxCP": 423,
   "buddyDistance": 1,

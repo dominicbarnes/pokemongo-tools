@@ -13,6 +13,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_FURY_CUTTER_FAST",
+    "MOVE_WING_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_DIG",
+    "MOVE_AERIAL_ACE",
+    "MOVE_NIGHT_SLASH"
+  ],
   "rarity": null,
   "maxCP": 1758,
   "buddyDistance": 5,

@@ -18,6 +18,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_TACKLE_FAST",
+    "MOVE_INFESTATION_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_SLUDGE",
+    "MOVE_SLUDGE_BOMB",
+    "MOVE_DARK_PULSE"
+  ],
   "rarity": null,
   "maxCP": 1091,
   "buddyDistance": 3,

@@ -12,6 +12,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_PSYCHO_CUT_FAST",
+    "MOVE_SNARL_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_DARK_PULSE",
+    "MOVE_THUNDER",
+    "MOVE_MEGAHORN"
+  ],
   "rarity": null,
   "maxCP": 2280,
   "buddyDistance": 5,

@@ -20,6 +20,15 @@
       }
     }
   ],
+  "quickMoves": [
+    "MOVE_RAZOR_LEAF_FAST",
+    "MOVE_CUT_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_ENERGY_BALL",
+    "MOVE_GRASS_KNOT",
+    "MOVE_SEED_BOMB"
+  ],
   "rarity": null,
   "maxCP": 316,
   "buddyDistance": 3,

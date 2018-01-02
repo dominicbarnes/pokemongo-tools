@@ -12,6 +12,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_WATERFALL_FAST",
+    "MOVE_DRAGON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_HYDRO_PUMP",
+    "MOVE_BLIZZARD",
+    "MOVE_THUNDER"
+  ],
   "rarity": "legendary",
   "maxCP": 4074,
   "buddyDistance": 20,

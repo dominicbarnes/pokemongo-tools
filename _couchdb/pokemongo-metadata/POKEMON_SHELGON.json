@@ -18,6 +18,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_EMBER_FAST",
+    "MOVE_DRAGON_BREATH_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_FLAMETHROWER",
+    "MOVE_DRAGON_PULSE",
+    "MOVE_TWISTER"
+  ],
   "rarity": null,
   "maxCP": 1958,
   "buddyDistance": 5,

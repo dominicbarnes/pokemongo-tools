@@ -13,6 +13,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_DRAGON_BREATH_FAST",
+    "MOVE_ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_PSYCHIC",
+    "MOVE_DRAGON_CLAW",
+    "MOVE_SOLAR_BEAM"
+  ],
   "rarity": "legendary",
   "maxCP": 3644,
   "buddyDistance": 20,

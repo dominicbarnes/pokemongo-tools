@@ -13,6 +13,14 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_FIRE_SPIN_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_FIRE_BLAST",
+    "MOVE_HEAT_WAVE",
+    "MOVE_OVERHEAT"
+  ],
   "rarity": "legendary",
   "maxCP": 3272,
   "buddyDistance": 20,

@@ -30,6 +30,12 @@ const query = `{
         id
       }
     }
+    quickMoves {
+      id
+    }
+    chargeMoves {
+      id
+    }
     rarity
     maxCP
     buddyDistance
@@ -83,6 +89,12 @@ function pokemon (list) {
         const { candy, item } = evolution
         return { pokemon, candy, item }
       })
+    }
+    if (pokemon.quickMoves) {
+      pokemon.quickMoves = pokemon.quickMoves.map(move => `MOVE_${move.id}`)
+    }
+    if (pokemon.chargeMoves) {
+      pokemon.chargeMoves = pokemon.chargeMoves.map(move => `MOVE_${move.id}`)
     }
     return pokemon
   })

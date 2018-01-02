@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_RAZOR_LEAF_FAST",
+    "MOVE_VINE_WHIP_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_SLUDGE_BOMB",
+    "MOVE_SOLAR_BEAM",
+    "MOVE_POWER_WHIP"
+  ],
   "rarity": null,
   "maxCP": 1552,
   "buddyDistance": 3,

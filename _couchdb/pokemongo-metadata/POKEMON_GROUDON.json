@@ -12,6 +12,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_MUD_SHOT_FAST",
+    "MOVE_DRAGON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_EARTHQUAKE",
+    "MOVE_FIRE_BLAST",
+    "MOVE_SOLAR_BEAM"
+  ],
   "rarity": "legendary",
   "maxCP": 4074,
   "buddyDistance": 20,

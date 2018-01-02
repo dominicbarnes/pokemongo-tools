@@ -12,6 +12,14 @@
   },
   "previousEvolution": "POKEMON_EEVEE",
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_WATER_GUN_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_WATER_PULSE",
+    "MOVE_HYDRO_PUMP",
+    "MOVE_AQUA_TAIL"
+  ],
   "rarity": null,
   "maxCP": 3157,
   "buddyDistance": 5,

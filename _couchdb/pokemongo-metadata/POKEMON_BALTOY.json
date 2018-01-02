@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_CONFUSION_FAST",
+    "MOVE_EXTRASENSORY_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_GYRO_BALL",
+    "MOVE_PSYBEAM",
+    "MOVE_DIG"
+  ],
   "rarity": null,
   "maxCP": 676,
   "buddyDistance": 3,

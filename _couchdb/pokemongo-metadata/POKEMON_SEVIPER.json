@@ -12,6 +12,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_POISON_JAB_FAST",
+    "MOVE_IRON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_POISON_FANG",
+    "MOVE_CRUNCH",
+    "MOVE_WRAP"
+  ],
   "rarity": null,
   "maxCP": 1928,
   "buddyDistance": 3,

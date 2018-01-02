@@ -13,6 +13,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_POISON_JAB_FAST",
+    "MOVE_RAZOR_LEAF_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_PETAL_BLIZZARD",
+    "MOVE_SLUDGE_BOMB",
+    "MOVE_DAZZLING_GLEAM"
+  ],
   "rarity": null,
   "maxCP": 1718,
   "buddyDistance": 3,

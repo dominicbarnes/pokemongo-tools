@@ -12,6 +12,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_FIRE_SPIN_FAST",
+    "MOVE_EMBER_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_OVERHEAT",
+    "MOVE_SOLAR_BEAM",
+    "MOVE_EARTHQUAKE"
+  ],
   "rarity": null,
   "maxCP": 2036,
   "buddyDistance": 3,

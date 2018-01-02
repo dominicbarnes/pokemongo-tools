@@ -13,6 +13,15 @@
   },
   "previousEvolution": "POKEMON_SILCOON",
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_STRUGGLE_BUG_FAST",
+    "MOVE_INFESTATION_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_SILVER_WIND",
+    "MOVE_AIR_CUTTER",
+    "MOVE_BUG_BUZZ"
+  ],
   "rarity": null,
   "maxCP": 1573,
   "buddyDistance": 1,

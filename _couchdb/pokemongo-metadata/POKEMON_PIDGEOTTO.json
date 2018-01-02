@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_WING_ATTACK_FAST",
+    "MOVE_STEEL_WING_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_TWISTER",
+    "MOVE_AERIAL_ACE",
+    "MOVE_AIR_CUTTER"
+  ],
   "rarity": null,
   "maxCP": 1085,
   "buddyDistance": 1,

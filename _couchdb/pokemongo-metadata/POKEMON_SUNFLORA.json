@@ -12,6 +12,15 @@
   },
   "previousEvolution": "POKEMON_SUNKERN",
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_RAZOR_LEAF_FAST",
+    "MOVE_BULLET_SEED_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_SOLAR_BEAM",
+    "MOVE_PETAL_BLIZZARD",
+    "MOVE_SLUDGE_BOMB"
+  ],
   "rarity": null,
   "maxCP": 2048,
   "buddyDistance": 3,

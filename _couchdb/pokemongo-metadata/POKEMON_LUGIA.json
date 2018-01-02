@@ -13,6 +13,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_EXTRASENSORY_FAST",
+    "MOVE_DRAGON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_SKY_ATTACK",
+    "MOVE_HYDRO_PUMP",
+    "MOVE_FUTURESIGHT"
+  ],
   "rarity": "legendary",
   "maxCP": 3598,
   "buddyDistance": 20,

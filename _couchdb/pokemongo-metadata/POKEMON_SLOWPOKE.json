@@ -26,6 +26,15 @@
       }
     }
   ],
+  "quickMoves": [
+    "MOVE_WATER_GUN_FAST",
+    "MOVE_CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_WATER_PULSE",
+    "MOVE_PSYSHOCK",
+    "MOVE_PSYCHIC"
+  ],
   "rarity": null,
   "maxCP": 1204,
   "buddyDistance": 3,

@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_MUD_SLAP_FAST",
+    "MOVE_ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_BULLDOZE",
+    "MOVE_HORN_ATTACK",
+    "MOVE_STOMP"
+  ],
   "rarity": null,
   "maxCP": 1679,
   "buddyDistance": 3,

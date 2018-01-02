@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_MUD_SHOT_FAST",
+    "MOVE_DRAGON_BREATH_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_SAND_TOMB",
+    "MOVE_BULLDOZE",
+    "MOVE_BUG_BUZZ"
+  ],
   "rarity": null,
   "maxCP": 1065,
   "buddyDistance": 5,

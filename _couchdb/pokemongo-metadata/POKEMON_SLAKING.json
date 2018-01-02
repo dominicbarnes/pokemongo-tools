@@ -12,6 +12,14 @@
   },
   "previousEvolution": "POKEMON_VIGOROTH",
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_YAWN_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_HYPER_BEAM",
+    "MOVE_PLAY_ROUGH",
+    "MOVE_EARTHQUAKE"
+  ],
   "rarity": null,
   "maxCP": 4548,
   "buddyDistance": 5,

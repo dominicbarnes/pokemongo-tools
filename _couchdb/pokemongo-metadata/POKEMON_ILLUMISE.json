@@ -12,6 +12,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_STRUGGLE_BUG_FAST",
+    "MOVE_TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_SILVER_WIND",
+    "MOVE_BUG_BUZZ",
+    "MOVE_DAZZLING_GLEAM"
+  ],
   "rarity": null,
   "maxCP": 1620,
   "buddyDistance": 3,

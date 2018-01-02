@@ -21,6 +21,15 @@
       }
     }
   ],
+  "quickMoves": [
+    "MOVE_FURY_CUTTER_FAST",
+    "MOVE_AIR_SLASH_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_NIGHT_SLASH",
+    "MOVE_X_SCISSOR",
+    "MOVE_AERIAL_ACE"
+  ],
   "rarity": null,
   "maxCP": 2464,
   "buddyDistance": 5,

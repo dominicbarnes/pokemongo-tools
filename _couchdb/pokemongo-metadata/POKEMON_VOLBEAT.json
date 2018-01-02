@@ -12,6 +12,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_STRUGGLE_BUG_FAST",
+    "MOVE_TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_SIGNAL_BEAM",
+    "MOVE_BUG_BUZZ",
+    "MOVE_THUNDERBOLT"
+  ],
   "rarity": null,
   "maxCP": 1620,
   "buddyDistance": 3,

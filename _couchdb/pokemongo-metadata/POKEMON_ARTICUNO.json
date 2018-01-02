@@ -13,6 +13,14 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_FROST_BREATH_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_ICE_BEAM",
+    "MOVE_ICY_WIND",
+    "MOVE_BLIZZARD"
+  ],
   "rarity": "legendary",
   "maxCP": 2933,
   "buddyDistance": 20,

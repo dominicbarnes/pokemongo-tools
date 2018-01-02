@@ -20,6 +20,15 @@
       }
     }
   ],
+  "quickMoves": [
+    "MOVE_WATER_GUN_FAST",
+    "MOVE_DRAGON_BREATH_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_AURORA_BEAM",
+    "MOVE_DRAGON_PULSE",
+    "MOVE_HYDRO_PUMP"
+  ],
   "rarity": null,
   "maxCP": 1979,
   "buddyDistance": 3,

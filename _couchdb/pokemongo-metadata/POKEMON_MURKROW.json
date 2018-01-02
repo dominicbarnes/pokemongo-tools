@@ -13,6 +13,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_PECK_FAST",
+    "MOVE_FEINT_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_DRILL_PECK",
+    "MOVE_FOUL_PLAY",
+    "MOVE_DARK_PULSE"
+  ],
   "rarity": null,
   "maxCP": 1392,
   "buddyDistance": 3,

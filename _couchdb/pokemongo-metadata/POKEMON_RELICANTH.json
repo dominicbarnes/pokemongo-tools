@@ -13,6 +13,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_WATER_GUN_FAST",
+    "MOVE_ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_ANCIENT_POWER",
+    "MOVE_AQUA_TAIL",
+    "MOVE_HYDRO_PUMP"
+  ],
   "rarity": null,
   "maxCP": 2557,
   "buddyDistance": 5,

@@ -13,6 +13,15 @@
   },
   "previousEvolution": "POKEMON_METAPOD",
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_STRUGGLE_BUG_FAST",
+    "MOVE_CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_BUG_BUZZ",
+    "MOVE_PSYCHIC",
+    "MOVE_SIGNAL_BEAM"
+  ],
   "rarity": null,
   "maxCP": 1701,
   "buddyDistance": 1,

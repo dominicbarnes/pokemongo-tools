@@ -12,6 +12,15 @@
   },
   "previousEvolution": "POKEMON_VOLTORB",
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_SPARK_FAST",
+    "MOVE_VOLT_SWITCH_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_DISCHARGE",
+    "MOVE_THUNDERBOLT",
+    "MOVE_HYPER_BEAM"
+  ],
   "rarity": null,
   "maxCP": 1900,
   "buddyDistance": 3,

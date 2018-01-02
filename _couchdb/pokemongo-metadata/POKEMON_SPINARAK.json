@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_POISON_STING_FAST",
+    "MOVE_BUG_BITE_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_NIGHT_SLASH",
+    "MOVE_SIGNAL_BEAM",
+    "MOVE_CROSS_POISON"
+  ],
   "rarity": null,
   "maxCP": 685,
   "buddyDistance": 1,

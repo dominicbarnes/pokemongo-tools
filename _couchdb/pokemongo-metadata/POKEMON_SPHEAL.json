@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_WATER_GUN_FAST",
+    "MOVE_ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_AURORA_BEAM",
+    "MOVE_BODY_SLAM",
+    "MOVE_WATER_PULSE"
+  ],
   "rarity": null,
   "maxCP": 876,
   "buddyDistance": 3,

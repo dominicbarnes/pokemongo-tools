@@ -13,6 +13,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_ICE_SHARD_FAST",
+    "MOVE_FEINT_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_AVALANCHE",
+    "MOVE_ICE_PUNCH",
+    "MOVE_FOUL_PLAY"
+  ],
   "rarity": null,
   "maxCP": 1868,
   "buddyDistance": 3,

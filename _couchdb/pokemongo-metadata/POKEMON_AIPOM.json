@@ -12,6 +12,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_SCRATCH_FAST",
+    "MOVE_ASTONISH_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_LOW_SWEEP",
+    "MOVE_SWIFT",
+    "MOVE_AERIAL_ACE"
+  ],
   "rarity": null,
   "maxCP": 1188,
   "buddyDistance": 3,

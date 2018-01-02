@@ -18,6 +18,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_PECK_FAST",
+    "MOVE_MUD_SHOT_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_WATER_PULSE",
+    "MOVE_HORN_ATTACK",
+    "MOVE_AQUA_TAIL"
+  ],
   "rarity": null,
   "maxCP": 1006,
   "buddyDistance": 3,

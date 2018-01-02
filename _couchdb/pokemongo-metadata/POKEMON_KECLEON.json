@@ -12,6 +12,18 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_LICK_FAST",
+    "MOVE_SUCKER_PUNCH_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_FOUL_PLAY",
+    "MOVE_FLAMETHROWER",
+    "MOVE_THUNDER",
+    "MOVE_ICE_BEAM",
+    "MOVE_AERIAL_ACE",
+    "MOVE_SHADOW_SNEAK"
+  ],
   "rarity": null,
   "maxCP": 1924,
   "buddyDistance": 5,

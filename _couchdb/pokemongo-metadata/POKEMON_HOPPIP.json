@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_TACKLE_FAST",
+    "MOVE_BULLET_SEED_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_GRASS_KNOT",
+    "MOVE_DAZZLING_GLEAM",
+    "MOVE_SEED_BOMB"
+  ],
   "rarity": null,
   "maxCP": 508,
   "buddyDistance": 3,

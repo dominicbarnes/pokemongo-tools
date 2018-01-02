@@ -28,6 +28,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_ROCK_SMASH_FAST",
+    "MOVE_TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_BRICK_BREAK",
+    "MOVE_ROCK_SLIDE",
+    "MOVE_LOW_SWEEP"
+  ],
   "rarity": null,
   "maxCP": 404,
   "buddyDistance": 5,

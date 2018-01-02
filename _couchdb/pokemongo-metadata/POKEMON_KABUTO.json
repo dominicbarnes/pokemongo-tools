@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_SCRATCH_FAST",
+    "MOVE_MUD_SHOT_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_ANCIENT_POWER",
+    "MOVE_AQUA_JET",
+    "MOVE_ROCK_TOMB"
+  ],
   "rarity": null,
   "maxCP": 1172,
   "buddyDistance": 5,

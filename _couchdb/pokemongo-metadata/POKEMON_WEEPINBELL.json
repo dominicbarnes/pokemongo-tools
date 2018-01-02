@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_BULLET_SEED_FAST",
+    "MOVE_ACID_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_POWER_WHIP",
+    "MOVE_SLUDGE_BOMB",
+    "MOVE_SEED_BOMB"
+  ],
   "rarity": null,
   "maxCP": 1475,
   "buddyDistance": 3,

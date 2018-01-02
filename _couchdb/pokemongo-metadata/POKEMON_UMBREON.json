@@ -12,6 +12,14 @@
   },
   "previousEvolution": "POKEMON_EEVEE",
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_FEINT_ATTACK_FAST",
+    "MOVE_SNARL_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_DARK_PULSE",
+    "MOVE_FOUL_PLAY"
+  ],
   "rarity": null,
   "maxCP": 2052,
   "buddyDistance": 5,

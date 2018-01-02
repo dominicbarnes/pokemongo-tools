@@ -13,6 +13,15 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_AIR_SLASH_FAST",
+    "MOVE_RAZOR_LEAF_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_STOMP",
+    "MOVE_AERIAL_ACE",
+    "MOVE_LEAF_BLADE"
+  ],
   "rarity": null,
   "maxCP": 1846,
   "buddyDistance": 5,

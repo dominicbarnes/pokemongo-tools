@@ -18,6 +18,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_PSYCHO_CUT_FAST",
+    "MOVE_CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_PSYBEAM",
+    "MOVE_DAZZLING_GLEAM",
+    "MOVE_SHADOW_BALL"
+  ],
   "rarity": null,
   "maxCP": 1859,
   "buddyDistance": 3,

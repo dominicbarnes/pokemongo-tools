@@ -12,6 +12,12 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_STRUGGLE"
+  ],
   "rarity": null,
   "maxCP": 389,
   "buddyDistance": 3,

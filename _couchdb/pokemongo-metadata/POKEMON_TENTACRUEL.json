@@ -13,6 +13,15 @@
   },
   "previousEvolution": "POKEMON_TENTACOOL",
   "nextEvolutions": [],
+  "quickMoves": [
+    "MOVE_ACID_FAST",
+    "MOVE_POISON_JAB_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_HYDRO_PUMP",
+    "MOVE_SLUDGE_WAVE",
+    "MOVE_BLIZZARD"
+  ],
   "rarity": null,
   "maxCP": 2374,
   "buddyDistance": 3,

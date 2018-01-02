@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_VINE_WHIP_FAST",
+    "MOVE_TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_SLUDGE_BOMB",
+    "MOVE_SEED_BOMB",
+    "MOVE_POWER_WHIP"
+  ],
   "rarity": null,
   "maxCP": 981,
   "buddyDistance": 3,

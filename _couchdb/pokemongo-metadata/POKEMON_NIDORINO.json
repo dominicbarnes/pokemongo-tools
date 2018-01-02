@@ -18,6 +18,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_POISON_JAB_FAST",
+    "MOVE_POISON_STING_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_HORN_ATTACK",
+    "MOVE_DIG",
+    "MOVE_SLUDGE_BOMB"
+  ],
   "rarity": null,
   "maxCP": 1252,
   "buddyDistance": 3,

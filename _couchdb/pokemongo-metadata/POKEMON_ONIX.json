@@ -21,6 +21,15 @@
       }
     }
   ],
+  "quickMoves": [
+    "MOVE_ROCK_THROW_FAST",
+    "MOVE_TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_SAND_TOMB",
+    "MOVE_STONE_EDGE",
+    "MOVE_HEAVY_SLAM"
+  ],
   "rarity": null,
   "maxCP": 1002,
   "buddyDistance": 5,

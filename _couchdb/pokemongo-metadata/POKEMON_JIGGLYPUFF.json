@@ -19,6 +19,15 @@
       "item": null
     }
   ],
+  "quickMoves": [
+    "MOVE_POUND_FAST",
+    "MOVE_FEINT_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "MOVE_DISARMING_VOICE",
+    "MOVE_GYRO_BALL",
+    "MOVE_DAZZLING_GLEAM"
+  ],
   "rarity": null,
   "maxCP": 713,
   "buddyDistance": 1,
