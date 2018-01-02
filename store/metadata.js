@@ -37,6 +37,14 @@ const getters = {
       acc[move._id] = move
       return acc
     }, Object.create(null))
+  },
+
+  quickMoves ({ moves }) {
+    return moves.filter(move => move._id.endsWith('_FAST'))
+  },
+
+  chargeMoves ({ moves }) {
+    return moves.filter(move => !move._id.endsWith('_FAST'))
   }
 }
 
