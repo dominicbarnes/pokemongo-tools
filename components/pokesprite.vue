@@ -3,24 +3,34 @@
 </template>
 
 <script>
-  import empty from 'empty-element'
   import 'pokesprite'
+
+  import empty from 'empty-element'
+  import numeral from 'numeral'
 
   const { PkSpr } = window
 
   export default {
     props: {
-      pokemon: String,
+      pokemon: {
+        types: [ String, Number ],
+        required: true
+      },
       shiny: Boolean,
       gender: String,
       form: String
     },
 
     computed: {
+      pkmn() {
+        const { pokemon } = this
+        const slug = typeof pokemon === 'number' ? numeral(pokemon).format('000') : pokemon
+        return `pkmn-${slug}`
+      },
       classes() {
         return {
           pkspr: true,
-          [`pkmn-${this.pokemon}`]: !!this.pokemon,
+          [this.pkmn]: true,
           'color-shiny': !!this.shiny,
           [`gender-${this.gender}`]: !!this.gender,
           [`form-${this.form}`]: !!this.form

@@ -16,6 +16,7 @@
     "@hoodie/client": "^10.1.1",
     "add-cors-to-couchdb": "0.0.6",
     "babel-core": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babelify": "^8.0.0",
     "bluebird": "^3.5.1",

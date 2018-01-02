@@ -1,5 +1,5 @@
 <template>
-  <b-badge v-bind:class="classes">{{type}}</b-badge>
+  <b-badge v-bind:class="classes">{{ type }}</b-badge>
 </template>
 
 <script>

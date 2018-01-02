@@ -4,15 +4,15 @@ import Vuex from 'vuex'
 import account from './account'
 import metadata from './metadata'
 import pokemon from './pokemon'
+import { env } from '../config'
 
 const { hoodie } = window
-const debug = process.env.NODE_ENV !== 'production'
 
 Vue.use(Vuex)
 
 const store = new Vuex.Store({
   modules: { account, metadata, pokemon },
-  strict: debug
+  strict: env !== 'production'
 })
 
 store.dispatch('account/fetch')

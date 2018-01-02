@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import sortBy from 'sort-by'
 
+import { index } from './utils'
+
 const { hoodie } = window
 
 const namespaced = true
@@ -10,14 +12,14 @@ const state = {
 }
 
 const getters = {
-  recent ({ list }) {
-    return list.slice().sort(sortBy('hoodie.createdAt')).reverse()
-  },
   byID ({ list }) {
-    return list.reduce((acc, pokemon) => {
-      acc[pokemon._id] = pokemon
-      return acc
-    }, Object.create(null))
+    return index(list, '_id')
+  },
+  sort ({ list }) {
+    return key => list.slice().sort(sortBy(key))
+  },
+  recent ({ list }, { sort }) {
+    return sort('hoodie.createdAt').reverse()
   },
   count ({ list }) {
     return list.length
@@ -48,16 +50,13 @@ const actions = {
   async fetch ({ commit }) {
     commit('set', await hoodie.store.findAll(doc => doc.type === 'pokemon'))
   },
-
   async add ({ commit }, doc) {
     const input = Object.assign({ type: 'pokemon' }, doc)
     await hoodie.store.add(input)
   },
-
   async update ({ commit }, doc) {
     await hoodie.store.update(doc._id, doc)
   },
-
   async remove ({ commit }, id) {
     await hoodie.store.remove(id)
   }

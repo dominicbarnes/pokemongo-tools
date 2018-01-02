@@ -79,11 +79,14 @@
 </template>
 
 <script>
-  import numeral from 'numeral'
-  import sortBy from 'sort-by'
   import Pokesprite from './pokesprite.vue'
+  import { dex } from '../utils'
 
   export default {
+    data() {
+      return { dex: 'unknown' }
+    },
+
     props: {
       value: {
         type: Object,
@@ -95,54 +98,41 @@
 
     computed: {
       pokemon() {
-        const options = this.$store.state.metadata.pokemon.slice().sort(sortBy('dex')).map(pokemon => {
-          const text = `${pokemon.name} (#${numeral(pokemon.dex).format('000')})`
+        return this.$store.getters['metadata/pokemonSort']('dex').map(pokemon => {
+          const text = `${pokemon.name} (${dex(pokemon.dex)})`
           const value = pokemon._id
           return { text, value }
         })
-
-        return [ { text: 'Choose a Species', value: null } ].concat(options)
       },
-
-      moves() {
-        return this.$store.state.metadata.moves.slice().sort(sortBy('name')).map(move => {
-          const text = `${move.name} (${move.type})`
-          const value = move._id
-          return { text, value }
-        })
-      },
-
       quickMoves() {
-        const options = this.moves.filter(option => option.value.endsWith('_FAST'))
+        const options = this.$store.getters['metadata/quickMoves'].map(this.moveOption)
         return [ { text: 'Choose a Move', value: null } ].concat(options)
       },
-
       chargeMoves() {
-        const options = this.moves.filter(option => !option.value.endsWith('_FAST'))
+        const options = this.$store.getters['metadata/chargeMoves'].map(this.moveOption)
         return [ { text: 'Choose a Move', value: null } ].concat(options)
       },
-
-      dex() {
-        if (!this.value.pokemonID) return 'unknown'
-        const { dex } = this.$store.state.metadata.pokemon.find(pokemon => pokemon._id === this.value.pokemonID)
-        return numeral(dex).format('000')
-      },
-
       totalIVs() {
         const { attackIV, defenseIV, staminaIV } = this.value
         return attackIV + defenseIV + staminaIV
       }
     },
 
-    filters: {
-      percentage(value) {
-        return numeral(value).format('0%')
+    methods: {
+      moveOption(move) {
+        const text = `${move.name} (${move.type})`
+        const value = move._id
+        return { text, value }
       }
     },
 
-    methods: {
-      handleSubmit(e) {
-        this.$emit('submit', this.value)
+    watch: {
+      'value.pokemonID': function () {
+        const { pokemonID } = this.value
+        if (pokemonID) {
+          const metadata = this.$store.getters['metadata/pokemonByID'].get(pokemonID)
+          if (metadata) this.dex = metadata.dex
+        }
       }
     },
 

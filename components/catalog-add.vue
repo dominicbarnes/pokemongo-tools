@@ -1,7 +1,7 @@
 <template>
   <b-container fluid class="p-3">
     <h1>Add Pokémon to Catalog</h1>
-    <b-form v-on:submit.stop.prevent="save(pokemon)">
+    <b-form v-on:submit.stop.prevent="save">
       <form-pokemon v-model="pokemon" />
       <b-button type="submit" variant="primary">Save</b-button>
     </b-form>
@@ -17,7 +17,7 @@
     },
 
     methods: {
-      async save(pokemon) {
+      async save() {
         await this.$store.dispatch('pokemon/add', this.pokemon)
         this.$router.push({ name: 'catalog' })
       }

@@ -1,7 +1,10 @@
-import config from '../config'
 import PouchDB from 'pouchdb'
+import sortBy from 'sort-by'
 import Store from '@hoodie/store-client'
 import Vue from 'vue'
+
+import config from '../config'
+import { index } from './utils'
 
 const store = new Store('pokemongo-metadata', {
   PouchDB: PouchDB,
@@ -19,24 +22,23 @@ const state = {
 
 const getters = {
   pokemonByDex ({ pokemon }) {
-    return pokemon.reduce((acc, pokemon) => {
-      acc[pokemon.dex] = pokemon
-      return acc
-    }, Object.create(null))
+    return index(pokemon, 'dex')
   },
 
   pokemonByID ({ pokemon }) {
-    return pokemon.reduce((acc, pokemon) => {
-      acc[pokemon._id] = pokemon
-      return acc
-    }, Object.create(null))
+    return index(pokemon, '_id')
+  },
+
+  pokemonSort ({ pokemon }) {
+    return key => pokemon.slice().sort(sortBy(key))
+  },
+
+  pokemonCount ({ pokemon }) {
+    return pokemon.length
   },
 
   movesByID ({ moves }) {
-    return moves.reduce((acc, move) => {
-      acc[move._id] = move
-      return acc
-    }, Object.create(null))
+    return index(moves, '_id')
   },
 
   quickMoves ({ moves }) {

@@ -38,11 +38,11 @@
               <tbody>
                 <tr>
                   <th>CP</th>
-                  <td>{{ catalog.cp | number }}</td>
+                  <td>{{ catalog.cp | number('0,0') }}</td>
                 </tr>
                 <tr>
                   <th>HP</th>
-                  <td>{{ catalog.hp | number }}</td>
+                  <td>{{ catalog.hp | number('0,0') }}</td>
                 </tr>
               </tbody>
             </table>
@@ -50,24 +50,21 @@
               <tbody>
                 <tr>
                   <th>Attack IV</th>
-                  <td>{{ catalog.attackIV | number }}</td>
+                  <td>{{ catalog.attackIV | number('0') }}</td>
                 </tr>
                 <tr>
                   <th>Defense IV</th>
-                  <td>{{ catalog.defenseIV | number }}</td>
+                  <td>{{ catalog.defenseIV | number('0') }}</td>
                 </tr>
                 <tr>
                   <th>Stamina IV</th>
-                  <td>{{ catalog.staminaIV | number }}</td>
+                  <td>{{ catalog.staminaIV | number('0') }}</td>
                 </tr>
               </tbody>
               <tfoot>
                 <tr>
                   <th>Total IVs</th>
-                  <td>
-                    <span v-if="totalIVs">{{ totalIVs }} ({{ totalIVs / 45 | percentage }})</span>
-                    <span v-else>n/a</span>
-                  </td>
+                  <td>{{ totalIVs }} ({{ totalIVs / 45 | percentage }})</td>
                 </tr>
               </tfoot>
             </table>
@@ -170,6 +167,8 @@
   import numeral from 'numeral'
   import sortBy from 'sort-by'
   import VueMarkdown from 'vue-markdown'
+
+  import { dex } from '../utils'
   import Pokesprite from './pokesprite.vue'
   import TypeBadge from './type-badge.vue'
   import RelTime from './rel-time.vue'
@@ -193,11 +192,11 @@
 
       catalog() {
         const { pokemon } = this.$route.params
-        return this.$store.getters['pokemon/byID'][pokemon]
+        return this.$store.getters['pokemon/byID'].get(pokemon)
       },
 
       metadata() {
-        return this.$store.getters['metadata/pokemonByID'][this.catalog.pokemonID]
+        return this.$store.getters['metadata/pokemonByID'].get(this.catalog.pokemonID)
       },
 
       name() {
@@ -211,14 +210,12 @@
 
       quickMove() {
         const { quickMove } = this.catalog
-        if (!quickMove) return null
-        return this.$store.getters['metadata/movesByID'][quickMove] || null
+        return this.$store.getters['metadata/movesByID'].get(quickMove)
       },
 
       chargeMove() {
         const { chargeMove } = this.catalog
-        if (!chargeMove) return null
-        return this.$store.getters['metadata/movesByID'][chargeMove] || null
+        return this.$store.getters['metadata/movesByID'].get(chargeMove)
       },
 
       canEvolve() {
@@ -227,8 +224,8 @@
 
       evolutions() {
         return this.metadata.nextEvolutions.map(evolution => {
-          const pokemon = this.$store.getters['metadata/pokemonByID'][evolution.pokemon]
-          const text = `${pokemon.name} (#${numeral(pokemon.dex).format('000')})`
+          const pokemon = this.$store.getters['metadata/pokemonByID'].get(evolution.pokemon)
+          const text = `${pokemon.name} (${dex(pokemon.dex)})`
           const value = pokemon._id
           return { text, value }
         })
@@ -257,20 +254,8 @@
 
     watch: {
       newPokemonID(id) {
-        const pokemon = this.$store.getters['metadata/pokemonByID'][id]
+        const pokemon = this.$store.getters['metadata/pokemonByID'].get(id)
         if (pokemon) this.dex = numeral(pokemon.dex).format('000')
-      }
-    },
-
-    filters: {
-      number(input) {
-        if (input == null) return 'n/a'
-        return numeral(input).format('0,0')
-      },
-
-      percentage(input) {
-        if (input == null) return 'n/a'
-        return numeral(input).format('0%')
       }
     },
 

@@ -5,7 +5,7 @@
       <thead>
         <tr>
           <th></th>
-          <th v-for="type in types.list" v-bind:class="[ 'type', 'type-' + type, 'text-center' ]">
+          <th v-for="type in types.list" v-bind:class="[ 'type', `type-${type}`, 'text-center' ]">
             {{ type }}
           </th>
         </tr>
@@ -16,7 +16,7 @@
             {{ type }}
           </th>
           <td v-for="mult in types.matrix[x]" v-bind:class="[ { 'bg-success': mult === 1.4, 'bg-warning': mult === 0.714, 'bg-danger': mult === 0.51 }, 'text-white', 'text-center' ]">
-            {{ mult | multiplier }}
+            {{ mult | percentage }}
           </td>
         </tr>
       </tbody>
@@ -26,20 +26,9 @@
 
 <script>
   export default {
-    data() {
-      return {}
-    },
-
     computed: {
       types() {
         return this.$store.state.metadata.types
-      }
-    },
-
-    filters: {
-      multiplier(input) {
-        if (input === 1) return null
-        return input.toFixed(3)
       }
     }
   }

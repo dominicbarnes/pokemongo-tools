@@ -79,6 +79,8 @@
 </template>
 
 <script>
+  import { mapGetters } from 'vuex'
+
   export default {
     data() {
       return {
@@ -90,17 +92,11 @@
     },
 
     computed: {
-      loggedIn() {
-        return this.$store.getters['account/loggedIn']
-      },
-
-      username() {
-        return this.$store.getters['account/username']
-      },
-
-      catalogCount() {
-        return this.$store.getters['pokemon/count']
-      }
+      ...mapGetters({
+        loggedIn: 'account/loggedIn',
+        username: 'account/username',
+        catalogCount: 'pokemon/count'
+      })
     },
 
     methods: {

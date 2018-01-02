@@ -8,9 +8,9 @@
         <b-row>
           <b-col class="py-2">
             Showing
-            <b-badge>{{currentPageRows.length}}</b-badge>
+            <b-badge>{{ currentPageRows.length }}</b-badge>
             of
-            <b-badge>{{totalRows}}</b-badge>
+            <b-badge>{{ totalRows }}</b-badge>
           </b-col>
           <b-col>
             <b-pagination v-bind:total-rows="totalRows" v-bind:per-page="perPage" v-model="currentPage" align="center" />
@@ -26,8 +26,14 @@
           <template slot="name" scope="data">
             <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: data.item.id } }">{{ data.item.name }}</b-link>
           </template>
+          <template slot="dex" scope="data">
+            {{ data.item.dex | dex }}
+          </template>
+          <template slot="ivs" scope="data">
+            {{ data.item.ivs / 45 | percentage }}
+          </template>
           <template slot="types" scope="data">
-            <type-badge v-for="type in data.item.types" v-bind:type="type" v-text="type" />
+            <type-badge v-for="type in data.item.types" v-bind:type="type" />
           </template>
           <template slot="added" scope="data">
             <rel-time v-bind:datetime="data.item.added" refresh="1m" />
@@ -47,7 +53,7 @@
 
 <script>
   import moment from 'moment'
-  import numeral from 'numeral'
+  import { mapGetters } from 'vuex'
 
   import Pokesprite from './pokesprite.vue'
   import RelTime from './rel-time.vue'
@@ -66,9 +72,7 @@
     },
 
     computed: {
-      loggedIn() {
-        return this.$store.getters['account/loggedIn']
-      },
+      ...mapGetters({ loggedIn: 'account/loggedIn' }),
 
       fields() {
         return [
@@ -86,21 +90,20 @@
       items() {
         const byID = this.$store.getters['metadata/pokemonByID']
         return this.$store.getters['pokemon/recent'].map(pokemon => {
-          const metadata = byID[pokemon.pokemonID] || Object.create(null)
-          const name = pokemon.nickname || metadata.name || 'unknown'
+          const metadata = byID.get(pokemon.pokemonID)
+          const name = pokemon.nickname || metadata.name
           const { attackIV, defenseIV, staminaIV } = pokemon
           const totalIVs = attackIV + defenseIV + staminaIV
           return {
-            caught: pokemon.caughtAt,
             added: moment(pokemon.hoodie.createdAt).toISOString(),
+            caught: pokemon.caughtAt,
             cp: pokemon.cp,
-            dex: metadata.dex ? metadata.dex.toString().padStart(3, '0') : null,
-            id: pokemon._id,
-            ivs: numeral(totalIVs / 45).format('0%'),
+            dex: metadata.dex,
             gender: pokemon.gender,
+            id: pokemon._id,
+            ivs: totalIVs,
             name: name,
             shiny: pokemon.shiny,
-            totalIVs: totalIVs / 45 * 100,
             types: metadata.types
           }
         })
@@ -111,7 +114,7 @@
       filter(row) {
         const { keywords, minIV, types } = this.filters
 
-        if (minIV && (row.totalIVs || 0) < minIV) return false
+        if (minIV && row.ivs < minIV) return false
         if (types && types.length) {
           if (types.some(type => row.types.indexOf(type) === -1)) return false
         }
