@@ -1,7 +1,6 @@
 @import url('bootstrap/dist/css/bootstrap.css');
 @import url('bootstrap-vue/dist/bootstrap-vue.css');
 @import url('pokesprite/pokesprite.min.css');
-@import url('./spinner.css');
 
 .browserupgrade {
   margin: 0.2em 0;
