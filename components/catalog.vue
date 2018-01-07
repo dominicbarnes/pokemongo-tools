@@ -24,7 +24,8 @@
             <pokesprite v-if="data.item.dex" v-bind:pokemon="data.item.dex" v-bind:shiny="data.item.shiny" v-bind:gender="data.item.gender" />
           </template>
           <template slot="name" scope="data">
-            <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: data.item.id } }">{{ data.item.name }}</b-link>
+            <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: data.item.id } }" v-bind:title="data.item.notes">{{ data.item.name }}</b-link>
+            <em v-if="data.item.notes">*</em>
           </template>
           <template slot="dex" scope="data">
             {{ data.item.dex | dex }}
@@ -96,6 +97,7 @@
             id: pokemon._id,
             ivs: totalIVs,
             name: name,
+            notes: pokemon.notes,
             shiny: pokemon.shiny,
             types: metadata.types
           }
