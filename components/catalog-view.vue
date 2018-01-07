@@ -79,11 +79,13 @@
             <b-list-group flush>
               <b-list-group-item>
                 <b>Quick Move</b>
-                <move-summary v-bind:move="quickMove" />
+                <move-summary v-if="quickMove" v-bind:move="quickMove" />
+                <span v-else>(n/a)</span>
               </b-list-group-item>
               <b-list-group-item>
                 <b>Charge Move</b>
-                <move-summary v-bind:move="chargeMove" />
+                <move-summary v-if="chargeMove" v-bind:move="chargeMove" />
+                <span v-else>(n/a)</span>
               </b-list-group-item>
             </b-list-group>
           </b-card>
