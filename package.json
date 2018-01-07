@@ -63,7 +63,8 @@
     "prestart": "npm install && npm run couchdb",
     "start": "concurrently 'node server/index.js' 'npm run watch'",
     "stop": "docker-compose stop",
-    "clean": "docker-compose down && rm -rf public",
+    "clean": "git clean -fdx ./public",
+    "distclean": "docker-compose down",
     "deploy": "up deploy",
     "deploy:stage": "up deploy staging",
     "deploy:prod": "up deploy production"

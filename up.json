@@ -3,6 +3,7 @@
   "profile": "personal",
   "hooks": {
     "prebuild": [
+      "npm run clean",
       "npm install --only dev"
     ],
     "build": [
