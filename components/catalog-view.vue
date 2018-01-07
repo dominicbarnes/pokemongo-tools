@@ -155,6 +155,10 @@
           <b-form-select v-bind:options="chargeMoves" v-model="newChargeMove" />
         </b-form-group>
       </b-modal>
+
+      <b-modal id="modalDelete" title="Delete" v-on:ok="deletePokemon">
+        <p class="modal-text">Are you sure you want to delete this Pokémon?</p>
+      </b-modal>
     </div>
   </b-container>
 </template>
