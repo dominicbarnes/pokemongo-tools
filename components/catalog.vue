@@ -19,7 +19,7 @@
             <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add Pokémon</b-button>
           </b-col>
         </b-row>
-        <b-table v-bind:fields="fields" v-bind:items="items" v-bind:filter="filter" v-bind:per-page="perPage" v-bind:current-page="currentPage" v-on:filtered="updatePagination" v-model="currentPageRows" striped hover>
+        <b-table v-bind:fields="fields" v-bind:items="items" v-bind:filter="filter" v-bind:per-page="perPage" v-bind:current-page="currentPage" v-on:filtered="updatePagination" v-model="currentPageRows" striped hover show-empty>
           <template slot="icon" scope="data">
             <pokesprite v-if="data.item.dex" v-bind:pokemon="data.item.dex" v-bind:shiny="data.item.shiny" v-bind:gender="data.item.gender" />
           </template>
@@ -37,13 +37,6 @@
           </template>
           <template slot="added" scope="data">
             <rel-time v-bind:datetime="data.item.added" refresh="1m" />
-          </template>
-          <template slot="empty" scope="data">
-            <b-alert show variant="warning">
-              <p>No Pokémon found in your catalog.</p>
-              <p v-if="!loggedIn">Try <b-link v-b-modal="'signin'">logging in</b-link> if you already have an account.</p>
-              <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add your first Pokémon!</b-button>
-            </b-alert>
           </template>
         </b-table>
       </b-col>
