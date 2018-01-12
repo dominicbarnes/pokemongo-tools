@@ -109,11 +109,17 @@
       filter(row) {
         const { keywords, minIV, types } = this.filters
 
-        if (minIV && row.ivs < minIV) return false
+        if (minIV) {
+          if (minIV >= (row.ivs / 45 * 100)) return false
+        }
+
         if (types && types.length) {
           if (types.some(type => row.types.indexOf(type) === -1)) return false
         }
-        if (keywords) return [ row.name ].concat(row.types).some(value => value.toLowerCase().indexOf(keywords) > -1)
+
+        if (keywords) {
+          return [ row.name ].concat(row.types).some(value => value.toLowerCase().indexOf(keywords) > -1)
+        }
 
         return true
       },
