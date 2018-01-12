@@ -20,10 +20,20 @@
     }
   ],
   "quickMoves": [
-    "MOVE_TAKE_DOWN_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_TAKE_DOWN_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_STRUGGLE"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 843,

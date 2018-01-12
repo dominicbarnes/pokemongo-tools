@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_POISON_STING_FAST",
-    "MOVE_BUG_BITE_FAST"
+    {
+      "id": "MOVE_POISON_STING_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BUG_BITE_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_NIGHT_SLASH",
-    "MOVE_SIGNAL_BEAM",
-    "MOVE_CROSS_POISON"
+    {
+      "id": "MOVE_NIGHT_SLASH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SIGNAL_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_CROSS_POISON",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 685,

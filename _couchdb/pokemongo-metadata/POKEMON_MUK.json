@@ -13,13 +13,28 @@
   "previousEvolution": "POKEMON_GRIMER",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_INFESTATION_FAST",
-    "MOVE_POISON_JAB_FAST"
+    {
+      "id": "MOVE_INFESTATION_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_POISON_JAB_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DARK_PULSE",
-    "MOVE_GUNK_SHOT",
-    "MOVE_SLUDGE_WAVE"
+    {
+      "id": "MOVE_DARK_PULSE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_GUNK_SHOT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SLUDGE_WAVE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2709,

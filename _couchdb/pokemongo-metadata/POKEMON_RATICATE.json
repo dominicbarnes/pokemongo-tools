@@ -13,13 +13,28 @@
   "previousEvolution": "POKEMON_RATTATA",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_BITE_FAST",
-    "MOVE_QUICK_ATTACK_FAST"
+    {
+      "id": "MOVE_BITE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_QUICK_ATTACK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DIG",
-    "MOVE_HYPER_FANG",
-    "MOVE_HYPER_BEAM"
+    {
+      "id": "MOVE_DIG",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HYPER_FANG",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HYPER_BEAM",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1549,

@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_WATER_GUN_FAST",
-    "MOVE_MUD_SHOT_FAST"
+    {
+      "id": "MOVE_WATER_GUN_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MUD_SHOT_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_ANCIENT_POWER",
-    "MOVE_BUBBLE_BEAM",
-    "MOVE_ROCK_BLAST"
+    {
+      "id": "MOVE_ANCIENT_POWER",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BUBBLE_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ROCK_BLAST",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1345,

@@ -14,13 +14,36 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_POISON_JAB_FAST",
-    "MOVE_RAZOR_LEAF_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_POISON_JAB_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_RAZOR_LEAF_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_PETAL_BLIZZARD",
-    "MOVE_SLUDGE_BOMB",
-    "MOVE_DAZZLING_GLEAM"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_PETAL_BLIZZARD",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SLUDGE_BOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DAZZLING_GLEAM",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1718,

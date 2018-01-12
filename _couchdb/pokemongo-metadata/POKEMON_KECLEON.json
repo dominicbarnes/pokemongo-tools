@@ -13,16 +13,48 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_LICK_FAST",
-    "MOVE_SUCKER_PUNCH_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_LICK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SUCKER_PUNCH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_FOUL_PLAY",
-    "MOVE_FLAMETHROWER",
-    "MOVE_THUNDER",
-    "MOVE_ICE_BEAM",
-    "MOVE_AERIAL_ACE",
-    "MOVE_SHADOW_SNEAK"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_FOUL_PLAY",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FLAMETHROWER",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_THUNDER",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ICE_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AERIAL_ACE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SHADOW_SNEAK",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1924,

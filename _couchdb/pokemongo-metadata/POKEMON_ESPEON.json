@@ -13,13 +13,28 @@
   "previousEvolution": "POKEMON_EEVEE",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_CONFUSION_FAST",
-    "MOVE_ZEN_HEADBUTT_FAST"
+    {
+      "id": "MOVE_CONFUSION_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ZEN_HEADBUTT_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_PSYBEAM",
-    "MOVE_PSYCHIC",
-    "MOVE_FUTURESIGHT"
+    {
+      "id": "MOVE_PSYBEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PSYCHIC",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FUTURESIGHT",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 3000,

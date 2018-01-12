@@ -14,13 +14,36 @@
   "previousEvolution": "POKEMON_SILCOON",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_STRUGGLE_BUG_FAST",
-    "MOVE_INFESTATION_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_STRUGGLE_BUG_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_INFESTATION_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_SILVER_WIND",
-    "MOVE_AIR_CUTTER",
-    "MOVE_BUG_BUZZ"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_SILVER_WIND",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AIR_CUTTER",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BUG_BUZZ",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1573,

@@ -19,11 +19,20 @@
     }
   ],
   "quickMoves": [
-    "MOVE_BUG_BITE_FAST",
-    "MOVE_TACKLE_FAST"
+    {
+      "id": "MOVE_BUG_BITE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_TACKLE_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_STRUGGLE"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 393,

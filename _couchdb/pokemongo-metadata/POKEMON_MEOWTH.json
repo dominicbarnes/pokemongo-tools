@@ -19,13 +19,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_SCRATCH_FAST",
-    "MOVE_BITE_FAST"
+    {
+      "id": "MOVE_SCRATCH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BITE_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_NIGHT_SLASH",
-    "MOVE_DARK_PULSE",
-    "MOVE_FOUL_PLAY"
+    {
+      "id": "MOVE_NIGHT_SLASH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DARK_PULSE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FOUL_PLAY",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 638,

@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_OMANYTE",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_MUD_SHOT_FAST",
-    "MOVE_WATER_GUN_FAST"
+    {
+      "id": "MOVE_MUD_SHOT_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_WATER_GUN_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_ANCIENT_POWER",
-    "MOVE_HYDRO_PUMP",
-    "MOVE_ROCK_BLAST"
+    {
+      "id": "MOVE_ANCIENT_POWER",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HYDRO_PUMP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ROCK_BLAST",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2685,

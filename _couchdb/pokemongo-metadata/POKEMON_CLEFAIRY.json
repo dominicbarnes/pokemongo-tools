@@ -19,13 +19,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_POUND_FAST",
-    "MOVE_ZEN_HEADBUTT_FAST"
+    {
+      "id": "MOVE_POUND_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ZEN_HEADBUTT_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DISARMING_VOICE",
-    "MOVE_BODY_SLAM",
-    "MOVE_MOONBLAST"
+    {
+      "id": "MOVE_DISARMING_VOICE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BODY_SLAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MOONBLAST",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1085,

@@ -13,13 +13,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_TACKLE_FAST",
-    "MOVE_ZEN_HEADBUTT_FAST"
+    {
+      "id": "MOVE_TACKLE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ZEN_HEADBUTT_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_STOMP",
-    "MOVE_WILD_CHARGE",
-    "MOVE_MEGAHORN"
+    {
+      "id": "MOVE_STOMP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_WILD_CHARGE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MEGAHORN",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1988,

@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_NIDORINO",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_POISON_JAB_FAST",
-    "MOVE_IRON_TAIL_FAST"
+    {
+      "id": "MOVE_POISON_JAB_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_IRON_TAIL_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_EARTHQUAKE",
-    "MOVE_SLUDGE_WAVE",
-    "MOVE_MEGAHORN"
+    {
+      "id": "MOVE_EARTHQUAKE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SLUDGE_WAVE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MEGAHORN",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2386,

@@ -13,13 +13,28 @@
   "previousEvolution": "POKEMON_GROWLITHE",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_FIRE_FANG_FAST",
-    "MOVE_SNARL_FAST"
+    {
+      "id": "MOVE_FIRE_FANG_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SNARL_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_FIRE_BLAST",
-    "MOVE_WILD_CHARGE",
-    "MOVE_CRUNCH"
+    {
+      "id": "MOVE_FIRE_BLAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_WILD_CHARGE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_CRUNCH",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2839,

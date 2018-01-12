@@ -13,13 +13,36 @@
   "previousEvolution": "POKEMON_CLAMPERL",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_WATER_GUN_FAST",
-    "MOVE_BITE_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_WATER_GUN_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BITE_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_CRUNCH",
-    "MOVE_ICE_BEAM",
-    "MOVE_AQUA_TAIL"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_CRUNCH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ICE_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AQUA_TAIL",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2140,

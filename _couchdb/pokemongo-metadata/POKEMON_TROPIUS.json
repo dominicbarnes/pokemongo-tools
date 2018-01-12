@@ -14,13 +14,36 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_AIR_SLASH_FAST",
-    "MOVE_RAZOR_LEAF_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_AIR_SLASH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_RAZOR_LEAF_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_STOMP",
-    "MOVE_AERIAL_ACE",
-    "MOVE_LEAF_BLADE"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_STOMP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AERIAL_ACE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_LEAF_BLADE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1846,

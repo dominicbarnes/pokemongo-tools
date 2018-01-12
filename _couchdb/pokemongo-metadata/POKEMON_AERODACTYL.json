@@ -14,13 +14,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_STEEL_WING_FAST",
-    "MOVE_BITE_FAST"
+    {
+      "id": "MOVE_STEEL_WING_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BITE_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_ANCIENT_POWER",
-    "MOVE_IRON_HEAD",
-    "MOVE_HYPER_BEAM"
+    {
+      "id": "MOVE_ANCIENT_POWER",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_IRON_HEAD",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HYPER_BEAM",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2608,

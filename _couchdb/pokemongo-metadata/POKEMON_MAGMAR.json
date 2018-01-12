@@ -13,13 +13,28 @@
   "previousEvolution": "POKEMON_MAGBY",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_EMBER_FAST",
-    "MOVE_KARATE_CHOP_FAST"
+    {
+      "id": "MOVE_EMBER_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_KARATE_CHOP_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_FIRE_BLAST",
-    "MOVE_FIRE_PUNCH",
-    "MOVE_FLAMETHROWER"
+    {
+      "id": "MOVE_FIRE_BLAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FIRE_PUNCH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FLAMETHROWER",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2254,

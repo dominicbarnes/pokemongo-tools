@@ -14,13 +14,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_FURY_CUTTER_FAST",
-    "MOVE_WING_ATTACK_FAST"
+    {
+      "id": "MOVE_FURY_CUTTER_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_WING_ATTACK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DIG",
-    "MOVE_AERIAL_ACE",
-    "MOVE_NIGHT_SLASH"
+    {
+      "id": "MOVE_DIG",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AERIAL_ACE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_NIGHT_SLASH",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1758,

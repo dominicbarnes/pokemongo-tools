@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_WEEPINBELL",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_RAZOR_LEAF_FAST",
-    "MOVE_ACID_FAST"
+    {
+      "id": "MOVE_RAZOR_LEAF_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ACID_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_LEAF_BLADE",
-    "MOVE_SLUDGE_BOMB",
-    "MOVE_SOLAR_BEAM"
+    {
+      "id": "MOVE_LEAF_BLADE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SLUDGE_BOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SOLAR_BEAM",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2268,

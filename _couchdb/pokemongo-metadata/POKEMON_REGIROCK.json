@@ -13,13 +13,36 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_ROCK_THROW_FAST",
-    "MOVE_ROCK_SMASH_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_ROCK_THROW_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ROCK_SMASH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_STONE_EDGE",
-    "MOVE_ZAP_CANNON",
-    "MOVE_FOCUS_BLAST"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_STONE_EDGE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ZAP_CANNON",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FOCUS_BLAST",
+      "legacy": false
+    }
   ],
   "rarity": "legendary",
   "maxCP": 3087,

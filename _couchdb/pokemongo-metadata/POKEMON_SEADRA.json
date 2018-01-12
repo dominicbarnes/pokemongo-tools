@@ -21,13 +21,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_WATER_GUN_FAST",
-    "MOVE_DRAGON_BREATH_FAST"
+    {
+      "id": "MOVE_WATER_GUN_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DRAGON_BREATH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_AURORA_BEAM",
-    "MOVE_DRAGON_PULSE",
-    "MOVE_HYDRO_PUMP"
+    {
+      "id": "MOVE_AURORA_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DRAGON_PULSE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HYDRO_PUMP",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1979,

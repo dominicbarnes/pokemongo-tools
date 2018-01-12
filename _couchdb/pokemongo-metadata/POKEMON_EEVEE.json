@@ -39,12 +39,24 @@
     }
   ],
   "quickMoves": [
-    "MOVE_QUICK_ATTACK_FAST",
-    "MOVE_TACKLE_FAST"
+    {
+      "id": "MOVE_QUICK_ATTACK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_TACKLE_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DIG",
-    "MOVE_SWIFT"
+    {
+      "id": "MOVE_DIG",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SWIFT",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 969,

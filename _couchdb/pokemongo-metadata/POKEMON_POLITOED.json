@@ -13,13 +13,32 @@
   "previousEvolution": "POKEMON_POLIWHIRL",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_MUD_SHOT_FAST",
-    "MOVE_BUBBLE_FAST"
+    {
+      "id": "MOVE_MUD_SHOT_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BUBBLE_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_HYDRO_PUMP",
-    "MOVE_BLIZZARD",
-    "MOVE_SURF"
+    {
+      "id": "MOVE_HYDRO_PUMP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BLIZZARD",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_EARTHQUAKE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_SURF",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2371,

@@ -13,13 +13,28 @@
   "previousEvolution": "POKEMON_PHANPY",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_TACKLE_FAST",
-    "MOVE_COUNTER_FAST"
+    {
+      "id": "MOVE_TACKLE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_COUNTER_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_EARTHQUAKE",
-    "MOVE_HEAVY_SLAM",
-    "MOVE_PLAY_ROUGH"
+    {
+      "id": "MOVE_EARTHQUAKE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HEAVY_SLAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PLAY_ROUGH",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 3022,

@@ -19,13 +19,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_TACKLE_FAST",
-    "MOVE_QUICK_ATTACK_FAST"
+    {
+      "id": "MOVE_TACKLE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_QUICK_ATTACK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DIG",
-    "MOVE_HYPER_FANG",
-    "MOVE_BODY_SLAM"
+    {
+      "id": "MOVE_DIG",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HYPER_FANG",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BODY_SLAM",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 588,

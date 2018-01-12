@@ -13,13 +13,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_FIRE_SPIN_FAST",
-    "MOVE_FIRE_FANG_FAST"
+    {
+      "id": "MOVE_FIRE_SPIN_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FIRE_FANG_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_FLAMETHROWER",
-    "MOVE_FIRE_BLAST",
-    "MOVE_OVERHEAT"
+    {
+      "id": "MOVE_FLAMETHROWER",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FIRE_BLAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_OVERHEAT",
+      "legacy": false
+    }
   ],
   "rarity": "legendary",
   "maxCP": 3377,

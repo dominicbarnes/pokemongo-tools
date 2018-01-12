@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_SCRATCH_FAST",
-    "MOVE_BUG_BITE_FAST"
+    {
+      "id": "MOVE_SCRATCH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BUG_BITE_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_CROSS_POISON",
-    "MOVE_X_SCISSOR",
-    "MOVE_SEED_BOMB"
+    {
+      "id": "MOVE_CROSS_POISON",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_X_SCISSOR",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SEED_BOMB",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 836,

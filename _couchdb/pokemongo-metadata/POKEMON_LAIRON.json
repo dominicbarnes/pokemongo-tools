@@ -20,13 +20,36 @@
     }
   ],
   "quickMoves": [
-    "MOVE_METAL_CLAW_FAST",
-    "MOVE_IRON_TAIL_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_METAL_CLAW_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_IRON_TAIL_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_BODY_SLAM",
-    "MOVE_ROCK_SLIDE",
-    "MOVE_HEAVY_SLAM"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_BODY_SLAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ROCK_SLIDE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HEAVY_SLAM",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2004,

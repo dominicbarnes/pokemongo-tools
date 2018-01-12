@@ -13,12 +13,24 @@
   "previousEvolution": "POKEMON_EEVEE",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_FEINT_ATTACK_FAST",
-    "MOVE_SNARL_FAST"
+    {
+      "id": "MOVE_FEINT_ATTACK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SNARL_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DARK_PULSE",
-    "MOVE_FOUL_PLAY"
+    {
+      "id": "MOVE_DARK_PULSE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FOUL_PLAY",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2052,

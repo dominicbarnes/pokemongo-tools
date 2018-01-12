@@ -19,13 +19,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_BUBBLE_FAST",
-    "MOVE_MUD_SHOT_FAST"
+    {
+      "id": "MOVE_BUBBLE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MUD_SHOT_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_BUBBLE_BEAM",
-    "MOVE_MUD_BOMB",
-    "MOVE_BODY_SLAM"
+    {
+      "id": "MOVE_BUBBLE_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MUD_BOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BODY_SLAM",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 695,

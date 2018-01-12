@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_METAPOD",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_STRUGGLE_BUG_FAST",
-    "MOVE_CONFUSION_FAST"
+    {
+      "id": "MOVE_STRUGGLE_BUG_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_CONFUSION_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_BUG_BUZZ",
-    "MOVE_PSYCHIC",
-    "MOVE_SIGNAL_BEAM"
+    {
+      "id": "MOVE_BUG_BUZZ",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PSYCHIC",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SIGNAL_BEAM",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1701,

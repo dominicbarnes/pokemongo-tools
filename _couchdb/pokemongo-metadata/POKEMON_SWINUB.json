@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_TACKLE_FAST",
-    "MOVE_POWDER_SNOW_FAST"
+    {
+      "id": "MOVE_TACKLE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_POWDER_SNOW_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_ICY_WIND",
-    "MOVE_BODY_SLAM",
-    "MOVE_ROCK_SLIDE"
+    {
+      "id": "MOVE_ICY_WIND",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BODY_SLAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ROCK_SLIDE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 663,

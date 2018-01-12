@@ -13,13 +13,32 @@
   "previousEvolution": "POKEMON_CROCONAW",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_WATERFALL_FAST",
-    "MOVE_BITE_FAST"
+    {
+      "id": "MOVE_WATER_GUN_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_BITE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_WATERFALL_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_CRUNCH",
-    "MOVE_HYDRO_PUMP",
-    "MOVE_ICE_BEAM"
+    {
+      "id": "MOVE_CRUNCH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HYDRO_PUMP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ICE_BEAM",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2721,

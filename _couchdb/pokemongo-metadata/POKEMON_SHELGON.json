@@ -19,13 +19,36 @@
     }
   ],
   "quickMoves": [
-    "MOVE_EMBER_FAST",
-    "MOVE_DRAGON_BREATH_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_EMBER_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DRAGON_BREATH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_FLAMETHROWER",
-    "MOVE_DRAGON_PULSE",
-    "MOVE_TWISTER"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_FLAMETHROWER",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DRAGON_PULSE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_TWISTER",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1958,

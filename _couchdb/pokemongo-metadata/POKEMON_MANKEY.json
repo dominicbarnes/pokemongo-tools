@@ -19,13 +19,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_KARATE_CHOP_FAST",
-    "MOVE_SCRATCH_FAST"
+    {
+      "id": "MOVE_KARATE_CHOP_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SCRATCH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_CROSS_CHOP",
-    "MOVE_LOW_SWEEP",
-    "MOVE_BRICK_BREAK"
+    {
+      "id": "MOVE_CROSS_CHOP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_LOW_SWEEP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BRICK_BREAK",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1002,

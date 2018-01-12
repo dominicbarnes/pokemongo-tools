@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_PARAS",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_STRUGGLE_BUG_FAST",
-    "MOVE_FURY_CUTTER_FAST"
+    {
+      "id": "MOVE_STRUGGLE_BUG_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FURY_CUTTER_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_CROSS_POISON",
-    "MOVE_X_SCISSOR",
-    "MOVE_SOLAR_BEAM"
+    {
+      "id": "MOVE_CROSS_POISON",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_X_SCISSOR",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SOLAR_BEAM",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1657,

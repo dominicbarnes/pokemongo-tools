@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_SCRATCH_FAST",
-    "MOVE_MUD_SHOT_FAST"
+    {
+      "id": "MOVE_SCRATCH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MUD_SHOT_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_ANCIENT_POWER",
-    "MOVE_AQUA_JET",
-    "MOVE_ROCK_TOMB"
+    {
+      "id": "MOVE_ANCIENT_POWER",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AQUA_JET",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ROCK_TOMB",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1172,

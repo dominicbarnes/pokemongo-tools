@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_SPEAROW",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_PECK_FAST",
-    "MOVE_STEEL_WING_FAST"
+    {
+      "id": "MOVE_PECK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_STEEL_WING_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_AERIAL_ACE",
-    "MOVE_DRILL_RUN",
-    "MOVE_SKY_ATTACK"
+    {
+      "id": "MOVE_AERIAL_ACE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DRILL_RUN",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SKY_ATTACK",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1814,

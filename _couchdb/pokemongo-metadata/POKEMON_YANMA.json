@@ -14,13 +14,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_QUICK_ATTACK_FAST",
-    "MOVE_WING_ATTACK_FAST"
+    {
+      "id": "MOVE_QUICK_ATTACK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_WING_ATTACK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_ANCIENT_POWER",
-    "MOVE_AERIAL_ACE",
-    "MOVE_SILVER_WIND"
+    {
+      "id": "MOVE_ANCIENT_POWER",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AERIAL_ACE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SILVER_WIND",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1326,

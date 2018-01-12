@@ -19,13 +19,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_EMBER_FAST",
-    "MOVE_TACKLE_FAST"
+    {
+      "id": "MOVE_EMBER_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_TACKLE_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_FLAME_CHARGE",
-    "MOVE_SWIFT",
-    "MOVE_FLAMETHROWER"
+    {
+      "id": "MOVE_FLAME_CHARGE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SWIFT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FLAMETHROWER",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 831,

@@ -19,13 +19,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_TACKLE_FAST",
-    "MOVE_BUG_BITE_FAST"
+    {
+      "id": "MOVE_TACKLE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BUG_BITE_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_GYRO_BALL",
-    "MOVE_ROCK_TOMB",
-    "MOVE_SAND_TOMB"
+    {
+      "id": "MOVE_GYRO_BALL",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ROCK_TOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SAND_TOMB",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1045,

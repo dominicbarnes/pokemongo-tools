@@ -14,13 +14,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_EXTRASENSORY_FAST",
-    "MOVE_DRAGON_TAIL_FAST"
+    {
+      "id": "MOVE_EXTRASENSORY_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DRAGON_TAIL_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_SKY_ATTACK",
-    "MOVE_HYDRO_PUMP",
-    "MOVE_FUTURESIGHT"
+    {
+      "id": "MOVE_SKY_ATTACK",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HYDRO_PUMP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FUTURESIGHT",
+      "legacy": false
+    }
   ],
   "rarity": "legendary",
   "maxCP": 3598,

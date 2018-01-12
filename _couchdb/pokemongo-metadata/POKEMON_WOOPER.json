@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_WATER_GUN_FAST",
-    "MOVE_MUD_SHOT_FAST"
+    {
+      "id": "MOVE_WATER_GUN_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MUD_SHOT_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_MUD_BOMB",
-    "MOVE_DIG",
-    "MOVE_BODY_SLAM"
+    {
+      "id": "MOVE_MUD_BOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DIG",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BODY_SLAM",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 596,

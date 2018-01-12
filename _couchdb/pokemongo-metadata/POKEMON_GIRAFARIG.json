@@ -14,13 +14,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_TACKLE_FAST",
-    "MOVE_CONFUSION_FAST"
+    {
+      "id": "MOVE_TACKLE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_CONFUSION_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_PSYCHIC",
-    "MOVE_THUNDERBOLT",
-    "MOVE_MIRROR_COAT"
+    {
+      "id": "MOVE_PSYCHIC",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_THUNDERBOLT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MIRROR_COAT",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1863,

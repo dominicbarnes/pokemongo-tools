@@ -13,13 +13,36 @@
   "previousEvolution": "POKEMON_MAKUHITA",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_COUNTER_FAST",
-    "MOVE_BULLET_PUNCH_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_COUNTER_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BULLET_PUNCH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_HEAVY_SLAM",
-    "MOVE_CLOSE_COMBAT",
-    "MOVE_DYNAMIC_PUNCH"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_HEAVY_SLAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_CLOSE_COMBAT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DYNAMIC_PUNCH",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2765,

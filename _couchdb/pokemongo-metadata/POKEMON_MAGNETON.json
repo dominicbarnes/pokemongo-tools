@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_MAGNEMITE",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_SPARK_FAST",
-    "MOVE_CHARGE_BEAM_FAST"
+    {
+      "id": "MOVE_SPARK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_CHARGE_BEAM_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_ZAP_CANNON",
-    "MOVE_MAGNET_BOMB",
-    "MOVE_FLASH_CANNON"
+    {
+      "id": "MOVE_ZAP_CANNON",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MAGNET_BOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FLASH_CANNON",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2237,

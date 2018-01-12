@@ -20,13 +20,36 @@
     }
   ],
   "quickMoves": [
-    "MOVE_STRUGGLE_BUG_FAST",
-    "MOVE_SCRATCH_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_STRUGGLE_BUG_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SCRATCH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_CROSS_POISON",
-    "MOVE_AQUA_JET",
-    "MOVE_ANCIENT_POWER"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_CROSS_POISON",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AQUA_JET",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ANCIENT_POWER",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1310,

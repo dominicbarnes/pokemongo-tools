@@ -19,13 +19,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_SCRATCH_FAST",
-    "MOVE_LICK_FAST"
+    {
+      "id": "MOVE_SCRATCH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_LICK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_CROSS_CHOP",
-    "MOVE_CRUNCH",
-    "MOVE_PLAY_ROUGH"
+    {
+      "id": "MOVE_CROSS_CHOP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_CRUNCH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PLAY_ROUGH",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1184,

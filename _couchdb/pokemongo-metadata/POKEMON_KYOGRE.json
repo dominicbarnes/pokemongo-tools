@@ -13,13 +13,36 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_WATERFALL_FAST",
-    "MOVE_DRAGON_TAIL_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_WATERFALL_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DRAGON_TAIL_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_HYDRO_PUMP",
-    "MOVE_BLIZZARD",
-    "MOVE_THUNDER"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_HYDRO_PUMP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BLIZZARD",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_THUNDER",
+      "legacy": false
+    }
   ],
   "rarity": "legendary",
   "maxCP": 4074,

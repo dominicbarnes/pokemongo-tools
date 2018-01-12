@@ -13,13 +13,28 @@
   "previousEvolution": "POKEMON_BAYLEEF",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_RAZOR_LEAF_FAST",
-    "MOVE_VINE_WHIP_FAST"
+    {
+      "id": "MOVE_RAZOR_LEAF_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_VINE_WHIP_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_PETAL_BLIZZARD",
-    "MOVE_SOLAR_BEAM",
-    "MOVE_EARTHQUAKE"
+    {
+      "id": "MOVE_PETAL_BLIZZARD",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SOLAR_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_EARTHQUAKE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2227,

@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_PECK_FAST",
-    "MOVE_QUICK_ATTACK_FAST"
+    {
+      "id": "MOVE_PECK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_QUICK_ATTACK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_NIGHT_SHADE",
-    "MOVE_PSYSHOCK",
-    "MOVE_DRILL_PECK"
+    {
+      "id": "MOVE_NIGHT_SHADE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PSYSHOCK",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DRILL_PECK",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 925,

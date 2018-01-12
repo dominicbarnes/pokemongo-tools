@@ -13,13 +13,28 @@
   "previousEvolution": "POKEMON_EKANS",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_BITE_FAST",
-    "MOVE_ACID_FAST"
+    {
+      "id": "MOVE_BITE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ACID_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DARK_PULSE",
-    "MOVE_SLUDGE_WAVE",
-    "MOVE_GUNK_SHOT"
+    {
+      "id": "MOVE_DARK_PULSE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SLUDGE_WAVE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_GUNK_SHOT",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1737,

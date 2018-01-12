@@ -13,11 +13,20 @@
   "previousEvolution": "POKEMON_WYNAUT",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_COUNTER_FAST",
-    "MOVE_SPLASH_FAST"
+    {
+      "id": "MOVE_COUNTER_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_MIRROR_COAT"
+    {
+      "id": "MOVE_MIRROR_COAT",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1024,

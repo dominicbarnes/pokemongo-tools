@@ -13,13 +13,36 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_FIRE_SPIN_FAST",
-    "MOVE_EMBER_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_FIRE_SPIN_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_EMBER_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_OVERHEAT",
-    "MOVE_SOLAR_BEAM",
-    "MOVE_EARTHQUAKE"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_OVERHEAT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SOLAR_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_EARTHQUAKE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2036,

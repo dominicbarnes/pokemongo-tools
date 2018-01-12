@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_CONFUSION_FAST",
-    "MOVE_BULLET_SEED_FAST"
+    {
+      "id": "MOVE_CONFUSION_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BULLET_SEED_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_SEED_BOMB",
-    "MOVE_PSYCHIC",
-    "MOVE_ANCIENT_POWER"
+    {
+      "id": "MOVE_SEED_BOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PSYCHIC",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ANCIENT_POWER",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1102,

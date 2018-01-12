@@ -19,13 +19,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_DRAGON_BREATH_FAST",
-    "MOVE_IRON_TAIL_FAST"
+    {
+      "id": "MOVE_DRAGON_BREATH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_IRON_TAIL_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_WRAP",
-    "MOVE_TWISTER",
-    "MOVE_AQUA_TAIL"
+    {
+      "id": "MOVE_WRAP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_TWISTER",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AQUA_TAIL",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 860,

@@ -19,13 +19,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_ZEN_HEADBUTT_FAST",
-    "MOVE_CHARGE_BEAM_FAST"
+    {
+      "id": "MOVE_ZEN_HEADBUTT_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_CHARGE_BEAM_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_PSYSHOCK",
-    "MOVE_SIGNAL_BEAM",
-    "MOVE_SHADOW_BALL"
+    {
+      "id": "MOVE_PSYSHOCK",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SIGNAL_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SHADOW_BALL",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1148,

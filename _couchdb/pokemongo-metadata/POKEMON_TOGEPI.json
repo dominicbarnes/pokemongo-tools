@@ -19,13 +19,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_HIDDEN_POWER_FAST",
-    "MOVE_PECK_FAST"
+    {
+      "id": "MOVE_HIDDEN_POWER_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PECK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_ANCIENT_POWER",
-    "MOVE_PSYSHOCK",
-    "MOVE_DAZZLING_GLEAM"
+    {
+      "id": "MOVE_ANCIENT_POWER",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PSYSHOCK",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DAZZLING_GLEAM",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 540,

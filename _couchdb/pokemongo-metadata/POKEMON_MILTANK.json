@@ -13,13 +13,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_TACKLE_FAST",
-    "MOVE_ZEN_HEADBUTT_FAST"
+    {
+      "id": "MOVE_TACKLE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ZEN_HEADBUTT_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_STOMP",
-    "MOVE_BODY_SLAM",
-    "MOVE_GYRO_BALL"
+    {
+      "id": "MOVE_STOMP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BODY_SLAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_GYRO_BALL",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2312,

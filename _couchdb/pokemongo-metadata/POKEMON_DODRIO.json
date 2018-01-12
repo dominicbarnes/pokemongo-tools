@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_DODUO",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_FEINT_ATTACK_FAST",
-    "MOVE_STEEL_WING_FAST"
+    {
+      "id": "MOVE_FEINT_ATTACK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_STEEL_WING_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DRILL_PECK",
-    "MOVE_AERIAL_ACE",
-    "MOVE_BRAVE_BIRD"
+    {
+      "id": "MOVE_DRILL_PECK",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AERIAL_ACE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BRAVE_BIRD",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2138,

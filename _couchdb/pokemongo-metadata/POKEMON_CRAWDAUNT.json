@@ -14,13 +14,36 @@
   "previousEvolution": "POKEMON_CORPHISH",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_WATERFALL_FAST",
-    "MOVE_SNARL_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_WATERFALL_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SNARL_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_VICE_GRIP",
-    "MOVE_BUBBLE_BEAM",
-    "MOVE_NIGHT_SLASH"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_VICE_GRIP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BUBBLE_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_NIGHT_SLASH",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2317,

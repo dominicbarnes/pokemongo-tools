@@ -20,13 +20,36 @@
     }
   ],
   "quickMoves": [
-    "MOVE_ACID_FAST",
-    "MOVE_INFESTATION_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_ACID_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_INFESTATION_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_GRASS_KNOT",
-    "MOVE_MIRROR_COAT",
-    "MOVE_ANCIENT_POWER"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_GRASS_KNOT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MIRROR_COAT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ANCIENT_POWER",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1181,

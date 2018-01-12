@@ -14,12 +14,24 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_CHARGE_BEAM_FAST"
+    {
+      "id": "MOVE_CHARGE_BEAM_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_ZAP_CANNON",
-    "MOVE_THUNDERBOLT",
-    "MOVE_THUNDER"
+    {
+      "id": "MOVE_ZAP_CANNON",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_THUNDERBOLT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_THUNDER",
+      "legacy": false
+    }
   ],
   "rarity": "legendary",
   "maxCP": 3330,

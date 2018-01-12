@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_VINE_WHIP_FAST",
-    "MOVE_TACKLE_FAST"
+    {
+      "id": "MOVE_VINE_WHIP_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_TACKLE_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_SLUDGE_BOMB",
-    "MOVE_SEED_BOMB",
-    "MOVE_POWER_WHIP"
+    {
+      "id": "MOVE_SLUDGE_BOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SEED_BOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_POWER_WHIP",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 981,

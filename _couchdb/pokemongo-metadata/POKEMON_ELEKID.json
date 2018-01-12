@@ -19,13 +19,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_THUNDER_SHOCK_FAST",
-    "MOVE_LOW_KICK_FAST"
+    {
+      "id": "MOVE_THUNDER_SHOCK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_LOW_KICK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_THUNDER_PUNCH",
-    "MOVE_BRICK_BREAK",
-    "MOVE_DISCHARGE"
+    {
+      "id": "MOVE_THUNDER_PUNCH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BRICK_BREAK",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DISCHARGE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1073,

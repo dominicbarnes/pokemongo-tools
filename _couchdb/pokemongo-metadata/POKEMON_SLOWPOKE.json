@@ -27,13 +27,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_WATER_GUN_FAST",
-    "MOVE_CONFUSION_FAST"
+    {
+      "id": "MOVE_WATER_GUN_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_CONFUSION_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_WATER_PULSE",
-    "MOVE_PSYSHOCK",
-    "MOVE_PSYCHIC"
+    {
+      "id": "MOVE_WATER_PULSE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PSYSHOCK",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PSYCHIC",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1204,

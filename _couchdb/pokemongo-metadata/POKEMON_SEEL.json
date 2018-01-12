@@ -19,13 +19,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_ICE_SHARD_FAST",
-    "MOVE_LICK_FAST"
+    {
+      "id": "MOVE_ICE_SHARD_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_LICK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_AURORA_BEAM",
-    "MOVE_ICY_WIND",
-    "MOVE_AQUA_TAIL"
+    {
+      "id": "MOVE_AURORA_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ICY_WIND",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AQUA_TAIL",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 899,

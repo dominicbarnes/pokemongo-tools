@@ -13,13 +13,36 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_MUD_SHOT_FAST",
-    "MOVE_DRAGON_TAIL_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_MUD_SHOT_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DRAGON_TAIL_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_EARTHQUAKE",
-    "MOVE_FIRE_BLAST",
-    "MOVE_SOLAR_BEAM"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_EARTHQUAKE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FIRE_BLAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SOLAR_BEAM",
+      "legacy": false
+    }
   ],
   "rarity": "legendary",
   "maxCP": 4074,

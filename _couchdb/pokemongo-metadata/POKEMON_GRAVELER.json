@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_ROCK_THROW_FAST",
-    "MOVE_MUD_SLAP_FAST"
+    {
+      "id": "MOVE_ROCK_THROW_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MUD_SLAP_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DIG",
-    "MOVE_STONE_EDGE",
-    "MOVE_ROCK_BLAST"
+    {
+      "id": "MOVE_DIG",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_STONE_EDGE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ROCK_BLAST",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1815,

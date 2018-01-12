@@ -13,13 +13,28 @@
   "previousEvolution": "POKEMON_TYROGUE",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_ROCK_SMASH_FAST",
-    "MOVE_COUNTER_FAST"
+    {
+      "id": "MOVE_ROCK_SMASH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_COUNTER_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_CLOSE_COMBAT",
-    "MOVE_GYRO_BALL",
-    "MOVE_STONE_EDGE"
+    {
+      "id": "MOVE_CLOSE_COMBAT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_GYRO_BALL",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_STONE_EDGE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1905,

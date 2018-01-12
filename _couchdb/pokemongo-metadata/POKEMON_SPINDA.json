@@ -13,13 +13,36 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_SUCKER_PUNCH_FAST",
-    "MOVE_PSYCHO_CUT_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_SUCKER_PUNCH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PSYCHO_CUT_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DIG",
-    "MOVE_ROCK_TOMB",
-    "MOVE_ICY_WIND"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_DIG",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ROCK_TOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ICY_WIND",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1088,

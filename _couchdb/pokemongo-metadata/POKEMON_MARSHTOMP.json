@@ -20,13 +20,36 @@
     }
   ],
   "quickMoves": [
-    "MOVE_MUD_SHOT_FAST",
-    "MOVE_WATER_GUN_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_MUD_SHOT_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_WATER_GUN_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_MUD_BOMB",
-    "MOVE_SLUDGE",
-    "MOVE_SURF"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_MUD_BOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SLUDGE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SURF",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1617,

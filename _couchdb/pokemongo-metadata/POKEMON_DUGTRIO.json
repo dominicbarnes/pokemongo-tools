@@ -13,13 +13,28 @@
   "previousEvolution": "POKEMON_DIGLETT",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_SUCKER_PUNCH_FAST",
-    "MOVE_MUD_SLAP_FAST"
+    {
+      "id": "MOVE_SUCKER_PUNCH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MUD_SLAP_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_EARTHQUAKE",
-    "MOVE_MUD_BOMB",
-    "MOVE_STONE_EDGE"
+    {
+      "id": "MOVE_EARTHQUAKE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MUD_BOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_STONE_EDGE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1333,

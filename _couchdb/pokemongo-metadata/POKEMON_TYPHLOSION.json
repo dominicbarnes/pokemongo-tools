@@ -13,13 +13,28 @@
   "previousEvolution": "POKEMON_QUILAVA",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_EMBER_FAST",
-    "MOVE_SHADOW_CLAW_FAST"
+    {
+      "id": "MOVE_EMBER_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SHADOW_CLAW_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_FIRE_BLAST",
-    "MOVE_OVERHEAT",
-    "MOVE_SOLAR_BEAM"
+    {
+      "id": "MOVE_FIRE_BLAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_OVERHEAT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SOLAR_BEAM",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2686,

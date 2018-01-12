@@ -20,13 +20,36 @@
     }
   ],
   "quickMoves": [
-    "MOVE_RAZOR_LEAF_FAST",
-    "MOVE_FEINT_ATTACK_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_RAZOR_LEAF_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FEINT_ATTACK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_LEAF_BLADE",
-    "MOVE_GRASS_KNOT",
-    "MOVE_FOUL_PLAY"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_LEAF_BLADE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_GRASS_KNOT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FOUL_PLAY",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1117,

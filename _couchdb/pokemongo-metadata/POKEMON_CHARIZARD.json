@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_CHARMELEON",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_FIRE_SPIN_FAST",
-    "MOVE_AIR_SLASH_FAST"
+    {
+      "id": "MOVE_FIRE_SPIN_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AIR_SLASH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_FIRE_BLAST",
-    "MOVE_DRAGON_CLAW",
-    "MOVE_OVERHEAT"
+    {
+      "id": "MOVE_FIRE_BLAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DRAGON_CLAW",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_OVERHEAT",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2686,

@@ -19,13 +19,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_SCRATCH_FAST",
-    "MOVE_QUICK_ATTACK_FAST"
+    {
+      "id": "MOVE_SCRATCH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_QUICK_ATTACK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DIG",
-    "MOVE_BRICK_BREAK",
-    "MOVE_GRASS_KNOT"
+    {
+      "id": "MOVE_DIG",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BRICK_BREAK",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_GRASS_KNOT",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 519,

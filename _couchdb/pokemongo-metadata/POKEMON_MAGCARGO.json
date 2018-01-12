@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_SLUGMA",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_EMBER_FAST",
-    "MOVE_ROCK_THROW_FAST"
+    {
+      "id": "MOVE_EMBER_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ROCK_THROW_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_HEAT_WAVE",
-    "MOVE_OVERHEAT",
-    "MOVE_STONE_EDGE"
+    {
+      "id": "MOVE_HEAT_WAVE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_OVERHEAT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_STONE_EDGE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1543,

@@ -13,13 +13,28 @@
   "previousEvolution": "POKEMON_SUNKERN",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_RAZOR_LEAF_FAST",
-    "MOVE_BULLET_SEED_FAST"
+    {
+      "id": "MOVE_RAZOR_LEAF_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BULLET_SEED_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_SOLAR_BEAM",
-    "MOVE_PETAL_BLIZZARD",
-    "MOVE_SLUDGE_BOMB"
+    {
+      "id": "MOVE_SOLAR_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PETAL_BLIZZARD",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SLUDGE_BOMB",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2048,

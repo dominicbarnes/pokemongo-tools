@@ -13,13 +13,36 @@
   "previousEvolution": "POKEMON_SNORUNT",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_ICE_SHARD_FAST",
-    "MOVE_FROST_BREATH_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_ICE_SHARD_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FROST_BREATH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_AVALANCHE",
-    "MOVE_GYRO_BALL",
-    "MOVE_SHADOW_BALL"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_AVALANCHE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_GYRO_BALL",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SHADOW_BALL",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1945,

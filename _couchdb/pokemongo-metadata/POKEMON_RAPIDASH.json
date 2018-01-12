@@ -13,13 +13,28 @@
   "previousEvolution": "POKEMON_PONYTA",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_LOW_KICK_FAST",
-    "MOVE_FIRE_SPIN_FAST"
+    {
+      "id": "MOVE_LOW_KICK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FIRE_SPIN_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_FIRE_BLAST",
-    "MOVE_DRILL_RUN",
-    "MOVE_HEAT_WAVE"
+    {
+      "id": "MOVE_FIRE_BLAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DRILL_RUN",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HEAT_WAVE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2252,

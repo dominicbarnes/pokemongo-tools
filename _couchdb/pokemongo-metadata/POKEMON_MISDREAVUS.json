@@ -13,13 +13,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_ASTONISH_FAST",
-    "MOVE_HEX_FAST"
+    {
+      "id": "MOVE_ASTONISH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HEX_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_SHADOW_SNEAK",
-    "MOVE_DARK_PULSE",
-    "MOVE_OMINOUS_WIND"
+    {
+      "id": "MOVE_SHADOW_SNEAK",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DARK_PULSE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_OMINOUS_WIND",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1781,

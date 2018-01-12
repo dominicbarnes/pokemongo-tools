@@ -13,13 +13,28 @@
   "previousEvolution": "POKEMON_DROWZEE",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_ZEN_HEADBUTT_FAST",
-    "MOVE_CONFUSION_FAST"
+    {
+      "id": "MOVE_ZEN_HEADBUTT_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_CONFUSION_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_FUTURESIGHT",
-    "MOVE_PSYCHIC",
-    "MOVE_FOCUS_BLAST"
+    {
+      "id": "MOVE_FUTURESIGHT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PSYCHIC",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FOCUS_BLAST",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2048,

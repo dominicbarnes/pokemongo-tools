@@ -13,13 +13,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_SCRATCH_FAST",
-    "MOVE_ASTONISH_FAST"
+    {
+      "id": "MOVE_SCRATCH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ASTONISH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_LOW_SWEEP",
-    "MOVE_SWIFT",
-    "MOVE_AERIAL_ACE"
+    {
+      "id": "MOVE_LOW_SWEEP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SWIFT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AERIAL_ACE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1188,

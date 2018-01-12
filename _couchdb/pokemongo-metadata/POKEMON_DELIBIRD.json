@@ -14,13 +14,32 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_ICE_SHARD_FAST",
-    "MOVE_QUICK_ATTACK_FAST"
+    {
+      "id": "MOVE_ICE_SHARD_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_QUICK_ATTACK_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_PRESENT_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_ICE_PUNCH",
-    "MOVE_ICY_WIND",
-    "MOVE_AERIAL_ACE"
+    {
+      "id": "MOVE_ICE_PUNCH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ICY_WIND",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AERIAL_ACE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 937,

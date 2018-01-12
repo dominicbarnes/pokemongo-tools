@@ -14,13 +14,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_BUBBLE_FAST",
-    "MOVE_WING_ATTACK_FAST"
+    {
+      "id": "MOVE_BUBBLE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_WING_ATTACK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_WATER_PULSE",
-    "MOVE_ICE_BEAM",
-    "MOVE_AERIAL_ACE"
+    {
+      "id": "MOVE_WATER_PULSE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ICE_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AERIAL_ACE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2032,

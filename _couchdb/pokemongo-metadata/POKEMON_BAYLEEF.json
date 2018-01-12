@@ -19,13 +19,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_RAZOR_LEAF_FAST",
-    "MOVE_TACKLE_FAST"
+    {
+      "id": "MOVE_RAZOR_LEAF_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_TACKLE_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_ENERGY_BALL",
-    "MOVE_GRASS_KNOT",
-    "MOVE_ANCIENT_POWER"
+    {
+      "id": "MOVE_ENERGY_BALL",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_GRASS_KNOT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ANCIENT_POWER",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1296,

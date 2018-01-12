@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_KAKUNA",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_INFESTATION_FAST",
-    "MOVE_POISON_JAB_FAST"
+    {
+      "id": "MOVE_INFESTATION_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_POISON_JAB_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_SLUDGE_BOMB",
-    "MOVE_AERIAL_ACE",
-    "MOVE_X_SCISSOR"
+    {
+      "id": "MOVE_SLUDGE_BOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AERIAL_ACE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_X_SCISSOR",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1777,

@@ -14,13 +14,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_PECK_FAST",
-    "MOVE_FEINT_ATTACK_FAST"
+    {
+      "id": "MOVE_PECK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FEINT_ATTACK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DRILL_PECK",
-    "MOVE_FOUL_PLAY",
-    "MOVE_DARK_PULSE"
+    {
+      "id": "MOVE_DRILL_PECK",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FOUL_PLAY",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DARK_PULSE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1392,

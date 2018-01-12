@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_JIGGLYPUFF",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_POUND_FAST",
-    "MOVE_FEINT_ATTACK_FAST"
+    {
+      "id": "MOVE_POUND_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FEINT_ATTACK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DAZZLING_GLEAM",
-    "MOVE_HYPER_BEAM",
-    "MOVE_PLAY_ROUGH"
+    {
+      "id": "MOVE_DAZZLING_GLEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HYPER_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PLAY_ROUGH",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1906,

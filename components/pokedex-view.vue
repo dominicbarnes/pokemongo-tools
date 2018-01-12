@@ -120,13 +120,17 @@
       quickMoves() {
         const { quickMoves } = this.pokemon
         if (!quickMoves) return null
-        return quickMoves.map(id => this.$store.getters['metadata/movesByID'].get(id)).sort(sortBy('power'))
+        return quickMoves
+          .map(move => Object.assign({ legacy: move.legacy }, this.$store.getters['metadata/movesByID'].get(move.id)))
+          .sort(sortBy('power'))
       },
 
       chargeMoves() {
         const { chargeMoves } = this.pokemon
         if (!chargeMoves) return null
-        return chargeMoves.map(id => this.$store.getters['metadata/movesByID'].get(id)).sort(sortBy('power'))
+        return chargeMoves
+          .map(move => Object.assign({ legacy: move.legacy }, this.$store.getters['metadata/movesByID'].get(move.id)))
+          .sort(sortBy('power'))
       },
 
       previousEvolution() {

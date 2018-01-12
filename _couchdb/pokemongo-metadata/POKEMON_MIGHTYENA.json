@@ -13,13 +13,36 @@
   "previousEvolution": "POKEMON_POOCHYENA",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_BITE_FAST",
-    "MOVE_FIRE_FANG_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_BITE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FIRE_FANG_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_CRUNCH",
-    "MOVE_PLAY_ROUGH",
-    "MOVE_POISON_FANG"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_CRUNCH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PLAY_ROUGH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_POISON_FANG",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1783,

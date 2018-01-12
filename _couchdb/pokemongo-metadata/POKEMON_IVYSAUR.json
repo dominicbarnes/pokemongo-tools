@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_RAZOR_LEAF_FAST",
-    "MOVE_VINE_WHIP_FAST"
+    {
+      "id": "MOVE_RAZOR_LEAF_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_VINE_WHIP_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_SLUDGE_BOMB",
-    "MOVE_SOLAR_BEAM",
-    "MOVE_POWER_WHIP"
+    {
+      "id": "MOVE_SLUDGE_BOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SOLAR_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_POWER_WHIP",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1552,

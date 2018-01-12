@@ -19,13 +19,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_TACKLE_FAST",
-    "MOVE_WATER_GUN_FAST"
+    {
+      "id": "MOVE_TACKLE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_WATER_GUN_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_SWIFT",
-    "MOVE_BUBBLE_BEAM",
-    "MOVE_POWER_GEM"
+    {
+      "id": "MOVE_SWIFT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BUBBLE_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_POWER_GEM",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 926,

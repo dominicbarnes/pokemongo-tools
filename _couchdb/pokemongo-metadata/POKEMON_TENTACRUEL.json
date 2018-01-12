@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_TENTACOOL",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_ACID_FAST",
-    "MOVE_POISON_JAB_FAST"
+    {
+      "id": "MOVE_ACID_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_POISON_JAB_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_HYDRO_PUMP",
-    "MOVE_SLUDGE_WAVE",
-    "MOVE_BLIZZARD"
+    {
+      "id": "MOVE_HYDRO_PUMP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SLUDGE_WAVE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BLIZZARD",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2374,

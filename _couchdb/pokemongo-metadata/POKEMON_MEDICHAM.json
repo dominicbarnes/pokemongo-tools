@@ -14,13 +14,36 @@
   "previousEvolution": "POKEMON_MEDITITE",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_PSYCHO_CUT_FAST",
-    "MOVE_COUNTER_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_PSYCHO_CUT_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_COUNTER_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_ICE_PUNCH",
-    "MOVE_PSYCHIC",
-    "MOVE_DYNAMIC_PUNCH"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_ICE_PUNCH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PSYCHIC",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DYNAMIC_PUNCH",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1275,

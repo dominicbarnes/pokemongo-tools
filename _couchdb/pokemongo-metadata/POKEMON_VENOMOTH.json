@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_VENONAT",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_INFESTATION_FAST",
-    "MOVE_CONFUSION_FAST"
+    {
+      "id": "MOVE_INFESTATION_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_CONFUSION_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_SILVER_WIND",
-    "MOVE_PSYCHIC",
-    "MOVE_BUG_BUZZ"
+    {
+      "id": "MOVE_SILVER_WIND",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PSYCHIC",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BUG_BUZZ",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1937,

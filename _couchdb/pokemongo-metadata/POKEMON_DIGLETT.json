@@ -19,13 +19,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_MUD_SLAP_FAST",
-    "MOVE_SCRATCH_FAST"
+    {
+      "id": "MOVE_MUD_SLAP_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SCRATCH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DIG",
-    "MOVE_MUD_BOMB",
-    "MOVE_ROCK_TOMB"
+    {
+      "id": "MOVE_DIG",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MUD_BOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ROCK_TOMB",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 465,

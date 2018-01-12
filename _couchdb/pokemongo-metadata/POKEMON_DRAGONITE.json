@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_DRAGONAIR",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_DRAGON_TAIL_FAST",
-    "MOVE_STEEL_WING_FAST"
+    {
+      "id": "MOVE_DRAGON_TAIL_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_STEEL_WING_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_HURRICANE",
-    "MOVE_HYPER_BEAM",
-    "MOVE_OUTRAGE"
+    {
+      "id": "MOVE_HURRICANE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HYPER_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_OUTRAGE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 3581,

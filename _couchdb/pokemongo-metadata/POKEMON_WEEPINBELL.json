@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_BULLET_SEED_FAST",
-    "MOVE_ACID_FAST"
+    {
+      "id": "MOVE_BULLET_SEED_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ACID_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_POWER_WHIP",
-    "MOVE_SLUDGE_BOMB",
-    "MOVE_SEED_BOMB"
+    {
+      "id": "MOVE_POWER_WHIP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SLUDGE_BOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SEED_BOMB",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1475,

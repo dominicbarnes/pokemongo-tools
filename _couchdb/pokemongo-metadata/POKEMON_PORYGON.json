@@ -21,13 +21,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_CHARGE_BEAM_FAST",
-    "MOVE_HIDDEN_POWER_FAST"
+    {
+      "id": "MOVE_CHARGE_BEAM_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HIDDEN_POWER_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_SOLAR_BEAM",
-    "MOVE_HYPER_BEAM",
-    "MOVE_ZAP_CANNON"
+    {
+      "id": "MOVE_SOLAR_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HYPER_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ZAP_CANNON",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1567,

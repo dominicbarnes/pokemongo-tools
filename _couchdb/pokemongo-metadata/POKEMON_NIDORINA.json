@@ -19,13 +19,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_BITE_FAST",
-    "MOVE_POISON_STING_FAST"
+    {
+      "id": "MOVE_BITE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_POISON_STING_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_POISON_FANG",
-    "MOVE_DIG",
-    "MOVE_SLUDGE_BOMB"
+    {
+      "id": "MOVE_POISON_FANG",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DIG",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SLUDGE_BOMB",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1218,

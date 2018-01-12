@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_FEINT_ATTACK_FAST",
-    "MOVE_EMBER_FAST"
+    {
+      "id": "MOVE_FEINT_ATTACK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_EMBER_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_CRUNCH",
-    "MOVE_FLAMETHROWER",
-    "MOVE_DARK_PULSE"
+    {
+      "id": "MOVE_CRUNCH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FLAMETHROWER",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DARK_PULSE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1110,

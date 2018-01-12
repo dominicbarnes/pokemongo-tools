@@ -14,13 +14,36 @@
   "previousEvolution": "POKEMON_METANG",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_BULLET_PUNCH_FAST",
-    "MOVE_ZEN_HEADBUTT_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_BULLET_PUNCH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ZEN_HEADBUTT_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_PSYCHIC",
-    "MOVE_FLASH_CANNON",
-    "MOVE_EARTHQUAKE"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_PSYCHIC",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FLASH_CANNON",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_EARTHQUAKE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 3637,

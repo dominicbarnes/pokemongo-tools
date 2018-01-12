@@ -13,13 +13,28 @@
   "previousEvolution": "POKEMON_SANDSHREW",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_METAL_CLAW_FAST",
-    "MOVE_MUD_SHOT_FAST"
+    {
+      "id": "MOVE_METAL_CLAW_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MUD_SHOT_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_EARTHQUAKE",
-    "MOVE_ROCK_TOMB",
-    "MOVE_BULLDOZE"
+    {
+      "id": "MOVE_EARTHQUAKE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ROCK_TOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BULLDOZE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2328,

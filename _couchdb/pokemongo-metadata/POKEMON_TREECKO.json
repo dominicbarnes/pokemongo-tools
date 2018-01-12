@@ -19,13 +19,36 @@
     }
   ],
   "quickMoves": [
-    "MOVE_POUND_FAST",
-    "MOVE_BULLET_SEED_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_POUND_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BULLET_SEED_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_ENERGY_BALL",
-    "MOVE_AERIAL_ACE",
-    "MOVE_GRASS_KNOT"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_ENERGY_BALL",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AERIAL_ACE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_GRASS_KNOT",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 923,

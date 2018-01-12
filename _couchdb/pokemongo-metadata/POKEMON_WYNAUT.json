@@ -19,11 +19,24 @@
     }
   ],
   "quickMoves": [
-    "MOVE_SPLASH_FAST",
-    "MOVE_COUNTER_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_COUNTER_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_MIRROR_COAT"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_MIRROR_COAT",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 503,

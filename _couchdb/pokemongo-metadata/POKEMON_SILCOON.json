@@ -19,11 +19,24 @@
     }
   ],
   "quickMoves": [
-    "MOVE_POISON_STING_FAST",
-    "MOVE_BUG_BITE_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_POISON_STING_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BUG_BITE_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_STRUGGLE"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 517,

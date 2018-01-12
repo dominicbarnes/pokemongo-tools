@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_HOOTHOOT",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_WING_ATTACK_FAST",
-    "MOVE_EXTRASENSORY_FAST"
+    {
+      "id": "MOVE_WING_ATTACK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_EXTRASENSORY_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_PSYCHIC",
-    "MOVE_SKY_ATTACK",
-    "MOVE_NIGHT_SHADE"
+    {
+      "id": "MOVE_PSYCHIC",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SKY_ATTACK",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_NIGHT_SHADE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2040,

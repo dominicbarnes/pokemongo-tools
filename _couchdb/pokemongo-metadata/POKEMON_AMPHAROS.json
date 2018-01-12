@@ -13,13 +13,28 @@
   "previousEvolution": "POKEMON_FLAAFFY",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_CHARGE_BEAM_FAST",
-    "MOVE_VOLT_SWITCH_FAST"
+    {
+      "id": "MOVE_CHARGE_BEAM_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_VOLT_SWITCH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_ZAP_CANNON",
-    "MOVE_FOCUS_BLAST",
-    "MOVE_THUNDER"
+    {
+      "id": "MOVE_ZAP_CANNON",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FOCUS_BLAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_THUNDER",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2695,

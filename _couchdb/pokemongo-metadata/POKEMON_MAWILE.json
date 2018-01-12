@@ -14,13 +14,36 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_BITE_FAST",
-    "MOVE_ASTONISH_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_BITE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ASTONISH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_PLAY_ROUGH",
-    "MOVE_VICE_GRIP",
-    "MOVE_IRON_HEAD"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_PLAY_ROUGH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_VICE_GRIP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_IRON_HEAD",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1484,

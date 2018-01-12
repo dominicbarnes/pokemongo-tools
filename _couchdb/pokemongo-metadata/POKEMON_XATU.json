@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_NATU",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_AIR_SLASH_FAST",
-    "MOVE_FEINT_ATTACK_FAST"
+    {
+      "id": "MOVE_AIR_SLASH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FEINT_ATTACK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_OMINOUS_WIND",
-    "MOVE_FUTURESIGHT",
-    "MOVE_AERIAL_ACE"
+    {
+      "id": "MOVE_OMINOUS_WIND",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FUTURESIGHT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AERIAL_ACE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1975,

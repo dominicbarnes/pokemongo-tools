@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_MARILL",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_ROCK_SMASH_FAST",
-    "MOVE_BUBBLE_FAST"
+    {
+      "id": "MOVE_ROCK_SMASH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BUBBLE_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_PLAY_ROUGH",
-    "MOVE_HYDRO_PUMP",
-    "MOVE_ICE_BEAM"
+    {
+      "id": "MOVE_PLAY_ROUGH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HYDRO_PUMP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ICE_BEAM",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1503,

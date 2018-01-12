@@ -19,12 +19,24 @@
     }
   ],
   "quickMoves": [
-    "MOVE_THUNDER_SHOCK_FAST"
+    {
+      "id": "MOVE_THUNDER_SHOCK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_THUNDERBOLT",
-    "MOVE_DISARMING_VOICE",
-    "MOVE_THUNDER_PUNCH"
+    {
+      "id": "MOVE_THUNDERBOLT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DISARMING_VOICE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_THUNDER_PUNCH",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 376,

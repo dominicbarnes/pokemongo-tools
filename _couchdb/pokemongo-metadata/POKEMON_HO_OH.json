@@ -14,13 +14,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_EXTRASENSORY_FAST",
-    "MOVE_STEEL_WING_FAST"
+    {
+      "id": "MOVE_EXTRASENSORY_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_STEEL_WING_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_BRAVE_BIRD",
-    "MOVE_FIRE_BLAST",
-    "MOVE_SOLAR_BEAM"
+    {
+      "id": "MOVE_BRAVE_BIRD",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FIRE_BLAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SOLAR_BEAM",
+      "legacy": false
+    }
   ],
   "rarity": "legendary",
   "maxCP": 3889,

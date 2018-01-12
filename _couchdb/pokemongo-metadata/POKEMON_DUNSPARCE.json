@@ -13,13 +13,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_BITE_FAST",
-    "MOVE_ASTONISH_FAST"
+    {
+      "id": "MOVE_BITE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ASTONISH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DIG",
-    "MOVE_ROCK_SLIDE",
-    "MOVE_DRILL_RUN"
+    {
+      "id": "MOVE_DIG",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ROCK_SLIDE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DRILL_RUN",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1615,

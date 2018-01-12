@@ -13,13 +13,32 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_WATER_GUN_FAST",
-    "MOVE_SPLASH_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_WATER_GUN_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DRAINING_KISS",
-    "MOVE_WATER_PULSE",
-    "MOVE_AQUA_JET"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_DRAINING_KISS",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_WATER_PULSE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AQUA_JET",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 735,

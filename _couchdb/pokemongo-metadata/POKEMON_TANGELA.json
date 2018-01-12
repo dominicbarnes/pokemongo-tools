@@ -13,13 +13,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_VINE_WHIP_FAST",
-    "MOVE_INFESTATION_FAST"
+    {
+      "id": "MOVE_VINE_WHIP_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_INFESTATION_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_GRASS_KNOT",
-    "MOVE_SLUDGE_BOMB",
-    "MOVE_SOLAR_BEAM"
+    {
+      "id": "MOVE_GRASS_KNOT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SLUDGE_BOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SOLAR_BEAM",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2208,

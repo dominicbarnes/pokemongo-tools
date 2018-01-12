@@ -13,13 +13,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_TACKLE_FAST",
-    "MOVE_ZEN_HEADBUTT_FAST"
+    {
+      "id": "MOVE_TACKLE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ZEN_HEADBUTT_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_HORN_ATTACK",
-    "MOVE_IRON_HEAD",
-    "MOVE_EARTHQUAKE"
+    {
+      "id": "MOVE_HORN_ATTACK",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_IRON_HEAD",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_EARTHQUAKE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2488,

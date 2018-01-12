@@ -13,13 +13,28 @@
   "previousEvolution": "POKEMON_MEOWTH",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_SCRATCH_FAST",
-    "MOVE_FEINT_ATTACK_FAST"
+    {
+      "id": "MOVE_SCRATCH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FEINT_ATTACK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_FOUL_PLAY",
-    "MOVE_POWER_GEM",
-    "MOVE_PLAY_ROUGH"
+    {
+      "id": "MOVE_FOUL_PLAY",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_POWER_GEM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PLAY_ROUGH",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1539,

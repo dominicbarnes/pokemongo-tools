@@ -211,12 +211,14 @@
 
       quickMove() {
         const { quickMove } = this.catalog
-        return this.$store.getters['metadata/movesByID'].get(quickMove)
+        const legacy = this.isLegacyMove(quickMove, this.metadata.quickMoves)
+        return Object.assign({ legacy }, this.$store.getters['metadata/movesByID'].get(quickMove))
       },
 
       chargeMove() {
         const { chargeMove } = this.catalog
-        return this.$store.getters['metadata/movesByID'].get(chargeMove)
+        const legacy = this.isLegacyMove(chargeMove, this.metadata.chargeMoves)
+        return Object.assign({ legacy }, this.$store.getters['metadata/movesByID'].get(chargeMove))
       },
 
       canEvolve() {
@@ -293,6 +295,12 @@
           if (value) acc[mapping[key]] = value
           return acc
         }, { _id: pokemon })
+      },
+
+      isLegacyMove(moveID, availableMoves) {
+        const metadata = availableMoves.find(move => move.id === moveID)
+        if (!metadata) return false
+        return !!metadata.legacy
       },
 
       async save(keys, e) {

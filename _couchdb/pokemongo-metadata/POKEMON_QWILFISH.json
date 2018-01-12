@@ -14,13 +14,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_POISON_STING_FAST",
-    "MOVE_WATER_GUN_FAST"
+    {
+      "id": "MOVE_POISON_STING_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_WATER_GUN_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_AQUA_TAIL",
-    "MOVE_ICE_BEAM",
-    "MOVE_SLUDGE_WAVE"
+    {
+      "id": "MOVE_AQUA_TAIL",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ICE_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SLUDGE_WAVE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1910,

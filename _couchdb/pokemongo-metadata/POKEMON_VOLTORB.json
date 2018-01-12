@@ -19,13 +19,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_SPARK_FAST",
-    "MOVE_TACKLE_FAST"
+    {
+      "id": "MOVE_SPARK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_TACKLE_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DISCHARGE",
-    "MOVE_THUNDERBOLT",
-    "MOVE_GYRO_BALL"
+    {
+      "id": "MOVE_DISCHARGE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_THUNDERBOLT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_GYRO_BALL",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 857,

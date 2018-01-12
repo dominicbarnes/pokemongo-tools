@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_NIDORINA",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_POISON_JAB_FAST",
-    "MOVE_BITE_FAST"
+    {
+      "id": "MOVE_POISON_JAB_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BITE_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_EARTHQUAKE",
-    "MOVE_SLUDGE_WAVE",
-    "MOVE_STONE_EDGE"
+    {
+      "id": "MOVE_EARTHQUAKE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SLUDGE_WAVE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_STONE_EDGE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2338,

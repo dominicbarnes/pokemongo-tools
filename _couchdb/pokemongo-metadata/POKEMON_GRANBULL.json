@@ -13,13 +13,28 @@
   "previousEvolution": "POKEMON_SNUBBULL",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_BITE_FAST",
-    "MOVE_SNARL_FAST"
+    {
+      "id": "MOVE_BITE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SNARL_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_CRUNCH",
-    "MOVE_PLAY_ROUGH",
-    "MOVE_CLOSE_COMBAT"
+    {
+      "id": "MOVE_CRUNCH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PLAY_ROUGH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_CLOSE_COMBAT",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2440,

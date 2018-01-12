@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_PECK_FAST",
-    "MOVE_QUICK_ATTACK_FAST"
+    {
+      "id": "MOVE_PECK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_QUICK_ATTACK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_AERIAL_ACE",
-    "MOVE_DRILL_PECK",
-    "MOVE_SKY_ATTACK"
+    {
+      "id": "MOVE_AERIAL_ACE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DRILL_PECK",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SKY_ATTACK",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 673,

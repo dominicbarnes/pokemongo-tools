@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_TACKLE_FAST",
-    "MOVE_BULLET_SEED_FAST"
+    {
+      "id": "MOVE_TACKLE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BULLET_SEED_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_GRASS_KNOT",
-    "MOVE_DAZZLING_GLEAM",
-    "MOVE_ENERGY_BALL"
+    {
+      "id": "MOVE_GRASS_KNOT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DAZZLING_GLEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ENERGY_BALL",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 882,

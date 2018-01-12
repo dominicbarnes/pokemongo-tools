@@ -13,13 +13,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_ROCK_SMASH_FAST",
-    "MOVE_BUG_BITE_FAST"
+    {
+      "id": "MOVE_ROCK_SMASH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BUG_BITE_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_VICE_GRIP",
-    "MOVE_X_SCISSOR",
-    "MOVE_CLOSE_COMBAT"
+    {
+      "id": "MOVE_VICE_GRIP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_X_SCISSOR",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_CLOSE_COMBAT",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2770,

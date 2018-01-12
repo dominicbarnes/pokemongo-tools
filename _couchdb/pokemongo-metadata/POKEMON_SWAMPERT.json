@@ -14,13 +14,36 @@
   "previousEvolution": "POKEMON_MARSHTOMP",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_MUD_SHOT_FAST",
-    "MOVE_WATER_GUN_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_MUD_SHOT_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_WATER_GUN_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_EARTHQUAKE",
-    "MOVE_SLUDGE_WAVE",
-    "MOVE_SURF"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_EARTHQUAKE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SLUDGE_WAVE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SURF",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2815,

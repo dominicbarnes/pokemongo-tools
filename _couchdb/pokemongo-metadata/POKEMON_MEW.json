@@ -13,17 +13,44 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_POUND_FAST"
+    {
+      "id": "MOVE_POUND_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_BLIZZARD",
-    "MOVE_EARTHQUAKE",
-    "MOVE_PSYCHIC",
-    "MOVE_FOCUS_BLAST",
-    "MOVE_THUNDER",
-    "MOVE_FIRE_BLAST",
-    "MOVE_SOLAR_BEAM",
-    "MOVE_HYPER_BEAM"
+    {
+      "id": "MOVE_BLIZZARD",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_EARTHQUAKE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PSYCHIC",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FOCUS_BLAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_THUNDER",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FIRE_BLAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SOLAR_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HYPER_BEAM",
+      "legacy": false
+    }
   ],
   "rarity": "mythic",
   "maxCP": 3090,

@@ -13,12 +13,24 @@
   "previousEvolution": "POKEMON_EEVEE",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_WATER_GUN_FAST"
+    {
+      "id": "MOVE_WATER_GUN_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_WATER_PULSE",
-    "MOVE_HYDRO_PUMP",
-    "MOVE_AQUA_TAIL"
+    {
+      "id": "MOVE_WATER_PULSE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HYDRO_PUMP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AQUA_TAIL",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 3157,

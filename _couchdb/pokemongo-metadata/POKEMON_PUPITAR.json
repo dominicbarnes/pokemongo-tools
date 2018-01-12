@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_BITE_FAST",
-    "MOVE_ROCK_SMASH_FAST"
+    {
+      "id": "MOVE_BITE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ROCK_SMASH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DIG",
-    "MOVE_CRUNCH",
-    "MOVE_ANCIENT_POWER"
+    {
+      "id": "MOVE_DIG",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_CRUNCH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ANCIENT_POWER",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1608,

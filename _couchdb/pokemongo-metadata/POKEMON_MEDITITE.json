@@ -20,13 +20,36 @@
     }
   ],
   "quickMoves": [
-    "MOVE_CONFUSION_FAST",
-    "MOVE_ROCK_SMASH_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_CONFUSION_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ROCK_SMASH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_ICE_PUNCH",
-    "MOVE_PSYSHOCK",
-    "MOVE_LOW_SWEEP"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_ICE_PUNCH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PSYSHOCK",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_LOW_SWEEP",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 555,

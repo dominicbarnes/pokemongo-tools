@@ -19,13 +19,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_POISON_JAB_FAST",
-    "MOVE_MUD_SLAP_FAST"
+    {
+      "id": "MOVE_POISON_JAB_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MUD_SLAP_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_SLUDGE",
-    "MOVE_MUD_BOMB",
-    "MOVE_SLUDGE_BOMB"
+    {
+      "id": "MOVE_SLUDGE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MUD_BOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SLUDGE_BOMB",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1269,

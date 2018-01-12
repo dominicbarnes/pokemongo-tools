@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_POUND_FAST",
-    "MOVE_FEINT_ATTACK_FAST"
+    {
+      "id": "MOVE_POUND_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FEINT_ATTACK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DISARMING_VOICE",
-    "MOVE_GYRO_BALL",
-    "MOVE_DAZZLING_GLEAM"
+    {
+      "id": "MOVE_DISARMING_VOICE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_GYRO_BALL",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DAZZLING_GLEAM",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 713,

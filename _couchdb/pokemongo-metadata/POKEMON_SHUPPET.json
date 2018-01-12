@@ -19,13 +19,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_FEINT_ATTACK_FAST",
-    "MOVE_ASTONISH_FAST"
+    {
+      "id": "MOVE_FEINT_ATTACK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ASTONISH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_OMINOUS_WIND",
-    "MOVE_NIGHT_SHADE",
-    "MOVE_SHADOW_SNEAK"
+    {
+      "id": "MOVE_OMINOUS_WIND",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_NIGHT_SHADE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SHADOW_SNEAK",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 872,

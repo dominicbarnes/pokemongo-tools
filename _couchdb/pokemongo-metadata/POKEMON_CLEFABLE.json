@@ -13,13 +13,28 @@
   "previousEvolution": "POKEMON_CLEFAIRY",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_CHARGE_BEAM_FAST",
-    "MOVE_ZEN_HEADBUTT_FAST"
+    {
+      "id": "MOVE_CHARGE_BEAM_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ZEN_HEADBUTT_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DAZZLING_GLEAM",
-    "MOVE_PSYCHIC",
-    "MOVE_MOONBLAST"
+    {
+      "id": "MOVE_DAZZLING_GLEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PSYCHIC",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MOONBLAST",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2353,

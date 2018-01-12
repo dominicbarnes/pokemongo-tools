@@ -13,13 +13,32 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_EXTRASENSORY_FAST",
-    "MOVE_SNARL_FAST"
+    {
+      "id": "MOVE_EXTRASENSORY_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SNARL_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HIDDEN_POWER_FAST",
+      "legacy": true
+    }
   ],
   "chargeMoves": [
-    "MOVE_HYDRO_PUMP",
-    "MOVE_BUBBLE_BEAM",
-    "MOVE_WATER_PULSE"
+    {
+      "id": "MOVE_HYDRO_PUMP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BUBBLE_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_WATER_PULSE",
+      "legacy": false
+    }
   ],
   "rarity": "legendary",
   "maxCP": 2823,

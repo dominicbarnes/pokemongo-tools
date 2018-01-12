@@ -32,9 +32,11 @@ const query = `{
     }
     quickMoves {
       id
+      legacy
     }
     chargeMoves {
       id
+      legacy
     }
     rarity
     maxCP
@@ -91,10 +93,14 @@ function pokemon (list) {
       })
     }
     if (pokemon.quickMoves) {
-      pokemon.quickMoves = pokemon.quickMoves.map(move => `MOVE_${move.id}`)
+      pokemon.quickMoves = pokemon.quickMoves.map(move => {
+        return { id: `MOVE_${move.id}`, legacy: move.legacy }
+      })
     }
     if (pokemon.chargeMoves) {
-      pokemon.chargeMoves = pokemon.chargeMoves.map(move => `MOVE_${move.id}`)
+      pokemon.chargeMoves = pokemon.chargeMoves.map(move => {
+        return { id: `MOVE_${move.id}`, legacy: move.legacy }
+      })
     }
     return pokemon
   })

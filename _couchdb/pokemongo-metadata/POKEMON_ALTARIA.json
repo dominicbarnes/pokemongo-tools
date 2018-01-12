@@ -14,13 +14,36 @@
   "previousEvolution": "POKEMON_SWABLU",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_PECK_FAST",
-    "MOVE_DRAGON_BREATH_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_PECK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DRAGON_BREATH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_SKY_ATTACK",
-    "MOVE_DAZZLING_GLEAM",
-    "MOVE_DRAGON_PULSE"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_SKY_ATTACK",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DAZZLING_GLEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DRAGON_PULSE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1868,

@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_GOLBAT",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_AIR_SLASH_FAST",
-    "MOVE_BITE_FAST"
+    {
+      "id": "MOVE_AIR_SLASH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BITE_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_SHADOW_BALL",
-    "MOVE_AIR_CUTTER",
-    "MOVE_SLUDGE_BOMB"
+    {
+      "id": "MOVE_SHADOW_BALL",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AIR_CUTTER",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SLUDGE_BOMB",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2466,

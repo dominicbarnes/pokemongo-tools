@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_POUND_FAST",
-    "MOVE_FEINT_ATTACK_FAST"
+    {
+      "id": "MOVE_POUND_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FEINT_ATTACK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_WILD_CHARGE",
-    "MOVE_SHADOW_BALL",
-    "MOVE_PSYCHIC"
+    {
+      "id": "MOVE_WILD_CHARGE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SHADOW_BALL",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PSYCHIC",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 512,

@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_STARYU",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_HIDDEN_POWER_FAST",
-    "MOVE_WATER_GUN_FAST"
+    {
+      "id": "MOVE_HIDDEN_POWER_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_WATER_GUN_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_HYDRO_PUMP",
-    "MOVE_POWER_GEM",
-    "MOVE_PSYCHIC"
+    {
+      "id": "MOVE_HYDRO_PUMP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_POWER_GEM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PSYCHIC",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2303,

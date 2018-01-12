@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_POLIWHIRL",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_BUBBLE_FAST",
-    "MOVE_ROCK_SMASH_FAST"
+    {
+      "id": "MOVE_BUBBLE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ROCK_SMASH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_HYDRO_PUMP",
-    "MOVE_DYNAMIC_PUNCH",
-    "MOVE_ICE_PUNCH"
+    {
+      "id": "MOVE_HYDRO_PUMP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DYNAMIC_PUNCH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ICE_PUNCH",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2441,

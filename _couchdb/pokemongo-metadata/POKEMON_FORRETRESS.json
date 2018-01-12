@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_PINECO",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_BUG_BITE_FAST",
-    "MOVE_STRUGGLE_BUG_FAST"
+    {
+      "id": "MOVE_BUG_BITE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_STRUGGLE_BUG_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_HEAVY_SLAM",
-    "MOVE_EARTHQUAKE",
-    "MOVE_ROCK_TOMB"
+    {
+      "id": "MOVE_HEAVY_SLAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_EARTHQUAKE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ROCK_TOMB",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2263,

@@ -13,12 +13,32 @@
   "previousEvolution": "POKEMON_VIGOROTH",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_YAWN_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_YAWN_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_HYPER_BEAM",
-    "MOVE_PLAY_ROUGH",
-    "MOVE_EARTHQUAKE"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_HYPER_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PLAY_ROUGH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_EARTHQUAKE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 4548,

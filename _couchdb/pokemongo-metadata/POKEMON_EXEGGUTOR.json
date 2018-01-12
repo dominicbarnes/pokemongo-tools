@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_EXEGGCUTE",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_BULLET_SEED_FAST",
-    "MOVE_EXTRASENSORY_FAST"
+    {
+      "id": "MOVE_BULLET_SEED_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_EXTRASENSORY_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_SEED_BOMB",
-    "MOVE_PSYCHIC",
-    "MOVE_SOLAR_BEAM"
+    {
+      "id": "MOVE_SEED_BOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PSYCHIC",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SOLAR_BEAM",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2916,

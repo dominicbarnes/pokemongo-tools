@@ -14,13 +14,36 @@
   "previousEvolution": "POKEMON_NINCADA",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_FURY_CUTTER_FAST",
-    "MOVE_METAL_CLAW_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_FURY_CUTTER_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_METAL_CLAW_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_SHADOW_BALL",
-    "MOVE_BUG_BUZZ",
-    "MOVE_AERIAL_ACE"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_SHADOW_BALL",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BUG_BUZZ",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AERIAL_ACE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1751,

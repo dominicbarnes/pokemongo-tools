@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_ONIX",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_IRON_TAIL_FAST",
-    "MOVE_DRAGON_TAIL_FAST"
+    {
+      "id": "MOVE_IRON_TAIL_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DRAGON_TAIL_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_EARTHQUAKE",
-    "MOVE_HEAVY_SLAM",
-    "MOVE_CRUNCH"
+    {
+      "id": "MOVE_EARTHQUAKE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HEAVY_SLAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_CRUNCH",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2439,

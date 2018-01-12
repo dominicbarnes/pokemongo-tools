@@ -13,13 +13,36 @@
   "previousEvolution": "POKEMON_GULPIN",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_ROCK_SMASH_FAST",
-    "MOVE_INFESTATION_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_ROCK_SMASH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_INFESTATION_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_GUNK_SHOT",
-    "MOVE_SLUDGE_BOMB",
-    "MOVE_ICE_BEAM"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_GUNK_SHOT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SLUDGE_BOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ICE_BEAM",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1872,

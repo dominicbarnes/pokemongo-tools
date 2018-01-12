@@ -14,13 +14,36 @@
   "previousEvolution": "POKEMON_WINGULL",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_WATER_GUN_FAST",
-    "MOVE_WING_ATTACK_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_WATER_GUN_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_WING_ATTACK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_HYDRO_PUMP",
-    "MOVE_HURRICANE",
-    "MOVE_BLIZZARD"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_HYDRO_PUMP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HURRICANE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BLIZZARD",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1969,

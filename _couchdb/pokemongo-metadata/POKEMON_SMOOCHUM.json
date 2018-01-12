@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_POWDER_SNOW_FAST",
-    "MOVE_POUND_FAST"
+    {
+      "id": "MOVE_POWDER_SNOW_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_POUND_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_ICE_BEAM",
-    "MOVE_ICE_PUNCH",
-    "MOVE_PSYSHOCK"
+    {
+      "id": "MOVE_ICE_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ICE_PUNCH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PSYSHOCK",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1230,

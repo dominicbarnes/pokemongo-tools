@@ -14,13 +14,36 @@
   "previousEvolution": "POKEMON_BARBOACH",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_WATER_GUN_FAST",
-    "MOVE_MUD_SHOT_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_WATER_GUN_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MUD_SHOT_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_WATER_PULSE",
-    "MOVE_BLIZZARD",
-    "MOVE_MUD_BOMB"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_WATER_PULSE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BLIZZARD",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MUD_BOMB",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1991,

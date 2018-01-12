@@ -14,13 +14,32 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_FROST_BREATH_FAST",
-    "MOVE_WATER_GUN_FAST"
+    {
+      "id": "MOVE_FROST_BREATH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_WATER_GUN_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_HYDRO_PUMP",
-    "MOVE_SURF",
-    "MOVE_BLIZZARD"
+    {
+      "id": "MOVE_HYDRO_PUMP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ICE_BEAM",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_BLIZZARD",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SURF",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2603,

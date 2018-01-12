@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_TOGEPI",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_EXTRASENSORY_FAST",
-    "MOVE_HIDDEN_POWER_FAST"
+    {
+      "id": "MOVE_EXTRASENSORY_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HIDDEN_POWER_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_ANCIENT_POWER",
-    "MOVE_DAZZLING_GLEAM",
-    "MOVE_AERIAL_ACE"
+    {
+      "id": "MOVE_ANCIENT_POWER",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DAZZLING_GLEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AERIAL_ACE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1543,

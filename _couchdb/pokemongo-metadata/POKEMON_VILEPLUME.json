@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_GLOOM",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_RAZOR_LEAF_FAST",
-    "MOVE_ACID_FAST"
+    {
+      "id": "MOVE_RAZOR_LEAF_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ACID_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_PETAL_BLIZZARD",
-    "MOVE_SOLAR_BEAM",
-    "MOVE_MOONBLAST"
+    {
+      "id": "MOVE_PETAL_BLIZZARD",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SOLAR_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MOONBLAST",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2367,

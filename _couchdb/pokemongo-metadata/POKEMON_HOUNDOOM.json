@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_HOUNDOUR",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_SNARL_FAST",
-    "MOVE_FIRE_FANG_FAST"
+    {
+      "id": "MOVE_SNARL_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FIRE_FANG_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_CRUNCH",
-    "MOVE_FIRE_BLAST",
-    "MOVE_FOUL_PLAY"
+    {
+      "id": "MOVE_CRUNCH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FIRE_BLAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FOUL_PLAY",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2529,

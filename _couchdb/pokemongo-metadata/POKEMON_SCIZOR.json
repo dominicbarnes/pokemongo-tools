@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_SCYTHER",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_BULLET_PUNCH_FAST",
-    "MOVE_FURY_CUTTER_FAST"
+    {
+      "id": "MOVE_BULLET_PUNCH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FURY_CUTTER_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_X_SCISSOR",
-    "MOVE_IRON_HEAD",
-    "MOVE_NIGHT_SLASH"
+    {
+      "id": "MOVE_X_SCISSOR",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_IRON_HEAD",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_NIGHT_SLASH",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2801,

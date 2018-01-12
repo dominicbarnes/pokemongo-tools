@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_LICK_FAST",
-    "MOVE_ASTONISH_FAST"
+    {
+      "id": "MOVE_LICK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ASTONISH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_NIGHT_SHADE",
-    "MOVE_DARK_PULSE",
-    "MOVE_SLUDGE_BOMB"
+    {
+      "id": "MOVE_NIGHT_SHADE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DARK_PULSE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SLUDGE_BOMB",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1002,

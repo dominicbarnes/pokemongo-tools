@@ -19,13 +19,36 @@
     }
   ],
   "quickMoves": [
-    "MOVE_POISON_STING_FAST",
-    "MOVE_SUCKER_PUNCH_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_POISON_STING_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SUCKER_PUNCH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_GRASS_KNOT",
-    "MOVE_BRICK_BREAK",
-    "MOVE_SEED_BOMB"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_GRASS_KNOT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BRICK_BREAK",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SEED_BOMB",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1080,

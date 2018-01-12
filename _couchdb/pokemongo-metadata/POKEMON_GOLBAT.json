@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_WING_ATTACK_FAST",
-    "MOVE_BITE_FAST"
+    {
+      "id": "MOVE_WING_ATTACK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BITE_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_SHADOW_BALL",
-    "MOVE_AIR_CUTTER",
-    "MOVE_POISON_FANG"
+    {
+      "id": "MOVE_SHADOW_BALL",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AIR_CUTTER",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_POISON_FANG",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1830,

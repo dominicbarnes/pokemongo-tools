@@ -13,13 +13,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_MUD_SLAP_FAST",
-    "MOVE_LOW_KICK_FAST"
+    {
+      "id": "MOVE_MUD_SLAP_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_LOW_KICK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_CRUNCH",
-    "MOVE_EARTHQUAKE",
-    "MOVE_OUTRAGE"
+    {
+      "id": "MOVE_CRUNCH",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_EARTHQUAKE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_OUTRAGE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2463,

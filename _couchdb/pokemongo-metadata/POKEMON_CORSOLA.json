@@ -14,13 +14,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_TACKLE_FAST",
-    "MOVE_BUBBLE_FAST"
+    {
+      "id": "MOVE_TACKLE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BUBBLE_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_ROCK_BLAST",
-    "MOVE_POWER_GEM",
-    "MOVE_BUBBLE_BEAM"
+    {
+      "id": "MOVE_ROCK_BLAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_POWER_GEM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BUBBLE_BEAM",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1214,

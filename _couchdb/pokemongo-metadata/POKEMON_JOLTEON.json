@@ -13,13 +13,28 @@
   "previousEvolution": "POKEMON_EEVEE",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_THUNDER_SHOCK_FAST",
-    "MOVE_VOLT_SWITCH_FAST"
+    {
+      "id": "MOVE_THUNDER_SHOCK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_VOLT_SWITCH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_DISCHARGE",
-    "MOVE_THUNDERBOLT",
-    "MOVE_THUNDER"
+    {
+      "id": "MOVE_DISCHARGE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_THUNDERBOLT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_THUNDER",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2730,

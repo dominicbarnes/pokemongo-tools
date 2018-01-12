@@ -13,13 +13,32 @@
   "previousEvolution": "POKEMON_GOLDEEN",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_PECK_FAST",
-    "MOVE_WATERFALL_FAST"
+    {
+      "id": "MOVE_PECK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_POISON_JAB_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_WATERFALL_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_ICE_BEAM",
-    "MOVE_WATER_PULSE",
-    "MOVE_MEGAHORN"
+    {
+      "id": "MOVE_ICE_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_WATER_PULSE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MEGAHORN",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2040,

@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_PIDGEOTTO",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_AIR_SLASH_FAST",
-    "MOVE_STEEL_WING_FAST"
+    {
+      "id": "MOVE_AIR_SLASH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_STEEL_WING_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_HURRICANE",
-    "MOVE_AERIAL_ACE",
-    "MOVE_BRAVE_BIRD"
+    {
+      "id": "MOVE_HURRICANE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AERIAL_ACE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BRAVE_BIRD",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1994,

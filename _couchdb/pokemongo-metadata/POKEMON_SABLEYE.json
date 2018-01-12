@@ -14,13 +14,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_SHADOW_CLAW_FAST",
-    "MOVE_FEINT_ATTACK_FAST"
+    {
+      "id": "MOVE_SHADOW_CLAW_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FEINT_ATTACK_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_POWER_GEM",
-    "MOVE_FOUL_PLAY",
-    "MOVE_SHADOW_SNEAK"
+    {
+      "id": "MOVE_POWER_GEM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FOUL_PLAY",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SHADOW_SNEAK",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1305,

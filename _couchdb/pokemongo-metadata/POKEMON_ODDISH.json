@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_RAZOR_LEAF_FAST",
-    "MOVE_ACID_FAST"
+    {
+      "id": "MOVE_RAZOR_LEAF_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ACID_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_SEED_BOMB",
-    "MOVE_SLUDGE_BOMB",
-    "MOVE_MOONBLAST"
+    {
+      "id": "MOVE_SEED_BOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SLUDGE_BOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MOONBLAST",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1069,

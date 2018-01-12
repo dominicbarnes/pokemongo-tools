@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_WING_ATTACK_FAST",
-    "MOVE_STEEL_WING_FAST"
+    {
+      "id": "MOVE_WING_ATTACK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_STEEL_WING_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_TWISTER",
-    "MOVE_AERIAL_ACE",
-    "MOVE_AIR_CUTTER"
+    {
+      "id": "MOVE_TWISTER",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AERIAL_ACE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AIR_CUTTER",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1085,

@@ -14,13 +14,36 @@
   "previousEvolution": "POKEMON_SHELGON",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_DRAGON_TAIL_FAST",
-    "MOVE_FIRE_FANG_FAST"
+    {
+      "id": "MOVE_SPLASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_DRAGON_TAIL_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FIRE_FANG_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_FIRE_BLAST",
-    "MOVE_HYDRO_PUMP",
-    "MOVE_DRACO_METEOR"
+    {
+      "id": "MOVE_STRUGGLE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_FIRE_BLAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HYDRO_PUMP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DRACO_METEOR",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 3532,

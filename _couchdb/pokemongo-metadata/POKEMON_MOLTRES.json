@@ -14,12 +14,24 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_FIRE_SPIN_FAST"
+    {
+      "id": "MOVE_FIRE_SPIN_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_FIRE_BLAST",
-    "MOVE_HEAT_WAVE",
-    "MOVE_OVERHEAT"
+    {
+      "id": "MOVE_FIRE_BLAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HEAT_WAVE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_OVERHEAT",
+      "legacy": false
+    }
   ],
   "rarity": "legendary",
   "maxCP": 3272,

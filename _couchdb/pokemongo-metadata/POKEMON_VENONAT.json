@@ -20,13 +20,28 @@
     }
   ],
   "quickMoves": [
-    "MOVE_BUG_BITE_FAST",
-    "MOVE_CONFUSION_FAST"
+    {
+      "id": "MOVE_BUG_BITE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_CONFUSION_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_POISON_FANG",
-    "MOVE_PSYBEAM",
-    "MOVE_SIGNAL_BEAM"
+    {
+      "id": "MOVE_POISON_FANG",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PSYBEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SIGNAL_BEAM",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 902,

@@ -13,13 +13,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_THUNDER_SHOCK_FAST",
-    "MOVE_VOLT_SWITCH_FAST"
+    {
+      "id": "MOVE_THUNDER_SHOCK_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_VOLT_SWITCH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_THUNDER",
-    "MOVE_THUNDERBOLT",
-    "MOVE_WILD_CHARGE"
+    {
+      "id": "MOVE_THUNDER",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_THUNDERBOLT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_WILD_CHARGE",
+      "legacy": false
+    }
   ],
   "rarity": "legendary",
   "maxCP": 3349,

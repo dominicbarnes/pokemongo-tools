@@ -14,13 +14,28 @@
   "previousEvolution": null,
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_STEEL_WING_FAST",
-    "MOVE_AIR_SLASH_FAST"
+    {
+      "id": "MOVE_STEEL_WING_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AIR_SLASH_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_BRAVE_BIRD",
-    "MOVE_SKY_ATTACK",
-    "MOVE_FLASH_CANNON"
+    {
+      "id": "MOVE_BRAVE_BIRD",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SKY_ATTACK",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FLASH_CANNON",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 2032,

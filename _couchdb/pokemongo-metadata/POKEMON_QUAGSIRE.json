@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_WOOPER",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_WATER_GUN_FAST",
-    "MOVE_MUD_SHOT_FAST"
+    {
+      "id": "MOVE_WATER_GUN_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_MUD_SHOT_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_SLUDGE_BOMB",
-    "MOVE_EARTHQUAKE",
-    "MOVE_STONE_EDGE"
+    {
+      "id": "MOVE_SLUDGE_BOMB",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_EARTHQUAKE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_STONE_EDGE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1929,

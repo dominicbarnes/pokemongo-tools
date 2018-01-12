@@ -14,13 +14,28 @@
   "previousEvolution": "POKEMON_LEDYBA",
   "nextEvolutions": [],
   "quickMoves": [
-    "MOVE_STRUGGLE_BUG_FAST",
-    "MOVE_BUG_BITE_FAST"
+    {
+      "id": "MOVE_STRUGGLE_BUG_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BUG_BITE_FAST",
+      "legacy": false
+    }
   ],
   "chargeMoves": [
-    "MOVE_BUG_BUZZ",
-    "MOVE_SILVER_WIND",
-    "MOVE_AERIAL_ACE"
+    {
+      "id": "MOVE_BUG_BUZZ",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SILVER_WIND",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_AERIAL_ACE",
+      "legacy": false
+    }
   ],
   "rarity": null,
   "maxCP": 1275,
