@@ -110,7 +110,8 @@
         const { keywords, minIV, types } = this.filters
 
         if (minIV) {
-          if (minIV >= (row.ivs / 45 * 100)) return false
+          const actualIV = (row.ivs / 45) * 100
+          if (actualIV < minIV) return false
         }
 
         if (types && types.length) {
