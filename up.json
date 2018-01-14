@@ -22,5 +22,13 @@
     "ADMIN_USERNAME": "c38aeb6d-2e18-40ca-b7e9-404da06abd39-bluemix",
     "METADATA_USERNAME": "pokemongo-metadata",
     "METADATA_PASSWORD": "readonly"
+  },
+  "stages": {
+    "staging": {
+      "domain": "stage.pokemongo.tools"
+    },
+    "production": {
+      "domain": "pokemongo.tools"
+    }
   }
 }
