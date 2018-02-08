@@ -8,7 +8,7 @@
             <pokemon-sprite slot="aside" v-bind:pokemon="pokemon.dex" v-bind:shiny="pokemon.shiny" />
             <h2 v-if="pokemon.nickname" class="h3 mt-1 mb-0">
               <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: pokemon.id } }">{{pokemon.nickname}}</b-link>
-              <small class="text-muted">{{pokemon.species}}</small>
+              <small class="text-muted">({{pokemon.species}})</small>
             </h2>
             <h2 v-else class="h3 mt-1 mb-0">
               <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: pokemon.id } }">{{pokemon.species}}</b-link>
@@ -54,21 +54,22 @@
     },
 
     computed: {
-      ...mapGetters({ loggedIn: 'account/loggedIn' }),
+      ...mapGetters({
+        loggedIn: 'account/loggedIn',
+        byID: 'metadata/pokemonByID'
+      }),
 
       items() {
-        const byID = this.$store.getters['metadata/pokemonByID']
-        return this.$store.getters['pokemon/recent'].map(pokemon => {
-          const metadata = byID.get(pokemon.pokemonID)
+        let list = this.$store.state.pokemon.list.map(pokemon => {
+          const metadata = this.byID.get(pokemon.pokemonID)
           const { attackIV = 0, defenseIV = 0, staminaIV = 0 } = pokemon
-          const totalIVs = attackIV + defenseIV + staminaIV
           return {
             added: moment(pokemon.hoodie.createdAt).toISOString(),
             caught: pokemon.caughtAt,
             cp: pokemon.cp,
             dex: metadata.dex,
             id: pokemon._id,
-            ivs: totalIVs,
+            ivs: attackIV + defenseIV + staminaIV,
             name: pokemon.nickname || metadata.name,
             nickname: pokemon.nickname,
             notes: pokemon.notes,
@@ -78,7 +79,11 @@
             species: metadata.name,
             types: metadata.types
           }
-        }).filter(this.filterer).sort(this.sorter)
+        })
+
+        if (this.filtering) list = list.filter(row => this.filter(row))
+
+        return list.sort(this.sorter)
       },
 
       evolves() {
@@ -97,29 +102,34 @@
         }
       },
 
-      filterer() {
+      filtering() {
+        const { evolves, keywords, minIV, types } = this.filters
+        return minIV || (types && types.length) || typeof evolves === 'boolean' || keywords
+      }
+    },
+
+    methods: {
+      filter(row) {
         const { evolves, keywords, minIV, types } = this.filters
 
-        return (row) => {
-          if (minIV) {
-            const actualIV = (row.ivs / 45) * 100
-            if (isNaN(actualIV) || actualIV < minIV) return false
-          }
-
-          if (types && types.length) {
-            if (types.some(type => row.types.indexOf(type) === -1)) return false
-          }
-
-          if (typeof evolves === 'boolean') {
-            if (evolves !== this.evolves.indexOf(row.pokemon) > -1) return false
-          }
-
-          if (keywords) {
-            return [ row.name ].concat(row.types).some(value => value.toLowerCase().indexOf(keywords) > -1)
-          }
-
-          return true
+        if (minIV) {
+          const actualIV = (row.ivs / 45) * 100
+          if (isNaN(actualIV) || actualIV < minIV) return false
         }
+
+        if (types && types.length) {
+          if (types.some(type => row.types.indexOf(type) === -1)) return false
+        }
+
+        if (typeof evolves === 'boolean') {
+          if (evolves !== this.evolves.indexOf(row.pokemon) > -1) return false
+        }
+
+        if (keywords) {
+          return [ row.name ].concat(row.types).some(value => value.toLowerCase().indexOf(keywords) > -1)
+        }
+
+        return true
       }
     },
 
