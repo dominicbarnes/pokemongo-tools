@@ -43,12 +43,9 @@
       <b-navbar-nav class="ml-auto">
         <b-nav-item-dropdown>
           <template slot="button-content">
-            Sorted by: {{value.sort}}
+            Sorted by: {{ sort[value.sort] }}
           </template>
-          <b-dropdown-item v-on:click="value.sort = 'Recent'">Recent</b-dropdown-item>
-          <b-dropdown-item v-on:click="value.sort = 'Number'">Number</b-dropdown-item>
-          <b-dropdown-item v-on:click="value.sort = 'Name'">Name</b-dropdown-item>
-          <b-dropdown-item v-on:click="value.sort = 'Combat Power'">Combat Power</b-dropdown-item>
+          <b-dropdown-item v-for="(label, id) in sort" v-on:click="value.sort = id">{{ label }}</b-dropdown-item>
         </b-nav-item-dropdown>
         <b-nav-form class="ml-1">
           <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add Pokémon</b-button>
@@ -64,12 +61,19 @@
   export default {
     data() {
       return {
+        sort: {
+          recent: 'Recent',
+          dex: 'Number',
+          name: 'Name',
+          cp: 'Combat Power',
+          ivs: 'Individual Values'
+        },
         value: {
           keywords: '',
           minIV: 0,
           types: [],
           evolves: null,
-          sort: 'Recent'
+          sort: 'recent'
         }
       }
     },

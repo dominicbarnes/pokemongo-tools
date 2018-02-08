@@ -3,8 +3,8 @@
     <catalog-filters v-model="filters" />
     <b-container fluid class="pt-2">
       <b-row>
-        <b-col v-for="pokemon in items" cols="4">
-          <b-media class="border rounded">
+        <b-col cols="12" md="4" v-for="pokemon in items">
+          <b-media class="border rounded mb-3">
             <pokemon-sprite slot="aside" v-bind:pokemon="pokemon.dex" v-bind:shiny="pokemon.shiny" />
             <h2 v-if="pokemon.nickname" class="h3 mt-1 mb-0">
               <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: pokemon.id } }">{{pokemon.nickname}}</b-link>
@@ -60,7 +60,7 @@
         const byID = this.$store.getters['metadata/pokemonByID']
         return this.$store.getters['pokemon/recent'].map(pokemon => {
           const metadata = byID.get(pokemon.pokemonID)
-          const { attackIV, defenseIV, staminaIV } = pokemon
+          const { attackIV = 0, defenseIV = 0, staminaIV = 0 } = pokemon
           const totalIVs = attackIV + defenseIV + staminaIV
           return {
             added: moment(pokemon.hoodie.createdAt).toISOString(),
@@ -89,10 +89,11 @@
 
       sorter() {
         switch (this.filters.sort) {
-          case 'Recent': return sortBy('-added')
-          case 'Number': return sortBy('dex')
-          case 'Name': return sortBy('name')
-          case 'Combat Power': return sortBy('-cp')
+          case 'recent': return sortBy('-added')
+          case 'dex': return sortBy('dex')
+          case 'name': return sortBy('name')
+          case 'cp': return sortBy('-cp')
+          case 'ivs': return sortBy('-ivs')
         }
       },
 

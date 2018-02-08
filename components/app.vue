@@ -28,7 +28,7 @@
 
     <router-view></router-view>
 
-    <footer class="footer fixed-bottom p-3 bg-light">
+    <footer class="footer fixed-bottom p-3 bg-light d-none d-md-block">
       <b-container fluid>
         <b-row>
           <b-col>
