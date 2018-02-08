@@ -40,6 +40,20 @@
           <b-dropdown-item v-on:click="value.evolves = null">Show All</b-dropdown-item>
         </b-nav-item-dropdown>
       </b-navbar-nav>
+      <b-navbar-nav class="ml-auto">
+        <b-nav-item-dropdown>
+          <template slot="button-content">
+            Sorted by: {{value.sort}}
+          </template>
+          <b-dropdown-item v-on:click="value.sort = 'Recent'">Recent</b-dropdown-item>
+          <b-dropdown-item v-on:click="value.sort = 'Number'">Number</b-dropdown-item>
+          <b-dropdown-item v-on:click="value.sort = 'Name'">Name</b-dropdown-item>
+          <b-dropdown-item v-on:click="value.sort = 'Combat Power'">Combat Power</b-dropdown-item>
+        </b-nav-item-dropdown>
+        <b-nav-form class="ml-1">
+          <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add Pokémon</b-button>
+        </b-nav-form>
+      </b-navbar-nav>
     </b-collapse>
   </b-navbar>
 </template>
@@ -54,7 +68,8 @@
           keywords: '',
           minIV: 0,
           types: [],
-          evolves: null
+          evolves: null,
+          sort: 'Recent'
         }
       }
     },

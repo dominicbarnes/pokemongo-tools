@@ -112,9 +112,9 @@
       <b-modal id="modalEvolve" title="Evolve" v-on:show="reset" v-on:ok="save([ 'newPokemonID', 'newCP', 'newHP', 'newQuickMove', 'newChargeMove' ])">
         <b-form-group label="Pokémon" description="Choose the Pokémon species that you evolved into.">
           <b-input-group>
-            <b-input-group-addon>
+            <b-input-group-prepend>
               <pokesprite v-bind:pokemon="dex" v-bind:shiny="catalog.shiny" />
-            </b-input-group-addon>
+            </b-input-group-prepend>
             <b-form-select id="evolve-species-input" v-bind:options="evolutions" v-model="newPokemonID" required size="lg" />
           </b-input-group>
         </b-form-group>

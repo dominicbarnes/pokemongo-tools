@@ -16,19 +16,24 @@
     "command": "node server/index.js",
     "retry": false
   },
-  "environment": {
-    "NODE_ENV": "production",
-    "COUCHDB_URL": "https://c38aeb6d-2e18-40ca-b7e9-404da06abd39-bluemix.cloudant.com",
-    "ADMIN_USERNAME": "c38aeb6d-2e18-40ca-b7e9-404da06abd39-bluemix",
-    "METADATA_USERNAME": "pokemongo-metadata",
-    "METADATA_PASSWORD": "readonly"
-  },
   "stages": {
     "staging": {
-      "domain": "stage.pokemongo.tools"
+      "domain": "stage.pokemongo.tools",
+      "environment": {
+        "COUCHDB_URL": "https://c38aeb6d-2e18-40ca-b7e9-404da06abd39-bluemix.cloudant.com",
+        "ADMIN_USERNAME": "c38aeb6d-2e18-40ca-b7e9-404da06abd39-bluemix",
+        "METADATA_USERNAME": "pokemongo-metadata",
+        "METADATA_PASSWORD": "readonly"
+      }
     },
     "production": {
-      "domain": "pokemongo.tools"
+      "domain": "pokemongo.tools",
+      "environment": {
+        "COUCHDB_URL": "https://c38aeb6d-2e18-40ca-b7e9-404da06abd39-bluemix.cloudant.com",
+        "ADMIN_USERNAME": "c38aeb6d-2e18-40ca-b7e9-404da06abd39-bluemix",
+        "METADATA_USERNAME": "pokemongo-metadata",
+        "METADATA_PASSWORD": "readonly"
+      }
     }
   }
 }
