@@ -49,7 +49,7 @@
   export default {
     data() {
       return {
-        filters: Object.create(null)
+        filters: { sort: 'recent' }
       }
     },
 
