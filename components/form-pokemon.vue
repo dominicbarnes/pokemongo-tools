@@ -108,18 +108,18 @@
 
     computed: {
       pokemon() {
-        return this.$store.getters['metadata/pokemonSort']('dex').map(pokemon => {
+        return this.$store.getters.pokemonSort('dex').map(pokemon => {
           const text = `${pokemon.name} (${dex(pokemon.dex)})`
           const value = pokemon._id
           return { text, value }
         })
       },
       quickMoves() {
-        const options = this.$store.getters['metadata/quickMoves'].map(this.moveOption)
+        const options = this.$store.getters.quickMoves.map(this.moveOption)
         return [ { text: 'Choose a Move', value: null } ].concat(options)
       },
       chargeMoves() {
-        const options = this.$store.getters['metadata/chargeMoves'].map(this.moveOption)
+        const options = this.$store.getters.chargeMoves.map(this.moveOption)
         return [ { text: 'Choose a Move', value: null } ].concat(options)
       },
       totalIVs() {
@@ -140,7 +140,7 @@
       'value.pokemonID': function () {
         const { pokemonID } = this.value
         if (pokemonID) {
-          this.metadata = this.$store.getters['metadata/pokemonByID'].get(pokemonID)
+          this.metadata = this.$store.getters.pokemonByID.get(pokemonID)
         }
       }
     },

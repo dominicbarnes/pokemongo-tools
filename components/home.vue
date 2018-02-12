@@ -12,7 +12,7 @@
       </p>
     </b-jumbotron>
     <b-row>
-      <b-col v-bind:cols="4">
+      <b-col md="4">
         <b-card title="Pokédex" class="mb-3">
           <p class="card-text">
             Learn more about the Pokémon available in the game. This includes
@@ -23,7 +23,7 @@
           </b-button>
         </b-card>
       </b-col>
-      <b-col v-bind:cols="4">
+      <b-col md="4">
         <b-card title="Type Chart" class="mb-3">
           <p class="card-text">
             Check out the multipliers used when attacking in the game.
@@ -33,7 +33,7 @@
           </b-button>
         </b-card>
       </b-col>
-      <b-col v-bind:cols="4">
+      <b-col md="4">
         <b-card title="Catalog" class="mb-3">
           <p class="card-text">
             Track the Pokémon you have in your inventory.
@@ -43,7 +43,7 @@
           </b-button>
         </b-card>
       </b-col>
-      <b-col v-bind:cols="4">
+      <b-col md="4">
         <b-card title="More Coming Soon!" class="mb-3 bg-light">
           <p class="card-text">
             This is an prototype and definitely a work in progress. Stay tuned

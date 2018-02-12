@@ -1,6 +1,6 @@
 <template>
   <b-navbar variant="light" toggleable>
-    <b-nav-text class="mr-2">Filters:</b-nav-text>
+    <b-nav-text class="mr-2">Catalog Filters:</b-nav-text>
     <b-nav-form>
       <b-form-input v-model="value.keywords" size="sm" type="text" placeholder="Keywords" />
     </b-nav-form>
@@ -56,6 +56,8 @@
 </template>
 
 <script>
+  import debounce from 'debounce'
+
   import TypeBadge from './type-badge.vue'
 
   export default {
@@ -106,9 +108,9 @@
     watch: {
       value: {
         deep: true,
-        handler() {
+        handler: debounce(function () {
           this.$emit('input', this.value)
-        }
+        }, 500)
       }
     },
 

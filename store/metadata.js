@@ -11,8 +11,6 @@ const store = new Store('pokemongo-metadata', {
   remote: config.metadataURL()
 })
 
-const namespaced = true
-
 const state = {
   types: {},
   pokemon: [],
@@ -42,11 +40,11 @@ const getters = {
   },
 
   quickMoves ({ moves }) {
-    return moves.filter(move => move._id.endsWith('_FAST'))
+    return moves.filter(move => move._id.endsWith('_FAST')).slice()
   },
 
   chargeMoves ({ moves }) {
-    return moves.filter(move => !move._id.endsWith('_FAST'))
+    return moves.filter(move => !move._id.endsWith('_FAST')).slice()
   }
 }
 
@@ -77,7 +75,6 @@ const actions = {
 }
 
 export default {
-  namespaced,
   state,
   getters,
   mutations,

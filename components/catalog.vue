@@ -56,13 +56,12 @@
     computed: {
       ...mapGetters({
         loggedIn: 'account/loggedIn',
-        byID: 'metadata/pokemonByID'
+        pokemon: 'pokemon/all'
       }),
 
       items() {
-        let list = this.$store.state.pokemon.list.map(pokemon => {
-          const metadata = this.byID.get(pokemon.pokemonID)
-          const { attackIV = 0, defenseIV = 0, staminaIV = 0 } = pokemon
+        let list = this.pokemon.map(pokemon => {
+          const { metadata, attackIV = 0, defenseIV = 0, staminaIV = 0 } = pokemon
           return {
             added: moment(pokemon.hoodie.createdAt).toISOString(),
             caught: pokemon.caughtAt,
@@ -95,10 +94,10 @@
       sorter() {
         switch (this.filters.sort) {
           case 'recent': return sortBy('-added')
-          case 'dex': return sortBy('dex')
-          case 'name': return sortBy('name')
+          case 'dex': return sortBy('dex', '-cp')
+          case 'name': return sortBy('name', '-cp')
           case 'cp': return sortBy('-cp')
-          case 'ivs': return sortBy('-ivs')
+          case 'ivs': return sortBy('-ivs', '-added')
         }
       },
 

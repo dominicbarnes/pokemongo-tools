@@ -114,14 +114,14 @@
 
       pokemon() {
         const { pokemon } = this.$route.params
-        return this.$store.getters['metadata/pokemonByID'].get(pokemon)
+        return this.$store.getters.pokemonByID.get(pokemon)
       },
 
       quickMoves() {
         const { quickMoves } = this.pokemon
         if (!quickMoves) return null
         return quickMoves
-          .map(move => Object.assign({ legacy: move.legacy }, this.$store.getters['metadata/movesByID'].get(move.id)))
+          .map(move => Object.assign({ legacy: move.legacy }, this.$store.getters.movesByID.get(move.id)))
           .sort(sortBy('power'))
       },
 
@@ -129,21 +129,21 @@
         const { chargeMoves } = this.pokemon
         if (!chargeMoves) return null
         return chargeMoves
-          .map(move => Object.assign({ legacy: move.legacy }, this.$store.getters['metadata/movesByID'].get(move.id)))
+          .map(move => Object.assign({ legacy: move.legacy }, this.$store.getters.movesByID.get(move.id)))
           .sort(sortBy('power'))
       },
 
       previousEvolution() {
         const { previousEvolution } = this.pokemon
         if (!previousEvolution) return null
-        return this.$store.getters['metadata/pokemonByID'].get(previousEvolution)
+        return this.$store.getters.pokemonByID.get(previousEvolution)
       },
 
       nextEvolutions() {
         const { nextEvolutions } = this.pokemon
         if (!nextEvolutions) return null
         return nextEvolutions.map(evolution => {
-          const pokemon = this.$store.getters['metadata/pokemonByID'].get(evolution.pokemon)
+          const pokemon = this.$store.getters.pokemonByID.get(evolution.pokemon)
           const { candy, item } = evolution
           return { pokemon, candy, item }
         })
@@ -152,7 +152,7 @@
 
     methods: {
       linkGen(page) {
-        const pokemon = this.$store.getters['metadata/pokemonByDex'].get(page)
+        const pokemon = this.$store.getters.pokemonByDex.get(page)
         if (!pokemon) return null
         return {
           name: 'pokedex-view',
@@ -161,7 +161,7 @@
       },
 
       pageGen(page) {
-        const pokemon = this.$store.getters['metadata/pokemonByDex'].get(page)
+        const pokemon = this.$store.getters.pokemonByDex.get(page)
         if (!pokemon) return null
         return `${pokemon.name} (${dex(pokemon.dex)})`
       }

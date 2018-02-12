@@ -16,7 +16,7 @@
     computed: {
       pokemon() {
         const { pokemon } = this.$route.params
-        return clone(this.$store.getters['pokemon/byID'].get(pokemon))
+        return clone(this.$store.getters['pokemon/byID'](pokemon))
       }
     },
 

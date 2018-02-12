@@ -15,8 +15,8 @@ const store = new Vuex.Store({
   strict: env !== 'production'
 })
 
+store.dispatch('fetch')
 store.dispatch('account/fetch')
-store.dispatch('metadata/fetch')
 store.dispatch('pokemon/fetch')
 
 hoodie.store.on('change', (kind, doc) => {

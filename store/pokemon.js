@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import sortBy from 'sort-by'
+import clone from 'clone'
 
 import { index } from './utils'
 
@@ -12,14 +12,16 @@ const state = {
 }
 
 const getters = {
-  byID ({ list }) {
-    return index(list, '_id')
+  all (state, getters, rootState, rootGetters) {
+    const { list } = state
+    const { pokemonByID, movesByID } = rootGetters
+    return list.map(doc => join(doc, pokemonByID, movesByID))
   },
-  sort ({ list }) {
-    return key => list.slice().sort(sortBy(key))
-  },
-  recent ({ list }, { sort }) {
-    return sort('hoodie.createdAt').reverse()
+  byID (state, getters, rootState, rootGetters) {
+    const { list } = state
+    const { pokemonByID, movesByID } = rootGetters
+    const m = index(list, '_id')
+    return id => join(m.get(id), pokemonByID, movesByID)
   },
   count ({ list }) {
     return list.length
@@ -27,8 +29,8 @@ const getters = {
 }
 
 const mutations = {
-  set: (state, doc) => {
-    Vue.set(state, 'list', doc)
+  set: (state, list) => {
+    Vue.set(state, 'list', list)
   },
   add: ({ list }, doc) => {
     list.push(doc)
@@ -68,4 +70,27 @@ export default {
   getters,
   mutations,
   actions
+}
+
+function join (pokemon, pokemonByID, movesByID) {
+  if (!pokemon) return null
+  const p = clone(pokemon)
+  p.metadata = pokemonByID.get(p.pokemonID)
+  if (p.quickMove) {
+    const m = clone(movesByID.get(p.quickMove))
+    m.legacy = isLegacyMove(m.id, p.metadata.quickMoves)
+    p.quickMove = m
+  }
+  if (p.chargeMove) {
+    const m = clone(movesByID.get(p.chargeMove))
+    m.legacy = isLegacyMove(m.id, p.metadata.chargeMoves)
+    p.chargeMove = m
+  }
+  return p
+}
+
+function isLegacyMove (moveID, availableMoves) {
+  const metadata = availableMoves.find(move => move.id === moveID)
+  if (!metadata) return false
+  return !!metadata.legacy
 }

@@ -1,69 +1,80 @@
 <template>
-  <b-container fluid class="p-3">
-    <div v-if="loading">
+  <div>
+    <b-container class="p-3" v-if="loading">
       Loading...
-    </div>
+    </b-container>
 
     <div v-else>
-      <h1>Pokedex</h1>
-      <b-form inline class="mb-2">
-        <b-input placeholder="Filter table" v-model="filter" v-on:input="currentPage = 1" />
-        <b-pagination v-bind:total-rows="totalRows" v-bind:per-page="perPage" v-model="currentPage" class="ml-1 mb-0" />
-      </b-form>
-      <b-table v-bind:fields="fields" v-bind:items="items" v-bind:filter="filter" striped hover v-bind:per-page="perPage" v-bind:current-page="currentPage">
-        <template slot="icon" scope="data">
-          <pokesprite v-bind:pokemon="data.item.dex" v-bind:shiny="data.item.shiny" v-bind:gender="data.item.gender" />
-        </template>
-        <template slot="dex" scope="data">
-          {{ data.item.dex | dex }}
-        </template>
-        <template slot="name" scope="data">
-          <b-link v-bind:to="{ name: 'pokedex-view', params: { pokemon: data.item.id } }">{{ data.item.name }}</b-link>
-        </template>
-        <template slot="types" scope="data">
-          <type-badge v-for="type in data.item.types" v-bind:type="type" v-text="type" />
-        </template>
-      </b-table>
+      <pokedex-filters v-model="filters" />
+      <b-container fluid class="pt-2">
+        <b-row>
+          <b-col cols="12" md="4" v-for="pokemon in items" v-bind:key="pokemon.id">
+            <b-media class="border rounded mb-3">
+              <pokemon-sprite slot="aside" v-bind:pokemon="pokemon.dex" />
+              <h2 class="h3 mt-1 mb-0">
+                <b-link v-bind:to="{ name: 'pokedex-view', params: { pokemon: pokemon.id } }">{{pokemon.name}}</b-link>
+                <small>({{ pokemon.dex | dex }})</small>
+              </h2>
+              <type-badge v-for="type in pokemon.types" v-bind:type="type" />
+              <b-badge variant="info" v-if="pokemon.rarity">{{ pokemon.rarity.toUpperCase() }}</b-badge>
+            </b-media>
+          </b-col>
+        </b-row>
+      </b-container>
     </div>
-  </b-container>
+  </div>
 </template>
 
 <script>
   import { mapGetters, mapState } from 'vuex'
 
-  import Pokesprite from './pokesprite.vue'
+  import PokemonSprite from './pokemon-sprite.vue'
+  import PokedexFilters from './pokedex-filters.vue'
   import TypeBadge from './type-badge.vue'
 
   export default {
     data() {
       return {
-        perPage: 10,
-        currentPage: 1,
-        filter: null
+        filters: Object.create(null)
       }
     },
 
     computed: {
-      ...mapGetters({ totalRows: 'metadata/pokemonCount' }),
-      ...mapState({ loading: 'metadata/loading' }),
-
-      fields() {
-        return [
-          { key: 'icon', label: ' ', tdClass: 'px-1 py-0 align-middle' },
-          { key: 'dex', sortable: true },
-          { key: 'name', sortable: true },
-          { key: 'types' }
-        ]
-      },
+      ...mapState({ loading: 'loading' }),
 
       items() {
-        return this.$store.getters['metadata/pokemonSort']('dex').map(pokemon => {
-          const { _id: id, dex, name, types } = pokemon
-          return { dex, id, name, types }
+        let list = this.$store.getters.pokemonSort('dex').map(pokemon => {
+          const { _id: id, dex, name, types, rarity } = pokemon
+          return { dex, id, name, types, rarity }
         })
+
+        if (this.filtering) list = list.filter(row => this.filter(row))
+
+        return list
+      },
+
+      filtering() {
+        const { keywords, types } = this.filters
+        return keywords || (types && types.length)
       }
     },
 
-    components: { Pokesprite, TypeBadge }
+    methods: {
+      filter(row) {
+        const { keywords, types } = this.filters
+
+        if (types && types.length) {
+          if (types.some(type => row.types.indexOf(type) === -1)) return false
+        }
+
+        if (keywords) {
+          return row.name.toLowerCase().indexOf(keywords) > -1
+        }
+
+        return true
+      }
+    },
+
+    components: { PokedexFilters, PokemonSprite, TypeBadge }
   }
 </script>

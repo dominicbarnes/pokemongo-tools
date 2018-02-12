@@ -28,7 +28,7 @@
         return this.shiny ? 'shiny' : 'normal'
       },
       slug() {
-        const metadata = this.$store.getters['metadata/pokemonByDex'].get(this.pokemon)
+        const metadata = this.$store.getters.pokemonByDex.get(this.pokemon)
         if (metadata) return slugify(metadata.name)
       }
     }
