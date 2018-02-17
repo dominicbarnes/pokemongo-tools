@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="move">
     <type-badge v-bind:type="move.type" class="w-25" />
     <span v-bind:class="{ 'font-italic': move.legacy }">{{ move.name }}</span>
     <b-badge pill class="float-right">{{ move.power }}</b-badge>

@@ -75,14 +75,14 @@ export default {
 function join (pokemon, pokemonByID, movesByID) {
   if (!pokemon) return null
   const p = clone(pokemon)
-  p.metadata = pokemonByID.get(p.pokemonID)
+  p.metadata = pokemonByID(p.pokemonID)
   if (p.quickMove) {
-    const m = clone(movesByID.get(p.quickMove))
+    const m = clone(movesByID(p.quickMove))
     m.legacy = isLegacyMove(m.id, p.metadata.quickMoves)
     p.quickMove = m
   }
   if (p.chargeMove) {
-    const m = clone(movesByID.get(p.chargeMove))
+    const m = clone(movesByID(p.chargeMove))
     m.legacy = isLegacyMove(m.id, p.metadata.chargeMoves)
     p.chargeMove = m
   }

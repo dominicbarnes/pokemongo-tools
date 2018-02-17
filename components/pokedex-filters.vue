@@ -16,6 +16,29 @@
             <type-badge v-bind:type="type" />
           </b-dropdown-item>
         </b-nav-item-dropdown>
+        <b-nav-item-dropdown>
+          <template slot="button-content">
+            Rarity
+            <b-badge variant="info" v-if="value.rarity">{{ value.rarity.toUpperCase() }}</b-badge>
+          </template>
+          <b-dropdown-item v-on:click="value.rarity = 'mythic'">
+            <b-badge variant="info">MYTHICAL</b-badge>
+          </b-dropdown-item>
+          <b-dropdown-item v-on:click="value.rarity = 'legendary'">
+            <b-badge variant="info">LEGENDARY</b-badge>
+          </b-dropdown-item>
+          <b-dropdown-item v-on:click="value.rarity = null">Show All</b-dropdown-item>
+        </b-nav-item-dropdown>
+        <b-nav-item-dropdown>
+          <template slot="button-content">
+            <span v-if="value.generation">Generation: {{ value.generation }}</span>
+            <span v-else>Generation</span>
+          </template>
+          <b-dropdown-item v-on:click="value.generation = 1" v-bind:active="value.generation === 1">1</b-dropdown-item>
+          <b-dropdown-item v-on:click="value.generation = 2" v-bind:active="value.generation === 2">2</b-dropdown-item>
+          <b-dropdown-item v-on:click="value.generation = 3" v-bind:active="value.generation === 1">3</b-dropdown-item>
+          <b-dropdown-item v-on:click="value.generation = null">Show All</b-dropdown-item>
+        </b-nav-item-dropdown>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
@@ -30,8 +53,10 @@
     data() {
       return {
         value: {
-          keywords: '',
-          types: []
+          keywords: null,
+          types: [],
+          rarity: null,
+          generation: null
         }
       }
     },
@@ -66,7 +91,7 @@
         deep: true,
         handler: debounce(function () {
           this.$emit('input', this.value)
-        }, 500)
+        }, 250)
       }
     },
 

@@ -22,27 +22,24 @@ const getters = {
   pokemonByDex ({ pokemon }) {
     return index(pokemon, 'dex')
   },
-
   pokemonByID ({ pokemon }) {
-    return index(pokemon, '_id')
+    const m = index(pokemon, '_id')
+    return id => m.get(id)
   },
-
   pokemonSort ({ pokemon }) {
     return key => pokemon.slice().sort(sortBy(key))
   },
-
   pokemonCount ({ pokemon }) {
     return pokemon.length
   },
 
   movesByID ({ moves }) {
-    return index(moves, '_id')
+    const m = index(moves, '_id')
+    return id => m.get(id)
   },
-
   quickMoves ({ moves }) {
     return moves.filter(move => move._id.endsWith('_FAST')).slice()
   },
-
   chargeMoves ({ moves }) {
     return moves.filter(move => !move._id.endsWith('_FAST')).slice()
   }

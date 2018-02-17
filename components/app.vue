@@ -26,7 +26,8 @@
       </b-navbar>
     </header>
 
-    <router-view></router-view>
+    <loader v-if="loading" />
+    <router-view v-else></router-view>
 
     <footer class="footer fixed-bottom p-3 bg-light d-none d-md-block">
       <b-container fluid>
@@ -96,7 +97,11 @@
         loggedIn: 'account/loggedIn',
         username: 'account/username',
         catalogCount: 'pokemon/count'
-      })
+      }),
+
+      loading() {
+        return this.$store.state.metadata.loading
+      }
     },
 
     methods: {

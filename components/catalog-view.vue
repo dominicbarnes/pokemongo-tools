@@ -1,10 +1,6 @@
 <template>
   <div>
-    <b-container v-if="loading" class="p-3">
-      Loading...
-    </b-container>
-
-    <b-container v-else-if="!catalog" class="p-3">
+    <b-container v-if="!catalog" class="p-3">
       <b-alert variant="danger" show>
         Not found
       </b-alert>
@@ -14,7 +10,7 @@
       <b-navbar variant="light" toggleable>
         <b-navbar-brand class="mr-2">
           {{name}}
-          <small v-if="catalog.nickname">({{metadata.name}})</small>
+          <small v-if="catalog.nickname" class="text-muted">({{metadata.name}})</small>
         </b-navbar-brand>
         <b-navbar-toggle target="catalog-view-actions" />
         <b-collapse is-nav id="catalog-view-actions">
@@ -221,7 +217,7 @@
 
       evolutions() {
         return this.metadata.nextEvolutions.map(evolution => {
-          const pokemon = this.$store.getters.pokemonByID.get(evolution.pokemon)
+          const pokemon = this.$store.getters.pokemonByID(evolution.pokemon)
           const text = `${pokemon.name} (${dex(pokemon.dex)})`
           const value = pokemon._id
           return { text, value }
@@ -251,7 +247,7 @@
 
     watch: {
       newPokemonID(id) {
-        const pokemon = this.$store.getters.pokemonByID.get(id)
+        const pokemon = this.$store.getters.pokemonByID(id)
         if (pokemon) this.dex = numeral(pokemon.dex).format('000')
       }
     },

@@ -32,6 +32,30 @@
           </b-media>
         </b-col>
       </b-row>
+      <b-row v-if="list.length">
+        <b-col>
+          <div class="my-2">
+            Showing
+            <b-badge>{{ from }} - {{ to }}</b-badge>
+            of
+            <b-badge>{{ count }}</b-badge>
+          </div>
+        </b-col>
+        <b-col cols="8">
+          <b-pagination v-model="currentPage" v-bind:per-page="perPage" v-bind:total-rows="list.length" class="justify-content-center" />
+        </b-col>
+        <b-col>
+          <b-form inline>
+            <label for="pokedex-per-page" class="mr-1">Per Page:</label>
+            <b-form-select id="pokedex-per-page" v-model="perPage">
+              <option v-bind:value="15">15</option>
+              <option v-bind:value="30">30</option>
+              <option v-bind:value="45">45</option>
+              <option v-bind:value="60">60</option>
+            </b-form-select>
+          </b-form>
+        </b-col>
+      </b-row>
     </b-container>
   </div>
 </template>
@@ -46,9 +70,13 @@
   import TypeBadge from './type-badge.vue'
   import CatalogFilters from './catalog-filters.vue'
 
+  import { page } from '../utils'
+
   export default {
     data() {
       return {
+        currentPage: 1,
+        perPage: 15,
         filters: { sort: 'recent' }
       }
     },
@@ -59,7 +87,7 @@
         pokemon: 'pokemon/all'
       }),
 
-      items() {
+      list() {
         let list = this.pokemon.map(pokemon => {
           const { metadata, attackIV = 0, defenseIV = 0, staminaIV = 0 } = pokemon
           return {
@@ -85,6 +113,10 @@
         return list.sort(this.sorter)
       },
 
+      items() {
+        return page(this.list, this.currentPage, this.perPage)
+      },
+
       evolves() {
         return this.$store.state.metadata.pokemon
           .filter(pokemon => pokemon.nextEvolutions.length > 0)
@@ -104,6 +136,18 @@
       filtering() {
         const { evolves, keywords, minIV, types } = this.filters
         return minIV || (types && types.length) || typeof evolves === 'boolean' || keywords
+      },
+
+      from() {
+        return ((this.currentPage - 1) * this.perPage) + 1
+      },
+
+      to() {
+        return (this.from + this.items.length) - 1
+      },
+
+      count() {
+        return this.list.length
       }
     },
 
