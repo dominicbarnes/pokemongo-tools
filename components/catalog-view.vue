@@ -16,16 +16,14 @@
         <b-collapse is-nav id="catalog-view-actions">
           <b-navbar-nav>
             <b-nav-item v-bind:to="{ name: 'pokedex-view', params: { pokemon: catalog.pokemonID } }" target="_blank">Pokédex</b-nav-item>
-            <b-nav-item-dropdown right text="Quick Edits" class="mr-2">
-              <b-dropdown-item v-bind:disabled="!canEvolve" v-b-modal.modalEvolve>Evolve</b-dropdown-item>
-              <b-dropdown-item v-b-modal.modalPowerUp>Power Up</b-dropdown-item>
-              <b-dropdown-item v-b-modal.modalUseTM>Use TM</b-dropdown-item>
-            </b-nav-item-dropdown>
           </b-navbar-nav>
           <b-navbar-nav class="ml-auto">
-            <b-nav-form class="ml-1">
-              <b-button v-bind:to="{ name: 'catalog-edit', params: { pokemon: catalog._id } }" class="mr-2">Edit</b-button>
-              <b-button v-b-modal.modalDelete variant="danger">Delete</b-button>
+            <b-nav-form>
+              <b-button v-bind:disabled="!canEvolve" v-b-modal.modalEvolve size="sm">Evolve</b-button>
+              <b-button v-b-modal.modalPowerUp size="sm" class="ml-2">Power Up</b-button>
+              <b-button v-b-modal.modalUseTM size="sm" class="ml-2">Use TM</b-button>
+              <b-button v-bind:to="{ name: 'catalog-edit', params: { pokemon: catalog._id } }" variant="info" size="sm" class="ml-2">Edit</b-button>
+              <b-button v-b-modal.modalDelete variant="danger" size="sm" class="ml-2">Delete</b-button>
             </b-nav-form>
           </b-navbar-nav>
         </b-collapse>

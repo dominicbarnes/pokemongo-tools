@@ -1,6 +1,6 @@
 <template>
   <b-navbar variant="light" toggleable>
-    <b-nav-text class="mr-2">Pokedex Filters:</b-nav-text>
+    <b-nav-text class="mr-2">Filters</b-nav-text>
     <b-nav-form>
       <b-form-input v-model="value.keywords" size="sm" type="text" placeholder="Keywords" />
     </b-nav-form>

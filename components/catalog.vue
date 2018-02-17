@@ -33,7 +33,7 @@
         </b-col>
       </b-row>
       <b-row v-if="list.length">
-        <b-col>
+        <b-col class="d-none d-md-block">
           <div class="my-2">
             Showing
             <b-badge>{{ from }} - {{ to }}</b-badge>
@@ -41,10 +41,10 @@
             <b-badge>{{ count }}</b-badge>
           </div>
         </b-col>
-        <b-col cols="8">
-          <b-pagination v-model="currentPage" v-bind:per-page="perPage" v-bind:total-rows="list.length" class="justify-content-center" />
+        <b-col md="8">
+          <b-pagination v-model="currentPage" v-bind:per-page="perPage" v-bind:total-rows="list.length" align="center" />
         </b-col>
-        <b-col>
+        <b-col class="d-none d-md-block">
           <b-form inline>
             <label for="pokedex-per-page" class="mr-1">Per Page:</label>
             <b-form-select id="pokedex-per-page" v-model="perPage">

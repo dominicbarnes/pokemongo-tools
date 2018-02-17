@@ -20,7 +20,8 @@ const state = {
 
 const getters = {
   pokemonByDex ({ pokemon }) {
-    return index(pokemon, 'dex')
+    const m = index(pokemon, 'dex')
+    return id => m.get(id)
   },
   pokemonByID ({ pokemon }) {
     const m = index(pokemon, '_id')

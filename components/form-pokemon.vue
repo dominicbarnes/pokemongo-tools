@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-row>
-      <b-col>
+      <b-col md="10">
         <b-form-group label="Pokémon" description="Choose the Pokémon species and whether it is shiny">
           <b-input-group>
             <b-form-select id="add-species-input" v-bind:options="pokemon" v-model="value.pokemonID" required size="lg" v-focus />
@@ -14,7 +14,7 @@
           </b-input-group>
         </b-form-group>
       </b-col>
-      <b-col cols="2">
+      <b-col md="2">
         <pokemon-sprite v-if="metadata" v-bind:pokemon="metadata.dex" v-bind:shiny="value.shiny" />
       </b-col>
     </b-row>
@@ -25,13 +25,13 @@
 
     <b-form-group label="Stats">
       <b-row class="mb-3">
-        <b-col>
+        <b-col md="6">
           <b-input-group>
             <b-input-group-prepend is-text>CP</b-input-group-prepend>
             <b-form-input type="number" required min="10" v-model.number="value.cp" />
           </b-input-group>
         </b-col>
-        <b-col>
+        <b-col md="6">
           <b-input-group>
             <b-input-group-prepend is-text>HP</b-input-group-prepend>
             <b-form-input type="number" required min="10" v-model.number="value.hp" />
@@ -39,19 +39,19 @@
         </b-col>
       </b-row>
       <b-row>
-        <b-col>
+        <b-col md="4">
            <b-input-group>
              <b-input-group-prepend is-text>Attack IV</b-input-group-prepend>
             <b-form-input id="add-iv-attack-input" type="number" min="0" max="15" v-model.number="value.attackIV" />
           </b-input-group>
         </b-col>
-        <b-col>
+        <b-col md="4">
           <b-input-group>
             <b-input-group-prepend is-text>Defense IV</b-input-group-prepend>
             <b-form-input id="add-iv-defense-input" type="number" min="0" max="15" v-model.number="value.defenseIV" />
           </b-input-group>
         </b-col>
-        <b-col>
+        <b-col md="4">
           <b-input-group>
             <b-input-group-prepend is-text>Stamina IV</b-input-group-prepend>
             <b-form-input id="add-iv-stamina-input" type="number" min="0" max="15" v-model.number="value.staminaIV" />
@@ -62,13 +62,13 @@
 
     <b-form-group id="add-moves" label="Moves">
       <b-row>
-        <b-col>
+        <b-col md="6">
           <b-input-group>
             <b-input-group-prepend is-text>Quick Move</b-input-group-prepend>
             <b-form-select id="add-quick-move" v-bind:options="quickMoves" v-model="value.quickMove" />
           </b-input-group>
         </b-col>
-        <b-col>
+        <b-col md="6">
           <b-input-group>
             <b-input-group-prepend is-text>Charge Move</b-input-group-prepend>
             <b-form-select id="add-charge-move" v-bind:options="chargeMoves" v-model="value.chargeMove" />
@@ -140,7 +140,7 @@
       'value.pokemonID': function () {
         const { pokemonID } = this.value
         if (pokemonID) {
-          this.metadata = this.$store.getters.pokemonByID.get(pokemonID)
+          this.metadata = this.$store.getters.pokemonByID(pokemonID)
         }
       }
     },
