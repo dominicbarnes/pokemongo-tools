@@ -84,12 +84,16 @@
     computed: {
       ...mapGetters({
         loggedIn: 'account/loggedIn',
-        pokemon: 'pokemon/all'
+        pokemon: 'pokemon/all',
+        pokemonByID: 'pokemonByID',
+        movesByID: 'movesByID'
       }),
 
       list() {
-        let list = this.pokemon.map(pokemon => {
-          const { metadata, attackIV = 0, defenseIV = 0, staminaIV = 0 } = pokemon
+        const { pokemon, pokemonByID } = this
+        let list = pokemon.map(pokemon => {
+          const metadata = pokemonByID(pokemon.pokemonID)
+          const { attackIV = 0, defenseIV = 0, staminaIV = 0 } = pokemon
           return {
             added: moment(pokemon.hoodie.createdAt).toISOString(),
             caught: pokemon.caughtAt,

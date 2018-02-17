@@ -1,5 +1,4 @@
 import Vue from 'vue'
-import clone from 'clone'
 
 import { index } from './utils'
 
@@ -12,19 +11,16 @@ const state = {
 }
 
 const getters = {
-  all (state, getters, rootState, rootGetters) {
-    const { list } = state
-    const { pokemonByID, movesByID } = rootGetters
-    return list.map(doc => join(doc, pokemonByID, movesByID))
+  all (state) {
+    return state.list
   },
-  byID (state, getters, rootState, rootGetters) {
+  byID (state) {
     const { list } = state
-    const { pokemonByID, movesByID } = rootGetters
     const m = index(list, '_id')
-    return id => join(m.get(id), pokemonByID, movesByID)
+    return id => m.get(id)
   },
-  count ({ list }) {
-    return list.length
+  count (state) {
+    return state.list.length
   }
 }
 
@@ -70,27 +66,4 @@ export default {
   getters,
   mutations,
   actions
-}
-
-function join (pokemon, pokemonByID, movesByID) {
-  if (!pokemon) return null
-  const p = clone(pokemon)
-  p.metadata = pokemonByID(p.pokemonID)
-  if (p.quickMove) {
-    const m = clone(movesByID(p.quickMove))
-    m.legacy = isLegacyMove(m.id, p.metadata.quickMoves)
-    p.quickMove = m
-  }
-  if (p.chargeMove) {
-    const m = clone(movesByID(p.chargeMove))
-    m.legacy = isLegacyMove(m.id, p.metadata.chargeMoves)
-    p.chargeMove = m
-  }
-  return p
-}
-
-function isLegacyMove (moveID, availableMoves) {
-  const metadata = availableMoves.find(move => move.id === moveID)
-  if (!metadata) return false
-  return !!metadata.legacy
 }

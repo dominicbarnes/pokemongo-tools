@@ -167,6 +167,7 @@
   import numeral from 'numeral'
   import sortBy from 'sort-by'
   import VueMarkdown from 'vue-markdown'
+  import { mapGetters } from 'vuex'
 
   import { dex } from '../utils'
   import MoveSummary from './move-summary.vue'
@@ -187,6 +188,11 @@
     },
 
     computed: {
+      ...mapGetters({
+        pokemonByID: 'pokemonByID',
+        movesByID: 'movesByID'
+      }),
+
       loading() {
         return this.$store.state.metadata.loading
       },
@@ -197,7 +203,8 @@
       },
 
       metadata() {
-        return this.catalog.metadata
+        const { pokemonByID } = this
+        return pokemonByID(this.catalog.pokemonID)
       },
 
       name() {
@@ -222,6 +229,12 @@
         })
       },
 
+      quickMove() {
+        const { catalog, movesByID } = this
+        const { quickMove } = catalog
+        return quickMove ? movesByID(quickMove) : null
+      },
+
       quickMoves() {
         const options = this.$store.getters.quickMoves.sort(sortBy('name')).map(move => {
           const text = `${move.name} (${move.type})`
@@ -230,6 +243,12 @@
         })
 
         return [ { text: 'Choose a Move', value: null } ].concat(options)
+      },
+
+      chargeMove() {
+        const { catalog, movesByID } = this
+        const { chargeMove } = catalog
+        return chargeMove ? movesByID(chargeMove) : null
       },
 
       chargeMoves() {
