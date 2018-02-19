@@ -11,15 +11,18 @@ before_deploy:
 deploy:
 - provider: script
   script: up deploy
+  skip_cleanup: true
   on:
     branch: dev
 - provider: script
   script: up deploy staging
+  skip_cleanup: true
   on:
     branch: master
     tags: false
 - provider: script
   script: up deploy production
+  skip_cleanup: true
   on:
     branch: master
     tags: true
