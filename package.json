@@ -15,19 +15,27 @@
     "@hoodie/client": "^10.1.1",
     "add-cors-to-couchdb": "0.0.6",
     "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babelify": "^8.0.0",
     "bluebird": "^3.5.1",
     "bootstrap": "^4.0.0",
     "bootstrap-vue": "^2.0.0-rc.1",
-    "browserify": "^15.2.0",
+    "browserify": "^16.1.0",
     "clone": "^2.1.1",
     "concurrently": "^3.5.1",
     "couchdb-bootstrap": "^1.14.0",
     "debounce": "^1.1.0",
     "empty-element": "^1.0.0",
     "envify": "^4.1.0",
+    "eslint": "^4.18.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.2.2",
     "exorcist": "^1.0.0",
     "graphql-request": "^1.4.0",
     "nano": "^6.4.2",
@@ -35,14 +43,13 @@
     "node-prune": "^1.0.2",
     "numeral": "^2.0.6",
     "pokesprite": "^1.5.1",
-    "postcss-cli": "^4.1.1",
+    "postcss-cli": "^5.0.0",
     "postcss-import": "^11.0.0",
     "postcss-url": "^7.3.0",
     "pouchdb": "^6.3.4",
     "pouchdb-browser": "^6.3.4",
     "slugify": "^1.2.9",
     "sort-by": "^1.2.0",
-    "standard": "^10.0.3",
     "uglifyify": "^4.0.5",
     "vue": "^2.5.9",
     "vue-markdown": "^2.2.4",
@@ -69,6 +76,20 @@
     "distclean": "docker-compose down",
     "deploy": "up deploy",
     "deploy:stage": "up deploy staging",
-    "deploy:prod": "up deploy production"
-  }
+    "deploy:prod": "up deploy production",
+    "test": "eslint ."
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "extends": [
+      "standard",
+      "plugin:vue/essential"
+    ]
+  },
+  "eslintIgnore": [
+    "_couchdb/**",
+    "public/**"
+  ]
 }

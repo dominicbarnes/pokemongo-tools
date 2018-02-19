@@ -1,4 +1,3 @@
-import { stage } from './config'
 import Client from '@hoodie/client'
 import PouchDB from 'pouchdb-browser'
 
