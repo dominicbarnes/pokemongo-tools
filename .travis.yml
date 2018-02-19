@@ -1,6 +1,30 @@
 language: node_js
 node_js:
-  - node
+- node
 cache:
   directories:
-    - node_modules
+  - node_modules
+before_deploy:
+- sudo chown -R $(whoami) /usr/local/bin/
+- curl -sf https://up.apex.sh/install | sh
+- up upgrade
+deploy:
+- provider: script
+  script: up deploy
+  on:
+    branch: dev
+- provider: script
+  script: up deploy staging
+  on:
+    branch: master
+    tags: false
+- provider: script
+  script: up deploy production
+  on:
+    branch: master
+    tags: true
+env:
+  global:
+  - AWS_REGION: us-west-2
+  - secure: P++Ok+Uxoq181R7d0Cgr5DVQ0APYHkenyoDPPkicN6xcIh0eRet1vjUfhqOVjSgrUeQYyKh8ftdOw9657sRsnbrODRDIztFVuFGlzqQva5/XxM/OaOt1FTQ2PK61qQQvQy07pYyUxYOexxqIOslUwwPvL9FrT6+e871LO42TEz59bi67SMa8jKXH++NpXnQqwIwFRsfewDF4rBHKAO0acfV3um3SXSM/RIakAg61MKEHh4Lkg2deL/zag75w5kjCIu/6fxJjeG4InpRAkmXYieRic5XjrRMZIWQpbnxBvwo6kFo/m68XS94ynGlAxfiWHxvJJigI+6hWWrHjbDPOG03hjvUvfyaBfod56lr/leVk8kwE3UrU0fzTgf8Bp8cVYJlCVAC+MEaLEX4pxK3bdkBEjnvdwDlKrOqsCkOl5BvMXW/HhLHfO8i+WpaDzEn6PS0IlyATt86+h0y2c2WrmAmrMET8HV8S2hAL8m+F1l4bXAbW22kee93TfTX3fhii4qkFxKfQX2QbfcqOMjdrkb6z1WQ1zq67agIaDIXGV38CmOW/XerxM1/1hRAeEx2bWafmL/307uDC1m3Oa97vAlFaHLprb1xkY+MLDKJQ3PrCSoJ7tGuZhPDZK6ENjwoVfRS/w2LUqGIPI6sJKf5jGu4JvAbEhwkdYUDWfbxRvjg=
+  - secure: rBeBdS5xguDttmW/8dFsZ4UQrUdcunAKD0HPKIULYfbf1oWwc1lrGfeqQ98m5xp35DPWdrT9t9uc5kdOWuJbv0zQmzNn+jTiRMPtVdTPu3RB2jnATUcvG7AdsmvlIbOuC2HXEuyScSneoIpyTvoWIoanji9dYkXIXQrTJmNdElPPJUtK7CXkoxAZtSMD3MnClbEWHFPiIUVFK/mxW44gKGyekpz9UbkwJFUq1ik/wLhomUluDhWh15LDeMh9oPFy/cxPYBWAUNgj2HLkTzKCeU4vlmQHihZrxq/ScgUZq0GPjGQrbxunFacEk3CnekSNnJ8zSkA2PIgIO0BCB+ihd6tIa0zj1UXXu3E19eGkhKWfQPh6R3Qg0zW+GK9k5jiQeWTGVcwdW1RAlApRex8dy07d7ZXCHFMislKUs2MmlKbwHVHKdGxjgVfi353qG8YBW2udz1olFDsUc6mn6ia/rSar86EeWCAyY6toNqfLFGxYRWhwZ9KhL64Hop51mvNXPBpivd4LlF++XSAQ/Pjrfj/kqVSQJYHaYKiTwLVDNtVbCxqd7oMN0ZI34pGXrGatdKvyTiKJtptbkxfbaJ5rY0+jVxX2/w/JT44txAKGAjnaV4I7xmU5+RXcNPrvTatTGWAIKZQZsfYmQS33cKRoFV1qaOYagmUgfd1QMcftVkg=
