@@ -19,7 +19,7 @@
       </b-navbar>
       <b-container fluid class="p-3">
         <b-row class="mt-2">
-          <b-col>
+          <b-col md="4" class="mb-2">
             <b-card title="Stats">
               <table class="table table-bordered table-striped table-sm">
                 <tbody>
@@ -55,7 +55,7 @@
               </table>
             </b-card>
           </b-col>
-          <b-col>
+          <b-col md="4" class="mb-2">
             <b-card no-body>
               <b-card-body>
                 <h4 class="card-title card-text">Moves</h4>
@@ -72,7 +72,7 @@
               </b-list-group>
             </b-card>
           </b-col>
-          <b-col>
+          <b-col md="4" class="mb-2">
             <b-card no-body>
               <b-card-body>
                 <h4 class="card-title card-text">Evolutions</h4>
