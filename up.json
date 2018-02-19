@@ -23,6 +23,9 @@
     "METADATA_PASSWORD": "readonly"
   },
   "stages": {
+    "development": {
+      "domain": "dev.pokemongo.tools"
+    },
     "staging": {
       "domain": "stage.pokemongo.tools"
     },

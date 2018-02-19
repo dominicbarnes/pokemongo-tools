@@ -11,7 +11,12 @@ var server = new Hapi.Server()
 
 server.connection({
   host: 'localhost',
-  port: config.port
+  port: config.port,
+  routes: {
+    files: {
+      relativeTo: path.resolve(__dirname, '../public')
+    }
+  }
 })
 
 server.register({
@@ -39,8 +44,18 @@ server.register({
       method: 'GET',
       path: '/{param*}',
       handler: {
-        directory: { path: path.resolve(__dirname, '../public') }
+        directory: { path: '.' }
       }
+    })
+
+    server.ext('onPreResponse', function (request, h) {
+      const { response } = request
+      const is404 = response.isBoom && response.output.statusCode === 404
+      const isHoodie = request.url.pathname.startsWith('/hoodie')
+      if (is404 && !isHoodie) {
+        return h.file('index.html').code(200)
+      }
+      return h.continue()
     })
 
     server.start(function (err) {
