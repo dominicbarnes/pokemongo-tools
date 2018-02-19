@@ -73,26 +73,27 @@
             </b-card>
           </b-col>
           <b-col md="4" class="mb-2">
-            <b-card no-body>
-              <b-card-body>
-                <h4 class="card-title card-text">Evolutions</h4>
-              </b-card-body>
-              <b-list-group flush>
-                <b-list-group-item v-if="previousEvolution" v-bind:to="{ name: 'pokedex-view', params: { pokemon: previousEvolution._id } }">
-                  <pokesprite v-bind:pokemon="previousEvolution.dex" class="float-right" />
-                  {{ previousEvolution.name }}
-                </b-list-group-item>
-                <b-list-group-item disabled>
-                  <pokesprite v-bind:pokemon="pokemon.dex" class="float-right" />
-                  {{ pokemon.name }}
-                </b-list-group-item>
-                <b-list-group-item v-for="evolution in nextEvolutions" v-bind:to="{ name: 'pokedex-view', params: { pokemon: evolution.pokemon._id } }">
-                  <pokesprite v-bind:pokemon="evolution.pokemon.dex" class="float-right" />
-                  {{ evolution.pokemon.name }}
+            <b-card title="Evolutions">
+              <ul class="list-unstyled">
+                <b-media tag="li" v-if="previousEvolution" class="border bg-light mb-2">
+                  <pokemon-sprite slot="aside" v-bind:pokemon="previousEvolution.dex" size="60" />
+                  <h5 class="my-1">
+                    <b-link v-bind:to="{ name: 'pokedex-view', params: { pokemon: previousEvolution._id } }">{{previousEvolution.name}}</b-link>
+                  </h5>
+                </b-media>
+                <b-media tag="li" class="border bg-light mb-2">
+                  <pokemon-sprite slot="aside" v-bind:pokemon="pokemon.dex" size="60" />
+                  <h5 class="my-1">{{pokemon.name}}</h5>
+                </b-media>
+                <b-media tag="li" v-for="evolution in nextEvolutions" class="border bg-light mb-2">
+                  <pokemon-sprite slot="aside" v-bind:pokemon="evolution.pokemon.dex" size="60" />
+                  <h5 class="my-1">
+                    <b-link v-bind:to="{ name: 'pokedex-view', params: { pokemon: evolution.pokemon._id } }">{{evolution.pokemon.name}}</b-link>
+                  </h5>
                   <b-badge variant="primary">{{ evolution.candy }} Candies</b-badge>
                   <b-badge v-if="evolution.item" variant="info">{{ evolution.item.id }}</b-badge>
-                </b-list-group-item>
-              </b-list-group>
+                </b-media>
+              </ul>
             </b-card>
           </b-col>
         </b-row>
@@ -108,7 +109,7 @@
 
   import { dex } from '../utils'
   import MoveSummary from './move-summary.vue'
-  import Pokesprite from './pokesprite.vue'
+  import PokemonSprite from './pokemon-sprite.vue'
   import TypeBadge from './type-badge.vue'
 
   export default {
@@ -162,6 +163,6 @@
       }
     },
 
-    components: { MoveSummary, Pokesprite, TypeBadge }
+    components: { MoveSummary, PokemonSprite, TypeBadge }
   }
 </script>

@@ -109,14 +109,16 @@
         </b-row>
 
         <b-modal id="modalEvolve" title="Evolve" v-on:show="reset" v-on:ok="save([ 'newPokemonID', 'newCP', 'newHP', 'newQuickMove', 'newChargeMove' ])">
-          <b-form-group label="Pokémon" description="Choose the Pokémon species that you evolved into.">
-            <b-input-group>
-              <b-input-group-prepend>
-                <pokesprite v-bind:pokemon="dex" v-bind:shiny="catalog.shiny" />
-              </b-input-group-prepend>
-              <b-form-select id="evolve-species-input" v-bind:options="evolutions" v-model="newPokemonID" required size="lg" />
-            </b-input-group>
-          </b-form-group>
+          <b-row>
+            <b-col cols="8">
+              <b-form-group label="Pokémon" description="Choose the Pokémon species that you evolved into.">
+                <b-form-select id="evolve-species-input" v-bind:options="evolutions" v-model="newPokemonID" required size="lg" />
+              </b-form-group>
+            </b-col>
+            <b-col cols="4">
+              <pokemon-sprite v-if="dex" v-bind:pokemon="dex" v-bind:shiny="catalog.shiny" />
+            </b-col>
+          </b-row>
 
           <b-form-group label="CP" description="Enter the new CP.">
             <b-form-input type="number" required min="10" v-model.number="newCP" />
@@ -171,14 +173,14 @@
 
   import { dex } from '../utils'
   import MoveSummary from './move-summary.vue'
-  import Pokesprite from './pokesprite.vue'
+  import PokemonSprite from './pokemon-sprite.vue'
   import RelTime from './rel-time.vue'
   import TypeBadge from './type-badge.vue'
 
   export default {
     data() {
       return {
-        dex: 'unknown',
+        dex: null,
         newPokemonID: null,
         newCP: null,
         newHP: null,
@@ -265,7 +267,7 @@
     watch: {
       newPokemonID(id) {
         const pokemon = this.$store.getters.pokemonByID(id)
-        if (pokemon) this.dex = numeral(pokemon.dex).format('000')
+        if (pokemon) this.dex = pokemon.dex
       }
     },
 
@@ -315,7 +317,7 @@
       }
     },
 
-    components: { MoveSummary, Pokesprite, RelTime, TypeBadge, VueMarkdown }
+    components: { MoveSummary, PokemonSprite, RelTime, TypeBadge, VueMarkdown }
   }
 
   function sum(acc, x) {

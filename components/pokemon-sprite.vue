@@ -15,7 +15,7 @@
       },
       shiny: Boolean,
       size: {
-        type: Number,
+        type: [ Number, String ],
         default: 120
       }
     },

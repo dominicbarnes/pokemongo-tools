@@ -42,7 +42,6 @@
     "nano-promises": "^1.2.0",
     "node-prune": "^1.0.2",
     "numeral": "^2.0.6",
-    "pokesprite": "^1.5.1",
     "postcss-cli": "^5.0.0",
     "postcss-import": "^11.0.0",
     "postcss-url": "^7.3.0",
