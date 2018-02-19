@@ -1,6 +1,6 @@
 {
   "name": "pokemongo-tools",
-  "profile": "personal",
+  "profile": "up",
   "hooks": {
     "prebuild": [
       "npm run clean",
