@@ -5,6 +5,7 @@ import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
 import numeral from 'numeral'
 
+import { segmentWriteKey } from './config'
 import store from './store'
 import router from './router'
 import App from './components/app.vue'
@@ -26,3 +27,9 @@ new Vue({ // eslint-disable-line
     return createElement(App)
   }
 })
+
+if (segmentWriteKey) {
+  window.analytics.load(segmentWriteKey)
+} else {
+  console.warn('Segment write key not found, analytics will not be tracked')
+}

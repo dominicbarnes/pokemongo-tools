@@ -13,6 +13,7 @@ exports.adminUsername = process.env.ADMIN_USERNAME || 'admin'
 exports.adminPassword = process.env.ADMIN_PASSWORD || 'secret'
 exports.metadataUsername = process.env.METADATA_USERNAME
 exports.metadataPassword = process.env.METADATA_PASSWORD
+exports.segmentWriteKey = process.env.SEGMENT_WRITE_KEY
 
 exports.adminURL = function () {
   const { couchdbURL, adminUsername, adminPassword } = exports
