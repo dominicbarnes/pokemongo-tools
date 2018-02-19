@@ -2,7 +2,7 @@
   <div>
     <catalog-filters v-model="filters" />
     <b-container fluid class="pt-2">
-      <b-row>
+      <b-row v-if="pokemon.length">
         <b-col cols="12" md="4" v-for="pokemon in items">
           <b-media class="border rounded mb-3">
             <pokemon-sprite slot="aside" v-bind:pokemon="pokemon.dex" v-bind:shiny="pokemon.shiny" />
@@ -32,6 +32,10 @@
           </b-media>
         </b-col>
       </b-row>
+      <b-alert v-else variant="warning" show>
+        <p>Your catalog is empty right now!</p>
+        <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add your first Pokémon!</b-button>
+      </b-alert>
       <b-row v-if="list.length">
         <b-col class="d-none d-md-block">
           <div class="my-2">
