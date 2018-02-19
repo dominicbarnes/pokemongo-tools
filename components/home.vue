@@ -1,6 +1,10 @@
 <template>
   <b-container fluid class="p-3">
-    <b-jumbotron header="Pokémon GO Tools" lead="A collection of tools for enriching your Pokémon GO experience.">
+    <b-jumbotron lead="A collection of tools for enriching your Pokémon GO experience.">
+      <template slot="header">
+        <b-img src="icon.png" class="float-right d-none d-md-block" />
+        Pokémon GO Tools
+      </template>
       <p>
         This app is <a href="http://offlinefirst.org/">offline-first</a> and
         will sync your data to all the devices you use. All you need to do is
