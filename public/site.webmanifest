@@ -1,9 +1,19 @@
 {
+  "name": "Pokémon Go Tools",
+  "short_name": "PoGO Tools",
   "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FF0000",
   "icons": [
     {
       "sizes": "192x192",
       "src": "icon.png",
+      "type": "image/png"
+    },
+    {
+      "sizes": "558x558",
+      "src": "tile.png",
       "type": "image/png"
     }
   ]

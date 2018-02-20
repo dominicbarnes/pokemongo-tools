@@ -33,3 +33,23 @@ if (segmentWriteKey) {
 } else {
   console.warn('Segment write key not found, analytics will not be tracked')
 }
+
+// replace "no-js" with "js" to signify that JS is running
+document.documentElement.className = 'js'
+
+// register service worker
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js', { scope: '.' }).then(function (reg) {
+    if (reg.installing) {
+      console.log('Service worker installing')
+    } else if (reg.waiting) {
+      console.log('Service worker installed')
+    } else if (reg.active) {
+      console.log('Service worker active')
+    }
+  }).catch(function (error) {
+    // registration failed
+    console.error('Registration failed', error)
+  })
+}
