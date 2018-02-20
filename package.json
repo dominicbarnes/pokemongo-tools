@@ -74,7 +74,6 @@
     "clean": "git clean -fdx ./public",
     "distclean": "docker-compose down",
     "deploy": "up deploy",
-    "deploy:stage": "up deploy staging",
     "deploy:prod": "up deploy production",
     "test": "eslint ."
   },
