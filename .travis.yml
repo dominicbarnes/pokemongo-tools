@@ -10,11 +10,6 @@ before_deploy:
 - up upgrade
 deploy:
 - provider: script
-  script: up deploy
-  skip_cleanup: true
-  on:
-    branch: dev
-- provider: script
   script: up deploy staging
   skip_cleanup: true
   on:
