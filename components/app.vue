@@ -91,6 +91,7 @@
 
 <script>
   import { mapGetters } from 'vuex'
+  import * as analytics from '../analytics.js'
 
   export default {
     data() {
@@ -120,6 +121,7 @@
           const { username, password } = this.signup
           await this.$store.dispatch('account/signUp', { username, password })
           this.$refs.signup.hide()
+          analytics.signUp(username)
         } catch (err) {
           this.signupError = err.message
         }
@@ -130,14 +132,15 @@
           const { username, password } = this.signin
           await this.$store.dispatch('account/signIn', { username, password })
           this.$refs.signin.hide()
+          analytics.signIn(username)
         } catch (err) {
           this.signinError = err.message
         }
-
       },
 
       async signOut() {
         await this.$store.dispatch('account/signOut')
+        analytics.signOut()
       }
     }
   }
