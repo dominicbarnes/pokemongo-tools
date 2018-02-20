@@ -39,7 +39,6 @@ if (segmentWriteKey) {
 document.documentElement.className = 'js'
 
 // register service worker
-
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js', { scope: '.' }).then(function (reg) {
     if (reg.installing) {
