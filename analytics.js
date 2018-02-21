@@ -24,8 +24,7 @@ export function page (route) {
   const { meta } = route
   if (meta) {
     const { title } = meta
-    window.analytics.page(title)
-    // TODO: category?
+    window.analytics.page(title, { url: window.location.href })
   }
 }
 
