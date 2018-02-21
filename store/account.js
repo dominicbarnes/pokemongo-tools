@@ -1,9 +1,6 @@
 import Vue from 'vue'
-import * as analytics from '../analytics.js'
 
 const { hoodie } = window
-
-const namespaced = true
 
 const state = {
   account: Object.create(null)
@@ -29,12 +26,12 @@ const actions = {
   async fetch ({ commit }) {
     const account = await hoodie.account.get(null, { local: true })
     commit('account', account)
-    if (account) analytics.signIn(account.username)
+    if (account) window.analytics.identify(account.username)
   },
 
   async signUp ({ commit, dispatch }, { username, password }) {
     await hoodie.account.signUp({ username, password })
-    analytics.signUp(username)
+    window.analytics.identify(username)
     await dispatch('signIn', { username, password, skipIdentify: true })
   },
 
@@ -42,18 +39,18 @@ const actions = {
     const account = await hoodie.account.signIn({ username, password })
     account.session = await hoodie.account.get('session')
     commit('account', account)
-    if (!skipIdentify) analytics.signIn(username)
+    if (!skipIdentify) window.analytics.identify(username)
   },
 
   async signOut ({ commit }) {
     const account = await hoodie.account.signOut()
     commit('account', account)
-    analytics.signOut()
+    window.analytics.reset()
   }
 }
 
 export default {
-  namespaced,
+  namespaced: true,
   state,
   getters,
   mutations,

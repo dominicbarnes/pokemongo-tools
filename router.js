@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import * as analytics from './analytics.js'
 import Home from './components/home.vue'
 import Catalog from './components/catalog.vue'
 import CatalogAdd from './components/catalog-add.vue'
@@ -83,7 +82,10 @@ const router = new Router({
 })
 
 router.beforeEach(function (to, from, next) {
-  analytics.page(to)
+  if (to.meta && to.meta.title) {
+    window.analytics.page(to.meta.title, { url: window.location.href })
+  }
+
   next()
 })
 
