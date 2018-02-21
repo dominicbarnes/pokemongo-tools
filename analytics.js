@@ -6,16 +6,16 @@ export function load (writeKey) {
 
 // users
 
+export function signUp (username) {
+  window.analytics.identify(username)
+}
+
 export function signIn (username) {
   window.analytics.identify(username)
 }
 
 export function signOut () {
   window.analytics.reset()
-}
-
-export function signUp (username) {
-  window.analytics.identify(username)
 }
 
 // pages (via router)
