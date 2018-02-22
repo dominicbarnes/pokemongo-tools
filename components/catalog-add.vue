@@ -9,11 +9,16 @@
 </template>
 
 <script>
+  import moment from 'moment'
   import FormPokemon from './form-pokemon.vue'
 
   export default {
     data() {
-      return { pokemon: {} }
+      return {
+        pokemon: {
+          caughtAt: moment().format('YYYY-MM-DD')
+        }
+      }
     },
 
     methods: {

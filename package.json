@@ -38,6 +38,7 @@
     "eslint-plugin-vue": "^4.2.2",
     "exorcist": "^1.0.0",
     "graphql-request": "^1.4.0",
+    "moment": "^2.20.1",
     "nano": "^6.4.2",
     "nano-promises": "^1.2.0",
     "node-prune": "^1.0.2",
