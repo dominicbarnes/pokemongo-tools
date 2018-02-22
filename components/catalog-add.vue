@@ -18,7 +18,11 @@
 
     methods: {
       async save() {
-        await this.$store.dispatch('pokemon/add', this.pokemon)
+        await this.$store.dispatch('pokemon/add', {
+          pokemon: this.pokemon,
+          trigger: 'add-form'
+        })
+
         this.$router.push({ name: 'catalog' })
       }
     },

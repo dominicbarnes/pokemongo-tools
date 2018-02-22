@@ -23,8 +23,14 @@
     methods: {
       async update() {
         const { pokemon } = this
-        await this.$store.dispatch('pokemon/update', pokemon)
-        this.$router.push({ name: 'catalog-view', params: { pokemon: pokemon._id } })
+        await this.$store.dispatch('pokemon/update', {
+          pokemon: pokemon,
+          trigger: 'edit-form'
+        })
+        this.$router.push({
+          name: 'catalog-view',
+          params: { pokemon: pokemon._id }
+        })
       }
     },
 

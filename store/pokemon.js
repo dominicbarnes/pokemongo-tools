@@ -48,15 +48,18 @@ const actions = {
   async fetch ({ commit }) {
     commit('set', await hoodie.store.findAll(doc => doc.type === 'pokemon'))
   },
-  async add ({ commit }, doc) {
-    const input = Object.assign({ type: 'pokemon' }, doc)
+  async add ({ commit }, { pokemon, trigger }) {
+    const input = Object.assign({ type: 'pokemon' }, pokemon)
     await hoodie.store.add(input)
+    window.analytics.track('Added Pokémon', { pokemon, trigger })
   },
-  async update ({ commit }, doc) {
-    await hoodie.store.update(doc._id, doc)
+  async update ({ commit }, { pokemon, trigger }) {
+    await hoodie.store.update(pokemon._id, pokemon)
+    window.analytics.track('Updated Pokémon', { pokemon, trigger })
   },
-  async remove ({ commit }, id) {
-    await hoodie.store.remove(id)
+  async remove ({ commit }, { pokemon, trigger }) {
+    await hoodie.store.remove(pokemon)
+    window.analytics.track('Removed Pokémon', { pokemon })
   }
 }
 

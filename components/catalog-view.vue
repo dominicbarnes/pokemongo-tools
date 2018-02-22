@@ -108,7 +108,7 @@
           </b-col>
         </b-row>
 
-        <b-modal id="modalEvolve" title="Evolve" v-on:show="reset" v-on:ok="save([ 'newPokemonID', 'newCP', 'newHP', 'newQuickMove', 'newChargeMove' ])">
+        <b-modal id="modalEvolve" title="Evolve" v-on:show="reset('evolve-modal')" v-on:ok="save([ 'newPokemonID', 'newCP', 'newHP', 'newQuickMove', 'newChargeMove' ])">
           <b-row>
             <b-col cols="8">
               <b-form-group label="Pokémon" description="Choose the Pokémon species that you evolved into.">
@@ -137,7 +137,7 @@
           </b-form-group>
         </b-modal>
 
-        <b-modal id="modalPowerUp" title="Power Up" v-on:show="reset" v-on:ok="save([ 'newCP', 'newHP' ])">
+        <b-modal id="modalPowerUp" title="Power Up" v-on:show="reset('power-up-modal')" v-on:ok="save([ 'newCP', 'newHP' ])">
           <b-form-group label="CP" description="Enter the new CP.">
             <b-form-input type="number" required min="10" v-model.number="newCP" />
           </b-form-group>
@@ -147,7 +147,7 @@
           </b-form-group>
         </b-modal>
 
-        <b-modal id="modalUseTM" title="Use TM" v-on:show="reset" v-on:ok="save([ 'newQuickMove', 'newChargeMove' ])">
+        <b-modal id="modalUseTM" title="Use TM" v-on:show="reset('use-tm-modal')" v-on:ok="save([ 'newQuickMove', 'newChargeMove' ])">
           <b-form-group label="Quick Move" description="Select the new quick move.">
             <b-form-select v-bind:options="quickMoves" v-model="newQuickMove" />
           </b-form-group>
@@ -185,7 +185,8 @@
         newCP: null,
         newHP: null,
         newQuickMove: null,
-        newChargeMove: null
+        newChargeMove: null,
+        trigger: null
       }
     },
 
@@ -273,11 +274,14 @@
 
     methods: {
       async deletePokemon() {
-        await this.$store.dispatch('pokemon/remove', this.$route.params.pokemon)
+        await this.$store.dispatch('pokemon/remove', {
+          pokemon: this.$route.params.pokemon,
+          trigger: 'delete-button'
+        })
         this.$router.push({ name: 'catalog' })
       },
 
-      reset() {
+      reset(trigger) {
         if (this.canEvolve) {
           this.newPokemonID = this.metadata.nextEvolutions[0].pokemon
         } else {
@@ -288,6 +292,7 @@
         this.newHP = this.catalog.hp
         this.newQuickMove = this.catalog.quickMove
         this.newChargeMove = this.catalog.chargeMove
+        this.trigger = trigger
       },
 
       changes(keys) {
@@ -313,7 +318,10 @@
       },
 
       async save(keys, e) {
-        await this.$store.dispatch('pokemon/update', this.changes(keys))
+        await this.$store.dispatch('pokemon/update', {
+          pokemon: this.changes(keys),
+          trigger: this.trigger
+        })
       }
     },
 
