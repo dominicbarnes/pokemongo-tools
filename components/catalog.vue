@@ -143,7 +143,7 @@
 
       filtering() {
         const { evolves, keywords, minIV, types } = this.filters
-        return minIV || (types && types.length) || typeof evolves === 'boolean' || keywords
+        return !!(minIV || (types && types.length) || typeof evolves === 'boolean' || keywords)
       },
 
       from() {
@@ -181,6 +181,14 @@
         }
 
         return true
+      },
+    },
+
+    watch: {
+      filtering(flag) {
+        if (flag) {
+          window.analytics.track('Filtered Catalog', { filters: this.filters })
+        }
       }
     },
 

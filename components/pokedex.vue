@@ -86,7 +86,7 @@
 
       filtering() {
         const { types, rarity, generation, keywords } = this.filters
-        return (types && types.length) || rarity || generation || keywords
+        return !!((types && types.length) || rarity || generation || keywords)
       },
 
       from() {
@@ -123,6 +123,14 @@
         }
 
         return true
+      }
+    },
+
+    watch: {
+      filtering(flag) {
+        if (flag) {
+          window.analytics.track('Filtered Pokédex', { filters: this.filters })
+        }
       }
     },
 
