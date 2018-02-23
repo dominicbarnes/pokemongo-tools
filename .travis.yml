@@ -7,7 +7,7 @@ cache:
 before_deploy:
 - sudo chown -R $(whoami) /usr/local/bin/
 - curl -sf https://up.apex.sh/install | sh
-- up upgrade
+- up upgrade > /dev/null
 deploy:
 - provider: script
   script: up deploy staging
