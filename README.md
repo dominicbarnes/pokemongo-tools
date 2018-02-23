@@ -4,5 +4,5 @@
 
 [![Build Status][travis-badge]][travis]
 
-travis: https://travis-ci.org/dominicbarnes/pokemongo-tools
-travis-badge: https://travis-ci.org/dominicbarnes/pokemongo-tools.svg?branch=dev
+[travis]: https://travis-ci.org/dominicbarnes/pokemongo-tools
+[travis-badge]: https://travis-ci.org/dominicbarnes/pokemongo-tools.svg?branch=dev
