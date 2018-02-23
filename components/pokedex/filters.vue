@@ -47,8 +47,8 @@
 <script>
   import debounce from 'debounce'
 
-  import TypeBadge from './badges/type-badge.vue'
-  import RarityBadge from './badges/rarity-badge.vue'
+  import TypeBadge from '../badges/type-badge.vue'
+  import RarityBadge from '../badges/rarity-badge.vue'
 
   export default {
     data() {

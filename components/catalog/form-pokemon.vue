@@ -89,8 +89,8 @@
 </template>
 
 <script>
-  import PokemonSprite from './pokemon-sprite.vue'
-  import { dex } from '../utils'
+  import PokemonSprite from '../pokemon-sprite.vue'
+  import { dex } from '../../utils'
 
   export default {
     data() {

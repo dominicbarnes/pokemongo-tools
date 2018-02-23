@@ -174,13 +174,13 @@
   import VueMarkdown from 'vue-markdown'
   import { mapGetters } from 'vuex'
 
-  import { dex } from '../utils'
-  import MoveSummary from './move-summary.vue'
-  import PokemonSprite from './pokemon-sprite.vue'
-  import RelTime from './rel-time.vue'
-  import TypeBadge from './badges/type-badge.vue'
-  import RarityBadge from './badges/rarity-badge.vue'
-  import ShinyBadge from './badges/shiny-badge.vue'
+  import { dex } from '../../utils'
+  import MoveSummary from '../move-summary.vue'
+  import PokemonSprite from '../pokemon-sprite.vue'
+  import RelTime from '../rel-time.vue'
+  import TypeBadge from '../badges/type-badge.vue'
+  import RarityBadge from '../badges/rarity-badge.vue'
+  import ShinyBadge from '../badges/shiny-badge.vue'
 
   export default {
     data() {

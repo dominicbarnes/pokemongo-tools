@@ -49,12 +49,12 @@
 <script>
   import { mapGetters, mapState } from 'vuex'
 
-  import PokemonSprite from './pokemon-sprite.vue'
-  import PokedexFilters from './pokedex-filters.vue'
-  import TypeBadge from './badges/type-badge.vue'
-  import RarityBadge from './badges/rarity-badge.vue'
+  import { page } from '../../utils'
+  import PokemonSprite from '../pokemon-sprite.vue'
+  import TypeBadge from '../badges/type-badge.vue'
+  import RarityBadge from '../badges/rarity-badge.vue'
 
-  import { page } from '../utils'
+  import PokedexFilters from './filters.vue'
 
   export default {
     data() {

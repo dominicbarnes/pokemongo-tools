@@ -1,14 +1,14 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import Home from './components/home.vue'
-import Catalog from './components/catalog.vue'
-import CatalogAdd from './components/catalog-add.vue'
-import CatalogView from './components/catalog-view.vue'
-import CatalogEdit from './components/catalog-edit.vue'
-import Types from './components/types.vue'
-import Pokedex from './components/pokedex.vue'
-import PokedexView from './components/pokedex-view.vue'
+import Home from './components/home/index.vue'
+import Catalog from './components/catalog/index.vue'
+import CatalogAdd from './components/catalog/add.vue'
+import CatalogView from './components/catalog/view.vue'
+import CatalogEdit from './components/catalog/edit.vue'
+import Types from './components/types/index.vue'
+import Pokedex from './components/pokedex/index.vue'
+import PokedexView from './components/pokedex/view.vue'
 
 Vue.use(Router)
 

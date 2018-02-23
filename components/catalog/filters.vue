@@ -58,7 +58,7 @@
 <script>
   import debounce from 'debounce'
 
-  import TypeBadge from './badges/type-badge.vue'
+  import TypeBadge from '../badges/type-badge.vue'
 
   export default {
     data() {

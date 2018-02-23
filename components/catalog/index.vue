@@ -70,14 +70,15 @@
   import sortBy from 'sort-by'
   import { mapGetters } from 'vuex'
 
-  import CatalogFilters from './catalog-filters.vue'
-  import PokemonSprite from './pokemon-sprite.vue'
-  import RelTime from './rel-time.vue'
-  import TypeBadge from './badges/type-badge.vue'
-  import RarityBadge from './badges/rarity-badge.vue'
-  import ShinyBadge from './badges/shiny-badge.vue'
+  import { page } from '../../utils'
+  import PokemonSprite from '../pokemon-sprite.vue'
+  import RelTime from '../rel-time.vue'
+  import TypeBadge from '../badges/type-badge.vue'
+  import RarityBadge from '../badges/rarity-badge.vue'
+  import ShinyBadge from '../badges/shiny-badge.vue'
 
-  import { page } from '../utils'
+  import CatalogFilters from './filters.vue'
+
 
   export default {
     data() {
