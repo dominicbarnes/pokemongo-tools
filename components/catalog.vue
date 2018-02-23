@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <loading-panel>
     <catalog-filters v-model="filters" />
     <b-container fluid class="pt-2">
       <b-row v-if="pokemon.length">
@@ -61,7 +61,7 @@
         </b-col>
       </b-row>
     </b-container>
-  </div>
+  </loading-panel>
 </template>
 
 <script>

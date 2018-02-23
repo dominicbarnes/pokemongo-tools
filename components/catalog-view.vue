@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <loading-panel>
     <b-container v-if="!catalog" class="p-3">
       <b-alert variant="danger" show>
         Not found
@@ -162,7 +162,7 @@
         </b-modal>
       </b-container>
     </div>
-  </div>
+  </loading-panel>
 </template>
 
 <script>

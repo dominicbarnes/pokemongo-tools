@@ -26,8 +26,7 @@
       </b-navbar>
     </header>
 
-    <loader v-if="loading" />
-    <router-view v-else></router-view>
+    <router-view />
 
     <footer class="footer fixed-bottom p-3 bg-light d-none d-md-block">
       <b-container fluid>

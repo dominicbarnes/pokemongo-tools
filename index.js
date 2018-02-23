@@ -9,7 +9,7 @@ import { segmentWriteKey } from './config'
 import store from './store'
 import router from './router'
 import App from './components/app.vue'
-import Loader from './components/loader.vue'
+import LoadingPanel from './components/loading-panel.vue'
 
 Vue.use(BootstrapVue)
 
@@ -17,7 +17,7 @@ Vue.filter('number', (value, format) => numeral(value).format(format))
 Vue.filter('percentage', value => numeral(value).format('0%'))
 Vue.filter('dex', value => `#${numeral(value).format('000')}`)
 
-Vue.component('loader', Loader)
+Vue.component('loading-panel', LoadingPanel)
 
 new Vue({ // eslint-disable-line
   el: '#app',

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <loading-panel>
     <pokedex-filters v-model="filters" />
     <b-container fluid class="my-2">
       <b-row>
@@ -43,7 +43,7 @@
         </b-col>
       </b-row>
     </b-container>
-  </div>
+  </loading-panel>
 </template>
 
 <script>

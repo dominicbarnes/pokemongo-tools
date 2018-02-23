@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <loading-panel>
     <div v-if="!pokemon" class="p-3">
       <b-alert variant="danger" show>
         Not found
@@ -99,7 +99,7 @@
         </b-row>
       </b-container>
     </div>
-  </div>
+  </loading-panel>
 </template>
 
 <script>

@@ -1,11 +1,13 @@
 <template>
-  <b-container fluid class="p-3">
-    <h1>Add Pokémon to Catalog</h1>
-    <b-form v-on:submit.stop.prevent="save">
-      <form-pokemon v-model="pokemon" />
-      <b-button type="submit" variant="primary">Save</b-button>
-    </b-form>
-  </b-container>
+  <loading-panel>
+    <b-container fluid class="p-3">
+      <h1>Add Pokémon to Catalog</h1>
+      <b-form v-on:submit.stop.prevent="save">
+        <form-pokemon v-model="pokemon" />
+        <b-button type="submit" variant="primary">Save</b-button>
+      </b-form>
+    </b-container>
+  </loading-panel>
 </template>
 
 <script>
