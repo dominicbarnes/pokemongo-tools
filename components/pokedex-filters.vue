@@ -19,13 +19,13 @@
         <b-nav-item-dropdown>
           <template slot="button-content">
             Rarity
-            <b-badge variant="info" v-if="value.rarity">{{ value.rarity.toUpperCase() }}</b-badge>
+            <rarity-badge v-if="value.rarity" v-bind:rarity="value.rarity" />
           </template>
           <b-dropdown-item v-on:click="value.rarity = 'mythic'">
-            <b-badge variant="info">MYTHICAL</b-badge>
+            <rarity-badge rarity="mythical" />
           </b-dropdown-item>
           <b-dropdown-item v-on:click="value.rarity = 'legendary'">
-            <b-badge variant="info">LEGENDARY</b-badge>
+            <rarity-badge rarity="legendary" />
           </b-dropdown-item>
           <b-dropdown-item v-on:click="value.rarity = null">Show All</b-dropdown-item>
         </b-nav-item-dropdown>
@@ -47,7 +47,8 @@
 <script>
   import debounce from 'debounce'
 
-  import TypeBadge from './type-badge.vue'
+  import TypeBadge from './badges/type-badge.vue'
+  import RarityBadge from './badges/rarity-badge.vue'
 
   export default {
     data() {
@@ -95,6 +96,6 @@
       }
     },
 
-    components: { TypeBadge }
+    components: { TypeBadge, RarityBadge }
   }
 </script>

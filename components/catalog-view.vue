@@ -12,17 +12,20 @@
           {{name}}
           <small v-if="catalog.nickname" class="text-muted">({{metadata.name}})</small>
         </b-navbar-brand>
+        <b-nav-text>
+          <type-badge v-for="type in metadata.types" v-bind:type="type" />
+          <rarity-badge v-if="metadata.rarity" v-bind:rarity="metadata.rarity" />
+          <shiny-badge v-if="catalog.shiny" />
+        </b-nav-text>
         <b-navbar-toggle target="catalog-view-actions" />
         <b-collapse is-nav id="catalog-view-actions">
-          <b-navbar-nav>
-            <b-nav-item v-bind:to="{ name: 'pokedex-view', params: { pokemon: catalog.pokemonID } }" target="_blank">Pokédex</b-nav-item>
-          </b-navbar-nav>
           <b-navbar-nav class="ml-auto">
             <b-nav-form>
-              <b-button v-bind:disabled="!canEvolve" v-b-modal.modalEvolve size="sm">Evolve</b-button>
-              <b-button v-b-modal.modalPowerUp size="sm" class="ml-2">Power Up</b-button>
-              <b-button v-b-modal.modalUseTM size="sm" class="ml-2">Use TM</b-button>
-              <b-button v-bind:to="{ name: 'catalog-edit', params: { pokemon: catalog._id } }" variant="info" size="sm" class="ml-2">Edit</b-button>
+              <b-button v-bind:to="{ name: 'pokedex-view', params: { pokemon: catalog.pokemonID } }" target="_blank" size="sm">Pokédex</b-button>
+              <b-button v-bind:disabled="!canEvolve" v-b-modal.modalEvolve variant="info" size="sm" class="ml-2">Evolve</b-button>
+              <b-button v-b-modal.modalPowerUp variant="info" size="sm" class="ml-2">Power Up</b-button>
+              <b-button v-b-modal.modalUseTM variant="info" size="sm" class="ml-2">Use TM</b-button>
+              <b-button v-bind:to="{ name: 'catalog-edit', params: { pokemon: catalog._id } }" variant="warning" size="sm" class="ml-2">Edit</b-button>
               <b-button v-b-modal.modalDelete variant="danger" size="sm" class="ml-2">Delete</b-button>
             </b-nav-form>
           </b-navbar-nav>
@@ -175,7 +178,9 @@
   import MoveSummary from './move-summary.vue'
   import PokemonSprite from './pokemon-sprite.vue'
   import RelTime from './rel-time.vue'
-  import TypeBadge from './type-badge.vue'
+  import TypeBadge from './badges/type-badge.vue'
+  import RarityBadge from './badges/rarity-badge.vue'
+  import ShinyBadge from './badges/shiny-badge.vue'
 
   export default {
     data() {
@@ -325,7 +330,7 @@
       }
     },
 
-    components: { MoveSummary, PokemonSprite, RelTime, TypeBadge, VueMarkdown }
+    components: { MoveSummary, PokemonSprite, RelTime, TypeBadge, RarityBadge, ShinyBadge, VueMarkdown }
   }
 
   function sum(acc, x) {

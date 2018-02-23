@@ -14,7 +14,7 @@
         </b-navbar-brand>
         <b-nav-text>
           <type-badge v-for="type in pokemon.types" v-bind:type="type" />
-          <b-badge variant="info" v-if="pokemon.rarity">{{ pokemon.rarity.toUpperCase() }}</b-badge>
+          <rarity-badge v-if="pokemon.rarity" v-bind:rarity="pokemon.rarity" />
         </b-nav-text>
       </b-navbar>
       <b-container fluid class="p-3">
@@ -110,7 +110,8 @@
   import { dex } from '../utils'
   import MoveSummary from './move-summary.vue'
   import PokemonSprite from './pokemon-sprite.vue'
-  import TypeBadge from './type-badge.vue'
+  import TypeBadge from './badges/type-badge.vue'
+  import RarityBadge from './badges/rarity-badge.vue'
 
   export default {
     computed: {
@@ -163,6 +164,6 @@
       }
     },
 
-    components: { MoveSummary, PokemonSprite, TypeBadge }
+    components: { MoveSummary, PokemonSprite, TypeBadge, RarityBadge }
   }
 </script>

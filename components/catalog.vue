@@ -14,7 +14,8 @@
               <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: pokemon.id } }">{{pokemon.species}}</b-link>
             </h2>
             <type-badge v-for="type in pokemon.types" v-bind:type="type" />
-            <b-badge variant="info" v-if="pokemon.rarity">{{ pokemon.rarity.toUpperCase() }}</b-badge>
+            <rarity-badge v-if="pokemon.rarity" v-bind:rarity="pokemon.rarity" />
+            <shiny-badge v-if="pokemon.shiny" />
             <div>
               {{ pokemon.dex | dex }}
               &bull;
@@ -69,10 +70,12 @@
   import sortBy from 'sort-by'
   import { mapGetters } from 'vuex'
 
+  import CatalogFilters from './catalog-filters.vue'
   import PokemonSprite from './pokemon-sprite.vue'
   import RelTime from './rel-time.vue'
-  import TypeBadge from './type-badge.vue'
-  import CatalogFilters from './catalog-filters.vue'
+  import TypeBadge from './badges/type-badge.vue'
+  import RarityBadge from './badges/rarity-badge.vue'
+  import ShinyBadge from './badges/shiny-badge.vue'
 
   import { page } from '../utils'
 
@@ -192,6 +195,6 @@
       }
     },
 
-    components: { PokemonSprite, RelTime, TypeBadge, CatalogFilters }
+    components: { CatalogFilters, PokemonSprite, RelTime, TypeBadge, RarityBadge, ShinyBadge }
   }
 </script>
