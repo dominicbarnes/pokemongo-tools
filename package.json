@@ -74,8 +74,6 @@
     "stop": "docker-compose stop",
     "clean": "git clean -fdx ./public",
     "distclean": "docker-compose down",
-    "deploy": "up deploy",
-    "deploy:prod": "up deploy production",
     "test": "eslint ."
   },
   "eslintConfig": {
