@@ -5,7 +5,7 @@ import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
 import numeral from 'numeral'
 
-import { segmentWriteKey } from './config'
+import { stage, segmentWriteKey } from './config'
 import store from './store'
 import router from './router'
 import App from './components/app.vue'
@@ -38,7 +38,7 @@ if (segmentWriteKey) {
 document.documentElement.className = 'js'
 
 // register service worker
-if ('serviceWorker' in navigator) {
+if (stage !== 'development' && 'serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js', { scope: '.' }).then(function (reg) {
     if (reg.installing) {
       console.log('Service worker installing')
