@@ -21,15 +21,7 @@
           <b-dropdown-item v-on:click="value.minIV = 50">F (&ge;50%)</b-dropdown-item>
           <b-dropdown-item v-on:click="value.minIV = 0">Show All</b-dropdown-item>
         </b-nav-item-dropdown>
-        <b-nav-item-dropdown>
-          <template slot="button-content">
-            Type(s)
-            <type-badge v-for="type in value.types" v-bind:type="type" />
-          </template>
-          <b-dropdown-item v-for="type in types" v-on:click="toggleType(type)" v-bind:active="isActiveType(type)" v-bind:disabled="isDisabledType(type)">
-            <type-badge v-bind:type="type" />
-          </b-dropdown-item>
-        </b-nav-item-dropdown>
+        <filter-types v-model="value.types" />
         <b-nav-item-dropdown>
           <template slot="button-content">
             <span v-if="value.evolves !== null">{{value.evolves ? 'Does Evolve' : 'Does Not Evolve'}}</span>
@@ -58,7 +50,7 @@
 <script>
   import debounce from 'debounce'
 
-  import TypeBadge from '../badges/type-badge.vue'
+  import FilterTypes from '../filters/types.vue'
 
   export default {
     data() {
@@ -80,31 +72,6 @@
       }
     },
 
-    computed: {
-      types() {
-        return this.$store.state.metadata.types.list
-      }
-    },
-
-    methods: {
-      toggleType(type) {
-        const index = this.value.types.indexOf(type)
-        if (index > -1) {
-          this.value.types.splice(index, 1)
-        } else {
-          this.value.types.push(type)
-        }
-      },
-
-      isActiveType(type) {
-        return this.value.types.indexOf(type) > -1
-      },
-
-      isDisabledType(type) {
-        return !this.isActiveType(type) && this.value.types.length >= 2
-      }
-    },
-
     watch: {
       value: {
         deep: true,
@@ -114,6 +81,6 @@
       }
     },
 
-    components: { TypeBadge }
+    components: { FilterTypes }
   }
 </script>

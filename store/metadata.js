@@ -33,6 +33,12 @@ const getters = {
   pokemonCount ({ pokemon }) {
     return pokemon.length
   },
+  pokemonGenerations ({ pokemon }) {
+    return Array.from(pokemon.reduce((acc, doc) => {
+      acc.add(doc.generation)
+      return acc
+    }, new Set())).sort()
+  },
 
   movesByID ({ moves }) {
     const m = index(moves, '_id')
