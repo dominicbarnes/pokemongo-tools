@@ -32,6 +32,7 @@ const actions = {
   async signUp ({ commit, dispatch }, { username, password }) {
     await hoodie.account.signUp({ username, password })
     window.analytics.identify(username)
+    window.analytics.track('User Registered')
     await dispatch('signIn', { username, password, skipIdentify: true })
   },
 
