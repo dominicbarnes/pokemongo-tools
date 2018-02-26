@@ -47,6 +47,7 @@
 </template>
 
 <script>
+  import sift from 'sift'
   import { mapGetters, mapState } from 'vuex'
 
   import { page } from '../../utils'
@@ -76,8 +77,8 @@
           return { dex, id, name, types, rarity, generation }
         })
 
-        return this.filtering
-          ? list.filter(row => this.filter(row))
+        return this.filterer
+          ? list.filter(this.filterer)
           : list
       },
 
@@ -85,9 +86,16 @@
         return page(this.list, this.currentPage, this.perPage)
       },
 
-      filtering() {
-        const { types, rarity, generation, keywords } = this.filters
-        return !!((types && types.length) || rarity || generation || keywords)
+      filterer() {
+        const { name, types, rarity, generation } = this.filters
+        const query = {}
+
+        if (name) query.name = new RegExp(name, 'i')
+        if (types && types.length) query.types = { $all: types.slice() }
+        if (rarity) query.rarity = rarity
+        if (generation) query.generation = generation
+
+        return Object.keys(query).length ? sift(query) : null
       },
 
       from() {
@@ -100,30 +108,6 @@
 
       count() {
         return this.list.length
-      }
-    },
-
-    methods: {
-      filter(row) {
-        const { types, rarity, generation, keywords } = this.filters
-
-        if (types && types.length) {
-          if (types.some(type => row.types.indexOf(type) === -1)) return false
-        }
-
-        if (rarity) {
-          if (row.rarity !== rarity) return false
-        }
-
-        if (generation) {
-          if (row.generation !== generation) return false
-        }
-
-        if (keywords) {
-          return row.name.toLowerCase().indexOf(keywords) > -1
-        }
-
-        return true
       }
     },
 

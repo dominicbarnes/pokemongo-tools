@@ -2,7 +2,7 @@
   <b-navbar variant="light" toggleable>
     <b-nav-text class="mr-2">Filters</b-nav-text>
     <b-nav-form>
-      <b-form-input v-model="value.keywords" size="sm" type="text" placeholder="Keywords" />
+      <b-form-input v-model="value.name" size="sm" type="text" placeholder="Name" />
     </b-nav-form>
     <b-navbar-toggle target="catalog-filters" />
     <b-collapse is-nav id="catalog-filters">
@@ -63,7 +63,7 @@
           ivs: 'Individual Values'
         },
         value: {
-          keywords: '',
+          name: '',
           minIV: 0,
           types: [],
           evolves: null,

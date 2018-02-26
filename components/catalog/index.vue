@@ -79,7 +79,6 @@
 
   import CatalogFilters from './filters.vue'
 
-
   export default {
     data() {
       return {
@@ -98,7 +97,7 @@
       }),
 
       list() {
-        const { pokemon, pokemonByID } = this
+        const { pokemon, pokemonByID, filterer } = this
         let list = pokemon.map(pokemon => {
           const metadata = pokemonByID(pokemon.pokemonID)
           const { attackIV = 0, defenseIV = 0, staminaIV = 0 } = pokemon
@@ -109,6 +108,7 @@
             dex: metadata.dex,
             id: pokemon._id,
             ivs: attackIV + defenseIV + staminaIV,
+            ivp: Math.round((attackIV + defenseIV + staminaIV) / 45 * 100),
             name: pokemon.nickname || metadata.name,
             nickname: pokemon.nickname,
             notes: pokemon.notes,
@@ -120,7 +120,7 @@
           }
         })
 
-        if (this.filtering) list = list.filter(row => this.filter(row))
+        if (filterer) list = list.filter(filterer)
 
         return list.sort(this.sorter)
       },
@@ -145,9 +145,20 @@
         }
       },
 
-      filtering() {
-        const { evolves, keywords, minIV, types } = this.filters
-        return !!(minIV || (types && types.length) || typeof evolves === 'boolean' || keywords)
+      filterer() {
+        const { name, minIV, types, evolves } = this.filters
+        const query = {}
+
+        if (name) query.name = new RegExp(name, 'i')
+        if (minIV) query.ivp = { $gte: minIV }
+        if (types && types.length) query.types = { $all: types.slice() }
+        if (typeof evolves === 'boolean') {
+          query.pokemon = evolves
+            ? { $in: this.evolves }
+            : { $nin: this.evolves }
+        }
+
+        return Object.keys(query).length ? sift(query) : null
       },
 
       from() {

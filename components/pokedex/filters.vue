@@ -2,7 +2,7 @@
   <b-navbar variant="light" toggleable>
     <b-nav-text class="mr-2">Filters</b-nav-text>
     <b-nav-form>
-      <b-form-input v-model="value.keywords" size="sm" type="text" placeholder="Keywords" />
+      <b-form-input v-model="value.name" size="sm" type="text" placeholder="Name" />
     </b-nav-form>
     <b-navbar-toggle target="pokedex-filters" />
     <b-collapse is-nav id="pokedex-filters">
@@ -26,7 +26,7 @@
     data() {
       return {
         value: {
-          keywords: null,
+          name: '',
           types: [],
           rarity: null,
           generation: null

@@ -19,9 +19,3 @@ exports.page = function (list, currentPage, perPage) {
   const end = start + perPage
   return list.slice(start, end)
 }
-
-exports.filterer = function (filters) {
-  return function (item) {
-    // TODO
-  }
-}
