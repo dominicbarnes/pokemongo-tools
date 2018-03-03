@@ -40,6 +40,7 @@
     "graphql-request": "^1.4.0",
     "moment": "^2.20.1",
     "nano": "^6.4.2",
+    "nano-blue": "^0.3.0",
     "nano-promises": "^1.2.0",
     "node-prune": "^1.0.2",
     "numeral": "^2.0.6",
@@ -61,7 +62,7 @@
     "watchify": "^3.9.0"
   },
   "scripts": {
-    "import": "node scripts/import.js",
+    "couchdb": "docker-compose up -d && wait-port localhost:5984 && couchdb-bootstrap http://admin:secret@localhost:5984 _couchdb",
     "prebuild": "mkdir -p public",
     "build": "concurrently 'npm run build:js' 'npm run build:css'",
     "build:js": "browserify -d -t babelify -g envify -t vueify -g uglifyify index.js | exorcist public/index.js.map > public/index.js",
@@ -69,13 +70,13 @@
     "watch": "concurrently 'npm run watch:js' 'npm run watch:css'",
     "watch:js": "watchify -d -t babelify -g envify -t vueify index.js -o public/index.js",
     "watch:css": "postcss index.css -o public/index.css -w",
-    "couchdb": "docker-compose up -d && wait-port localhost:5984 && couchdb-bootstrap http://admin:secret@localhost:5984 _couchdb",
-    "prestart": "npm install && npm run couchdb",
+    "prestart": "npm run couchdb",
     "start": "concurrently 'node server/index.js' 'npm run watch'",
     "stop": "docker-compose stop",
     "clean": "git clean -fdx ./public",
     "distclean": "docker-compose down",
-    "test": "eslint ."
+    "test": "eslint .",
+    "import": "node scripts/import.js"
   },
   "eslintConfig": {
     "parserOptions": {
