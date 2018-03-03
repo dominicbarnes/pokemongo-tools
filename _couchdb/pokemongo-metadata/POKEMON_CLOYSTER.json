@@ -42,5 +42,8 @@
   "buddyDistance": 3,
   "height": 1.5,
   "weight": 132.5,
+  "family": {
+    "id": "FAMILY_SHELLDER"
+  },
   "_id": "POKEMON_CLOYSTER"
 }

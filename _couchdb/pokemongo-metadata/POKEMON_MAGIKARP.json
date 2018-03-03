@@ -35,5 +35,8 @@
   "buddyDistance": 1,
   "height": 0.9,
   "weight": 10,
+  "family": {
+    "id": "FAMILY_MAGIKARP"
+  },
   "_id": "POKEMON_MAGIKARP"
 }

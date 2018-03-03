@@ -41,5 +41,8 @@
   "buddyDistance": 3,
   "height": 1.09,
   "weight": 12.5,
+  "family": {
+    "id": "FAMILY_SHUPPET"
+  },
   "_id": "POKEMON_BANETTE"
 }

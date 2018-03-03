@@ -56,5 +56,8 @@
   "buddyDistance": 1,
   "height": 0.89,
   "weight": 120,
+  "family": {
+    "id": "FAMILY_ARON"
+  },
   "_id": "POKEMON_LAIRON"
 }

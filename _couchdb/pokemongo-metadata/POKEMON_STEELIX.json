@@ -42,5 +42,8 @@
   "buddyDistance": 5,
   "height": 9.19,
   "weight": 400,
+  "family": {
+    "id": "FAMILY_ONIX"
+  },
   "_id": "POKEMON_STEELIX"
 }

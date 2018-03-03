@@ -41,5 +41,8 @@
   "buddyDistance": 3,
   "height": 1.2,
   "weight": 66.6,
+  "family": {
+    "id": "FAMILY_VOLTORB"
+  },
   "_id": "POKEMON_ELECTRODE"
 }

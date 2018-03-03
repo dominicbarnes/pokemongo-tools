@@ -3,7 +3,7 @@
   "dex": 351,
   "generation": 3,
   "types": [
-    "normal"
+    "fire"
   ],
   "baseStats": {
     "stamina": 140,
@@ -19,10 +19,30 @@
     },
     {
       "id": "MOVE_BITE_FAST",
-      "legacy": false
+      "legacy": true
     },
     {
       "id": "MOVE_ROCK_SMASH_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_TACKLE_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_HEX_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_WATER_GUN_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_POWDER_SNOW_FAST",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_EMBER_FAST",
       "legacy": false
     }
   ],
@@ -33,14 +53,46 @@
     },
     {
       "id": "MOVE_STOMP",
-      "legacy": false
+      "legacy": true
     },
     {
       "id": "MOVE_CRUNCH",
-      "legacy": false
+      "legacy": true
     },
     {
       "id": "MOVE_ANCIENT_POWER",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_HURRICANE",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_ENERGY_BALL",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_HYDRO_PUMP",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_THUNDER",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_BLIZZARD",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_ICE_BEAM",
+      "legacy": true
+    },
+    {
+      "id": "MOVE_FIRE_BLAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SOLAR_BEAM",
       "legacy": false
     }
   ],
@@ -49,5 +101,8 @@
   "buddyDistance": 5,
   "height": 0.3,
   "weight": 0.8,
+  "family": {
+    "id": "FAMILY_CASTFORM"
+  },
   "_id": "POKEMON_CASTFORM"
 }

@@ -39,5 +39,8 @@
   "buddyDistance": 1,
   "height": 0.7,
   "weight": 9.9,
+  "family": {
+    "id": "FAMILY_CATERPIE"
+  },
   "_id": "POKEMON_METAPOD"
 }

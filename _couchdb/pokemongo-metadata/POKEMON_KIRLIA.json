@@ -56,5 +56,8 @@
   "buddyDistance": 5,
   "height": 0.79,
   "weight": 20.2,
+  "family": {
+    "id": "FAMILY_RALTS"
+  },
   "_id": "POKEMON_KIRLIA"
 }

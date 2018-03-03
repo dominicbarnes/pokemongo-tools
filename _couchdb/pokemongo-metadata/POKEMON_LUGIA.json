@@ -42,5 +42,8 @@
   "buddyDistance": 20,
   "height": 5.21,
   "weight": 216,
+  "family": {
+    "id": "FAMILY_LUGIA"
+  },
   "_id": "POKEMON_LUGIA"
 }

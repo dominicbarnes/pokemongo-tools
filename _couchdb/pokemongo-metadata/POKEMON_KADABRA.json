@@ -47,5 +47,8 @@
   "buddyDistance": 3,
   "height": 1.3,
   "weight": 56.5,
+  "family": {
+    "id": "FAMILY_ABRA"
+  },
   "_id": "POKEMON_KADABRA"
 }

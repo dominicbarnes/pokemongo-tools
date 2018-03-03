@@ -41,5 +41,8 @@
   "buddyDistance": 3,
   "height": 0.41,
   "weight": 5.8,
+  "family": {
+    "id": "FAMILY_ODDISH"
+  },
   "_id": "POKEMON_BELLOSSOM"
 }

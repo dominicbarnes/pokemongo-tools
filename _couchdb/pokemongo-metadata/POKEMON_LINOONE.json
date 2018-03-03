@@ -49,5 +49,8 @@
   "buddyDistance": 1,
   "height": 0.51,
   "weight": 32.5,
+  "family": {
+    "id": "FAMILY_ZIGZAGOON"
+  },
   "_id": "POKEMON_LINOONE"
 }

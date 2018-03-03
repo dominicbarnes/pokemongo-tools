@@ -56,5 +56,8 @@
   "buddyDistance": 3,
   "height": 0.79,
   "weight": 39.5,
+  "family": {
+    "id": "FAMILY_SPHEAL"
+  },
   "_id": "POKEMON_SPHEAL"
 }

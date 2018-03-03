@@ -49,5 +49,8 @@
   "buddyDistance": 3,
   "height": 0.61,
   "weight": 17.7,
+  "family": {
+    "id": "FAMILY_ILLUMISE"
+  },
   "_id": "POKEMON_ILLUMISE"
 }

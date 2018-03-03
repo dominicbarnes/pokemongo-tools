@@ -50,5 +50,8 @@
   "buddyDistance": 3,
   "height": 1.5,
   "weight": 68.2,
+  "family": {
+    "id": "FAMILY_ANORITH"
+  },
   "_id": "POKEMON_ARMALDO"
 }

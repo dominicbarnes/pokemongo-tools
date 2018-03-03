@@ -50,5 +50,8 @@
   "buddyDistance": 3,
   "height": 1.5,
   "weight": 108,
+  "family": {
+    "id": "FAMILY_BALTOY"
+  },
   "_id": "POKEMON_CLAYDOL"
 }

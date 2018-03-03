@@ -42,5 +42,8 @@
   "buddyDistance": 1,
   "height": 1.09,
   "weight": 33.5,
+  "family": {
+    "id": "FAMILY_SPINARAK"
+  },
   "_id": "POKEMON_ARIADOS"
 }

@@ -42,5 +42,8 @@
   "buddyDistance": 1,
   "height": 1,
   "weight": 12,
+  "family": {
+    "id": "FAMILY_JIGGLYPUFF"
+  },
   "_id": "POKEMON_WIGGLYTUFF"
 }

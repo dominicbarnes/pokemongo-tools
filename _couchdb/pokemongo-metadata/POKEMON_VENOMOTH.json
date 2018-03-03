@@ -42,5 +42,8 @@
   "buddyDistance": 3,
   "height": 1.5,
   "weight": 12.5,
+  "family": {
+    "id": "FAMILY_VENONAT"
+  },
   "_id": "POKEMON_VENOMOTH"
 }

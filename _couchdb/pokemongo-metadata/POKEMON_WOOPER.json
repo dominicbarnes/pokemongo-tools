@@ -48,5 +48,8 @@
   "buddyDistance": 3,
   "height": 0.41,
   "weight": 8.5,
+  "family": {
+    "id": "FAMILY_WOOPER"
+  },
   "_id": "POKEMON_WOOPER"
 }

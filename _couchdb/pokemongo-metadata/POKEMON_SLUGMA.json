@@ -47,5 +47,8 @@
   "buddyDistance": 1,
   "height": 0.71,
   "weight": 35,
+  "family": {
+    "id": "FAMILY_SLUGMA"
+  },
   "_id": "POKEMON_SLUGMA"
 }

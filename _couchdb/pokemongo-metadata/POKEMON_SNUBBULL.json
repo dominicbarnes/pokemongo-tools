@@ -47,5 +47,8 @@
   "buddyDistance": 3,
   "height": 0.61,
   "weight": 7.8,
+  "family": {
+    "id": "FAMILY_SNUBBULL"
+  },
   "_id": "POKEMON_SNUBBULL"
 }

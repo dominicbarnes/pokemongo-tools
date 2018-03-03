@@ -49,5 +49,8 @@
   "buddyDistance": 3,
   "height": 1.3,
   "weight": 40.3,
+  "family": {
+    "id": "FAMILY_ZANGOOSE"
+  },
   "_id": "POKEMON_ZANGOOSE"
 }

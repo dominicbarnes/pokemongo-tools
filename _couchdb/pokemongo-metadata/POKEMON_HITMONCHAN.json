@@ -45,5 +45,8 @@
   "buddyDistance": 5,
   "height": 1.4,
   "weight": 50.2,
+  "family": {
+    "id": "FAMILY_TYROGUE"
+  },
   "_id": "POKEMON_HITMONCHAN"
 }

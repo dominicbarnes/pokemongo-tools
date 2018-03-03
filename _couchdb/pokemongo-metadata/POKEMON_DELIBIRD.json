@@ -16,7 +16,7 @@
   "quickMoves": [
     {
       "id": "MOVE_ICE_SHARD_FAST",
-      "legacy": false
+      "legacy": true
     },
     {
       "id": "MOVE_QUICK_ATTACK_FAST",
@@ -46,5 +46,8 @@
   "buddyDistance": 5,
   "height": 0.89,
   "weight": 16,
+  "family": {
+    "id": "FAMILY_DELIBIRD"
+  },
   "_id": "POKEMON_DELIBIRD"
 }

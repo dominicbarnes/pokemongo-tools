@@ -42,5 +42,8 @@
   "buddyDistance": 5,
   "height": 1.3,
   "weight": 54.5,
+  "family": {
+    "id": "FAMILY_MR_MIME"
+  },
   "_id": "POKEMON_MR_MIME"
 }

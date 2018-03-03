@@ -47,5 +47,8 @@
   "buddyDistance": 5,
   "height": 0.71,
   "weight": 21.4,
+  "family": {
+    "id": "FAMILY_MAGMAR"
+  },
   "_id": "POKEMON_MAGBY"
 }

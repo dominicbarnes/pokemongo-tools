@@ -47,5 +47,8 @@
   "buddyDistance": 3,
   "height": 0.61,
   "weight": 8.8,
+  "family": {
+    "id": "FAMILY_TEDDIURSA"
+  },
   "_id": "POKEMON_TEDDIURSA"
 }

@@ -55,5 +55,8 @@
   "buddyDistance": 3,
   "height": 0.41,
   "weight": 7.6,
+  "family": {
+    "id": "FAMILY_MUDKIP"
+  },
   "_id": "POKEMON_MUDKIP"
 }

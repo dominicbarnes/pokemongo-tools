@@ -41,5 +41,8 @@
   "buddyDistance": 3,
   "height": 0.79,
   "weight": 8.5,
+  "family": {
+    "id": "FAMILY_SUNKERN"
+  },
   "_id": "POKEMON_SUNFLORA"
 }

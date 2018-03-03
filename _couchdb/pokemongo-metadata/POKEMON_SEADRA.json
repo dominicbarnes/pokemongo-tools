@@ -49,5 +49,8 @@
   "buddyDistance": 3,
   "height": 1.2,
   "weight": 25,
+  "family": {
+    "id": "FAMILY_HORSEA"
+  },
   "_id": "POKEMON_SEADRA"
 }

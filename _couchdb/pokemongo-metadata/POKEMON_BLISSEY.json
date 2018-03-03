@@ -41,5 +41,8 @@
   "buddyDistance": 5,
   "height": 1.5,
   "weight": 46.8,
+  "family": {
+    "id": "FAMILY_CHANSEY"
+  },
   "_id": "POKEMON_BLISSEY"
 }

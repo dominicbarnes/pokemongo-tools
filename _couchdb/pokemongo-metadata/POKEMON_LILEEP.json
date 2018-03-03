@@ -56,5 +56,8 @@
   "buddyDistance": 3,
   "height": 0.99,
   "weight": 23.8,
+  "family": {
+    "id": "FAMILY_LILEEP"
+  },
   "_id": "POKEMON_LILEEP"
 }

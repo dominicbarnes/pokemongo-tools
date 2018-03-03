@@ -55,5 +55,8 @@
   "buddyDistance": 5,
   "height": 1.4,
   "weight": 46.5,
+  "family": {
+    "id": "FAMILY_SLAKOTH"
+  },
   "_id": "POKEMON_VIGOROTH"
 }

@@ -42,5 +42,8 @@
   "buddyDistance": 3,
   "height": 1.5,
   "weight": 41.5,
+  "family": {
+    "id": "FAMILY_GIRAFARIG"
+  },
   "_id": "POKEMON_GIRAFARIG"
 }

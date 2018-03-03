@@ -42,5 +42,8 @@
   "buddyDistance": 3,
   "height": 1.2,
   "weight": 18.6,
+  "family": {
+    "id": "FAMILY_ODDISH"
+  },
   "_id": "POKEMON_VILEPLUME"
 }

@@ -49,5 +49,8 @@
   "buddyDistance": 3,
   "height": 1.5,
   "weight": 256.5,
+  "family": {
+    "id": "FAMILY_SNORUNT"
+  },
   "_id": "POKEMON_GLALIE"
 }

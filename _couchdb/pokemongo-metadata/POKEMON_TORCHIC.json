@@ -55,5 +55,8 @@
   "buddyDistance": 3,
   "height": 0.41,
   "weight": 2.5,
+  "family": {
+    "id": "FAMILY_TORCHIC"
+  },
   "_id": "POKEMON_TORCHIC"
 }

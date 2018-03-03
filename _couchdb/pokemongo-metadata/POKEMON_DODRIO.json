@@ -42,5 +42,8 @@
   "buddyDistance": 3,
   "height": 1.8,
   "weight": 85.2,
+  "family": {
+    "id": "FAMILY_DODUO"
+  },
   "_id": "POKEMON_DODRIO"
 }

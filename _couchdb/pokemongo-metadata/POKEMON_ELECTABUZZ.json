@@ -41,5 +41,8 @@
   "buddyDistance": 5,
   "height": 1.1,
   "weight": 30,
+  "family": {
+    "id": "FAMILY_ELECTABUZZ"
+  },
   "_id": "POKEMON_ELECTABUZZ"
 }

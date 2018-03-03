@@ -45,5 +45,8 @@
   "buddyDistance": 3,
   "height": 1.09,
   "weight": 33.9,
+  "family": {
+    "id": "FAMILY_POLIWAG"
+  },
   "_id": "POKEMON_POLITOED"
 }

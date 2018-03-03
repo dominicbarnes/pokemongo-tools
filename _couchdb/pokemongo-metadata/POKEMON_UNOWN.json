@@ -29,5 +29,8 @@
   "buddyDistance": 5,
   "height": 0.51,
   "weight": 5,
+  "family": {
+    "id": "FAMILY_UNOWN"
+  },
   "_id": "POKEMON_UNOWN"
 }

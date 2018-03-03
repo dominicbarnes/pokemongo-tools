@@ -55,5 +55,8 @@
   "buddyDistance": 1,
   "height": 0.41,
   "weight": 10.3,
+  "family": {
+    "id": "FAMILY_GULPIN"
+  },
   "_id": "POKEMON_GULPIN"
 }

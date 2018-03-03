@@ -48,5 +48,8 @@
   "buddyDistance": 5,
   "height": 0.5,
   "weight": 11.5,
+  "family": {
+    "id": "FAMILY_KABUTO"
+  },
   "_id": "POKEMON_KABUTO"
 }

@@ -52,5 +52,8 @@
   "buddyDistance": 3,
   "height": 0.51,
   "weight": 2.6,
+  "family": {
+    "id": "FAMILY_LOTAD"
+  },
   "_id": "POKEMON_LOTAD"
 }

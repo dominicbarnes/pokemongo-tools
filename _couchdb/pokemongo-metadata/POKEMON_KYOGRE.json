@@ -23,7 +23,7 @@
     },
     {
       "id": "MOVE_DRAGON_TAIL_FAST",
-      "legacy": false
+      "legacy": true
     }
   ],
   "chargeMoves": [
@@ -49,5 +49,8 @@
   "buddyDistance": 20,
   "height": 4.5,
   "weight": 352,
+  "family": {
+    "id": "FAMILY_KYOGRE"
+  },
   "_id": "POKEMON_KYOGRE"
 }

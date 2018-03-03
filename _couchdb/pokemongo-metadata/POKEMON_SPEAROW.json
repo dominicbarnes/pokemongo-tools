@@ -48,5 +48,8 @@
   "buddyDistance": 1,
   "height": 0.3,
   "weight": 2,
+  "family": {
+    "id": "FAMILY_SPEAROW"
+  },
   "_id": "POKEMON_SPEAROW"
 }

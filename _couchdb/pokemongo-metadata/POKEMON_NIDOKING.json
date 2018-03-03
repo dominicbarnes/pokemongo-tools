@@ -42,5 +42,8 @@
   "buddyDistance": 3,
   "height": 1.4,
   "weight": 62,
+  "family": {
+    "id": "FAMILY_NIDORAN_MALE"
+  },
   "_id": "POKEMON_NIDOKING"
 }

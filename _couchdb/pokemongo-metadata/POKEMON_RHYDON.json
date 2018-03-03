@@ -46,5 +46,8 @@
   "buddyDistance": 3,
   "height": 1.9,
   "weight": 120,
+  "family": {
+    "id": "FAMILY_RHYHORN"
+  },
   "_id": "POKEMON_RHYDON"
 }

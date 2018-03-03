@@ -42,5 +42,8 @@
   "buddyDistance": 3,
   "height": 1.19,
   "weight": 22.5,
+  "family": {
+    "id": "FAMILY_CHINCHOU"
+  },
   "_id": "POKEMON_LANTURN"
 }

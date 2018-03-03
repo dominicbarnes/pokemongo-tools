@@ -42,5 +42,8 @@
   "buddyDistance": 3,
   "height": 1.6,
   "weight": 55,
+  "family": {
+    "id": "FAMILY_TENTACOOL"
+  },
   "_id": "POKEMON_TENTACRUEL"
 }

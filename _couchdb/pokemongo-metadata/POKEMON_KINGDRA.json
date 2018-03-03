@@ -46,5 +46,8 @@
   "buddyDistance": 3,
   "height": 1.8,
   "weight": 152,
+  "family": {
+    "id": "FAMILY_HORSEA"
+  },
   "_id": "POKEMON_KINGDRA"
 }

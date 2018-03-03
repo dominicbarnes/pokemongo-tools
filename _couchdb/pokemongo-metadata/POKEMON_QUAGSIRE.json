@@ -42,5 +42,8 @@
   "buddyDistance": 3,
   "height": 1.4,
   "weight": 75,
+  "family": {
+    "id": "FAMILY_WOOPER"
+  },
   "_id": "POKEMON_QUAGSIRE"
 }

@@ -47,5 +47,8 @@
   "buddyDistance": 3,
   "height": 0.6,
   "weight": 9.9,
+  "family": {
+    "id": "FAMILY_VULPIX"
+  },
   "_id": "POKEMON_VULPIX"
 }

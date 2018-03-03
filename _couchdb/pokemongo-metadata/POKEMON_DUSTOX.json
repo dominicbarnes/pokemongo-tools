@@ -50,5 +50,8 @@
   "buddyDistance": 1,
   "height": 1.19,
   "weight": 31.6,
+  "family": {
+    "id": "FAMILY_WURMPLE"
+  },
   "_id": "POKEMON_DUSTOX"
 }

@@ -50,5 +50,8 @@
   "buddyDistance": 5,
   "height": 2.01,
   "weight": 82,
+  "family": {
+    "id": "FAMILY_TRAPINCH"
+  },
   "_id": "POKEMON_FLYGON"
 }

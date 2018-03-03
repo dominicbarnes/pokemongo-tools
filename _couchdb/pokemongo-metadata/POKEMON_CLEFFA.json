@@ -47,5 +47,8 @@
   "buddyDistance": 1,
   "height": 0.3,
   "weight": 3,
+  "family": {
+    "id": "FAMILY_CLEFAIRY"
+  },
   "_id": "POKEMON_CLEFFA"
 }

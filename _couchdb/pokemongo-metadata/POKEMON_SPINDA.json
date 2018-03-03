@@ -49,5 +49,8 @@
   "buddyDistance": 3,
   "height": 1.09,
   "weight": 5,
+  "family": {
+    "id": "FAMILY_SPINDA"
+  },
   "_id": "POKEMON_SPINDA"
 }

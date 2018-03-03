@@ -55,5 +55,8 @@
   "buddyDistance": 1,
   "height": 0.61,
   "weight": 16.3,
+  "family": {
+    "id": "FAMILY_WHISMUR"
+  },
   "_id": "POKEMON_WHISMUR"
 }

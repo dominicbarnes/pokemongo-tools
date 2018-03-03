@@ -50,5 +50,8 @@
   "buddyDistance": 1,
   "height": 0.71,
   "weight": 19.8,
+  "family": {
+    "id": "FAMILY_TAILLOW"
+  },
   "_id": "POKEMON_SWELLOW"
 }

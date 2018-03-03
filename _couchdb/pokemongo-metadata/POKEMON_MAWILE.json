@@ -50,5 +50,8 @@
   "buddyDistance": 5,
   "height": 0.61,
   "weight": 11.5,
+  "family": {
+    "id": "FAMILY_MAWILE"
+  },
   "_id": "POKEMON_MAWILE"
 }

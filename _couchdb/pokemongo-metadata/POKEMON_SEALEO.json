@@ -56,5 +56,8 @@
   "buddyDistance": 3,
   "height": 1.09,
   "weight": 87.6,
+  "family": {
+    "id": "FAMILY_SPHEAL"
+  },
   "_id": "POKEMON_SEALEO"
 }

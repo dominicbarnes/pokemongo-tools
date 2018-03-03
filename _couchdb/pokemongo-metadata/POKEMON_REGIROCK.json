@@ -49,5 +49,8 @@
   "buddyDistance": 20,
   "height": 1.7,
   "weight": 230,
+  "family": {
+    "id": "FAMILY_REGIROCK"
+  },
   "_id": "POKEMON_REGIROCK"
 }

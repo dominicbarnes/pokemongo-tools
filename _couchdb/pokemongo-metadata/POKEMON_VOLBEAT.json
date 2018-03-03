@@ -49,5 +49,8 @@
   "buddyDistance": 3,
   "height": 0.71,
   "weight": 17.7,
+  "family": {
+    "id": "FAMILY_VOLBEAT"
+  },
   "_id": "POKEMON_VOLBEAT"
 }

@@ -42,5 +42,8 @@
   "buddyDistance": 3,
   "height": 0.89,
   "weight": 28,
+  "family": {
+    "id": "FAMILY_SNEASEL"
+  },
   "_id": "POKEMON_SNEASEL"
 }

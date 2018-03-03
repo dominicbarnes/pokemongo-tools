@@ -47,5 +47,8 @@
   "buddyDistance": 3,
   "height": 0.9,
   "weight": 30,
+  "family": {
+    "id": "FAMILY_GRIMER"
+  },
   "_id": "POKEMON_GRIMER"
 }

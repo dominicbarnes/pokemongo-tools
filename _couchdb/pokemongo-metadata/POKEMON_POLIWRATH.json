@@ -42,5 +42,8 @@
   "buddyDistance": 3,
   "height": 1.3,
   "weight": 54,
+  "family": {
+    "id": "FAMILY_POLIWAG"
+  },
   "_id": "POKEMON_POLIWRATH"
 }

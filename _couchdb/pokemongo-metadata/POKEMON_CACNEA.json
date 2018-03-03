@@ -55,5 +55,8 @@
   "buddyDistance": 3,
   "height": 0.41,
   "weight": 51.3,
+  "family": {
+    "id": "FAMILY_CACNEA"
+  },
   "_id": "POKEMON_CACNEA"
 }

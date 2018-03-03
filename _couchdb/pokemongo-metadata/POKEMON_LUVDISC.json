@@ -45,5 +45,8 @@
   "buddyDistance": 3,
   "height": 0.61,
   "weight": 8.7,
+  "family": {
+    "id": "FAMILY_LUVDISC"
+  },
   "_id": "POKEMON_LUVDISC"
 }

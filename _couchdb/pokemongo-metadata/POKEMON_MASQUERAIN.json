@@ -50,5 +50,8 @@
   "buddyDistance": 1,
   "height": 0.79,
   "weight": 3.6,
+  "family": {
+    "id": "FAMILY_SURSKIT"
+  },
   "_id": "POKEMON_MASQUERAIN"
 }

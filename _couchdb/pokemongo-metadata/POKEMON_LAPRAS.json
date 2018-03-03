@@ -46,5 +46,8 @@
   "buddyDistance": 5,
   "height": 2.5,
   "weight": 220,
+  "family": {
+    "id": "FAMILY_LAPRAS"
+  },
   "_id": "POKEMON_LAPRAS"
 }

@@ -42,5 +42,8 @@
   "buddyDistance": 3,
   "height": 0.51,
   "weight": 3.9,
+  "family": {
+    "id": "FAMILY_QWILFISH"
+  },
   "_id": "POKEMON_QWILFISH"
 }

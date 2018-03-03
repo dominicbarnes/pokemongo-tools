@@ -47,5 +47,8 @@
   "buddyDistance": 3,
   "height": 0.9,
   "weight": 19.5,
+  "family": {
+    "id": "FAMILY_ABRA"
+  },
   "_id": "POKEMON_ABRA"
 }

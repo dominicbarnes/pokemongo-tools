@@ -61,5 +61,8 @@
   "buddyDistance": 5,
   "height": 0.51,
   "weight": 5.5,
+  "family": {
+    "id": "FAMILY_NINCADA"
+  },
   "_id": "POKEMON_NINCADA"
 }

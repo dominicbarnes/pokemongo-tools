@@ -45,5 +45,8 @@
   "buddyDistance": 5,
   "height": 2.01,
   "weight": 130.5,
+  "family": {
+    "id": "FAMILY_SLAKOTH"
+  },
   "_id": "POKEMON_SLAKING"
 }

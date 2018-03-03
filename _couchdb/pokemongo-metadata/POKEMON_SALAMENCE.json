@@ -50,5 +50,8 @@
   "buddyDistance": 5,
   "height": 1.5,
   "weight": 102.6,
+  "family": {
+    "id": "FAMILY_BAGON"
+  },
   "_id": "POKEMON_SALAMENCE"
 }

@@ -50,5 +50,8 @@
   "buddyDistance": 20,
   "height": 0.3,
   "weight": 1.1,
+  "family": {
+    "id": "FAMILY_JIRACHI"
+  },
   "_id": "POKEMON_JIRACHI"
 }

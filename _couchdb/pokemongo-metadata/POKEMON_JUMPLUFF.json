@@ -42,5 +42,8 @@
   "buddyDistance": 3,
   "height": 0.79,
   "weight": 3,
+  "family": {
+    "id": "FAMILY_HOPPIP"
+  },
   "_id": "POKEMON_JUMPLUFF"
 }

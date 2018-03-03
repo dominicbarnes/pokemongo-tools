@@ -50,5 +50,8 @@
   "buddyDistance": 3,
   "height": 1.3,
   "weight": 77.4,
+  "family": {
+    "id": "FAMILY_CACNEA"
+  },
   "_id": "POKEMON_CACTURNE"
 }

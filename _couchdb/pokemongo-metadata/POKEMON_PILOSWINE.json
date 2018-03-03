@@ -42,5 +42,8 @@
   "buddyDistance": 3,
   "height": 1.09,
   "weight": 55.8,
+  "family": {
+    "id": "FAMILY_SWINUB"
+  },
   "_id": "POKEMON_PILOSWINE"
 }

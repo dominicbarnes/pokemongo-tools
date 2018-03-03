@@ -55,5 +55,8 @@
   "buddyDistance": 3,
   "height": 0.71,
   "weight": 16.8,
+  "family": {
+    "id": "FAMILY_SNORUNT"
+  },
   "_id": "POKEMON_SNORUNT"
 }

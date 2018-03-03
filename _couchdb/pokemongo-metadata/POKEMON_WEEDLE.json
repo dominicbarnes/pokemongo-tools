@@ -40,5 +40,8 @@
   "buddyDistance": 1,
   "height": 0.3,
   "weight": 3.2,
+  "family": {
+    "id": "FAMILY_WEEDLE"
+  },
   "_id": "POKEMON_WEEDLE"
 }

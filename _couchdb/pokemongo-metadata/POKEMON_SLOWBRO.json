@@ -42,5 +42,8 @@
   "buddyDistance": 3,
   "height": 1.6,
   "weight": 78.5,
+  "family": {
+    "id": "FAMILY_SLOWPOKE"
+  },
   "_id": "POKEMON_SLOWBRO"
 }

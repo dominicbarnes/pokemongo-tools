@@ -42,5 +42,8 @@
   "buddyDistance": 5,
   "height": 0.61,
   "weight": 5,
+  "family": {
+    "id": "FAMILY_CELEBI"
+  },
   "_id": "POKEMON_CELEBI"
 }

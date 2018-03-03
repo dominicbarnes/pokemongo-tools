@@ -41,5 +41,8 @@
   "buddyDistance": 5,
   "height": 0.89,
   "weight": 26.5,
+  "family": {
+    "id": "FAMILY_EEVEE"
+  },
   "_id": "POKEMON_ESPEON"
 }

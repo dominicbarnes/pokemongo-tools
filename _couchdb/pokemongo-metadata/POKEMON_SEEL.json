@@ -47,5 +47,8 @@
   "buddyDistance": 3,
   "height": 1.1,
   "weight": 90,
+  "family": {
+    "id": "FAMILY_SEEL"
+  },
   "_id": "POKEMON_SEEL"
 }

@@ -49,5 +49,8 @@
   "buddyDistance": 3,
   "height": 2.69,
   "weight": 52.5,
+  "family": {
+    "id": "FAMILY_SEVIPER"
+  },
   "_id": "POKEMON_SEVIPER"
 }

@@ -42,5 +42,8 @@
   "buddyDistance": 3,
   "height": 1.5,
   "weight": 15,
+  "family": {
+    "id": "FAMILY_NATU"
+  },
   "_id": "POKEMON_XATU"
 }

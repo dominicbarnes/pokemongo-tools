@@ -41,5 +41,8 @@
   "buddyDistance": 3,
   "height": 2.2,
   "weight": 80,
+  "family": {
+    "id": "FAMILY_KANGASKHAN"
+  },
   "_id": "POKEMON_KANGASKHAN"
 }

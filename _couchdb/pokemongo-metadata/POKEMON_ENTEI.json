@@ -41,5 +41,8 @@
   "buddyDistance": 20,
   "height": 2.11,
   "weight": 198,
+  "family": {
+    "id": "FAMILY_ENTEI"
+  },
   "_id": "POKEMON_ENTEI"
 }

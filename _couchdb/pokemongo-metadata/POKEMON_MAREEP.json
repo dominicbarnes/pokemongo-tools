@@ -47,5 +47,8 @@
   "buddyDistance": 5,
   "height": 0.61,
   "weight": 7.8,
+  "family": {
+    "id": "FAMILY_MAREEP"
+  },
   "_id": "POKEMON_MAREEP"
 }
