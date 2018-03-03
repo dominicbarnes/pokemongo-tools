@@ -1,9 +1,14 @@
 
 const fs = require('fs')
-const graphql = require('graphql-request')
+const { GraphQLClient } = require('graphql-request')
 const mkdir = require('mkdirp')
 const path = require('path')
 
+const graphql = new GraphQLClient('https://61heu9qv1g.execute-api.us-west-2.amazonaws.com/production/graphql', {
+  headers: {
+    Accept: 'application/json'
+  }
+})
 const base = path.resolve(__dirname, '../_couchdb/pokemongo-metadata')
 
 const query = `{
@@ -43,6 +48,9 @@ const query = `{
     buddyDistance
     height
     weight
+    family {
+      id
+    }
   }
   types {
     list
@@ -54,12 +62,16 @@ const query = `{
     type
     power
   }
+  families {
+    id
+    name
+  }
 }`
 
 main().catch(err => console.error(err))
 
 async function main () {
-  const data = await graphql.request('https://61heu9qv1g.execute-api.us-west-2.amazonaws.com/development/graphql', query)
+  const data = await graphql.request(query)
   await mkdir(base)
   for (const doc of docs(data)) {
     fs.writeFileSync(path.resolve(base, `${doc._id}.json`), JSON.stringify(doc, null, 2))
@@ -71,6 +83,7 @@ function docs (data) {
     .concat(types(data.types))
     .concat(pokemon(data.pokemon))
     .concat(moves(data.moves))
+    .concat(families(data.families))
 }
 
 function types (meta) {
@@ -80,26 +93,26 @@ function types (meta) {
 
 function pokemon (list) {
   return list.map(pokemon => {
-    pokemon._id = `POKEMON_${pokemon.id}`
+    pokemon._id = pokemon.id
     delete pokemon.id
     if (pokemon.previousEvolution) {
-      pokemon.previousEvolution = `POKEMON_${pokemon.previousEvolution.id}`
+      pokemon.previousEvolution = pokemon.previousEvolution.id
     }
     if (pokemon.nextEvolutions) {
       pokemon.nextEvolutions = pokemon.nextEvolutions.map(evolution => {
-        const pokemon = `POKEMON_${evolution.pokemon.id}`
+        const pokemon = evolution.pokemon.id
         const { candy, item } = evolution
         return { pokemon, candy, item }
       })
     }
     if (pokemon.quickMoves) {
       pokemon.quickMoves = pokemon.quickMoves.map(move => {
-        return { id: `MOVE_${move.id}`, legacy: move.legacy }
+        return { id: move.id, legacy: move.legacy }
       })
     }
     if (pokemon.chargeMoves) {
       pokemon.chargeMoves = pokemon.chargeMoves.map(move => {
-        return { id: `MOVE_${move.id}`, legacy: move.legacy }
+        return { id: move.id, legacy: move.legacy }
       })
     }
     return pokemon
@@ -108,8 +121,16 @@ function pokemon (list) {
 
 function moves (list) {
   return list.map(move => {
-    move._id = `MOVE_${move.id}`
+    move._id = move.id
     delete move.id
     return move
+  })
+}
+
+function families (list) {
+  return list.map(family => {
+    family._id = family.id
+    delete family.id
+    return family
   })
 }
