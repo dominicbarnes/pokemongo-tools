@@ -76,7 +76,9 @@
     "clean": "git clean -fdx ./public",
     "distclean": "docker-compose down",
     "test": "eslint .",
-    "import": "node scripts/import.js"
+    "import": "node scripts/import.js",
+    "version": "git-changelog --tag $npm_package_version && git add HISTORY.md",
+    "postversion": "git push --tags && git push"
   },
   "eslintConfig": {
     "parserOptions": {
