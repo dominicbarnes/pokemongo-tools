@@ -7,23 +7,23 @@
 <script>
 import { mapGetters } from 'vuex'
 
-import RarityBadge from '../badges/type-badge.vue'
-
 export default {
   props: {
-    value: Number
+    value: String
   },
 
   computed: {
-    ...mapGetters({ generations: 'pokemonGenerations' }),
+    families() {
+      return this.$store.state.metadata.families
+    },
 
     options() {
-      const list = this.generations.map(gen => {
-        return { value: gen, text: `Generation ${gen}` }
+      const list = this.families.map(family => {
+        return { value: family._id, text: `${family.name} Family` }
       })
 
       list.unshift(
-        { value: null, text: 'Generation' },
+        { value: null, text: 'Evolution Family' },
         { disabled: true, text: '---' }
       )
 
@@ -35,8 +35,6 @@ export default {
     update(value) {
       this.$emit('input', value)
     }
-  },
-
-  components: { RarityBadge }
+  }
 }
 </script>

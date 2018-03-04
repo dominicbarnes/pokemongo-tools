@@ -15,6 +15,7 @@ const state = {
   types: {},
   pokemon: [],
   moves: [],
+  families: [],
   loading: true
 }
 
@@ -56,7 +57,8 @@ const mutations = {
   loaded: () => Vue.set(state, 'loading', false),
   types: (state, types) => Vue.set(state, 'types', types),
   pokemon: (state, pokemon) => Vue.set(state, 'pokemon', pokemon),
-  moves: (state, moves) => Vue.set(state, 'moves', moves)
+  moves: (state, moves) => Vue.set(state, 'moves', moves),
+  families: (state, families) => Vue.set(state, 'families', families)
 }
 
 const actions = {
@@ -65,6 +67,7 @@ const actions = {
       commit('types', await store.find('TYPES'))
       commit('pokemon', await store.withIdPrefix('POKEMON_').findAll())
       commit('moves', await store.withIdPrefix('MOVE_').findAll())
+      commit('families', await store.withIdPrefix('FAMILY_').findAll())
       commit('loaded')
     } catch (err) {
       console.warn('metadata not found in local cache')
@@ -74,6 +77,7 @@ const actions = {
     commit('types', await store.find('TYPES'))
     commit('pokemon', await store.withIdPrefix('POKEMON_').findAll())
     commit('moves', await store.withIdPrefix('MOVE_').findAll())
+    commit('families', await store.withIdPrefix('FAMILY_').findAll())
     commit('loaded')
   }
 }

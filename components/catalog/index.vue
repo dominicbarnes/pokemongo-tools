@@ -107,6 +107,7 @@
             cp: pokemon.cp,
             dex: metadata.dex,
             id: pokemon._id,
+            family: metadata.family,
             ivs: attackIV + defenseIV + staminaIV,
             ivp: Math.round((attackIV + defenseIV + staminaIV) / 45 * 100),
             name: pokemon.nickname || metadata.name,
@@ -146,10 +147,11 @@
       },
 
       filterer() {
-        const { name, minIV, types, evolves } = this.filters
+        const { name, family, minIV, types, evolves } = this.filters
         const query = {}
 
         if (name) query.name = new RegExp(name, 'i')
+        if (family) query.family = family
         if (minIV) query.ivp = { $gte: minIV }
         if (types && types.length) query.types = { $all: types.slice() }
         if (typeof evolves === 'boolean') {

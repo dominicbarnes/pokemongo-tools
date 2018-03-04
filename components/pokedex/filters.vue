@@ -2,14 +2,15 @@
   <b-navbar variant="light" toggleable>
     <b-nav-text class="mr-2">Filters</b-nav-text>
     <b-nav-form>
-      <b-form-input v-model="value.name" size="sm" type="text" placeholder="Name" />
+      <b-form-input v-model="value.name" type="text" placeholder="Name" size="sm" />
     </b-nav-form>
     <b-navbar-toggle target="pokedex-filters" />
     <b-collapse is-nav id="pokedex-filters">
       <b-navbar-nav>
-        <filter-types v-model="value.types" />
-        <filter-rarity v-model="value.rarity" />
-        <filter-generation v-model="value.generation" />
+        <filter-generation v-model="value.generation" class="ml-2" />
+        <filter-family v-model="value.family" class="ml-2" />
+        <filter-rarity v-model="value.rarity" class="ml-2" />
+        <filter-types v-model="value.types" class="ml-2" />
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
@@ -21,6 +22,7 @@
   import FilterTypes from '../filters/types.vue'
   import FilterRarity from '../filters/rarity.vue'
   import FilterGeneration from '../filters/generation.vue'
+  import FilterFamily from '../filters/family.vue'
 
   export default {
     data() {
@@ -29,7 +31,8 @@
           name: '',
           types: [],
           rarity: null,
-          generation: null
+          generation: null,
+          family: null
         }
       }
     },
@@ -43,6 +46,6 @@
       }
     },
 
-    components: { FilterTypes, FilterRarity, FilterGeneration }
+    components: { FilterTypes, FilterRarity, FilterGeneration, FilterFamily }
   }
 </script>

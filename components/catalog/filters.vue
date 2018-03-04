@@ -7,6 +7,7 @@
     <b-navbar-toggle target="catalog-filters" />
     <b-collapse is-nav id="catalog-filters">
       <b-navbar-nav>
+        <filter-family v-model="value.family" class="ml-2" />
         <b-nav-item-dropdown>
           <template slot="button-content">
             IVs
@@ -51,6 +52,7 @@
   import debounce from 'debounce'
 
   import FilterTypes from '../filters/types.vue'
+  import FilterFamily from '../filters/family.vue'
 
   export default {
     data() {
@@ -64,6 +66,7 @@
         },
         value: {
           name: '',
+          family: null,
           minIV: 0,
           types: [],
           evolves: null,
@@ -81,6 +84,6 @@
       }
     },
 
-    components: { FilterTypes }
+    components: { FilterTypes, FilterFamily }
   }
 </script>

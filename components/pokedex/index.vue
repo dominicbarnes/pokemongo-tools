@@ -73,8 +73,8 @@
 
       list() {
         let list = this.$store.getters.pokemonSort('dex').map(pokemon => {
-          const { _id: id, dex, name, types, rarity, generation } = pokemon
-          return { dex, id, name, types, rarity, generation }
+          const { _id: id, dex, name, types, rarity, generation, family } = pokemon
+          return { dex, id, name, types, rarity, generation, family }
         })
 
         return this.filterer
@@ -87,13 +87,14 @@
       },
 
       filterer() {
-        const { name, types, rarity, generation } = this.filters
+        const { name, types, rarity, generation, family } = this.filters
         const query = {}
 
         if (name) query.name = new RegExp(name, 'i')
         if (types && types.length) query.types = { $all: types.slice() }
-        if (rarity) query.rarity = rarity
+        if (rarity) query.rarity = rarity === 'common' ? null : rarity
         if (generation) query.generation = generation
+        if (family) query.family = family
 
         return Object.keys(query).length ? sift(query) : null
       },
