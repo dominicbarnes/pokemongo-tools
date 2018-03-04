@@ -37,8 +37,6 @@
   "buddyDistance": 5,
   "height": 0.99,
   "weight": 27,
-  "family": {
-    "id": "FAMILY_EEVEE"
-  },
+  "family": "FAMILY_EEVEE",
   "_id": "POKEMON_UMBREON"
 }

@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 1,
   "weight": 32,
-  "family": {
-    "id": "FAMILY_MANKEY"
-  },
+  "family": "FAMILY_MANKEY",
   "_id": "POKEMON_PRIMEAPE"
 }

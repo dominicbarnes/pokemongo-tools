@@ -42,8 +42,6 @@
   "buddyDistance": 5,
   "height": 1.8,
   "weight": 59,
-  "family": {
-    "id": "FAMILY_AERODACTYL"
-  },
+  "family": "FAMILY_AERODACTYL",
   "_id": "POKEMON_AERODACTYL"
 }

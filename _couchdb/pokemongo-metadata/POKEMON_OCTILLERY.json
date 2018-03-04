@@ -41,8 +41,6 @@
   "buddyDistance": 1,
   "height": 0.89,
   "weight": 28.5,
-  "family": {
-    "id": "FAMILY_REMORAID"
-  },
+  "family": "FAMILY_REMORAID",
   "_id": "POKEMON_OCTILLERY"
 }

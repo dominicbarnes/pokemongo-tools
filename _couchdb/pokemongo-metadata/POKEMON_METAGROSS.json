@@ -50,8 +50,6 @@
   "buddyDistance": 5,
   "height": 1.6,
   "weight": 550,
-  "family": {
-    "id": "FAMILY_BELDUM"
-  },
+  "family": "FAMILY_BELDUM",
   "_id": "POKEMON_METAGROSS"
 }

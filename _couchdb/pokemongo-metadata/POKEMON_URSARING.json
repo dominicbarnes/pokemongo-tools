@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 1.8,
   "weight": 125.8,
-  "family": {
-    "id": "FAMILY_TEDDIURSA"
-  },
+  "family": "FAMILY_TEDDIURSA",
   "_id": "POKEMON_URSARING"
 }

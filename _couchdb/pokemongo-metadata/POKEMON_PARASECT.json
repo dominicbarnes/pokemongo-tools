@@ -42,8 +42,6 @@
   "buddyDistance": 3,
   "height": 1,
   "weight": 29.5,
-  "family": {
-    "id": "FAMILY_PARAS"
-  },
+  "family": "FAMILY_PARAS",
   "_id": "POKEMON_PARASECT"
 }

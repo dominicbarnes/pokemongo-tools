@@ -49,8 +49,6 @@
   "buddyDistance": 3,
   "height": 0.99,
   "weight": 97,
-  "family": {
-    "id": "FAMILY_NOSEPASS"
-  },
+  "family": "FAMILY_NOSEPASS",
   "_id": "POKEMON_NOSEPASS"
 }

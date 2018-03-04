@@ -43,8 +43,6 @@
   "buddyDistance": 1,
   "height": 0.61,
   "weight": 10,
-  "family": {
-    "id": "FAMILY_WURMPLE"
-  },
+  "family": "FAMILY_WURMPLE",
   "_id": "POKEMON_SILCOON"
 }

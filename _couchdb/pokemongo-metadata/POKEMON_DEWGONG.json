@@ -42,8 +42,6 @@
   "buddyDistance": 3,
   "height": 1.7,
   "weight": 120,
-  "family": {
-    "id": "FAMILY_SEEL"
-  },
+  "family": "FAMILY_SEEL",
   "_id": "POKEMON_DEWGONG"
 }

@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 0.71,
   "weight": 1,
-  "family": {
-    "id": "FAMILY_MISDREAVUS"
-  },
+  "family": "FAMILY_MISDREAVUS",
   "_id": "POKEMON_MISDREAVUS"
 }

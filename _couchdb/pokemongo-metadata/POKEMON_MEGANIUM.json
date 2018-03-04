@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 1.8,
   "weight": 100.5,
-  "family": {
-    "id": "FAMILY_CHIKORITA"
-  },
+  "family": "FAMILY_CHIKORITA",
   "_id": "POKEMON_MEGANIUM"
 }

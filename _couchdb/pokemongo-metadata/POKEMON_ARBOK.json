@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 3.5,
   "weight": 65,
-  "family": {
-    "id": "FAMILY_EKANS"
-  },
+  "family": "FAMILY_EKANS",
   "_id": "POKEMON_ARBOK"
 }

@@ -43,8 +43,6 @@
   "buddyDistance": 1,
   "height": 0.71,
   "weight": 11.5,
-  "family": {
-    "id": "FAMILY_WURMPLE"
-  },
+  "family": "FAMILY_WURMPLE",
   "_id": "POKEMON_CASCOON"
 }

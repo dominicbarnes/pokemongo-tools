@@ -55,8 +55,6 @@
   "buddyDistance": 3,
   "height": 0.99,
   "weight": 86.4,
-  "family": {
-    "id": "FAMILY_MAKUHITA"
-  },
+  "family": "FAMILY_MAKUHITA",
   "_id": "POKEMON_MAKUHITA"
 }

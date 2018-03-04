@@ -47,8 +47,6 @@
   "buddyDistance": 3,
   "height": 1,
   "weight": 32.4,
-  "family": {
-    "id": "FAMILY_DROWZEE"
-  },
+  "family": "FAMILY_DROWZEE",
   "_id": "POKEMON_DROWZEE"
 }

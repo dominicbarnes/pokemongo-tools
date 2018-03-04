@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 1.09,
   "weight": 120,
-  "family": {
-    "id": "FAMILY_PHANPY"
-  },
+  "family": "FAMILY_PHANPY",
   "_id": "POKEMON_DONPHAN"
 }

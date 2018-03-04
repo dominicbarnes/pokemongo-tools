@@ -49,8 +49,6 @@
   "buddyDistance": 5,
   "height": 1.19,
   "weight": 47,
-  "family": {
-    "id": "FAMILY_ABSOL"
-  },
+  "family": "FAMILY_ABSOL",
   "_id": "POKEMON_ABSOL"
 }

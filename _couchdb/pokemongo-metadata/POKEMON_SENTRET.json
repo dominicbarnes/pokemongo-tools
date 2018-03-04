@@ -47,8 +47,6 @@
   "buddyDistance": 1,
   "height": 0.79,
   "weight": 6,
-  "family": {
-    "id": "FAMILY_SENTRET"
-  },
+  "family": "FAMILY_SENTRET",
   "_id": "POKEMON_SENTRET"
 }

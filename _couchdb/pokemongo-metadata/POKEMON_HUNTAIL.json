@@ -49,8 +49,6 @@
   "buddyDistance": 3,
   "height": 1.7,
   "weight": 27,
-  "family": {
-    "id": "FAMILY_CLAMPERL"
-  },
+  "family": "FAMILY_CLAMPERL",
   "_id": "POKEMON_HUNTAIL"
 }

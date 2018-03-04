@@ -49,8 +49,6 @@
   "buddyDistance": 20,
   "height": 1.91,
   "weight": 205,
-  "family": {
-    "id": "FAMILY_REGISTEEL"
-  },
+  "family": "FAMILY_REGISTEEL",
   "_id": "POKEMON_REGISTEEL"
 }

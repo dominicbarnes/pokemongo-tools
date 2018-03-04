@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 1.7,
   "weight": 95,
-  "family": {
-    "id": "FAMILY_PONYTA"
-  },
+  "family": "FAMILY_PONYTA",
   "_id": "POKEMON_RAPIDASH"
 }

@@ -43,8 +43,6 @@
   "buddyDistance": 3,
   "height": 0.61,
   "weight": 14,
-  "family": {
-    "id": "FAMILY_WOBBUFFET"
-  },
+  "family": "FAMILY_WOBBUFFET",
   "_id": "POKEMON_WYNAUT"
 }

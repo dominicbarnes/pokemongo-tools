@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 0.61,
   "weight": 32.5,
-  "family": {
-    "id": "FAMILY_PORYGON"
-  },
+  "family": "FAMILY_PORYGON",
   "_id": "POKEMON_PORYGON2"
 }

@@ -48,8 +48,6 @@
   "buddyDistance": 5,
   "height": 0.61,
   "weight": 72,
-  "family": {
-    "id": "FAMILY_LARVITAR"
-  },
+  "family": "FAMILY_LARVITAR",
   "_id": "POKEMON_LARVITAR"
 }

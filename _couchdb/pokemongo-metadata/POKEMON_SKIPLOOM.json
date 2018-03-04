@@ -48,8 +48,6 @@
   "buddyDistance": 3,
   "height": 0.61,
   "weight": 1,
-  "family": {
-    "id": "FAMILY_HOPPIP"
-  },
+  "family": "FAMILY_HOPPIP",
   "_id": "POKEMON_SKIPLOOM"
 }

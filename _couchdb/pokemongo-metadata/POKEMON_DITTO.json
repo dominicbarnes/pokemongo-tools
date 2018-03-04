@@ -29,8 +29,6 @@
   "buddyDistance": 3,
   "height": 0.3,
   "weight": 4,
-  "family": {
-    "id": "FAMILY_DITTO"
-  },
+  "family": "FAMILY_DITTO",
   "_id": "POKEMON_DITTO"
 }

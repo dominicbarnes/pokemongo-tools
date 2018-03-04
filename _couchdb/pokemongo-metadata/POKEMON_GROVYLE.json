@@ -55,8 +55,6 @@
   "buddyDistance": 3,
   "height": 0.89,
   "weight": 21.6,
-  "family": {
-    "id": "FAMILY_TREECKO"
-  },
+  "family": "FAMILY_TREECKO",
   "_id": "POKEMON_GROVYLE"
 }

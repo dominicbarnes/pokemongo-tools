@@ -50,8 +50,6 @@
   "buddyDistance": 5,
   "height": 2.01,
   "weight": 100,
-  "family": {
-    "id": "FAMILY_TROPIUS"
-  },
+  "family": "FAMILY_TROPIUS",
   "_id": "POKEMON_TROPIUS"
 }

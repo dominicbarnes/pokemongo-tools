@@ -48,8 +48,6 @@
   "buddyDistance": 3,
   "height": 0.3,
   "weight": 6,
-  "family": {
-    "id": "FAMILY_MAGNEMITE"
-  },
+  "family": "FAMILY_MAGNEMITE",
   "_id": "POKEMON_MAGNEMITE"
 }

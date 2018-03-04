@@ -50,8 +50,6 @@
   "buddyDistance": 3,
   "height": 1.09,
   "weight": 32.8,
-  "family": {
-    "id": "FAMILY_CORPHISH"
-  },
+  "family": "FAMILY_CORPHISH",
   "_id": "POKEMON_CRAWDAUNT"
 }

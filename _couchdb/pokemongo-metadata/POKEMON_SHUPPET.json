@@ -47,8 +47,6 @@
   "buddyDistance": 3,
   "height": 0.61,
   "weight": 2.3,
-  "family": {
-    "id": "FAMILY_SHUPPET"
-  },
+  "family": "FAMILY_SHUPPET",
   "_id": "POKEMON_SHUPPET"
 }

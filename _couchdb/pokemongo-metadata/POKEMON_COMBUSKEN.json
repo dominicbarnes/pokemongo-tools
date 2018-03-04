@@ -56,8 +56,6 @@
   "buddyDistance": 3,
   "height": 0.89,
   "weight": 19.5,
-  "family": {
-    "id": "FAMILY_TORCHIC"
-  },
+  "family": "FAMILY_TORCHIC",
   "_id": "POKEMON_COMBUSKEN"
 }

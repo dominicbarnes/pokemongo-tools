@@ -42,8 +42,6 @@
   "buddyDistance": 3,
   "height": 1.19,
   "weight": 38,
-  "family": {
-    "id": "FAMILY_YANMA"
-  },
+  "family": "FAMILY_YANMA",
   "_id": "POKEMON_YANMA"
 }

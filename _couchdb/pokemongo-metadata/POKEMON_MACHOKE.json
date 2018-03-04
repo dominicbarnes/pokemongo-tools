@@ -47,8 +47,6 @@
   "buddyDistance": 3,
   "height": 1.5,
   "weight": 70.5,
-  "family": {
-    "id": "FAMILY_MACHOP"
-  },
+  "family": "FAMILY_MACHOP",
   "_id": "POKEMON_MACHOKE"
 }

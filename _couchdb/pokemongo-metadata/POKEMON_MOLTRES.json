@@ -38,8 +38,6 @@
   "buddyDistance": 20,
   "height": 2,
   "weight": 60,
-  "family": {
-    "id": "FAMILY_MOLTRES"
-  },
+  "family": "FAMILY_MOLTRES",
   "_id": "POKEMON_MOLTRES"
 }

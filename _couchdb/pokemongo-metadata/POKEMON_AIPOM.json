@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 0.79,
   "weight": 11.5,
-  "family": {
-    "id": "FAMILY_AIPOM"
-  },
+  "family": "FAMILY_AIPOM",
   "_id": "POKEMON_AIPOM"
 }

@@ -47,8 +47,6 @@
   "buddyDistance": 3,
   "height": 0.5,
   "weight": 10.4,
-  "family": {
-    "id": "FAMILY_VOLTORB"
-  },
+  "family": "FAMILY_VOLTORB",
   "_id": "POKEMON_VOLTORB"
 }

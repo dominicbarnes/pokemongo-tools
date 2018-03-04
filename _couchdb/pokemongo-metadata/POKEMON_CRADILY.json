@@ -50,8 +50,6 @@
   "buddyDistance": 3,
   "height": 1.5,
   "weight": 60.4,
-  "family": {
-    "id": "FAMILY_LILEEP"
-  },
+  "family": "FAMILY_LILEEP",
   "_id": "POKEMON_CRADILY"
 }

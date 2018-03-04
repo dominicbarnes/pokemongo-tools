@@ -101,8 +101,6 @@
   "buddyDistance": 5,
   "height": 0.3,
   "weight": 0.8,
-  "family": {
-    "id": "FAMILY_CASTFORM"
-  },
+  "family": "FAMILY_CASTFORM",
   "_id": "POKEMON_CASTFORM"
 }

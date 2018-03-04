@@ -56,8 +56,6 @@
   "buddyDistance": 1,
   "height": 0.51,
   "weight": 1.7,
-  "family": {
-    "id": "FAMILY_SURSKIT"
-  },
+  "family": "FAMILY_SURSKIT",
   "_id": "POKEMON_SURSKIT"
 }

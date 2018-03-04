@@ -45,8 +45,6 @@
   "buddyDistance": 20,
   "height": 2.01,
   "weight": 187,
-  "family": {
-    "id": "FAMILY_SUICUNE"
-  },
+  "family": "FAMILY_SUICUNE",
   "_id": "POKEMON_SUICUNE"
 }

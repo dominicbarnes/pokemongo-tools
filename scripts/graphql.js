@@ -85,6 +85,7 @@ function pokemon (list) {
   return list.map(pokemon => {
     pokemon._id = pokemon.id
     delete pokemon.id
+    pokemon.family = pokemon.family.id
     if (pokemon.previousEvolution) {
       pokemon.previousEvolution = pokemon.previousEvolution.id
     }

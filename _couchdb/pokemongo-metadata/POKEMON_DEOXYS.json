@@ -49,8 +49,6 @@
   "buddyDistance": 20,
   "height": 1.7,
   "weight": 60.8,
-  "family": {
-    "id": "FAMILY_DEOXYS"
-  },
+  "family": "FAMILY_DEOXYS",
   "_id": "POKEMON_DEOXYS"
 }

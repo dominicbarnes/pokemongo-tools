@@ -55,8 +55,6 @@
   "buddyDistance": 3,
   "height": 0.51,
   "weight": 4,
-  "family": {
-    "id": "FAMILY_SEEDOT"
-  },
+  "family": "FAMILY_SEEDOT",
   "_id": "POKEMON_SEEDOT"
 }

@@ -50,8 +50,6 @@
   "buddyDistance": 20,
   "height": 2.01,
   "weight": 60,
-  "family": {
-    "id": "FAMILY_LATIOS"
-  },
+  "family": "FAMILY_LATIOS",
   "_id": "POKEMON_LATIOS"
 }

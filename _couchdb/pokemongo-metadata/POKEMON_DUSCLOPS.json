@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 1.6,
   "weight": 30.6,
-  "family": {
-    "id": "FAMILY_DUSKULL"
-  },
+  "family": "FAMILY_DUSKULL",
   "_id": "POKEMON_DUSCLOPS"
 }

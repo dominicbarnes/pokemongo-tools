@@ -42,8 +42,6 @@
   "buddyDistance": 5,
   "height": 1,
   "weight": 35,
-  "family": {
-    "id": "FAMILY_OMANYTE"
-  },
+  "family": "FAMILY_OMANYTE",
   "_id": "POKEMON_OMASTAR"
 }

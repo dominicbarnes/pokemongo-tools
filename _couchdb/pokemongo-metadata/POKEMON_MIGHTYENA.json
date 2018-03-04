@@ -49,8 +49,6 @@
   "buddyDistance": 1,
   "height": 0.99,
   "weight": 37,
-  "family": {
-    "id": "FAMILY_POOCHYENA"
-  },
+  "family": "FAMILY_POOCHYENA",
   "_id": "POKEMON_MIGHTYENA"
 }

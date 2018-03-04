@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 1.7,
   "weight": 79.5,
-  "family": {
-    "id": "FAMILY_CYNDAQUIL"
-  },
+  "family": "FAMILY_CYNDAQUIL",
   "_id": "POKEMON_TYPHLOSION"
 }

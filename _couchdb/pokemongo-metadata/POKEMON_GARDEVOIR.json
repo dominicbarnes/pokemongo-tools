@@ -50,8 +50,6 @@
   "buddyDistance": 5,
   "height": 1.6,
   "weight": 48.4,
-  "family": {
-    "id": "FAMILY_RALTS"
-  },
+  "family": "FAMILY_RALTS",
   "_id": "POKEMON_GARDEVOIR"
 }

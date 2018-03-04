@@ -48,8 +48,6 @@
   "buddyDistance": 3,
   "height": 0.41,
   "weight": 6.5,
-  "family": {
-    "id": "FAMILY_SWINUB"
-  },
+  "family": "FAMILY_SWINUB",
   "_id": "POKEMON_SWINUB"
 }

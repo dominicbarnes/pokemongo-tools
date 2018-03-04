@@ -55,8 +55,6 @@
   "buddyDistance": 3,
   "height": 0.61,
   "weight": 11.5,
-  "family": {
-    "id": "FAMILY_CORPHISH"
-  },
+  "family": "FAMILY_CORPHISH",
   "_id": "POKEMON_CORPHISH"
 }

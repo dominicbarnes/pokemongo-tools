@@ -47,8 +47,6 @@
   "buddyDistance": 3,
   "height": 0.7,
   "weight": 19,
-  "family": {
-    "id": "FAMILY_GROWLITHE"
-  },
+  "family": "FAMILY_GROWLITHE",
   "_id": "POKEMON_GROWLITHE"
 }

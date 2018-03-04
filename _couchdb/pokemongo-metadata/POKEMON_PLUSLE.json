@@ -49,8 +49,6 @@
   "buddyDistance": 3,
   "height": 0.41,
   "weight": 4.2,
-  "family": {
-    "id": "FAMILY_PLUSLE"
-  },
+  "family": "FAMILY_PLUSLE",
   "_id": "POKEMON_PLUSLE"
 }

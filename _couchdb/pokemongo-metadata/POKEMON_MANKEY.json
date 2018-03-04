@@ -47,8 +47,6 @@
   "buddyDistance": 3,
   "height": 0.5,
   "weight": 28,
-  "family": {
-    "id": "FAMILY_MANKEY"
-  },
+  "family": "FAMILY_MANKEY",
   "_id": "POKEMON_MANKEY"
 }

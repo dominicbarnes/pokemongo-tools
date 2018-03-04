@@ -49,8 +49,6 @@
   "buddyDistance": 3,
   "height": 2.31,
   "weight": 253.8,
-  "family": {
-    "id": "FAMILY_MAKUHITA"
-  },
+  "family": "FAMILY_MAKUHITA",
   "_id": "POKEMON_HARIYAMA"
 }

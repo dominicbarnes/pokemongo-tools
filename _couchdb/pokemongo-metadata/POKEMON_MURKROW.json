@@ -42,8 +42,6 @@
   "buddyDistance": 3,
   "height": 0.51,
   "weight": 2.1,
-  "family": {
-    "id": "FAMILY_MURKROW"
-  },
+  "family": "FAMILY_MURKROW",
   "_id": "POKEMON_MURKROW"
 }

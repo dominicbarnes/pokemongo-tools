@@ -42,8 +42,6 @@
   "buddyDistance": 1,
   "height": 1.4,
   "weight": 35.6,
-  "family": {
-    "id": "FAMILY_LEDYBA"
-  },
+  "family": "FAMILY_LEDYBA",
   "_id": "POKEMON_LEDIAN"
 }

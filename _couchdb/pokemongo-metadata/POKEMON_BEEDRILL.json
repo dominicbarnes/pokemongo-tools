@@ -42,8 +42,6 @@
   "buddyDistance": 1,
   "height": 1,
   "weight": 29.5,
-  "family": {
-    "id": "FAMILY_WEEDLE"
-  },
+  "family": "FAMILY_WEEDLE",
   "_id": "POKEMON_BEEDRILL"
 }

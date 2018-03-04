@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 1.5,
   "weight": 48,
-  "family": {
-    "id": "FAMILY_ABRA"
-  },
+  "family": "FAMILY_ABRA",
   "_id": "POKEMON_ALAKAZAM"
 }

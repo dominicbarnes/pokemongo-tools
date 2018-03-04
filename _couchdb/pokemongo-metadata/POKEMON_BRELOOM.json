@@ -50,8 +50,6 @@
   "buddyDistance": 3,
   "height": 1.19,
   "weight": 39.2,
-  "family": {
-    "id": "FAMILY_SHROOMISH"
-  },
+  "family": "FAMILY_SHROOMISH",
   "_id": "POKEMON_BRELOOM"
 }

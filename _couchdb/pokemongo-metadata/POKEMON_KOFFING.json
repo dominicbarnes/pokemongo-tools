@@ -47,8 +47,6 @@
   "buddyDistance": 3,
   "height": 0.6,
   "weight": 1,
-  "family": {
-    "id": "FAMILY_KOFFING"
-  },
+  "family": "FAMILY_KOFFING",
   "_id": "POKEMON_KOFFING"
 }

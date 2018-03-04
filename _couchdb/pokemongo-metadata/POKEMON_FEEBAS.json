@@ -43,8 +43,6 @@
   "buddyDistance": 5,
   "height": 0.61,
   "weight": 7.4,
-  "family": {
-    "id": "FAMILY_FEEBAS"
-  },
+  "family": "FAMILY_FEEBAS",
   "_id": "POKEMON_FEEBAS"
 }

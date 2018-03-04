@@ -41,8 +41,6 @@
   "buddyDistance": 1,
   "height": 0.8,
   "weight": 30,
-  "family": {
-    "id": "FAMILY_PIKACHU"
-  },
+  "family": "FAMILY_PIKACHU",
   "_id": "POKEMON_RAICHU"
 }

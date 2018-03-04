@@ -42,8 +42,6 @@
   "buddyDistance": 1,
   "height": 0.79,
   "weight": 55,
-  "family": {
-    "id": "FAMILY_SLUGMA"
-  },
+  "family": "FAMILY_SLUGMA",
   "_id": "POKEMON_MAGCARGO"
 }

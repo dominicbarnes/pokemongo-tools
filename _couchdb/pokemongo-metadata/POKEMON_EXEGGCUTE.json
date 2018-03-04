@@ -48,8 +48,6 @@
   "buddyDistance": 3,
   "height": 0.4,
   "weight": 2.5,
-  "family": {
-    "id": "FAMILY_EXEGGCUTE"
-  },
+  "family": "FAMILY_EXEGGCUTE",
   "_id": "POKEMON_EXEGGCUTE"
 }

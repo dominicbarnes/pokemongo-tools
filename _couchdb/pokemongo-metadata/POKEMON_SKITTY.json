@@ -55,8 +55,6 @@
   "buddyDistance": 3,
   "height": 0.61,
   "weight": 11,
-  "family": {
-    "id": "FAMILY_SKITTY"
-  },
+  "family": "FAMILY_SKITTY",
   "_id": "POKEMON_SKITTY"
 }

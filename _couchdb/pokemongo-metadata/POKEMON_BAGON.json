@@ -55,8 +55,6 @@
   "buddyDistance": 5,
   "height": 0.61,
   "weight": 42.1,
-  "family": {
-    "id": "FAMILY_BAGON"
-  },
+  "family": "FAMILY_BAGON",
   "_id": "POKEMON_BAGON"
 }

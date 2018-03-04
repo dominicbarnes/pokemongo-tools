@@ -42,8 +42,6 @@
   "buddyDistance": 1,
   "height": 1.6,
   "weight": 40.8,
-  "family": {
-    "id": "FAMILY_HOOTHOOT"
-  },
+  "family": "FAMILY_HOOTHOOT",
   "_id": "POKEMON_NOCTOWL"
 }

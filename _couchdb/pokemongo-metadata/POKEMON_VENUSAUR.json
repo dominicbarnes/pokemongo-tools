@@ -42,8 +42,6 @@
   "buddyDistance": 3,
   "height": 2,
   "weight": 100,
-  "family": {
-    "id": "FAMILY_BULBASAUR"
-  },
+  "family": "FAMILY_BULBASAUR",
   "_id": "POKEMON_VENUSAUR"
 }

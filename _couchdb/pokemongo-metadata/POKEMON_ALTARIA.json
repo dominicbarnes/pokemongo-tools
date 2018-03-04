@@ -50,8 +50,6 @@
   "buddyDistance": 1,
   "height": 1.09,
   "weight": 20.6,
-  "family": {
-    "id": "FAMILY_SWABLU"
-  },
+  "family": "FAMILY_SWABLU",
   "_id": "POKEMON_ALTARIA"
 }

@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 1.5,
   "weight": 14,
-  "family": {
-    "id": "FAMILY_DUNSPARCE"
-  },
+  "family": "FAMILY_DUNSPARCE",
   "_id": "POKEMON_DUNSPARCE"
 }

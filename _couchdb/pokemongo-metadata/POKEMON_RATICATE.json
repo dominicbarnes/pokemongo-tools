@@ -41,8 +41,6 @@
   "buddyDistance": 1,
   "height": 0.7,
   "weight": 18.5,
-  "family": {
-    "id": "FAMILY_RATTATA"
-  },
+  "family": "FAMILY_RATTATA",
   "_id": "POKEMON_RATICATE"
 }

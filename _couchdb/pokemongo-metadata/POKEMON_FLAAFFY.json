@@ -47,8 +47,6 @@
   "buddyDistance": 5,
   "height": 0.79,
   "weight": 13.3,
-  "family": {
-    "id": "FAMILY_MAREEP"
-  },
+  "family": "FAMILY_MAREEP",
   "_id": "POKEMON_FLAAFFY"
 }

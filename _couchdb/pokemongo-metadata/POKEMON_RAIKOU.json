@@ -41,8 +41,6 @@
   "buddyDistance": 20,
   "height": 1.91,
   "weight": 178,
-  "family": {
-    "id": "FAMILY_RAIKOU"
-  },
+  "family": "FAMILY_RAIKOU",
   "_id": "POKEMON_RAIKOU"
 }

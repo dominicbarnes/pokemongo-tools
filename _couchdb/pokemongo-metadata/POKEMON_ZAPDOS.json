@@ -38,8 +38,6 @@
   "buddyDistance": 20,
   "height": 1.6,
   "weight": 52.6,
-  "family": {
-    "id": "FAMILY_ZAPDOS"
-  },
+  "family": "FAMILY_ZAPDOS",
   "_id": "POKEMON_ZAPDOS"
 }

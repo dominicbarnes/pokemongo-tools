@@ -50,8 +50,6 @@
   "buddyDistance": 1,
   "height": 2.11,
   "weight": 360,
-  "family": {
-    "id": "FAMILY_ARON"
-  },
+  "family": "FAMILY_ARON",
   "_id": "POKEMON_AGGRON"
 }

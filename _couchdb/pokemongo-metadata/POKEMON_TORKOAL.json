@@ -49,8 +49,6 @@
   "buddyDistance": 3,
   "height": 0.51,
   "weight": 80.4,
-  "family": {
-    "id": "FAMILY_TORKOAL"
-  },
+  "family": "FAMILY_TORKOAL",
   "_id": "POKEMON_TORKOAL"
 }

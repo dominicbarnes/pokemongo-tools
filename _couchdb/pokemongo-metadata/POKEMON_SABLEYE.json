@@ -42,8 +42,6 @@
   "buddyDistance": 5,
   "height": 0.51,
   "weight": 11,
-  "family": {
-    "id": "FAMILY_SABLEYE"
-  },
+  "family": "FAMILY_SABLEYE",
   "_id": "POKEMON_SABLEYE"
 }

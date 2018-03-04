@@ -50,8 +50,6 @@
   "buddyDistance": 20,
   "height": 7.01,
   "weight": 206.5,
-  "family": {
-    "id": "FAMILY_RAYQUAZA"
-  },
+  "family": "FAMILY_RAYQUAZA",
   "_id": "POKEMON_RAYQUAZA"
 }

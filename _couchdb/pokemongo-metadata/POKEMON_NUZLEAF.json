@@ -56,8 +56,6 @@
   "buddyDistance": 3,
   "height": 0.99,
   "weight": 28,
-  "family": {
-    "id": "FAMILY_SEEDOT"
-  },
+  "family": "FAMILY_SEEDOT",
   "_id": "POKEMON_NUZLEAF"
 }

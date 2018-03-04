@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 0.7,
   "weight": 33.3,
-  "family": {
-    "id": "FAMILY_DIGLETT"
-  },
+  "family": "FAMILY_DIGLETT",
   "_id": "POKEMON_DUGTRIO"
 }

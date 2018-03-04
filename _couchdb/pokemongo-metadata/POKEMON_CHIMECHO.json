@@ -49,8 +49,6 @@
   "buddyDistance": 5,
   "height": 0.61,
   "weight": 1,
-  "family": {
-    "id": "FAMILY_CHIMECHO"
-  },
+  "family": "FAMILY_CHIMECHO",
   "_id": "POKEMON_CHIMECHO"
 }

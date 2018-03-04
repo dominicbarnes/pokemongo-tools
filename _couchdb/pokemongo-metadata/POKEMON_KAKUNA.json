@@ -40,8 +40,6 @@
   "buddyDistance": 1,
   "height": 0.6,
   "weight": 10,
-  "family": {
-    "id": "FAMILY_WEEDLE"
-  },
+  "family": "FAMILY_WEEDLE",
   "_id": "POKEMON_KAKUNA"
 }

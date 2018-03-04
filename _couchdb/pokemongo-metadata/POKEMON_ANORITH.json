@@ -56,8 +56,6 @@
   "buddyDistance": 3,
   "height": 0.71,
   "weight": 12.5,
-  "family": {
-    "id": "FAMILY_ANORITH"
-  },
+  "family": "FAMILY_ANORITH",
   "_id": "POKEMON_ANORITH"
 }

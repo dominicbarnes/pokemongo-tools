@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 1.4,
   "weight": 71.2,
-  "family": {
-    "id": "FAMILY_STANTLER"
-  },
+  "family": "FAMILY_STANTLER",
   "_id": "POKEMON_STANTLER"
 }

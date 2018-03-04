@@ -50,8 +50,6 @@
   "buddyDistance": 3,
   "height": 0.99,
   "weight": 168,
-  "family": {
-    "id": "FAMILY_LUNATONE"
-  },
+  "family": "FAMILY_LUNATONE",
   "_id": "POKEMON_LUNATONE"
 }

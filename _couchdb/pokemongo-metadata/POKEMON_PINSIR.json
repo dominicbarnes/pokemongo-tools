@@ -41,8 +41,6 @@
   "buddyDistance": 5,
   "height": 1.5,
   "weight": 55,
-  "family": {
-    "id": "FAMILY_PINSIR"
-  },
+  "family": "FAMILY_PINSIR",
   "_id": "POKEMON_PINSIR"
 }

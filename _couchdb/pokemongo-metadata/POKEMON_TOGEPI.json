@@ -47,8 +47,6 @@
   "buddyDistance": 3,
   "height": 0.3,
   "weight": 1.5,
-  "family": {
-    "id": "FAMILY_TOGEPI"
-  },
+  "family": "FAMILY_TOGEPI",
   "_id": "POKEMON_TOGEPI"
 }

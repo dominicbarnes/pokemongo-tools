@@ -45,8 +45,6 @@
   "buddyDistance": 3,
   "height": 2.31,
   "weight": 88.8,
-  "family": {
-    "id": "FAMILY_TOTODILE"
-  },
+  "family": "FAMILY_TOTODILE",
   "_id": "POKEMON_FERALIGATR"
 }

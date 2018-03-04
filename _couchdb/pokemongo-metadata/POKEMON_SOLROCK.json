@@ -50,8 +50,6 @@
   "buddyDistance": 3,
   "height": 1.19,
   "weight": 154,
-  "family": {
-    "id": "FAMILY_SOLROCK"
-  },
+  "family": "FAMILY_SOLROCK",
   "_id": "POKEMON_SOLROCK"
 }

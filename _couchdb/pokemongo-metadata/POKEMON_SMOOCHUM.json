@@ -48,8 +48,6 @@
   "buddyDistance": 5,
   "height": 0.41,
   "weight": 6,
-  "family": {
-    "id": "FAMILY_JYNX"
-  },
+  "family": "FAMILY_JYNX",
   "_id": "POKEMON_SMOOCHUM"
 }

@@ -47,8 +47,6 @@
   "buddyDistance": 3,
   "height": 0.4,
   "weight": 6.5,
-  "family": {
-    "id": "FAMILY_CUBONE"
-  },
+  "family": "FAMILY_CUBONE",
   "_id": "POKEMON_CUBONE"
 }

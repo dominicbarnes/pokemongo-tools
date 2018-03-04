@@ -42,8 +42,6 @@
   "buddyDistance": 5,
   "height": 2.01,
   "weight": 202,
-  "family": {
-    "id": "FAMILY_LARVITAR"
-  },
+  "family": "FAMILY_LARVITAR",
   "_id": "POKEMON_TYRANITAR"
 }

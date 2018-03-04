@@ -42,8 +42,6 @@
   "buddyDistance": 5,
   "height": 2.2,
   "weight": 210,
-  "family": {
-    "id": "FAMILY_DRATINI"
-  },
+  "family": "FAMILY_DRATINI",
   "_id": "POKEMON_DRAGONITE"
 }

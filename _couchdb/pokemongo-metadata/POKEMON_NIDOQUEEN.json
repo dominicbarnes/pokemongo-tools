@@ -42,8 +42,6 @@
   "buddyDistance": 3,
   "height": 1.3,
   "weight": 60,
-  "family": {
-    "id": "FAMILY_NIDORAN_FEMALE"
-  },
+  "family": "FAMILY_NIDORAN_FEMALE",
   "_id": "POKEMON_NIDOQUEEN"
 }

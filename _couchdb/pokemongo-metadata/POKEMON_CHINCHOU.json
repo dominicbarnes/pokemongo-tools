@@ -48,8 +48,6 @@
   "buddyDistance": 3,
   "height": 0.51,
   "weight": 12,
-  "family": {
-    "id": "FAMILY_CHINCHOU"
-  },
+  "family": "FAMILY_CHINCHOU",
   "_id": "POKEMON_CHINCHOU"
 }

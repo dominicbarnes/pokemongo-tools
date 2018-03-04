@@ -49,8 +49,6 @@
   "buddyDistance": 1,
   "height": 0.89,
   "weight": 71.5,
-  "family": {
-    "id": "FAMILY_SPOINK"
-  },
+  "family": "FAMILY_SPOINK",
   "_id": "POKEMON_GRUMPIG"
 }

@@ -55,8 +55,6 @@
   "buddyDistance": 3,
   "height": 0.41,
   "weight": 4.5,
-  "family": {
-    "id": "FAMILY_SHROOMISH"
-  },
+  "family": "FAMILY_SHROOMISH",
   "_id": "POKEMON_SHROOMISH"
 }

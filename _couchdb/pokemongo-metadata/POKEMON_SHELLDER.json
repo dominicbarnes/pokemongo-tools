@@ -47,8 +47,6 @@
   "buddyDistance": 3,
   "height": 0.3,
   "weight": 4,
-  "family": {
-    "id": "FAMILY_SHELLDER"
-  },
+  "family": "FAMILY_SHELLDER",
   "_id": "POKEMON_SHELLDER"
 }

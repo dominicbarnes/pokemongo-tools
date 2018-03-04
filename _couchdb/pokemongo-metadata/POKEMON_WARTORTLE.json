@@ -47,8 +47,6 @@
   "buddyDistance": 3,
   "height": 1,
   "weight": 22.5,
-  "family": {
-    "id": "FAMILY_SQUIRTLE"
-  },
+  "family": "FAMILY_SQUIRTLE",
   "_id": "POKEMON_WARTORTLE"
 }

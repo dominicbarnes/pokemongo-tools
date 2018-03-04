@@ -50,8 +50,6 @@
   "buddyDistance": 5,
   "height": 0.99,
   "weight": 23.4,
-  "family": {
-    "id": "FAMILY_RELICANTH"
-  },
+  "family": "FAMILY_RELICANTH",
   "_id": "POKEMON_RELICANTH"
 }

@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 1.2,
   "weight": 65.5,
-  "family": {
-    "id": "FAMILY_LICKITUNG"
-  },
+  "family": "FAMILY_LICKITUNG",
   "_id": "POKEMON_LICKITUNG"
 }

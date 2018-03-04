@@ -49,8 +49,6 @@
   "buddyDistance": 1,
   "height": 14.5,
   "weight": 398,
-  "family": {
-    "id": "FAMILY_WAILMER"
-  },
+  "family": "FAMILY_WAILMER",
   "_id": "POKEMON_WAILORD"
 }

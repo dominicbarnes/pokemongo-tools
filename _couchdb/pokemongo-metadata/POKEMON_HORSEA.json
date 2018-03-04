@@ -47,8 +47,6 @@
   "buddyDistance": 3,
   "height": 0.4,
   "weight": 8,
-  "family": {
-    "id": "FAMILY_HORSEA"
-  },
+  "family": "FAMILY_HORSEA",
   "_id": "POKEMON_HORSEA"
 }

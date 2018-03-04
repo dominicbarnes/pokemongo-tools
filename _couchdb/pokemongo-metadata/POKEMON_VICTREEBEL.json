@@ -42,8 +42,6 @@
   "buddyDistance": 3,
   "height": 1.7,
   "weight": 15.5,
-  "family": {
-    "id": "FAMILY_BELLSPROUT"
-  },
+  "family": "FAMILY_BELLSPROUT",
   "_id": "POKEMON_VICTREEBEL"
 }

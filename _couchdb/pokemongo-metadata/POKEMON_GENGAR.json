@@ -42,8 +42,6 @@
   "buddyDistance": 3,
   "height": 1.5,
   "weight": 40.5,
-  "family": {
-    "id": "FAMILY_GASTLY"
-  },
+  "family": "FAMILY_GASTLY",
   "_id": "POKEMON_GENGAR"
 }

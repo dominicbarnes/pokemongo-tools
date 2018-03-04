@@ -56,8 +56,6 @@
   "buddyDistance": 3,
   "height": 0.61,
   "weight": 9.5,
-  "family": {
-    "id": "FAMILY_WINGULL"
-  },
+  "family": "FAMILY_WINGULL",
   "_id": "POKEMON_WINGULL"
 }

@@ -50,8 +50,6 @@
   "buddyDistance": 5,
   "height": 1.5,
   "weight": 56,
-  "family": {
-    "id": "FAMILY_SCYTHER"
-  },
+  "family": "FAMILY_SCYTHER",
   "_id": "POKEMON_SCYTHER"
 }

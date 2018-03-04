@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 1.9,
   "weight": 155,
-  "family": {
-    "id": "FAMILY_GROWLITHE"
-  },
+  "family": "FAMILY_GROWLITHE",
   "_id": "POKEMON_ARCANINE"
 }

@@ -56,8 +56,6 @@
   "buddyDistance": 3,
   "height": 0.41,
   "weight": 52.5,
-  "family": {
-    "id": "FAMILY_CLAMPERL"
-  },
+  "family": "FAMILY_CLAMPERL",
   "_id": "POKEMON_CLAMPERL"
 }

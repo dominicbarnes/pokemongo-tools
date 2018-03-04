@@ -47,8 +47,6 @@
   "buddyDistance": 3,
   "height": 0.89,
   "weight": 6.4,
-  "family": {
-    "id": "FAMILY_CHIKORITA"
-  },
+  "family": "FAMILY_CHIKORITA",
   "_id": "POKEMON_CHIKORITA"
 }

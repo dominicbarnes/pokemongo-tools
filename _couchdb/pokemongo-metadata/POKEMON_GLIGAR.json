@@ -42,8 +42,6 @@
   "buddyDistance": 5,
   "height": 1.09,
   "weight": 64.8,
-  "family": {
-    "id": "FAMILY_GLIGAR"
-  },
+  "family": "FAMILY_GLIGAR",
   "_id": "POKEMON_GLIGAR"
 }

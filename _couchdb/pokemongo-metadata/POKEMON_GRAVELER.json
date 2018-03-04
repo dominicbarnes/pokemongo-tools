@@ -48,8 +48,6 @@
   "buddyDistance": 1,
   "height": 1,
   "weight": 105,
-  "family": {
-    "id": "FAMILY_GEODUDE"
-  },
+  "family": "FAMILY_GEODUDE",
   "_id": "POKEMON_GRAVELER"
 }

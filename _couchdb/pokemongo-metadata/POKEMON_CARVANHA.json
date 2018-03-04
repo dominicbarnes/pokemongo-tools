@@ -56,8 +56,6 @@
   "buddyDistance": 3,
   "height": 0.79,
   "weight": 20.8,
-  "family": {
-    "id": "FAMILY_CARVANHA"
-  },
+  "family": "FAMILY_CARVANHA",
   "_id": "POKEMON_CARVANHA"
 }

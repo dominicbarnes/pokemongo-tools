@@ -54,8 +54,6 @@
   "buddyDistance": 3,
   "height": 1.91,
   "weight": 52,
-  "family": {
-    "id": "FAMILY_TORCHIC"
-  },
+  "family": "FAMILY_TORCHIC",
   "_id": "POKEMON_BLAZIKEN"
 }

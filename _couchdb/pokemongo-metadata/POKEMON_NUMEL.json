@@ -56,8 +56,6 @@
   "buddyDistance": 3,
   "height": 0.71,
   "weight": 24,
-  "family": {
-    "id": "FAMILY_NUMEL"
-  },
+  "family": "FAMILY_NUMEL",
   "_id": "POKEMON_NUMEL"
 }

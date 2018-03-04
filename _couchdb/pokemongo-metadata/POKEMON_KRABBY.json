@@ -47,8 +47,6 @@
   "buddyDistance": 3,
   "height": 0.4,
   "weight": 6.5,
-  "family": {
-    "id": "FAMILY_KRABBY"
-  },
+  "family": "FAMILY_KRABBY",
   "_id": "POKEMON_KRABBY"
 }

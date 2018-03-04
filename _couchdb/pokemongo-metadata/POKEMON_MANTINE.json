@@ -42,8 +42,6 @@
   "buddyDistance": 5,
   "height": 2.11,
   "weight": 220,
-  "family": {
-    "id": "FAMILY_MANTINE"
-  },
+  "family": "FAMILY_MANTINE",
   "_id": "POKEMON_MANTINE"
 }

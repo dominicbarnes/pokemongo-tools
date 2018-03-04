@@ -42,8 +42,6 @@
   "buddyDistance": 5,
   "height": 2.01,
   "weight": 125,
-  "family": {
-    "id": "FAMILY_SCYTHER"
-  },
+  "family": "FAMILY_SCYTHER",
   "_id": "POKEMON_SCIZOR"
 }

@@ -50,8 +50,6 @@
   "buddyDistance": 1,
   "height": 0.89,
   "weight": 23.6,
-  "family": {
-    "id": "FAMILY_BARBOACH"
-  },
+  "family": "FAMILY_BARBOACH",
   "_id": "POKEMON_WHISCASH"
 }

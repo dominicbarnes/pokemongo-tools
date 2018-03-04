@@ -42,8 +42,6 @@
   "buddyDistance": 20,
   "height": 3.81,
   "weight": 199,
-  "family": {
-    "id": "FAMILY_HO_OH"
-  },
+  "family": "FAMILY_HO_OH",
   "_id": "POKEMON_HO_OH"
 }

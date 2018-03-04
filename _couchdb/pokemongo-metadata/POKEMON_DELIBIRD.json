@@ -46,8 +46,6 @@
   "buddyDistance": 5,
   "height": 0.89,
   "weight": 16,
-  "family": {
-    "id": "FAMILY_DELIBIRD"
-  },
+  "family": "FAMILY_DELIBIRD",
   "_id": "POKEMON_DELIBIRD"
 }

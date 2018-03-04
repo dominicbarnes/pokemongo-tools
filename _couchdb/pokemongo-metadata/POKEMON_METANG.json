@@ -56,8 +56,6 @@
   "buddyDistance": 5,
   "height": 1.19,
   "weight": 202.5,
-  "family": {
-    "id": "FAMILY_BELDUM"
-  },
+  "family": "FAMILY_BELDUM",
   "_id": "POKEMON_METANG"
 }

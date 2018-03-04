@@ -48,8 +48,6 @@
   "buddyDistance": 1,
   "height": 0.3,
   "weight": 2.3,
-  "family": {
-    "id": "FAMILY_TAILLOW"
-  },
+  "family": "FAMILY_TAILLOW",
   "_id": "POKEMON_TAILLOW"
 }

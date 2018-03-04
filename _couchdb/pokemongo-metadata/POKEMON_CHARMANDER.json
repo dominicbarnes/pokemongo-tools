@@ -47,8 +47,6 @@
   "buddyDistance": 3,
   "height": 0.6,
   "weight": 8.5,
-  "family": {
-    "id": "FAMILY_CHARMANDER"
-  },
+  "family": "FAMILY_CHARMANDER",
   "_id": "POKEMON_CHARMANDER"
 }

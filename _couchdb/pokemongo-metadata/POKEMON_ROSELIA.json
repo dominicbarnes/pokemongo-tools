@@ -50,8 +50,6 @@
   "buddyDistance": 3,
   "height": 0.3,
   "weight": 2,
-  "family": {
-    "id": "FAMILY_ROSELIA"
-  },
+  "family": "FAMILY_ROSELIA",
   "_id": "POKEMON_ROSELIA"
 }

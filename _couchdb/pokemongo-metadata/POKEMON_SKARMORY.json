@@ -42,8 +42,6 @@
   "buddyDistance": 5,
   "height": 1.7,
   "weight": 50.5,
-  "family": {
-    "id": "FAMILY_SKARMORY"
-  },
+  "family": "FAMILY_SKARMORY",
   "_id": "POKEMON_SKARMORY"
 }

@@ -50,8 +50,6 @@
   "buddyDistance": 3,
   "height": 1.8,
   "weight": 88.8,
-  "family": {
-    "id": "FAMILY_CARVANHA"
-  },
+  "family": "FAMILY_CARVANHA",
   "_id": "POKEMON_SHARPEDO"
 }

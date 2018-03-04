@@ -45,8 +45,6 @@
   "buddyDistance": 20,
   "height": 2,
   "weight": 122,
-  "family": {
-    "id": "FAMILY_MEWTWO"
-  },
+  "family": "FAMILY_MEWTWO",
   "_id": "POKEMON_MEWTWO"
 }

@@ -42,8 +42,6 @@
   "buddyDistance": 3,
   "height": 1.4,
   "weight": 35,
-  "family": {
-    "id": "FAMILY_HOUNDOUR"
-  },
+  "family": "FAMILY_HOUNDOUR",
   "_id": "POKEMON_HOUNDOOM"
 }

@@ -52,8 +52,6 @@
   "buddyDistance": 3,
   "height": 0.2,
   "weight": 2,
-  "family": {
-    "id": "FAMILY_MARILL"
-  },
+  "family": "FAMILY_MARILL",
   "_id": "POKEMON_AZURILL"
 }

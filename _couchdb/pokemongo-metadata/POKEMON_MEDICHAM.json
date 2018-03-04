@@ -50,8 +50,6 @@
   "buddyDistance": 3,
   "height": 1.3,
   "weight": 31.5,
-  "family": {
-    "id": "FAMILY_MEDITITE"
-  },
+  "family": "FAMILY_MEDITITE",
   "_id": "POKEMON_MEDICHAM"
 }

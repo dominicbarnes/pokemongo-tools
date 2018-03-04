@@ -37,8 +37,6 @@
   "buddyDistance": 5,
   "height": 1,
   "weight": 29,
-  "family": {
-    "id": "FAMILY_EEVEE"
-  },
+  "family": "FAMILY_EEVEE",
   "_id": "POKEMON_VAPOREON"
 }

@@ -48,8 +48,6 @@
   "buddyDistance": 1,
   "height": 0.3,
   "weight": 1.8,
-  "family": {
-    "id": "FAMILY_PIDGEY"
-  },
+  "family": "FAMILY_PIDGEY",
   "_id": "POKEMON_PIDGEY"
 }

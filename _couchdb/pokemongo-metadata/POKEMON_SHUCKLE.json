@@ -42,8 +42,6 @@
   "buddyDistance": 3,
   "height": 0.61,
   "weight": 20.5,
-  "family": {
-    "id": "FAMILY_SHUCKLE"
-  },
+  "family": "FAMILY_SHUCKLE",
   "_id": "POKEMON_SHUCKLE"
 }

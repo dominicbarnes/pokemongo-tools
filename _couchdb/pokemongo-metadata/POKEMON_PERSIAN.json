@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 1,
   "weight": 32,
-  "family": {
-    "id": "FAMILY_MEOWTH"
-  },
+  "family": "FAMILY_MEOWTH",
   "_id": "POKEMON_PERSIAN"
 }

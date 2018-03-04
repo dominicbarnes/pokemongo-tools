@@ -48,8 +48,6 @@
   "buddyDistance": 3,
   "height": 1.3,
   "weight": 0.1,
-  "family": {
-    "id": "FAMILY_GASTLY"
-  },
+  "family": "FAMILY_GASTLY",
   "_id": "POKEMON_GASTLY"
 }

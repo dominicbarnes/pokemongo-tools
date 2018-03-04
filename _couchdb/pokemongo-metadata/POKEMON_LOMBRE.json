@@ -56,8 +56,6 @@
   "buddyDistance": 3,
   "height": 1.19,
   "weight": 32.5,
-  "family": {
-    "id": "FAMILY_LOTAD"
-  },
+  "family": "FAMILY_LOTAD",
   "_id": "POKEMON_LOMBRE"
 }

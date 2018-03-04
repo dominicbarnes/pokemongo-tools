@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 1.6,
   "weight": 85.5,
-  "family": {
-    "id": "FAMILY_SQUIRTLE"
-  },
+  "family": "FAMILY_SQUIRTLE",
   "_id": "POKEMON_BLASTOISE"
 }

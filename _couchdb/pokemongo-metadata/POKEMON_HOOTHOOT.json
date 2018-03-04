@@ -48,8 +48,6 @@
   "buddyDistance": 1,
   "height": 0.71,
   "weight": 21.2,
-  "family": {
-    "id": "FAMILY_HOOTHOOT"
-  },
+  "family": "FAMILY_HOOTHOOT",
   "_id": "POKEMON_HOOTHOOT"
 }

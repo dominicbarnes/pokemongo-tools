@@ -47,8 +47,6 @@
   "buddyDistance": 3,
   "height": 0.2,
   "weight": 0.8,
-  "family": {
-    "id": "FAMILY_DIGLETT"
-  },
+  "family": "FAMILY_DIGLETT",
   "_id": "POKEMON_DIGLETT"
 }

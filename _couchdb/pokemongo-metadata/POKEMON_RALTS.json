@@ -56,8 +56,6 @@
   "buddyDistance": 5,
   "height": 0.41,
   "weight": 6.6,
-  "family": {
-    "id": "FAMILY_RALTS"
-  },
+  "family": "FAMILY_RALTS",
   "_id": "POKEMON_RALTS"
 }

@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 1.6,
   "weight": 75.6,
-  "family": {
-    "id": "FAMILY_DROWZEE"
-  },
+  "family": "FAMILY_DROWZEE",
   "_id": "POKEMON_HYPNO"
 }

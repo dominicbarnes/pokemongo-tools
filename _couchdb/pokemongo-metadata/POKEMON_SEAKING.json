@@ -45,8 +45,6 @@
   "buddyDistance": 3,
   "height": 1.3,
   "weight": 39,
-  "family": {
-    "id": "FAMILY_GOLDEEN"
-  },
+  "family": "FAMILY_GOLDEEN",
   "_id": "POKEMON_SEAKING"
 }

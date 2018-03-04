@@ -61,8 +61,6 @@
   "buddyDistance": 5,
   "height": 0.99,
   "weight": 22,
-  "family": {
-    "id": "FAMILY_KECLEON"
-  },
+  "family": "FAMILY_KECLEON",
   "_id": "POKEMON_KECLEON"
 }

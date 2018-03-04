@@ -42,8 +42,6 @@
   "buddyDistance": 1,
   "height": 1.8,
   "weight": 75,
-  "family": {
-    "id": "FAMILY_ZUBAT"
-  },
+  "family": "FAMILY_ZUBAT",
   "_id": "POKEMON_CROBAT"
 }

@@ -48,8 +48,6 @@
   "buddyDistance": 1,
   "height": 0.4,
   "weight": 20,
-  "family": {
-    "id": "FAMILY_GEODUDE"
-  },
+  "family": "FAMILY_GEODUDE",
   "_id": "POKEMON_GEODUDE"
 }

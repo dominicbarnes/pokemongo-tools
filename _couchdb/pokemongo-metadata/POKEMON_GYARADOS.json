@@ -46,8 +46,6 @@
   "buddyDistance": 1,
   "height": 6.5,
   "weight": 235,
-  "family": {
-    "id": "FAMILY_MAGIKARP"
-  },
+  "family": "FAMILY_MAGIKARP",
   "_id": "POKEMON_GYARADOS"
 }

@@ -29,8 +29,6 @@
   "buddyDistance": 3,
   "height": 1.19,
   "weight": 58,
-  "family": {
-    "id": "FAMILY_SMEARGLE"
-  },
+  "family": "FAMILY_SMEARGLE",
   "_id": "POKEMON_SMEARGLE"
 }

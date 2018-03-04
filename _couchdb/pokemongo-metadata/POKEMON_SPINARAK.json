@@ -48,8 +48,6 @@
   "buddyDistance": 1,
   "height": 0.51,
   "weight": 8.5,
-  "family": {
-    "id": "FAMILY_SPINARAK"
-  },
+  "family": "FAMILY_SPINARAK",
   "_id": "POKEMON_SPINARAK"
 }

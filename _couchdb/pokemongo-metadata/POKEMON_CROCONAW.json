@@ -47,8 +47,6 @@
   "buddyDistance": 3,
   "height": 1.09,
   "weight": 25,
-  "family": {
-    "id": "FAMILY_TOTODILE"
-  },
+  "family": "FAMILY_TOTODILE",
   "_id": "POKEMON_CROCONAW"
 }

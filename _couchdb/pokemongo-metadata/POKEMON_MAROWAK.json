@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 1,
   "weight": 45,
-  "family": {
-    "id": "FAMILY_CUBONE"
-  },
+  "family": "FAMILY_CUBONE",
   "_id": "POKEMON_MAROWAK"
 }

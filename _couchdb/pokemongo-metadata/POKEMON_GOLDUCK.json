@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 1.7,
   "weight": 76.6,
-  "family": {
-    "id": "FAMILY_PSYDUCK"
-  },
+  "family": "FAMILY_PSYDUCK",
   "_id": "POKEMON_GOLDUCK"
 }

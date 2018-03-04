@@ -47,8 +47,6 @@
   "buddyDistance": 3,
   "height": 1,
   "weight": 30,
-  "family": {
-    "id": "FAMILY_PONYTA"
-  },
+  "family": "FAMILY_PONYTA",
   "_id": "POKEMON_PONYTA"
 }

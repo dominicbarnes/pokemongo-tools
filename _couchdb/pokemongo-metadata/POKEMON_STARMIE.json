@@ -42,8 +42,6 @@
   "buddyDistance": 3,
   "height": 1.1,
   "weight": 80,
-  "family": {
-    "id": "FAMILY_STARYU"
-  },
+  "family": "FAMILY_STARYU",
   "_id": "POKEMON_STARMIE"
 }

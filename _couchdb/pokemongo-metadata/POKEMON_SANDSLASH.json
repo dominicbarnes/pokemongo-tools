@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 1,
   "weight": 29.5,
-  "family": {
-    "id": "FAMILY_SANDSHREW"
-  },
+  "family": "FAMILY_SANDSHREW",
   "_id": "POKEMON_SANDSLASH"
 }

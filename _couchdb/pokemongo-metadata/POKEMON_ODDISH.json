@@ -48,8 +48,6 @@
   "buddyDistance": 3,
   "height": 0.5,
   "weight": 5.4,
-  "family": {
-    "id": "FAMILY_ODDISH"
-  },
+  "family": "FAMILY_ODDISH",
   "_id": "POKEMON_ODDISH"
 }

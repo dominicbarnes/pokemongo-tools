@@ -56,8 +56,6 @@
   "buddyDistance": 1,
   "height": 0.41,
   "weight": 1.2,
-  "family": {
-    "id": "FAMILY_SWABLU"
-  },
+  "family": "FAMILY_SWABLU",
   "_id": "POKEMON_SWABLU"
 }

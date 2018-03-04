@@ -55,8 +55,6 @@
   "buddyDistance": 5,
   "height": 0.71,
   "weight": 15,
-  "family": {
-    "id": "FAMILY_TRAPINCH"
-  },
+  "family": "FAMILY_TRAPINCH",
   "_id": "POKEMON_TRAPINCH"
 }

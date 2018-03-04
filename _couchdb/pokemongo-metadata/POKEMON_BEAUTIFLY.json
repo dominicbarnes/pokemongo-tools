@@ -50,8 +50,6 @@
   "buddyDistance": 1,
   "height": 0.99,
   "weight": 28.4,
-  "family": {
-    "id": "FAMILY_WURMPLE"
-  },
+  "family": "FAMILY_WURMPLE",
   "_id": "POKEMON_BEAUTIFLY"
 }

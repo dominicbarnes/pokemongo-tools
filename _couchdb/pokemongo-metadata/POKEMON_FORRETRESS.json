@@ -42,8 +42,6 @@
   "buddyDistance": 5,
   "height": 1.19,
   "weight": 125.8,
-  "family": {
-    "id": "FAMILY_PINECO"
-  },
+  "family": "FAMILY_PINECO",
   "_id": "POKEMON_FORRETRESS"
 }

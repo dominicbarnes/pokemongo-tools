@@ -41,8 +41,6 @@
   "buddyDistance": 5,
   "height": 1.4,
   "weight": 61.5,
-  "family": {
-    "id": "FAMILY_MAREEP"
-  },
+  "family": "FAMILY_MAREEP",
   "_id": "POKEMON_AMPHAROS"
 }

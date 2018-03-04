@@ -59,8 +59,6 @@
   "buddyDistance": 1,
   "height": 0.99,
   "weight": 40.5,
-  "family": {
-    "id": "FAMILY_WHISMUR"
-  },
+  "family": "FAMILY_WHISMUR",
   "_id": "POKEMON_LOUDRED"
 }

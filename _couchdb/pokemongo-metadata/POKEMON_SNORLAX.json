@@ -41,8 +41,6 @@
   "buddyDistance": 5,
   "height": 2.1,
   "weight": 460,
-  "family": {
-    "id": "FAMILY_SNORLAX"
-  },
+  "family": "FAMILY_SNORLAX",
   "_id": "POKEMON_SNORLAX"
 }

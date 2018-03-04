@@ -49,8 +49,6 @@
   "buddyDistance": 20,
   "height": 1.8,
   "weight": 175,
-  "family": {
-    "id": "FAMILY_REGICE"
-  },
+  "family": "FAMILY_REGICE",
   "_id": "POKEMON_REGICE"
 }

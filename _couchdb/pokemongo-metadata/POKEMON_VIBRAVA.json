@@ -56,8 +56,6 @@
   "buddyDistance": 5,
   "height": 1.09,
   "weight": 15.3,
-  "family": {
-    "id": "FAMILY_TRAPINCH"
-  },
+  "family": "FAMILY_TRAPINCH",
   "_id": "POKEMON_VIBRAVA"
 }

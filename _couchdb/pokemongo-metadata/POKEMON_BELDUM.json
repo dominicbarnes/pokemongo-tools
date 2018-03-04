@@ -40,8 +40,6 @@
   "buddyDistance": 5,
   "height": 0.61,
   "weight": 95.2,
-  "family": {
-    "id": "FAMILY_BELDUM"
-  },
+  "family": "FAMILY_BELDUM",
   "_id": "POKEMON_BELDUM"
 }

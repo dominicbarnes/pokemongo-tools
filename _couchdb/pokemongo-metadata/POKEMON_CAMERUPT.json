@@ -50,8 +50,6 @@
   "buddyDistance": 3,
   "height": 1.91,
   "weight": 220,
-  "family": {
-    "id": "FAMILY_NUMEL"
-  },
+  "family": "FAMILY_NUMEL",
   "_id": "POKEMON_CAMERUPT"
 }

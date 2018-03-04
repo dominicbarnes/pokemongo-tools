@@ -47,8 +47,6 @@
   "buddyDistance": 1,
   "height": 0.61,
   "weight": 12,
-  "family": {
-    "id": "FAMILY_REMORAID"
-  },
+  "family": "FAMILY_REMORAID",
   "_id": "POKEMON_REMORAID"
 }

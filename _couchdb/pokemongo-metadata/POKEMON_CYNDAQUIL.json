@@ -47,8 +47,6 @@
   "buddyDistance": 3,
   "height": 0.51,
   "weight": 7.9,
-  "family": {
-    "id": "FAMILY_CYNDAQUIL"
-  },
+  "family": "FAMILY_CYNDAQUIL",
   "_id": "POKEMON_CYNDAQUIL"
 }

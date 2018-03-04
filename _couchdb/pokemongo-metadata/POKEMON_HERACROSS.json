@@ -42,8 +42,6 @@
   "buddyDistance": 3,
   "height": 1.5,
   "weight": 54,
-  "family": {
-    "id": "FAMILY_HERACROSS"
-  },
+  "family": "FAMILY_HERACROSS",
   "_id": "POKEMON_HERACROSS"
 }

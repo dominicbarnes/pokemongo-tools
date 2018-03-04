@@ -48,8 +48,6 @@
   "buddyDistance": 1,
   "height": 0.5,
   "weight": 5.5,
-  "family": {
-    "id": "FAMILY_JIGGLYPUFF"
-  },
+  "family": "FAMILY_JIGGLYPUFF",
   "_id": "POKEMON_JIGGLYPUFF"
 }

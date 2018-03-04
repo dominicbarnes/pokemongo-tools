@@ -41,8 +41,6 @@
   "buddyDistance": 3,
   "height": 1.1,
   "weight": 19.9,
-  "family": {
-    "id": "FAMILY_VULPIX"
-  },
+  "family": "FAMILY_VULPIX",
   "_id": "POKEMON_NINETALES"
 }

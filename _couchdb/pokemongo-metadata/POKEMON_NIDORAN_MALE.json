@@ -47,8 +47,6 @@
   "buddyDistance": 3,
   "height": 0.5,
   "weight": 9,
-  "family": {
-    "id": "FAMILY_NIDORAN_MALE"
-  },
+  "family": "FAMILY_NIDORAN_MALE",
   "_id": "POKEMON_NIDORAN_MALE"
 }
