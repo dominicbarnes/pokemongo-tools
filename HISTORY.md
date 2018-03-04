@@ -1,4 +1,15 @@
 
+0.1.0 / 2018-03-04
+==================
+
+  * build: use npm version for cutting releases
+  * refactor: add evolution family filters, switch to selects for most filters
+  * chore(dependencies): update
+  * fix(metadata): flatten family into string id
+  * build: refactor import to make updating remote easier
+  * metadata: add families
+  * refactor(import): rely on upstream id scheme, add families
+
 0.0.2 / 2018-02-25
 ==================
 
