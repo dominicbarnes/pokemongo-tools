@@ -1,4 +1,12 @@
 
+0.1.1 / 2018-03-04
+==================
+
+  * feat: rename 'Github' to 'Source Code'
+  * feat: add version to footer
+  * refactor: use long vue syntax for event binding
+  * feat(catalog): show available moves at top of move select
+
 0.1.0 / 2018-03-04
 ==================
 
