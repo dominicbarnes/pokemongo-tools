@@ -1,4 +1,8 @@
 const url = require('url')
+const pkg = require('./package.json')
+
+// meta
+exports.version = pkg.version
 
 // env
 exports.env = process.env.NODE_ENV || 'development'

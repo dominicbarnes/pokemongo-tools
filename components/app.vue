@@ -51,6 +51,7 @@
             <b-link href="http://github.com/dominicbarnes/pokemongo-tools" target="_blank">Github</b-link>
             &bull;
             <b-link href="http://github.com/dominicbarnes/pokemongo-tools/issues" target="_blank">Feedback</b-link>
+            <span class="text-muted">(v{{version}})</span>
           </b-col>
         </b-row>
       </b-container>
@@ -91,13 +92,16 @@
 <script>
   import { mapGetters } from 'vuex'
 
+  import config from '../config'
+
   export default {
     data() {
       return {
         signup: Object.create(null),
         signupError: null,
         signin: Object.create(null),
-        signinError: null
+        signinError: null,
+        version: config.version
       }
     },
 
