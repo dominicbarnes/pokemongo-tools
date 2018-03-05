@@ -65,13 +65,21 @@
         <b-col md="6">
           <b-input-group>
             <b-input-group-prepend is-text>Quick Move</b-input-group-prepend>
-            <b-form-select id="add-quick-move" v-bind:options="quickMoves" v-model="value.quickMove" />
+            <b-form-select id="add-quick-move" v-bind:options="quickMoves" v-model="value.quickMove">
+              <template slot="first">
+                <option v-bind:value="null">Choose a Move</option>
+              </template>
+            </b-form-select>
           </b-input-group>
         </b-col>
         <b-col md="6">
           <b-input-group>
             <b-input-group-prepend is-text>Charge Move</b-input-group-prepend>
-            <b-form-select id="add-charge-move" v-bind:options="chargeMoves" v-model="value.chargeMove" />
+            <b-form-select id="add-charge-move" v-bind:options="chargeMoves" v-model="value.chargeMove">
+              <template slot="first">
+                <option v-bind:value="null">Choose a Move</option>
+              </template>
+            </b-form-select>
           </b-input-group>
         </b-col>
       </b-row>
@@ -100,9 +108,7 @@
     props: {
       value: {
         type: Object,
-        default() {
-          return Object.create(null)
-        }
+        required: true
       }
     },
 
@@ -115,12 +121,28 @@
         })
       },
       quickMoves() {
-        const options = this.$store.getters.quickMoves.map(this.moveOption)
-        return [ { text: 'Choose a Move', value: null } ].concat(options)
+        const { $store, metadata } = this
+        const options = $store.getters.quickMoves.map(this.moveOption)
+        if (metadata) {
+          const movesByID = $store.getters.movesByID
+          const moves = metadata.quickMoves.map(move => movesByID(move.id))
+          options.unshift({ disabled: true, text: '---' })
+          options.unshift.apply(options, moves.map(this.moveOption))
+        }
+        options.unshift({ disabled: true, text: '---' })
+        return options
       },
       chargeMoves() {
-        const options = this.$store.getters.chargeMoves.map(this.moveOption)
-        return [ { text: 'Choose a Move', value: null } ].concat(options)
+        const { $store, metadata } = this
+        const options = $store.getters.chargeMoves.map(this.moveOption)
+        if (metadata) {
+          const movesByID = $store.getters.movesByID
+          const moves = metadata.chargeMoves.map(move => movesByID(move.id))
+          options.unshift({ disabled: true, text: '---' })
+          options.unshift.apply(options, moves.map(this.moveOption))
+        }
+        options.unshift({ disabled: true, text: '---' })
+        return options
       },
       totalIVs() {
         const { attackIV, defenseIV, staminaIV } = this.value

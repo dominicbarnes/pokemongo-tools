@@ -18,6 +18,8 @@
     data() {
       return {
         pokemon: {
+          quickMove: null,
+          chargeMove: null,
           caughtAt: moment().format('YYYY-MM-DD')
         }
       }
