@@ -16,7 +16,7 @@
 
           <b-navbar-nav v-show="loggedIn" class="ml-auto">
             <b-nav-text>Welcome, {{ username }}</b-nav-text>
-            <b-nav-item @click="signOut">Log Out</b-nav-item>
+            <b-nav-item v-on:click="signOut">Log Out</b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav v-show="!loggedIn" class="ml-auto">
             <b-nav-item v-b-modal="'signup'">Register</b-nav-item>
@@ -60,7 +60,7 @@
       <b-alert variant="danger" :show="!!signupError">
         {{ signupError }}
       </b-alert>
-      <b-form @submit.stop.prevent="signUp">
+      <b-form v-on:submit.stop.prevent="signUp">
         <b-form-group label="Username">
           <b-form-input type="text" required v-model="signup.username"></b-form-input>
         </b-form-group>
@@ -75,7 +75,7 @@
       <b-alert variant="danger" :show="!!signinError">
         {{ signinError }}
       </b-alert>
-      <b-form @submit.stop.prevent="signIn">
+      <b-form v-on:submit.stop.prevent="signIn">
         <b-form-group label="Username">
           <b-form-input type="text" required v-model="signin.username"></b-form-input>
         </b-form-group>
