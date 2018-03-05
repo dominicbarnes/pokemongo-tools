@@ -48,7 +48,7 @@
             </small>
           </b-col>
           <b-col class="text-right">
-            <b-link href="http://github.com/dominicbarnes/pokemongo-tools" target="_blank">Github</b-link>
+            <b-link href="http://github.com/dominicbarnes/pokemongo-tools" target="_blank">Source Code</b-link>
             &bull;
             <b-link href="http://github.com/dominicbarnes/pokemongo-tools/issues" target="_blank">Feedback</b-link>
             <span class="text-muted">(v{{version}})</span>
