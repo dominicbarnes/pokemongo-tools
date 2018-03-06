@@ -29,7 +29,11 @@ new Vue({ // eslint-disable-line
 })
 
 if (segmentWriteKey) {
-  window.analytics.load(segmentWriteKey)
+  if (window.analytics) {
+    window.analytics.load(segmentWriteKey)
+  } else {
+    console.warn('Segment library not found, analytics cannot be tracked')
+  }
 } else {
   console.warn('Segment write key not found, analytics will not be tracked')
 }
@@ -48,7 +52,6 @@ if (stage !== 'development' && 'serviceWorker' in navigator) {
       console.log('Service worker active')
     }
   }).catch(function (error) {
-    // registration failed
-    console.error('Registration failed', error)
+    console.error('Service worker registration failed', error)
   })
 }
