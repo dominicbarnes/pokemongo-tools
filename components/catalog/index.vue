@@ -138,7 +138,7 @@
 
       sorter() {
         switch (this.filters.sort) {
-          case 'recent': return sortBy('-added')
+          case 'recent': return sortBy('-caught', '-added')
           case 'dex': return sortBy('dex', '-cp')
           case 'name': return sortBy('name', '-cp')
           case 'cp': return sortBy('-cp')
