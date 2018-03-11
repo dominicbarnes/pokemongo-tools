@@ -17,25 +17,21 @@
           </b-media>
         </b-col>
       </b-row>
-      <b-row v-if="list.length">
-        <b-col class="d-none d-md-block">
-          <div class="my-2">
-            Showing
-            <b-badge>{{ from }} - {{ to }}</b-badge>
-            of
-            <b-badge>{{ count }}</b-badge>
-          </div>
-        </b-col>
-        <b-col md="8">
-          <b-pagination v-model="currentPage" v-bind:per-page="perPage" v-bind:total-rows="list.length" align="center" />
-        </b-col>
-        <b-col class="d-none d-md-block">
+      <div v-if="list.length" class="d-flex justify-content-between mt-2">
+        <div class="d-none d-md-block py-2">
+          Showing
+          <b-badge>{{ from }} - {{ to }}</b-badge>
+          of
+          <b-badge>{{ count }}</b-badge>
+        </div>
+        <b-pagination v-model="currentPage" v-bind:per-page="perPage" v-bind:total-rows="list.length" align="center" class="m-0" />
+        <div class="d-none d-md-block">
           <b-form inline>
             <label for="pokedex-per-page" class="mr-1">Per Page:</label>
             <b-form-select id="pokedex-per-page" v-model="perPage" v-bind:options="[ 20, 40, 60, 80, 100 ]" />
           </b-form>
-        </b-col>
-      </b-row>
+        </div>
+      </div>
     </b-container>
   </loading-panel>
 </template>

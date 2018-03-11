@@ -40,30 +40,21 @@
         <p>Your catalog is empty right now!</p>
         <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add your first Pokémon!</b-button>
       </b-alert>
-      <b-row v-if="list.length">
-        <b-col class="d-none d-md-block">
-          <div class="my-2">
-            Showing
-            <b-badge>{{ from }} - {{ to }}</b-badge>
-            of
-            <b-badge>{{ count }}</b-badge>
-          </div>
-        </b-col>
-        <b-col md="8">
-          <b-pagination v-model="currentPage" v-bind:per-page="perPage" v-bind:total-rows="list.length" align="center" />
-        </b-col>
-        <b-col class="d-none d-md-block">
+      <div v-if="list.length" class="d-flex justify-content-between mt-2">
+        <div class="d-none d-md-block py-2">
+          Showing
+          <b-badge>{{ from }} - {{ to }}</b-badge>
+          of
+          <b-badge>{{ count }}</b-badge>
+        </div>
+        <b-pagination v-model="currentPage" v-bind:per-page="perPage" v-bind:total-rows="list.length" align="center" class="m-0" />
+        <div class="d-none d-md-block">
           <b-form inline>
             <label for="pokedex-per-page" class="mr-1">Per Page:</label>
-            <b-form-select id="pokedex-per-page" v-model="perPage">
-              <option v-bind:value="15">15</option>
-              <option v-bind:value="30">30</option>
-              <option v-bind:value="45">45</option>
-              <option v-bind:value="60">60</option>
-            </b-form-select>
+            <b-form-select id="pokedex-per-page" v-model="perPage" v-bind:options="[ 20, 40, 60, 80, 100 ]" />
           </b-form>
-        </b-col>
-      </b-row>
+        </div>
+      </div>
     </b-container>
   </loading-panel>
 </template>
@@ -87,7 +78,7 @@
     data() {
       return {
         currentPage: 1,
-        perPage: 15,
+        perPage: 20,
         filters: { sort: 'recent' }
       }
     },
