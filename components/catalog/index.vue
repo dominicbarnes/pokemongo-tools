@@ -3,8 +3,8 @@
     <catalog-filters v-model="filters" />
     <b-container fluid class="pt-2">
       <b-row v-if="pokemon.length">
-        <b-col cols="12" md="4" v-for="pokemon in items">
-          <b-media class="border rounded mb-3">
+        <b-col cols="12" md="4" xl="3" v-for="pokemon in items">
+          <b-media class="border rounded p-1 mb-2">
             <pokemon-sprite slot="aside" v-bind:pokemon="pokemon.dex" v-bind:shiny="pokemon.shiny" />
             <h2 v-if="pokemon.nickname" class="h3 mt-1 mb-0">
               <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: pokemon.id } }">{{pokemon.nickname}}</b-link>
