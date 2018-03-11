@@ -83,7 +83,7 @@
         deep: true,
         handler: debounce(function () {
           this.$emit('input', this.value)
-        }, 500)
+        }, 250)
       }
     },
 
