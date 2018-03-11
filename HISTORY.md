@@ -1,4 +1,19 @@
 
+0.2.0 / 2018-03-11
+==================
+
+  * feat(pokedex+catalog): use flex for footer nav
+  * refactor(badges): drop badge suffix on filenames
+  * feat(pokedex+catalog): use more breakpoints
+  * feat(catalog): show more items per row on xl screens
+  * feat(catalog): improve evolves filter
+  * feat(catalog): reduce debounce threshold for filters
+  * refactor(catalog): remove dead filter code
+  * feat(pokedex+catalog): add generation badge and filter
+  * feat(catalog): add badge with tooltip for notes
+  * fix(catalog): sort recent by caught & added to allow out-of-order entries more gracefully
+  * fix: load script after snippet to ensure analytics is defined
+
 0.1.1 / 2018-03-04
 ==================
 
