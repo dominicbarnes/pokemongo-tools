@@ -182,31 +182,6 @@
       }
     },
 
-    methods: {
-      filter(row) {
-        const { evolves, keywords, minIV, types } = this.filters
-
-        if (minIV) {
-          const actualIV = (row.ivs / 45) * 100
-          if (isNaN(actualIV) || actualIV < minIV) return false
-        }
-
-        if (types && types.length) {
-          if (types.some(type => row.types.indexOf(type) === -1)) return false
-        }
-
-        if (typeof evolves === 'boolean') {
-          if (evolves !== this.evolves.indexOf(row.pokemon) > -1) return false
-        }
-
-        if (keywords) {
-          return [ row.name ].concat(row.types).some(value => value.toLowerCase().indexOf(keywords) > -1)
-        }
-
-        return true
-      },
-    },
-
     watch: {
       filtering(flag) {
         if (flag) {
