@@ -19,20 +19,21 @@
 <script>
   import debounce from 'debounce'
 
-  import FilterTypes from '../filters/types.vue'
-  import FilterRarity from '../filters/rarity.vue'
   import FilterGeneration from '../filters/generation.vue'
   import FilterFamily from '../filters/family.vue'
+  import FilterEvolves from '../filters/evolves.vue'
+  import FilterRarity from '../filters/rarity.vue'
+  import FilterTypes from '../filters/types.vue'
 
   export default {
     data() {
       return {
         value: {
           name: '',
-          types: [],
-          rarity: null,
           generation: null,
-          family: null
+          family: null,
+          rarity: null,
+          types: []
         }
       }
     },

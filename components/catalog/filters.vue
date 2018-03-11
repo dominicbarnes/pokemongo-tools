@@ -9,6 +9,7 @@
       <b-navbar-nav>
         <filter-family v-model="value.family" class="ml-2" />
         <filter-generation v-model="value.generation" class="ml-2" />
+        <filter-evolves v-model="value.evolves" class="ml-2" />
         <b-nav-item-dropdown>
           <template slot="button-content">
             IVs
@@ -24,15 +25,6 @@
           <b-dropdown-item v-on:click="value.minIV = 0">Show All</b-dropdown-item>
         </b-nav-item-dropdown>
         <filter-types v-model="value.types" />
-        <b-nav-item-dropdown>
-          <template slot="button-content">
-            <span v-if="value.evolves !== null">{{value.evolves ? 'Does Evolve' : 'Does Not Evolve'}}</span>
-            <span v-else>Evolves?</span>
-          </template>
-          <b-dropdown-item v-on:click="value.evolves = true">Yes</b-dropdown-item>
-          <b-dropdown-item v-on:click="value.evolves = false">No</b-dropdown-item>
-          <b-dropdown-item v-on:click="value.evolves = null">Show All</b-dropdown-item>
-        </b-nav-item-dropdown>
       </b-navbar-nav>
       <b-navbar-nav class="ml-auto">
         <b-nav-item-dropdown>
@@ -55,6 +47,7 @@
   import FilterTypes from '../filters/types.vue'
   import FilterFamily from '../filters/family.vue'
   import FilterGeneration from '../filters/generation.vue'
+  import FilterEvolves from '../filters/evolves.vue'
 
   export default {
     data() {
@@ -87,6 +80,6 @@
       }
     },
 
-    components: { FilterTypes, FilterFamily, FilterGeneration }
+    components: { FilterTypes, FilterFamily, FilterGeneration, FilterEvolves }
   }
 </script>
