@@ -16,6 +16,7 @@
             <type-badge v-for="type in pokemon.types" v-bind:type="type" />
             <rarity-badge v-if="pokemon.rarity" v-bind:rarity="pokemon.rarity" />
             <shiny-badge v-if="pokemon.shiny" />
+            <b-badge v-if="pokemon.notes" v-b-tooltip.hover.right v-bind:title="pokemon.notes">NOTES</b-badge>
             <div>
               {{ pokemon.dex | dex }}
               &bull;
