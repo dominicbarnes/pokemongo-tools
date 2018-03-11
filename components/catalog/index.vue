@@ -14,6 +14,8 @@
               <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: pokemon.id } }">{{pokemon.species}}</b-link>
             </h2>
             <type-badge v-for="type in pokemon.types" v-bind:type="type" />
+            <br />
+            <generation-badge v-bind:generation="pokemon.generation" />
             <rarity-badge v-if="pokemon.rarity" v-bind:rarity="pokemon.rarity" />
             <shiny-badge v-if="pokemon.shiny" />
             <b-badge v-if="pokemon.notes" v-b-tooltip.hover.right v-bind:title="pokemon.notes">NOTES</b-badge>
@@ -75,6 +77,7 @@
   import PokemonSprite from '../pokemon-sprite.vue'
   import RelTime from '../rel-time.vue'
   import TypeBadge from '../badges/type-badge.vue'
+  import GenerationBadge from '../badges/generation-badge.vue'
   import RarityBadge from '../badges/rarity-badge.vue'
   import ShinyBadge from '../badges/shiny-badge.vue'
 
@@ -109,6 +112,7 @@
             dex: metadata.dex,
             id: pokemon._id,
             family: metadata.family,
+            generation: metadata.generation,
             ivs: attackIV + defenseIV + staminaIV,
             ivp: Math.round((attackIV + defenseIV + staminaIV) / 45 * 100),
             name: pokemon.nickname || metadata.name,
@@ -148,11 +152,12 @@
       },
 
       filterer() {
-        const { name, family, minIV, types, evolves } = this.filters
+        const { name, family, generation, minIV, types, evolves } = this.filters
         const query = {}
 
         if (name) query.name = new RegExp(name, 'i')
         if (family) query.family = family
+        if (generation) query.generation = generation
         if (minIV) query.ivp = { $gte: minIV }
         if (types && types.length) query.types = { $all: types.slice() }
         if (typeof evolves === 'boolean') {
@@ -210,6 +215,6 @@
       }
     },
 
-    components: { CatalogFilters, PokemonSprite, RelTime, TypeBadge, RarityBadge, ShinyBadge }
+    components: { CatalogFilters, PokemonSprite, RelTime, TypeBadge, GenerationBadge, RarityBadge, ShinyBadge }
   }
 </script>

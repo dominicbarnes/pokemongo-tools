@@ -11,10 +11,9 @@
               <small>({{ pokemon.dex | dex }})</small>
             </h2>
             <type-badge v-for="type in pokemon.types" v-bind:type="type" />
+            <br />
+            <generation-badge v-bind:generation="pokemon.generation" />
             <rarity-badge v-if="pokemon.rarity" v-bind:rarity="pokemon.rarity" />
-            <div>
-              <b>Generation:</b> {{pokemon.generation}}
-            </div>
           </b-media>
         </b-col>
       </b-row>
@@ -54,6 +53,7 @@
   import PokemonSprite from '../pokemon-sprite.vue'
   import TypeBadge from '../badges/type-badge.vue'
   import RarityBadge from '../badges/rarity-badge.vue'
+  import GenerationBadge from '../badges/generation-badge.vue'
 
   import PokedexFilters from './filters.vue'
 
@@ -120,6 +120,6 @@
       }
     },
 
-    components: { PokedexFilters, PokemonSprite, TypeBadge, RarityBadge }
+    components: { PokedexFilters, PokemonSprite, TypeBadge, RarityBadge, GenerationBadge }
   }
 </script>

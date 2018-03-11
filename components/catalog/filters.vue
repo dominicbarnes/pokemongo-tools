@@ -8,6 +8,7 @@
     <b-collapse is-nav id="catalog-filters">
       <b-navbar-nav>
         <filter-family v-model="value.family" class="ml-2" />
+        <filter-generation v-model="value.generation" class="ml-2" />
         <b-nav-item-dropdown>
           <template slot="button-content">
             IVs
@@ -53,6 +54,7 @@
 
   import FilterTypes from '../filters/types.vue'
   import FilterFamily from '../filters/family.vue'
+  import FilterGeneration from '../filters/generation.vue'
 
   export default {
     data() {
@@ -67,6 +69,7 @@
         value: {
           name: '',
           family: null,
+          generation: null,
           minIV: 0,
           types: [],
           evolves: null,
@@ -84,6 +87,6 @@
       }
     },
 
-    components: { FilterTypes, FilterFamily }
+    components: { FilterTypes, FilterFamily, FilterGeneration }
   }
 </script>
