@@ -3,7 +3,7 @@
     <pokedex-filters v-model="filters" />
     <b-container fluid class="my-2">
       <b-row>
-        <b-col cols="12" md="4" v-for="pokemon in items" v-bind:key="pokemon.id">
+        <b-col cols="12" md="6" lg="4" xl="3" v-for="pokemon in items" v-bind:key="pokemon.id">
           <b-media class="border rounded mb-3">
             <pokemon-sprite slot="aside" v-bind:pokemon="pokemon.dex" />
             <h2 class="h3 mt-1 mb-0">
@@ -32,12 +32,7 @@
         <b-col class="d-none d-md-block">
           <b-form inline>
             <label for="pokedex-per-page" class="mr-1">Per Page:</label>
-            <b-form-select id="pokedex-per-page" v-model="perPage">
-              <option v-bind:value="15">15</option>
-              <option v-bind:value="30">30</option>
-              <option v-bind:value="45">45</option>
-              <option v-bind:value="60">60</option>
-            </b-form-select>
+            <b-form-select id="pokedex-per-page" v-model="perPage" v-bind:options="[ 20, 40, 60, 80, 100 ]" />
           </b-form>
         </b-col>
       </b-row>
@@ -61,7 +56,7 @@
     data() {
       return {
         currentPage: 1,
-        perPage: 15,
+        perPage: 20,
         filters: Object.create(null)
       }
     },
