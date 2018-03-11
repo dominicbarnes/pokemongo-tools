@@ -110,8 +110,8 @@
   import { dex } from '../../utils'
   import MoveSummary from '../move-summary.vue'
   import PokemonSprite from '../pokemon-sprite.vue'
-  import TypeBadge from '../badges/type-badge.vue'
-  import RarityBadge from '../badges/rarity-badge.vue'
+  import TypeBadge from '../badges/type.vue'
+  import RarityBadge from '../badges/rarity.vue'
 
   export default {
     computed: {

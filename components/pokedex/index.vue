@@ -46,9 +46,9 @@
 
   import { page } from '../../utils'
   import PokemonSprite from '../pokemon-sprite.vue'
-  import TypeBadge from '../badges/type-badge.vue'
-  import RarityBadge from '../badges/rarity-badge.vue'
-  import GenerationBadge from '../badges/generation-badge.vue'
+  import TypeBadge from '../badges/type.vue'
+  import RarityBadge from '../badges/rarity.vue'
+  import GenerationBadge from '../badges/generation.vue'
 
   import PokedexFilters from './filters.vue'
 

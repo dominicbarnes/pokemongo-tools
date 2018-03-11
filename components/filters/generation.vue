@@ -7,7 +7,7 @@
 <script>
 import { mapGetters } from 'vuex'
 
-import RarityBadge from '../badges/type-badge.vue'
+import RarityBadge from '../badges/type.vue'
 
 export default {
   props: {

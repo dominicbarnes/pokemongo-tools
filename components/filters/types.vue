@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import TypeBadge from '../badges/type-badge.vue'
+import TypeBadge from '../badges/type.vue'
 
 export default {
   props: {
