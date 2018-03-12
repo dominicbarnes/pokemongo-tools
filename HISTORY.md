@@ -1,4 +1,11 @@
 
+0.3.0 / 2018-03-11
+==================
+
+  * feat: add warming for production
+  * build: remove full-paths config
+  * refactor: reduce build size
+
 0.2.0 / 2018-03-11
 ==================
 
