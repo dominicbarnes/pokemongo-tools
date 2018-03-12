@@ -30,7 +30,10 @@
       "domain": "stage.pokemongo.tools"
     },
     "production": {
-      "domain": "pokemongo.tools"
+      "domain": "pokemongo.tools",
+      "lambda": {
+        "warm": true
+      }
     }
   }
 }
