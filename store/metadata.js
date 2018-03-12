@@ -1,4 +1,4 @@
-import PouchDB from 'pouchdb'
+import PouchDB from 'pouchdb-browser'
 import sortBy from 'sort-by'
 import Store from '@hoodie/store-client'
 import Vue from 'vue'

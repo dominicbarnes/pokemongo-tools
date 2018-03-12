@@ -1,6 +1,6 @@
 <template>
   <loading-panel>
-    <b-container v-if="!catalog" class="p-3">
+    <b-container v-if="!catalog || !metadata" class="p-3">
       <b-alert variant="danger" show>
         Not found
       </b-alert>
@@ -95,7 +95,7 @@
 
           <b-col md="4" class="mb-2">
             <b-card v-if="catalog.notes" title="Notes" class="mb-2">
-              <vue-markdown>{{ catalog.notes }}</vue-markdown>
+              <div v-html="markdown(catalog.notes)" />
             </b-card>
 
             <b-card title="History">
@@ -169,9 +169,9 @@
 </template>
 
 <script>
+  import markdown from 'nano-markdown'
   import numeral from 'numeral'
   import sortBy from 'sort-by'
-  import VueMarkdown from 'vue-markdown'
   import { mapGetters } from 'vuex'
 
   import { dex } from '../../utils'
@@ -267,6 +267,10 @@
         })
 
         return [ { text: 'Choose a Move', value: null } ].concat(options)
+      },
+
+      notes() {
+        return markdown(this.catalog.notes)
       }
     },
 
@@ -330,7 +334,7 @@
       }
     },
 
-    components: { MoveSummary, PokemonSprite, RelTime, TypeBadge, RarityBadge, ShinyBadge, VueMarkdown }
+    components: { MoveSummary, PokemonSprite, RelTime, TypeBadge, RarityBadge, ShinyBadge }
   }
 
   function sum(acc, x) {
