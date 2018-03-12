@@ -1,4 +1,9 @@
 
+0.3.1 / 2018-03-11
+==================
+
+  * security: add rel=noopener to target=_blank links
+
 0.3.0 / 2018-03-11
 ==================
 
