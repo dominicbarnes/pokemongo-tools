@@ -21,7 +21,7 @@
         <b-collapse is-nav id="catalog-view-actions">
           <b-navbar-nav class="ml-auto">
             <b-nav-form>
-              <b-button v-bind:to="{ name: 'pokedex-view', params: { pokemon: catalog.pokemonID } }" target="_blank" size="sm">Pokédex</b-button>
+              <b-button v-bind:to="{ name: 'pokedex-view', params: { pokemon: catalog.pokemonID } }" size="sm" target="_blank">Pokédex</b-button>
               <b-button v-bind:disabled="!canEvolve" v-b-modal.modalEvolve variant="info" size="sm" class="ml-2">Evolve</b-button>
               <b-button v-b-modal.modalPowerUp variant="info" size="sm" class="ml-2">Power Up</b-button>
               <b-button v-b-modal.modalUseTM variant="info" size="sm" class="ml-2">Use TM</b-button>
