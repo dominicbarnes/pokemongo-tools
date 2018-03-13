@@ -39,7 +39,7 @@ export default {
   data() {
     return {
       currentPage: 1,
-      perPage: 24
+      perPage: 12
     }
   },
 
@@ -74,7 +74,7 @@ export default {
     },
 
     options() {
-      return [ 24, 48, 72, 96 ]
+      return [ 12, 24, 36, 48 ]
     }
   }
 }
