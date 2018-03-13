@@ -1,4 +1,9 @@
 
+0.3.2 / 2018-03-12
+==================
+
+  * fix(catalog): handle loading page directly before metadata is ready
+
 0.3.1 / 2018-03-11
 ==================
 
