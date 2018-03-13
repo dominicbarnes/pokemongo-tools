@@ -3,10 +3,11 @@
     <pokedex-filters v-model="filters" />
     <b-container fluid class="my-2">
       <paginated-list v-bind:list="list" v-bind:filter="filterer">
-        <div slot="empty">empty</div>
-        <b-col slot="item" slot-scope="{ item: pokemon }" cols="12" md="6" lg="4" xl="3">
-          <pokedex-item v-bind:pokemon="pokemon" />
-        </b-col>
+        <template slot="item" slot-scope="{ item: pokemon }">
+          <b-col v-bind:key="pokemon.id" cols="12" md="6" lg="4" xl="3">
+            <pokedex-item v-bind:pokemon="pokemon" />
+          </b-col>
+        </template>
       </paginated-list>
     </b-container>
   </loading-panel>

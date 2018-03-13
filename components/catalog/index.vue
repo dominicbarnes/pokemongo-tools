@@ -7,9 +7,11 @@
           <p>Your catalog is empty right now!</p>
           <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add your first Pokémon!</b-button>
         </b-alert>
-        <b-col slot="item" slot-scope="{ item: pokemon }" cols="12" md="6" lg="4" xl="3">
-          <catalog-item v-bind:pokemon="pokemon" />
-        </b-col>
+        <template slot="item" slot-scope="{ item: pokemon }">
+          <b-col v-bind:key="pokemon.id" cols="12" md="6" lg="4" xl="3">
+            <catalog-item v-bind:pokemon="pokemon" />
+          </b-col>
+        </template>
       </paginated-list>
     </b-container>
   </loading-panel>
