@@ -95,7 +95,7 @@
 
           <b-col md="4" class="mb-2">
             <b-card v-if="catalog.notes" title="Notes" class="mb-2">
-              <div v-html="markdown(catalog.notes)" />
+              <div v-html="$options.filters.markdown(catalog.notes)" />
             </b-card>
 
             <b-card title="History">
@@ -169,8 +169,6 @@
 </template>
 
 <script>
-  import markdown from 'nano-markdown'
-  import numeral from 'numeral'
   import sortBy from 'sort-by'
   import { mapGetters } from 'vuex'
 
@@ -320,10 +318,6 @@
         const metadata = availableMoves.find(move => move.id === moveID)
         if (!metadata) return false
         return !!metadata.legacy
-      },
-
-      markdown(input) {
-        return markdown(input)
       },
 
       async save(keys, e) {

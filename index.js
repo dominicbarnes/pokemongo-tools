@@ -1,9 +1,10 @@
 import 'babel-polyfill'
 import './hoodie'
 
-import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
+import markdown from 'nano-markdown'
 import numeral from 'numeral'
+import Vue from 'vue'
 
 import { stage, segmentWriteKey } from './config'
 import store from './store'
@@ -13,9 +14,10 @@ import LoadingPanel from './components/loading-panel.vue'
 
 Vue.use(BootstrapVue)
 
+Vue.filter('dex', value => `#${numeral(value).format('000')}`)
+Vue.filter('markdown', value => markdown(value))
 Vue.filter('number', (value, format) => numeral(value).format(format))
 Vue.filter('percentage', value => numeral(value).format('0%'))
-Vue.filter('dex', value => `#${numeral(value).format('000')}`)
 
 Vue.component('loading-panel', LoadingPanel)
 
