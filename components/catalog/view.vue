@@ -267,10 +267,6 @@
         })
 
         return [ { text: 'Choose a Move', value: null } ].concat(options)
-      },
-
-      notes() {
-        return markdown(this.catalog.notes)
       }
     },
 
@@ -324,6 +320,10 @@
         const metadata = availableMoves.find(move => move.id === moveID)
         if (!metadata) return false
         return !!metadata.legacy
+      },
+
+      markdown(input) {
+        return markdown(input)
       },
 
       async save(keys, e) {
