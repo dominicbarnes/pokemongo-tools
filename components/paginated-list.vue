@@ -18,7 +18,7 @@
         <div class="d-none d-md-block">
           <b-form inline>
             <label for="pokedex-per-page" class="mr-1">Per Page:</label>
-            <b-form-select id="pokedex-per-page" v-model="perPage" v-bind:options="[ 20, 40, 60, 80, 100 ]" />
+            <b-form-select id="pokedex-per-page" v-model="perPage" v-bind:options="options" />
           </b-form>
         </div>
       </div>
@@ -39,7 +39,7 @@ export default {
   data() {
     return {
       currentPage: 1,
-      perPage: 20
+      perPage: 24
     }
   },
 
@@ -71,6 +71,10 @@ export default {
 
     count() {
       return this.items.length
+    },
+
+    options() {
+      return [ 24, 48, 72, 96 ]
     }
   }
 }
