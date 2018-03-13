@@ -2,59 +2,15 @@
   <loading-panel>
     <catalog-filters v-model="filters" />
     <b-container v-if="ready" fluid class="pt-2">
-      <b-row v-if="pokemon.length">
-        <b-col cols="12" md="6" lg="4" xl="3" v-for="pokemon in items">
-          <b-media class="border rounded p-1 mb-2">
-            <pokemon-sprite slot="aside" v-bind:pokemon="pokemon.dex" v-bind:shiny="pokemon.shiny" />
-            <h2 v-if="pokemon.nickname" class="h3 mt-1 mb-0">
-              <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: pokemon.id } }">{{pokemon.nickname}}</b-link>
-              <small class="text-muted">({{pokemon.species}})</small>
-            </h2>
-            <h2 v-else class="h3 mt-1 mb-0">
-              <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: pokemon.id } }">{{pokemon.species}}</b-link>
-            </h2>
-            <type-badge v-for="type in pokemon.types" v-bind:type="type" />
-            <br />
-            <generation-badge v-bind:generation="pokemon.generation" />
-            <rarity-badge v-if="pokemon.rarity" v-bind:rarity="pokemon.rarity" />
-            <shiny-badge v-if="pokemon.shiny" />
-            <b-badge v-if="pokemon.notes" v-b-tooltip.hover.right v-bind:title="pokemon.notes">NOTES</b-badge>
-            <div>
-              {{ pokemon.dex | dex }}
-              &bull;
-              {{ pokemon.cp | number }} CP
-              &bull;
-              {{ pokemon.ivs / 45 | percentage }} IVs
-            </div>
-            <small class="text-muted">
-              <span v-if="pokemon.caught">
-                Caught {{pokemon.caught}}
-                &bull;
-              </span>
-              Added <rel-time v-bind:datetime="pokemon.added" refresh="1m" />
-            </small>
-          </b-media>
+      <paginated-list v-bind:list="list" v-bind:filter="filterer" v-bind:sort="sorter">
+        <b-alert slot="empty" variant="warning" show>
+          <p>Your catalog is empty right now!</p>
+          <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add your first Pokémon!</b-button>
+        </b-alert>
+        <b-col slot="item" slot-scope="{ item: pokemon }" cols="12" md="6" lg="4" xl="3">
+          <catalog-item v-bind:pokemon="pokemon" />
         </b-col>
-      </b-row>
-      <b-alert v-else variant="warning" show>
-        <p>Your catalog is empty right now!</p>
-        <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add your first Pokémon!</b-button>
-      </b-alert>
-      <div v-if="list.length" class="d-flex justify-content-between mt-2">
-        <div class="d-none d-md-block py-2">
-          Showing
-          <b-badge>{{ from }} - {{ to }}</b-badge>
-          of
-          <b-badge>{{ count }}</b-badge>
-        </div>
-        <b-pagination v-model="currentPage" v-bind:per-page="perPage" v-bind:total-rows="list.length" align="center" class="m-0" />
-        <div class="d-none d-md-block">
-          <b-form inline>
-            <label for="pokedex-per-page" class="mr-1">Per Page:</label>
-            <b-form-select id="pokedex-per-page" v-model="perPage" v-bind:options="[ 20, 40, 60, 80, 100 ]" />
-          </b-form>
-        </div>
-      </div>
+      </paginated-list>
     </b-container>
   </loading-panel>
 </template>
@@ -64,21 +20,13 @@
   import sortBy from 'sort-by'
   import { mapGetters } from 'vuex'
 
-  import { page } from '../../utils'
-  import PokemonSprite from '../pokemon-sprite.vue'
-  import RelTime from '../rel-time.vue'
-  import TypeBadge from '../badges/type.vue'
-  import GenerationBadge from '../badges/generation.vue'
-  import RarityBadge from '../badges/rarity.vue'
-  import ShinyBadge from '../badges/shiny.vue'
-
   import CatalogFilters from './filters.vue'
+  import CatalogItem from './item.vue'
+  import PaginatedList from '../paginated-list.vue'
 
   export default {
     data() {
       return {
-        currentPage: 1,
-        perPage: 20,
         filters: { sort: 'recent' }
       }
     },
@@ -93,8 +41,9 @@
       }),
 
       list() {
-        const { pokemon, pokemonByID, filterer } = this
-        let list = pokemon.map(pokemon => {
+        const { pokemon, pokemonByID } = this
+
+        return pokemon.map(pokemon => {
           const metadata = pokemonByID(pokemon.pokemonID)
           const { attackIV = 0, defenseIV = 0, staminaIV = 0 } = pokemon
           return {
@@ -117,14 +66,6 @@
             types: metadata.types
           }
         })
-
-        if (filterer) list = list.filter(filterer)
-
-        return list.sort(this.sorter)
-      },
-
-      items() {
-        return page(this.list, this.currentPage, this.perPage)
       },
 
       evolves() {
@@ -159,18 +100,6 @@
         }
 
         return Object.keys(query).length ? sift(query) : null
-      },
-
-      from() {
-        return ((this.currentPage - 1) * this.perPage) + 1
-      },
-
-      to() {
-        return (this.from + this.items.length) - 1
-      },
-
-      count() {
-        return this.list.length
       }
     },
 
@@ -182,6 +111,6 @@
       }
     },
 
-    components: { CatalogFilters, PokemonSprite, RelTime, TypeBadge, GenerationBadge, RarityBadge, ShinyBadge }
+    components: { CatalogFilters, CatalogItem, PaginatedList }
   }
 </script>

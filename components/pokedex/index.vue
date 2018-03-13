@@ -2,36 +2,12 @@
   <loading-panel>
     <pokedex-filters v-model="filters" />
     <b-container fluid class="my-2">
-      <b-row>
-        <b-col cols="12" md="6" lg="4" xl="3" v-for="pokemon in items" v-bind:key="pokemon.id">
-          <b-media class="border rounded mb-3">
-            <pokemon-sprite slot="aside" v-bind:pokemon="pokemon.dex" />
-            <h2 class="h3 mt-1 mb-0">
-              <b-link v-bind:to="{ name: 'pokedex-view', params: { pokemon: pokemon.id } }">{{pokemon.name}}</b-link>
-              <small>({{ pokemon.dex | dex }})</small>
-            </h2>
-            <type-badge v-for="type in pokemon.types" v-bind:type="type" />
-            <br />
-            <generation-badge v-bind:generation="pokemon.generation" />
-            <rarity-badge v-if="pokemon.rarity" v-bind:rarity="pokemon.rarity" />
-          </b-media>
+      <paginated-list v-bind:list="list" v-bind:filter="filterer">
+        <div slot="empty">empty</div>
+        <b-col slot="item" slot-scope="{ item: pokemon }" cols="12" md="6" lg="4" xl="3">
+          <pokedex-item v-bind:pokemon="pokemon" />
         </b-col>
-      </b-row>
-      <div v-if="list.length" class="d-flex justify-content-between mt-2">
-        <div class="d-none d-md-block py-2">
-          Showing
-          <b-badge>{{ from }} - {{ to }}</b-badge>
-          of
-          <b-badge>{{ count }}</b-badge>
-        </div>
-        <b-pagination v-model="currentPage" v-bind:per-page="perPage" v-bind:total-rows="list.length" align="center" class="m-0" />
-        <div class="d-none d-md-block">
-          <b-form inline>
-            <label for="pokedex-per-page" class="mr-1">Per Page:</label>
-            <b-form-select id="pokedex-per-page" v-model="perPage" v-bind:options="[ 20, 40, 60, 80, 100 ]" />
-          </b-form>
-        </div>
-      </div>
+      </paginated-list>
     </b-container>
   </loading-panel>
 </template>
@@ -40,41 +16,21 @@
   import sift from 'sift'
   import { mapGetters, mapState } from 'vuex'
 
-  import { page } from '../../utils'
-  import PokemonSprite from '../pokemon-sprite.vue'
-  import TypeBadge from '../badges/type.vue'
-  import RarityBadge from '../badges/rarity.vue'
-  import GenerationBadge from '../badges/generation.vue'
-
+  import PaginatedList from '../paginated-list.vue'
   import PokedexFilters from './filters.vue'
+  import PokedexItem from './item.vue'
 
   export default {
     data() {
-      return {
-        currentPage: 1,
-        perPage: 20,
-        filters: Object.create(null)
-      }
+      return { filters: Object.create(null) }
     },
 
     computed: {
-      loading() {
-        return this.$store.state.metadata.loading
-      },
-
       list() {
-        let list = this.$store.getters.pokemonSort('dex').map(pokemon => {
+        return this.$store.getters.pokemonSort('dex').map(pokemon => {
           const { _id: id, dex, name, types, rarity, generation, family } = pokemon
           return { dex, id, name, types, rarity, generation, family }
         })
-
-        return this.filterer
-          ? list.filter(this.filterer)
-          : list
-      },
-
-      items() {
-        return page(this.list, this.currentPage, this.perPage)
       },
 
       filterer() {
@@ -88,18 +44,6 @@
         if (family) query.family = family
 
         return Object.keys(query).length ? sift(query) : null
-      },
-
-      from() {
-        return ((this.currentPage - 1) * this.perPage) + 1
-      },
-
-      to() {
-        return (this.from + this.items.length) - 1
-      },
-
-      count() {
-        return this.list.length
       }
     },
 
@@ -111,6 +55,6 @@
       }
     },
 
-    components: { PokedexFilters, PokemonSprite, TypeBadge, RarityBadge, GenerationBadge }
+    components: { PaginatedList, PokedexFilters, PokedexItem }
   }
 </script>
