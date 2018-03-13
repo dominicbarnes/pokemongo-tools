@@ -1,7 +1,7 @@
 <template>
   <loading-panel>
     <catalog-filters v-model="filters" />
-    <b-container fluid class="pt-2">
+    <b-container v-if="ready" fluid class="pt-2">
       <b-row v-if="pokemon.length">
         <b-col cols="12" md="6" lg="4" xl="3" v-for="pokemon in items">
           <b-media class="border rounded p-1 mb-2">
@@ -85,6 +85,7 @@
 
     computed: {
       ...mapGetters({
+        ready: 'ready',
         loggedIn: 'account/loggedIn',
         pokemon: 'pokemon/all',
         pokemonByID: 'pokemonByID',

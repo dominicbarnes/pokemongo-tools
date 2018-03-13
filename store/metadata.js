@@ -20,6 +20,10 @@ const state = {
 }
 
 const getters = {
+  ready ({ loading }) {
+    return !loading
+  },
+
   pokemonByDex ({ pokemon }) {
     const m = index(pokemon, 'dex')
     return id => m.get(id)
