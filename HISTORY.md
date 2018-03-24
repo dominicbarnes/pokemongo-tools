@@ -1,4 +1,14 @@
 
+0.3.3 / 2018-03-24
+==================
+
+  * refactor: move markdown to global filters
+  * fix(catalog): broken notes/markdown
+  * perf: use key for list items
+  * feat: increments of 12 seem better
+  * feat: use increments of 24 for pagination (divisible by 2/3/4)
+  * refactor: add paginated-list component
+
 0.3.2 / 2018-03-12
 ==================
 
