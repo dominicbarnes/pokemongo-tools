@@ -1,4 +1,10 @@
 
+0.1.2 / 2018-03-24
+==================
+
+  * fix(catalog): sort recent by caught & added to allow out-of-order entries more gracefully
+  * fix: load script after snippet to ensure analytics is defined
+
 0.1.1 / 2018-03-04
 ==================
 
