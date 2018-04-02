@@ -6,7 +6,7 @@ cache:
   - node_modules
 before_deploy:
 - sudo chown -R $(whoami) /usr/local/bin/
-- curl -sf https://up.apex.sh/install | sh
+- curl -SL https://github.com/apex/up/releases/download/v0.5.11/up_0.5.11_linux_amd64.tar.gz | tar xz -C /usr/local/bin up
 - up upgrade > /dev/null
 deploy:
 - provider: script
