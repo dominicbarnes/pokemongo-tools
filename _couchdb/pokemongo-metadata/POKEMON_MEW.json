@@ -16,6 +16,58 @@
     {
       "id": "MOVE_POUND_FAST",
       "legacy": false
+    },
+    {
+      "id": "MOVE_STEEL_WING_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_CHARGE_BEAM_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SHADOW_CLAW_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_VOLT_SWITCH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_STRUGGLE_BUG_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FROST_BREATH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DRAGON_TAIL_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_INFESTATION_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_POISON_JAB_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ROCK_SMASH_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SNARL_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_CUT_FAST",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_WATERFALL_FAST",
+      "legacy": false
     }
   ],
   "chargeMoves": [
@@ -25,7 +77,7 @@
     },
     {
       "id": "MOVE_EARTHQUAKE",
-      "legacy": false
+      "legacy": true
     },
     {
       "id": "MOVE_PSYCHIC",
@@ -41,7 +93,7 @@
     },
     {
       "id": "MOVE_FIRE_BLAST",
-      "legacy": false
+      "legacy": true
     },
     {
       "id": "MOVE_SOLAR_BEAM",
@@ -49,6 +101,82 @@
     },
     {
       "id": "MOVE_HYPER_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ANCIENT_POWER",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DRAGON_CLAW",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_PSYSHOCK",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ICE_BEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_THUNDERBOLT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FLAME_CHARGE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_LOW_SWEEP",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_OVERHEAT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ENERGY_BALL",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_STONE_EDGE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_GYRO_BALL",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_BULLDOZE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_ROCK_SLIDE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_GRASS_KNOT",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_FLASH_CANNON",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_WILD_CHARGE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DARK_PULSE",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_DAZZLING_GLEAM",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_SURF",
       "legacy": false
     }
   ],
