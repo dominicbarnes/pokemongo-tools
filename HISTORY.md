@@ -1,4 +1,11 @@
 
+0.3.4 / 2018-04-07
+==================
+
+  * feat(catalog): keyword searches species name and nickname
+  * fix(travis): install up from github releases
+  * metadata: update
+
 0.3.3 / 2018-03-24
 ==================
 
