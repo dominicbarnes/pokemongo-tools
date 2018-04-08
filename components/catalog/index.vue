@@ -88,20 +88,24 @@
 
       filterer() {
         const { name, family, generation, minIV, types, evolves } = this.filters
-        const query = {}
+        const query = { $and: [] }
 
-        if (name) query.name = new RegExp(name, 'i')
-        if (family) query.family = family
-        if (generation) query.generation = generation
-        if (minIV) query.ivp = { $gte: minIV }
-        if (types && types.length) query.types = { $all: types.slice() }
-        if (typeof evolves === 'boolean') {
-          query.pokemon = evolves
-            ? { $in: this.evolves }
-            : { $nin: this.evolves }
+        if (name) {
+          const re = new RegExp(name, 'i')
+          query.$and.push({ $or: [ { name: re }, { species: re } ] })
         }
 
-        return Object.keys(query).length ? sift(query) : null
+        if (family) query.$and.push({ family })
+        if (generation) query.$and.push({ generation })
+        if (minIV) query.$and.push({ ivp: { $gte: minIV } })
+        if (types && types.length) query.$and.push({ types: { $all: types.slice() } })
+        if (typeof evolves === 'boolean') {
+          query.$and.push({
+            pokemon: { [evolves ? '$in' :'$nin']: this.evolves }
+          })
+        }
+
+        return sift(query)
       }
     },
 
