@@ -32,7 +32,7 @@
     "production": {
       "domain": "pokemongo.tools",
       "lambda": {
-        "warm": true
+        "warm": false
       }
     }
   }
