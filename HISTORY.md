@@ -1,4 +1,9 @@
 
+0.3.5 / 2018-04-09
+==================
+
+  * config: disable warming in case it's causing high KMS usage (apex/up#642)
+
 0.3.4 / 2018-04-07
 ==================
 
