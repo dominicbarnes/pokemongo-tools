@@ -1,7 +1,7 @@
 <template>
-  <b-form inline>
-    <b-select v-bind:options="options" v-bind:value="value" v-on:change="update" size="sm" />
-  </b-form>
+  <b-form-group label="Generation">
+    <b-select v-bind:options="options" v-bind:value="value" v-on:change="update" />
+  </b-form-group>
 </template>
 
 <script>
@@ -19,13 +19,10 @@ export default {
 
     options() {
       const list = this.generations.map(gen => {
-        return { value: gen, text: `Generation ${gen}` }
+        return { value: gen, text: gen }
       })
 
-      list.unshift(
-        { value: null, text: 'Generation' },
-        { disabled: true, text: '---' }
-      )
+      list.unshift({ value: null, text: '&mdash;' })
 
       return list
     }

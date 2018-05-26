@@ -1,20 +1,17 @@
 <template>
   <div>
-    <div v-if="empty">
+    <div v-if="empty" class="p-2">
       <slot name="empty" />
     </div>
     <div v-else>
-      <b-row>
-        <slot name="item" v-for="item in page" v-bind:item="item" />
-      </b-row>
-      <div class="d-flex justify-content-between mt-2">
-        <div class="d-none d-md-block py-2">
+      <div class="d-flex justify-content-between my-2">
+        <div class="d-none d-md-block">
           Showing
           <b-badge>{{ from }} - {{ to }}</b-badge>
           of
           <b-badge>{{ count }}</b-badge>
         </div>
-        <b-pagination v-model="currentPage" v-bind:per-page="perPage" v-bind:total-rows="count" align="center" class="m-0" />
+        <b-pagination v-model="currentPage" v-bind:per-page="perPage" v-bind:total-rows="count" align="center" />
         <div class="d-none d-md-block">
           <b-form inline>
             <label for="pokedex-per-page" class="mr-1">Per Page:</label>
@@ -22,6 +19,9 @@
           </b-form>
         </div>
       </div>
+      <b-row>
+        <slot name="item" v-for="item in page" v-bind:item="item" />
+      </b-row>
     </div>
   </div>
 </template>

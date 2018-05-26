@@ -1,53 +1,26 @@
 <template>
-  <b-navbar variant="light" toggleable>
-    <b-nav-text class="mr-2">Filters</b-nav-text>
-    <b-nav-form>
-      <b-form-input v-model="value.name" size="sm" type="text" placeholder="Name" />
-    </b-nav-form>
-    <b-navbar-toggle target="catalog-filters" />
-    <b-collapse is-nav id="catalog-filters">
-      <b-navbar-nav>
-        <filter-family v-model="value.family" class="ml-2" />
-        <filter-generation v-model="value.generation" class="ml-2" />
-        <filter-evolves v-model="value.evolves" class="ml-2" />
-        <b-nav-item-dropdown>
-          <template slot="button-content">
-            IVs
-            <span v-if="value.minIV > 0">(&ge;{{value.minIV}}%)</span>
-          </template>
-          <b-dropdown-header>Class</b-dropdown-header>
-          <b-dropdown-item v-on:click="value.minIV = 100">S (100%)</b-dropdown-item>
-          <b-dropdown-item v-on:click="value.minIV = 90">A (&ge;90%)</b-dropdown-item>
-          <b-dropdown-item v-on:click="value.minIV = 80">B (&ge;80%)</b-dropdown-item>
-          <b-dropdown-item v-on:click="value.minIV = 70">C (&ge;70%)</b-dropdown-item>
-          <b-dropdown-item v-on:click="value.minIV = 60">D (&ge;60%)</b-dropdown-item>
-          <b-dropdown-item v-on:click="value.minIV = 50">F (&ge;50%)</b-dropdown-item>
-          <b-dropdown-item v-on:click="value.minIV = 0">Show All</b-dropdown-item>
-        </b-nav-item-dropdown>
-        <filter-types v-model="value.types" />
-      </b-navbar-nav>
-      <b-navbar-nav class="ml-auto">
-        <b-nav-item-dropdown>
-          <template slot="button-content">
-            Sorted by: {{ sort[value.sort] }}
-          </template>
-          <b-dropdown-item v-for="(label, id) in sort" v-on:click="value.sort = id">{{ label }}</b-dropdown-item>
-        </b-nav-item-dropdown>
-        <b-nav-form class="ml-1">
-          <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add Pokémon</b-button>
-        </b-nav-form>
-      </b-navbar-nav>
-    </b-collapse>
-  </b-navbar>
+  <b-form>
+    <b-form-group label="Keywords">
+      <b-form-input v-model="value.name" type="text" placeholder="Name" />
+    </b-form-group>
+    <filter-generation v-model="value.generation" />
+    <filter-family v-model="value.family" />
+    <filter-rarity v-model="value.rarity" />
+    <filter-evolves v-model="value.evolves" />
+    <filter-types v-model="value.types" />
+    <filter-ivs v-model="value.minIV" />
+  </b-form>
 </template>
 
 <script>
   import debounce from 'debounce'
 
-  import FilterTypes from '../filters/types.vue'
-  import FilterFamily from '../filters/family.vue'
-  import FilterGeneration from '../filters/generation.vue'
   import FilterEvolves from '../filters/evolves.vue'
+  import FilterFamily from '../filters/family.vue'
+  import FilterIvs from '../filters/ivs.vue'
+  import FilterGeneration from '../filters/generation.vue'
+  import FilterTypes from '../filters/types.vue'
+  import FilterRarity from '../filters/rarity.vue'
 
   export default {
     data() {
@@ -60,13 +33,14 @@
           ivs: 'Individual Values'
         },
         value: {
-          name: '',
+          evolves: null,
           family: null,
           generation: null,
           minIV: 0,
-          types: [],
-          evolves: null,
-          sort: 'recent'
+          name: '',
+          rarity: null,
+          sort: 'recent',
+          types: []
         }
       }
     },
@@ -80,6 +54,6 @@
       }
     },
 
-    components: { FilterTypes, FilterFamily, FilterGeneration, FilterEvolves }
+    components: { FilterEvolves, FilterFamily, FilterIvs, FilterGeneration, FilterRarity, FilterTypes }
   }
 </script>

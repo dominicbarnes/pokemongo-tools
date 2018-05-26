@@ -1,7 +1,7 @@
 <template>
-  <b-form inline>
-    <b-select v-bind:options="options" v-bind:value="value" v-on:change="update" size="sm" />
-  </b-form>
+  <b-form-group label="Rarity">
+    <b-select v-bind:options="options" v-bind:value="value" v-on:change="update" />
+  </b-form-group>
 </template>
 
 <script>
@@ -13,11 +13,10 @@ export default {
   computed: {
     options() {
       return [
-        { value: null, text: 'Rarity' },
-        { disabled: true, text: '---' },
+        { value: null, text: '&mdash;' },
         { value: 'common', text: 'Common' },
-        { value: 'mythic', text: 'Mythical' },
-        { value: 'legendary', text: 'Legendary' }
+        { value: 'legendary', text: 'Legendary' },
+        { value: 'mythic', text: 'Mythical' }
       ]
     }
   },

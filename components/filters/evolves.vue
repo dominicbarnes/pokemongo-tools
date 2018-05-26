@@ -1,7 +1,7 @@
 <template>
-  <b-form inline>
-    <b-select v-bind:options="options" v-bind:value="value" v-on:change="update" size="sm" />
-  </b-form>
+  <b-form-group label="Evolves?">
+    <b-select v-bind:options="options" v-bind:value="value" v-on:change="update" />
+  </b-form-group>
 </template>
 
 <script>
@@ -15,8 +15,7 @@ export default {
   computed: {
     options() {
       return [
-        { value: null, text: 'Evolves?' },
-        { disabled: true, text: '---' },
+        { value: null, text: '&mdash;' },
         { value: true, text: 'Evolves' },
         { value: false, text: 'Does Not Evolve' }
       ]

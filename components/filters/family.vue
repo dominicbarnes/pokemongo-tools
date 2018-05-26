@@ -1,7 +1,7 @@
 <template>
-  <b-form inline>
-    <b-select v-bind:options="options" v-bind:value="value" v-on:change="update" size="sm" />
-  </b-form>
+  <b-form-group label="Evolution Family">
+    <b-select v-bind:options="options" v-bind:value="value" v-on:change="update" />
+  </b-form-group>
 </template>
 
 <script>
@@ -22,10 +22,7 @@ export default {
         return { value: family._id, text: `${family.name} Family` }
       })
 
-      list.unshift(
-        { value: null, text: 'Evolution Family' },
-        { disabled: true, text: '---' }
-      )
+      list.unshift({ value: null, text: '&mdash;' })
 
       return list
     }

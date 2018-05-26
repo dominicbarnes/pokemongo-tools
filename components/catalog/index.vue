@@ -1,18 +1,25 @@
 <template>
   <loading-panel>
-    <catalog-filters v-model="filters" />
-    <b-container v-if="ready" fluid class="pt-2">
-      <paginated-list v-bind:list="list" v-bind:filter="filterer" v-bind:sort="sorter">
-        <b-alert slot="empty" variant="warning" show>
-          <p>Your catalog is empty right now!</p>
-          <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add your first Pokémon!</b-button>
-        </b-alert>
-        <template slot="item" slot-scope="{ item: pokemon }">
-          <b-col v-bind:key="pokemon.id" cols="12" md="6" lg="4" xl="3">
-            <catalog-item v-bind:pokemon="pokemon" />
-          </b-col>
-        </template>
-      </paginated-list>
+    <b-container v-if="ready" fluid>
+      <b-row>
+        <b-col md="9" lg="10">
+          <paginated-list v-bind:list="list" v-bind:filter="filterer" v-bind:sort="sorter">
+            <b-alert slot="empty" variant="warning" show>
+              <p>Your catalog is empty right now!</p>
+              <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add your first Pokémon!</b-button>
+            </b-alert>
+            <template slot="item" slot-scope="{ item: pokemon }">
+              <b-col v-bind:key="pokemon.id" cols="12" md="6" lg="4">
+                <catalog-item v-bind:pokemon="pokemon" />
+              </b-col>
+            </template>
+          </paginated-list>
+        </b-col>
+        <b-col md="3" lg="2" class="bg-light pt-2">
+          <h3>Filters</h3>
+          <catalog-filters v-model="filters" />
+        </b-col>
+      </b-row>
     </b-container>
   </loading-panel>
 </template>
@@ -87,7 +94,7 @@
       },
 
       filterer() {
-        const { name, family, generation, minIV, types, evolves } = this.filters
+        const { name, family, generation, minIV, types, evolves, rarity } = this.filters
         const query = { $and: [] }
 
         if (name) {
@@ -98,6 +105,7 @@
         if (family) query.$and.push({ family })
         if (generation) query.$and.push({ generation })
         if (minIV) query.$and.push({ ivp: { $gte: minIV } })
+        if (rarity) query.$and.push({ rarity: rarity === 'common' ? null : rarity })
         if (types && types.length) query.$and.push({ types: { $all: types.slice() } })
         if (typeof evolves === 'boolean') {
           query.$and.push({

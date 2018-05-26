@@ -1,19 +1,13 @@
 <template>
-  <b-navbar variant="light" toggleable>
-    <b-nav-text class="mr-2">Filters</b-nav-text>
-    <b-nav-form>
-      <b-form-input v-model="value.name" type="text" placeholder="Name" size="sm" />
-    </b-nav-form>
-    <b-navbar-toggle target="pokedex-filters" />
-    <b-collapse is-nav id="pokedex-filters">
-      <b-navbar-nav>
-        <filter-generation v-model="value.generation" class="ml-2" />
-        <filter-family v-model="value.family" class="ml-2" />
-        <filter-rarity v-model="value.rarity" class="ml-2" />
-        <filter-types v-model="value.types" class="ml-2" />
-      </b-navbar-nav>
-    </b-collapse>
-  </b-navbar>
+  <b-form>
+    <b-form-group label="Keywords">
+      <b-form-input v-model="value.name" type="text" placeholder="Name" />
+    </b-form-group>
+    <filter-generation v-model="value.generation" />
+    <filter-family v-model="value.family" />
+    <filter-rarity v-model="value.rarity" />
+    <filter-types v-model="value.types" />
+  </b-form>
 </template>
 
 <script>
