@@ -2,7 +2,11 @@
   <loading-panel>
     <b-container fluid>
       <b-row>
-        <b-col md="9" lg="10">
+        <b-col md="3" lg="2" class="bg-light pt-2">
+          <h3>Filters</h3>
+          <pokedex-filters v-model="filters" />
+        </b-col>
+        <b-col md="9" lg="10" class="pt-2">
           <paginated-list v-bind:list="list" v-bind:filter="filterer">
             <template slot="item" slot-scope="{ item: pokemon }">
               <b-col v-bind:key="pokemon.id" cols="12" md="6" lg="4">
@@ -10,10 +14,6 @@
               </b-col>
             </template>
           </paginated-list>
-        </b-col>
-        <b-col md="3" lg="2" class="bg-light pt-2">
-          <h3>Filters</h3>
-          <pokedex-filters v-model="filters" />
         </b-col>
       </b-row>
     </b-container>
