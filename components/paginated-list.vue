@@ -4,6 +4,9 @@
       <slot name="empty" />
     </div>
     <div v-else>
+      <b-row>
+        <slot name="item" v-for="item in page" v-bind:item="item" />
+      </b-row>
       <div class="d-flex justify-content-between my-2">
         <div class="d-none d-md-block">
           Showing
@@ -19,9 +22,6 @@
           </b-form>
         </div>
       </div>
-      <b-row>
-        <slot name="item" v-for="item in page" v-bind:item="item" />
-      </b-row>
     </div>
   </div>
 </template>

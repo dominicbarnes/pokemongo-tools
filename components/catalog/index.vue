@@ -2,7 +2,24 @@
   <loading-panel>
     <b-container v-if="ready" fluid>
       <b-row>
+        <b-col md="3" lg="2" class="bg-light pt-2">
+          <h3>Filters</h3>
+          <catalog-filters v-model="filters" />
+        </b-col>
         <b-col md="9" lg="10">
+          <b-row class="my-2">
+            <b-col>
+              <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add Pokémon</b-button>
+            </b-col>
+            <b-col>
+              <b-form inline class="float-right">
+                <label>
+                  Sort By:&nbsp;
+                  <b-form-select v-model="sort" v-bind:options="sortBy" />
+                </label>
+              </b-form>
+            </b-col>
+          </b-row>
           <paginated-list v-bind:list="list" v-bind:filter="filterer" v-bind:sort="sorter">
             <b-alert slot="empty" variant="warning" show>
               <p>Your catalog is empty right now!</p>
@@ -14,10 +31,6 @@
               </b-col>
             </template>
           </paginated-list>
-        </b-col>
-        <b-col md="3" lg="2" class="bg-light pt-2">
-          <h3>Filters</h3>
-          <catalog-filters v-model="filters" />
         </b-col>
       </b-row>
     </b-container>
@@ -36,7 +49,8 @@
   export default {
     data() {
       return {
-        filters: { sort: 'recent' }
+        filters: {},
+        sort: 'recent'
       }
     },
 
@@ -84,13 +98,23 @@
       },
 
       sorter() {
-        switch (this.filters.sort) {
+        switch (this.sort) {
           case 'recent': return sortBy('-caught', '-added')
           case 'dex': return sortBy('dex', '-cp')
           case 'name': return sortBy('name', '-cp')
           case 'cp': return sortBy('-cp')
           case 'ivs': return sortBy('-ivs', '-added')
         }
+      },
+
+      sortBy() {
+        return [ 
+          { value: 'recent', text: 'Recent' },
+          { value: 'dex', text: 'Pokédex Number' },
+          { value: 'name', text: 'Name' },
+          { value: 'cp', text: 'Combat Power' },
+          { value: 'ivs', text: 'Individual Values (IVs)' }
+        ]
       },
 
       filterer() {
