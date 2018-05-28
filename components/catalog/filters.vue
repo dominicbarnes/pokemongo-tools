@@ -3,12 +3,12 @@
     <b-form-group label="Keywords">
       <b-form-input v-model="value.name" type="text" placeholder="Name" />
     </b-form-group>
-    <filter-generation v-model="value.generation" />
     <filter-family v-model="value.family" />
+    <filter-ivs v-model="value.minIV" />
+    <filter-generation v-model="value.generation" />
     <filter-rarity v-model="value.rarity" />
     <filter-evolves v-model="value.evolves" />
     <filter-types v-model="value.types" />
-    <filter-ivs v-model="value.minIV" />
   </b-form>
 </template>
 
