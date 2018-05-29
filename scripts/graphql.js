@@ -47,6 +47,49 @@ const query = `{
     family {
       id
     }
+    forms {
+      form
+      pokemon {
+        id
+        name
+        dex
+        generation
+        types
+        baseStats {
+          stamina
+          attack
+          defense
+        }
+        previousEvolution {
+          id
+        }
+        nextEvolutions {
+          pokemon {
+            id
+          }
+          candy
+          item {
+            id
+          }
+        }
+        quickMoves {
+          id
+          legacy
+        }
+        chargeMoves {
+          id
+          legacy
+        }
+        rarity
+        maxCP
+        buddyDistance
+        height
+        weight
+        family {
+          id
+        }
+      }
+    }
   }
   types {
     list
@@ -105,6 +148,12 @@ function pokemon (list) {
       pokemon.chargeMoves = pokemon.chargeMoves.map(move => {
         return { id: move.id, legacy: move.legacy }
       })
+    }
+    if (pokemon.forms) {
+      pokemon.forms = pokemon.forms.reduce(function (acc, form) {
+        acc[form.form] = form.pokemon
+        return acc
+      }, Object.create(null))
     }
     return pokemon
   })
