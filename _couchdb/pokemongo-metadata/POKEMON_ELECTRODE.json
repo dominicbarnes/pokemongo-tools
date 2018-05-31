@@ -38,9 +38,10 @@
   ],
   "rarity": null,
   "maxCP": 1900,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.2,
   "weight": 66.6,
   "family": "FAMILY_VOLTORB",
+  "forms": null,
   "_id": "POKEMON_ELECTRODE"
 }

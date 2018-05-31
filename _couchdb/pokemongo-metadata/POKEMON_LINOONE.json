@@ -46,9 +46,10 @@
   ],
   "rarity": null,
   "maxCP": 1533,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.51,
   "weight": 32.5,
   "family": "FAMILY_ZIGZAGOON",
+  "forms": null,
   "_id": "POKEMON_LINOONE"
 }

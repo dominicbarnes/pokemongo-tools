@@ -45,9 +45,10 @@
   ],
   "rarity": null,
   "maxCP": 1002,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.3,
   "weight": 0.1,
   "family": "FAMILY_GASTLY",
+  "forms": null,
   "_id": "POKEMON_GASTLY"
 }

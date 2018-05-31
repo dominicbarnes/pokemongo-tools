@@ -47,9 +47,10 @@
   ],
   "rarity": null,
   "maxCP": 1751,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 0.79,
   "weight": 12,
   "family": "FAMILY_NINCADA",
+  "forms": null,
   "_id": "POKEMON_NINJASK"
 }

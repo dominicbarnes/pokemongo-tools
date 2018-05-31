@@ -45,9 +45,10 @@
   ],
   "rarity": null,
   "maxCP": 508,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.41,
   "weight": 0.5,
   "family": "FAMILY_HOPPIP",
+  "forms": null,
   "_id": "POKEMON_HOPPIP"
 }

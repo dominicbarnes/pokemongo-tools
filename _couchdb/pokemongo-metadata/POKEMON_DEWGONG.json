@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 1894,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.7,
   "weight": 120,
   "family": "FAMILY_SEEL",
+  "forms": null,
   "_id": "POKEMON_DEWGONG"
 }

@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 1636,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 1.09,
   "weight": 33.5,
   "family": "FAMILY_SPINARAK",
+  "forms": null,
   "_id": "POKEMON_ARIADOS"
 }

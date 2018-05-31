@@ -43,9 +43,10 @@
   ],
   "rarity": null,
   "maxCP": 937,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 0.89,
   "weight": 16,
   "family": "FAMILY_DELIBIRD",
+  "forms": null,
   "_id": "POKEMON_DELIBIRD"
 }

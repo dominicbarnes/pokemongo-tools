@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 1124,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.61,
   "weight": 7.8,
   "family": "FAMILY_SNUBBULL",
+  "forms": null,
   "_id": "POKEMON_SNUBBULL"
 }

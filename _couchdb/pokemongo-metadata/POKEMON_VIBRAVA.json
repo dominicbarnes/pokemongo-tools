@@ -53,9 +53,10 @@
   ],
   "rarity": null,
   "maxCP": 1065,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 1.09,
   "weight": 15.3,
   "family": "FAMILY_TRAPINCH",
+  "forms": null,
   "_id": "POKEMON_VIBRAVA"
 }

@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 857,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.5,
   "weight": 10.4,
   "family": "FAMILY_VOLTORB",
+  "forms": null,
   "_id": "POKEMON_VOLTORB"
 }

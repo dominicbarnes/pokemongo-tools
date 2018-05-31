@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 1178,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 0.71,
   "weight": 21.4,
   "family": "FAMILY_MAGMAR",
+  "forms": null,
   "_id": "POKEMON_MAGBY"
 }

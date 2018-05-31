@@ -38,9 +38,10 @@
   ],
   "rarity": null,
   "maxCP": 3219,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 1.5,
   "weight": 46.8,
   "family": "FAMILY_CHANSEY",
+  "forms": null,
   "_id": "POKEMON_BLISSEY"
 }

@@ -47,9 +47,10 @@
   ],
   "rarity": null,
   "maxCP": 1484,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 0.61,
   "weight": 11.5,
   "family": "FAMILY_MAWILE",
+  "forms": null,
   "_id": "POKEMON_MAWILE"
 }

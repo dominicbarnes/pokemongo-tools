@@ -42,9 +42,10 @@
   ],
   "rarity": null,
   "maxCP": 2098,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 1.4,
   "weight": 50.2,
   "family": "FAMILY_TYROGUE",
+  "forms": null,
   "_id": "POKEMON_HITMONCHAN"
 }

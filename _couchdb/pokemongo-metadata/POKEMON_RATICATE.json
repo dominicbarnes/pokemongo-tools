@@ -38,9 +38,10 @@
   ],
   "rarity": null,
   "maxCP": 1549,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.7,
   "weight": 18.5,
   "family": "FAMILY_RATTATA",
+  "forms": null,
   "_id": "POKEMON_RATICATE"
 }

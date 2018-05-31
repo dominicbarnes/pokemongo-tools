@@ -36,9 +36,10 @@
   ],
   "rarity": null,
   "maxCP": 393,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.3,
   "weight": 2.9,
   "family": "FAMILY_CATERPIE",
+  "forms": null,
   "_id": "POKEMON_CATERPIE"
 }

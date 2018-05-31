@@ -46,9 +46,203 @@
   ],
   "rarity": "mythic",
   "maxCP": 15,
-  "buddyDistance": 20,
+  "buddyDistance": 5,
   "height": 1.7,
   "weight": 60.8,
   "family": "FAMILY_DEOXYS",
+  "forms": {
+    "attack": {
+      "id": "POKEMON_DEOXYS",
+      "name": "Deoxys (Attack)",
+      "dex": 386,
+      "generation": 3,
+      "types": [
+        "psychic"
+      ],
+      "baseStats": {
+        "stamina": 1,
+        "attack": 1,
+        "defense": 1
+      },
+      "previousEvolution": null,
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_ZEN_HEADBUTT_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_COUNTER_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_PSYCHO_BOOST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_ZAP_CANNON",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_SWIFT",
+          "legacy": false
+        }
+      ],
+      "rarity": "mythic",
+      "maxCP": 15,
+      "buddyDistance": 5,
+      "height": 1.7,
+      "weight": 60.8,
+      "family": {
+        "id": "FAMILY_DEOXYS"
+      }
+    },
+    "defense": {
+      "id": "POKEMON_DEOXYS",
+      "name": "Deoxys (Defense)",
+      "dex": 386,
+      "generation": 3,
+      "types": [
+        "psychic"
+      ],
+      "baseStats": {
+        "stamina": 1,
+        "attack": 1,
+        "defense": 1
+      },
+      "previousEvolution": null,
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_ZEN_HEADBUTT_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_COUNTER_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_PSYCHO_BOOST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_ZAP_CANNON",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_SWIFT",
+          "legacy": false
+        }
+      ],
+      "rarity": "mythic",
+      "maxCP": 15,
+      "buddyDistance": 5,
+      "height": 1.7,
+      "weight": 60.8,
+      "family": {
+        "id": "FAMILY_DEOXYS"
+      }
+    },
+    "normal": {
+      "id": "POKEMON_DEOXYS",
+      "name": "Deoxys (Normal)",
+      "dex": 386,
+      "generation": 3,
+      "types": [
+        "psychic"
+      ],
+      "baseStats": {
+        "stamina": 1,
+        "attack": 1,
+        "defense": 1
+      },
+      "previousEvolution": null,
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_ZEN_HEADBUTT_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_COUNTER_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_PSYCHO_BOOST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_ZAP_CANNON",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_SWIFT",
+          "legacy": false
+        }
+      ],
+      "rarity": "mythic",
+      "maxCP": 15,
+      "buddyDistance": 5,
+      "height": 1.7,
+      "weight": 60.8,
+      "family": {
+        "id": "FAMILY_DEOXYS"
+      }
+    },
+    "speed": {
+      "id": "POKEMON_DEOXYS",
+      "name": "Deoxys (Speed)",
+      "dex": 386,
+      "generation": 3,
+      "types": [
+        "psychic"
+      ],
+      "baseStats": {
+        "stamina": 1,
+        "attack": 1,
+        "defense": 1
+      },
+      "previousEvolution": null,
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_ZEN_HEADBUTT_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_COUNTER_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_PSYCHO_BOOST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_ZAP_CANNON",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_SWIFT",
+          "legacy": false
+        }
+      ],
+      "rarity": "mythic",
+      "maxCP": 15,
+      "buddyDistance": 5,
+      "height": 1.7,
+      "weight": 60.8,
+      "family": {
+        "id": "FAMILY_DEOXYS"
+      }
+    }
+  },
   "_id": "POKEMON_DEOXYS"
 }

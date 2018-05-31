@@ -60,9 +60,10 @@
   ],
   "rarity": null,
   "maxCP": 969,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 0.3,
   "weight": 6.5,
   "family": "FAMILY_EEVEE",
+  "forms": null,
   "_id": "POKEMON_EEVEE"
 }

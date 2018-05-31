@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 3670,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 2.01,
   "weight": 202,
   "family": "FAMILY_LARVITAR",
+  "forms": null,
   "_id": "POKEMON_TYRANITAR"
 }

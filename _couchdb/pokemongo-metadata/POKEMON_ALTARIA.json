@@ -47,9 +47,10 @@
   ],
   "rarity": null,
   "maxCP": 1868,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 1.09,
   "weight": 20.6,
   "family": "FAMILY_SWABLU",
+  "forms": null,
   "_id": "POKEMON_ALTARIA"
 }

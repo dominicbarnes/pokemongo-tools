@@ -34,9 +34,10 @@
   ],
   "rarity": null,
   "maxCP": 2052,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 0.99,
   "weight": 27,
   "family": "FAMILY_EEVEE",
+  "forms": null,
   "_id": "POKEMON_UMBREON"
 }

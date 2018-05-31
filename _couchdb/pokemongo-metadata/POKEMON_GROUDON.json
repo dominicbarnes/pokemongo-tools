@@ -46,9 +46,10 @@
   ],
   "rarity": "legendary",
   "maxCP": 4074,
-  "buddyDistance": 20,
+  "buddyDistance": 5,
   "height": 3.51,
   "weight": 950,
   "family": "FAMILY_GROUDON",
+  "forms": null,
   "_id": "POKEMON_GROUDON"
 }

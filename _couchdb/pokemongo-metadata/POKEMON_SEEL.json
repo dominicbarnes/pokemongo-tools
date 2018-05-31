@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 899,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.1,
   "weight": 90,
   "family": "FAMILY_SEEL",
+  "forms": null,
   "_id": "POKEMON_SEEL"
 }

@@ -56,9 +56,10 @@
   ],
   "rarity": null,
   "maxCP": 1233,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.99,
   "weight": 40.5,
   "family": "FAMILY_WHISMUR",
+  "forms": null,
   "_id": "POKEMON_LOUDRED"
 }

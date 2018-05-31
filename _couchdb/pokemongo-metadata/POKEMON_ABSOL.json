@@ -46,9 +46,10 @@
   ],
   "rarity": null,
   "maxCP": 2280,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 1.19,
   "weight": 47,
   "family": "FAMILY_ABSOL",
+  "forms": null,
   "_id": "POKEMON_ABSOL"
 }

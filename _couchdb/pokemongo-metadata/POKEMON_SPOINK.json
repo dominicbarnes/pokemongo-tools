@@ -48,9 +48,10 @@
   ],
   "rarity": null,
   "maxCP": 1285,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.71,
   "weight": 30.6,
   "family": "FAMILY_SPOINK",
+  "forms": null,
   "_id": "POKEMON_SPOINK"
 }

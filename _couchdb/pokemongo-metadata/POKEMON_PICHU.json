@@ -40,9 +40,10 @@
   ],
   "rarity": null,
   "maxCP": 376,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.3,
   "weight": 2,
   "family": "FAMILY_PIKACHU",
+  "forms": null,
   "_id": "POKEMON_PICHU"
 }

@@ -52,9 +52,10 @@
   ],
   "rarity": null,
   "maxCP": 423,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.41,
   "weight": 17.5,
   "family": "FAMILY_ZIGZAGOON",
+  "forms": null,
   "_id": "POKEMON_ZIGZAGOON"
 }

@@ -38,9 +38,10 @@
   ],
   "rarity": null,
   "maxCP": 2227,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.8,
   "weight": 100.5,
   "family": "FAMILY_CHIKORITA",
+  "forms": null,
   "_id": "POKEMON_MEGANIUM"
 }

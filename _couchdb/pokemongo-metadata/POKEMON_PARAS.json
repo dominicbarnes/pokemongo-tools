@@ -45,9 +45,10 @@
   ],
   "rarity": null,
   "maxCP": 836,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.3,
   "weight": 5.4,
   "family": "FAMILY_PARAS",
+  "forms": null,
   "_id": "POKEMON_PARAS"
 }

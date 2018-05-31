@@ -53,9 +53,10 @@
   ],
   "rarity": null,
   "maxCP": 436,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 0.41,
   "weight": 6.6,
   "family": "FAMILY_RALTS",
+  "forms": null,
   "_id": "POKEMON_RALTS"
 }

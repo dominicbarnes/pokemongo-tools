@@ -47,9 +47,10 @@
   ],
   "rarity": null,
   "maxCP": 3004,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 2.11,
   "weight": 360,
   "family": "FAMILY_ARON",
+  "forms": null,
   "_id": "POKEMON_AGGRON"
 }

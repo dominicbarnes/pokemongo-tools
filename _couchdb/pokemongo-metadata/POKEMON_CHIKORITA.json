@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 801,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.89,
   "weight": 6.4,
   "family": "FAMILY_CHIKORITA",
+  "forms": null,
   "_id": "POKEMON_CHIKORITA"
 }

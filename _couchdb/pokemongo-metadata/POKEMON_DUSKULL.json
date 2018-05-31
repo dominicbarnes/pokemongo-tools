@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 523,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.79,
   "weight": 15,
   "family": "FAMILY_DUSKULL",
+  "forms": null,
   "_id": "POKEMON_DUSKULL"
 }

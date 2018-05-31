@@ -45,9 +45,10 @@
   ],
   "rarity": null,
   "maxCP": 1815,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 1,
   "weight": 105,
   "family": "FAMILY_GEODUDE",
+  "forms": null,
   "_id": "POKEMON_GRAVELER"
 }

@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 1609,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 4,
   "weight": 16.5,
   "family": "FAMILY_DRATINI",
+  "forms": null,
   "_id": "POKEMON_DRAGONAIR"
 }

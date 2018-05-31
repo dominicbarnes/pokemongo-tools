@@ -45,9 +45,10 @@
   ],
   "rarity": null,
   "maxCP": 713,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.5,
   "weight": 5.5,
   "family": "FAMILY_JIGGLYPUFF",
+  "forms": null,
   "_id": "POKEMON_JIGGLYPUFF"
 }

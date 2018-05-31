@@ -45,9 +45,10 @@
   ],
   "rarity": null,
   "maxCP": 1067,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.51,
   "weight": 12,
   "family": "FAMILY_CHINCHOU",
+  "forms": null,
   "_id": "POKEMON_CHINCHOU"
 }

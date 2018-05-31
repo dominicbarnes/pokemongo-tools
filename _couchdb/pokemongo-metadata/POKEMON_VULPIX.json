@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 774,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.6,
   "weight": 9.9,
   "family": "FAMILY_VULPIX",
+  "forms": null,
   "_id": "POKEMON_VULPIX"
 }

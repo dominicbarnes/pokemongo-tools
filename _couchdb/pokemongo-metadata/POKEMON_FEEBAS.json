@@ -40,9 +40,10 @@
   ],
   "rarity": null,
   "maxCP": 220,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 0.61,
   "weight": 7.4,
   "family": "FAMILY_FEEBAS",
+  "forms": null,
   "_id": "POKEMON_FEEBAS"
 }

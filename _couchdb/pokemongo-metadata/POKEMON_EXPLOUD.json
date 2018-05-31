@@ -46,9 +46,10 @@
   ],
   "rarity": null,
   "maxCP": 2267,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 1.5,
   "weight": 84,
   "family": "FAMILY_WHISMUR",
+  "forms": null,
   "_id": "POKEMON_EXPLOUD"
 }

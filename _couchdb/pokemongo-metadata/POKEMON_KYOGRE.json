@@ -46,9 +46,10 @@
   ],
   "rarity": "legendary",
   "maxCP": 4074,
-  "buddyDistance": 20,
+  "buddyDistance": 5,
   "height": 4.5,
   "weight": 352,
   "family": "FAMILY_KYOGRE",
+  "forms": null,
   "_id": "POKEMON_KYOGRE"
 }

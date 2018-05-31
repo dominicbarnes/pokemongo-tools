@@ -38,9 +38,10 @@
   ],
   "rarity": null,
   "maxCP": 2546,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.61,
   "weight": 32.5,
   "family": "FAMILY_PORYGON",
+  "forms": null,
   "_id": "POKEMON_PORYGON2"
 }

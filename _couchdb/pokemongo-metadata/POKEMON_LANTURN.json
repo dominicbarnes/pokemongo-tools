@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 2077,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.19,
   "weight": 22.5,
   "family": "FAMILY_CHINCHOU",
+  "forms": null,
   "_id": "POKEMON_LANTURN"
 }

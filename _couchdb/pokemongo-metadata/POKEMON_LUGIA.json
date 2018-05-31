@@ -39,9 +39,10 @@
   ],
   "rarity": "legendary",
   "maxCP": 3598,
-  "buddyDistance": 20,
+  "buddyDistance": 5,
   "height": 5.21,
   "weight": 216,
   "family": "FAMILY_LUGIA",
+  "forms": null,
   "_id": "POKEMON_LUGIA"
 }

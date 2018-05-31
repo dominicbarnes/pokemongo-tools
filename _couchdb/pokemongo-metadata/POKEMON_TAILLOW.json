@@ -45,9 +45,10 @@
   ],
   "rarity": null,
   "maxCP": 642,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.3,
   "weight": 2.3,
   "family": "FAMILY_TAILLOW",
+  "forms": null,
   "_id": "POKEMON_TAILLOW"
 }

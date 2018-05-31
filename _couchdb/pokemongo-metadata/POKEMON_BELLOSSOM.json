@@ -38,9 +38,10 @@
   ],
   "rarity": null,
   "maxCP": 2108,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.41,
   "weight": 5.8,
   "family": "FAMILY_ODDISH",
+  "forms": null,
   "_id": "POKEMON_BELLOSSOM"
 }

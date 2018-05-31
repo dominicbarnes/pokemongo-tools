@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 2938,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.5,
   "weight": 54,
   "family": "FAMILY_HERACROSS",
+  "forms": null,
   "_id": "POKEMON_HERACROSS"
 }

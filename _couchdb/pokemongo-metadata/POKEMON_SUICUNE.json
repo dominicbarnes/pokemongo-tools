@@ -42,9 +42,10 @@
   ],
   "rarity": "legendary",
   "maxCP": 2823,
-  "buddyDistance": 20,
+  "buddyDistance": 5,
   "height": 2.01,
   "weight": 187,
   "family": "FAMILY_SUICUNE",
+  "forms": null,
   "_id": "POKEMON_SUICUNE"
 }

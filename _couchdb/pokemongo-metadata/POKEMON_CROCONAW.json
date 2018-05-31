@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 1598,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.09,
   "weight": 25,
   "family": "FAMILY_TOTODILE",
+  "forms": null,
   "_id": "POKEMON_CROCONAW"
 }

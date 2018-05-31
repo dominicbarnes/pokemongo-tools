@@ -26,9 +26,10 @@
   ],
   "rarity": null,
   "maxCP": 1022,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 0.51,
   "weight": 5,
   "family": "FAMILY_UNOWN",
+  "forms": null,
   "_id": "POKEMON_UNOWN"
 }

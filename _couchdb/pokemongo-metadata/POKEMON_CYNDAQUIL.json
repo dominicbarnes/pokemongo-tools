@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 831,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.51,
   "weight": 7.9,
   "family": "FAMILY_CYNDAQUIL",
+  "forms": null,
   "_id": "POKEMON_CYNDAQUIL"
 }

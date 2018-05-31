@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 1910,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.51,
   "weight": 3.9,
   "family": "FAMILY_QWILFISH",
+  "forms": null,
   "_id": "POKEMON_QWILFISH"
 }

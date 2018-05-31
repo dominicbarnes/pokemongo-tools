@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 749,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.61,
   "weight": 12,
   "family": "FAMILY_REMORAID",
+  "forms": null,
   "_id": "POKEMON_REMORAID"
 }

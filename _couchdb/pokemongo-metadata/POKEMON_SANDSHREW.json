@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 1194,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.6,
   "weight": 12,
   "family": "FAMILY_SANDSHREW",
+  "forms": null,
   "_id": "POKEMON_SANDSHREW"
 }

@@ -45,9 +45,10 @@
   ],
   "rarity": null,
   "maxCP": 1716,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.6,
   "weight": 0.1,
   "family": "FAMILY_GASTLY",
+  "forms": null,
   "_id": "POKEMON_HAUNTER"
 }

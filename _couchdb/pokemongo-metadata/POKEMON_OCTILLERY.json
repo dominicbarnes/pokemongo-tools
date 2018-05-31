@@ -38,9 +38,10 @@
   ],
   "rarity": null,
   "maxCP": 2124,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.89,
   "weight": 28.5,
   "family": "FAMILY_REMORAID",
+  "forms": null,
   "_id": "POKEMON_OCTILLERY"
 }

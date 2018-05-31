@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 1214,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.61,
   "weight": 5,
   "family": "FAMILY_CORSOLA",
+  "forms": null,
   "_id": "POKEMON_CORSOLA"
 }

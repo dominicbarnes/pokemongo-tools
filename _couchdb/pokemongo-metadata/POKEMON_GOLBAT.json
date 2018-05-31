@@ -45,9 +45,10 @@
   ],
   "rarity": null,
   "maxCP": 1830,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 1.6,
   "weight": 55,
   "family": "FAMILY_ZUBAT",
+  "forms": null,
   "_id": "POKEMON_GOLBAT"
 }

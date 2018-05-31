@@ -46,9 +46,10 @@
   ],
   "rarity": null,
   "maxCP": 2765,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 2.31,
   "weight": 253.8,
   "family": "FAMILY_MAKUHITA",
+  "forms": null,
   "_id": "POKEMON_HARIYAMA"
 }

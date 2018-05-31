@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 1045,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 0.61,
   "weight": 7.2,
   "family": "FAMILY_PINECO",
+  "forms": null,
   "_id": "POKEMON_PINECO"
 }

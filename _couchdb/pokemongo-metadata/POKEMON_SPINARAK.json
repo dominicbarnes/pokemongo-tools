@@ -45,9 +45,10 @@
   ],
   "rarity": null,
   "maxCP": 685,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.51,
   "weight": 8.5,
   "family": "FAMILY_SPINARAK",
+  "forms": null,
   "_id": "POKEMON_SPINARAK"
 }

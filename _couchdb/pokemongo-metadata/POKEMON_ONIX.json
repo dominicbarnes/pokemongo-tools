@@ -47,9 +47,10 @@
   ],
   "rarity": null,
   "maxCP": 1002,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 8.8,
   "weight": 210,
   "family": "FAMILY_ONIX",
+  "forms": null,
   "_id": "POKEMON_ONIX"
 }

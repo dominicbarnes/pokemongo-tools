@@ -46,9 +46,10 @@
   ],
   "rarity": null,
   "maxCP": 1928,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 2.69,
   "weight": 52.5,
   "family": "FAMILY_SEVIPER",
+  "forms": null,
   "_id": "POKEMON_SEVIPER"
 }

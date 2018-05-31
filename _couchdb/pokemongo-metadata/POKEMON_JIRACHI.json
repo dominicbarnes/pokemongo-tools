@@ -47,9 +47,10 @@
   ],
   "rarity": "mythic",
   "maxCP": 3090,
-  "buddyDistance": 20,
+  "buddyDistance": 5,
   "height": 0.3,
   "weight": 1.1,
   "family": "FAMILY_JIRACHI",
+  "forms": null,
   "_id": "POKEMON_JIRACHI"
 }

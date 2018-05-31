@@ -43,5 +43,109 @@
   "height": 2,
   "weight": 120,
   "family": "FAMILY_EXEGGCUTE",
+  "forms": {
+    "alola": {
+      "id": "POKEMON_EXEGGUTOR",
+      "name": "Exeggutor (Alola)",
+      "dex": 103,
+      "generation": 1,
+      "types": [
+        "grass",
+        "dragon"
+      ],
+      "baseStats": {
+        "stamina": 190,
+        "attack": 230,
+        "defense": 158
+      },
+      "previousEvolution": {
+        "id": "POKEMON_EXEGGCUTE"
+      },
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_BULLET_SEED_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_DRAGON_TAIL_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_SEED_BOMB",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_DRAGON_PULSE",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_SOLAR_BEAM",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "maxCP": 2881,
+      "buddyDistance": 3,
+      "height": 10.9,
+      "weight": 415.6,
+      "family": {
+        "id": "FAMILY_EXEGGCUTE"
+      }
+    },
+    "normal": {
+      "id": "POKEMON_EXEGGUTOR",
+      "name": "Exeggutor (Normal)",
+      "dex": 103,
+      "generation": 1,
+      "types": [
+        "grass",
+        "psychic"
+      ],
+      "baseStats": {
+        "stamina": 190,
+        "attack": 233,
+        "defense": 158
+      },
+      "previousEvolution": {
+        "id": "POKEMON_EXEGGCUTE"
+      },
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_BULLET_SEED_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_EXTRASENSORY_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_SEED_BOMB",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_PSYCHIC",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_SOLAR_BEAM",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "maxCP": 2916,
+      "buddyDistance": 3,
+      "height": 2,
+      "weight": 120,
+      "family": {
+        "id": "FAMILY_EXEGGCUTE"
+      }
+    }
+  },
   "_id": "POKEMON_EXEGGUTOR"
 }

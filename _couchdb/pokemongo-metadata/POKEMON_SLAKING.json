@@ -42,9 +42,10 @@
   ],
   "rarity": null,
   "maxCP": 4548,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 2.01,
   "weight": 130.5,
   "family": "FAMILY_SLAKOTH",
+  "forms": null,
   "_id": "POKEMON_SLAKING"
 }

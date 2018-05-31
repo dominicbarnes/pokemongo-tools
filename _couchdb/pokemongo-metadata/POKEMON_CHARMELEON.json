@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 1484,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.1,
   "weight": 19,
   "family": "FAMILY_CHARMANDER",
+  "forms": null,
   "_id": "POKEMON_CHARMELEON"
 }

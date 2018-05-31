@@ -42,9 +42,10 @@
   ],
   "rarity": null,
   "maxCP": 2371,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.09,
   "weight": 33.9,
   "family": "FAMILY_POLIWAG",
+  "forms": null,
   "_id": "POKEMON_POLITOED"
 }

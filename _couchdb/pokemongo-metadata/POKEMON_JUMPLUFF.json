@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 1553,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.79,
   "weight": 3,
   "family": "FAMILY_HOPPIP",
+  "forms": null,
   "_id": "POKEMON_JUMPLUFF"
 }

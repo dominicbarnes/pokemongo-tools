@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 1305,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 0.51,
   "weight": 11,
   "family": "FAMILY_SABLEYE",
+  "forms": null,
   "_id": "POKEMON_SABLEYE"
 }

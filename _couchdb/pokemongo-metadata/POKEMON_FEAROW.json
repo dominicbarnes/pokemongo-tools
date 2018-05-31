@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 1814,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 1.2,
   "weight": 38,
   "family": "FAMILY_SPEAROW",
+  "forms": null,
   "_id": "POKEMON_FEAROW"
 }

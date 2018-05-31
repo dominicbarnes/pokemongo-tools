@@ -45,9 +45,10 @@
   ],
   "rarity": null,
   "maxCP": 925,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.2,
   "weight": 2,
   "family": "FAMILY_NATU",
+  "forms": null,
   "_id": "POKEMON_NATU"
 }

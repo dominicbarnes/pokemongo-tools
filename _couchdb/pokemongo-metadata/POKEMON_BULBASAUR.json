@@ -45,9 +45,10 @@
   ],
   "rarity": null,
   "maxCP": 981,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.7,
   "weight": 6.9,
   "family": "FAMILY_BULBASAUR",
+  "forms": null,
   "_id": "POKEMON_BULBASAUR"
 }

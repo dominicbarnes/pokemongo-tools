@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 1484,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.89,
   "weight": 19,
   "family": "FAMILY_CYNDAQUIL",
+  "forms": null,
   "_id": "POKEMON_QUILAVA"
 }

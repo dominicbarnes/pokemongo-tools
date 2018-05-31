@@ -45,9 +45,10 @@
   ],
   "rarity": null,
   "maxCP": 1102,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.4,
   "weight": 2.5,
   "family": "FAMILY_EXEGGCUTE",
+  "forms": null,
   "_id": "POKEMON_EXEGGCUTE"
 }

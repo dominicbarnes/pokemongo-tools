@@ -47,9 +47,10 @@
   ],
   "rarity": "legendary",
   "maxCP": 3645,
-  "buddyDistance": 20,
+  "buddyDistance": 5,
   "height": 7.01,
   "weight": 206.5,
   "family": "FAMILY_RAYQUAZA",
+  "forms": null,
   "_id": "POKEMON_RAYQUAZA"
 }

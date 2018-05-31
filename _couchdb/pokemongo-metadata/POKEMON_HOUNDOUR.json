@@ -45,9 +45,10 @@
   ],
   "rarity": null,
   "maxCP": 1110,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.61,
   "weight": 10.8,
   "family": "FAMILY_HOUNDOUR",
+  "forms": null,
   "_id": "POKEMON_HOUNDOUR"
 }

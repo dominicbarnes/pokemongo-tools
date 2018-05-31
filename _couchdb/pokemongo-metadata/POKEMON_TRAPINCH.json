@@ -52,9 +52,10 @@
   ],
   "rarity": null,
   "maxCP": 1092,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 0.71,
   "weight": 15,
   "family": "FAMILY_TRAPINCH",
+  "forms": null,
   "_id": "POKEMON_TRAPINCH"
 }

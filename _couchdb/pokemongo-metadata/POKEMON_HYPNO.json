@@ -38,9 +38,10 @@
   ],
   "rarity": null,
   "maxCP": 2048,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.6,
   "weight": 75.6,
   "family": "FAMILY_DROWZEE",
+  "forms": null,
   "_id": "POKEMON_HYPNO"
 }

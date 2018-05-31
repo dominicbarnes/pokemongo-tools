@@ -51,9 +51,10 @@
   ],
   "rarity": null,
   "maxCP": 2631,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.91,
   "weight": 52,
   "family": "FAMILY_TORCHIC",
+  "forms": null,
   "_id": "POKEMON_BLAZIKEN"
 }

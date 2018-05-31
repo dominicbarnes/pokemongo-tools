@@ -47,9 +47,10 @@
   ],
   "rarity": null,
   "maxCP": 2186,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.3,
   "weight": 59.6,
   "family": "FAMILY_SEEDOT",
+  "forms": null,
   "_id": "POKEMON_SHIFTRY"
 }

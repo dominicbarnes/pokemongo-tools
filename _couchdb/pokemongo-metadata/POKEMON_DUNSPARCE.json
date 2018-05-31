@@ -38,9 +38,10 @@
   ],
   "rarity": null,
   "maxCP": 1615,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.5,
   "weight": 14,
   "family": "FAMILY_DUNSPARCE",
+  "forms": null,
   "_id": "POKEMON_DUNSPARCE"
 }

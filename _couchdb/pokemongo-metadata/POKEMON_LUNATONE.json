@@ -47,9 +47,10 @@
   ],
   "rarity": null,
   "maxCP": 2245,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.99,
   "weight": 168,
   "family": "FAMILY_LUNATONE",
+  "forms": null,
   "_id": "POKEMON_LUNATONE"
 }

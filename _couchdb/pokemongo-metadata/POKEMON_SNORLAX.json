@@ -38,9 +38,10 @@
   ],
   "rarity": null,
   "maxCP": 3355,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 2.1,
   "weight": 460,
   "family": "FAMILY_SNORLAX",
+  "forms": null,
   "_id": "POKEMON_SNORLAX"
 }

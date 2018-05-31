@@ -45,9 +45,10 @@
   ],
   "rarity": null,
   "maxCP": 1172,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 0.5,
   "weight": 11.5,
   "family": "FAMILY_KABUTO",
+  "forms": null,
   "_id": "POKEMON_KABUTO"
 }

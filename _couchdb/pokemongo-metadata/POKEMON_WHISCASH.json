@@ -47,9 +47,10 @@
   ],
   "rarity": null,
   "maxCP": 1991,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.89,
   "weight": 23.6,
   "family": "FAMILY_BARBOACH",
+  "forms": null,
   "_id": "POKEMON_WHISCASH"
 }

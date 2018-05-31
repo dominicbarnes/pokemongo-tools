@@ -40,9 +40,10 @@
   ],
   "rarity": null,
   "maxCP": 517,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.61,
   "weight": 10,
   "family": "FAMILY_WURMPLE",
+  "forms": null,
   "_id": "POKEMON_SILCOON"
 }

@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 887,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 0.61,
   "weight": 7.8,
   "family": "FAMILY_MAREEP",
+  "forms": null,
   "_id": "POKEMON_MAREEP"
 }

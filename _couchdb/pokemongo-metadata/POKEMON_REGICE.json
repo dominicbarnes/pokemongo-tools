@@ -46,9 +46,10 @@
   ],
   "rarity": "legendary",
   "maxCP": 3087,
-  "buddyDistance": 20,
+  "buddyDistance": 5,
   "height": 1.8,
   "weight": 175,
   "family": "FAMILY_REGICE",
+  "forms": null,
   "_id": "POKEMON_REGICE"
 }

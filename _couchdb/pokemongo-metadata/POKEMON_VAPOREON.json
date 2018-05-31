@@ -34,9 +34,10 @@
   ],
   "rarity": null,
   "maxCP": 3157,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 1,
   "weight": 29,
   "family": "FAMILY_EEVEE",
+  "forms": null,
   "_id": "POKEMON_VAPOREON"
 }

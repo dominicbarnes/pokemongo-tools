@@ -38,9 +38,10 @@
   ],
   "rarity": null,
   "maxCP": 2770,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 1.5,
   "weight": 55,
   "family": "FAMILY_PINSIR",
+  "forms": null,
   "_id": "POKEMON_PINSIR"
 }

@@ -46,9 +46,10 @@
   ],
   "rarity": null,
   "maxCP": 316,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.3,
   "weight": 1.8,
   "family": "FAMILY_SUNKERN",
+  "forms": null,
   "_id": "POKEMON_SUNKERN"
 }

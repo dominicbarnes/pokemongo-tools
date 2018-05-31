@@ -37,9 +37,10 @@
   ],
   "rarity": null,
   "maxCP": 397,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.3,
   "weight": 3.2,
   "family": "FAMILY_WEEDLE",
+  "forms": null,
   "_id": "POKEMON_WEEDLE"
 }

@@ -48,9 +48,10 @@
   ],
   "rarity": null,
   "maxCP": 1424,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 2.01,
   "weight": 130,
   "family": "FAMILY_WAILMER",
+  "forms": null,
   "_id": "POKEMON_WAILMER"
 }

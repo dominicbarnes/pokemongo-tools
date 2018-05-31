@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 588,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.3,
   "weight": 3.5,
   "family": "FAMILY_RATTATA",
+  "forms": null,
   "_id": "POKEMON_RATTATA"
 }

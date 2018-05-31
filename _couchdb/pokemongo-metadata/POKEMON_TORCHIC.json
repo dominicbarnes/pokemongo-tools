@@ -52,9 +52,10 @@
   ],
   "rarity": null,
   "maxCP": 959,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.41,
   "weight": 2.5,
   "family": "FAMILY_TORCHIC",
+  "forms": null,
   "_id": "POKEMON_TORCHIC"
 }

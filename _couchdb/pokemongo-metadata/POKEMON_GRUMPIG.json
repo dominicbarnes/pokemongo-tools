@@ -46,9 +46,10 @@
   ],
   "rarity": null,
   "maxCP": 2310,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.89,
   "weight": 71.5,
   "family": "FAMILY_SPOINK",
+  "forms": null,
   "_id": "POKEMON_GRUMPIG"
 }

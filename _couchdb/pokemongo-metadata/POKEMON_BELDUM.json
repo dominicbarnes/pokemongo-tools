@@ -37,9 +37,10 @@
   ],
   "rarity": null,
   "maxCP": 843,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 0.61,
   "weight": 95.2,
   "family": "FAMILY_BELDUM",
+  "forms": null,
   "_id": "POKEMON_BELDUM"
 }

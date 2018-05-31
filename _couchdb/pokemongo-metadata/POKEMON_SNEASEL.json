@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 1868,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.89,
   "weight": 28,
   "family": "FAMILY_SNEASEL",
+  "forms": null,
   "_id": "POKEMON_SNEASEL"
 }

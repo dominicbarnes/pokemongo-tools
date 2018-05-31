@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 695,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.6,
   "weight": 12.4,
   "family": "FAMILY_POLIWAG",
+  "forms": null,
   "_id": "POKEMON_POLIWAG"
 }

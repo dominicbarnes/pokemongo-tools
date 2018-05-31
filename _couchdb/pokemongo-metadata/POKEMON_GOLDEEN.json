@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 1006,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.6,
   "weight": 15,
   "family": "FAMILY_GOLDEEN",
+  "forms": null,
   "_id": "POKEMON_GOLDEEN"
 }

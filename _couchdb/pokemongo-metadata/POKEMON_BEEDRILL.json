@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 1777,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 1,
   "weight": 29.5,
   "family": "FAMILY_WEEDLE",
+  "forms": null,
   "_id": "POKEMON_BEEDRILL"
 }

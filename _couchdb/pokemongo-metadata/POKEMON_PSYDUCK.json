@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 966,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.8,
   "weight": 19.6,
   "family": "FAMILY_PSYDUCK",
+  "forms": null,
   "_id": "POKEMON_PSYDUCK"
 }

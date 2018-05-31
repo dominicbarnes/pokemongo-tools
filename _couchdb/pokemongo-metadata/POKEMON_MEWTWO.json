@@ -42,9 +42,10 @@
   ],
   "rarity": "legendary",
   "maxCP": 3982,
-  "buddyDistance": 20,
+  "buddyDistance": 5,
   "height": 2,
   "weight": 122,
   "family": "FAMILY_MEWTWO",
+  "forms": null,
   "_id": "POKEMON_MEWTWO"
 }

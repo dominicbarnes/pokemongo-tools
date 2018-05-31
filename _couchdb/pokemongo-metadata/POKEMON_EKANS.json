@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 778,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 2,
   "weight": 6.9,
   "family": "FAMILY_EKANS",
+  "forms": null,
   "_id": "POKEMON_EKANS"
 }

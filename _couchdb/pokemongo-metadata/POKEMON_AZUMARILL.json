@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 1503,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.79,
   "weight": 28.5,
   "family": "FAMILY_MARILL",
+  "forms": null,
   "_id": "POKEMON_AZUMARILL"
 }

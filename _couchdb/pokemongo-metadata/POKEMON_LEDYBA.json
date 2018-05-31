@@ -45,9 +45,10 @@
   ],
   "rarity": null,
   "maxCP": 663,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.99,
   "weight": 10.8,
   "family": "FAMILY_LEDYBA",
+  "forms": null,
   "_id": "POKEMON_LEDYBA"
 }

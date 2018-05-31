@@ -47,9 +47,10 @@
   ],
   "rarity": null,
   "maxCP": 2407,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.19,
   "weight": 39.2,
   "family": "FAMILY_SHROOMISH",
+  "forms": null,
   "_id": "POKEMON_BRELOOM"
 }

@@ -3,7 +3,7 @@
   "dex": 351,
   "generation": 3,
   "types": [
-    "fire"
+    "normal"
   ],
   "baseStats": {
     "stamina": 140,
@@ -31,18 +31,6 @@
     },
     {
       "id": "MOVE_HEX_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_POWDER_SNOW_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_EMBER_FAST",
       "legacy": false
     }
   ],
@@ -65,42 +53,196 @@
     },
     {
       "id": "MOVE_HURRICANE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_ENERGY_BALL",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_HYDRO_PUMP",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_THUNDER",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_BLIZZARD",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_ICE_BEAM",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_FIRE_BLAST",
       "legacy": false
     },
     {
-      "id": "MOVE_SOLAR_BEAM",
+      "id": "MOVE_ENERGY_BALL",
       "legacy": false
     }
   ],
   "rarity": null,
   "maxCP": 1486,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 0.3,
   "weight": 0.8,
   "family": "FAMILY_CASTFORM",
+  "forms": {
+    "normal": {
+      "id": "POKEMON_CASTFORM",
+      "name": "Castform (Normal)",
+      "dex": 351,
+      "generation": 3,
+      "types": [
+        "normal"
+      ],
+      "baseStats": {
+        "stamina": 140,
+        "attack": 139,
+        "defense": 139
+      },
+      "previousEvolution": null,
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_TACKLE_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_HEX_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_HURRICANE",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_ENERGY_BALL",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "maxCP": 1486,
+      "buddyDistance": 1.25,
+      "height": 0.3,
+      "weight": 0.8,
+      "family": {
+        "id": "FAMILY_CASTFORM"
+      }
+    },
+    "rainy": {
+      "id": "POKEMON_CASTFORM",
+      "name": "Castform (Rainy)",
+      "dex": 351,
+      "generation": 3,
+      "types": [
+        "water"
+      ],
+      "baseStats": {
+        "stamina": 140,
+        "attack": 139,
+        "defense": 139
+      },
+      "previousEvolution": null,
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_WATER_GUN_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_TACKLE_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_HYDRO_PUMP",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_THUNDER",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "maxCP": 1486,
+      "buddyDistance": 1.25,
+      "height": 0.3,
+      "weight": 0.8,
+      "family": {
+        "id": "FAMILY_CASTFORM"
+      }
+    },
+    "snowy": {
+      "id": "POKEMON_CASTFORM",
+      "name": "Castform (Snowy)",
+      "dex": 351,
+      "generation": 3,
+      "types": [
+        "ice"
+      ],
+      "baseStats": {
+        "stamina": 140,
+        "attack": 139,
+        "defense": 139
+      },
+      "previousEvolution": null,
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_POWDER_SNOW_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_TACKLE_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_BLIZZARD",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_ICE_BEAM",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "maxCP": 1486,
+      "buddyDistance": 1.25,
+      "height": 0.3,
+      "weight": 0.8,
+      "family": {
+        "id": "FAMILY_CASTFORM"
+      }
+    },
+    "sunny": {
+      "id": "POKEMON_CASTFORM",
+      "name": "Castform (Sunny)",
+      "dex": 351,
+      "generation": 3,
+      "types": [
+        "fire"
+      ],
+      "baseStats": {
+        "stamina": 140,
+        "attack": 139,
+        "defense": 139
+      },
+      "previousEvolution": null,
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_EMBER_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_TACKLE_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_FIRE_BLAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_SOLAR_BEAM",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "maxCP": 1486,
+      "buddyDistance": 1.25,
+      "height": 0.3,
+      "weight": 0.8,
+      "family": {
+        "id": "FAMILY_CASTFORM"
+      }
+    }
+  },
   "_id": "POKEMON_CASTFORM"
 }

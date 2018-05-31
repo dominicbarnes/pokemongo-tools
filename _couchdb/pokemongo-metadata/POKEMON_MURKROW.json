@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 1392,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.51,
   "weight": 2.1,
   "family": "FAMILY_MURKROW",
+  "forms": null,
   "_id": "POKEMON_MURKROW"
 }

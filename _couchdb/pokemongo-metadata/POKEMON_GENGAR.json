@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 2619,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.5,
   "weight": 40.5,
   "family": "FAMILY_GASTLY",
+  "forms": null,
   "_id": "POKEMON_GENGAR"
 }

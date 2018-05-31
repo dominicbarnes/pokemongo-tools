@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 1994,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 1.5,
   "weight": 39.5,
   "family": "FAMILY_PIDGEY",
+  "forms": null,
   "_id": "POKEMON_PIDGEOT"
 }

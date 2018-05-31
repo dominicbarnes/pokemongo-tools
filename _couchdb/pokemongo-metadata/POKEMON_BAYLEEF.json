@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 1296,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.19,
   "weight": 15.8,
   "family": "FAMILY_CHIKORITA",
+  "forms": null,
   "_id": "POKEMON_BAYLEEF"
 }

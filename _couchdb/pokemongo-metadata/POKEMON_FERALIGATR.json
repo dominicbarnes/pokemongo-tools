@@ -42,9 +42,10 @@
   ],
   "rarity": null,
   "maxCP": 2721,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 2.31,
   "weight": 88.8,
   "family": "FAMILY_TOTODILE",
+  "forms": null,
   "_id": "POKEMON_FERALIGATR"
 }

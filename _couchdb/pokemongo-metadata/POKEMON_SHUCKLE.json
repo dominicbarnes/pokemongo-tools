@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 300,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.61,
   "weight": 20.5,
   "family": "FAMILY_SHUCKLE",
+  "forms": null,
   "_id": "POKEMON_SHUCKLE"
 }

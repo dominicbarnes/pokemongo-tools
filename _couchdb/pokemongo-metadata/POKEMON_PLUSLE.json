@@ -46,9 +46,10 @@
   ],
   "rarity": null,
   "maxCP": 1681,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.41,
   "weight": 4.2,
   "family": "FAMILY_PLUSLE",
+  "forms": null,
   "_id": "POKEMON_PLUSLE"
 }

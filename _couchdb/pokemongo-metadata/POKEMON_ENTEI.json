@@ -38,9 +38,10 @@
   ],
   "rarity": "legendary",
   "maxCP": 3377,
-  "buddyDistance": 20,
+  "buddyDistance": 5,
   "height": 2.11,
   "weight": 198,
   "family": "FAMILY_ENTEI",
+  "forms": null,
   "_id": "POKEMON_ENTEI"
 }

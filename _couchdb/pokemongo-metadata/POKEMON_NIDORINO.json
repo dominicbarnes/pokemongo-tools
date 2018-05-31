@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 1252,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.9,
   "weight": 19.5,
   "family": "FAMILY_NIDORAN_MALE",
+  "forms": null,
   "_id": "POKEMON_NIDORINO"
 }

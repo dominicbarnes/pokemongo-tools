@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 2466,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 1.8,
   "weight": 75,
   "family": "FAMILY_ZUBAT",
+  "forms": null,
   "_id": "POKEMON_CROBAT"
 }

@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 736,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.4,
   "weight": 7,
   "family": "FAMILY_NIDORAN_FEMALE",
+  "forms": null,
   "_id": "POKEMON_NIDORAN_FEMALE"
 }

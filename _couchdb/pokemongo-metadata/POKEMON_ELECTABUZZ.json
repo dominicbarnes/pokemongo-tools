@@ -38,9 +38,10 @@
   ],
   "rarity": null,
   "maxCP": 2196,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 1.1,
   "weight": 30,
   "family": "FAMILY_ELECTABUZZ",
+  "forms": null,
   "_id": "POKEMON_ELECTABUZZ"
 }

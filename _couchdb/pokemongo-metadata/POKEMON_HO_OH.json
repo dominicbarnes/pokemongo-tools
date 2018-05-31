@@ -39,9 +39,10 @@
   ],
   "rarity": "legendary",
   "maxCP": 3889,
-  "buddyDistance": 20,
+  "buddyDistance": 5,
   "height": 3.81,
   "weight": 199,
   "family": "FAMILY_HO_OH",
+  "forms": null,
   "_id": "POKEMON_HO_OH"
 }

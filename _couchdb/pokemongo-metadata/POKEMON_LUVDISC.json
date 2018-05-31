@@ -42,9 +42,10 @@
   ],
   "rarity": null,
   "maxCP": 735,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.61,
   "weight": 8.7,
   "family": "FAMILY_LUVDISC",
+  "forms": null,
   "_id": "POKEMON_LUVDISC"
 }

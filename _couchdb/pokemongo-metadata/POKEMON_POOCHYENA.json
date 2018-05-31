@@ -52,9 +52,10 @@
   ],
   "rarity": null,
   "maxCP": 564,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.51,
   "weight": 13.6,
   "family": "FAMILY_POOCHYENA",
+  "forms": null,
   "_id": "POKEMON_POOCHYENA"
 }

@@ -47,9 +47,10 @@
   ],
   "rarity": "legendary",
   "maxCP": 3644,
-  "buddyDistance": 20,
+  "buddyDistance": 5,
   "height": 2.01,
   "weight": 60,
   "family": "FAMILY_LATIOS",
+  "forms": null,
   "_id": "POKEMON_LATIOS"
 }

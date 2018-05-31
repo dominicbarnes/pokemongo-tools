@@ -35,9 +35,10 @@
   ],
   "rarity": "legendary",
   "maxCP": 3272,
-  "buddyDistance": 20,
+  "buddyDistance": 5,
   "height": 2,
   "weight": 60,
   "family": "FAMILY_MOLTRES",
+  "forms": null,
   "_id": "POKEMON_MOLTRES"
 }

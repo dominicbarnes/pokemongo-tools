@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 1073,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 0.61,
   "weight": 23.5,
   "family": "FAMILY_ELECTABUZZ",
+  "forms": null,
   "_id": "POKEMON_ELEKID"
 }

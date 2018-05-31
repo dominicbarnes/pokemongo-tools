@@ -46,9 +46,10 @@
   ],
   "rarity": null,
   "maxCP": 1872,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 1.7,
   "weight": 80,
   "family": "FAMILY_GULPIN",
+  "forms": null,
   "_id": "POKEMON_SWALOT"
 }

@@ -38,9 +38,10 @@
   ],
   "rarity": null,
   "maxCP": 3000,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 0.89,
   "weight": 26.5,
   "family": "FAMILY_EEVEE",
+  "forms": null,
   "_id": "POKEMON_ESPEON"
 }

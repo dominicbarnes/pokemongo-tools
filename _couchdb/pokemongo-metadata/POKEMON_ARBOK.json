@@ -38,9 +38,10 @@
   ],
   "rarity": null,
   "maxCP": 1737,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 3.5,
   "weight": 65,
   "family": "FAMILY_EKANS",
+  "forms": null,
   "_id": "POKEMON_ARBOK"
 }

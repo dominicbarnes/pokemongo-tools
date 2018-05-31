@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 1184,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.61,
   "weight": 8.8,
   "family": "FAMILY_TEDDIURSA",
+  "forms": null,
   "_id": "POKEMON_TEDDIURSA"
 }

@@ -53,9 +53,10 @@
   ],
   "rarity": null,
   "maxCP": 876,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.79,
   "weight": 39.5,
   "family": "FAMILY_SPHEAL",
+  "forms": null,
   "_id": "POKEMON_SPHEAL"
 }

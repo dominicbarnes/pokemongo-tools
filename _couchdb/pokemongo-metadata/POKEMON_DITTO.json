@@ -26,9 +26,10 @@
   ],
   "rarity": null,
   "maxCP": 718,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.3,
   "weight": 4,
   "family": "FAMILY_DITTO",
+  "forms": null,
   "_id": "POKEMON_DITTO"
 }

@@ -45,9 +45,10 @@
   ],
   "rarity": null,
   "maxCP": 902,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1,
   "weight": 30,
   "family": "FAMILY_VENONAT",
+  "forms": null,
   "_id": "POKEMON_VENONAT"
 }

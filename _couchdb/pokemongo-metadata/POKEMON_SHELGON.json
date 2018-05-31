@@ -52,9 +52,10 @@
   ],
   "rarity": null,
   "maxCP": 1958,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 1.09,
   "weight": 110.5,
   "family": "FAMILY_BAGON",
+  "forms": null,
   "_id": "POKEMON_SHELGON"
 }

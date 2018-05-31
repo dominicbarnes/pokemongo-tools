@@ -52,9 +52,10 @@
   ],
   "rarity": null,
   "maxCP": 745,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.99,
   "weight": 86.4,
   "family": "FAMILY_MAKUHITA",
+  "forms": null,
   "_id": "POKEMON_MAKUHITA"
 }

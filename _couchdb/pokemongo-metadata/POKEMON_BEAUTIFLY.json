@@ -47,9 +47,10 @@
   ],
   "rarity": null,
   "maxCP": 1573,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.99,
   "weight": 28.4,
   "family": "FAMILY_WURMPLE",
+  "forms": null,
   "_id": "POKEMON_BEAUTIFLY"
 }

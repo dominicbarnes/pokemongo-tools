@@ -46,9 +46,10 @@
   ],
   "rarity": null,
   "maxCP": 2036,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.51,
   "weight": 80.4,
   "family": "FAMILY_TORKOAL",
+  "forms": null,
   "_id": "POKEMON_TORKOAL"
 }

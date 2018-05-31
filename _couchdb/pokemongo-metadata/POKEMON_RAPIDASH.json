@@ -38,9 +38,10 @@
   ],
   "rarity": null,
   "maxCP": 2252,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.7,
   "weight": 95,
   "family": "FAMILY_PONYTA",
+  "forms": null,
   "_id": "POKEMON_RAPIDASH"
 }

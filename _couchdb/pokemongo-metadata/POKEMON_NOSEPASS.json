@@ -46,9 +46,10 @@
   ],
   "rarity": null,
   "maxCP": 831,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.99,
   "weight": 97,
   "family": "FAMILY_NOSEPASS",
+  "forms": null,
   "_id": "POKEMON_NOSEPASS"
 }

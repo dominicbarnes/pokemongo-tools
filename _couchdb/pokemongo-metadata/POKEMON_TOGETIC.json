@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 1543,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.61,
   "weight": 3.2,
   "family": "FAMILY_TOGEPI",
+  "forms": null,
   "_id": "POKEMON_TOGETIC"
 }

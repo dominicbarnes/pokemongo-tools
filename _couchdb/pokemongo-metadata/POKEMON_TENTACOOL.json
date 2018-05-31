@@ -45,9 +45,10 @@
   ],
   "rarity": null,
   "maxCP": 956,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.9,
   "weight": 45.5,
   "family": "FAMILY_TENTACOOL",
+  "forms": null,
   "_id": "POKEMON_TENTACOOL"
 }

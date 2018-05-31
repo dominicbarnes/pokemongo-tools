@@ -47,9 +47,10 @@
   ],
   "rarity": null,
   "maxCP": 2081,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.5,
   "weight": 60.4,
   "family": "FAMILY_LILEEP",
+  "forms": null,
   "_id": "POKEMON_CRADILY"
 }

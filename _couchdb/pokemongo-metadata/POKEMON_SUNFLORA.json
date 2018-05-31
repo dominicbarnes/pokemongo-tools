@@ -38,9 +38,10 @@
   ],
   "rarity": null,
   "maxCP": 2048,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.79,
   "weight": 8.5,
   "family": "FAMILY_SUNKERN",
+  "forms": null,
   "_id": "POKEMON_SUNFLORA"
 }

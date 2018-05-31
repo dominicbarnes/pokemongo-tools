@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 1275,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 1.4,
   "weight": 35.6,
   "family": "FAMILY_LEDYBA",
+  "forms": null,
   "_id": "POKEMON_LEDIAN"
 }

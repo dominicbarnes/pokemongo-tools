@@ -45,9 +45,10 @@
   ],
   "rarity": null,
   "maxCP": 640,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.71,
   "weight": 21.2,
   "family": "FAMILY_HOOTHOOT",
+  "forms": null,
   "_id": "POKEMON_HOOTHOOT"
 }

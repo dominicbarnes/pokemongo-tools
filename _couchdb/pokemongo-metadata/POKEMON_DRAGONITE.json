@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 3581,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 2.2,
   "weight": 210,
   "family": "FAMILY_DRATINI",
+  "forms": null,
   "_id": "POKEMON_DRAGONITE"
 }

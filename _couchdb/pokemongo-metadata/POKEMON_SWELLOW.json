@@ -47,9 +47,10 @@
   ],
   "rarity": null,
   "maxCP": 1747,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.71,
   "weight": 19.8,
   "family": "FAMILY_TAILLOW",
+  "forms": null,
   "_id": "POKEMON_SWELLOW"
 }

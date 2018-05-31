@@ -54,9 +54,10 @@
   ],
   "rarity": null,
   "maxCP": 404,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 0.71,
   "weight": 21,
   "family": "FAMILY_TYROGUE",
+  "forms": null,
   "_id": "POKEMON_TYROGUE"
 }

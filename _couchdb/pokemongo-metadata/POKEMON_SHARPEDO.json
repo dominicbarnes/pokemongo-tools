@@ -47,9 +47,10 @@
   ],
   "rarity": null,
   "maxCP": 1986,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.8,
   "weight": 88.8,
   "family": "FAMILY_CARVANHA",
+  "forms": null,
   "_id": "POKEMON_SHARPEDO"
 }

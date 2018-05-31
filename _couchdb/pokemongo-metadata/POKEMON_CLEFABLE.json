@@ -38,9 +38,10 @@
   ],
   "rarity": null,
   "maxCP": 2353,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 1.3,
   "weight": 40,
   "family": "FAMILY_CLEFAIRY",
+  "forms": null,
   "_id": "POKEMON_CLEFABLE"
 }

@@ -47,9 +47,10 @@
   ],
   "rarity": null,
   "maxCP": 1782,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.5,
   "weight": 108,
   "family": "FAMILY_BALTOY",
+  "forms": null,
   "_id": "POKEMON_CLAYDOL"
 }

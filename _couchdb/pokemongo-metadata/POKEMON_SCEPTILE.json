@@ -46,9 +46,10 @@
   ],
   "rarity": null,
   "maxCP": 2584,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.7,
   "weight": 52.2,
   "family": "FAMILY_TREECKO",
+  "forms": null,
   "_id": "POKEMON_SCEPTILE"
 }

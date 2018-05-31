@@ -35,9 +35,10 @@
   ],
   "rarity": "legendary",
   "maxCP": 2933,
-  "buddyDistance": 20,
+  "buddyDistance": 5,
   "height": 1.7,
   "weight": 55.4,
   "family": "FAMILY_ARTICUNO",
+  "forms": null,
   "_id": "POKEMON_ARTICUNO"
 }

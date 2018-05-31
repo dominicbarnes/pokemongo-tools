@@ -38,9 +38,10 @@
   ],
   "rarity": "legendary",
   "maxCP": 3349,
-  "buddyDistance": 20,
+  "buddyDistance": 5,
   "height": 1.91,
   "weight": 178,
   "family": "FAMILY_RAIKOU",
+  "forms": null,
   "_id": "POKEMON_RAIKOU"
 }

@@ -38,9 +38,10 @@
   ],
   "rarity": null,
   "maxCP": 1188,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.79,
   "weight": 11.5,
   "family": "FAMILY_AIPOM",
+  "forms": null,
   "_id": "POKEMON_AIPOM"
 }

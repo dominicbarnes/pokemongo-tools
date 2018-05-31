@@ -47,9 +47,10 @@
   ],
   "rarity": null,
   "maxCP": 2458,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 2.01,
   "weight": 82,
   "family": "FAMILY_TRAPINCH",
+  "forms": null,
   "_id": "POKEMON_FLYGON"
 }

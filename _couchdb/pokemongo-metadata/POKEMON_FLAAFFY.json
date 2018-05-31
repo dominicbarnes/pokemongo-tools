@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 1402,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 0.79,
   "weight": 13.3,
   "family": "FAMILY_MAREEP",
+  "forms": null,
   "_id": "POKEMON_FLAAFFY"
 }

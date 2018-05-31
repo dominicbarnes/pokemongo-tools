@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 1543,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.79,
   "weight": 55,
   "family": "FAMILY_SLUGMA",
+  "forms": null,
   "_id": "POKEMON_MAGCARGO"
 }

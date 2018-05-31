@@ -47,9 +47,10 @@
   ],
   "rarity": null,
   "maxCP": 2229,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.5,
   "weight": 55,
   "family": "FAMILY_LOTAD",
+  "forms": null,
   "_id": "POKEMON_LUDICOLO"
 }

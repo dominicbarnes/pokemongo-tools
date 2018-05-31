@@ -48,9 +48,10 @@
   ],
   "rarity": null,
   "maxCP": 942,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 0.79,
   "weight": 24,
   "family": "FAMILY_SLAKOTH",
+  "forms": null,
   "_id": "POKEMON_SLAKOTH"
 }

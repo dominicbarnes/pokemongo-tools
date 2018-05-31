@@ -46,9 +46,10 @@
   ],
   "rarity": null,
   "maxCP": 1620,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.71,
   "weight": 17.7,
   "family": "FAMILY_VOLBEAT",
+  "forms": null,
   "_id": "POKEMON_VOLBEAT"
 }

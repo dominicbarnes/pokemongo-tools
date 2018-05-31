@@ -47,9 +47,10 @@
   ],
   "rarity": null,
   "maxCP": 2675,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.5,
   "weight": 68.2,
   "family": "FAMILY_ANORITH",
+  "forms": null,
   "_id": "POKEMON_ARMALDO"
 }

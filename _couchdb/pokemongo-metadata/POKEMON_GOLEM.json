@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 2916,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 1.4,
   "weight": 300,
   "family": "FAMILY_GEODUDE",
+  "forms": null,
   "_id": "POKEMON_GOLEM"
 }

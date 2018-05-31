@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 1002,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.5,
   "weight": 28,
   "family": "FAMILY_MANKEY",
+  "forms": null,
   "_id": "POKEMON_MANKEY"
 }

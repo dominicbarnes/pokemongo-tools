@@ -39,9 +39,10 @@
   ],
   "rarity": null,
   "maxCP": 1984,
-  "buddyDistance": 5,
+  "buddyDistance": 1.25,
   "height": 1.3,
   "weight": 54.5,
   "family": "FAMILY_MR_MIME",
+  "forms": null,
   "_id": "POKEMON_MR_MIME"
 }

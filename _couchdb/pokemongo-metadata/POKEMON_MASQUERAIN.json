@@ -47,9 +47,10 @@
   ],
   "rarity": null,
   "maxCP": 2135,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.79,
   "weight": 3.6,
   "family": "FAMILY_SURSKIT",
+  "forms": null,
   "_id": "POKEMON_MASQUERAIN"
 }

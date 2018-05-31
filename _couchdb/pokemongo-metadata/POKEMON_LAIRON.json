@@ -53,9 +53,10 @@
   ],
   "rarity": null,
   "maxCP": 2004,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.89,
   "weight": 120,
   "family": "FAMILY_ARON",
+  "forms": null,
   "_id": "POKEMON_LAIRON"
 }

@@ -45,9 +45,10 @@
   ],
   "rarity": null,
   "maxCP": 1193,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.4,
   "weight": 20,
   "family": "FAMILY_GEODUDE",
+  "forms": null,
   "_id": "POKEMON_GEODUDE"
 }

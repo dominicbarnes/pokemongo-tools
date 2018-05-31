@@ -38,18 +38,23 @@
     },
     {
       "id": "MOVE_DRAGON_CLAW",
-      "legacy": false
+      "legacy": true
     },
     {
       "id": "MOVE_THUNDER",
+      "legacy": false
+    },
+    {
+      "id": "MOVE_OUTRAGE",
       "legacy": false
     }
   ],
   "rarity": "legendary",
   "maxCP": 3377,
-  "buddyDistance": 20,
+  "buddyDistance": 5,
   "height": 1.4,
   "weight": 40,
   "family": "FAMILY_LATIAS",
+  "forms": null,
   "_id": "POKEMON_LATIAS"
 }

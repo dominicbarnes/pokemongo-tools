@@ -46,9 +46,10 @@
   ],
   "rarity": null,
   "maxCP": 1088,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 1.09,
   "weight": 5,
   "family": "FAMILY_SPINDA",
+  "forms": null,
   "_id": "POKEMON_SPINDA"
 }

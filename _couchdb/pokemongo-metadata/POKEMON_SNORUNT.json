@@ -52,9 +52,10 @@
   ],
   "rarity": null,
   "maxCP": 772,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.71,
   "weight": 16.8,
   "family": "FAMILY_SNORUNT",
+  "forms": null,
   "_id": "POKEMON_SNORUNT"
 }

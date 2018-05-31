@@ -53,9 +53,10 @@
   ],
   "rarity": null,
   "maxCP": 1232,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.41,
   "weight": 60,
   "family": "FAMILY_ARON",
+  "forms": null,
   "_id": "POKEMON_ARON"
 }

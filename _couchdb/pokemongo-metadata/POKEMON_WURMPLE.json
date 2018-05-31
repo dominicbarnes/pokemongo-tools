@@ -45,9 +45,10 @@
   ],
   "rarity": null,
   "maxCP": 502,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 0.3,
   "weight": 3.6,
   "family": "FAMILY_WURMPLE",
+  "forms": null,
   "_id": "POKEMON_WURMPLE"
 }

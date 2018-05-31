@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 1110,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.7,
   "weight": 19,
   "family": "FAMILY_GROWLITHE",
+  "forms": null,
   "_id": "POKEMON_GROWLITHE"
 }

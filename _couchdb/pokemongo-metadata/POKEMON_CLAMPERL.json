@@ -53,9 +53,10 @@
   ],
   "rarity": null,
   "maxCP": 1091,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.41,
   "weight": 52.5,
   "family": "FAMILY_CLAMPERL",
+  "forms": null,
   "_id": "POKEMON_CLAMPERL"
 }

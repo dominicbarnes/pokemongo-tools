@@ -53,9 +53,10 @@
   ],
   "rarity": null,
   "maxCP": 1617,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.71,
   "weight": 28,
   "family": "FAMILY_MUDKIP",
+  "forms": null,
   "_id": "POKEMON_MARSHTOMP"
 }

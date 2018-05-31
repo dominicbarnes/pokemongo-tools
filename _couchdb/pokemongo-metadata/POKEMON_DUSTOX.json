@@ -47,9 +47,10 @@
   ],
   "rarity": null,
   "maxCP": 1121,
-  "buddyDistance": 1,
+  "buddyDistance": 0.25,
   "height": 1.19,
   "weight": 31.6,
   "family": "FAMILY_WURMPLE",
+  "forms": null,
   "_id": "POKEMON_DUSTOX"
 }

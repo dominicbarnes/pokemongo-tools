@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 1175,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.51,
   "weight": 33.5,
   "family": "FAMILY_PHANPY",
+  "forms": null,
   "_id": "POKEMON_PHANPY"
 }

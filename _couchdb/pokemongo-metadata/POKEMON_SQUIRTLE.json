@@ -44,9 +44,10 @@
   ],
   "rarity": null,
   "maxCP": 808,
-  "buddyDistance": 3,
+  "buddyDistance": 0.75,
   "height": 0.5,
   "weight": 9,
   "family": "FAMILY_SQUIRTLE",
+  "forms": null,
   "_id": "POKEMON_SQUIRTLE"
 }

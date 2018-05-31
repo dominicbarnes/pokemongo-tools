@@ -46,9 +46,10 @@
   ],
   "rarity": "legendary",
   "maxCP": 2261,
-  "buddyDistance": 20,
+  "buddyDistance": 5,
   "height": 1.91,
   "weight": 205,
   "family": "FAMILY_REGISTEEL",
+  "forms": null,
   "_id": "POKEMON_REGISTEEL"
 }
