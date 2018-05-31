@@ -1,4 +1,5 @@
 
+const delay = require('delay')
 const path = require('path')
 const util = require('util')
 
@@ -31,6 +32,7 @@ exports.pull = async function () {
       break
     } catch (err) {
       console.warn('> replication error', err.message)
+      await delay(1000)
     }
   }
 }
