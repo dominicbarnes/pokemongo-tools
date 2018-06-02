@@ -5,7 +5,7 @@
 <script>
   import { slugify } from '../utils'
 
-  const baseURL = "https://img.pokemondb.net/sprites/black-white"
+  const baseURL = "https://img.pokemondb.net/sprites"
 
   export default {
     props: {
@@ -23,12 +23,18 @@
 
     computed: {
       src() {
-        return `${baseURL}/${this.coloring}/${this.slug}.png`
+        return `${baseURL}/${this.group}/${this.coloring}/${this.slug}.png`
+      },
+      group() {
+        const { form } = this
+        if (form && form === 'alola') return 'sun-moon/dex'
+        return 'black-white'
       },
       altform() {
         const { form } = this
         if (!form) return null
         if (form === 'normal') return null
+        if (form === 'alola') return 'alolan'
         return form
       },
       coloring() {
