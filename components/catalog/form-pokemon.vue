@@ -11,11 +11,14 @@
                 <input type="checkbox" v-model="value.shiny" />
               </label>
             </b-input-group-append>
+            <b-dropdown v-if="forms" text="Alternate Forms" variant="secondary" slot="append">
+              <b-dropdown-item v-for="form in forms" v-bind:key="form.value" v-on:click="$set(value, 'form', form.value)">{{form.text}}</b-dropdown-item>
+            </b-dropdown>
           </b-input-group>
         </b-form-group>
       </b-col>
       <b-col md="2">
-        <pokemon-sprite v-if="metadata" v-bind:pokemon="metadata.dex" v-bind:shiny="value.shiny" />
+        <pokemon-sprite v-if="metadata" v-bind:pokemon="metadata.dex" v-bind:form="value.form" v-bind:shiny="value.shiny" />
       </b-col>
     </b-row>
 
@@ -97,12 +100,17 @@
 </template>
 
 <script>
+  import clone from 'clone'
   import PokemonSprite from '../pokemon-sprite.vue'
   import { dex } from '../../utils'
 
   export default {
-    data() {
-      return { metadata: null }
+    data(vm) {
+      let metadata = null
+      if (this.value.pokemonID) {
+        metadata = clone(vm.$store.getters.pokemonByID(this.value.pokemonID))
+      }
+      return { metadata }
     },
 
     props: {
@@ -120,8 +128,18 @@
           return { text, value }
         })
       },
+      forms() {
+        const { metadata } = this
+        if (metadata && metadata.forms) {
+          return Object.keys(metadata.forms).map(key => {
+            return { text: metadata.forms[key].name, value: key }
+          })
+        }
+        return null
+      },
       quickMoves() {
-        const { $store, metadata } = this
+        const { $store } = this
+        const metadata = this.getMetadata()
         const options = $store.getters.quickMoves.map(this.moveOption)
         if (metadata) {
           const movesByID = $store.getters.movesByID
@@ -133,7 +151,8 @@
         return options
       },
       chargeMoves() {
-        const { $store, metadata } = this
+        const { $store } = this
+        const metadata = this.getMetadata()
         const options = $store.getters.chargeMoves.map(this.moveOption)
         if (metadata) {
           const movesByID = $store.getters.movesByID
@@ -155,6 +174,12 @@
         const text = `${move.name} (${move.type})`
         const value = move._id
         return { text, value }
+      },
+      getMetadata() {
+        const { metadata, value } = this
+        return value.form
+          ? metadata.forms[value.form]
+          : metadata
       }
     },
 
@@ -162,7 +187,15 @@
       'value.pokemonID': function () {
         const { pokemonID } = this.value
         if (pokemonID) {
-          this.metadata = this.$store.getters.pokemonByID(pokemonID)
+          const m = this.$store.getters.pokemonByID(pokemonID)
+          if (m.forms) {
+            if (m.forms['normal']) {
+              this.$set(this.value, 'form', 'normal')
+            }
+          } else {
+            this.$set(this.value, 'form', null)
+          }
+          this.metadata = m
         }
       }
     },

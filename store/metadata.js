@@ -30,7 +30,11 @@ const getters = {
   },
   pokemonByID ({ pokemon }) {
     const m = index(pokemon, '_id')
-    return id => m.get(id)
+    return (id, form) => {
+      const o = m.get(id)
+      if (!o) return null
+      return form ? o.forms[form] : o
+    }
   },
   pokemonSort ({ pokemon }) {
     return key => pokemon.slice().sort(sortBy(key))

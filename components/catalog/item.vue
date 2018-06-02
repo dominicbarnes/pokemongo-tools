@@ -1,6 +1,6 @@
 <template>
   <b-media class="border rounded p-1 mb-2">
-    <pokemon-sprite slot="aside" v-bind:pokemon="pokemon.dex" v-bind:shiny="pokemon.shiny" />
+    <pokemon-sprite slot="aside" v-bind:pokemon="pokemon.dex" v-bind:form="pokemon.form" v-bind:shiny="pokemon.shiny" />
     <h2 v-if="pokemon.nickname" class="h3 mt-1 mb-0">
       <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: pokemon.id } }">{{pokemon.nickname}}</b-link>
       <small class="text-muted">({{pokemon.species}})</small>

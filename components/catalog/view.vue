@@ -35,6 +35,9 @@
       <b-container fluid class="p-3">
         <b-row>
           <b-col md="4" class="mb-2">
+            <b-card class="mb-2">
+              <pokemon-sprite v-bind:pokemon="metadata.dex" v-bind:form="catalog.form" v-bind:shiny="catalog.shiny" />
+            </b-card>
             <b-card title="Stats">
               <table class="table table-bordered table-sm">
                 <tbody>
@@ -210,7 +213,7 @@
 
       metadata() {
         const { pokemonByID } = this
-        return pokemonByID(this.catalog.pokemonID)
+        return pokemonByID(this.catalog.pokemonID, this.catalog.form)
       },
 
       name() {

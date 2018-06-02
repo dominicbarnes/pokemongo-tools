@@ -5,7 +5,7 @@
 <script>
   import { slugify } from '../utils'
 
-  const baseURL = "https://img.pokemondb.net/sprites"
+  const baseURL = "https://img.pokemondb.net/sprites/black-white"
 
   export default {
     props: {
@@ -13,6 +13,7 @@
         types: Number,
         required: true
       },
+      form: String,
       shiny: Boolean,
       size: {
         type: [ Number, String ],
@@ -22,14 +23,23 @@
 
     computed: {
       src() {
-        return `${baseURL}/black-white/${this.coloring}/${this.slug}.png`
+        return `${baseURL}/${this.coloring}/${this.slug}.png`
+      },
+      altform() {
+        const { form } = this
+        if (!form) return null
+        if (form === 'normal') return null
+        return form
       },
       coloring() {
         return this.shiny ? 'shiny' : 'normal'
       },
       slug() {
         const metadata = this.$store.getters.pokemonByDex(this.pokemon)
-        if (metadata) return slugify(metadata.name)
+        if (!metadata) return null
+        let slug = slugify(metadata.name)
+        if (this.altform) slug += `-${this.altform}`
+        return slug
       }
     }
   }

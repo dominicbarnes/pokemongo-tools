@@ -67,7 +67,7 @@
         const { pokemon, pokemonByID } = this
 
         return pokemon.map(pokemon => {
-          const metadata = pokemonByID(pokemon.pokemonID)
+          const metadata = pokemonByID(pokemon.pokemonID, pokemon.form)
           const { attackIV = 0, defenseIV = 0, staminaIV = 0 } = pokemon
           return {
             added: moment(pokemon.hoodie.createdAt).toISOString(),
@@ -76,6 +76,7 @@
             dex: metadata.dex,
             id: pokemon._id,
             family: metadata.family,
+            form: pokemon.form,
             generation: metadata.generation,
             ivs: attackIV + defenseIV + staminaIV,
             ivp: Math.round((attackIV + defenseIV + staminaIV) / 45 * 100),
