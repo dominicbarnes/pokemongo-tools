@@ -69,7 +69,7 @@
   "forms": {
     "normal": {
       "id": "POKEMON_CASTFORM",
-      "name": "Castform (Normal)",
+      "name": "Castform",
       "dex": 351,
       "generation": 3,
       "types": [
