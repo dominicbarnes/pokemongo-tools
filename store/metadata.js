@@ -76,7 +76,7 @@ const getters = {
           xlevel = level
         }
       }
-      return parseInt(xlevel, 10)
+      return parseFloat(xlevel)
     }
   }
 }
