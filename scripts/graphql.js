@@ -105,6 +105,10 @@ const query = `{
     id
     name
   }
+  cpMultipliers {
+    level
+    multiplier
+  }
 }`
 
 exports.import = async function () {
@@ -117,6 +121,7 @@ function docs (data) {
     .concat(pokemon(data.pokemon))
     .concat(moves(data.moves))
     .concat(families(data.families))
+    .concat(multipliers(data.cpMultipliers))
 }
 
 function types (meta) {
@@ -173,4 +178,14 @@ function families (list) {
     delete family.id
     return family
   })
+}
+
+function multipliers (list) {
+  return {
+    _id: 'CP_MULTIPLIERS',
+    levels: list.reduce((o, item) => {
+      o[item.level] = item.multiplier
+      return o
+    }, {})
+  }
 }
