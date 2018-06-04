@@ -63,6 +63,21 @@ const getters = {
 
   cpMultipliers ({ cpMultipliers }) {
     return level => cpMultipliers.levels[level]
+  },
+  level ({ cpMultipliers }) {
+    return input => {
+      let xdelta = Infinity
+      let xlevel = 0
+      for (const level in cpMultipliers.levels) {
+        const multiplier = cpMultipliers.levels[level]
+        const delta = Math.abs(input - multiplier)
+        if (delta < xdelta) {
+          xdelta = delta
+          xlevel = level
+        }
+      }
+      return parseInt(xlevel, 10)
+    }
   }
 }
 

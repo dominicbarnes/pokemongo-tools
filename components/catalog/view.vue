@@ -42,6 +42,13 @@
               <table class="table table-bordered table-sm">
                 <tbody>
                   <tr>
+                    <th>Level</th>
+                    <td>
+                      <b-button v-if="legacy" variant="success" size="sm" v-on:click="setLevel(estimatedLevel)">Set Level to {{estimatedLevel}}</b-button>
+                      <span v-else>{{ catalog.level | number('0') }}</span>
+                    </td>
+                  </tr>
+                  <tr>
                     <th>CP</th>
                     <td>{{ cp | number('0,0') }}</td>
                   </tr>
@@ -175,7 +182,7 @@
   import sortBy from 'sort-by'
   import { mapGetters } from 'vuex'
 
-  import { dex, cp, hp } from '../../utils'
+  import { dex, cp, hp, multiplier } from '../../utils'
   import MoveSummary from '../move-summary.vue'
   import PokemonSprite from '../pokemon-sprite.vue'
   import RelTime from '../rel-time.vue'
@@ -192,6 +199,7 @@
         newHP: null,
         newQuickMove: null,
         newChargeMove: null,
+        newLevel: null,
         trigger: null
       }
     },
@@ -200,7 +208,8 @@
       ...mapGetters({
         pokemonByID: 'pokemonByID',
         movesByID: 'movesByID',
-        cpMultipliers: 'cpMultipliers'
+        cpMultipliers: 'cpMultipliers',
+        level: 'level'
       }),
 
       loading() {
@@ -287,6 +296,19 @@
         })
 
         return [ { text: 'Choose a Move', value: null } ].concat(options)
+      },
+
+      legacy() {
+        return !this.catalog.level
+      },
+
+      estimatedLevel() {
+        const { legacy, catalog, metadata } = this
+        if (!legacy) return null
+        const attack = metadata.baseStats.attack + catalog.attackIV
+        const defense = metadata.baseStats.defense + catalog.defenseIV
+        const stamina = metadata.baseStats.stamina + catalog.staminaIV
+        return this.level(multiplier(catalog.cp, attack, defense, stamina))
       }
     },
 
@@ -346,6 +368,20 @@
         await this.$store.dispatch('pokemon/update', {
           pokemon: this.changes(keys),
           trigger: this.trigger
+        })
+      },
+
+      async setLevel(level) {
+        const { pokemon } = this.$route.params
+        const changes = {
+          _id: pokemon,
+          level: level,
+          cp: null,
+          hp: null,
+        }
+        await this.$store.dispatch('pokemon/update', {
+          pokemon: changes,
+          trigger: 'set-level-button'
         })
       }
     },

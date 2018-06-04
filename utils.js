@@ -21,9 +21,13 @@ exports.page = function (list, currentPage, perPage) {
 }
 
 exports.cp = function (attack, defense, stamina, multiplier) {
-  return Math.max(Math.floor((attack * Math.pow(defense, 0.5) * Math.pow(stamina, 0.5) * Math.pow(multiplier, 2)) / 10), 10)
+  return Math.max(Math.floor((attack * Math.sqrt(defense) * Math.sqrt(stamina) * Math.pow(multiplier, 2)) / 10), 10)
 }
 
 exports.hp = function (stamina, multiplier) {
   return Math.floor(stamina * multiplier)
+}
+
+exports.multiplier = function (cp, attack, defense, stamina) {
+  return Math.sqrt((cp * 10) / (attack * Math.sqrt(defense) * Math.sqrt(stamina)))
 }
