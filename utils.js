@@ -19,3 +19,11 @@ exports.page = function (list, currentPage, perPage) {
   const end = start + perPage
   return list.slice(start, end)
 }
+
+exports.cp = function (attack, defense, stamina, multiplier) {
+  return Math.max(Math.floor((attack * Math.pow(defense, 0.5) * Math.pow(stamina, 0.5) * Math.pow(multiplier, 2)) / 10), 10)
+}
+
+exports.hp = function (stamina, multiplier) {
+  return Math.floor(stamina * multiplier)
+}

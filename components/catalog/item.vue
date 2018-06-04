@@ -17,7 +17,8 @@
     <div>
       {{ pokemon.dex | dex }}
       &bull;
-      {{ pokemon.cp | number }} CP
+      <mark v-if="!pokemon.level" title="Legacy CP + HP stats, please Edit and enter Level instead.">{{ pokemon.cp | number }} CP</mark>
+      <span v-else>{{ pokemon.cp | number }} CP</span>
       &bull;
       {{ pokemon.ivs / 45 | percentage }} IVs
     </div>

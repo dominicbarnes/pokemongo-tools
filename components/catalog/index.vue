@@ -60,7 +60,8 @@
         loggedIn: 'account/loggedIn',
         pokemon: 'pokemon/all',
         pokemonByID: 'pokemonByID',
-        movesByID: 'movesByID'
+        movesByID: 'movesByID',
+        cpMultipliers: 'cpMultipliers'
       }),
 
       list() {
@@ -72,7 +73,7 @@
           return {
             added: moment(pokemon.hoodie.createdAt).toISOString(),
             caught: pokemon.caughtAt,
-            cp: pokemon.cp,
+            cp: pokemon.level ? this.calculateCP(pokemon, metadata) : pokemon.cp,
             dex: metadata.dex,
             id: pokemon._id,
             family: metadata.family,
@@ -80,6 +81,7 @@
             generation: metadata.generation,
             ivs: attackIV + defenseIV + staminaIV,
             ivp: Math.round((attackIV + defenseIV + staminaIV) / 45 * 100),
+            level: pokemon.level,
             name: pokemon.nickname || metadata.name,
             nickname: pokemon.nickname,
             notes: pokemon.notes,
@@ -139,6 +141,16 @@
         }
 
         return sift(query)
+      }
+    },
+
+    methods: {
+      calculateCP(catalog, metadata) {
+        const multiplier = this.cpMultipliers(catalog.level)
+        const attack = metadata.baseStats.attack + catalog.attackIV
+        const defense = metadata.baseStats.defense + catalog.defenseIV
+        const stamina = metadata.baseStats.stamina + catalog.staminaIV
+        return Math.max(Math.floor((attack * Math.pow(defense, 0.5) * Math.pow(stamina, 0.5) * Math.pow(multiplier, 2)) / 10), 10)
       }
     },
 

@@ -43,11 +43,11 @@
                 <tbody>
                   <tr>
                     <th>CP</th>
-                    <td>{{ catalog.cp | number('0,0') }}</td>
+                    <td>{{ cp | number('0,0') }}</td>
                   </tr>
                   <tr>
                     <th>HP</th>
-                    <td>{{ catalog.hp | number('0,0') }}</td>
+                    <td>{{ hp | number('0,0') }}</td>
                   </tr>
                 </tbody>
               </table>
@@ -175,7 +175,7 @@
   import sortBy from 'sort-by'
   import { mapGetters } from 'vuex'
 
-  import { dex } from '../../utils'
+  import { dex, cp, hp } from '../../utils'
   import MoveSummary from '../move-summary.vue'
   import PokemonSprite from '../pokemon-sprite.vue'
   import RelTime from '../rel-time.vue'
@@ -199,7 +199,8 @@
     computed: {
       ...mapGetters({
         pokemonByID: 'pokemonByID',
-        movesByID: 'movesByID'
+        movesByID: 'movesByID',
+        cpMultipliers: 'cpMultipliers'
       }),
 
       loading() {
@@ -214,6 +215,24 @@
       metadata() {
         const { pokemonByID } = this
         return pokemonByID(this.catalog.pokemonID, this.catalog.form)
+      },
+
+      cp() {
+        const { catalog, metadata } = this
+        if (!catalog.level) return catalog.cp // legacy
+        const attack = metadata.baseStats.attack + catalog.attackIV
+        const defense = metadata.baseStats.defense + catalog.defenseIV
+        const stamina = metadata.baseStats.stamina + catalog.staminaIV
+        const multiplier = this.cpMultipliers(catalog.level)
+        return cp(attack, defense, stamina, multiplier)
+      },
+
+      hp() {
+        const { catalog, metadata } = this
+        if (!catalog.level) return catalog.hp // legacy
+        const stamina = metadata.baseStats.stamina + catalog.staminaIV
+        const multiplier = this.cpMultipliers(catalog.level)
+        return hp(stamina, multiplier)
       },
 
       name() {

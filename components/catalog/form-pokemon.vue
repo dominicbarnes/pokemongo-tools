@@ -27,34 +27,26 @@
     </b-form-group>
 
     <b-form-group label="Stats">
-      <b-row class="mb-3">
-        <b-col md="6">
-          <b-input-group>
-            <b-input-group-prepend is-text>CP</b-input-group-prepend>
-            <b-form-input type="number" required min="10" v-model.number="value.cp" />
-          </b-input-group>
-        </b-col>
-        <b-col md="6">
-          <b-input-group>
-            <b-input-group-prepend is-text>HP</b-input-group-prepend>
-            <b-form-input type="number" required min="10" v-model.number="value.hp" />
-          </b-input-group>
-        </b-col>
-      </b-row>
       <b-row>
-        <b-col md="4">
+        <b-col md="3">
+          <b-input-group class="mb-3">
+            <b-input-group-prepend is-text>Level</b-input-group-prepend>
+            <b-form-input type="number" required min="1" step="0.5" max="40" v-model.number="value.level" />
+          </b-input-group>
+        </b-col>
+        <b-col md="3">
            <b-input-group>
              <b-input-group-prepend is-text>Attack IV</b-input-group-prepend>
             <b-form-input id="add-iv-attack-input" type="number" min="0" max="15" v-model.number="value.attackIV" />
           </b-input-group>
         </b-col>
-        <b-col md="4">
+        <b-col md="3">
           <b-input-group>
             <b-input-group-prepend is-text>Defense IV</b-input-group-prepend>
             <b-form-input id="add-iv-defense-input" type="number" min="0" max="15" v-model.number="value.defenseIV" />
           </b-input-group>
         </b-col>
-        <b-col md="4">
+        <b-col md="3">
           <b-input-group>
             <b-input-group-prepend is-text>Stamina IV</b-input-group-prepend>
             <b-form-input id="add-iv-stamina-input" type="number" min="0" max="15" v-model.number="value.staminaIV" />
