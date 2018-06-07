@@ -42,6 +42,7 @@
   import sortBy from 'sort-by'
   import { mapGetters } from 'vuex'
 
+  import { cp, hp, multiplier } from '../../utils.js'
   import CatalogFilters from './filters.vue'
   import CatalogItem from './item.vue'
   import PaginatedList from '../paginated-list.vue'
@@ -61,7 +62,8 @@
         pokemon: 'pokemon/all',
         pokemonByID: 'pokemonByID',
         movesByID: 'movesByID',
-        cpMultipliers: 'cpMultipliers'
+        cpMultipliers: 'cpMultipliers',
+        level: 'level'
       }),
 
       list() {
@@ -76,6 +78,7 @@
             cp: pokemon.level ? this.calculateCP(pokemon, metadata) : pokemon.cp,
             dex: metadata.dex,
             id: pokemon._id,
+            estimatedLevel: !pokemon.level ? this.estimateLevel(pokemon, metadata) : null,
             family: metadata.family,
             form: pokemon.form,
             generation: metadata.generation,
@@ -146,11 +149,32 @@
 
     methods: {
       calculateCP(catalog, metadata) {
-        const multiplier = this.cpMultipliers(catalog.level)
         const attack = metadata.baseStats.attack + catalog.attackIV
         const defense = metadata.baseStats.defense + catalog.defenseIV
         const stamina = metadata.baseStats.stamina + catalog.staminaIV
-        return Math.max(Math.floor((attack * Math.pow(defense, 0.5) * Math.pow(stamina, 0.5) * Math.pow(multiplier, 2)) / 10), 10)
+        const multiplier = this.cpMultipliers(catalog.level)
+        return cp(attack, defense, stamina, multiplier)
+      },
+
+      calculateHP(catalog, metadata) {
+        const stamina = metadata.baseStats.stamina + catalog.staminaIV
+        const multiplier = this.cpMultipliers(catalog.level)
+        return hp(stamina, multiplier)
+      },
+
+      estimateLevel(catalog, metadata) {
+        const attack = metadata.baseStats.attack + catalog.attackIV
+        const defense = metadata.baseStats.defense + catalog.defenseIV
+        const stamina = metadata.baseStats.stamina + catalog.staminaIV
+        const level = this.level(multiplier(catalog.cp, attack, defense, stamina))
+        const cloned = Object.assign({}, catalog, { level })
+        const cp = this.calculateCP(cloned, metadata)
+        const hp = this.calculateHP(cloned, metadata)
+        if (cp !== catalog.cp || hp !== catalog.hp) {
+          console.warn('bad estimate', catalog, metadata, level)
+          return null
+        }
+        return level
       }
     },
 
