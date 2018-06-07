@@ -1,4 +1,33 @@
 
+0.4.0 / 2018-06-07
+==================
+
+  * fix(catalog): finish removing migrate logic
+  * chore(pkg): update deps
+  * feat(catalog): remove migration logic
+  * fix(utils): lint issue
+  * feat(catalog): add great level migration script
+  * fix(utils): minimum hp is 10
+  * feat(catalog): prepare for the great level migration
+  * feat(catalog): better ui for power up
+  * fix(store): support half-levels for calculation
+  * fix: lint
+  * feat(catalog): add helper for converting cp/hp -> level
+  * feat(catalog): add basic level support
+  * feat: add cp multipliers metadata
+  * metadata: update
+  * fix(pokemon-sprite): handle alolan forms
+  * feat(catalog): add basic alternate form support
+  * feat(import): fetch latest
+  * feat(import): add delay between retries
+  * feat(pokemon): add basic alternate form support
+  * feat(catalog): reorder filters
+  * feat(filters): convert types to checkbox + badge
+  * fix(pokedex): move filters to left and fix padding
+  * fix(catalog): restore sort and add
+  * feat: switch to sidebar filters
+  * chore(package): update deps
+
 0.3.5 / 2018-04-09
 ==================
 
