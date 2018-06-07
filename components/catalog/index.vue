@@ -9,7 +9,6 @@
         <b-col md="9" lg="10">
           <b-row class="my-2">
             <b-col>
-              <b-button v-if="migrations.length" v-on:click="migrate()">Migrate {{migrations.length}}</b-button>
               <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add Pokémon</b-button>
             </b-col>
             <b-col>
