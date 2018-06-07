@@ -9,6 +9,7 @@
         <b-col md="9" lg="10">
           <b-row class="my-2">
             <b-col>
+              <b-button v-if="migrations.length" v-on:click="migrate()">Migrate {{migrations.length}}</b-button>
               <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add Pokémon</b-button>
             </b-col>
             <b-col>
@@ -97,6 +98,19 @@
         })
       },
 
+      migrations() {
+        return this.list
+          .filter(item => item.estimatedLevel)
+          .map(item => {
+            return {
+              _id: item.id,
+              level: item.estimatedLevel,
+              cp: null,
+              hp: null
+            }
+          })
+      },
+
       evolves() {
         return this.$store.state.metadata.pokemon
           .filter(pokemon => pokemon.nextEvolutions.length > 0)
@@ -175,6 +189,10 @@
           return null
         }
         return level
+      },
+
+      async migrate() {
+        await hoodie.store.update(this.migrations)
       }
     },
 
