@@ -63,8 +63,7 @@
         pokemon: 'pokemon/all',
         pokemonByID: 'pokemonByID',
         movesByID: 'movesByID',
-        cpMultipliers: 'cpMultipliers',
-        level: 'level'
+        cpMultipliers: 'cpMultipliers'
       }),
 
       list() {
@@ -76,13 +75,13 @@
           return {
             added: moment(pokemon.hoodie.createdAt).toISOString(),
             caught: pokemon.caughtAt,
-            cp: pokemon.level ? this.calculateCP(pokemon, metadata) : pokemon.cp,
+            cp: this.calculateCP(pokemon, metadata),
             dex: metadata.dex,
             id: pokemon._id,
-            estimatedLevel: !pokemon.level ? this.estimateLevel(pokemon, metadata) : null,
             family: metadata.family,
             form: pokemon.form,
             generation: metadata.generation,
+            hp: this.calculateHP(pokemon, metadata),
             ivs: attackIV + defenseIV + staminaIV,
             ivp: Math.round((attackIV + defenseIV + staminaIV) / 45 * 100),
             level: pokemon.level,
@@ -96,19 +95,6 @@
             types: metadata.types
           }
         })
-      },
-
-      migrations() {
-        return this.list
-          .filter(item => item.estimatedLevel)
-          .map(item => {
-            return {
-              _id: item.id,
-              level: item.estimatedLevel,
-              cp: null,
-              hp: null
-            }
-          })
       },
 
       evolves() {
@@ -174,25 +160,6 @@
         const stamina = metadata.baseStats.stamina + catalog.staminaIV
         const multiplier = this.cpMultipliers(catalog.level)
         return hp(stamina, multiplier)
-      },
-
-      estimateLevel(catalog, metadata) {
-        const attack = metadata.baseStats.attack + catalog.attackIV
-        const defense = metadata.baseStats.defense + catalog.defenseIV
-        const stamina = metadata.baseStats.stamina + catalog.staminaIV
-        const level = this.level(multiplier(catalog.cp, attack, defense, stamina))
-        const cloned = Object.assign({}, catalog, { level })
-        const cp = this.calculateCP(cloned, metadata)
-        const hp = this.calculateHP(cloned, metadata)
-        if (cp !== catalog.cp || hp !== catalog.hp) {
-          console.warn('bad estimate', catalog, metadata, level)
-          return null
-        }
-        return level
-      },
-
-      async migrate() {
-        await hoodie.store.update(this.migrations)
       }
     },
 
