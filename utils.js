@@ -25,7 +25,8 @@ exports.cp = function (attack, defense, stamina, multiplier) {
 }
 
 exports.hp = function (stamina, multiplier) {
-  return Math.floor(stamina * multiplier)
+  debugger
+  return Math.max(Math.floor(stamina * multiplier), 10)
 }
 
 exports.multiplier = function (cp, attack, defense, stamina) {
