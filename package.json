@@ -23,7 +23,7 @@
     "bootstrap": "^4.1.1",
     "bootstrap-vue": "^2.0.0-rc.11",
     "browserify": "^16.2.2",
-    "clone": "^2.1.1",
+    "clone": "^2.1.2",
     "concurrently": "^3.5.1",
     "couchdb-bootstrap": "^1.14.0",
     "debounce": "^1.1.0",
