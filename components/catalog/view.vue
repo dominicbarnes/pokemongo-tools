@@ -23,7 +23,6 @@
             <b-nav-form>
               <b-button v-bind:to="{ name: 'pokedex-view', params: { pokemon: catalog.pokemonID } }" size="sm" target="_blank">Pokédex</b-button>
               <b-button v-bind:disabled="!canEvolve" v-b-modal.modalEvolve variant="info" size="sm" class="ml-2">Evolve</b-button>
-              <b-button v-b-modal.modalPowerUp variant="info" size="sm" class="ml-2">Power Up</b-button>
               <b-button v-b-modal.modalUseTM variant="info" size="sm" class="ml-2">Use TM</b-button>
               <b-button v-bind:to="{ name: 'catalog-edit', params: { pokemon: catalog._id } }" variant="warning" size="sm" class="ml-2">Edit</b-button>
               <b-button v-b-modal.modalDelete variant="danger" size="sm" class="ml-2">Delete</b-button>
@@ -45,7 +44,7 @@
                     <th>Level</th>
                     <td>
                       <b-button v-if="legacy" variant="success" size="sm" v-on:click="setLevel(estimatedLevel)">Set Level to {{estimatedLevel}}</b-button>
-                      <span v-else>{{ catalog.level | number('0') }}</span>
+                      <span v-else>{{ catalog.level | number('0.0') }}</span>
                     </td>
                   </tr>
                   <tr>
@@ -80,6 +79,7 @@
                   </tr>
                 </tfoot>
               </table>
+              <b-button v-if="catalog.level < 40" variant="success" v-on:click="setLevel(catalog.level + 0.5)">Power Up</b-button>
             </b-card>
           </b-col>
 
@@ -147,16 +147,6 @@
 
           <b-form-group label="Charge Move" description="Select the new charge move.">
             <b-form-select v-bind:options="chargeMoves" v-model="newChargeMove" />
-          </b-form-group>
-        </b-modal>
-
-        <b-modal id="modalPowerUp" title="Power Up" v-on:show="reset('power-up-modal')" v-on:ok="save([ 'newCP', 'newHP' ])">
-          <b-form-group label="CP" description="Enter the new CP.">
-            <b-form-input type="number" required min="10" v-model.number="newCP" />
-          </b-form-group>
-
-          <b-form-group label="HP" description="Enter the new HP.">
-            <b-form-input type="number" required min="10" v-model.number="newHP" />
           </b-form-group>
         </b-modal>
 
