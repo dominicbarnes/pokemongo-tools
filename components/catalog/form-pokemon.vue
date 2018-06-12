@@ -27,6 +27,11 @@
     </b-form-group>
 
     <b-form-group label="Stats">
+      <template slot="description">
+        Calculated
+        <span v-if="calculatedCP">{{calculatedCP}} CP</span>
+        <span v-if="calculatedHP">{{calculatedHP}} HP</span>
+      </template>
       <b-row>
         <b-col md="3">
           <b-input-group class="mb-3">
@@ -94,7 +99,8 @@
 <script>
   import clone from 'clone'
   import PokemonSprite from '../pokemon-sprite.vue'
-  import { dex } from '../../utils'
+  import { cp, hp, dex } from '../../utils'
+  import { mapGetters } from 'vuex';
 
   export default {
     data(vm) {
@@ -113,6 +119,10 @@
     },
 
     computed: {
+      ...mapGetters({
+        cpMultipliers: 'cpMultipliers'
+      }),
+
       pokemon() {
         return this.$store.getters.pokemonSort('dex').map(pokemon => {
           const text = `${pokemon.name} (${dex(pokemon.dex)})`
@@ -158,6 +168,24 @@
       totalIVs() {
         const { attackIV, defenseIV, staminaIV } = this.value
         return attackIV + defenseIV + staminaIV
+      },
+      calculatedCP() {
+        const { level, attackIV, defenseIV, staminaIV } = this.value
+        const metadata = this.getMetadata()
+        if (!metadata) return 0
+        const attack = metadata.baseStats.attack + (attackIV || 0)
+        const defense = metadata.baseStats.defense + (defenseIV || 0)
+        const stamina = metadata.baseStats.stamina + (staminaIV || 0)
+        const multiplier = this.cpMultipliers(level)
+        return cp(attack, defense, stamina, multiplier)
+      },
+      calculatedHP() {
+        const { level, staminaIV } = this.value
+        const metadata = this.getMetadata()
+        if (!metadata) return 0
+        const stamina = metadata.baseStats.stamina + (staminaIV || 0)
+        const multiplier = this.cpMultipliers(level)
+        return hp(stamina, multiplier)
       }
     },
 
