@@ -34,51 +34,32 @@
       <b-container fluid class="p-3">
         <b-row>
           <b-col md="4" class="mb-2">
-            <b-card class="mb-2">
+            <b-card class="mb-2 text-center">
               <pokemon-sprite v-bind:pokemon="metadata.dex" v-bind:form="catalog.form" v-bind:shiny="catalog.shiny" />
+              <div class="my-1">
+                Level <b-badge variant="success">{{ catalog.level | number('0.0') }}</b-badge>
+                &bull;
+                <b-badge variant="info">{{ cp | number('0,0') }}</b-badge>
+                <abbr title="Combat Power" class="initialism">CP</abbr>
+                <b-badge variant="info">{{ hp | number('0,0') }}</b-badge>
+                <abbr title="Health Points" class="initialism">HP</abbr>
+                &bull;
+                <b-badge variant="primary">{{ totalIVs / 45 | number('0%') }}</b-badge>
+                <abbr title="Individual Values" class="initialism">IVs</abbr>
+              </div>
             </b-card>
-            <b-card title="Stats">
-              <table class="table table-bordered table-sm">
-                <tbody>
-                  <tr>
-                    <th>Level</th>
-                    <td>{{ catalog.level | number('0.0') }}</td>
-                  </tr>
-                  <tr>
-                    <th>CP</th>
-                    <td>{{ cp | number('0,0') }}</td>
-                  </tr>
-                  <tr>
-                    <th>HP</th>
-                    <td>{{ hp | number('0,0') }}</td>
-                  </tr>
-                </tbody>
-              </table>
-              <table class="table table-bordered table-sm">
-                <tbody>
-                  <tr>
-                    <th>Attack IV</th>
-                    <td>{{ catalog.attackIV | number('0') }}</td>
-                  </tr>
-                  <tr>
-                    <th>Defense IV</th>
-                    <td>{{ catalog.defenseIV | number('0') }}</td>
-                  </tr>
-                  <tr>
-                    <th>Stamina IV</th>
-                    <td>{{ catalog.staminaIV | number('0') }}</td>
-                  </tr>
-                </tbody>
-                <tfoot>
-                  <tr>
-                    <th>Total IVs</th>
-                    <td>{{ totalIVs }} ({{ totalIVs / 45 | percentage }})</td>
-                  </tr>
-                </tfoot>
-              </table>
-              <b-dropdown v-if="catalog.level < 40" split text="Power Up" variant="success" v-on:click="powerUp(catalog.level + 0.5)">
+            <b-card title="Level" class="mb-2">
+              <b-progress v-bind:value="catalog.level" v-bind:max="40" v-bind:precision="1" show-value variant="success" />
+              <b-dropdown v-if="catalog.level < 40" split text="Power Up" variant="success" size="sm" class="my-2" v-on:click="powerUp(catalog.level + 0.5)">
                 <b-dropdown-item v-on:click="powerUp(40)">Max (level 40)</b-dropdown-item>
               </b-dropdown>
+            </b-card>
+            <b-card title="Individual Values (IVs)" class="mb-2">
+              <b-progress v-bind:max="45" variant="primary">
+                <b-progress-bar v-bind:value="catalog.attackIV" v-bind:label="catalog.attackIV + ' ATK'" variant="danger" title="Attack" />
+                <b-progress-bar v-bind:value="catalog.defenseIV" v-bind:label="catalog.defenseIV + ' DEF'" variant="primary" title="Defense" />
+                <b-progress-bar v-bind:value="catalog.staminaIV" v-bind:label="catalog.staminaIV + ' STA'" variant="warning" title="Stamina" />
+              </b-progress>
             </b-card>
           </b-col>
 
