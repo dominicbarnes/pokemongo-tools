@@ -76,7 +76,9 @@
                   </tr>
                 </tfoot>
               </table>
-              <b-button v-if="catalog.level < 40" variant="success" v-on:click="powerUp()">Power Up</b-button>
+              <b-dropdown v-if="catalog.level < 40" split text="Power Up" variant="success" v-on:click="powerUp(catalog.level + 0.5)">
+                <b-dropdown-item v-on:click="powerUp(40)">Max (level 40)</b-dropdown-item>
+              </b-dropdown>
             </b-card>
           </b-col>
 
@@ -324,11 +326,11 @@
         return !!metadata.legacy
       },
 
-      async powerUp() {
+      async powerUp(level) {
         await this.$store.dispatch('pokemon/update', {
           pokemon: {
             _id: this.catalog._id,
-            level: this.catalog.level + 0.5
+            level: level
           }
         })
       },
