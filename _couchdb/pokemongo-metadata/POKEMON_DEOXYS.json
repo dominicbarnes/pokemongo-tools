@@ -45,7 +45,6 @@
     }
   ],
   "rarity": "mythic",
-  "maxCP": 15,
   "buddyDistance": 5,
   "height": 1.7,
   "weight": 60.8,
@@ -91,7 +90,6 @@
         }
       ],
       "rarity": "mythic",
-      "maxCP": 15,
       "buddyDistance": 5,
       "height": 1.7,
       "weight": 60.8,
@@ -139,7 +137,6 @@
         }
       ],
       "rarity": "mythic",
-      "maxCP": 15,
       "buddyDistance": 5,
       "height": 1.7,
       "weight": 60.8,
@@ -187,7 +184,6 @@
         }
       ],
       "rarity": "mythic",
-      "maxCP": 15,
       "buddyDistance": 5,
       "height": 1.7,
       "weight": 60.8,
@@ -235,7 +231,6 @@
         }
       ],
       "rarity": "mythic",
-      "maxCP": 15,
       "buddyDistance": 5,
       "height": 1.7,
       "weight": 60.8,

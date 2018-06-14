@@ -25,7 +25,7 @@
                 <tbody>
                   <tr>
                     <th>Max CP</th>
-                    <td>{{ pokemon.maxCP | number('0,0') }}</td>
+                    <td>{{ maxCP | number('0,0') }}</td>
                   </tr>
                   <tr>
                     <th>Base Attack</th>
@@ -107,7 +107,7 @@
   import numeral from 'numeral'
   import sortBy from 'sort-by'
 
-  import { dex } from '../../utils'
+  import { cp, dex } from '../../utils'
   import MoveSummary from '../move-summary.vue'
   import PokemonSprite from '../pokemon-sprite.vue'
   import TypeBadge from '../badges/type.vue'
@@ -115,6 +115,10 @@
 
   export default {
     computed: {
+      ...mapGetters({
+        cpMultipliers: 'cpMultipliers'
+      }),
+
       loading() {
         return this.$store.state.metadata.loading
       },
@@ -161,6 +165,15 @@
           const { candy, item } = evolution
           return { pokemon, candy, item }
         })
+      },
+
+      maxCP() {
+        const { pokemon } = this
+        const attack = pokemon.baseStats.attack + 15
+        const defense = pokemon.baseStats.defense + 15
+        const stamina = pokemon.baseStats.stamina + 15
+        const multiplier = this.cpMultipliers(40)
+        return cp(attack, defense, stamina, multiplier)
       }
     },
 

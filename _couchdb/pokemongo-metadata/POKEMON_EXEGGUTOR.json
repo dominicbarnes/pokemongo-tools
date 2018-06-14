@@ -38,7 +38,6 @@
     }
   ],
   "rarity": null,
-  "maxCP": 2916,
   "buddyDistance": 3,
   "height": 2,
   "weight": 120,
@@ -87,7 +86,6 @@
         }
       ],
       "rarity": null,
-      "maxCP": 2881,
       "buddyDistance": 3,
       "height": 10.9,
       "weight": 415.6,
@@ -138,7 +136,6 @@
         }
       ],
       "rarity": null,
-      "maxCP": 2916,
       "buddyDistance": 3,
       "height": 2,
       "weight": 120,

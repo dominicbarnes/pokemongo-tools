@@ -40,7 +40,6 @@ const query = `{
       legacy
     }
     rarity
-    maxCP
     buddyDistance
     height
     weight
@@ -81,7 +80,6 @@ const query = `{
           legacy
         }
         rarity
-        maxCP
         buddyDistance
         height
         weight
@@ -109,6 +107,11 @@ const query = `{
     level
     multiplier
   }
+  upgradeCosts {
+    level
+    candy
+    stardust
+  }
 }`
 
 exports.import = async function () {
@@ -122,6 +125,7 @@ function docs (data) {
     .concat(moves(data.moves))
     .concat(families(data.families))
     .concat(multipliers(data.cpMultipliers))
+    .concat(upgradeCosts(data.upgradeCosts))
 }
 
 function types (meta) {
@@ -185,6 +189,19 @@ function multipliers (list) {
     _id: 'CP_MULTIPLIERS',
     levels: list.reduce((o, item) => {
       o[item.level] = item.multiplier
+      return o
+    }, {})
+  }
+}
+
+function upgradeCosts (list) {
+  return {
+    _id: 'UPGRADE_COSTS',
+    levels: list.reduce((o, item) => {
+      o[item.level] = {
+        candy: item.candy,
+        stardust: item.stardust
+      }
       return o
     }, {})
   }
