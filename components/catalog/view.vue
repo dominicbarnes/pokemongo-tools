@@ -7,100 +7,92 @@
     </b-container>
 
     <div v-else>
-      <b-navbar variant="light" toggleable>
-        <b-navbar-brand class="mr-2">
-          {{name}}
-          <small v-if="catalog.nickname" class="text-muted">({{metadata.name}})</small>
-        </b-navbar-brand>
-        <b-nav-text>
-          <type-badge v-for="type in metadata.types" v-bind:type="type" />
-          <rarity-badge v-if="metadata.rarity" v-bind:rarity="metadata.rarity" />
-          <shiny-badge v-if="catalog.shiny" />
-          <b-badge v-if="totalIVs === 45" variant="success" title="100% IVs">Wonder</b-badge>
-        </b-nav-text>
-        <b-navbar-toggle target="catalog-view-actions" />
-        <b-collapse is-nav id="catalog-view-actions">
-          <b-navbar-nav class="ml-auto">
-            <b-nav-form>
-              <b-button v-bind:to="{ name: 'pokedex-view', params: { pokemon: catalog.pokemonID } }" size="sm" target="_blank">Pokédex</b-button>
-              <b-button v-bind:disabled="!canEvolve" v-b-modal.modalEvolve variant="info" size="sm" class="ml-2">Evolve</b-button>
-              <b-button v-b-modal.modalUseTM variant="info" size="sm" class="ml-2">Use TM</b-button>
-              <b-button v-bind:to="{ name: 'catalog-edit', params: { pokemon: catalog._id } }" variant="warning" size="sm" class="ml-2">Edit</b-button>
-              <b-button v-b-modal.modalDelete variant="danger" size="sm" class="ml-2">Delete</b-button>
-            </b-nav-form>
-          </b-navbar-nav>
-        </b-collapse>
-      </b-navbar>
-
       <b-container fluid class="p-3">
-        <b-row>
-          <b-col md="4" class="mb-2">
-            <b-card class="mb-2 text-center">
-              <pokemon-sprite v-bind:pokemon="metadata.dex" v-bind:form="catalog.form" v-bind:shiny="catalog.shiny" />
-              <p>
-                Level <b-badge variant="success">{{ catalog.level | number('0.0') }}</b-badge>
-                &bull;
-                <b-badge variant="info">{{ cp | number('0,0') }}</b-badge>
-                <abbr title="Combat Power" class="initialism">CP</abbr>
-                <b-badge variant="info">{{ hp | number('0,0') }}</b-badge>
-                <abbr title="Hit Points" class="initialism">HP</abbr>
-                &bull;
-                <b-badge variant="primary">{{ totalIVs / 45 | number('0%') }}</b-badge>
-                <abbr title="Individual Values" class="initialism">IVs</abbr>
-              </p>
-            </b-card>
-            <b-card title="Level" class="mb-2">
-              <b-progress v-bind:value="catalog.level" v-bind:max="40" v-bind:precision="1" show-value variant="success" />
-              <b-dropdown v-if="catalog.level < 40" split text="Power Up" variant="success" size="sm" class="my-2" v-on:click="powerUp(catalog.level + 0.5)">
-                <b-dropdown-item v-on:click="powerUp(40)">Max (level 40)</b-dropdown-item>
-              </b-dropdown>
-            </b-card>
-            <b-card title="Individual Values (IVs)" class="mb-2">
-              <b-progress v-bind:max="45" variant="primary">
-                <b-progress-bar v-bind:value="catalog.attackIV" v-bind:label="catalog.attackIV + ' ATK'" variant="danger" title="Attack" />
-                <b-progress-bar v-bind:value="catalog.defenseIV" v-bind:label="catalog.defenseIV + ' DEF'" variant="primary" title="Defense" />
-                <b-progress-bar v-bind:value="catalog.staminaIV" v-bind:label="catalog.staminaIV + ' STA'" variant="warning" title="Stamina" />
-              </b-progress>
-            </b-card>
-          </b-col>
+        <b-card-group columns>
+          <b-card class="text-center">
+            <h3>
+              {{name}}
+              <small v-if="catalog.nickname" class="text-muted">({{metadata.name}})</small>
+            </h3>
+            <pokemon-sprite v-bind:pokemon="metadata.dex" v-bind:form="catalog.form" v-bind:shiny="catalog.shiny" />
+            <type-badge v-for="type in metadata.types" v-bind:type="type" />
+            <rarity-badge v-if="metadata.rarity" v-bind:rarity="metadata.rarity" />
+            <shiny-badge v-if="catalog.shiny" />
+            <b-badge v-if="totalIVs === 45" variant="success" title="100% IVs">Wonder</b-badge>
+            <p>
+              Level <b-badge variant="success">{{ catalog.level | number('0.0') }}</b-badge>
+              &bull;
+              <b-badge variant="info">{{ cp | number('0,0') }}</b-badge>
+              <abbr title="Combat Power" class="initialism">CP</abbr>
+              <b-badge variant="info">{{ hp | number('0,0') }}</b-badge>
+              <abbr title="Hit Points" class="initialism">HP</abbr>
+              &bull;
+              <b-badge variant="primary">{{ totalIVs / 45 | number('0%') }}</b-badge>
+              <abbr title="Individual Values" class="initialism">IVs</abbr>
+            </p>
+            <b-button v-bind:to="{ name: 'pokedex-view', params: { pokemon: catalog.pokemonID } }" target="_blank">Pokédex</b-button>
+            <b-button v-if="canEvolve" v-b-modal.modalEvolve variant="info">Evolve</b-button>
+          </b-card>
 
-          <b-col md="4" class="mb-2">
-            <b-card no-body>
-              <b-card-body>
-                <h4 class="card-title card-text">Moves</h4>
-              </b-card-body>
-              <b-list-group flush>
-                <b-list-group-item>
-                  <b>Quick Move</b>
-                  <move-summary v-if="quickMove" v-bind:move="quickMove" />
-                  <span v-else>(n/a)</span>
-                </b-list-group-item>
-                <b-list-group-item>
-                  <b>Charge Move</b>
-                  <move-summary v-if="chargeMove" v-bind:move="chargeMove" />
-                  <span v-else>(n/a)</span>
-                </b-list-group-item>
-              </b-list-group>
-            </b-card>
-          </b-col>
+          <b-card title="Level">
+            <b-progress v-bind:value="catalog.level" v-bind:max="40" v-bind:precision="1" show-value variant="success" class="mb-2" />
+            <b-dropdown v-if="catalog.level < 40" split text="Power Up" variant="success" v-on:click="powerUp(catalog.level + 0.5)">
+              <b-dropdown-item v-on:click="powerUp(40)">Max (level 40)</b-dropdown-item>
+            </b-dropdown>
+          </b-card>
 
-          <b-col md="4" class="mb-2">
-            <b-card v-if="catalog.notes" title="Notes" class="mb-2">
-              <div v-html="$options.filters.markdown(catalog.notes)" />
-            </b-card>
+          <b-card title="Individual Values (IVs)">
+            <b-progress v-bind:max="45" variant="primary">
+              <b-progress-bar v-bind:value="catalog.attackIV" v-bind:label="catalog.attackIV + ' ATK'" variant="danger" title="Attack" />
+              <b-progress-bar v-bind:value="catalog.defenseIV" v-bind:label="catalog.defenseIV + ' DEF'" variant="primary" title="Defense" />
+              <b-progress-bar v-bind:value="catalog.staminaIV" v-bind:label="catalog.staminaIV + ' STA'" variant="warning" title="Stamina" />
+            </b-progress>
+          </b-card>
+          
+          <b-card no-body>
+            <b-card-body>
+              <h4 class="card-title card-text">Moves</h4>
+            </b-card-body>
+            <b-list-group flush>
+              <b-list-group-item>
+                <b>Quick Move</b>
+                <move-summary v-if="quickMove" v-bind:move="quickMove" />
+                <span v-else>(n/a)</span>
+              </b-list-group-item>
+              <b-list-group-item>
+                <b>Charge Move</b>
+                <move-summary v-if="chargeMove" v-bind:move="chargeMove" />
+                <span v-else>(n/a)</span>
+              </b-list-group-item>
+            </b-list-group>
+            <b-card-body>
+              <b-button v-b-modal.modalUseTM variant="info">Use TM</b-button>
+            </b-card-body>
+          </b-card>
 
-            <b-card title="History">
-              <dl>
-                <dt v-if="catalog.caughtAt">Caught</dt>
-                <dd v-if="catalog.caughtAt"><rel-time v-bind:datetime="catalog.caughtAt" refresh="1m" /></dd>
-                <dt v-if="catalog.hoodie.createdAt">Added to Catalog</dt>
-                <dd v-if="catalog.hoodie.createdAt"><rel-time v-bind:datetime="catalog.hoodie.createdAt" refresh="1m" /></dd>
-                <dt v-if="catalog.hoodie.updatedAt">Last Updated</dt>
-                <dd v-if="catalog.hoodie.updatedAt"><rel-time v-bind:datetime="catalog.hoodie.updatedAt" refresh="1m" /></dd>
-              </dl>
-            </b-card>
-          </b-col>
-        </b-row>
+          <b-card v-if="catalog.notes" title="Notes">
+            <div v-html="$options.filters.markdown(catalog.notes)" />
+          </b-card>
+
+          <b-card title="History">
+            <dl>
+              <template v-if="catalog.caughtAt">
+                <dt>Caught</dt>
+                <dd<rel-time v-bind:datetime="catalog.caughtAt" refresh="1m" /></dd>
+              </template>
+              <template v-if="catalog.hoodie.createdAt">
+                <dt>Added to Catalog</dt>
+                <dd><rel-time v-bind:datetime="catalog.hoodie.createdAt" refresh="1m" /></dd>
+              </template>
+              <template v-if="catalog.hoodie.updatedAt">
+                <dt>Last Updated</dt>
+                <dd><rel-time v-bind:datetime="catalog.hoodie.updatedAt" refresh="1m" /></dd>
+              </template>
+            </dl>
+            <b-button v-bind:to="{ name: 'catalog-edit', params: { pokemon: catalog._id } }" variant="warning">Edit</b-button>
+            <b-button v-b-modal.modalDelete variant="danger">Delete</b-button>
+          </b-card>
+        </b-card-group>
 
         <b-modal id="modalEvolve" title="Evolve" v-on:show="reset('evolve-modal')" v-on:ok="save([ 'newPokemonID', 'newCP', 'newHP', 'newQuickMove', 'newChargeMove' ])">
           <b-row>
