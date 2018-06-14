@@ -16,6 +16,7 @@
           <type-badge v-for="type in metadata.types" v-bind:type="type" />
           <rarity-badge v-if="metadata.rarity" v-bind:rarity="metadata.rarity" />
           <shiny-badge v-if="catalog.shiny" />
+          <b-badge v-if="totalIVs === 45" variant="success" title="100% IVs">Wonder</b-badge>
         </b-nav-text>
         <b-navbar-toggle target="catalog-view-actions" />
         <b-collapse is-nav id="catalog-view-actions">
@@ -36,17 +37,17 @@
           <b-col md="4" class="mb-2">
             <b-card class="mb-2 text-center">
               <pokemon-sprite v-bind:pokemon="metadata.dex" v-bind:form="catalog.form" v-bind:shiny="catalog.shiny" />
-              <div class="my-1">
+              <p>
                 Level <b-badge variant="success">{{ catalog.level | number('0.0') }}</b-badge>
                 &bull;
                 <b-badge variant="info">{{ cp | number('0,0') }}</b-badge>
                 <abbr title="Combat Power" class="initialism">CP</abbr>
                 <b-badge variant="info">{{ hp | number('0,0') }}</b-badge>
-                <abbr title="Health Points" class="initialism">HP</abbr>
+                <abbr title="Hit Points" class="initialism">HP</abbr>
                 &bull;
                 <b-badge variant="primary">{{ totalIVs / 45 | number('0%') }}</b-badge>
                 <abbr title="Individual Values" class="initialism">IVs</abbr>
-              </div>
+              </p>
             </b-card>
             <b-card title="Level" class="mb-2">
               <b-progress v-bind:value="catalog.level" v-bind:max="40" v-bind:precision="1" show-value variant="success" />

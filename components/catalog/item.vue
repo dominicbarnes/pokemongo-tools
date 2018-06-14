@@ -13,7 +13,8 @@
     <generation-badge v-bind:generation="pokemon.generation" />
     <rarity-badge v-if="pokemon.rarity" v-bind:rarity="pokemon.rarity" />
     <shiny-badge v-if="pokemon.shiny" />
-    <b-badge v-if="pokemon.notes" v-b-tooltip.hover.right v-bind:title="pokemon.notes">NOTES</b-badge>
+    <b-badge v-if="pokemon.ivs === 45" variant="success" title="100% IVs">Wonder</b-badge>
+    <b-badge v-if="pokemon.notes" v-b-tooltip.hover.right v-bind:title="pokemon.notes">Notes</b-badge>
     <div>
       {{ pokemon.dex | dex }}
       &bull;

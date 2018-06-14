@@ -109,3 +109,7 @@
 .type-fairy {
   background-color: var(--fairy);
 }
+
+.badge {
+  text-transform: uppercase;
+}
