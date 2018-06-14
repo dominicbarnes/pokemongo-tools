@@ -39,6 +39,7 @@
     "eslint-plugin-vue": "^4.5.0",
     "exorcist": "^1.0.0",
     "graphql-request": "^1.6.0",
+    "husky": "^0.14.3",
     "moment": "^2.22.1",
     "nano": "^6.4.4",
     "nano-blue": "^0.3.0",
@@ -80,7 +81,8 @@
     "preimport": "docker-compose up -d",
     "import": "node scripts/import.js",
     "version": "git-changelog --tag $npm_package_version && git add HISTORY.md",
-    "postversion": "git push --tags && git push"
+    "postversion": "git push --tags && git push",
+    "precommit": "npm test"
   },
   "eslintConfig": {
     "parserOptions": {
