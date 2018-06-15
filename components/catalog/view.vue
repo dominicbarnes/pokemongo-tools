@@ -78,7 +78,7 @@
             <dl>
               <template v-if="catalog.caughtAt">
                 <dt>Caught</dt>
-                <dd<rel-time v-bind:datetime="catalog.caughtAt" refresh="1m" /></dd>
+                <dd><rel-time v-bind:datetime="catalog.caughtAt" refresh="1m" /></dd>
               </template>
               <template v-if="catalog.hoodie.createdAt">
                 <dt>Added to Catalog</dt>
