@@ -14,6 +14,7 @@ const store = new Store('pokemongo-metadata', {
 const state = {
   types: {},
   cpMultipliers: {},
+  upgradeCosts: {},
   pokemon: [],
   moves: [],
   families: [],
@@ -78,6 +79,10 @@ const getters = {
       }
       return parseFloat(xlevel)
     }
+  },
+
+  upgradeCosts ({ upgradeCosts }) {
+    return level => upgradeCosts.levels[level]
   }
 }
 
@@ -85,6 +90,7 @@ const mutations = {
   loaded: () => Vue.set(state, 'loading', false),
   types: (state, types) => Vue.set(state, 'types', types),
   cpMultipliers: (state, cpMultipliers) => Vue.set(state, 'cpMultipliers', cpMultipliers),
+  upgradeCosts: (state, upgradeCosts) => Vue.set(state, 'upgradeCosts', upgradeCosts),
   pokemon: (state, pokemon) => Vue.set(state, 'pokemon', pokemon),
   moves: (state, moves) => Vue.set(state, 'moves', moves),
   families: (state, families) => Vue.set(state, 'families', families)
@@ -95,6 +101,7 @@ const actions = {
     try {
       commit('types', await store.find('TYPES'))
       commit('cpMultipliers', await store.find('CP_MULTIPLIERS'))
+      commit('upgradeCosts', await store.find('UPGRADE_COSTS'))
       commit('pokemon', await store.withIdPrefix('POKEMON_').findAll())
       commit('moves', await store.withIdPrefix('MOVE_').findAll())
       commit('families', await store.withIdPrefix('FAMILY_').findAll())
@@ -106,6 +113,7 @@ const actions = {
     await store.pull()
     commit('types', await store.find('TYPES'))
     commit('cpMultipliers', await store.find('CP_MULTIPLIERS'))
+    commit('upgradeCosts', await store.find('UPGRADE_COSTS'))
     commit('pokemon', await store.withIdPrefix('POKEMON_').findAll())
     commit('moves', await store.withIdPrefix('MOVE_').findAll())
     commit('families', await store.withIdPrefix('FAMILY_').findAll())

@@ -36,6 +36,16 @@
 
           <b-card title="Level">
             <b-progress v-bind:value="catalog.level" v-bind:max="40" v-bind:precision="1" show-value variant="success" class="mb-2" />
+            <p v-if="catalog.level < 40">
+              To fully power up this Pokémon, you will need
+              <b-badge>{{ upgradeCost.stardust | number('0,0') }}</b-badge>
+              stardust and
+              <b-badge>{{ upgradeCost.candy }}</b-badge>
+              candy.
+            </p>
+            <p v-else>
+              This Pokémon is fully powered up.
+            </p>
             <b-dropdown v-if="catalog.level < 40" split text="Power Up" variant="success" v-on:click="powerUp(catalog.level + 0.5)">
               <b-dropdown-item v-on:click="powerUp(40)">Max (level 40)</b-dropdown-item>
             </b-dropdown>
@@ -164,7 +174,7 @@
         pokemonByID: 'pokemonByID',
         movesByID: 'movesByID',
         cpMultipliers: 'cpMultipliers',
-        level: 'level'
+        upgradeCosts: 'upgradeCosts'
       }),
 
       loading() {
@@ -249,6 +259,17 @@
         })
 
         return [ { text: 'Choose a Move', value: null } ].concat(options)
+      },
+
+      upgradeCost() {
+        const { catalog, upgradeCosts } = this
+        let total = { stardust: 0, candy: 0 }
+        for (let x = catalog.level; x < 40; x += 0.5) {
+          const cost = this.upgradeCosts(x)
+          total.stardust += cost.stardust
+          total.candy += cost.candy
+        }
+        return total
       }
     },
 
