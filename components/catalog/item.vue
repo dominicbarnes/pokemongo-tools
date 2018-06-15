@@ -10,18 +10,23 @@
     </h2>
     <type-badge v-for="type in pokemon.types" v-bind:type="type" />
     <br />
+    <b-badge variant="dark">{{ pokemon.dex | dex }}</b-badge>
     <generation-badge v-bind:generation="pokemon.generation" />
     <rarity-badge v-if="pokemon.rarity" v-bind:rarity="pokemon.rarity" />
     <shiny-badge v-if="pokemon.shiny" />
     <b-badge v-if="pokemon.ivs === 45" variant="success" title="100% IVs">Wonder</b-badge>
+    <b-badge v-if="pokemon.level === 40" variant="success" title="Powered up to level 40">Max Power</b-badge>
     <b-badge v-if="pokemon.notes" v-b-tooltip.hover.right v-bind:title="pokemon.notes">Notes</b-badge>
     <div>
-      {{ pokemon.dex | dex }}
+      Level <b-badge variant="success">{{ pokemon.level | number('0.0') }}</b-badge>
       &bull;
-      <mark v-if="pokemon.estimatedLevel" v-bind:title="pokemon.estimatedLevel">{{ pokemon.cp | number }} CP</mark>
-      <span v-else>{{ pokemon.cp | number }} CP</span>
+      <b-badge variant="info">{{ pokemon.cp | number('0,0') }}</b-badge>
+      <abbr title="Combat Power" class="initialism">CP</abbr>
+      <b-badge variant="info">{{ pokemon.hp | number('0,0') }}</b-badge>
+      <abbr title="Hit Points" class="initialism">HP</abbr>
       &bull;
-      {{ pokemon.ivs / 45 | percentage }} IVs
+      <b-badge variant="primary">{{ pokemon.ivs / 45 | number('0%') }}</b-badge>
+      <abbr title="Individual Values" class="initialism">IVs</abbr>
     </div>
     <small class="text-muted">
       <span v-if="pokemon.caught">

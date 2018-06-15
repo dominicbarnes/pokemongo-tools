@@ -109,6 +109,7 @@
           case 'name': return sortBy('name', '-cp')
           case 'cp': return sortBy('-cp')
           case 'ivs': return sortBy('-ivs', '-added')
+          case 'level': return sortBy('-level', '-cp')
         }
       },
 
@@ -118,12 +119,13 @@
           { value: 'dex', text: 'Pokédex Number' },
           { value: 'name', text: 'Name' },
           { value: 'cp', text: 'Combat Power' },
-          { value: 'ivs', text: 'Individual Values (IVs)' }
+          { value: 'ivs', text: 'Individual Values (IVs)' },
+          { value: 'level', text: 'Pokémon Level' }
         ]
       },
 
       filterer() {
-        const { name, family, generation, minIV, types, evolves, rarity } = this.filters
+        const { name, family, generation, minIV, minLevel, types, evolves, rarity } = this.filters
         const query = { $and: [] }
 
         if (name) {
@@ -134,6 +136,7 @@
         if (family) query.$and.push({ family })
         if (generation) query.$and.push({ generation })
         if (minIV) query.$and.push({ ivp: { $gte: minIV } })
+        if (minLevel) query.$and.push({ level: { $gte: minLevel } })
         if (rarity) query.$and.push({ rarity: rarity === 'common' ? null : rarity })
         if (types && types.length) query.$and.push({ types: { $all: types.slice() } })
         if (typeof evolves === 'boolean') {
