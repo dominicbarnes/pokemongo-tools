@@ -1,4 +1,21 @@
 
+0.5.0 / 2018-06-15
+==================
+
+  * feat: do not uppercase abbr.initialism
+  * dev: upgrade up
+  * feat(catalog): add level badge
+  * feat(catalog): add sort/filter by level
+  * feat(catalog): add power-up costs
+  * fix(catalog): syntax error in history card
+  * feat: remove max cp from graphql import, add upgrade costs
+  * feat(catalog): use card columns, move action buttons inline
+  * dev: add precommit hook via husky
+  * feat(catalog): add badge for wonder
+  * feat(catalog): use progress bars to visualize stats
+  * feat(catalog): add split button for max power up
+  * feat(catalog): add calculated cp/hp to form
+
 0.4.0 / 2018-06-07
 ==================
 
