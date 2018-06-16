@@ -110,6 +110,10 @@
   background-color: var(--fairy);
 }
 
+.initialism {
+  text-transform: initial;
+}
+
 .badge {
   text-transform: uppercase;
 }
