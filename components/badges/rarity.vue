@@ -1,19 +1,16 @@
 <template>
-  <b-badge variant="info">{{ rarity | uppercase }}</b-badge>
+  <b-badge variant="info">{{ text }}</b-badge>
 </template>
 
 <script>
   export default {
     props: {
-      rarity: {
-        type: String,
-        required: true
-      }
+      rarity: String
     },
 
-    filters: {
-      uppercase(value) {
-        return value.toUpperCase()
+    computed: {
+      text() {
+        return (this.rarity || 'common').toUpperCase()
       }
     }
   }
