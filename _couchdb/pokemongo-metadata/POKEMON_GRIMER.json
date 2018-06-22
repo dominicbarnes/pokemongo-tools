@@ -43,10 +43,122 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 0.9,
   "weight": 30,
   "family": "FAMILY_GRIMER",
-  "forms": null,
+  "forms": {
+    "alola": {
+      "id": "POKEMON_GRIMER",
+      "name": "Grimer (Alola)",
+      "dex": 88,
+      "generation": 1,
+      "types": [
+        "poison",
+        "dark"
+      ],
+      "baseStats": {
+        "stamina": 160,
+        "attack": 135,
+        "defense": 90
+      },
+      "previousEvolution": null,
+      "nextEvolutions": [
+        {
+          "pokemon": {
+            "id": "POKEMON_MUK"
+          },
+          "candy": 50,
+          "item": null
+        }
+      ],
+      "quickMoves": [
+        {
+          "id": "MOVE_POISON_JAB_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_BITE_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_CRUNCH",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_GUNK_SHOT",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_SLUDGE_BOMB",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 3,
+      "height": 0.7,
+      "weight": 42,
+      "family": {
+        "id": "FAMILY_GRIMER"
+      }
+    },
+    "normal": {
+      "id": "POKEMON_GRIMER",
+      "name": "Grimer",
+      "dex": 88,
+      "generation": 1,
+      "types": [
+        "poison"
+      ],
+      "baseStats": {
+        "stamina": 160,
+        "attack": 135,
+        "defense": 90
+      },
+      "previousEvolution": null,
+      "nextEvolutions": [
+        {
+          "pokemon": {
+            "id": "POKEMON_MUK"
+          },
+          "candy": 50,
+          "item": null
+        }
+      ],
+      "quickMoves": [
+        {
+          "id": "MOVE_POISON_JAB_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_MUD_SLAP_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_SLUDGE",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_MUD_BOMB",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_SLUDGE_BOMB",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 3,
+      "height": 0.9,
+      "weight": 30,
+      "family": {
+        "id": "FAMILY_GRIMER"
+      }
+    }
+  },
   "_id": "POKEMON_GRIMER"
 }

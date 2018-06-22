@@ -43,10 +43,122 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 0.6,
   "weight": 12,
   "family": "FAMILY_SANDSHREW",
-  "forms": null,
+  "forms": {
+    "alola": {
+      "id": "POKEMON_SANDSHREW",
+      "name": "Sandshrew (Alola)",
+      "dex": 27,
+      "generation": 1,
+      "types": [
+        "ice",
+        "steel"
+      ],
+      "baseStats": {
+        "stamina": 100,
+        "attack": 125,
+        "defense": 154
+      },
+      "previousEvolution": null,
+      "nextEvolutions": [
+        {
+          "pokemon": {
+            "id": "POKEMON_SANDSLASH"
+          },
+          "candy": 50,
+          "item": null
+        }
+      ],
+      "quickMoves": [
+        {
+          "id": "MOVE_METAL_CLAW_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_POWDER_SNOW_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_BLIZZARD",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_GYRO_BALL",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_NIGHT_SLASH",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 3,
+      "height": 0.7,
+      "weight": 40,
+      "family": {
+        "id": "FAMILY_SANDSHREW"
+      }
+    },
+    "normal": {
+      "id": "POKEMON_SANDSHREW",
+      "name": "Sandshrew",
+      "dex": 27,
+      "generation": 1,
+      "types": [
+        "ground"
+      ],
+      "baseStats": {
+        "stamina": 100,
+        "attack": 126,
+        "defense": 145
+      },
+      "previousEvolution": null,
+      "nextEvolutions": [
+        {
+          "pokemon": {
+            "id": "POKEMON_SANDSLASH"
+          },
+          "candy": 50,
+          "item": null
+        }
+      ],
+      "quickMoves": [
+        {
+          "id": "MOVE_SCRATCH_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_MUD_SHOT_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_DIG",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_ROCK_SLIDE",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_SAND_TOMB",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 3,
+      "height": 0.6,
+      "weight": 12,
+      "family": {
+        "id": "FAMILY_SANDSHREW"
+      }
+    }
+  },
   "_id": "POKEMON_SANDSHREW"
 }

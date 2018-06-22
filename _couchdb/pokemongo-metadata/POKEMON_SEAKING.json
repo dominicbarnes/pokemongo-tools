@@ -41,7 +41,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 1.3,
   "weight": 39,
   "family": "FAMILY_GOLDEEN",

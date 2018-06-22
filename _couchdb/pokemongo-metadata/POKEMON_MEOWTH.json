@@ -43,10 +43,121 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 0.4,
   "weight": 4.2,
   "family": "FAMILY_MEOWTH",
-  "forms": null,
+  "forms": {
+    "alola": {
+      "id": "POKEMON_MEOWTH",
+      "name": "Meowth (Alola)",
+      "dex": 52,
+      "generation": 1,
+      "types": [
+        "dark"
+      ],
+      "baseStats": {
+        "stamina": 80,
+        "attack": 99,
+        "defense": 81
+      },
+      "previousEvolution": null,
+      "nextEvolutions": [
+        {
+          "pokemon": {
+            "id": "POKEMON_PERSIAN"
+          },
+          "candy": 50,
+          "item": null
+        }
+      ],
+      "quickMoves": [
+        {
+          "id": "MOVE_SCRATCH_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_BITE_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_NIGHT_SLASH",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_DARK_PULSE",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_FOUL_PLAY",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 3,
+      "height": 0.4,
+      "weight": 4.2,
+      "family": {
+        "id": "FAMILY_MEOWTH"
+      }
+    },
+    "normal": {
+      "id": "POKEMON_MEOWTH",
+      "name": "Meowth",
+      "dex": 52,
+      "generation": 1,
+      "types": [
+        "normal"
+      ],
+      "baseStats": {
+        "stamina": 80,
+        "attack": 92,
+        "defense": 81
+      },
+      "previousEvolution": null,
+      "nextEvolutions": [
+        {
+          "pokemon": {
+            "id": "POKEMON_PERSIAN"
+          },
+          "candy": 50,
+          "item": null
+        }
+      ],
+      "quickMoves": [
+        {
+          "id": "MOVE_SCRATCH_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_BITE_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_NIGHT_SLASH",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_DARK_PULSE",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_FOUL_PLAY",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 3,
+      "height": 0.4,
+      "weight": 4.2,
+      "family": {
+        "id": "FAMILY_MEOWTH"
+      }
+    }
+  },
   "_id": "POKEMON_MEOWTH"
 }

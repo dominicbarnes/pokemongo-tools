@@ -37,10 +37,110 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 0.7,
   "weight": 33.3,
   "family": "FAMILY_DIGLETT",
-  "forms": null,
+  "forms": {
+    "alola": {
+      "id": "POKEMON_DUGTRIO",
+      "name": "Dugtrio (Alola)",
+      "dex": 51,
+      "generation": 1,
+      "types": [
+        "ground",
+        "steel"
+      ],
+      "baseStats": {
+        "stamina": 70,
+        "attack": 201,
+        "defense": 148
+      },
+      "previousEvolution": {
+        "id": "POKEMON_DIGLETT"
+      },
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_METAL_CLAW_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_MUD_SLAP_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_EARTHQUAKE",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_MUD_BOMB",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_IRON_HEAD",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 3,
+      "height": 0.7,
+      "weight": 66.6,
+      "family": {
+        "id": "FAMILY_DIGLETT"
+      }
+    },
+    "normal": {
+      "id": "POKEMON_DUGTRIO",
+      "name": "Dugtrio",
+      "dex": 51,
+      "generation": 1,
+      "types": [
+        "ground"
+      ],
+      "baseStats": {
+        "stamina": 70,
+        "attack": 167,
+        "defense": 147
+      },
+      "previousEvolution": {
+        "id": "POKEMON_DIGLETT"
+      },
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_SUCKER_PUNCH_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_MUD_SLAP_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_EARTHQUAKE",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_MUD_BOMB",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_STONE_EDGE",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 3,
+      "height": 0.7,
+      "weight": 33.3,
+      "family": {
+        "id": "FAMILY_DIGLETT"
+      }
+    }
+  },
   "_id": "POKEMON_DUGTRIO"
 }

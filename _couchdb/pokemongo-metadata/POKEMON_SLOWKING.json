@@ -38,7 +38,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 2.01,
   "weight": 79.5,
   "family": "FAMILY_SLOWPOKE",

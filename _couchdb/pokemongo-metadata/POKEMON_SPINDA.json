@@ -45,7 +45,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 1.09,
   "weight": 5,
   "family": "FAMILY_SPINDA",

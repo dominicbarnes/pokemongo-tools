@@ -39,7 +39,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 0.61,
   "weight": 14,
   "family": "FAMILY_WOBBUFFET",

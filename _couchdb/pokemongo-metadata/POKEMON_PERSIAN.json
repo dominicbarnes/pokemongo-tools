@@ -37,10 +37,109 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 1,
   "weight": 32,
   "family": "FAMILY_MEOWTH",
-  "forms": null,
+  "forms": {
+    "alola": {
+      "id": "POKEMON_PERSIAN",
+      "name": "Persian (Alola)",
+      "dex": 53,
+      "generation": 1,
+      "types": [
+        "dark"
+      ],
+      "baseStats": {
+        "stamina": 130,
+        "attack": 158,
+        "defense": 139
+      },
+      "previousEvolution": {
+        "id": "POKEMON_MEOWTH"
+      },
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_SCRATCH_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_FEINT_ATTACK_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_FOUL_PLAY",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_DARK_PULSE",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_PLAY_ROUGH",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 3,
+      "height": 1.1,
+      "weight": 33,
+      "family": {
+        "id": "FAMILY_MEOWTH"
+      }
+    },
+    "normal": {
+      "id": "POKEMON_PERSIAN",
+      "name": "Persian",
+      "dex": 53,
+      "generation": 1,
+      "types": [
+        "normal"
+      ],
+      "baseStats": {
+        "stamina": 130,
+        "attack": 150,
+        "defense": 139
+      },
+      "previousEvolution": {
+        "id": "POKEMON_MEOWTH"
+      },
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_SCRATCH_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_FEINT_ATTACK_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_FOUL_PLAY",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_POWER_GEM",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_PLAY_ROUGH",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 3,
+      "height": 1,
+      "weight": 32,
+      "family": {
+        "id": "FAMILY_MEOWTH"
+      }
+    }
+  },
   "_id": "POKEMON_PERSIAN"
 }

@@ -52,7 +52,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 0.99,
   "weight": 28,
   "family": "FAMILY_SEEDOT",

@@ -46,7 +46,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.25,
+  "buddyDistance": 1,
   "height": 2.11,
   "weight": 360,
   "family": "FAMILY_ARON",

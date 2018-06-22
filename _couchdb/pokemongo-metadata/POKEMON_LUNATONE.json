@@ -46,7 +46,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 0.99,
   "weight": 168,
   "family": "FAMILY_LUNATONE",

@@ -61,7 +61,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 1.25,
+  "buddyDistance": 5,
   "height": 0.3,
   "weight": 0.8,
   "family": "FAMILY_CASTFORM",
@@ -102,7 +102,7 @@
         }
       ],
       "rarity": null,
-      "buddyDistance": 1.25,
+      "buddyDistance": 5,
       "height": 0.3,
       "weight": 0.8,
       "family": {
@@ -145,7 +145,7 @@
         }
       ],
       "rarity": null,
-      "buddyDistance": 1.25,
+      "buddyDistance": 5,
       "height": 0.3,
       "weight": 0.8,
       "family": {
@@ -188,7 +188,7 @@
         }
       ],
       "rarity": null,
-      "buddyDistance": 1.25,
+      "buddyDistance": 5,
       "height": 0.3,
       "weight": 0.8,
       "family": {
@@ -231,7 +231,7 @@
         }
       ],
       "rarity": null,
-      "buddyDistance": 1.25,
+      "buddyDistance": 5,
       "height": 0.3,
       "weight": 0.8,
       "family": {

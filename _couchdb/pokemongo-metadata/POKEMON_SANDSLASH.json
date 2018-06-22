@@ -37,10 +37,110 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 1,
   "weight": 29.5,
   "family": "FAMILY_SANDSHREW",
-  "forms": null,
+  "forms": {
+    "alola": {
+      "id": "POKEMON_SANDSLASH",
+      "name": "Sandslash (Alola)",
+      "dex": 28,
+      "generation": 1,
+      "types": [
+        "ice",
+        "steel"
+      ],
+      "baseStats": {
+        "stamina": 150,
+        "attack": 177,
+        "defense": 221
+      },
+      "previousEvolution": {
+        "id": "POKEMON_SANDSHREW"
+      },
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_METAL_CLAW_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_POWDER_SNOW_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_BLIZZARD",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_GYRO_BALL",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_BULLDOZE",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 3,
+      "height": 1.2,
+      "weight": 55,
+      "family": {
+        "id": "FAMILY_SANDSHREW"
+      }
+    },
+    "normal": {
+      "id": "POKEMON_SANDSLASH",
+      "name": "Sandslash",
+      "dex": 28,
+      "generation": 1,
+      "types": [
+        "ground"
+      ],
+      "baseStats": {
+        "stamina": 150,
+        "attack": 182,
+        "defense": 202
+      },
+      "previousEvolution": {
+        "id": "POKEMON_SANDSHREW"
+      },
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_METAL_CLAW_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_MUD_SHOT_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_EARTHQUAKE",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_ROCK_TOMB",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_BULLDOZE",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 3,
+      "height": 1,
+      "weight": 29.5,
+      "family": {
+        "id": "FAMILY_SANDSHREW"
+      }
+    }
+  },
   "_id": "POKEMON_SANDSLASH"
 }

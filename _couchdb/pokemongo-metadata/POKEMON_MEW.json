@@ -181,7 +181,7 @@
     }
   ],
   "rarity": "mythic",
-  "buddyDistance": 5,
+  "buddyDistance": 20,
   "height": 0.4,
   "weight": 4,
   "family": "FAMILY_MEW",

@@ -46,7 +46,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 1.25,
+  "buddyDistance": 5,
   "height": 0.99,
   "weight": 23.4,
   "family": "FAMILY_RELICANTH",

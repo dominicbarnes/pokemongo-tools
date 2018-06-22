@@ -37,10 +37,110 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.25,
+  "buddyDistance": 1,
   "height": 0.8,
   "weight": 30,
   "family": "FAMILY_PIKACHU",
-  "forms": null,
+  "forms": {
+    "alola": {
+      "id": "POKEMON_RAICHU",
+      "name": "Raichu (Alola)",
+      "dex": 26,
+      "generation": 1,
+      "types": [
+        "electric",
+        "psychic"
+      ],
+      "baseStats": {
+        "stamina": 120,
+        "attack": 201,
+        "defense": 172
+      },
+      "previousEvolution": {
+        "id": "POKEMON_PIKACHU"
+      },
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_VOLT_SWITCH_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_SPARK_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_PSYCHIC",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_THUNDER_PUNCH",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_WILD_CHARGE",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 1,
+      "height": 0.7,
+      "weight": 21,
+      "family": {
+        "id": "FAMILY_PIKACHU"
+      }
+    },
+    "normal": {
+      "id": "POKEMON_RAICHU",
+      "name": "Raichu",
+      "dex": 26,
+      "generation": 1,
+      "types": [
+        "electric"
+      ],
+      "baseStats": {
+        "stamina": 120,
+        "attack": 193,
+        "defense": 165
+      },
+      "previousEvolution": {
+        "id": "POKEMON_PIKACHU"
+      },
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_VOLT_SWITCH_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_SPARK_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_BRICK_BREAK",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_THUNDER_PUNCH",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_WILD_CHARGE",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 1,
+      "height": 0.8,
+      "weight": 30,
+      "family": {
+        "id": "FAMILY_PIKACHU"
+      }
+    }
+  },
   "_id": "POKEMON_RAICHU"
 }

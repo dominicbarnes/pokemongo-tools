@@ -43,7 +43,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 0.9,
   "weight": 19.5,
   "family": "FAMILY_ABRA",

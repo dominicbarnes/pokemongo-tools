@@ -37,7 +37,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 0.79,
   "weight": 11.5,
   "family": "FAMILY_AIPOM",

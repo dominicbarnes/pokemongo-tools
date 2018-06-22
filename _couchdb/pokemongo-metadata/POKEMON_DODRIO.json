@@ -38,7 +38,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 1.8,
   "weight": 85.2,
   "family": "FAMILY_DODUO",

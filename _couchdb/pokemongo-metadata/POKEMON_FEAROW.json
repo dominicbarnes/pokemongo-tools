@@ -38,7 +38,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.25,
+  "buddyDistance": 1,
   "height": 1.2,
   "weight": 38,
   "family": "FAMILY_SPEAROW",

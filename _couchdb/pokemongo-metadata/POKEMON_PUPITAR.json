@@ -44,7 +44,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 1.25,
+  "buddyDistance": 5,
   "height": 1.19,
   "weight": 152,
   "family": "FAMILY_LARVITAR",

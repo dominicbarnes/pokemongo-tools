@@ -50,7 +50,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 1.91,
   "weight": 52,
   "family": "FAMILY_TORCHIC",

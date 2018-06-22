@@ -45,7 +45,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.25,
+  "buddyDistance": 1,
   "height": 0.89,
   "weight": 71.5,
   "family": "FAMILY_SPOINK",

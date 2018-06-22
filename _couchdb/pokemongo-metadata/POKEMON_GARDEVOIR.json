@@ -46,7 +46,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 1.25,
+  "buddyDistance": 5,
   "height": 1.6,
   "weight": 48.4,
   "family": "FAMILY_RALTS",

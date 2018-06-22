@@ -50,7 +50,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 1,
   "weight": 20,
   "family": "FAMILY_POLIWAG",

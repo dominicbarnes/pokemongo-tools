@@ -44,10 +44,123 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.25,
+  "buddyDistance": 1,
   "height": 0.4,
   "weight": 20,
   "family": "FAMILY_GEODUDE",
-  "forms": null,
+  "forms": {
+    "alola": {
+      "id": "POKEMON_GEODUDE",
+      "name": "Geodude (Alola)",
+      "dex": 74,
+      "generation": 1,
+      "types": [
+        "rock",
+        "electric"
+      ],
+      "baseStats": {
+        "stamina": 80,
+        "attack": 132,
+        "defense": 163
+      },
+      "previousEvolution": null,
+      "nextEvolutions": [
+        {
+          "pokemon": {
+            "id": "POKEMON_GRAVELER"
+          },
+          "candy": 25,
+          "item": null
+        }
+      ],
+      "quickMoves": [
+        {
+          "id": "MOVE_ROCK_THROW_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_VOLT_SWITCH_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_ROCK_SLIDE",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_ROCK_TOMB",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_THUNDERBOLT",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 1,
+      "height": 0.4,
+      "weight": 20.3,
+      "family": {
+        "id": "FAMILY_GEODUDE"
+      }
+    },
+    "normal": {
+      "id": "POKEMON_GEODUDE",
+      "name": "Geodude",
+      "dex": 74,
+      "generation": 1,
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "baseStats": {
+        "stamina": 80,
+        "attack": 132,
+        "defense": 163
+      },
+      "previousEvolution": null,
+      "nextEvolutions": [
+        {
+          "pokemon": {
+            "id": "POKEMON_GRAVELER"
+          },
+          "candy": 25,
+          "item": null
+        }
+      ],
+      "quickMoves": [
+        {
+          "id": "MOVE_ROCK_THROW_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_TACKLE_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_ROCK_SLIDE",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_ROCK_TOMB",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_DIG",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 1,
+      "height": 0.4,
+      "weight": 20,
+      "family": {
+        "id": "FAMILY_GEODUDE"
+      }
+    }
+  },
   "_id": "POKEMON_GEODUDE"
 }

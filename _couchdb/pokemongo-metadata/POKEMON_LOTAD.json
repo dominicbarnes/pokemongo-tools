@@ -48,7 +48,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 0.51,
   "weight": 2.6,
   "family": "FAMILY_LOTAD",

@@ -33,7 +33,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 1.25,
+  "buddyDistance": 5,
   "height": 1,
   "weight": 29,
   "family": "FAMILY_EEVEE",

@@ -51,7 +51,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 1.25,
+  "buddyDistance": 5,
   "height": 0.71,
   "weight": 15,
   "family": "FAMILY_TRAPINCH",

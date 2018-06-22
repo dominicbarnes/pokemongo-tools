@@ -38,7 +38,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 1.25,
+  "buddyDistance": 5,
   "height": 1,
   "weight": 35,
   "family": "FAMILY_OMANYTE",

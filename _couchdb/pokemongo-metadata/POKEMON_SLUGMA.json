@@ -43,7 +43,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.25,
+  "buddyDistance": 1,
   "height": 0.71,
   "weight": 35,
   "family": "FAMILY_SLUGMA",

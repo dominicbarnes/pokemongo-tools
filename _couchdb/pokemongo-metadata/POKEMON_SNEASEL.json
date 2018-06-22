@@ -38,7 +38,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 0.89,
   "weight": 28,
   "family": "FAMILY_SNEASEL",

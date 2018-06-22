@@ -46,7 +46,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.25,
+  "buddyDistance": 1,
   "height": 1.09,
   "weight": 20.6,
   "family": "FAMILY_SWABLU",

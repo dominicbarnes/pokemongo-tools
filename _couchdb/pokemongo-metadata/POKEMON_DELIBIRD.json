@@ -42,7 +42,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 1.25,
+  "buddyDistance": 5,
   "height": 0.89,
   "weight": 16,
   "family": "FAMILY_DELIBIRD",

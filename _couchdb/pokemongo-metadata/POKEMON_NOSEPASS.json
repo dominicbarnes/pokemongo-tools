@@ -45,7 +45,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 0.99,
   "weight": 97,
   "family": "FAMILY_NOSEPASS",

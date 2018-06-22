@@ -38,7 +38,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.25,
+  "buddyDistance": 1,
   "height": 1.4,
   "weight": 35.6,
   "family": "FAMILY_LEDYBA",

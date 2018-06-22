@@ -47,7 +47,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 1.25,
+  "buddyDistance": 5,
   "height": 0.79,
   "weight": 24,
   "family": "FAMILY_SLAKOTH",

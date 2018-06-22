@@ -46,7 +46,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.25,
+  "buddyDistance": 1,
   "height": 0.79,
   "weight": 3.6,
   "family": "FAMILY_SURSKIT",

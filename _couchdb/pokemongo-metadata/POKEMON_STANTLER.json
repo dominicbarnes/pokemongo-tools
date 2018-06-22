@@ -37,7 +37,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 1.4,
   "weight": 71.2,
   "family": "FAMILY_STANTLER",

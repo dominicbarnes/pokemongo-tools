@@ -44,7 +44,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.25,
+  "buddyDistance": 1,
   "height": 1.6,
   "weight": 55,
   "family": "FAMILY_ZUBAT",

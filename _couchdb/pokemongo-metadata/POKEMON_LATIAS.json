@@ -50,7 +50,7 @@
     }
   ],
   "rarity": "legendary",
-  "buddyDistance": 5,
+  "buddyDistance": 20,
   "height": 1.4,
   "weight": 40,
   "family": "FAMILY_LATIAS",

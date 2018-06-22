@@ -43,7 +43,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 2,
   "weight": 6.9,
   "family": "FAMILY_EKANS",

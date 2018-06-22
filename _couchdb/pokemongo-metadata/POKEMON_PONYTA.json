@@ -43,7 +43,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 1,
   "weight": 30,
   "family": "FAMILY_PONYTA",

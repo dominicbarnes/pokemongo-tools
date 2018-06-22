@@ -45,7 +45,7 @@
     }
   ],
   "rarity": "mythic",
-  "buddyDistance": 5,
+  "buddyDistance": 20,
   "height": 1.7,
   "weight": 60.8,
   "family": "FAMILY_DEOXYS",
@@ -90,7 +90,7 @@
         }
       ],
       "rarity": "mythic",
-      "buddyDistance": 5,
+      "buddyDistance": 20,
       "height": 1.7,
       "weight": 60.8,
       "family": {
@@ -137,7 +137,7 @@
         }
       ],
       "rarity": "mythic",
-      "buddyDistance": 5,
+      "buddyDistance": 20,
       "height": 1.7,
       "weight": 60.8,
       "family": {
@@ -184,7 +184,7 @@
         }
       ],
       "rarity": "mythic",
-      "buddyDistance": 5,
+      "buddyDistance": 20,
       "height": 1.7,
       "weight": 60.8,
       "family": {
@@ -231,7 +231,7 @@
         }
       ],
       "rarity": "mythic",
-      "buddyDistance": 5,
+      "buddyDistance": 20,
       "height": 1.7,
       "weight": 60.8,
       "family": {

@@ -43,7 +43,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.25,
+  "buddyDistance": 1,
   "height": 0.6,
   "weight": 7.5,
   "family": "FAMILY_CLEFAIRY",

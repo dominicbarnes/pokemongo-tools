@@ -38,7 +38,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 1.25,
+  "buddyDistance": 5,
   "height": 2.11,
   "weight": 220,
   "family": "FAMILY_MANTINE",

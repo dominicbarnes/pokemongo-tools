@@ -43,7 +43,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 0.4,
   "weight": 6.5,
   "family": "FAMILY_KRABBY",

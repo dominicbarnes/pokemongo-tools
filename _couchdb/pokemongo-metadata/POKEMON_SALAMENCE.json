@@ -46,7 +46,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 1.25,
+  "buddyDistance": 5,
   "height": 1.5,
   "weight": 102.6,
   "family": "FAMILY_BAGON",

@@ -51,7 +51,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 0.89,
   "weight": 21.6,
   "family": "FAMILY_TREECKO",

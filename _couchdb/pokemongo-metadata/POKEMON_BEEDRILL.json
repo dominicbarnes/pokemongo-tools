@@ -38,7 +38,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.25,
+  "buddyDistance": 1,
   "height": 1,
   "weight": 29.5,
   "family": "FAMILY_WEEDLE",

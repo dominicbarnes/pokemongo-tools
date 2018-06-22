@@ -52,7 +52,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 1.09,
   "weight": 87.6,
   "family": "FAMILY_SPHEAL",

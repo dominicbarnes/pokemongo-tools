@@ -38,7 +38,7 @@
     }
   ],
   "rarity": "legendary",
-  "buddyDistance": 5,
+  "buddyDistance": 20,
   "height": 3.81,
   "weight": 199,
   "family": "FAMILY_HO_OH",

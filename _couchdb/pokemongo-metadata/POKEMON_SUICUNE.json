@@ -41,7 +41,7 @@
     }
   ],
   "rarity": "legendary",
-  "buddyDistance": 5,
+  "buddyDistance": 20,
   "height": 2.01,
   "weight": 187,
   "family": "FAMILY_SUICUNE",

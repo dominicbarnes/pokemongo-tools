@@ -57,7 +57,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 1.25,
+  "buddyDistance": 5,
   "height": 0.51,
   "weight": 5.5,
   "family": "FAMILY_NINCADA",

@@ -37,7 +37,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 1.25,
+  "buddyDistance": 5,
   "height": 1.4,
   "weight": 48,
   "family": "FAMILY_TYROGUE",

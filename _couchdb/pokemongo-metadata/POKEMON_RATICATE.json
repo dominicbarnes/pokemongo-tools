@@ -37,10 +37,110 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.25,
+  "buddyDistance": 1,
   "height": 0.7,
   "weight": 18.5,
   "family": "FAMILY_RATTATA",
-  "forms": null,
+  "forms": {
+    "alola": {
+      "id": "POKEMON_RATICATE",
+      "name": "Raticate (Alola)",
+      "dex": 20,
+      "generation": 1,
+      "types": [
+        "dark",
+        "normal"
+      ],
+      "baseStats": {
+        "stamina": 150,
+        "attack": 135,
+        "defense": 159
+      },
+      "previousEvolution": {
+        "id": "POKEMON_RATTATA"
+      },
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_BITE_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_QUICK_ATTACK_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_CRUNCH",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_HYPER_FANG",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_HYPER_BEAM",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 1,
+      "height": 0.7,
+      "weight": 25.5,
+      "family": {
+        "id": "FAMILY_RATTATA"
+      }
+    },
+    "normal": {
+      "id": "POKEMON_RATICATE",
+      "name": "Raticate",
+      "dex": 20,
+      "generation": 1,
+      "types": [
+        "normal"
+      ],
+      "baseStats": {
+        "stamina": 110,
+        "attack": 161,
+        "defense": 144
+      },
+      "previousEvolution": {
+        "id": "POKEMON_RATTATA"
+      },
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_BITE_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_QUICK_ATTACK_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_DIG",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_HYPER_FANG",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_HYPER_BEAM",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 1,
+      "height": 0.7,
+      "weight": 18.5,
+      "family": {
+        "id": "FAMILY_RATTATA"
+      }
+    }
+  },
   "_id": "POKEMON_RATICATE"
 }

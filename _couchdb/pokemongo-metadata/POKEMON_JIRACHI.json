@@ -46,7 +46,7 @@
     }
   ],
   "rarity": "mythic",
-  "buddyDistance": 5,
+  "buddyDistance": 20,
   "height": 0.3,
   "weight": 1.1,
   "family": "FAMILY_JIRACHI",

@@ -37,7 +37,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 1.25,
+  "buddyDistance": 5,
   "height": 1.1,
   "weight": 30,
   "family": "FAMILY_ELECTABUZZ",

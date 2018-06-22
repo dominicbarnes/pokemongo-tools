@@ -38,7 +38,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 1.4,
   "weight": 75,
   "family": "FAMILY_WOOPER",

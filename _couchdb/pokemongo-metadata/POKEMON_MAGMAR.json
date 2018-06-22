@@ -37,7 +37,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 1.25,
+  "buddyDistance": 5,
   "height": 1.3,
   "weight": 44.5,
   "family": "FAMILY_MAGMAR",

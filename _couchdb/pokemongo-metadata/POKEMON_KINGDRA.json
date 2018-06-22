@@ -42,7 +42,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 1.8,
   "weight": 152,
   "family": "FAMILY_HORSEA",

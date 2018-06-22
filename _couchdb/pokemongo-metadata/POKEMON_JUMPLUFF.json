@@ -38,7 +38,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 0.79,
   "weight": 3,
   "family": "FAMILY_HOPPIP",

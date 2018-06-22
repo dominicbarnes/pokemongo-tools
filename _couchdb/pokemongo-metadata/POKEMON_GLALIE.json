@@ -45,7 +45,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 1.5,
   "weight": 256.5,
   "family": "FAMILY_SNORUNT",

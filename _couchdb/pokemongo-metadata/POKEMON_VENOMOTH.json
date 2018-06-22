@@ -38,7 +38,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 1.5,
   "weight": 12.5,
   "family": "FAMILY_VENONAT",

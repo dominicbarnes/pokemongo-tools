@@ -51,7 +51,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.25,
+  "buddyDistance": 1,
   "height": 0.61,
   "weight": 16.3,
   "family": "FAMILY_WHISMUR",

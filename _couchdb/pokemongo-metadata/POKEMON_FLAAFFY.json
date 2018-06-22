@@ -43,7 +43,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 1.25,
+  "buddyDistance": 5,
   "height": 0.79,
   "weight": 13.3,
   "family": "FAMILY_MAREEP",

@@ -46,7 +46,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.25,
+  "buddyDistance": 1,
   "height": 0.89,
   "weight": 23.6,
   "family": "FAMILY_BARBOACH",

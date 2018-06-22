@@ -44,7 +44,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 0.61,
   "weight": 10.8,
   "family": "FAMILY_HOUNDOUR",

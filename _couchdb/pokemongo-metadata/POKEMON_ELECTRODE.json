@@ -37,7 +37,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 1.2,
   "weight": 66.6,
   "family": "FAMILY_VOLTORB",

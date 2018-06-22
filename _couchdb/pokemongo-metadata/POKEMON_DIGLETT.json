@@ -43,10 +43,122 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 0.2,
   "weight": 0.8,
   "family": "FAMILY_DIGLETT",
-  "forms": null,
+  "forms": {
+    "alola": {
+      "id": "POKEMON_DIGLETT",
+      "name": "Diglett (Alola)",
+      "dex": 50,
+      "generation": 1,
+      "types": [
+        "ground",
+        "steel"
+      ],
+      "baseStats": {
+        "stamina": 20,
+        "attack": 109,
+        "defense": 89
+      },
+      "previousEvolution": null,
+      "nextEvolutions": [
+        {
+          "pokemon": {
+            "id": "POKEMON_DUGTRIO"
+          },
+          "candy": 50,
+          "item": null
+        }
+      ],
+      "quickMoves": [
+        {
+          "id": "MOVE_MUD_SLAP_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_METAL_CLAW_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_DIG",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_MUD_BOMB",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_ROCK_TOMB",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 3,
+      "height": 0.2,
+      "weight": 1,
+      "family": {
+        "id": "FAMILY_DIGLETT"
+      }
+    },
+    "normal": {
+      "id": "POKEMON_DIGLETT",
+      "name": "Diglett",
+      "dex": 50,
+      "generation": 1,
+      "types": [
+        "ground"
+      ],
+      "baseStats": {
+        "stamina": 20,
+        "attack": 109,
+        "defense": 88
+      },
+      "previousEvolution": null,
+      "nextEvolutions": [
+        {
+          "pokemon": {
+            "id": "POKEMON_DUGTRIO"
+          },
+          "candy": 50,
+          "item": null
+        }
+      ],
+      "quickMoves": [
+        {
+          "id": "MOVE_MUD_SLAP_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_SCRATCH_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_DIG",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_MUD_BOMB",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_ROCK_TOMB",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 3,
+      "height": 0.2,
+      "weight": 0.8,
+      "family": {
+        "id": "FAMILY_DIGLETT"
+      }
+    }
+  },
   "_id": "POKEMON_DIGLETT"
 }

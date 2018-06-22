@@ -37,10 +37,110 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 1.1,
   "weight": 19.9,
   "family": "FAMILY_VULPIX",
-  "forms": null,
+  "forms": {
+    "alola": {
+      "id": "POKEMON_NINETALES",
+      "name": "Ninetales (Alola)",
+      "dex": 38,
+      "generation": 1,
+      "types": [
+        "ice",
+        "fairy"
+      ],
+      "baseStats": {
+        "stamina": 146,
+        "attack": 170,
+        "defense": 207
+      },
+      "previousEvolution": {
+        "id": "POKEMON_VULPIX"
+      },
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_FEINT_ATTACK_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_POWDER_SNOW_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_DAZZLING_GLEAM",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_ICE_BEAM",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_BLIZZARD",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 3,
+      "height": 1.1,
+      "weight": 19.9,
+      "family": {
+        "id": "FAMILY_VULPIX"
+      }
+    },
+    "normal": {
+      "id": "POKEMON_NINETALES",
+      "name": "Ninetales",
+      "dex": 38,
+      "generation": 1,
+      "types": [
+        "fire"
+      ],
+      "baseStats": {
+        "stamina": 146,
+        "attack": 169,
+        "defense": 204
+      },
+      "previousEvolution": {
+        "id": "POKEMON_VULPIX"
+      },
+      "nextEvolutions": [],
+      "quickMoves": [
+        {
+          "id": "MOVE_FEINT_ATTACK_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_FIRE_SPIN_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_HEAT_WAVE",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_OVERHEAT",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_SOLAR_BEAM",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 3,
+      "height": 1.1,
+      "weight": 19.9,
+      "family": {
+        "id": "FAMILY_VULPIX"
+      }
+    }
+  },
   "_id": "POKEMON_NINETALES"
 }

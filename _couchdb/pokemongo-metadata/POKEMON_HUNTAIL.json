@@ -45,7 +45,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 1.7,
   "weight": 27,
   "family": "FAMILY_CLAMPERL",

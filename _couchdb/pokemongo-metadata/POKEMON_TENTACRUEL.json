@@ -38,7 +38,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 1.6,
   "weight": 55,
   "family": "FAMILY_TENTACOOL",

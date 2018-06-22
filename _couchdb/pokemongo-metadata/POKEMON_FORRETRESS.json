@@ -38,7 +38,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 1.25,
+  "buddyDistance": 5,
   "height": 1.19,
   "weight": 125.8,
   "family": "FAMILY_PINECO",

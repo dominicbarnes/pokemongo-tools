@@ -43,10 +43,121 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 0.6,
   "weight": 9.9,
   "family": "FAMILY_VULPIX",
-  "forms": null,
+  "forms": {
+    "alola": {
+      "id": "POKEMON_VULPIX",
+      "name": "Vulpix (Alola)",
+      "dex": 37,
+      "generation": 1,
+      "types": [
+        "ice"
+      ],
+      "baseStats": {
+        "stamina": 76,
+        "attack": 96,
+        "defense": 122
+      },
+      "previousEvolution": null,
+      "nextEvolutions": [
+        {
+          "pokemon": {
+            "id": "POKEMON_NINETALES"
+          },
+          "candy": 50,
+          "item": null
+        }
+      ],
+      "quickMoves": [
+        {
+          "id": "MOVE_ZEN_HEADBUTT_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_POWDER_SNOW_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_DARK_PULSE",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_ICE_BEAM",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_BLIZZARD",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 3,
+      "height": 0.6,
+      "weight": 9.9,
+      "family": {
+        "id": "FAMILY_VULPIX"
+      }
+    },
+    "normal": {
+      "id": "POKEMON_VULPIX",
+      "name": "Vulpix",
+      "dex": 37,
+      "generation": 1,
+      "types": [
+        "fire"
+      ],
+      "baseStats": {
+        "stamina": 76,
+        "attack": 96,
+        "defense": 122
+      },
+      "previousEvolution": null,
+      "nextEvolutions": [
+        {
+          "pokemon": {
+            "id": "POKEMON_NINETALES"
+          },
+          "candy": 50,
+          "item": null
+        }
+      ],
+      "quickMoves": [
+        {
+          "id": "MOVE_QUICK_ATTACK_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_EMBER_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_BODY_SLAM",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_FLAMETHROWER",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_FLAME_CHARGE",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 3,
+      "height": 0.6,
+      "weight": 9.9,
+      "family": {
+        "id": "FAMILY_VULPIX"
+      }
+    }
+  },
   "_id": "POKEMON_VULPIX"
 }

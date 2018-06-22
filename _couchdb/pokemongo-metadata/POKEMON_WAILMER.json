@@ -47,7 +47,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.25,
+  "buddyDistance": 1,
   "height": 2.01,
   "weight": 130,
   "family": "FAMILY_WAILMER",

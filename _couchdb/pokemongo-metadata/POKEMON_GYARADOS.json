@@ -42,7 +42,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.25,
+  "buddyDistance": 1,
   "height": 6.5,
   "weight": 235,
   "family": "FAMILY_MAGIKARP",

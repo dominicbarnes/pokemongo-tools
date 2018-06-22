@@ -43,7 +43,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 1.09,
   "weight": 25,
   "family": "FAMILY_TOTODILE",

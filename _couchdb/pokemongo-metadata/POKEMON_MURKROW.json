@@ -38,7 +38,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 0.51,
   "weight": 2.1,
   "family": "FAMILY_MURKROW",

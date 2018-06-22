@@ -45,7 +45,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 2.69,
   "weight": 52.5,
   "family": "FAMILY_SEVIPER",

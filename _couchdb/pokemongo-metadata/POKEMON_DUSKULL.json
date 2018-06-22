@@ -43,7 +43,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.75,
+  "buddyDistance": 3,
   "height": 0.79,
   "weight": 15,
   "family": "FAMILY_DUSKULL",

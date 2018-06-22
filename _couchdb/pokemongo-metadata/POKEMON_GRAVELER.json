@@ -44,10 +44,127 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.25,
+  "buddyDistance": 1,
   "height": 1,
   "weight": 105,
   "family": "FAMILY_GEODUDE",
-  "forms": null,
+  "forms": {
+    "alola": {
+      "id": "POKEMON_GRAVELER",
+      "name": "Graveler (Alola)",
+      "dex": 75,
+      "generation": 1,
+      "types": [
+        "rock",
+        "electric"
+      ],
+      "baseStats": {
+        "stamina": 110,
+        "attack": 164,
+        "defense": 196
+      },
+      "previousEvolution": {
+        "id": "POKEMON_GEODUDE"
+      },
+      "nextEvolutions": [
+        {
+          "pokemon": {
+            "id": "POKEMON_GOLEM"
+          },
+          "candy": 100,
+          "item": null
+        }
+      ],
+      "quickMoves": [
+        {
+          "id": "MOVE_ROCK_THROW_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_VOLT_SWITCH_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_THUNDERBOLT",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_STONE_EDGE",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_ROCK_BLAST",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 1,
+      "height": 1,
+      "weight": 110,
+      "family": {
+        "id": "FAMILY_GEODUDE"
+      }
+    },
+    "normal": {
+      "id": "POKEMON_GRAVELER",
+      "name": "Graveler",
+      "dex": 75,
+      "generation": 1,
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "baseStats": {
+        "stamina": 110,
+        "attack": 164,
+        "defense": 196
+      },
+      "previousEvolution": {
+        "id": "POKEMON_GEODUDE"
+      },
+      "nextEvolutions": [
+        {
+          "pokemon": {
+            "id": "POKEMON_GOLEM"
+          },
+          "candy": 100,
+          "item": null
+        }
+      ],
+      "quickMoves": [
+        {
+          "id": "MOVE_ROCK_THROW_FAST",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_MUD_SLAP_FAST",
+          "legacy": false
+        }
+      ],
+      "chargeMoves": [
+        {
+          "id": "MOVE_DIG",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_STONE_EDGE",
+          "legacy": false
+        },
+        {
+          "id": "MOVE_ROCK_BLAST",
+          "legacy": false
+        }
+      ],
+      "rarity": null,
+      "buddyDistance": 1,
+      "height": 1,
+      "weight": 105,
+      "family": {
+        "id": "FAMILY_GEODUDE"
+      }
+    }
+  },
   "_id": "POKEMON_GRAVELER"
 }

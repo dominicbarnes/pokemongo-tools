@@ -45,7 +45,7 @@
     }
   ],
   "rarity": null,
-  "buddyDistance": 0.25,
+  "buddyDistance": 1,
   "height": 1.7,
   "weight": 80,
   "family": "FAMILY_GULPIN",
