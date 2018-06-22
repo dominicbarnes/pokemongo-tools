@@ -31,6 +31,7 @@
         Calculated
         <span v-if="calculatedCP">{{calculatedCP}} CP</span>
         <span v-if="calculatedHP">{{calculatedHP}} HP</span>
+        <span v-if="calculatedIVs">{{calculatedIVs | number('0%')}} IVs</span>
       </template>
       <b-row>
         <b-col md="3">
@@ -40,8 +41,8 @@
           </b-input-group>
         </b-col>
         <b-col md="3">
-           <b-input-group>
-             <b-input-group-prepend is-text>Attack IV</b-input-group-prepend>
+          <b-input-group>
+            <b-input-group-prepend is-text>Attack IV</b-input-group-prepend>
             <b-form-input id="add-iv-attack-input" type="number" min="0" max="15" v-model.number="value.attackIV" />
           </b-input-group>
         </b-col>
@@ -186,6 +187,10 @@
         const stamina = metadata.baseStats.stamina + (staminaIV || 0)
         const multiplier = this.cpMultipliers(level)
         return hp(stamina, multiplier)
+      },
+      calculatedIVs() {
+        const { attackIV = 0, defenseIV = 0, staminaIV = 0 } = this.value
+        return (attackIV + defenseIV + staminaIV) / 45
       }
     },
 
