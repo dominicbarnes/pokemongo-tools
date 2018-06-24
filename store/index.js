@@ -6,8 +6,6 @@ import metadata from './metadata'
 import pokemon from './pokemon'
 import { env } from '../config'
 
-const { hoodie } = window
-
 Vue.use(Vuex)
 
 const store = new Vuex.Store({
@@ -15,30 +13,8 @@ const store = new Vuex.Store({
   strict: env !== 'production'
 })
 
-store.dispatch('fetch')
-store.dispatch('account/fetch')
-store.dispatch('pokemon/fetch')
-
-hoodie.store.on('change', (kind, doc) => {
-  const { _id: id, type } = doc
-  if (!type) return
-
-  const action = `${type}/${kind}`
-  switch (kind) {
-    case 'add':
-      store.commit(action, doc)
-      break
-    case 'update':
-      store.commit(action, doc)
-      break
-    case 'remove':
-      store.commit(action, id)
-      break
-  }
-})
-
-hoodie.account.on('signout', account => {
-  store.commit('pokemon/reset')
-})
+store.dispatch('init')
+store.dispatch('account/init')
+store.dispatch('pokemon/init')
 
 export default store

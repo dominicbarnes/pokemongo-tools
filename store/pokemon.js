@@ -4,8 +4,6 @@ import { index } from './utils'
 
 const { hoodie } = window
 
-const namespaced = true
-
 const state = {
   list: []
 }
@@ -45,8 +43,20 @@ const mutations = {
 }
 
 const actions = {
-  async fetch ({ commit }) {
+  async init ({ commit }) {
     commit('set', await hoodie.store.findAll(doc => doc.type === 'pokemon'))
+
+    hoodie.store.on('reset', () => commit('reset'))
+
+    hoodie.store.on('change', (kind, doc) => {
+      if (doc.type !== 'pokemon') return
+
+      if (kind === 'add' || kind === 'update') {
+        commit(kind, doc)
+      } else if (kind === 'remove') {
+        commit(kind, doc._id)
+      }
+    })
   },
   async add ({ commit }, { pokemon, trigger }) {
     const input = Object.assign({ type: 'pokemon' }, pokemon)
@@ -64,7 +74,7 @@ const actions = {
 }
 
 export default {
-  namespaced,
+  namespaced: true,
   state,
   getters,
   mutations,

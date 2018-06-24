@@ -97,7 +97,7 @@ const mutations = {
 }
 
 const actions = {
-  async fetch ({ commit, state }) {
+  async init ({ commit, state }) {
     try {
       commit('types', await store.find('TYPES'))
       commit('cpMultipliers', await store.find('CP_MULTIPLIERS'))
