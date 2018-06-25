@@ -20,14 +20,14 @@ const getters = {
 }
 
 const mutations = {
-  properties(state, properties) {
+  properties (state, properties) {
     if (properties.session) {
       Vue.set(state, 'session', properties.session)
-      delete(properties.session)
+      delete (properties.session)
     }
     Vue.set(state, 'properties', properties)
   },
-  session(state, session) {
+  session (state, session) {
     Vue.set(state, 'session', session)
   }
 }
