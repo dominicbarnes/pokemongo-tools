@@ -1,7 +1,7 @@
 <template>
   <b-form-group label="Type(s)">
-    <b-form-checkbox-group stacked v-on:change="update">
-      <b-form-checkbox v-for="type in types" v-bind:value="type" v-bind:checked="isChecked(type)">
+    <b-form-checkbox-group stacked v-bind:checked="value" v-on:change="update">
+      <b-form-checkbox v-for="type in types" v-bind:value="type" v-bind:key="type">
         <type-badge v-bind:type="type" />
       </b-form-checkbox>
     </b-form-checkbox-group>
@@ -9,39 +9,25 @@
 </template>
 
 <script>
-import TypeBadge from '../badges/type.vue'
+  import TypeBadge from '../badges/type.vue'
 
-export default {
-  props: {
-    value: Array
-  },
-
-  computed: {
-    types() {
-      return this.$store.state.metadata.types.list
+  export default {
+    props: {
+      value: Array
     },
-    checked() {
-      const s = new Set()
-      for (const t of this.value) {
-        s.add(t)
+
+    computed: {
+      types() {
+        return this.$store.state.metadata.types.list
       }
-      return s
-    }
-  },
-
-  methods: {
-    isChecked(type) {
-      return this.checked.has(type)
     },
-    update(value) {
-      this.$emit('input', value)
-    }
-  },
 
-  components: { TypeBadge }
-}
+    methods: {
+      update(value) {
+        this.$emit('input', value)
+      }
+    },
+
+    components: { TypeBadge }
+  }
 </script>
-
-<style>
-
-</style>

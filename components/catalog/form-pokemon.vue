@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <b-form v-on:submit.stop.prevent="$emit('submit', value)">
     <b-row>
       <b-col md="10">
         <b-form-group label="Pokémon" description="Choose the Pokémon species and whether it is shiny">
           <b-input-group>
-            <b-form-select id="add-species-input" v-bind:options="pokemon" v-model="value.pokemonID" required size="lg" v-focus />
+            <b-form-select id="add-species-input" v-bind:options="pokemonOptions" v-model="value.pokemonID" required size="lg" v-focus />
             <b-input-group-append is-text>
               <label class="m-0">
                 Shiny?
@@ -12,7 +12,7 @@
               </label>
             </b-input-group-append>
             <b-dropdown v-if="forms" text="Alternate Forms" variant="secondary" slot="append">
-              <b-dropdown-item v-for="form in forms" v-bind:key="form.value" v-on:click="$set(value, 'form', form.value)">{{form.text}}</b-dropdown-item>
+              <b-dropdown-item v-for="form in formOptions" v-bind:key="form.value" v-on:click="value.form = form.value">{{ form.text }}</b-dropdown-item>
             </b-dropdown>
           </b-input-group>
         </b-form-group>
@@ -23,15 +23,15 @@
     </b-row>
 
     <b-form-group id="add-nickname" label="Nickname" label-for="add-nickname">
-      <b-form-input id="add-nickname-input" v-model="value.nickname" />
+      <b-form-input id="add-nickname-input" v-model="nickname" />
     </b-form-group>
 
     <b-form-group label="Stats">
       <template slot="description">
         Calculated
-        <span v-if="calculatedCP">{{calculatedCP}} CP</span>
-        <span v-if="calculatedHP">{{calculatedHP}} HP</span>
-        <span v-if="calculatedIVs">{{calculatedIVs | number('0%')}} IVs</span>
+        <span v-if="calculatedCP">{{ calculatedCP }} CP</span>
+        <span v-if="calculatedHP">{{ calculatedHP }} HP</span>
+        <span v-if="calculatedIVs">{{ calculatedIVs | number('0%') }} IVs</span>
       </template>
       <b-row>
         <b-col md="3">
@@ -66,21 +66,13 @@
         <b-col md="6">
           <b-input-group>
             <b-input-group-prepend is-text>Quick Move</b-input-group-prepend>
-            <b-form-select id="add-quick-move" v-bind:options="quickMoves" v-model="value.quickMove">
-              <template slot="first">
-                <option v-bind:value="null">Choose a Move</option>
-              </template>
-            </b-form-select>
+            <b-form-select id="add-quick-move" v-bind:options="quickMoveOptions" v-model="value.quickMove" />
           </b-input-group>
         </b-col>
         <b-col md="6">
           <b-input-group>
             <b-input-group-prepend is-text>Charge Move</b-input-group-prepend>
-            <b-form-select id="add-charge-move" v-bind:options="chargeMoves" v-model="value.chargeMove">
-              <template slot="first">
-                <option v-bind:value="null">Choose a Move</option>
-              </template>
-            </b-form-select>
+            <b-form-select id="add-charge-move" v-bind:options="chargeMoveOptions" v-model="value.chargeMove" />
           </b-input-group>
         </b-col>
       </b-row>
@@ -94,44 +86,58 @@
       <!-- <b-form-textarea id="add-notes-input" v-bind:rows="3" v-model="value.notes" /> -->
       <b-form-input id="add-notes-input" v-model="value.notes" />
     </b-form-group>
-  </div>
+
+    <slot />
+  </b-form>
 </template>
 
 <script>
   import clone from 'clone'
   import PokemonSprite from '../pokemon-sprite.vue'
   import { cp, hp, dex } from '../../utils'
-  import { mapGetters } from 'vuex';
+  import { mapGetters } from 'vuex'
 
   export default {
-    data(vm) {
-      let metadata = null
-      if (this.value.pokemonID) {
-        metadata = clone(vm.$store.getters.pokemonByID(this.value.pokemonID))
-      }
-      return { metadata }
+     props: {
+      _id: String,
+      attackIV: Number,
+      caughtAt: String,
+      chargeMove: String,
+      defenseIV: Number,
+      form: String,
+      level: Number,
+      nickname: String,
+      notes: String,
+      pokemonID: String,
+      quickMove: String,
+      shiny: Boolean,
+      staminaIV: Number
     },
 
-    props: {
-      value: {
-        type: Object,
-        required: true
-      }
+    data(vm) {
+      return { value: clone(vm.$props) }
     },
 
     computed: {
       ...mapGetters({
+        pokemonByID: 'pokemonByID',
         cpMultipliers: 'cpMultipliers'
       }),
 
-      pokemon() {
+      metadata() {
+        const { pokemonID } = this.value
+        if (!pokemonID) return null
+        return this.pokemonByID(pokemonID)
+      },
+
+      pokemonOptions() {
         return this.$store.getters.pokemonSort('dex').map(pokemon => {
           const text = `${pokemon.name} (${dex(pokemon.dex)})`
           const value = pokemon._id
           return { text, value }
         })
       },
-      forms() {
+      formOptions() {
         const { metadata } = this
         if (metadata && metadata.forms) {
           return Object.keys(metadata.forms).map(key => {
@@ -140,7 +146,7 @@
         }
         return null
       },
-      quickMoves() {
+      quickMoveOptions() {
         const { $store } = this
         const metadata = this.getMetadata()
         const options = $store.getters.quickMoves.map(this.moveOption)
@@ -153,7 +159,7 @@
         options.unshift({ disabled: true, text: '---' })
         return options
       },
-      chargeMoves() {
+      chargeMoveOptions() {
         const { $store } = this
         const metadata = this.getMetadata()
         const options = $store.getters.chargeMoves.map(this.moveOption)
@@ -166,22 +172,23 @@
         options.unshift({ disabled: true, text: '---' })
         return options
       },
+
       totalIVs() {
-        const { attackIV, defenseIV, staminaIV } = this.value
+        const { attackIV = 0, defenseIV = 0, staminaIV = 0 } = this
         return attackIV + defenseIV + staminaIV
       },
       calculatedCP() {
-        const { level, attackIV, defenseIV, staminaIV } = this.value
+        const { level, attackIV = 0, defenseIV = 0, staminaIV = 0 } = this
         const metadata = this.getMetadata()
         if (!metadata) return 0
-        const attack = metadata.baseStats.attack + (attackIV || 0)
-        const defense = metadata.baseStats.defense + (defenseIV || 0)
-        const stamina = metadata.baseStats.stamina + (staminaIV || 0)
+        const attack = metadata.baseStats.attack + attackIV
+        const defense = metadata.baseStats.defense + defenseIV
+        const stamina = metadata.baseStats.stamina + staminaIV
         const multiplier = this.cpMultipliers(level)
         return cp(attack, defense, stamina, multiplier)
       },
       calculatedHP() {
-        const { level, staminaIV } = this.value
+        const { level, staminaIV } = this
         const metadata = this.getMetadata()
         if (!metadata) return 0
         const stamina = metadata.baseStats.stamina + (staminaIV || 0)
@@ -189,8 +196,7 @@
         return hp(stamina, multiplier)
       },
       calculatedIVs() {
-        const { attackIV = 0, defenseIV = 0, staminaIV = 0 } = this.value
-        return (attackIV + defenseIV + staminaIV) / 45
+        return this.totalIVs / 45
       }
     },
 
@@ -205,23 +211,6 @@
         return value.form
           ? metadata.forms[value.form]
           : metadata
-      }
-    },
-
-    watch: {
-      'value.pokemonID': function () {
-        const { pokemonID } = this.value
-        if (pokemonID) {
-          const m = this.$store.getters.pokemonByID(pokemonID)
-          if (m.forms) {
-            if (m.forms['normal']) {
-              this.$set(this.value, 'form', 'normal')
-            }
-          } else {
-            this.$set(this.value, 'form', null)
-          }
-          this.metadata = m
-        }
       }
     },
 

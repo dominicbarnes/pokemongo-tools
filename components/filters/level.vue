@@ -10,7 +10,10 @@
 <script>
   export default {
     props: {
-      value: Number
+      value: {
+        type: Number,
+        default: 1
+      }
     },
 
     methods: {

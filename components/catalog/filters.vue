@@ -1,19 +1,20 @@
 <template>
   <b-form>
     <b-form-group label="Keywords">
-      <b-form-input v-model="value.name" type="text" placeholder="Name" />
+      <b-form-input v-model="name" type="text" placeholder="Name" />
     </b-form-group>
-    <filter-family v-model="value.family" />
-    <filter-ivs v-model="value.minIV" />
-    <filter-level v-model="value.minLevel" />
-    <filter-generation v-model="value.generation" />
-    <filter-rarity v-model="value.rarity" />
-    <filter-evolves v-model="value.evolves" />
-    <filter-types v-model="value.types" />
+    <filter-family v-model="family" />
+    <filter-ivs v-model="minIV" />
+    <filter-level v-model="minLevel" />
+    <filter-generation v-model="generation" />
+    <filter-rarity v-model="rarity" />
+    <filter-evolves v-model="evolves" />
+    <filter-types v-model="types" />
   </b-form>
 </template>
 
 <script>
+  import clone from 'clone'
   import debounce from 'debounce'
 
   import FilterEvolves from '../filters/evolves.vue'
@@ -25,26 +26,25 @@
   import FilterRarity from '../filters/rarity.vue'
 
   export default {
+    props: ['value'],
+
     data() {
-      return {
-        value: {
-          evolves: null,
-          family: null,
-          generation: null,
-          minIV: 0,
-          minLevel: 1,
-          name: '',
-          rarity: null,
-          types: []
-        }
+      const { name, family, minIV, minLevel, generation, rarity, evolves, types } = this.value
+      return { name, family, minIV, minLevel, generation, rarity, evolves, types }
+    },
+
+    computed: {
+      newValue() {
+        const { name, family, minIV, minLevel, generation, rarity, evolves, types } = this
+        return { name, family, minIV, minLevel, generation, rarity, evolves, types }
       }
     },
 
     watch: {
-      value: {
+      newValue: {
         deep: true,
         handler: debounce(function () {
-          this.$emit('input', this.value)
+          this.$emit('input', this.newValue)
         }, 250)
       }
     },

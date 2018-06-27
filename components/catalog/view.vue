@@ -1,6 +1,6 @@
 <template>
   <loading-panel>
-    <b-container v-if="!catalog || !metadata" class="p-3">
+    <b-container v-if="!catalog" class="p-3">
       <b-alert variant="danger" show>
         Not found
       </b-alert>
@@ -10,42 +10,43 @@
       <b-container fluid class="p-3">
         <b-card-group columns>
           <b-card class="text-center">
-            <h3>
-              {{name}}
-              <small v-if="catalog.nickname" class="text-muted">({{metadata.name}})</small>
+            <h3 v-if="catalog.nickname">
+              {{ catalog.nickname }}
+              <small class="text-muted">({{ catalog.name }})</small>
             </h3>
-            <pokemon-sprite v-bind:pokemon="metadata.dex" v-bind:form="catalog.form" v-bind:shiny="catalog.shiny" />
-            <type-badge v-for="type in metadata.types" v-bind:type="type" />
-            <rarity-badge v-if="metadata.rarity" v-bind:rarity="metadata.rarity" />
+            <h3 v-else>{{ catalog.name }}</h3>
+            <pokemon-sprite v-bind:pokemon="catalog.dex" v-bind:form="catalog.form" v-bind:shiny="catalog.shiny" />
+            <type-badge v-for="type in catalog.types" v-bind:type="type" />
+            <rarity-badge v-if="catalog.rarity" v-bind:rarity="catalog.rarity" />
             <shiny-badge v-if="catalog.shiny" />
-            <b-badge v-if="totalIVs === 45" variant="success" title="100% IVs">Wonder</b-badge>
+            <b-badge v-if="catalog.ivs === 45" variant="success" title="100% IVs">Wonder</b-badge>
             <p>
               Level <b-badge variant="success">{{ catalog.level | number('0.0') }}</b-badge>
               &bull;
-              <b-badge variant="info">{{ cp | number('0,0') }}</b-badge>
+              <b-badge variant="info">{{ catalog.cp | number('0,0') }}</b-badge>
               <abbr title="Combat Power" class="initialism">CP</abbr>
-              <b-badge variant="info">{{ hp | number('0,0') }}</b-badge>
+              <b-badge variant="info">{{ catalog.hp | number('0,0') }}</b-badge>
               <abbr title="Hit Points" class="initialism">HP</abbr>
               &bull;
-              <b-badge variant="primary">{{ totalIVs / 45 | number('0%') }}</b-badge>
+              <b-badge variant="primary">{{ catalog.ivp | number('0%') }}</b-badge>
               <abbr title="Individual Values" class="initialism">IVs</abbr>
             </p>
-            <b-button v-bind:to="{ name: 'pokedex-view', params: { pokemon: catalog.pokemonID } }" target="_blank">Pokédex</b-button>
+            <b-button v-bind:to="{ name: 'pokedex-view', params: { pokemon: catalog.pokemon } }" target="_blank">Pokédex</b-button>
             <b-button v-if="canEvolve" v-b-modal.modalEvolve variant="info">Evolve</b-button>
           </b-card>
 
           <b-card title="Level">
             <b-progress v-bind:value="catalog.level" v-bind:max="40" v-bind:precision="1" show-value variant="success" class="mb-2" />
-            <p v-if="catalog.level < 40">
+            <b-alert v-if="catalog.level < 40" variant="info" show>
               To fully power up this Pokémon, you will need
               <b-badge>{{ upgradeCost.stardust | number('0,0') }}</b-badge>
               stardust and
               <b-badge>{{ upgradeCost.candy }}</b-badge>
               candy.
-            </p>
-            <p v-else>
+            </b-alert>
+            <b-alert v-else variant="success" show>
               This Pokémon is fully powered up.
-            </p>
+            </b-alert>
             <b-dropdown v-if="catalog.level < 40" split text="Power Up" variant="success" v-on:click="powerUp(catalog.level + 0.5)">
               <b-dropdown-item v-on:click="powerUp(40)">Max (level 40)</b-dropdown-item>
             </b-dropdown>
@@ -58,7 +59,7 @@
               <b-progress-bar v-bind:value="catalog.staminaIV" v-bind:label="catalog.staminaIV + ' STA'" variant="warning" title="Stamina" />
             </b-progress>
           </b-card>
-          
+
           <b-card no-body>
             <b-card-body>
               <h4 class="card-title card-text">Moves</h4>
@@ -66,12 +67,12 @@
             <b-list-group flush>
               <b-list-group-item>
                 <b>Quick Move</b>
-                <move-summary v-if="quickMove" v-bind:move="quickMove" />
+                <move-summary v-if="catalog.quickMove" v-bind:move="catalog.quickMove" />
                 <span v-else>(n/a)</span>
               </b-list-group-item>
               <b-list-group-item>
                 <b>Charge Move</b>
-                <move-summary v-if="chargeMove" v-bind:move="chargeMove" />
+                <move-summary v-if="catalog.chargeMove" v-bind:move="catalog.chargeMove" />
                 <span v-else>(n/a)</span>
               </b-list-group-item>
             </b-list-group>
@@ -86,20 +87,20 @@
 
           <b-card title="History">
             <dl>
-              <template v-if="catalog.caughtAt">
+              <template v-if="catalog.caught">
                 <dt>Caught</dt>
-                <dd><rel-time v-bind:datetime="catalog.caughtAt" refresh="1m" /></dd>
+                <dd><rel-time v-bind:datetime="catalog.caught" refresh="1m" /></dd>
               </template>
-              <template v-if="catalog.hoodie.createdAt">
+              <template v-if="catalog.added">
                 <dt>Added to Catalog</dt>
-                <dd><rel-time v-bind:datetime="catalog.hoodie.createdAt" refresh="1m" /></dd>
+                <dd><rel-time v-bind:datetime="catalog.added" refresh="1m" /></dd>
               </template>
-              <template v-if="catalog.hoodie.updatedAt">
+              <template v-if="catalog.updated">
                 <dt>Last Updated</dt>
-                <dd><rel-time v-bind:datetime="catalog.hoodie.updatedAt" refresh="1m" /></dd>
+                <dd><rel-time v-bind:datetime="catalog.updated" refresh="1m" /></dd>
               </template>
             </dl>
-            <b-button v-bind:to="{ name: 'catalog-edit', params: { pokemon: catalog._id } }" variant="warning">Edit</b-button>
+            <b-button v-bind:to="{ name: 'catalog-edit', params: { pokemon: catalog.id } }" variant="warning">Edit</b-button>
             <b-button v-b-modal.modalDelete variant="danger">Delete</b-button>
           </b-card>
         </b-card-group>
@@ -147,7 +148,8 @@
   import sortBy from 'sort-by'
   import { mapGetters } from 'vuex'
 
-  import { dex, cp, hp } from '../../utils'
+  import { dex } from '../../utils'
+
   import MoveSummary from '../move-summary.vue'
   import PokemonSprite from '../pokemon-sprite.vue'
   import RelTime from '../rel-time.vue'
@@ -171,68 +173,27 @@
 
     computed: {
       ...mapGetters({
+        ready: 'ready',
         pokemonByID: 'pokemonByID',
         movesByID: 'movesByID',
         cpMultipliers: 'cpMultipliers',
         upgradeCosts: 'upgradeCosts'
       }),
 
-      loading() {
-        return this.$store.state.metadata.loading
-      },
-
       catalog() {
         const { pokemon } = this.$route.params
-        return this.$store.getters['pokemon/byID'](pokemon)
-      },
-
-      metadata() {
-        const { pokemonByID } = this
-        return pokemonByID(this.catalog.pokemonID, this.catalog.form)
-      },
-
-      cp() {
-        const { catalog, metadata } = this
-        const attack = metadata.baseStats.attack + catalog.attackIV
-        const defense = metadata.baseStats.defense + catalog.defenseIV
-        const stamina = metadata.baseStats.stamina + catalog.staminaIV
-        const multiplier = this.cpMultipliers(catalog.level)
-        return cp(attack, defense, stamina, multiplier)
-      },
-
-      hp() {
-        const { catalog, metadata } = this
-        const stamina = metadata.baseStats.stamina + catalog.staminaIV
-        const multiplier = this.cpMultipliers(catalog.level)
-        return hp(stamina, multiplier)
-      },
-
-      name() {
-        return this.catalog.nickname || this.metadata.name
-      },
-
-      totalIVs() {
-        const { attackIV, defenseIV, staminaIV } = this.catalog
-        return [attackIV, defenseIV, staminaIV].filter(Boolean).reduce(sum, 0)
-      },
-
-      canEvolve() {
-        return !!this.metadata.nextEvolutions && this.metadata.nextEvolutions.length > 0
+        return this.$store.getters['catalog/byID'](pokemon)
       },
 
       evolutions() {
-        return this.metadata.nextEvolutions.map(evolution => {
-          const pokemon = this.$store.getters.pokemonByID(evolution.pokemon)
-          const text = `${pokemon.name} (${dex(pokemon.dex)})`
-          const value = pokemon._id
+        const { catalog } = this
+        if (!catalog || !catalog.nextEvolutions) return []
+        return catalog.nextEvolutions.map(evolution => {
+          const metadata = this.pokemonByID(evolution.pokemon)
+          const text = `${metadata.name} (${dex(metadata.dex)})`
+          const value = metadata._id
           return { text, value }
         })
-      },
-
-      quickMove() {
-        const { catalog, movesByID } = this
-        const { quickMove } = catalog
-        return quickMove ? movesByID(quickMove) : null
       },
 
       quickMoves() {
@@ -243,12 +204,6 @@
         })
 
         return [ { text: 'Choose a Move', value: null } ].concat(options)
-      },
-
-      chargeMove() {
-        const { catalog, movesByID } = this
-        const { chargeMove } = catalog
-        return chargeMove ? movesByID(chargeMove) : null
       },
 
       chargeMoves() {
@@ -266,8 +221,10 @@
         let total = { stardust: 0, candy: 0 }
         for (let x = catalog.level; x < 40; x += 0.5) {
           const cost = this.upgradeCosts(x)
-          total.stardust += cost.stardust
-          total.candy += cost.candy
+          if (cost) {
+            total.stardust += cost.stardust
+            total.candy += cost.candy
+          }
         }
         return total
       }
@@ -275,14 +232,14 @@
 
     watch: {
       newPokemonID(id) {
-        const pokemon = this.$store.getters.pokemonByID(id)
+        const pokemon = this.pokemonByID(id)
         if (pokemon) this.dex = pokemon.dex
       }
     },
 
     methods: {
       async deletePokemon() {
-        await this.$store.dispatch('pokemon/remove', {
+        await this.$store.dispatch('catalog/remove', {
           pokemon: this.$route.params.pokemon,
           trigger: 'delete-button'
         })
@@ -322,16 +279,16 @@
       },
 
       async powerUp(level) {
-        await this.$store.dispatch('pokemon/update', {
+        await this.$store.dispatch('catalog/update', {
           pokemon: {
-            _id: this.catalog._id,
+            _id: this.catalog.id,
             level: level
           }
         })
       },
 
       async save(keys, e) {
-        await this.$store.dispatch('pokemon/update', {
+        await this.$store.dispatch('catalog/update', {
           pokemon: this.changes(keys),
           trigger: this.trigger
         })
@@ -339,9 +296,5 @@
     },
 
     components: { MoveSummary, PokemonSprite, RelTime, TypeBadge, RarityBadge, ShinyBadge }
-  }
-
-  function sum(acc, x) {
-    return acc + x
   }
 </script>

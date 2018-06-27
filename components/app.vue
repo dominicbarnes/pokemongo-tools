@@ -109,7 +109,7 @@
       ...mapGetters({
         loggedIn: 'account/loggedIn',
         username: 'account/username',
-        catalogCount: 'pokemon/count'
+        catalogCount: 'catalog/totalCount'
       }),
 
       loading() {

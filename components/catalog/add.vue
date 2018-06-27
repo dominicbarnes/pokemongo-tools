@@ -2,33 +2,29 @@
   <loading-panel>
     <b-container fluid class="p-3">
       <h1>Add Pokémon to Catalog</h1>
-      <b-form v-on:submit.stop.prevent="save">
-        <form-pokemon v-model="pokemon" />
+      <form-pokemon v-bind:caught-at="today" v-on:submit="save">
         <b-button type="submit" variant="primary">Save</b-button>
-      </b-form>
+      </form-pokemon>
     </b-container>
   </loading-panel>
 </template>
 
 <script>
   import moment from 'moment'
+
   import FormPokemon from './form-pokemon.vue'
 
   export default {
-    data() {
-      return {
-        pokemon: {
-          quickMove: null,
-          chargeMove: null,
-          caughtAt: moment().format('YYYY-MM-DD')
-        }
+    computed: {
+      today() {
+        return moment().format('YYYY-MM-DD')
       }
     },
 
     methods: {
-      async save() {
-        await this.$store.dispatch('pokemon/add', {
-          pokemon: this.pokemon,
+      async save(pokemon) {
+        await this.$store.dispatch('catalog/add', {
+          pokemon: pokemon,
           trigger: 'add-form'
         })
 

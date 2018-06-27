@@ -2,34 +2,33 @@
   <loading-panel>
     <b-container fluid class="p-3">
       <h1>Edit Pokémon in Catalog</h1>
-      <b-form v-on:submit.stop.prevent="update">
-        <form-pokemon v-if="pokemon" v-model="pokemon" />
+      <form-pokemon v-if="catalog" v-bind="catalog" v-on:submit="update">
         <b-button type="submit" variant="primary">Save</b-button>
-      </b-form>
+      </form-pokemon>
     </b-container>
   </loading-panel>
 </template>
 
 <script>
-  import clone from 'clone'
+  import { mapGetters } from 'vuex'
+
   import FormPokemon from './form-pokemon.vue'
 
   export default {
-    data(vm) {
-      const doc = vm.$store.getters['pokemon/byID'](vm.$route.params.pokemon)
-      return { pokemon: doc ? clone(doc) : {} }
-    },
-
     computed: {
-      loading() {
-        return this.$store.state.metadata.loading
+      ...mapGetters({
+        catalogByID: 'catalog/rawByID'
+      }),
+
+      catalog() {
+        const { pokemon } = this.$route.params
+        return this.catalogByID(pokemon)
       }
     },
 
     methods: {
-      async update() {
-        const { pokemon } = this
-        await this.$store.dispatch('pokemon/update', {
+      async update(pokemon) {
+        await this.$store.dispatch('catalog/update', {
           pokemon: pokemon,
           trigger: 'edit-form'
         })
@@ -37,18 +36,6 @@
           name: 'catalog-view',
           params: { pokemon: pokemon._id }
         })
-      }
-    },
-
-    watch: {
-      loading() {
-        const { pokemon } = this.$route.params
-        const doc = this.$store.getters['pokemon/byID'](pokemon)
-        if (doc) {
-          for (const key in doc) {
-            this.$set(this.pokemon, key, doc[key])
-          }
-        }
       }
     },
 

@@ -63,7 +63,10 @@ const getters = {
   },
 
   cpMultipliers ({ cpMultipliers }) {
-    return level => cpMultipliers.levels[level]
+    return level => {
+      if (!cpMultipliers.levels) return null
+      return cpMultipliers.levels[level]
+    }
   },
   level ({ cpMultipliers }) {
     return input => {
@@ -82,7 +85,10 @@ const getters = {
   },
 
   upgradeCosts ({ upgradeCosts }) {
-    return level => upgradeCosts.levels[level]
+    return level => {
+      if (!upgradeCosts.levels) return null
+      return upgradeCosts.levels[level]
+    }
   }
 }
 

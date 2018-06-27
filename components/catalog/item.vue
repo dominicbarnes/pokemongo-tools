@@ -2,11 +2,11 @@
   <b-media class="border rounded p-1 mb-2">
     <pokemon-sprite slot="aside" v-bind:pokemon="pokemon.dex" v-bind:form="pokemon.form" v-bind:shiny="pokemon.shiny" />
     <h2 v-if="pokemon.nickname" class="h3 mt-1 mb-0">
-      <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: pokemon.id } }">{{pokemon.nickname}}</b-link>
-      <small class="text-muted">({{pokemon.species}})</small>
+      <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: pokemon.id } }">{{ pokemon.nickname }}</b-link>
+      <small class="text-muted">({{ pokemon.species }})</small>
     </h2>
     <h2 v-else class="h3 mt-1 mb-0">
-      <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: pokemon.id } }">{{pokemon.species}}</b-link>
+      <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: pokemon.id } }">{{ pokemon.species }}</b-link>
     </h2>
     <div>
       <b-badge variant="dark">{{ pokemon.dex | dex }}</b-badge>
@@ -27,36 +27,36 @@
       <b-badge variant="info">{{ pokemon.hp | number('0,0') }}</b-badge>
       <abbr title="Hit Points" class="initialism">HP</abbr>
       &bull;
-      <b-badge variant="primary">{{ pokemon.ivs / 45 | number('0%') }}</b-badge>
+      <b-badge variant="primary">{{ pokemon.ivp | number('0%') }}</b-badge>
       <abbr title="Individual Values" class="initialism">IVs</abbr>
     </div>
     <small class="text-muted">
-      <span v-if="pokemon.caught">
-        Caught {{pokemon.caught}}
+      <template v-if="pokemon.caught">
+        Caught <rel-time v-bind:datetime="pokemon.caught" format-tooltip="YYYY-MM-DD" refresh="1m" />
         &bull;
-      </span>
+      </template>
       Added <rel-time v-bind:datetime="pokemon.added" refresh="1m" />
     </small>
   </b-media>
 </template>
 
 <script>
-import GenerationBadge from '../badges/generation.vue'
-import LevelBadge from '../badges/level.vue'
-import PokemonSprite from '../pokemon-sprite.vue'
-import RarityBadge from '../badges/rarity.vue'
-import RelTime from '../rel-time.vue'
-import ShinyBadge from '../badges/shiny.vue'
-import TypeBadge from '../badges/type.vue'
+  import GenerationBadge from '../badges/generation.vue'
+  import LevelBadge from '../badges/level.vue'
+  import PokemonSprite from '../pokemon-sprite.vue'
+  import RarityBadge from '../badges/rarity.vue'
+  import RelTime from '../rel-time.vue'
+  import ShinyBadge from '../badges/shiny.vue'
+  import TypeBadge from '../badges/type.vue'
 
-export default {
-  props: {
-    pokemon: {
-      type: Object,
-      required: true
-    }
-  },
+  export default {
+    props: {
+      pokemon: {
+        type: Object,
+        required: true
+      }
+    },
 
-  components: { GenerationBadge, LevelBadge, PokemonSprite, RarityBadge, RelTime, ShinyBadge, TypeBadge }
-}
+    components: { GenerationBadge, LevelBadge, PokemonSprite, RarityBadge, RelTime, ShinyBadge, TypeBadge }
+  }
 </script>
