@@ -34,7 +34,7 @@ const getters = {
       return {
         added: hoodie.createdAt && moment(hoodie.createdAt).toDate(),
         attackIV: attackIV,
-        caught: moment(catalog.caughtAt).toDate(),
+        caught: catalog.caughtAt && moment(catalog.caughtAt).toDate(),
         chargeMove: catalog && movesByID(catalog.chargeMove),
         cp: calculateCP(catalog, metadata, multiplier),
         defenseIV: defenseIV,
@@ -88,12 +88,12 @@ const getters = {
   },
   sorter (state) {
     switch (state.sortBy) {
-      case 'recent': return sortBy('-caught', '-added')
-      case 'dex': return sortBy('dex', '-cp')
-      case 'name': return sortBy('name', '-cp')
-      case 'cp': return sortBy('-cp')
-      case 'ivs': return sortBy('-ivs', '-added')
-      case 'level': return sortBy('-level', '-cp')
+      case 'recent': return sortBy('-caught', '-added', sortMapper)
+      case 'dex': return sortBy('dex', '-cp', sortMapper)
+      case 'name': return sortBy('name', '-cp', sortMapper)
+      case 'cp': return sortBy('-cp', sortMapper)
+      case 'ivs': return sortBy('-ivs', '-added', sortMapper)
+      case 'level': return sortBy('-level', '-cp', sortMapper)
       default:
         console.warn('catalog: unrecognized sort by', state.sortBy)
         return null
@@ -215,4 +215,10 @@ function nextEvolutions ({ pokemonByID, itemsByID }, list) {
       candy: evolution.candy
     }
   })
+}
+
+// this helper function will only be necessary until kvnneff/sort-by#10 lands
+// @see https://github.com/kvnneff/sort-by/pull/10
+function sortMapper (key, value) {
+  return value.valueOf()
 }
