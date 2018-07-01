@@ -67,7 +67,6 @@
   "family": "FAMILY_CASTFORM",
   "forms": {
     "normal": {
-      "id": "POKEMON_CASTFORM",
       "name": "Castform",
       "dex": 351,
       "generation": 3,
@@ -105,12 +104,10 @@
       "buddyDistance": 5,
       "height": 0.3,
       "weight": 0.8,
-      "family": {
-        "id": "FAMILY_CASTFORM"
-      }
+      "family": "FAMILY_CASTFORM",
+      "_id": "POKEMON_CASTFORM"
     },
     "rainy": {
-      "id": "POKEMON_CASTFORM",
       "name": "Castform (Rainy)",
       "dex": 351,
       "generation": 3,
@@ -148,12 +145,10 @@
       "buddyDistance": 5,
       "height": 0.3,
       "weight": 0.8,
-      "family": {
-        "id": "FAMILY_CASTFORM"
-      }
+      "family": "FAMILY_CASTFORM",
+      "_id": "POKEMON_CASTFORM"
     },
     "snowy": {
-      "id": "POKEMON_CASTFORM",
       "name": "Castform (Snowy)",
       "dex": 351,
       "generation": 3,
@@ -191,12 +186,10 @@
       "buddyDistance": 5,
       "height": 0.3,
       "weight": 0.8,
-      "family": {
-        "id": "FAMILY_CASTFORM"
-      }
+      "family": "FAMILY_CASTFORM",
+      "_id": "POKEMON_CASTFORM"
     },
     "sunny": {
-      "id": "POKEMON_CASTFORM",
       "name": "Castform (Sunny)",
       "dex": 351,
       "generation": 3,
@@ -234,9 +227,8 @@
       "buddyDistance": 5,
       "height": 0.3,
       "weight": 0.8,
-      "family": {
-        "id": "FAMILY_CASTFORM"
-      }
+      "family": "FAMILY_CASTFORM",
+      "_id": "POKEMON_CASTFORM"
     }
   },
   "_id": "POKEMON_CASTFORM"

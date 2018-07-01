@@ -44,7 +44,6 @@
   "family": "FAMILY_GEODUDE",
   "forms": {
     "alola": {
-      "id": "POKEMON_GOLEM",
       "name": "Golem (Alola)",
       "dex": 76,
       "generation": 1,
@@ -57,9 +56,7 @@
         "attack": 211,
         "defense": 229
       },
-      "previousEvolution": {
-        "id": "POKEMON_GRAVELER"
-      },
+      "previousEvolution": "POKEMON_GRAVELER",
       "nextEvolutions": [],
       "quickMoves": [
         {
@@ -89,12 +86,10 @@
       "buddyDistance": 1,
       "height": 1.7,
       "weight": 316,
-      "family": {
-        "id": "FAMILY_GEODUDE"
-      }
+      "family": "FAMILY_GEODUDE",
+      "_id": "POKEMON_GOLEM"
     },
     "normal": {
-      "id": "POKEMON_GOLEM",
       "name": "Golem",
       "dex": 76,
       "generation": 1,
@@ -107,9 +102,7 @@
         "attack": 211,
         "defense": 229
       },
-      "previousEvolution": {
-        "id": "POKEMON_GRAVELER"
-      },
+      "previousEvolution": "POKEMON_GRAVELER",
       "nextEvolutions": [],
       "quickMoves": [
         {
@@ -139,9 +132,8 @@
       "buddyDistance": 1,
       "height": 1.4,
       "weight": 300,
-      "family": {
-        "id": "FAMILY_GEODUDE"
-      }
+      "family": "FAMILY_GEODUDE",
+      "_id": "POKEMON_GOLEM"
     }
   },
   "_id": "POKEMON_GOLEM"

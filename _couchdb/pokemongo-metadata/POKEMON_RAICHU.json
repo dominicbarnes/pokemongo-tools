@@ -43,7 +43,6 @@
   "family": "FAMILY_PIKACHU",
   "forms": {
     "alola": {
-      "id": "POKEMON_RAICHU",
       "name": "Raichu (Alola)",
       "dex": 26,
       "generation": 1,
@@ -56,9 +55,7 @@
         "attack": 201,
         "defense": 172
       },
-      "previousEvolution": {
-        "id": "POKEMON_PIKACHU"
-      },
+      "previousEvolution": "POKEMON_PIKACHU",
       "nextEvolutions": [],
       "quickMoves": [
         {
@@ -88,12 +85,10 @@
       "buddyDistance": 1,
       "height": 0.7,
       "weight": 21,
-      "family": {
-        "id": "FAMILY_PIKACHU"
-      }
+      "family": "FAMILY_PIKACHU",
+      "_id": "POKEMON_RAICHU"
     },
     "normal": {
-      "id": "POKEMON_RAICHU",
       "name": "Raichu",
       "dex": 26,
       "generation": 1,
@@ -105,9 +100,7 @@
         "attack": 193,
         "defense": 165
       },
-      "previousEvolution": {
-        "id": "POKEMON_PIKACHU"
-      },
+      "previousEvolution": "POKEMON_PIKACHU",
       "nextEvolutions": [],
       "quickMoves": [
         {
@@ -137,9 +130,8 @@
       "buddyDistance": 1,
       "height": 0.8,
       "weight": 30,
-      "family": {
-        "id": "FAMILY_PIKACHU"
-      }
+      "family": "FAMILY_PIKACHU",
+      "_id": "POKEMON_RAICHU"
     }
   },
   "_id": "POKEMON_RAICHU"

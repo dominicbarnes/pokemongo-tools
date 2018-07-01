@@ -49,7 +49,6 @@
   "family": "FAMILY_VULPIX",
   "forms": {
     "alola": {
-      "id": "POKEMON_VULPIX",
       "name": "Vulpix (Alola)",
       "dex": 37,
       "generation": 1,
@@ -64,9 +63,7 @@
       "previousEvolution": null,
       "nextEvolutions": [
         {
-          "pokemon": {
-            "id": "POKEMON_NINETALES"
-          },
+          "pokemon": "POKEMON_NINETALES",
           "candy": 50,
           "item": null
         }
@@ -99,12 +96,10 @@
       "buddyDistance": 3,
       "height": 0.6,
       "weight": 9.9,
-      "family": {
-        "id": "FAMILY_VULPIX"
-      }
+      "family": "FAMILY_VULPIX",
+      "_id": "POKEMON_VULPIX"
     },
     "normal": {
-      "id": "POKEMON_VULPIX",
       "name": "Vulpix",
       "dex": 37,
       "generation": 1,
@@ -119,9 +114,7 @@
       "previousEvolution": null,
       "nextEvolutions": [
         {
-          "pokemon": {
-            "id": "POKEMON_NINETALES"
-          },
+          "pokemon": "POKEMON_NINETALES",
           "candy": 50,
           "item": null
         }
@@ -154,9 +147,8 @@
       "buddyDistance": 3,
       "height": 0.6,
       "weight": 9.9,
-      "family": {
-        "id": "FAMILY_VULPIX"
-      }
+      "family": "FAMILY_VULPIX",
+      "_id": "POKEMON_VULPIX"
     }
   },
   "_id": "POKEMON_VULPIX"

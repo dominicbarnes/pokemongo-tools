@@ -43,7 +43,6 @@
   "family": "FAMILY_GRIMER",
   "forms": {
     "alola": {
-      "id": "POKEMON_MUK",
       "name": "Muk (Alola)",
       "dex": 89,
       "generation": 1,
@@ -56,9 +55,7 @@
         "attack": 190,
         "defense": 184
       },
-      "previousEvolution": {
-        "id": "POKEMON_GRIMER"
-      },
+      "previousEvolution": "POKEMON_GRIMER",
       "nextEvolutions": [],
       "quickMoves": [
         {
@@ -88,12 +85,10 @@
       "buddyDistance": 3,
       "height": 1,
       "weight": 52,
-      "family": {
-        "id": "FAMILY_GRIMER"
-      }
+      "family": "FAMILY_GRIMER",
+      "_id": "POKEMON_MUK"
     },
     "normal": {
-      "id": "POKEMON_MUK",
       "name": "Muk",
       "dex": 89,
       "generation": 1,
@@ -105,9 +100,7 @@
         "attack": 190,
         "defense": 184
       },
-      "previousEvolution": {
-        "id": "POKEMON_GRIMER"
-      },
+      "previousEvolution": "POKEMON_GRIMER",
       "nextEvolutions": [],
       "quickMoves": [
         {
@@ -137,9 +130,8 @@
       "buddyDistance": 3,
       "height": 1.2,
       "weight": 30,
-      "family": {
-        "id": "FAMILY_GRIMER"
-      }
+      "family": "FAMILY_GRIMER",
+      "_id": "POKEMON_MUK"
     }
   },
   "_id": "POKEMON_MUK"

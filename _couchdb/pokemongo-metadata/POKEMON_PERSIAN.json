@@ -43,7 +43,6 @@
   "family": "FAMILY_MEOWTH",
   "forms": {
     "alola": {
-      "id": "POKEMON_PERSIAN",
       "name": "Persian (Alola)",
       "dex": 53,
       "generation": 1,
@@ -55,9 +54,7 @@
         "attack": 158,
         "defense": 139
       },
-      "previousEvolution": {
-        "id": "POKEMON_MEOWTH"
-      },
+      "previousEvolution": "POKEMON_MEOWTH",
       "nextEvolutions": [],
       "quickMoves": [
         {
@@ -87,12 +84,10 @@
       "buddyDistance": 3,
       "height": 1.1,
       "weight": 33,
-      "family": {
-        "id": "FAMILY_MEOWTH"
-      }
+      "family": "FAMILY_MEOWTH",
+      "_id": "POKEMON_PERSIAN"
     },
     "normal": {
-      "id": "POKEMON_PERSIAN",
       "name": "Persian",
       "dex": 53,
       "generation": 1,
@@ -104,9 +99,7 @@
         "attack": 150,
         "defense": 139
       },
-      "previousEvolution": {
-        "id": "POKEMON_MEOWTH"
-      },
+      "previousEvolution": "POKEMON_MEOWTH",
       "nextEvolutions": [],
       "quickMoves": [
         {
@@ -136,9 +129,8 @@
       "buddyDistance": 3,
       "height": 1,
       "weight": 32,
-      "family": {
-        "id": "FAMILY_MEOWTH"
-      }
+      "family": "FAMILY_MEOWTH",
+      "_id": "POKEMON_PERSIAN"
     }
   },
   "_id": "POKEMON_PERSIAN"

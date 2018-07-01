@@ -134,38 +134,40 @@ function types (meta) {
 }
 
 function pokemon (list) {
-  return list.map(pokemon => {
-    pokemon._id = pokemon.id
-    delete pokemon.id
-    pokemon.family = pokemon.family.id
-    if (pokemon.previousEvolution) {
-      pokemon.previousEvolution = pokemon.previousEvolution.id
-    }
-    if (pokemon.nextEvolutions) {
-      pokemon.nextEvolutions = pokemon.nextEvolutions.map(evolution => {
-        const pokemon = evolution.pokemon.id
-        const { candy, item } = evolution
-        return { pokemon, candy, item }
-      })
-    }
-    if (pokemon.quickMoves) {
-      pokemon.quickMoves = pokemon.quickMoves.map(move => {
-        return { id: move.id, legacy: move.legacy }
-      })
-    }
-    if (pokemon.chargeMoves) {
-      pokemon.chargeMoves = pokemon.chargeMoves.map(move => {
-        return { id: move.id, legacy: move.legacy }
-      })
-    }
-    if (pokemon.forms) {
-      pokemon.forms = pokemon.forms.reduce(function (acc, form) {
-        acc[form.form] = form.pokemon
-        return acc
-      }, Object.create(null))
-    }
-    return pokemon
-  })
+  return list.map(poke)
+}
+
+function poke (doc) {
+  doc._id = doc.id
+  delete doc.id
+  doc.family = doc.family.id
+  if (doc.previousEvolution) {
+    doc.previousEvolution = doc.previousEvolution.id
+  }
+  if (doc.nextEvolutions) {
+    doc.nextEvolutions = doc.nextEvolutions.map(evolution => {
+      const pokemon = evolution.pokemon.id
+      const { candy, item } = evolution
+      return { pokemon, candy, item }
+    })
+  }
+  if (doc.quickMoves) {
+    doc.quickMoves = doc.quickMoves.map(move => {
+      return { id: move.id, legacy: move.legacy }
+    })
+  }
+  if (doc.chargeMoves) {
+    doc.chargeMoves = doc.chargeMoves.map(move => {
+      return { id: move.id, legacy: move.legacy }
+    })
+  }
+  if (doc.forms) {
+    doc.forms = doc.forms.reduce(function (acc, form) {
+      acc[form.form] = poke(form.pokemon)
+      return acc
+    }, Object.create(null))
+  }
+  return doc
 }
 
 function moves (list) {

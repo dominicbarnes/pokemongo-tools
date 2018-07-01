@@ -50,7 +50,6 @@
   "family": "FAMILY_GEODUDE",
   "forms": {
     "alola": {
-      "id": "POKEMON_GEODUDE",
       "name": "Geodude (Alola)",
       "dex": 74,
       "generation": 1,
@@ -66,9 +65,7 @@
       "previousEvolution": null,
       "nextEvolutions": [
         {
-          "pokemon": {
-            "id": "POKEMON_GRAVELER"
-          },
+          "pokemon": "POKEMON_GRAVELER",
           "candy": 25,
           "item": null
         }
@@ -101,12 +98,10 @@
       "buddyDistance": 1,
       "height": 0.4,
       "weight": 20.3,
-      "family": {
-        "id": "FAMILY_GEODUDE"
-      }
+      "family": "FAMILY_GEODUDE",
+      "_id": "POKEMON_GEODUDE"
     },
     "normal": {
-      "id": "POKEMON_GEODUDE",
       "name": "Geodude",
       "dex": 74,
       "generation": 1,
@@ -122,9 +117,7 @@
       "previousEvolution": null,
       "nextEvolutions": [
         {
-          "pokemon": {
-            "id": "POKEMON_GRAVELER"
-          },
+          "pokemon": "POKEMON_GRAVELER",
           "candy": 25,
           "item": null
         }
@@ -157,9 +150,8 @@
       "buddyDistance": 1,
       "height": 0.4,
       "weight": 20,
-      "family": {
-        "id": "FAMILY_GEODUDE"
-      }
+      "family": "FAMILY_GEODUDE",
+      "_id": "POKEMON_GEODUDE"
     }
   },
   "_id": "POKEMON_GEODUDE"

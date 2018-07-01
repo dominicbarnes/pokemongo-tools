@@ -43,7 +43,6 @@
   "family": "FAMILY_VULPIX",
   "forms": {
     "alola": {
-      "id": "POKEMON_NINETALES",
       "name": "Ninetales (Alola)",
       "dex": 38,
       "generation": 1,
@@ -56,9 +55,7 @@
         "attack": 170,
         "defense": 207
       },
-      "previousEvolution": {
-        "id": "POKEMON_VULPIX"
-      },
+      "previousEvolution": "POKEMON_VULPIX",
       "nextEvolutions": [],
       "quickMoves": [
         {
@@ -88,12 +85,10 @@
       "buddyDistance": 3,
       "height": 1.1,
       "weight": 19.9,
-      "family": {
-        "id": "FAMILY_VULPIX"
-      }
+      "family": "FAMILY_VULPIX",
+      "_id": "POKEMON_NINETALES"
     },
     "normal": {
-      "id": "POKEMON_NINETALES",
       "name": "Ninetales",
       "dex": 38,
       "generation": 1,
@@ -105,9 +100,7 @@
         "attack": 169,
         "defense": 204
       },
-      "previousEvolution": {
-        "id": "POKEMON_VULPIX"
-      },
+      "previousEvolution": "POKEMON_VULPIX",
       "nextEvolutions": [],
       "quickMoves": [
         {
@@ -137,9 +130,8 @@
       "buddyDistance": 3,
       "height": 1.1,
       "weight": 19.9,
-      "family": {
-        "id": "FAMILY_VULPIX"
-      }
+      "family": "FAMILY_VULPIX",
+      "_id": "POKEMON_NINETALES"
     }
   },
   "_id": "POKEMON_NINETALES"

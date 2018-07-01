@@ -43,7 +43,6 @@
   "family": "FAMILY_DIGLETT",
   "forms": {
     "alola": {
-      "id": "POKEMON_DUGTRIO",
       "name": "Dugtrio (Alola)",
       "dex": 51,
       "generation": 1,
@@ -56,9 +55,7 @@
         "attack": 201,
         "defense": 148
       },
-      "previousEvolution": {
-        "id": "POKEMON_DIGLETT"
-      },
+      "previousEvolution": "POKEMON_DIGLETT",
       "nextEvolutions": [],
       "quickMoves": [
         {
@@ -88,12 +85,10 @@
       "buddyDistance": 3,
       "height": 0.7,
       "weight": 66.6,
-      "family": {
-        "id": "FAMILY_DIGLETT"
-      }
+      "family": "FAMILY_DIGLETT",
+      "_id": "POKEMON_DUGTRIO"
     },
     "normal": {
-      "id": "POKEMON_DUGTRIO",
       "name": "Dugtrio",
       "dex": 51,
       "generation": 1,
@@ -105,9 +100,7 @@
         "attack": 167,
         "defense": 147
       },
-      "previousEvolution": {
-        "id": "POKEMON_DIGLETT"
-      },
+      "previousEvolution": "POKEMON_DIGLETT",
       "nextEvolutions": [],
       "quickMoves": [
         {
@@ -137,9 +130,8 @@
       "buddyDistance": 3,
       "height": 0.7,
       "weight": 33.3,
-      "family": {
-        "id": "FAMILY_DIGLETT"
-      }
+      "family": "FAMILY_DIGLETT",
+      "_id": "POKEMON_DUGTRIO"
     }
   },
   "_id": "POKEMON_DUGTRIO"

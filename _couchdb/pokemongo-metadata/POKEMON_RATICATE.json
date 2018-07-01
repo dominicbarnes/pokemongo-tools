@@ -43,7 +43,6 @@
   "family": "FAMILY_RATTATA",
   "forms": {
     "alola": {
-      "id": "POKEMON_RATICATE",
       "name": "Raticate (Alola)",
       "dex": 20,
       "generation": 1,
@@ -56,9 +55,7 @@
         "attack": 135,
         "defense": 159
       },
-      "previousEvolution": {
-        "id": "POKEMON_RATTATA"
-      },
+      "previousEvolution": "POKEMON_RATTATA",
       "nextEvolutions": [],
       "quickMoves": [
         {
@@ -88,12 +85,10 @@
       "buddyDistance": 1,
       "height": 0.7,
       "weight": 25.5,
-      "family": {
-        "id": "FAMILY_RATTATA"
-      }
+      "family": "FAMILY_RATTATA",
+      "_id": "POKEMON_RATICATE"
     },
     "normal": {
-      "id": "POKEMON_RATICATE",
       "name": "Raticate",
       "dex": 20,
       "generation": 1,
@@ -105,9 +100,7 @@
         "attack": 161,
         "defense": 144
       },
-      "previousEvolution": {
-        "id": "POKEMON_RATTATA"
-      },
+      "previousEvolution": "POKEMON_RATTATA",
       "nextEvolutions": [],
       "quickMoves": [
         {
@@ -137,9 +130,8 @@
       "buddyDistance": 1,
       "height": 0.7,
       "weight": 18.5,
-      "family": {
-        "id": "FAMILY_RATTATA"
-      }
+      "family": "FAMILY_RATTATA",
+      "_id": "POKEMON_RATICATE"
     }
   },
   "_id": "POKEMON_RATICATE"

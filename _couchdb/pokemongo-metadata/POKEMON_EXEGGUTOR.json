@@ -44,7 +44,6 @@
   "family": "FAMILY_EXEGGCUTE",
   "forms": {
     "alola": {
-      "id": "POKEMON_EXEGGUTOR",
       "name": "Exeggutor (Alola)",
       "dex": 103,
       "generation": 1,
@@ -57,9 +56,7 @@
         "attack": 230,
         "defense": 158
       },
-      "previousEvolution": {
-        "id": "POKEMON_EXEGGCUTE"
-      },
+      "previousEvolution": "POKEMON_EXEGGCUTE",
       "nextEvolutions": [],
       "quickMoves": [
         {
@@ -89,12 +86,10 @@
       "buddyDistance": 3,
       "height": 10.9,
       "weight": 415.6,
-      "family": {
-        "id": "FAMILY_EXEGGCUTE"
-      }
+      "family": "FAMILY_EXEGGCUTE",
+      "_id": "POKEMON_EXEGGUTOR"
     },
     "normal": {
-      "id": "POKEMON_EXEGGUTOR",
       "name": "Exeggutor",
       "dex": 103,
       "generation": 1,
@@ -107,9 +102,7 @@
         "attack": 233,
         "defense": 158
       },
-      "previousEvolution": {
-        "id": "POKEMON_EXEGGCUTE"
-      },
+      "previousEvolution": "POKEMON_EXEGGCUTE",
       "nextEvolutions": [],
       "quickMoves": [
         {
@@ -139,9 +132,8 @@
       "buddyDistance": 3,
       "height": 2,
       "weight": 120,
-      "family": {
-        "id": "FAMILY_EXEGGCUTE"
-      }
+      "family": "FAMILY_EXEGGCUTE",
+      "_id": "POKEMON_EXEGGUTOR"
     }
   },
   "_id": "POKEMON_EXEGGUTOR"
