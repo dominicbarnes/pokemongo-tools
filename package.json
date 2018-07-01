@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@hoodie/server": "^23.0.0",
+    "camelcase": "^5.0.0",
     "good": "^7.3.0",
     "hapi": "^16.6.3",
     "inert": "^4.2.1",

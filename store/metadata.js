@@ -1,3 +1,4 @@
+import camel from 'camelcase'
 import PouchDB from 'pouchdb-browser'
 import sortBy from 'sort-by'
 import Store from '@hoodie/store-client'
@@ -93,36 +94,43 @@ const getters = {
 }
 
 const mutations = {
-  loaded: () => Vue.set(state, 'loading', false),
-  types: (state, types) => Vue.set(state, 'types', types),
-  cpMultipliers: (state, cpMultipliers) => Vue.set(state, 'cpMultipliers', cpMultipliers),
-  upgradeCosts: (state, upgradeCosts) => Vue.set(state, 'upgradeCosts', upgradeCosts),
-  pokemon: (state, pokemon) => Vue.set(state, 'pokemon', pokemon),
-  moves: (state, moves) => Vue.set(state, 'moves', moves),
-  families: (state, families) => Vue.set(state, 'families', families)
+  loaded () {
+    if (state.loading) {
+      Vue.set(state, 'loading', false)
+    }
+  },
+  metadata (state, docs) {
+    const pokemon = []
+    const moves = []
+    const families = []
+    docs.forEach(doc => {
+      if (doc._id.startsWith('POKEMON_')) {
+        pokemon.push(doc)
+      } else if (doc._id.startsWith('MOVE_')) {
+        moves.push(doc)
+      } else if (doc._id.startsWith('FAMILY_')) {
+        families.push(doc)
+      } else {
+        Vue.set(state, camel(doc._id), doc)
+      }
+    })
+    Vue.set(state, 'pokemon', pokemon)
+    Vue.set(state, 'moves', moves)
+    Vue.set(state, 'families', families)
+  }
 }
 
 const actions = {
   async init ({ commit, state }) {
     try {
-      commit('types', await store.find('TYPES'))
-      commit('cpMultipliers', await store.find('CP_MULTIPLIERS'))
-      commit('upgradeCosts', await store.find('UPGRADE_COSTS'))
-      commit('pokemon', await store.withIdPrefix('POKEMON_').findAll())
-      commit('moves', await store.withIdPrefix('MOVE_').findAll())
-      commit('families', await store.withIdPrefix('FAMILY_').findAll())
+      commit('metadata', await store.findAll())
       commit('loaded')
     } catch (err) {
       console.warn('metadata not found in local cache')
     }
 
     await store.pull()
-    commit('types', await store.find('TYPES'))
-    commit('cpMultipliers', await store.find('CP_MULTIPLIERS'))
-    commit('upgradeCosts', await store.find('UPGRADE_COSTS'))
-    commit('pokemon', await store.withIdPrefix('POKEMON_').findAll())
-    commit('moves', await store.withIdPrefix('MOVE_').findAll())
-    commit('families', await store.withIdPrefix('FAMILY_').findAll())
+    commit('metadata', await store.findAll())
     commit('loaded')
   }
 }
