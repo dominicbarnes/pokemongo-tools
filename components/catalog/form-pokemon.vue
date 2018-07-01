@@ -11,7 +11,7 @@
                 <input type="checkbox" v-model="value.shiny" />
               </label>
             </b-input-group-append>
-            <b-dropdown v-if="forms" text="Alternate Forms" variant="secondary" slot="append">
+            <b-dropdown v-if="formOptions" text="Alternate Forms" variant="secondary" slot="append">
               <b-dropdown-item v-for="form in formOptions" v-bind:key="form.value" v-on:click="value.form = form.value">{{ form.text }}</b-dropdown-item>
             </b-dropdown>
           </b-input-group>
