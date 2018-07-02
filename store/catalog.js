@@ -64,7 +64,7 @@ const getters = {
     })
   },
   filterer (state) {
-    const { name, family, generation, minIV, minLevel, types, evolves, rarity } = state.filterBy
+    const { name, family, generation, minIV, minLevel, types, evolves, rarity, quickMove, chargeMove } = state.filterBy
     const query = { $and: [] }
 
     if (name) {
@@ -78,6 +78,8 @@ const getters = {
     if (minLevel) query.$and.push({ level: { $gte: minLevel } })
     if (rarity) query.$and.push({ rarity: rarity === 'common' ? null : rarity })
     if (types && types.length) query.$and.push({ types: { $all: types.slice() } })
+    if (quickMove) query.$and.push({ 'quickMove._id': quickMove })
+    if (chargeMove) query.$and.push({ 'chargeMove._id': chargeMove })
     if (typeof evolves === 'boolean') {
       query.$and.push({
         pokemon: { [evolves ? '$in' : '$nin']: this.evolves }

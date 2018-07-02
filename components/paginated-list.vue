@@ -27,55 +27,55 @@
 </template>
 
 <script>
-import { page } from '../utils'
+  import { page } from '../utils'
 
-export default {
-  props: {
-    filter: Function,
-    list: Array,
-    sort: Function
-  },
-
-  data() {
-    return {
-      currentPage: 1,
-      perPage: 12
-    }
-  },
-
-  computed: {
-    empty() {
-      return this.count === 0
+  export default {
+    props: {
+      filter: Function,
+      list: Array,
+      sort: Function
     },
 
-    items() {
-      let { filter, list, sort } = this
-
-      if (filter) list = list.filter(filter)
-      if (sort) list.sort(sort)
-
-      return list
+    data() {
+      return {
+        currentPage: 1,
+        perPage: 12
+      }
     },
 
-    page() {
-      return page(this.items, this.currentPage, this.perPage)
-    },
+    computed: {
+      empty() {
+        return this.count === 0
+      },
 
-    from() {
-      return ((this.currentPage - 1) * this.perPage) + 1
-    },
+      items() {
+        let { filter, list, sort } = this
 
-    to() {
-      return (this.from + this.page.length) - 1
-    },
+        if (filter) list = list.filter(filter)
+        if (sort) list.sort(sort)
 
-    count() {
-      return this.items.length
-    },
+        return list
+      },
 
-    options() {
-      return [ 12, 24, 36, 48 ]
+      page() {
+        return page(this.items, this.currentPage, this.perPage)
+      },
+
+      from() {
+        return ((this.currentPage - 1) * this.perPage) + 1
+      },
+
+      to() {
+        return (this.from + this.page.length) - 1
+      },
+
+      count() {
+        return this.items.length
+      },
+
+      options() {
+        return [ 12, 24, 36, 48 ]
+      }
     }
   }
-}
 </script>

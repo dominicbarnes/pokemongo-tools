@@ -9,6 +9,8 @@
     <filter-generation v-model="generation" />
     <filter-rarity v-model="rarity" />
     <filter-evolves v-model="evolves" />
+    <filter-quick-move v-model="quickMove" />
+    <filter-charge-move v-model="chargeMove" />
     <filter-types v-model="types" />
   </b-form>
 </template>
@@ -17,11 +19,13 @@
   import clone from 'clone'
   import debounce from 'debounce'
 
+  import FilterChargeMove from '../filters/charge-move.vue'
   import FilterEvolves from '../filters/evolves.vue'
   import FilterFamily from '../filters/family.vue'
   import FilterIvs from '../filters/ivs.vue'
   import FilterLevel from '../filters/level.vue'
   import FilterGeneration from '../filters/generation.vue'
+  import FilterQuickMove from '../filters/quick-move.vue'
   import FilterTypes from '../filters/types.vue'
   import FilterRarity from '../filters/rarity.vue'
 
@@ -29,14 +33,14 @@
     props: ['value'],
 
     data() {
-      const { name, family, minIV, minLevel, generation, rarity, evolves, types } = this.value
-      return { name, family, minIV, minLevel, generation, rarity, evolves, types }
+      const { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove } = this.value
+      return { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove }
     },
 
     computed: {
       newValue() {
-        const { name, family, minIV, minLevel, generation, rarity, evolves, types } = this
-        return { name, family, minIV, minLevel, generation, rarity, evolves, types }
+        const { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove } = this
+        return { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove }
       }
     },
 
@@ -49,6 +53,6 @@
       }
     },
 
-    components: { FilterEvolves, FilterFamily, FilterIvs, FilterLevel, FilterGeneration, FilterRarity, FilterTypes }
+    components: { FilterChargeMove, FilterEvolves, FilterFamily, FilterIvs, FilterLevel, FilterGeneration, FilterQuickMove, FilterRarity, FilterTypes }
   }
 </script>
