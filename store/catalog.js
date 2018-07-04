@@ -42,7 +42,7 @@ const getters = {
         nextEvolutions: metadata && nextEvolutions(metadata.nextEvolutions),
         id: catalog._id,
         family: metadata && metadata.family,
-        form: catalog.form,
+        form: catalog.form || 'normal',
         generation: metadata && metadata.generation,
         hp: calculateHP(catalog, metadata, multiplier),
         ivs: ivs,
@@ -64,7 +64,7 @@ const getters = {
     })
   },
   filterer (state) {
-    const { name, family, generation, minIV, minLevel, types, evolves, rarity, quickMove, chargeMove } = state.filterBy
+    const { name, family, generation, minIV, minLevel, types, evolves, rarity, quickMove, chargeMove, form } = state.filterBy
     const query = { $and: [] }
 
     if (name) {
@@ -80,12 +80,14 @@ const getters = {
     if (types && types.length) query.$and.push({ types: { $all: types.slice() } })
     if (quickMove) query.$and.push({ 'quickMove._id': quickMove })
     if (chargeMove) query.$and.push({ 'chargeMove._id': chargeMove })
+    if (form) query.$and.push({ form })
     if (typeof evolves === 'boolean') {
       query.$and.push({
         pokemon: { [evolves ? '$in' : '$nin']: this.evolves }
       })
     }
 
+    console.log(query)
     return sift(query)
   },
   sorter (state) {
