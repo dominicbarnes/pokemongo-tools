@@ -87,7 +87,6 @@ const getters = {
       })
     }
 
-    console.log(query)
     return sift(query)
   },
   sorter (state) {
@@ -210,12 +209,12 @@ function calculateHP (catalog, metadata, multiplier) {
   return hp(stamina, multiplier)
 }
 
-function nextEvolutions ({ pokemonByID, itemsByID }, list) {
+function nextEvolutions (list) {
   if (!list) return []
   return list.map(evolution => {
     return {
-      pokemon: pokemonByID(evolution.pokemon),
-      item: itemsByID(evolution.item),
+      pokemon: evolution.pokemon,
+      item: evolution.item,
       candy: evolution.candy
     }
   })

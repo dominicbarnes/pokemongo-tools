@@ -105,7 +105,7 @@
           </b-card>
         </b-card-group>
 
-        <b-modal id="modalEvolve" title="Evolve" v-on:show="reset('evolve-modal')" v-on:ok="save([ 'newPokemonID', 'newCP', 'newHP', 'newQuickMove', 'newChargeMove' ])">
+        <b-modal id="modalEvolve" title="Evolve" v-on:show="reset('evolve-modal')" v-on:ok="save([ 'newPokemonID', 'newQuickMove', 'newChargeMove' ])">
           <b-row>
             <b-col cols="8">
               <b-form-group label="Pokémon" description="Choose the Pokémon species that you evolved into.">
@@ -187,13 +187,15 @@
 
       evolutions() {
         const { catalog } = this
-        if (!catalog || !catalog.nextEvolutions) return []
-        return catalog.nextEvolutions.map(evolution => {
-          const metadata = this.pokemonByID(evolution.pokemon)
-          const text = `${metadata.name} (${dex(metadata.dex)})`
-          const value = metadata._id
-          return { text, value }
-        })
+        if (catalog && catalog.nextEvolutions) {
+          return catalog.nextEvolutions.map(evolution => {
+            const metadata = this.pokemonByID(evolution.pokemon)
+            const text = `${metadata.name} (${dex(metadata.dex)})`
+            const value = metadata._id
+            return { text, value }
+          })
+        }
+        return []
       },
 
       quickMoves() {
@@ -227,6 +229,10 @@
           }
         }
         return total
+      },
+
+      canEvolve() {
+        return this.evolutions.length > 0
       }
     },
 
@@ -248,7 +254,7 @@
 
       reset(trigger) {
         if (this.canEvolve) {
-          this.newPokemonID = this.metadata.nextEvolutions[0].pokemon
+          this.newPokemonID = this.catalog.nextEvolutions[0].pokemon
         } else {
           this.newPokemonID = null
         }
