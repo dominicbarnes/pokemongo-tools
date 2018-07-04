@@ -6,7 +6,7 @@
       <small class="text-muted">({{ pokemon.species }})</small>
     </h2>
     <h2 v-else class="h3 mt-1 mb-0">
-      <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: pokemon.id } }">{{ pokemon.species }}</b-link>
+      <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: pokemon.id } }">{{ pokemon.name }}</b-link>
     </h2>
     <div>
       <b-badge variant="dark">{{ pokemon.dex | dex }}</b-badge>

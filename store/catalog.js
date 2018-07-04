@@ -28,6 +28,7 @@ const getters = {
     if (loading) return []
     return raw.map(catalog => {
       const metadata = pokemonByID(catalog.pokemonID, catalog.form)
+      const species = pokemonByID(catalog.pokemonID)
       const { hoodie, attackIV = 0, defenseIV = 0, staminaIV = 0 } = catalog
       const ivs = attackIV + defenseIV + staminaIV
       const multiplier = cpMultipliers(catalog.level)
@@ -56,7 +57,7 @@ const getters = {
         quickMove: catalog && movesByID(catalog.quickMove),
         rarity: metadata && metadata.rarity,
         shiny: !!catalog.shiny,
-        species: metadata && metadata.name,
+        species: species && species.name,
         staminaIV: staminaIV,
         types: metadata && metadata.types,
         updated: hoodie.updatedAt && moment(hoodie.updatedAt).toDate()

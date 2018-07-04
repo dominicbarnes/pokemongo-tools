@@ -23,7 +23,7 @@
     </b-row>
 
     <b-form-group id="add-nickname" label="Nickname" label-for="add-nickname">
-      <b-form-input id="add-nickname-input" v-model="nickname" />
+      <b-form-input id="add-nickname-input" v-model="value.nickname" />
     </b-form-group>
 
     <b-form-group label="Stats">

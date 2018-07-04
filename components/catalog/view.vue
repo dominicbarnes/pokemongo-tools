@@ -12,7 +12,7 @@
           <b-card class="text-center">
             <h3 v-if="catalog.nickname">
               {{ catalog.nickname }}
-              <small class="text-muted">({{ catalog.name }})</small>
+              <small class="text-muted">({{ catalog.species }})</small>
             </h3>
             <h3 v-else>{{ catalog.name }}</h3>
             <pokemon-sprite v-bind:pokemon="catalog.dex" v-bind:form="catalog.form" v-bind:shiny="catalog.shiny" />
