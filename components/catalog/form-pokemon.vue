@@ -174,11 +174,11 @@
       },
 
       totalIVs() {
-        const { attackIV = 0, defenseIV = 0, staminaIV = 0 } = this
+        const { attackIV = 0, defenseIV = 0, staminaIV = 0 } = this.value
         return attackIV + defenseIV + staminaIV
       },
       calculatedCP() {
-        const { level, attackIV = 0, defenseIV = 0, staminaIV = 0 } = this
+        const { level, attackIV = 0, defenseIV = 0, staminaIV = 0 } = this.value
         const metadata = this.getMetadata()
         if (!metadata) return 0
         const attack = metadata.baseStats.attack + attackIV
@@ -188,7 +188,7 @@
         return cp(attack, defense, stamina, multiplier)
       },
       calculatedHP() {
-        const { level, staminaIV } = this
+        const { level, staminaIV } = this.value
         const metadata = this.getMetadata()
         if (!metadata) return 0
         const stamina = metadata.baseStats.stamina + (staminaIV || 0)
