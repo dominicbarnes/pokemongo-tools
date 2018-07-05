@@ -10,6 +10,8 @@
           <b-row class="my-2">
             <b-col>
               <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add Pokémon</b-button>
+              <b-button v-on:click="toggleBulk" v-bind:pressed="bulk" variant="secondary">Edit Multiple</b-button>
+              <b-button v-if="bulkSelected.length > 0" v-on:click="deleteBulk" variant="danger">Delete {{ bulkSelected.length }}</b-button>
             </b-col>
             <b-col>
               <b-form inline class="float-right">
@@ -26,8 +28,8 @@
               <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add your first Pokémon!</b-button>
             </b-alert>
             <template slot="item" slot-scope="{ item: pokemon }">
-              <b-col v-bind:key="pokemon.id" cols="12" md="6" lg="4">
-                <catalog-item v-bind:pokemon="pokemon" />
+              <b-col v-bind:key="pokemon.id" cols="12" md="6" lg="4" v-on:click="toggleItem(pokemon.id)">
+                <catalog-item v-bind:pokemon="pokemon" v-bind:selected="isSelected(pokemon.id)" />
               </b-col>
             </template>
           </paginated-list>
@@ -45,6 +47,13 @@
   import PaginatedList from '../paginated-list.vue'
 
   export default {
+    data() {
+      return {
+        bulk: false,
+        selected: Object.create(null)
+      }
+    },
+
     computed: {
       ...mapGetters({
         ready: 'ready',
@@ -53,6 +62,10 @@
         list: 'catalog/list',
         sortBy: 'catalog/sortOptions'
       }),
+
+      bulkSelected() {
+        return Object.keys(this.selected)
+      },
 
       sort: {
         get () {
@@ -70,6 +83,37 @@
         set (by) {
           this.$store.dispatch('catalog/filter', by)
         }
+      }
+    },
+
+    methods: {
+      toggleBulk() {
+        this.bulk = !this.bulk
+        if (!this.bulk) this.selected = Object.create(null)
+      },
+
+      toggleItem(id) {
+        if (!this.bulk) return
+
+        if (!this.selected[id]) {
+          this.$set(this.selected, id, true)
+        } else {
+          this.$delete(this.selected, id)
+        }
+      },
+
+      isSelected(id) {
+        return !!this.selected[id]
+      },
+
+      async deleteBulk() {
+        await this.$store.dispatch('catalog/remove', {
+          pokemon: this.bulkSelected,
+          trigger: 'bulk-delete-button'
+        })
+
+        this.bulk = false
+        this.selected = Object.create(null)
       }
     },
 

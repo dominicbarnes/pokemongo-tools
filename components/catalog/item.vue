@@ -1,5 +1,5 @@
 <template>
-  <b-media class="border rounded p-1 mb-2">
+  <b-media class="border rounded p-1 mb-2" v-bind:class="{ 'border-primary': selected, 'bg-light': selected }">
     <pokemon-sprite slot="aside" v-bind:pokemon="pokemon.dex" v-bind:form="pokemon.form" v-bind:shiny="pokemon.shiny" />
     <h2 v-if="pokemon.nickname" class="h3 mt-1 mb-0">
       <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: pokemon.id } }">{{ pokemon.nickname }}</b-link>
@@ -54,6 +54,10 @@
       pokemon: {
         type: Object,
         required: true
+      },
+      selected: {
+        type: Boolean,
+        default: false
       }
     },
 
