@@ -1,4 +1,25 @@
 
+0.6.0 / 2018-07-05
+==================
+
+  * feat(catalog): sorting by ivs should use cp
+  * feat(catalog): add bulk deletion (fixes #29)
+  * fix(catalog): fix nickname add/edit
+  * fix(catalog): fix evolve button
+  * fix(catalog): fix stat calculations for add form
+  * feat(catalog): add filter for forms (fixes #31)
+  * feat(catalog): add filter for moves (fixes #35)
+  * perf(metadata): use fewer mutations
+  * fix(metadata): format alternate forms like the base pokemon
+  * fix(catalog): show alternate forms when available
+  * fix(catalog): fix date sorting via custom mapper
+  * chore(package): update deps
+  * refactor(catalog): clean up internals, particularly around vuex
+  * fix: lint
+  * refactor(store): clean up store/hoodie interactions
+  * feat(catalog): add calculated ivs to form
+  * chore: update metadata
+
 0.5.0 / 2018-06-15
 ==================
 
