@@ -96,7 +96,7 @@ const getters = {
       case 'dex': return sortBy('dex', '-cp', sortMapper)
       case 'name': return sortBy('name', '-cp', sortMapper)
       case 'cp': return sortBy('-cp', sortMapper)
-      case 'ivs': return sortBy('-ivs', '-added', sortMapper)
+      case 'ivs': return sortBy('-ivs', '-cp', '-added', sortMapper)
       case 'level': return sortBy('-level', '-cp', sortMapper)
       default:
         console.warn('catalog: unrecognized sort by', state.sortBy)
