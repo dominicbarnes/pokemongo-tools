@@ -3,7 +3,10 @@
     <header>
       <b-navbar toggleable="md" type="dark" variant="dark">
         <b-navbar-toggle target="main-nav"></b-navbar-toggle>
-        <b-navbar-brand to="/">Pokémon GO Tools</b-navbar-brand>
+        <b-navbar-brand to="/">
+          Pokémon GO Tools
+          <small class="text-muted">(v{{version}})</small>
+        </b-navbar-brand>
         <b-collapse is-nav id="main-nav">
           <b-navbar-nav>
             <b-nav-item to="/pokedex">Pokédex</b-nav-item>
@@ -27,35 +30,6 @@
     </header>
 
     <router-view />
-
-    <footer class="footer fixed-bottom p-3 bg-light d-none d-md-block">
-      <b-container fluid>
-        <b-row>
-          <b-col>
-            Powered by
-            <b-link href="http://hood.ie/" target="_blank" rel="noopener">Hoodie</b-link>
-            &bull;
-            <b-link href="https://up.docs.apex.sh/" target="_blank" rel="noopener">Apex Up</b-link>
-          </b-col>
-          <b-col cols="6" class="text-center">
-            <small>
-              Icons made by
-              <a href="https://www.flaticon.com/authors/roundicons-freebies" title="Roundicons Freebies">Roundicons Freebies</a>
-              from
-              <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-              is licensed by
-              <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank" rel="noopener">CC 3.0 BY</a>
-            </small>
-          </b-col>
-          <b-col class="text-right">
-            <b-link href="https://github.com/dominicbarnes/pokemongo-tools" target="_blank" rel="noopener">Source Code</b-link>
-            &bull;
-            <b-link href="https://github.com/dominicbarnes/pokemongo-tools/issues" target="_blank" rel="noopener">Feedback</b-link>
-            <span class="text-muted">(v{{version}})</span>
-          </b-col>
-        </b-row>
-      </b-container>
-    </footer>
 
     <b-modal id="signup" title="Sign Up" hide-footer ref="signup">
       <b-alert variant="danger" :show="!!signupError">

@@ -61,6 +61,32 @@
           </b-button>
         </b-card>
       </b-col>
+      <b-col md="4">
+        <b-card title="Powered By">
+          <ul class="list-unstyled">
+            <li>
+              <b-link href="http://hood.ie/" target="_blank" rel="noopener">Hoodie</b-link>
+              enables offline-first by synchronizing with CouchDB.
+            </li>
+            <li>
+              <b-link href="https://up.docs.apex.sh/" target="_blank" rel="noopener">Apex Up</b-link>
+              allows for easy app-deployment using <abbr class="initialism" title="Amazon Web Services">AWS</abbr>.
+            </li>
+            <li>
+              Icons made by
+              <a href="https://www.flaticon.com/authors/roundicons-freebies" target="_blank" rel="noopener">Roundicons Freebies</a>
+              from
+              <a href="https://www.flaticon.com" target="_blank" rel="noopener">Flaticon</a>
+              is licensed by
+              <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank" rel="noopener">CC 3.0 BY</a>.
+            </li>
+            <li>
+              <b-link href="https://github.com/dominicbarnes/pokemongo-tools" target="_blank" rel="noopener">Github</b-link>
+              hosts the source code and enables contribution from the open-source community.
+            </li>
+          </ul>
+        </b-card>
+      </b-col>
     </b-row>
   </b-container>
 </template>
