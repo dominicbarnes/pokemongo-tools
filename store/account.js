@@ -4,7 +4,9 @@ const { hoodie } = window
 
 const state = {
   properties: null,
-  session: null
+  profile: Object.create(null),
+  session: null,
+  ready: false
 }
 
 const getters = {
@@ -14,8 +16,10 @@ const getters = {
     return !!session.id
   },
 
-  username ({ properties }, { loggedIn }) {
-    return loggedIn ? properties.username : null
+  username ({ properties, profile }, { loggedIn }) {
+    if (!loggedIn) return
+    if (profile && profile.nickname) return profile.nickname
+    return properties.username
   }
 }
 
@@ -29,6 +33,12 @@ const mutations = {
   },
   session (state, session) {
     Vue.set(state, 'session', session)
+  },
+  profile (state, profile) {
+    Vue.set(state, 'profile', profile)
+  },
+  ready (state) {
+    Vue.set(state, 'ready', true)
   }
 }
 
@@ -36,7 +46,10 @@ const actions = {
   async init ({ commit }) {
     const properties = await hoodie.account.get(null, { local: true })
     commit('properties', properties)
+    const profile = await hoodie.account.profile.get()
+    commit('profile', profile)
     if (properties) window.analytics.identify(properties.id, { username: properties.username })
+    commit('ready')
   },
 
   async signUp ({ commit, dispatch }, { username, password }) {
@@ -52,6 +65,11 @@ const actions = {
     commit('properties', properties)
     commit('session', session)
     if (!skipIdentify) window.analytics.identify(properties.id, { username: properties.username })
+  },
+
+  async update ({ commit }, changes) {
+    const profile = await hoodie.account.profile.update(changes)
+    commit('profile', profile)
   },
 
   async signOut ({ commit }) {

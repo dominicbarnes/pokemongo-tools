@@ -9,6 +9,7 @@ import CatalogEdit from './components/catalog/edit.vue'
 import Types from './components/types/index.vue'
 import Pokedex from './components/pokedex/index.vue'
 import PokedexView from './components/pokedex/view.vue'
+import Profile from './components/profile/index.vue'
 
 Vue.use(Router)
 
@@ -28,6 +29,14 @@ const router = new Router({
       component: Types,
       meta: {
         title: 'Type Chart'
+      }
+    },
+    {
+      path: '/profile',
+      name: 'profile',
+      component: Profile,
+      meta: {
+        title: 'Profile'
       }
     },
     {

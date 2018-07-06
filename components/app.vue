@@ -17,11 +17,14 @@
             </b-nav-item>
           </b-navbar-nav>
 
-          <b-navbar-nav v-show="loggedIn" class="ml-auto">
-            <b-nav-text>Welcome, {{ username }}</b-nav-text>
-            <b-nav-item v-on:click="signOut">Log Out</b-nav-item>
+          <b-navbar-nav v-if="loggedIn" class="ml-auto">
+            <b-nav-item-dropdown v-bind:text="username" right>
+              <b-dropdown-item to="/profile">Profile</b-dropdown-item>
+              <b-dropdown-item v-on:click="signOut">Log Out</b-dropdown-item>
+            </b-nav-item-dropdown>
           </b-navbar-nav>
-          <b-navbar-nav v-show="!loggedIn" class="ml-auto">
+
+          <b-navbar-nav v-else class="ml-auto">
             <b-nav-item v-b-modal="'signup'">Register</b-nav-item>
             <b-nav-item v-b-modal="'signin'">Log In</b-nav-item>
           </b-navbar-nav>
