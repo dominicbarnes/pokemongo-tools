@@ -1,4 +1,5 @@
 
+import debounce from 'debounce'
 import moment from 'moment'
 import sift from 'sift'
 import sortBy from 'sort-by'
@@ -12,7 +13,8 @@ const { hoodie } = window
 const state = {
   raw: [],
   filterBy: {},
-  sortBy: 'recent'
+  sortBy: 'recent',
+  changes: []
 }
 
 const getters = {
@@ -139,6 +141,28 @@ const mutations = {
     const x = raw.findIndex(item => item._id === id)
     raw.splice(x, 1)
   },
+  change ({ changes }, { kind, doc }) {
+    changes.push({ kind, doc })
+  },
+  flush ({ changes, raw }) {
+    changes.forEach(change => {
+      const { kind, doc } = change
+
+      switch (kind) {
+        case 'add':
+          raw.push(doc)
+          break
+        case 'update':
+          Vue.set(raw, raw.findIndex(item => item._id === doc._id), doc)
+          break
+        case 'remove':
+          raw.splice(raw.findIndex(item => item._id === doc._id), 1)
+          break
+      }
+    })
+
+    changes.splice(0, changes.length) // empty the queue
+  },
   reset ({ raw }) {
     raw.splice(0, raw.length)
   },
@@ -156,14 +180,13 @@ const actions = {
 
     hoodie.store.on('reset', () => commit('reset'))
 
+    const flush = debounce(() => commit('flush'), 250)
+
     hoodie.store.on('change', (kind, doc) => {
       if (doc.type !== 'pokemon') return
 
-      if (kind === 'add' || kind === 'update') {
-        commit(kind, doc)
-      } else if (kind === 'remove') {
-        commit(kind, doc._id)
-      }
+      commit('change', { kind, doc })
+      flush()
     })
   },
   async add ({ commit }, { pokemon, trigger }) {
