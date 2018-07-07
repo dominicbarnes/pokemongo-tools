@@ -13,8 +13,7 @@ const { hoodie } = window
 const state = {
   raw: [],
   filterBy: {},
-  sortBy: 'recent',
-  changes: []
+  sortBy: 'recent'
 }
 
 const getters = {
@@ -141,10 +140,7 @@ const mutations = {
     const x = raw.findIndex(item => item._id === id)
     raw.splice(x, 1)
   },
-  change ({ changes }, { kind, doc }) {
-    changes.push({ kind, doc })
-  },
-  flush ({ changes, raw }) {
+  changes ({ raw }, changes) {
     changes.forEach(change => {
       const { kind, doc } = change
 
@@ -160,8 +156,6 @@ const mutations = {
           break
       }
     })
-
-    changes.splice(0, changes.length) // empty the queue
   },
   reset ({ raw }) {
     raw.splice(0, raw.length)
@@ -180,12 +174,16 @@ const actions = {
 
     hoodie.store.on('reset', () => commit('reset'))
 
-    const flush = debounce(() => commit('flush'), 250)
+    const changes = []
+    const flush = debounce(() => {
+      commit('changes', changes)
+      changes.splice(0, changes.length)
+    }, 1000)
 
     hoodie.store.on('change', (kind, doc) => {
       if (doc.type !== 'pokemon') return
 
-      commit('change', { kind, doc })
+      changes.push({ kind, doc })
       flush()
     })
   },
