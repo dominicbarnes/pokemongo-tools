@@ -22,10 +22,14 @@
               </b-form>
             </b-col>
           </b-row>
-          <paginated-list v-bind:list="list">
+          <paginated-list v-bind:list="list" v-bind:sort="sorter" v-bind:filter="filterer">
             <b-alert slot="empty" variant="warning" show>
               <p>Your catalog is empty right now!</p>
               <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add your first Pokémon!</b-button>
+            </b-alert>
+            <b-alert slot="nomatches" variant="warning" show>
+              <p>No matches!</p>
+              <b-button v-on:click="filters = null" variant="secondary">Remove Filters</b-button>
             </b-alert>
             <template slot="item" slot-scope="{ item: pokemon }">
               <b-col v-bind:key="pokemon.id" cols="12" md="6" lg="4" v-on:click="toggleItem(pokemon.id)">
@@ -59,8 +63,10 @@
         ready: 'ready',
         loggedIn: 'account/loggedIn',
         movesByID: 'movesByID',
-        list: 'catalog/list',
-        sortBy: 'catalog/sortOptions'
+        list: 'catalog/all',
+        sortBy: 'catalog/sortOptions',
+        sorter: 'catalog/sorter',
+        filterer: 'catalog/filterer'
       }),
 
       bulkSelected() {

@@ -1,5 +1,5 @@
 <template>
-  <b-form-group label="Evolves?">
+  <b-form-group label="Shiny?">
     <b-select v-bind:options="options" v-bind:value="value" v-on:change="update" />
   </b-form-group>
 </template>
@@ -14,8 +14,8 @@
       options() {
         return [
           { value: null, text: '&mdash;' },
-          { value: true, text: 'Evolves' },
-          { value: false, text: 'Does Not Evolve' }
+          { value: true, text: 'Yes' },
+          { value: false, text: 'No' }
         ]
       }
     },

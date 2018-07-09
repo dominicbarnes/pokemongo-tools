@@ -1,7 +1,14 @@
 <template>
   <div>
     <div v-if="empty" class="p-2">
-      <slot name="empty" />
+      <slot name="empty">
+        <b-alert show variant="warning">No items found</b-alert>
+      </slot>
+    </div>
+    <div v-else-if="nomatches" class="p-2">
+      <slot name="nomatches">
+        <b-alert show variant="warning">No results matching the given filter</b-alert>
+      </slot>
     </div>
     <div v-else>
       <b-row>
@@ -17,8 +24,8 @@
         <b-pagination v-model="currentPage" v-bind:per-page="perPage" v-bind:total-rows="count" align="center" />
         <div class="d-none d-md-block">
           <b-form inline>
-            <label for="pokedex-per-page" class="mr-1">Per Page:</label>
-            <b-form-select id="pokedex-per-page" v-model="perPage" v-bind:options="options" />
+            <label for="per-page" class="mr-1">Per Page:</label>
+            <b-form-select id="per-page" v-model="perPage" v-bind:options="options" />
           </b-form>
         </div>
       </div>
@@ -45,6 +52,10 @@
 
     computed: {
       empty() {
+        return this.list.length === 0
+      },
+
+      nomatches() {
         return this.count === 0
       },
 

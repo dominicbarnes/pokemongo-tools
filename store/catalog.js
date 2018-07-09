@@ -66,7 +66,9 @@ const getters = {
     })
   },
   filterer (state) {
-    const { name, family, generation, minIV, minLevel, types, evolves, rarity, quickMove, chargeMove, form } = state.filterBy
+    if (!state.filterBy) return null
+
+    const { name, family, generation, minIV, minLevel, types, evolves, rarity, quickMove, chargeMove, form, shiny } = state.filterBy
     const query = { $and: [] }
 
     if (name) {
@@ -83,6 +85,7 @@ const getters = {
     if (quickMove) query.$and.push({ 'quickMove._id': quickMove })
     if (chargeMove) query.$and.push({ 'chargeMove._id': chargeMove })
     if (form) query.$and.push({ form })
+    if (typeof shiny === 'boolean') query.$and.push({ shiny })
     if (typeof evolves === 'boolean') {
       query.$and.push({
         pokemon: { [evolves ? '$in' : '$nin']: this.evolves }
@@ -103,12 +106,6 @@ const getters = {
         console.warn('catalog: unrecognized sort by', state.sortBy)
         return null
     }
-  },
-  list (state, { all, filterer, sorter }) {
-    let list = all.slice()
-    if (filterer) list = list.filter(filterer)
-    if (sorter) list.sort(sorter)
-    return list
   },
   totalCount ({ raw }) {
     return raw.length
@@ -178,7 +175,7 @@ const actions = {
     const flush = debounce(() => {
       commit('changes', changes)
       changes.splice(0, changes.length)
-    }, 1000)
+    }, 500)
 
     hoodie.store.on('change', (kind, doc) => {
       if (doc.type !== 'pokemon') return

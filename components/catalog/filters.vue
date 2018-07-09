@@ -10,6 +10,7 @@
     <filter-rarity v-model="rarity" />
     <filter-form v-model="form" />
     <filter-evolves v-model="evolves" />
+    <filter-shiny v-model="shiny" />
     <filter-quick-move v-model="quickMove" />
     <filter-charge-move v-model="chargeMove" />
     <filter-types v-model="types" />
@@ -17,36 +18,42 @@
 </template>
 
 <script>
-  import clone from 'clone'
   import debounce from 'debounce'
 
   import FilterChargeMove from '../filters/charge-move.vue'
   import FilterEvolves from '../filters/evolves.vue'
   import FilterFamily from '../filters/family.vue'
   import FilterForm from '../filters/form.vue'
+  import FilterGeneration from '../filters/generation.vue'
   import FilterIvs from '../filters/ivs.vue'
   import FilterLevel from '../filters/level.vue'
-  import FilterGeneration from '../filters/generation.vue'
   import FilterQuickMove from '../filters/quick-move.vue'
-  import FilterTypes from '../filters/types.vue'
   import FilterRarity from '../filters/rarity.vue'
+  import FilterShiny from '../filters/shiny.vue';
+  import FilterTypes from '../filters/types.vue'
 
   export default {
     props: ['value'],
 
     data() {
-      const { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove, form } = this.value
-      return { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove, form }
+      const { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove, form, shiny } = this.value
+      return { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove, form, shiny }
     },
 
     computed: {
       newValue() {
-        const { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove, form } = this
-        return { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove, form }
+        const { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove, form, shiny } = this
+        return { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove, form, shiny }
       }
     },
 
     watch: {
+      value() {
+        if (!this.value) {
+          Object.keys(this.newValue).forEach(key => this.$set(this, key, undefined))
+        }
+      },
+
       newValue: {
         deep: true,
         handler: debounce(function () {
@@ -55,6 +62,6 @@
       }
     },
 
-    components: { FilterChargeMove, FilterEvolves, FilterFamily, FilterForm, FilterIvs, FilterLevel, FilterGeneration, FilterQuickMove, FilterRarity, FilterTypes }
+    components: { FilterChargeMove, FilterEvolves, FilterFamily, FilterForm, FilterIvs, FilterLevel, FilterGeneration, FilterQuickMove, FilterRarity, FilterShiny, FilterTypes }
   }
 </script>
