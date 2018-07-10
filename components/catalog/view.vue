@@ -105,10 +105,15 @@
           </b-card>
         </b-card-group>
 
-        <b-modal id="modalEvolve" title="Evolve" v-on:show="reset('evolve-modal')" v-on:ok="save([ 'newPokemonID', 'newQuickMove', 'newChargeMove' ])">
+        <b-modal id="modalEvolve" title="Evolve" v-on:show="reset('evolve-modal')" v-on:ok="evolve(newPokemonID, newQuickMove, newChargeMove)">
           <b-row>
             <b-col cols="8">
               <b-form-group label="Pokémon" description="Choose the Pokémon species that you evolved into.">
+                <template slot="description">
+                  Calculated
+                  <span v-if="cp">{{ cp }} CP</span>
+                  <span v-if="hp">{{ hp }} HP</span>
+                </template>
                 <b-form-select id="evolve-species-input" v-bind:options="evolutions" v-model="newPokemonID" required size="lg" />
               </b-form-group>
             </b-col>
@@ -126,7 +131,7 @@
           </b-form-group>
         </b-modal>
 
-        <b-modal id="modalUseTM" title="Use TM" v-on:show="reset('use-tm-modal')" v-on:ok="save([ 'newQuickMove', 'newChargeMove' ])">
+        <b-modal id="modalUseTM" title="Use TM" v-on:show="reset('use-tm-modal')" v-on:ok="useTM(newQuickMove, newChargeMove)">
           <b-form-group label="Quick Move" description="Select the new quick move.">
             <b-form-select v-bind:options="quickMoves" v-model="newQuickMove" />
           </b-form-group>
@@ -148,7 +153,7 @@
   import sortBy from 'sort-by'
   import { mapGetters } from 'vuex'
 
-  import { dex } from '../../utils'
+  import { cp, hp, dex } from '../../utils'
 
   import MoveSummary from '../move-summary.vue'
   import PokemonSprite from '../pokemon-sprite.vue'
@@ -161,9 +166,9 @@
     data() {
       return {
         dex: null,
+        cp: null,
+        hp: null,
         newPokemonID: null,
-        newCP: null,
-        newHP: null,
         newQuickMove: null,
         newChargeMove: null,
         newLevel: null,
@@ -238,8 +243,12 @@
 
     watch: {
       newPokemonID(id) {
-        const pokemon = this.pokemonByID(id)
-        if (pokemon) this.dex = pokemon.dex
+        const metadata = this.pokemonByID(id)
+        if (metadata) {
+          this.dex = metadata.dex
+          this.cp = this.calculateCP(metadata)
+          this.hp = this.calculateHP(metadata)
+        }
       }
     },
 
@@ -259,8 +268,14 @@
           this.newPokemonID = null
         }
 
-        this.newQuickMove = this.catalog.quickMove
-        this.newChargeMove = this.catalog.chargeMove
+        if (this.catalog.quickMove) {
+          this.newQuickMove = this.catalog.quickMove._id
+        }
+
+        if (this.catalog.chargeMove) {
+          this.newChargeMove = this.catalog.chargeMove._id
+        }
+
         this.trigger = trigger
       },
 
@@ -284,6 +299,24 @@
         return !!metadata.legacy
       },
 
+      calculateCP(metadata) {
+        if (!metadata) return 0
+        const { level, attackIV = 0, defenseIV = 0, staminaIV = 0 } = this.catalog
+        const attack = metadata.baseStats.attack + attackIV
+        const defense = metadata.baseStats.defense + defenseIV
+        const stamina = metadata.baseStats.stamina + staminaIV
+        const multiplier = this.cpMultipliers(level)
+        return cp(attack, defense, stamina, multiplier)
+      },
+
+      calculateHP(metadata) {
+        if (!metadata) return 0
+        const { level, staminaIV } = this.catalog
+        const stamina = metadata.baseStats.stamina + (staminaIV || 0)
+        const multiplier = this.cpMultipliers(level)
+        return hp(stamina, multiplier)
+      },
+
       async powerUp(level) {
         await this.$store.dispatch('catalog/update', {
           pokemon: {
@@ -293,10 +326,24 @@
         })
       },
 
-      async save(keys, e) {
+      async useTM(quickMove, chargeMove) {
         await this.$store.dispatch('catalog/update', {
-          pokemon: this.changes(keys),
-          trigger: this.trigger
+          pokemon: {
+            _id: this.catalog.id,
+            quickMove: quickMove,
+            chargeMove: chargeMove
+          }
+        })
+      },
+
+      async evolve(pokemonID, quickMove, chargeMove) {
+        await this.$store.dispatch('catalog/update', {
+          pokemon: {
+            _id: this.catalog.id,
+            pokemonID: pokemonID,
+            quickMove: quickMove,
+            chargeMove: chargeMove
+          }
         })
       }
     },
