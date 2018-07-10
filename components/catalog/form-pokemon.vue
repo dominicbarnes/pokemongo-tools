@@ -67,6 +67,7 @@
           <b-input-group>
             <b-input-group-prepend is-text>Quick Move</b-input-group-prepend>
             <b-form-select id="add-quick-move" v-bind:options="quickMoveOptions" v-model="value.quickMove" />
+            <b-form-select v-if="value.quickMove === 'MOVE_HIDDEN_POWER_FAST'" id="hidden-power-type" v-bind:options="typeOptions" v-model="value.hiddenPowerType" />
           </b-input-group>
         </b-col>
         <b-col md="6">
@@ -105,6 +106,7 @@
       chargeMove: String,
       defenseIV: Number,
       form: String,
+      hiddenPowerType: String,
       level: Number,
       nickname: String,
       notes: String,
@@ -153,10 +155,10 @@
         if (metadata) {
           const movesByID = $store.getters.movesByID
           const moves = metadata.quickMoves.map(move => movesByID(move.id))
-          options.unshift({ disabled: true, text: '---' })
+          options.unshift({ text: '&mdash;', value: null })
           options.unshift.apply(options, moves.map(this.moveOption))
         }
-        options.unshift({ disabled: true, text: '---' })
+        options.unshift({ disabled: true, text: '&mdash;' })
         return options
       },
       chargeMoveOptions() {
@@ -166,11 +168,14 @@
         if (metadata) {
           const movesByID = $store.getters.movesByID
           const moves = metadata.chargeMoves.map(move => movesByID(move.id))
-          options.unshift({ disabled: true, text: '---' })
+          options.unshift({ text: '&mdash;', value: null })
           options.unshift.apply(options, moves.map(this.moveOption))
         }
-        options.unshift({ disabled: true, text: '---' })
+        options.unshift({ disabled: true, text: '&mdash;' })
         return options
+      },
+      typeOptions() {
+        return this.$store.state.metadata.types.list
       },
 
       totalIVs() {

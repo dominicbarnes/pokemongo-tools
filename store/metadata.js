@@ -1,4 +1,5 @@
 import camel from 'camelcase'
+import clone from 'clone'
 import PouchDB from 'pouchdb-browser'
 import sortBy from 'sort-by'
 import Store from '@hoodie/store-client'
@@ -54,7 +55,11 @@ const getters = {
 
   movesByID ({ moves }) {
     const m = index(moves, '_id')
-    return id => m.get(id)
+    return (id, hptype) => {
+      const move = clone(m.get(id))
+      if (move && move._id === 'MOVE_HIDDEN_POWER_FAST' && hptype) move.type = hptype
+      return move
+    }
   },
   quickMoves ({ moves }) {
     return moves.filter(move => move._id.endsWith('_FAST')).slice()

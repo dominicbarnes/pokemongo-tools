@@ -55,7 +55,7 @@ const getters = {
         notes: catalog.notes,
         pokemon: catalog.pokemonID,
         prevEvolution: metadata && pokemonByID(metadata.prevEvolution),
-        quickMove: catalog && movesByID(catalog.quickMove),
+        quickMove: catalog && movesByID(catalog.quickMove, catalog.hiddenPowerType),
         rarity: metadata && metadata.rarity,
         shiny: !!catalog.shiny,
         species: species && species.name,
