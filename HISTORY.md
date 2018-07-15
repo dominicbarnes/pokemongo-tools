@@ -1,4 +1,16 @@
 
+0.7.0 / 2018-07-15
+==================
+
+  * feat(catalog): add support for hidden power type
+  * fix(catalog): improve evolve + tm modals (fixes #38)
+  * chore(metadata): update
+  * feat(catalog): add shiny filter (fixes #37)
+  * perf(catalog): bypass vuex for queueing changes
+  * perf(catalog): debounce change stream
+  * feat: add user profile (fixes #7)
+  * content: move footer content to home page
+
 0.6.0 / 2018-07-05
 ==================
 
