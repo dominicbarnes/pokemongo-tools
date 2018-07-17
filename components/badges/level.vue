@@ -1,5 +1,5 @@
 <template>
-  <b-badge v-bind:variant="variant" v-bind:title="title">{{ text }}</b-badge>
+  <b-badge variant="primary" v-bind:title="title">{{ text }}</b-badge>
 </template>
 
 <script>
@@ -14,10 +14,6 @@
     computed: {
       max() {
         return this.level === 40
-      },
-
-      variant() {
-        return this.max ? 'success' : 'info'
       },
 
       title() {

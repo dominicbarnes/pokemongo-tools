@@ -10,8 +10,8 @@
     </h2>
     <div>
       <b-badge variant="dark">{{ pokemon.dex | dex }}</b-badge>
-      <type-badge v-for="type in pokemon.types" v-bind:type="type" />
       <generation-badge v-bind:generation="pokemon.generation" />
+      <type-badge v-for="type in pokemon.types" v-bind:type="type" />
     </div>
     <div>
       <rarity-badge v-if="pokemon.rarity" v-bind:rarity="pokemon.rarity" />
@@ -22,17 +22,18 @@
     <div>
       Level <level-badge v-bind:level="pokemon.level" />
       &bull;
+      <b-badge variant="primary">{{ pokemon.ivp | number('0%') }}</b-badge>
+      <abbr title="Individual Values" class="initialism">IVs</abbr>
+    </div>
+    <div>
       <b-badge variant="info">{{ pokemon.cp | number('0,0') }}</b-badge>
       <abbr title="Combat Power" class="initialism">CP</abbr>
       <b-badge variant="info">{{ pokemon.hp | number('0,0') }}</b-badge>
       <abbr title="Hit Points" class="initialism">HP</abbr>
-      &bull;
-      <b-badge variant="primary">{{ pokemon.ivp | number('0%') }}</b-badge>
-      <abbr title="Individual Values" class="initialism">IVs</abbr>
     </div>
     <small class="text-muted">
       <template v-if="pokemon.caught">
-        Caught <rel-time v-bind:datetime="pokemon.caught" format-tooltip="YYYY-MM-DD" refresh="1m" />
+        Caught <rel-time v-bind:datetime="pokemon.caught" format-tooltip="LL" refresh="1m" />
         &bull;
       </template>
       Added <rel-time v-bind:datetime="pokemon.added" refresh="1m" />
