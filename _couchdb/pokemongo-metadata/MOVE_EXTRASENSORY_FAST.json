@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_EXTRASENSORY_FAST",
   "name": "Extrasensory",
   "type": "psychic",
-  "power": 12,
-  "_id": "MOVE_EXTRASENSORY_FAST"
+  "power": 12
 }

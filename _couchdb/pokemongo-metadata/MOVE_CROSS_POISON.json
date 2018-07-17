@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_CROSS_POISON",
   "name": "Cross Poison",
   "type": "poison",
-  "power": 40,
-  "_id": "MOVE_CROSS_POISON"
+  "power": 40
 }

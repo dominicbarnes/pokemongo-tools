@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_DYNAMIC_PUNCH",
   "name": "Dynamic Punch",
   "type": "fighting",
-  "power": 90,
-  "_id": "MOVE_DYNAMIC_PUNCH"
+  "power": 90
 }

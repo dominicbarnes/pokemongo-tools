@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_X_SCISSOR",
   "name": "X Scissor",
   "type": "bug",
-  "power": 45,
-  "_id": "MOVE_X_SCISSOR"
+  "power": 45
 }

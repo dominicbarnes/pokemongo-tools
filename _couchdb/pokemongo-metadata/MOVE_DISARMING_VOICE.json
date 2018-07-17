@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_DISARMING_VOICE",
   "name": "Disarming Voice",
   "type": "fairy",
-  "power": 70,
-  "_id": "MOVE_DISARMING_VOICE"
+  "power": 70
 }

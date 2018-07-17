@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_BODY_SLAM",
   "name": "Body Slam",
   "type": "normal",
-  "power": 50,
-  "_id": "MOVE_BODY_SLAM"
+  "power": 50
 }

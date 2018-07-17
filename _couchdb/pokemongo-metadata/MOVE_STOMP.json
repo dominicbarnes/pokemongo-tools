@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_STOMP",
   "name": "Stomp",
   "type": "normal",
-  "power": 55,
-  "_id": "MOVE_STOMP"
+  "power": 55
 }

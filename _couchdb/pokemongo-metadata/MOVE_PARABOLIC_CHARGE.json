@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_PARABOLIC_CHARGE",
   "name": "Parabolic Charge",
   "type": "electric",
-  "power": 25,
-  "_id": "MOVE_PARABOLIC_CHARGE"
+  "power": 25
 }

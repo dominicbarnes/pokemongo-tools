@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_MEGAHORN",
   "name": "Megahorn",
   "type": "bug",
-  "power": 90,
-  "_id": "MOVE_MEGAHORN"
+  "power": 90
 }

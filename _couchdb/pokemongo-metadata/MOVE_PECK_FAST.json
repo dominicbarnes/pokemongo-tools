@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_PECK_FAST",
   "name": "Peck",
   "type": "flying",
-  "power": 10,
-  "_id": "MOVE_PECK_FAST"
+  "power": 10
 }

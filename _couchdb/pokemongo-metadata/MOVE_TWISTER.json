@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_TWISTER",
   "name": "Twister",
   "type": "dragon",
-  "power": 45,
-  "_id": "MOVE_TWISTER"
+  "power": 45
 }

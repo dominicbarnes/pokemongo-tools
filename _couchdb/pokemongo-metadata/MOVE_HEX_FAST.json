@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_HEX_FAST",
   "name": "Hex",
   "type": "ghost",
-  "power": 10,
-  "_id": "MOVE_HEX_FAST"
+  "power": 10
 }

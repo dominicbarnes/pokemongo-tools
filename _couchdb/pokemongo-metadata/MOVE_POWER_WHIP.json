@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_POWER_WHIP",
   "name": "Power Whip",
   "type": "grass",
-  "power": 90,
-  "_id": "MOVE_POWER_WHIP"
+  "power": 90
 }

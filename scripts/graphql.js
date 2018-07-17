@@ -1,4 +1,5 @@
 
+const flatten = require('array-flatten')
 const { GraphQLClient } = require('graphql-request')
 
 const client = new GraphQLClient('https://61heu9qv1g.execute-api.us-west-2.amazonaws.com/production/graphql', {
@@ -122,7 +123,7 @@ function docs (data) {
   return []
     .concat(types(data.types))
     .concat(pokemon(data.pokemon))
-    .concat(moves(data.moves))
+    .concat(moves(data.moves, data.types.list))
     .concat(families(data.families))
     .concat(multipliers(data.cpMultipliers))
     .concat(upgradeCosts(data.upgradeCosts))
@@ -170,12 +171,26 @@ function poke (doc) {
   return doc
 }
 
-function moves (list) {
-  return list.map(move => {
-    move._id = move.id
-    delete move.id
-    return move
-  })
+function moves (list, types) {
+  return flatten(list.map(move => {
+    if (move.id === 'MOVE_HIDDEN_POWER_FAST') {
+      return types.map(type => {
+        return {
+          _id: `MOVE_HIDDEN_POWER_${type.toUpperCase()}_FAST`,
+          name: move.name,
+          type: type,
+          power: move.power
+        }
+      })
+    } else {
+      return {
+        _id: move.id,
+        name: move.name,
+        type: move.type,
+        power: move.power || 0
+      }
+    }
+  }))
 }
 
 function families (list) {

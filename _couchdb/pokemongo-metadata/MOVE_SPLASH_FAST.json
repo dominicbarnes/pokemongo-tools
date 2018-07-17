@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_SPLASH_FAST",
   "name": "Splash",
   "type": "water",
-  "power": null,
-  "_id": "MOVE_SPLASH_FAST"
+  "power": 0
 }

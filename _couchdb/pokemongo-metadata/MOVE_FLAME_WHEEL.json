@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_FLAME_WHEEL",
   "name": "Flame Wheel",
   "type": "fire",
-  "power": 60,
-  "_id": "MOVE_FLAME_WHEEL"
+  "power": 60
 }

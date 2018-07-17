@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_VICE_GRIP",
   "name": "Vice Grip",
   "type": "normal",
-  "power": 35,
-  "_id": "MOVE_VICE_GRIP"
+  "power": 35
 }

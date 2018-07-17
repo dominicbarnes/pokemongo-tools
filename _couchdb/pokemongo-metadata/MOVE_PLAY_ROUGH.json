@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_PLAY_ROUGH",
   "name": "Play Rough",
   "type": "fairy",
-  "power": 90,
-  "_id": "MOVE_PLAY_ROUGH"
+  "power": 90
 }

@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_FIRE_FANG_FAST",
   "name": "Fire Fang",
   "type": "fire",
-  "power": 11,
-  "_id": "MOVE_FIRE_FANG_FAST"
+  "power": 11
 }

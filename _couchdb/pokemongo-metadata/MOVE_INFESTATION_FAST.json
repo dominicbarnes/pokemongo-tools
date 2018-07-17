@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_INFESTATION_FAST",
   "name": "Infestation",
   "type": "bug",
-  "power": 10,
-  "_id": "MOVE_INFESTATION_FAST"
+  "power": 10
 }

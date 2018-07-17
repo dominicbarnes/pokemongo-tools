@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_BLAST_BURN",
   "name": "Blast Burn",
   "type": "fire",
-  "power": 110,
-  "_id": "MOVE_BLAST_BURN"
+  "power": 110
 }

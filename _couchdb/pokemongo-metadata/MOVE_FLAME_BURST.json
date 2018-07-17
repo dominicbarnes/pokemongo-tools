@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_FLAME_BURST",
   "name": "Flame Burst",
   "type": "fire",
-  "power": 70,
-  "_id": "MOVE_FLAME_BURST"
+  "power": 70
 }

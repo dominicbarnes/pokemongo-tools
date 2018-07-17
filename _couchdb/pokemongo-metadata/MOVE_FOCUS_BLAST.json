@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_FOCUS_BLAST",
   "name": "Focus Blast",
   "type": "fighting",
-  "power": 140,
-  "_id": "MOVE_FOCUS_BLAST"
+  "power": 140
 }

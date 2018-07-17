@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_FLASH_CANNON",
   "name": "Flash Cannon",
   "type": "steel",
-  "power": 100,
-  "_id": "MOVE_FLASH_CANNON"
+  "power": 100
 }

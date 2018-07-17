@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_CLOSE_COMBAT",
   "name": "Close Combat",
   "type": "fighting",
-  "power": 100,
-  "_id": "MOVE_CLOSE_COMBAT"
+  "power": 100
 }

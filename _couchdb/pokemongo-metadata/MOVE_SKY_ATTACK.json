@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_SKY_ATTACK",
   "name": "Sky Attack",
   "type": "flying",
-  "power": 80,
-  "_id": "MOVE_SKY_ATTACK"
+  "power": 80
 }

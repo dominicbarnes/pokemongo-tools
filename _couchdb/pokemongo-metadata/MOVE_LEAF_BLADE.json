@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_LEAF_BLADE",
   "name": "Leaf Blade",
   "type": "grass",
-  "power": 70,
-  "_id": "MOVE_LEAF_BLADE"
+  "power": 70
 }

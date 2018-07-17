@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_TRANSFORM_FAST",
   "name": "Transform",
   "type": "normal",
-  "power": null,
-  "_id": "MOVE_TRANSFORM_FAST"
+  "power": 0
 }

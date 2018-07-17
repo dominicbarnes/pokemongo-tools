@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_SPARK_FAST",
   "name": "Spark",
   "type": "electric",
-  "power": 6,
-  "_id": "MOVE_SPARK_FAST"
+  "power": 6
 }

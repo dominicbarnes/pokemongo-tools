@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_FUTURESIGHT",
   "name": "Futuresight",
   "type": "psychic",
-  "power": 120,
-  "_id": "MOVE_FUTURESIGHT"
+  "power": 120
 }

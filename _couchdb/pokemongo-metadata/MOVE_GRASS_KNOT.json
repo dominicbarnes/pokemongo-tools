@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_GRASS_KNOT",
   "name": "Grass Knot",
   "type": "grass",
-  "power": 90,
-  "_id": "MOVE_GRASS_KNOT"
+  "power": 90
 }

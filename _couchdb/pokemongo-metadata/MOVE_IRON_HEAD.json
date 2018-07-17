@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_IRON_HEAD",
   "name": "Iron Head",
   "type": "steel",
-  "power": 60,
-  "_id": "MOVE_IRON_HEAD"
+  "power": 60
 }

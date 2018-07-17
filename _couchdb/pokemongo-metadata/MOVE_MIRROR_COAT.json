@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_MIRROR_COAT",
   "name": "Mirror Coat",
   "type": "psychic",
-  "power": 60,
-  "_id": "MOVE_MIRROR_COAT"
+  "power": 60
 }

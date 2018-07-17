@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_REST",
   "name": "Rest",
   "type": "normal",
-  "power": 50,
-  "_id": "MOVE_REST"
+  "power": 50
 }

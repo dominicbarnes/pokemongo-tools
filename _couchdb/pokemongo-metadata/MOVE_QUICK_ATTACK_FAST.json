@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_QUICK_ATTACK_FAST",
   "name": "Quick Attack",
   "type": "normal",
-  "power": 8,
-  "_id": "MOVE_QUICK_ATTACK_FAST"
+  "power": 8
 }

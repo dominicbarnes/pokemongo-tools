@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_DRILL_PECK",
   "name": "Drill Peck",
   "type": "flying",
-  "power": 60,
-  "_id": "MOVE_DRILL_PECK"
+  "power": 60
 }

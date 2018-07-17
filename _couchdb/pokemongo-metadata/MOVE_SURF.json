@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_SURF",
   "name": "Surf",
   "type": "water",
-  "power": 65,
-  "_id": "MOVE_SURF"
+  "power": 65
 }

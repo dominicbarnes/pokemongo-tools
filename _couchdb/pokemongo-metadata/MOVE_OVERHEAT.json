@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_OVERHEAT",
   "name": "Overheat",
   "type": "fire",
-  "power": 160,
-  "_id": "MOVE_OVERHEAT"
+  "power": 160
 }

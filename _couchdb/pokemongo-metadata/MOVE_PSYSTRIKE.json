@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_PSYSTRIKE",
   "name": "Psystrike",
   "type": "psychic",
-  "power": 100,
-  "_id": "MOVE_PSYSTRIKE"
+  "power": 100
 }

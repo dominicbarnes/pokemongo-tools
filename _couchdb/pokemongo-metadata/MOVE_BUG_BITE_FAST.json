@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_BUG_BITE_FAST",
   "name": "Bug Bite",
   "type": "bug",
-  "power": 5,
-  "_id": "MOVE_BUG_BITE_FAST"
+  "power": 5
 }

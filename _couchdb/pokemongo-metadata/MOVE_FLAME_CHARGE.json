@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_FLAME_CHARGE",
   "name": "Flame Charge",
   "type": "fire",
-  "power": 70,
-  "_id": "MOVE_FLAME_CHARGE"
+  "power": 70
 }

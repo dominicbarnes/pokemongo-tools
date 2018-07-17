@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_POUND_FAST",
   "name": "Pound",
   "type": "normal",
-  "power": 7,
-  "_id": "MOVE_POUND_FAST"
+  "power": 7
 }

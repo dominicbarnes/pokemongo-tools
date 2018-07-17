@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_AIR_CUTTER",
   "name": "Air Cutter",
   "type": "flying",
-  "power": 60,
-  "_id": "MOVE_AIR_CUTTER"
+  "power": 60
 }

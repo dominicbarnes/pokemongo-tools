@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_ICY_WIND",
   "name": "Icy Wind",
   "type": "ice",
-  "power": 60,
-  "_id": "MOVE_ICY_WIND"
+  "power": 60
 }

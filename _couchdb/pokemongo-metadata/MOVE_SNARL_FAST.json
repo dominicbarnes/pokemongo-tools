@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_SNARL_FAST",
   "name": "Snarl",
   "type": "dark",
-  "power": 12,
-  "_id": "MOVE_SNARL_FAST"
+  "power": 12
 }

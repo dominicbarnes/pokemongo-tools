@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_EMBER_FAST",
   "name": "Ember",
   "type": "fire",
-  "power": 10,
-  "_id": "MOVE_EMBER_FAST"
+  "power": 10
 }

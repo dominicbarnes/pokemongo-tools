@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_KARATE_CHOP_FAST",
   "name": "Karate Chop",
   "type": "fighting",
-  "power": 8,
-  "_id": "MOVE_KARATE_CHOP_FAST"
+  "power": 8
 }

@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_SMACK_DOWN_FAST",
   "name": "Smack Down",
   "type": "rock",
-  "power": 16,
-  "_id": "MOVE_SMACK_DOWN_FAST"
+  "power": 16
 }

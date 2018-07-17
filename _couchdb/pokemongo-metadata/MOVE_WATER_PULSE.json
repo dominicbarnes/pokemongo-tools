@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_WATER_PULSE",
   "name": "Water Pulse",
   "type": "water",
-  "power": 70,
-  "_id": "MOVE_WATER_PULSE"
+  "power": 70
 }

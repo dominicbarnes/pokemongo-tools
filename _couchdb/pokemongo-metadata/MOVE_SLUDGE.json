@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_SLUDGE",
   "name": "Sludge",
   "type": "poison",
-  "power": 50,
-  "_id": "MOVE_SLUDGE"
+  "power": 50
 }

@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_ROCK_SMASH_FAST",
   "name": "Rock Smash",
   "type": "fighting",
-  "power": 15,
-  "_id": "MOVE_ROCK_SMASH_FAST"
+  "power": 15
 }

@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_BLIZZARD",
   "name": "Blizzard",
   "type": "ice",
-  "power": 130,
-  "_id": "MOVE_BLIZZARD"
+  "power": 130
 }

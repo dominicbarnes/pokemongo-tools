@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_HYDRO_PUMP_BLASTOISE",
   "name": "Hydro Pump Blastoise",
   "type": "water",
-  "power": 90,
-  "_id": "MOVE_HYDRO_PUMP_BLASTOISE"
+  "power": 90
 }

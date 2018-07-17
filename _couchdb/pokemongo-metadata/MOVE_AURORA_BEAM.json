@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_AURORA_BEAM",
   "name": "Aurora Beam",
   "type": "ice",
-  "power": 80,
-  "_id": "MOVE_AURORA_BEAM"
+  "power": 80
 }

@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_CRUNCH",
   "name": "Crunch",
   "type": "dark",
-  "power": 70,
-  "_id": "MOVE_CRUNCH"
+  "power": 70
 }

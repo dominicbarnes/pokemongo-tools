@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_WRAP",
   "name": "Wrap",
   "type": "normal",
-  "power": 60,
-  "_id": "MOVE_WRAP"
+  "power": 60
 }

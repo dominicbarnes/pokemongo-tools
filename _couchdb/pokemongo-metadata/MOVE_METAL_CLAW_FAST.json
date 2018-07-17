@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_METAL_CLAW_FAST",
   "name": "Metal Claw",
   "type": "steel",
-  "power": 8,
-  "_id": "MOVE_METAL_CLAW_FAST"
+  "power": 8
 }

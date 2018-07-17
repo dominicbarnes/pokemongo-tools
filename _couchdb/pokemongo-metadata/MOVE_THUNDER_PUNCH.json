@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_THUNDER_PUNCH",
   "name": "Thunder Punch",
   "type": "electric",
-  "power": 45,
-  "_id": "MOVE_THUNDER_PUNCH"
+  "power": 45
 }

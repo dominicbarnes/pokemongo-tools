@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_MUD_SLAP_FAST",
   "name": "Mud Slap",
   "type": "ground",
-  "power": 15,
-  "_id": "MOVE_MUD_SLAP_FAST"
+  "power": 15
 }

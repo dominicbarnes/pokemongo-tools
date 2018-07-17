@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_MAGNET_BOMB",
   "name": "Magnet Bomb",
   "type": "steel",
-  "power": 70,
-  "_id": "MOVE_MAGNET_BOMB"
+  "power": 70
 }

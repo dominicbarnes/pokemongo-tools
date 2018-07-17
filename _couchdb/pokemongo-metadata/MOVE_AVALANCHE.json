@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_AVALANCHE",
   "name": "Avalanche",
   "type": "ice",
-  "power": 90,
-  "_id": "MOVE_AVALANCHE"
+  "power": 90
 }

@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_LICK_FAST",
   "name": "Lick",
   "type": "ghost",
-  "power": 5,
-  "_id": "MOVE_LICK_FAST"
+  "power": 5
 }

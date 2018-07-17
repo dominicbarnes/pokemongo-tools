@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_FOUL_PLAY",
   "name": "Foul Play",
   "type": "dark",
-  "power": 70,
-  "_id": "MOVE_FOUL_PLAY"
+  "power": 70
 }

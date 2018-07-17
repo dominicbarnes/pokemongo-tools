@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_SHADOW_BALL",
   "name": "Shadow Ball",
   "type": "ghost",
-  "power": 100,
-  "_id": "MOVE_SHADOW_BALL"
+  "power": 100
 }

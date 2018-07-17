@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_BRINE",
   "name": "Brine",
   "type": "water",
-  "power": 60,
-  "_id": "MOVE_BRINE"
+  "power": 60
 }

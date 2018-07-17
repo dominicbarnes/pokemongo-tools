@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_POWDER_SNOW_FAST",
   "name": "Powder Snow",
   "type": "ice",
-  "power": 6,
-  "_id": "MOVE_POWDER_SNOW_FAST"
+  "power": 6
 }

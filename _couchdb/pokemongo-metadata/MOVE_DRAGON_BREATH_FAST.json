@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_DRAGON_BREATH_FAST",
   "name": "Dragon Breath",
   "type": "dragon",
-  "power": 6,
-  "_id": "MOVE_DRAGON_BREATH_FAST"
+  "power": 6
 }

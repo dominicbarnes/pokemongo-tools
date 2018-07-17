@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_GYRO_BALL",
   "name": "Gyro Ball",
   "type": "steel",
-  "power": 80,
-  "_id": "MOVE_GYRO_BALL"
+  "power": 80
 }

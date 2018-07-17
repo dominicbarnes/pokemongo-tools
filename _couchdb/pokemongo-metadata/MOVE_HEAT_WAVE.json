@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_HEAT_WAVE",
   "name": "Heat Wave",
   "type": "fire",
-  "power": 95,
-  "_id": "MOVE_HEAT_WAVE"
+  "power": 95
 }

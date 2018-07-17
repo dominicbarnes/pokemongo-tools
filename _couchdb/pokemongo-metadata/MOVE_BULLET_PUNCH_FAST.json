@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_BULLET_PUNCH_FAST",
   "name": "Bullet Punch",
   "type": "steel",
-  "power": 9,
-  "_id": "MOVE_BULLET_PUNCH_FAST"
+  "power": 9
 }

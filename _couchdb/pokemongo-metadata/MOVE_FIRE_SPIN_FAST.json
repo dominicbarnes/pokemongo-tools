@@ -1,6 +1,6 @@
 {
+  "_id": "MOVE_FIRE_SPIN_FAST",
   "name": "Fire Spin",
   "type": "fire",
-  "power": 14,
-  "_id": "MOVE_FIRE_SPIN_FAST"
+  "power": 14
 }
