@@ -9,9 +9,9 @@
         <b-col md="9" lg="10">
           <b-row class="my-2">
             <b-col>
-              <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary">Add Pokémon</b-button>
-              <b-button v-on:click="toggleBulk" v-bind:pressed="bulk" variant="secondary">Edit Multiple</b-button>
-              <b-button v-if="bulkSelected.length > 0" v-on:click="deleteBulk" variant="danger">Delete {{ bulkSelected.length }}</b-button>
+              <b-button v-bind:to="{ name: 'catalog-add' }" variant="primary" class="mb-1">Add Pokémon</b-button>
+              <b-button v-on:click="toggleBulk" v-bind:pressed="bulk" variant="secondary" class="mb-1">Edit Multiple</b-button>
+              <b-button v-if="bulkSelected.length > 0" v-on:click="deleteBulk" variant="danger" class="mb-1">Delete {{ bulkSelected.length }}</b-button>
             </b-col>
             <b-col>
               <b-form inline class="float-right">
