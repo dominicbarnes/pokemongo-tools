@@ -1,7 +1,7 @@
 <template>
   <b-form>
     <b-form-group label="Keywords">
-      <b-form-input v-model="name" type="text" placeholder="Name" />
+      <b-form-input v-model="name" type="search" />
     </b-form-group>
     <filter-family v-model="family" />
     <filter-ivs v-model="minIV" />
@@ -14,6 +14,7 @@
     <filter-quick-move v-model="quickMove" />
     <filter-charge-move v-model="chargeMove" />
     <filter-types v-model="types" />
+    <filter-uncertain v-model="uncertain" />
   </b-form>
 </template>
 
@@ -31,19 +32,20 @@
   import FilterRarity from '../filters/rarity.vue'
   import FilterShiny from '../filters/shiny.vue';
   import FilterTypes from '../filters/types.vue'
+  import FilterUncertain from '../filters/uncertain.vue'
 
   export default {
     props: ['value'],
 
     data() {
-      const { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove, form, shiny } = this.value
-      return { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove, form, shiny }
+      const { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove, form, shiny, uncertain } = this.value
+      return { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove, form, shiny, uncertain }
     },
 
     computed: {
       newValue() {
-        const { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove, form, shiny } = this
-        return { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove, form, shiny }
+        const { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove, form, shiny, uncertain } = this
+        return { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove, form, shiny, uncertain }
       }
     },
 
@@ -62,6 +64,19 @@
       }
     },
 
-    components: { FilterChargeMove, FilterEvolves, FilterFamily, FilterForm, FilterIvs, FilterLevel, FilterGeneration, FilterQuickMove, FilterRarity, FilterShiny, FilterTypes }
+    components: {
+      FilterChargeMove,
+      FilterEvolves,
+      FilterFamily,
+      FilterForm,
+      FilterIvs,
+      FilterLevel,
+      FilterGeneration,
+      FilterQuickMove,
+      FilterRarity,
+      FilterShiny,
+      FilterTypes,
+      FilterUncertain
+    }
   }
 </script>

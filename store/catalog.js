@@ -61,6 +61,7 @@ const getters = {
         species: species && species.name,
         staminaIV: staminaIV,
         types: metadata && metadata.types,
+        uncertain: !!catalog.uncertainStats,
         updated: hoodie.updatedAt && moment(hoodie.updatedAt).toDate()
       }
     })
@@ -68,12 +69,12 @@ const getters = {
   filterer (state) {
     if (!state.filterBy) return null
 
-    const { name, family, generation, minIV, minLevel, types, evolves, rarity, quickMove, chargeMove, form, shiny } = state.filterBy
+    const { name, family, generation, minIV, minLevel, types, evolves, rarity, quickMove, chargeMove, form, shiny, uncertain } = state.filterBy
     const query = { $and: [] }
 
     if (name) {
       const re = new RegExp(name, 'i')
-      query.$and.push({ $or: [ { name: re }, { species: re } ] })
+      query.$and.push({ $or: [ { name: re }, { species: re }, { notes: re } ] })
     }
 
     if (family) query.$and.push({ family })
@@ -86,6 +87,7 @@ const getters = {
     if (chargeMove) query.$and.push({ 'chargeMove._id': chargeMove })
     if (form) query.$and.push({ form })
     if (typeof shiny === 'boolean') query.$and.push({ shiny })
+    if (typeof uncertain === 'boolean') query.$and.push({ uncertain })
     if (typeof evolves === 'boolean') {
       query.$and.push({
         pokemon: { [evolves ? '$in' : '$nin']: this.evolves }
