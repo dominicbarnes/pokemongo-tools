@@ -31,6 +31,10 @@
               <b-badge variant="primary">{{ catalog.ivp | number('0%') }}</b-badge>
               <abbr title="Individual Values" class="initialism">IVs</abbr>
             </p>
+            <b-alert show v-if="catalog.uncertain" variant="warning">
+              <b>NOTE:</b>
+              These stats are uncertain.
+            </b-alert>
             <b-button v-bind:to="{ name: 'pokedex-view', params: { pokemon: catalog.pokemon } }" target="_blank">Pokédex</b-button>
             <b-button v-if="canEvolve" v-b-modal.modalEvolve variant="info">Evolve</b-button>
           </b-card>
