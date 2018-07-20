@@ -1,4 +1,14 @@
 
+0.8.0 / 2018-07-20
+==================
+
+  * feat(catalog): add alert about uncertain stats to view page
+  * feat(catalog): add 'uncertain stats' flag, keyword search notes
+  * chore(package): update deps
+  * feat(metadata): generate separate moves for each hidden power type
+  * refactor(catalog): item cleanup
+  * fix(catalog): add bottom margin to buttons
+
 0.7.0 / 2018-07-15
 ==================
 
