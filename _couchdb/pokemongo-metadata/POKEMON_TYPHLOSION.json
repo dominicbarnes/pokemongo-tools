@@ -1,6 +1,7 @@
 {
   "name": "Typhlosion",
   "dex": 157,
+  "family": "FAMILY_CYNDAQUIL",
   "generation": 2,
   "types": [
     "fire"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_QUILAVA",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_EMBER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SHADOW_CLAW_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_FIRE_BLAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_OVERHEAT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SOLAR_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_SHADOW_CLAW_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_FIRE_BLAST": false,
+    "MOVE_OVERHEAT": false,
+    "MOVE_SOLAR_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.7,
-  "weight": 79.5,
-  "family": "FAMILY_CYNDAQUIL",
-  "forms": null,
-  "_id": "POKEMON_TYPHLOSION"
+  "weight": 79.5
 }

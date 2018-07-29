@@ -1,6 +1,7 @@
 {
   "name": "Lugia",
   "dex": 249,
+  "family": "FAMILY_LUGIA",
   "generation": 2,
   "types": [
     "psychic",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_EXTRASENSORY_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DRAGON_TAIL_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_SKY_ATTACK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HYDRO_PUMP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FUTURESIGHT",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_EXTRASENSORY_FAST": false,
+    "MOVE_DRAGON_TAIL_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_SKY_ATTACK": false,
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_FUTURESIGHT": false
+  },
   "rarity": "legendary",
   "buddyDistance": 20,
   "height": 5.21,
-  "weight": 216,
-  "family": "FAMILY_LUGIA",
-  "forms": null,
-  "_id": "POKEMON_LUGIA"
+  "weight": 216
 }

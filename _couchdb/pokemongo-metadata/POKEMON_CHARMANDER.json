@@ -1,6 +1,7 @@
 {
   "name": "Charmander",
   "dex": 4,
+  "family": "FAMILY_CHARMANDER",
   "generation": 1,
   "types": [
     "fire"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_CHARMELEON",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_EMBER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SCRATCH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_FLAME_CHARGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FLAME_BURST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FLAMETHROWER",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_SCRATCH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_FLAME_CHARGE": false,
+    "MOVE_FLAME_BURST": false,
+    "MOVE_FLAMETHROWER": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.6,
-  "weight": 8.5,
-  "family": "FAMILY_CHARMANDER",
-  "forms": null,
-  "_id": "POKEMON_CHARMANDER"
+  "weight": 8.5
 }

@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_WING_ATTACK_FAST",
   "name": "Wing Attack",
   "type": "flying",
-  "power": 8
+  "power": 8,
+  "quick": true
 }

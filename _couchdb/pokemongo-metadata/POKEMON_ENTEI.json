@@ -1,6 +1,7 @@
 {
   "name": "Entei",
   "dex": 244,
+  "family": "FAMILY_ENTEI",
   "generation": 2,
   "types": [
     "fire"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_FIRE_SPIN_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FIRE_FANG_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_FLAMETHROWER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FIRE_BLAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_OVERHEAT",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_FIRE_SPIN_FAST": false,
+    "MOVE_FIRE_FANG_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_FIRE_BLAST": false,
+    "MOVE_OVERHEAT": false
+  },
   "rarity": "legendary",
   "buddyDistance": 20,
   "height": 2.11,
-  "weight": 198,
-  "family": "FAMILY_ENTEI",
-  "forms": null,
-  "_id": "POKEMON_ENTEI"
+  "weight": 198
 }

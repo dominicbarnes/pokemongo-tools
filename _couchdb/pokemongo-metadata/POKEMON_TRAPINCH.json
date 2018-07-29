@@ -1,6 +1,7 @@
 {
   "name": "Trapinch",
   "dex": 328,
+  "family": "FAMILY_TRAPINCH",
   "generation": 3,
   "types": [
     "ground"
@@ -14,47 +15,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_VIBRAVA",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_MUD_SHOT_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STRUGGLE_BUG_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_SAND_TOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DIG",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CRUNCH",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_MUD_SHOT_FAST": false,
+    "MOVE_STRUGGLE_BUG_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_SAND_TOMB": false,
+    "MOVE_DIG": false,
+    "MOVE_CRUNCH": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.71,
-  "weight": 15,
-  "family": "FAMILY_TRAPINCH",
-  "forms": null,
-  "_id": "POKEMON_TRAPINCH"
+  "weight": 15
 }

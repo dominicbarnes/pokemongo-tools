@@ -1,6 +1,7 @@
 {
   "name": "Dodrio",
   "dex": 85,
+  "family": "FAMILY_DODUO",
   "generation": 1,
   "types": [
     "normal",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_DODUO",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_FEINT_ATTACK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STEEL_WING_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_DRILL_PECK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BRAVE_BIRD",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_FEINT_ATTACK_FAST": false,
+    "MOVE_STEEL_WING_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_DRILL_PECK": false,
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_BRAVE_BIRD": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.8,
-  "weight": 85.2,
-  "family": "FAMILY_DODUO",
-  "forms": null,
-  "_id": "POKEMON_DODRIO"
+  "weight": 85.2
 }

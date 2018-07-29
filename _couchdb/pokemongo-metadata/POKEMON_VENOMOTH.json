@@ -1,6 +1,7 @@
 {
   "name": "Venomoth",
   "dex": 49,
+  "family": "FAMILY_VENONAT",
   "generation": 1,
   "types": [
     "bug",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_VENONAT",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_INFESTATION_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CONFUSION_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_SILVER_WIND",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BUG_BUZZ",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_INFESTATION_FAST": false,
+    "MOVE_CONFUSION_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_SILVER_WIND": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_BUG_BUZZ": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.5,
-  "weight": 12.5,
-  "family": "FAMILY_VENONAT",
-  "forms": null,
-  "_id": "POKEMON_VENOMOTH"
+  "weight": 12.5
 }

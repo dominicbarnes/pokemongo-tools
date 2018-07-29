@@ -1,6 +1,7 @@
 {
   "name": "Nuzleaf",
   "dex": 274,
+  "family": "FAMILY_SEEDOT",
   "generation": 3,
   "types": [
     "grass",
@@ -15,47 +16,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_SHIFTRY",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_RAZOR_LEAF_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FEINT_ATTACK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_LEAF_BLADE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_GRASS_KNOT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FOUL_PLAY",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_RAZOR_LEAF_FAST": false,
+    "MOVE_FEINT_ATTACK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_LEAF_BLADE": false,
+    "MOVE_GRASS_KNOT": false,
+    "MOVE_FOUL_PLAY": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.99,
-  "weight": 28,
-  "family": "FAMILY_SEEDOT",
-  "forms": null,
-  "_id": "POKEMON_NUZLEAF"
+  "weight": 28
 }

@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_PSYCHO_CUT_FAST",
   "name": "Psycho Cut",
   "type": "psychic",
-  "power": 5
+  "power": 5,
+  "quick": true
 }

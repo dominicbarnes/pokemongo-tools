@@ -1,6 +1,7 @@
 {
   "name": "Swampert",
   "dex": 260,
+  "family": "FAMILY_MUDKIP",
   "generation": 3,
   "types": [
     "water",
@@ -13,43 +14,19 @@
   },
   "previousEvolution": "POKEMON_MARSHTOMP",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_MUD_SHOT_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_WAVE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SURF",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_MUD_SHOT_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_SLUDGE_WAVE": false,
+    "MOVE_SURF": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.5,
-  "weight": 81.9,
-  "family": "FAMILY_MUDKIP",
-  "forms": null,
-  "_id": "POKEMON_SWAMPERT"
+  "weight": 81.9
 }

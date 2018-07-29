@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_SEED_BOMB",
   "name": "Seed Bomb",
   "type": "grass",
-  "power": 55
+  "power": 55,
+  "quick": false
 }

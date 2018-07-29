@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_WATERFALL_FAST",
   "name": "Waterfall",
   "type": "water",
-  "power": 16
+  "power": 16,
+  "quick": true
 }

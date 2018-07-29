@@ -1,6 +1,7 @@
 {
   "name": "Nidorina",
   "dex": 30,
+  "family": "FAMILY_NIDORAN_FEMALE",
   "generation": 1,
   "types": [
     "poison"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_NIDOQUEEN",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_BITE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_POISON_STING_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_POISON_FANG",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DIG",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_BOMB",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_POISON_STING_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_POISON_FANG": false,
+    "MOVE_DIG": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.8,
-  "weight": 20,
-  "family": "FAMILY_NIDORAN_FEMALE",
-  "forms": null,
-  "_id": "POKEMON_NIDORINA"
+  "weight": 20
 }

@@ -1,6 +1,7 @@
 {
   "name": "Furret",
   "dex": 162,
+  "family": "FAMILY_SENTRET",
   "generation": 2,
   "types": [
     "normal"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_SENTRET",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_QUICK_ATTACK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SUCKER_PUNCH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_DIG",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BRICK_BREAK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HYPER_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_QUICK_ATTACK_FAST": false,
+    "MOVE_SUCKER_PUNCH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_DIG": false,
+    "MOVE_BRICK_BREAK": false,
+    "MOVE_HYPER_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 1.8,
-  "weight": 32.5,
-  "family": "FAMILY_SENTRET",
-  "forms": null,
-  "_id": "POKEMON_FURRET"
+  "weight": 32.5
 }

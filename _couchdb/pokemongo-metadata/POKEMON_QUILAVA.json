@@ -1,6 +1,7 @@
 {
   "name": "Quilava",
   "dex": 156,
+  "family": "FAMILY_CYNDAQUIL",
   "generation": 2,
   "types": [
     "fire"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_TYPHLOSION",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_EMBER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_FLAME_CHARGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DIG",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FLAMETHROWER",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_FLAME_CHARGE": false,
+    "MOVE_DIG": false,
+    "MOVE_FLAMETHROWER": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.89,
-  "weight": 19,
-  "family": "FAMILY_CYNDAQUIL",
-  "forms": null,
-  "_id": "POKEMON_QUILAVA"
+  "weight": 19
 }

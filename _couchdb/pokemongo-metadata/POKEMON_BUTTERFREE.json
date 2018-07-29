@@ -1,6 +1,7 @@
 {
   "name": "Butterfree",
   "dex": 12,
+  "family": "FAMILY_CATERPIE",
   "generation": 1,
   "types": [
     "bug",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_METAPOD",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_STRUGGLE_BUG_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CONFUSION_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_BUG_BUZZ",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SIGNAL_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_STRUGGLE_BUG_FAST": false,
+    "MOVE_CONFUSION_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_BUG_BUZZ": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_SIGNAL_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 1.1,
-  "weight": 32,
-  "family": "FAMILY_CATERPIE",
-  "forms": null,
-  "_id": "POKEMON_BUTTERFREE"
+  "weight": 32
 }

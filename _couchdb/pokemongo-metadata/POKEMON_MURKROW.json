@@ -1,6 +1,7 @@
 {
   "name": "Murkrow",
   "dex": 198,
+  "family": "FAMILY_MURKROW",
   "generation": 2,
   "types": [
     "dark",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_PECK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FEINT_ATTACK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_DRILL_PECK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FOUL_PLAY",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DARK_PULSE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_PECK_FAST": false,
+    "MOVE_FEINT_ATTACK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_DRILL_PECK": false,
+    "MOVE_FOUL_PLAY": false,
+    "MOVE_DARK_PULSE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.51,
-  "weight": 2.1,
-  "family": "FAMILY_MURKROW",
-  "forms": null,
-  "_id": "POKEMON_MURKROW"
+  "weight": 2.1
 }

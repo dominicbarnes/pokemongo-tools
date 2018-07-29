@@ -1,6 +1,7 @@
 {
   "name": "Hitmonchan",
   "dex": 107,
+  "family": "FAMILY_TYROGUE",
   "generation": 1,
   "types": [
     "fighting"
@@ -12,39 +13,18 @@
   },
   "previousEvolution": "POKEMON_TYROGUE",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_BULLET_PUNCH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_COUNTER_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_FIRE_PUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ICE_PUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDER_PUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CLOSE_COMBAT",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_BULLET_PUNCH_FAST": false,
+    "MOVE_COUNTER_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_FIRE_PUNCH": false,
+    "MOVE_ICE_PUNCH": false,
+    "MOVE_THUNDER_PUNCH": false,
+    "MOVE_CLOSE_COMBAT": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.4,
-  "weight": 50.2,
-  "family": "FAMILY_TYROGUE",
-  "forms": null,
-  "_id": "POKEMON_HITMONCHAN"
+  "weight": 50.2
 }

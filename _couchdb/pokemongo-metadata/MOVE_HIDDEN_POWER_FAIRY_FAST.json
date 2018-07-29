@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_HIDDEN_POWER_FAIRY_FAST",
   "name": "Hidden Power",
-  "type": "fairy",
-  "power": 15
+  "type": "normal",
+  "power": 15,
+  "quick": true
 }

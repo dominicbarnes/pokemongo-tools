@@ -1,6 +1,7 @@
 {
   "name": "Feebas",
   "dex": 349,
+  "family": "FAMILY_FEEBAS",
   "generation": 3,
   "types": [
     "water"
@@ -14,35 +15,19 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_MILOTIC",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_MIRROR_COAT",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_MIRROR_COAT": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.61,
-  "weight": 7.4,
-  "family": "FAMILY_FEEBAS",
-  "forms": null,
-  "_id": "POKEMON_FEEBAS"
+  "weight": 7.4
 }

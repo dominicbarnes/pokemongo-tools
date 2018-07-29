@@ -1,6 +1,7 @@
 {
   "name": "Tentacool",
   "dex": 72,
+  "family": "FAMILY_TENTACOOL",
   "generation": 1,
   "types": [
     "water",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_TENTACRUEL",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_BUBBLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_POISON_STING_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_BUBBLE_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_PULSE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WRAP",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_BUBBLE_FAST": false,
+    "MOVE_POISON_STING_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_BUBBLE_BEAM": false,
+    "MOVE_WATER_PULSE": false,
+    "MOVE_WRAP": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.9,
-  "weight": 45.5,
-  "family": "FAMILY_TENTACOOL",
-  "forms": null,
-  "_id": "POKEMON_TENTACOOL"
+  "weight": 45.5
 }

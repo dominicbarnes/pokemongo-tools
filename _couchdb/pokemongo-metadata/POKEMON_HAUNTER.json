@@ -1,6 +1,7 @@
 {
   "name": "Haunter",
   "dex": 93,
+  "family": "FAMILY_GASTLY",
   "generation": 1,
   "types": [
     "ghost",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_GENGAR",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SHADOW_CLAW_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ASTONISH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_SHADOW_PUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DARK_PULSE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_BOMB",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SHADOW_CLAW_FAST": false,
+    "MOVE_ASTONISH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_SHADOW_PUNCH": false,
+    "MOVE_DARK_PULSE": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.6,
-  "weight": 0.1,
-  "family": "FAMILY_GASTLY",
-  "forms": null,
-  "_id": "POKEMON_HAUNTER"
+  "weight": 0.1
 }

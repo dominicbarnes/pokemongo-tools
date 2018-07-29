@@ -1,6 +1,7 @@
 {
   "name": "Tyranitar",
   "dex": 248,
+  "family": "FAMILY_LARVITAR",
   "generation": 2,
   "types": [
     "rock",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_PUPITAR",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_BITE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_IRON_TAIL_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_FIRE_BLAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CRUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STONE_EDGE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_IRON_TAIL_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_FIRE_BLAST": false,
+    "MOVE_CRUNCH": false,
+    "MOVE_STONE_EDGE": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 2.01,
-  "weight": 202,
-  "family": "FAMILY_LARVITAR",
-  "forms": null,
-  "_id": "POKEMON_TYRANITAR"
+  "weight": 202
 }

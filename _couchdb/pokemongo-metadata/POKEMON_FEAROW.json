@@ -1,6 +1,7 @@
 {
   "name": "Fearow",
   "dex": 22,
+  "family": "FAMILY_SPEAROW",
   "generation": 1,
   "types": [
     "normal",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_SPEAROW",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_PECK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STEEL_WING_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DRILL_RUN",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SKY_ATTACK",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_PECK_FAST": false,
+    "MOVE_STEEL_WING_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_DRILL_RUN": false,
+    "MOVE_SKY_ATTACK": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 1.2,
-  "weight": 38,
-  "family": "FAMILY_SPEAROW",
-  "forms": null,
-  "_id": "POKEMON_FEAROW"
+  "weight": 38
 }

@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_FURY_CUTTER_FAST",
   "name": "Fury Cutter",
   "type": "bug",
-  "power": 3
+  "power": 3,
+  "quick": true
 }

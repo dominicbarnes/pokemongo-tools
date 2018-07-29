@@ -1,6 +1,7 @@
 {
   "name": "Shellder",
   "dex": 90,
+  "family": "FAMILY_SHELLDER",
   "generation": 1,
   "types": [
     "water"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_CLOYSTER",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_ICE_SHARD_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_BUBBLE_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_PULSE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ICY_WIND",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_ICE_SHARD_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_BUBBLE_BEAM": false,
+    "MOVE_WATER_PULSE": false,
+    "MOVE_ICY_WIND": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.3,
-  "weight": 4,
-  "family": "FAMILY_SHELLDER",
-  "forms": null,
-  "_id": "POKEMON_SHELLDER"
+  "weight": 4
 }

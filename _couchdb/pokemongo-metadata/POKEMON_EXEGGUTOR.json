@@ -1,6 +1,7 @@
 {
   "name": "Exeggutor",
   "dex": 103,
+  "family": "FAMILY_EXEGGCUTE",
   "generation": 1,
   "types": [
     "grass",
@@ -13,39 +14,24 @@
   },
   "previousEvolution": "POKEMON_EXEGGCUTE",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_BULLET_SEED_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EXTRASENSORY_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_SEED_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SOLAR_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_BULLET_SEED_FAST": false,
+    "MOVE_EXTRASENSORY_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_SEED_BOMB": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_SOLAR_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 2,
   "weight": 120,
-  "family": "FAMILY_EXEGGCUTE",
   "forms": {
     "alola": {
       "name": "Exeggutor (Alola)",
       "dex": 103,
+      "family": "FAMILY_EXEGGCUTE",
       "generation": 1,
       "types": [
         "grass",
@@ -58,40 +44,24 @@
       },
       "previousEvolution": "POKEMON_EXEGGCUTE",
       "nextEvolutions": [],
-      "quickMoves": [
-        {
-          "id": "MOVE_BULLET_SEED_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_DRAGON_TAIL_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_SEED_BOMB",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_DRAGON_PULSE",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_SOLAR_BEAM",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_BULLET_SEED_FAST": false,
+        "MOVE_DRAGON_TAIL_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_SEED_BOMB": false,
+        "MOVE_DRAGON_PULSE": false,
+        "MOVE_SOLAR_BEAM": false
+      },
       "rarity": null,
       "buddyDistance": 3,
       "height": 10.9,
-      "weight": 415.6,
-      "family": "FAMILY_EXEGGCUTE",
-      "_id": "POKEMON_EXEGGUTOR"
+      "weight": 415.6
     },
     "normal": {
       "name": "Exeggutor",
       "dex": 103,
+      "family": "FAMILY_EXEGGCUTE",
       "generation": 1,
       "types": [
         "grass",
@@ -104,37 +74,19 @@
       },
       "previousEvolution": "POKEMON_EXEGGCUTE",
       "nextEvolutions": [],
-      "quickMoves": [
-        {
-          "id": "MOVE_BULLET_SEED_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_EXTRASENSORY_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_SEED_BOMB",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_PSYCHIC",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_SOLAR_BEAM",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_BULLET_SEED_FAST": false,
+        "MOVE_EXTRASENSORY_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_SEED_BOMB": false,
+        "MOVE_PSYCHIC": false,
+        "MOVE_SOLAR_BEAM": false
+      },
       "rarity": null,
       "buddyDistance": 3,
       "height": 2,
-      "weight": 120,
-      "family": "FAMILY_EXEGGCUTE",
-      "_id": "POKEMON_EXEGGUTOR"
+      "weight": 120
     }
-  },
-  "_id": "POKEMON_EXEGGUTOR"
+  }
 }

@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_WILD_CHARGE",
   "name": "Wild Charge",
   "type": "electric",
-  "power": 90
+  "power": 90,
+  "quick": false
 }

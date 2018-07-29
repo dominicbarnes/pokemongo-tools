@@ -1,6 +1,7 @@
 {
   "name": "Doduo",
   "dex": 84,
+  "family": "FAMILY_DODUO",
   "generation": 1,
   "types": [
     "normal",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_DODRIO",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_PECK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_QUICK_ATTACK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_DRILL_PECK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BRAVE_BIRD",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_PECK_FAST": false,
+    "MOVE_QUICK_ATTACK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_DRILL_PECK": false,
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_BRAVE_BIRD": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.4,
-  "weight": 39.2,
-  "family": "FAMILY_DODUO",
-  "forms": null,
-  "_id": "POKEMON_DODUO"
+  "weight": 39.2
 }

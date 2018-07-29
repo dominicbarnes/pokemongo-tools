@@ -1,6 +1,7 @@
 {
   "name": "Quagsire",
   "dex": 195,
+  "family": "FAMILY_WOOPER",
   "generation": 2,
   "types": [
     "water",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_WOOPER",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MUD_SHOT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_SLUDGE_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STONE_EDGE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_WATER_GUN_FAST": false,
+    "MOVE_MUD_SHOT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_SLUDGE_BOMB": false,
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_STONE_EDGE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.4,
-  "weight": 75,
-  "family": "FAMILY_WOOPER",
-  "forms": null,
-  "_id": "POKEMON_QUAGSIRE"
+  "weight": 75
 }

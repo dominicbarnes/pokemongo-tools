@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_BULLET_SEED_FAST",
   "name": "Bullet Seed",
   "type": "grass",
-  "power": 8
+  "power": 8,
+  "quick": true
 }

@@ -1,6 +1,7 @@
 {
   "name": "Baltoy",
   "dex": 343,
+  "family": "FAMILY_BALTOY",
   "generation": 3,
   "types": [
     "ground",
@@ -15,47 +16,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_CLAYDOL",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_CONFUSION_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EXTRASENSORY_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_GYRO_BALL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYBEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DIG",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_EXTRASENSORY_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_GYRO_BALL": false,
+    "MOVE_PSYBEAM": false,
+    "MOVE_DIG": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.51,
-  "weight": 21.5,
-  "family": "FAMILY_BALTOY",
-  "forms": null,
-  "_id": "POKEMON_BALTOY"
+  "weight": 21.5
 }

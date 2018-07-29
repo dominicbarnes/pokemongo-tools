@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_SLUDGE_BOMB",
   "name": "Sludge Bomb",
   "type": "poison",
-  "power": 80
+  "power": 80,
+  "quick": false
 }

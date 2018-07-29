@@ -1,6 +1,7 @@
 {
   "name": "Onix",
   "dex": 95,
+  "family": "FAMILY_ONIX",
   "generation": 1,
   "types": [
     "rock",
@@ -16,40 +17,20 @@
     {
       "pokemon": "POKEMON_STEELIX",
       "candy": 50,
-      "item": {
-        "id": "ITEM_METAL_COAT"
-      }
+      "item": "ITEM_METAL_COAT"
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_ROCK_THROW_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_SAND_TOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STONE_EDGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HEAVY_SLAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_ROCK_THROW_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_SAND_TOMB": false,
+    "MOVE_STONE_EDGE": false,
+    "MOVE_HEAVY_SLAM": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 8.8,
-  "weight": 210,
-  "family": "FAMILY_ONIX",
-  "forms": null,
-  "_id": "POKEMON_ONIX"
+  "weight": 210
 }

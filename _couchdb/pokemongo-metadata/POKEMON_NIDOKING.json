@@ -1,6 +1,7 @@
 {
   "name": "Nidoking",
   "dex": 34,
+  "family": "FAMILY_NIDORAN_MALE",
   "generation": 1,
   "types": [
     "poison",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_NIDORINO",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_POISON_JAB_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_IRON_TAIL_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_WAVE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MEGAHORN",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_POISON_JAB_FAST": false,
+    "MOVE_IRON_TAIL_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_SLUDGE_WAVE": false,
+    "MOVE_MEGAHORN": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.4,
-  "weight": 62,
-  "family": "FAMILY_NIDORAN_MALE",
-  "forms": null,
-  "_id": "POKEMON_NIDOKING"
+  "weight": 62
 }

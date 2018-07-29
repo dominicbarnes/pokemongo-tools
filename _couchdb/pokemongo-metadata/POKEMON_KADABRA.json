@@ -1,6 +1,7 @@
 {
   "name": "Kadabra",
   "dex": 64,
+  "family": "FAMILY_ABRA",
   "generation": 1,
   "types": [
     "psychic"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_ALAKAZAM",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_PSYCHO_CUT_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CONFUSION_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_PSYBEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DAZZLING_GLEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SHADOW_BALL",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_PSYCHO_CUT_FAST": false,
+    "MOVE_CONFUSION_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_PSYBEAM": false,
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_SHADOW_BALL": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.3,
-  "weight": 56.5,
-  "family": "FAMILY_ABRA",
-  "forms": null,
-  "_id": "POKEMON_KADABRA"
+  "weight": 56.5
 }

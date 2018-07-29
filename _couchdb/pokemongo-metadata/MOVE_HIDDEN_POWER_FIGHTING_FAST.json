@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_HIDDEN_POWER_FIGHTING_FAST",
   "name": "Hidden Power",
-  "type": "fighting",
-  "power": 15
+  "type": "normal",
+  "power": 15,
+  "quick": true
 }

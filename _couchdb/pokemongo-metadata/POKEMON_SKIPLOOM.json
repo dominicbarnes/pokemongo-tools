@@ -1,6 +1,7 @@
 {
   "name": "Skiploom",
   "dex": 188,
+  "family": "FAMILY_HOPPIP",
   "generation": 2,
   "types": [
     "grass",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_JUMPLUFF",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BULLET_SEED_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_GRASS_KNOT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DAZZLING_GLEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ENERGY_BALL",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_TACKLE_FAST": false,
+    "MOVE_BULLET_SEED_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_GRASS_KNOT": false,
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_ENERGY_BALL": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.61,
-  "weight": 1,
-  "family": "FAMILY_HOPPIP",
-  "forms": null,
-  "_id": "POKEMON_SKIPLOOM"
+  "weight": 1
 }

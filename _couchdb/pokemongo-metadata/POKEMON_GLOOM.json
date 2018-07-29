@@ -1,6 +1,7 @@
 {
   "name": "Gloom",
   "dex": 44,
+  "family": "FAMILY_ODDISH",
   "generation": 1,
   "types": [
     "grass",
@@ -15,46 +16,25 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_VILEPLUME",
-      "candy": 100,
-      "item": null
+      "candy": 100
     },
     {
       "pokemon": "POKEMON_BELLOSSOM",
       "candy": 100,
-      "item": {
-        "id": "ITEM_SUN_STONE"
-      }
+      "item": "ITEM_SUN_STONE"
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_RAZOR_LEAF_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ACID_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_PETAL_BLIZZARD",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MOONBLAST",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_RAZOR_LEAF_FAST": false,
+    "MOVE_ACID_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_PETAL_BLIZZARD": false,
+    "MOVE_SLUDGE_BOMB": false,
+    "MOVE_MOONBLAST": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.8,
-  "weight": 8.6,
-  "family": "FAMILY_ODDISH",
-  "forms": null,
-  "_id": "POKEMON_GLOOM"
+  "weight": 8.6
 }

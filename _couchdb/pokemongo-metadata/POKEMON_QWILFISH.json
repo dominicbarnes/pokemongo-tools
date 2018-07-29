@@ -1,6 +1,7 @@
 {
   "name": "Qwilfish",
   "dex": 211,
+  "family": "FAMILY_QWILFISH",
   "generation": 2,
   "types": [
     "water",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_POISON_STING_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_AQUA_TAIL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ICE_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_WAVE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_POISON_STING_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_AQUA_TAIL": false,
+    "MOVE_ICE_BEAM": false,
+    "MOVE_SLUDGE_WAVE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.51,
-  "weight": 3.9,
-  "family": "FAMILY_QWILFISH",
-  "forms": null,
-  "_id": "POKEMON_QWILFISH"
+  "weight": 3.9
 }

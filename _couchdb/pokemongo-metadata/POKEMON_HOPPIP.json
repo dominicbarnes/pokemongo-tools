@@ -1,6 +1,7 @@
 {
   "name": "Hoppip",
   "dex": 187,
+  "family": "FAMILY_HOPPIP",
   "generation": 2,
   "types": [
     "grass",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_SKIPLOOM",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BULLET_SEED_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_GRASS_KNOT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DAZZLING_GLEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SEED_BOMB",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_TACKLE_FAST": false,
+    "MOVE_BULLET_SEED_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_GRASS_KNOT": false,
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_SEED_BOMB": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.41,
-  "weight": 0.5,
-  "family": "FAMILY_HOPPIP",
-  "forms": null,
-  "_id": "POKEMON_HOPPIP"
+  "weight": 0.5
 }

@@ -1,6 +1,7 @@
 {
   "name": "Igglybuff",
   "dex": 174,
+  "family": "FAMILY_JIGGLYPUFF",
   "generation": 2,
   "types": [
     "normal",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_JIGGLYPUFF",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_POUND_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FEINT_ATTACK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_WILD_CHARGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SHADOW_BALL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_POUND_FAST": false,
+    "MOVE_FEINT_ATTACK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_WILD_CHARGE": false,
+    "MOVE_SHADOW_BALL": false,
+    "MOVE_PSYCHIC": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.3,
-  "weight": 1,
-  "family": "FAMILY_JIGGLYPUFF",
-  "forms": null,
-  "_id": "POKEMON_IGGLYBUFF"
+  "weight": 1
 }

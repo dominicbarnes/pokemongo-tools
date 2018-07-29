@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_BUG_BUZZ",
   "name": "Bug Buzz",
   "type": "bug",
-  "power": 90
+  "power": 90,
+  "quick": false
 }

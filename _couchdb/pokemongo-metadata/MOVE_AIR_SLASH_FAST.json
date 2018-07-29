@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_AIR_SLASH_FAST",
   "name": "Air Slash",
   "type": "flying",
-  "power": 14
+  "power": 14,
+  "quick": true
 }

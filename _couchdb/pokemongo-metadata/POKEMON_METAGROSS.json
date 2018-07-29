@@ -1,6 +1,7 @@
 {
   "name": "Metagross",
   "dex": 376,
+  "family": "FAMILY_BELDUM",
   "generation": 3,
   "types": [
     "steel",
@@ -13,43 +14,19 @@
   },
   "previousEvolution": "POKEMON_METANG",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_BULLET_PUNCH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ZEN_HEADBUTT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FLASH_CANNON",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_BULLET_PUNCH_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_PSYCHIC": false,
+    "MOVE_FLASH_CANNON": false,
+    "MOVE_EARTHQUAKE": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.6,
-  "weight": 550,
-  "family": "FAMILY_BELDUM",
-  "forms": null,
-  "_id": "POKEMON_METAGROSS"
+  "weight": 550
 }

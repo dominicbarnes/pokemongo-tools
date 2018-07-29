@@ -1,6 +1,7 @@
 {
   "name": "Cleffa",
   "dex": 173,
+  "family": "FAMILY_CLEFAIRY",
   "generation": 2,
   "types": [
     "fairy"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_CLEFAIRY",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_POUND_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ZEN_HEADBUTT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_GRASS_KNOT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYSHOCK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SIGNAL_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_POUND_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_GRASS_KNOT": false,
+    "MOVE_PSYSHOCK": false,
+    "MOVE_SIGNAL_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.3,
-  "weight": 3,
-  "family": "FAMILY_CLEFAIRY",
-  "forms": null,
-  "_id": "POKEMON_CLEFFA"
+  "weight": 3
 }

@@ -1,6 +1,7 @@
 {
   "name": "Moltres",
   "dex": 146,
+  "family": "FAMILY_MOLTRES",
   "generation": 1,
   "types": [
     "fire",
@@ -13,31 +14,16 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_FIRE_SPIN_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_FIRE_BLAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HEAT_WAVE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_OVERHEAT",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_FIRE_SPIN_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_FIRE_BLAST": false,
+    "MOVE_HEAT_WAVE": false,
+    "MOVE_OVERHEAT": false
+  },
   "rarity": "legendary",
   "buddyDistance": 20,
   "height": 2,
-  "weight": 60,
-  "family": "FAMILY_MOLTRES",
-  "forms": null,
-  "_id": "POKEMON_MOLTRES"
+  "weight": 60
 }

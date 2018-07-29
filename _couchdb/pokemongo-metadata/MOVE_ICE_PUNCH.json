@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_ICE_PUNCH",
   "name": "Ice Punch",
   "type": "ice",
-  "power": 50
+  "power": 50,
+  "quick": false
 }

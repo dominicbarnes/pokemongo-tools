@@ -1,6 +1,7 @@
 {
   "name": "Corsola",
   "dex": 222,
+  "family": "FAMILY_CORSOLA",
   "generation": 2,
   "types": [
     "water",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BUBBLE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_ROCK_BLAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_POWER_GEM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BUBBLE_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_TACKLE_FAST": false,
+    "MOVE_BUBBLE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_ROCK_BLAST": false,
+    "MOVE_POWER_GEM": false,
+    "MOVE_BUBBLE_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.61,
-  "weight": 5,
-  "family": "FAMILY_CORSOLA",
-  "forms": null,
-  "_id": "POKEMON_CORSOLA"
+  "weight": 5
 }

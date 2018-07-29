@@ -1,6 +1,7 @@
 {
   "name": "Beautifly",
   "dex": 267,
+  "family": "FAMILY_WURMPLE",
   "generation": 3,
   "types": [
     "bug",
@@ -13,43 +14,19 @@
   },
   "previousEvolution": "POKEMON_SILCOON",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_STRUGGLE_BUG_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_INFESTATION_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_SILVER_WIND",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AIR_CUTTER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BUG_BUZZ",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_STRUGGLE_BUG_FAST": false,
+    "MOVE_INFESTATION_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_SILVER_WIND": false,
+    "MOVE_AIR_CUTTER": false,
+    "MOVE_BUG_BUZZ": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.99,
-  "weight": 28.4,
-  "family": "FAMILY_WURMPLE",
-  "forms": null,
-  "_id": "POKEMON_BEAUTIFLY"
+  "weight": 28.4
 }

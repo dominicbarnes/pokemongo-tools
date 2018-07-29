@@ -1,6 +1,7 @@
 {
   "name": "Camerupt",
   "dex": 323,
+  "family": "FAMILY_NUMEL",
   "generation": 3,
   "types": [
     "fire",
@@ -13,43 +14,19 @@
   },
   "previousEvolution": "POKEMON_NUMEL",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_EMBER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SMASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_OVERHEAT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SOLAR_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_EMBER_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_OVERHEAT": false,
+    "MOVE_SOLAR_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.91,
-  "weight": 220,
-  "family": "FAMILY_NUMEL",
-  "forms": null,
-  "_id": "POKEMON_CAMERUPT"
+  "weight": 220
 }

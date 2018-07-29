@@ -1,6 +1,7 @@
 {
   "name": "Ledian",
   "dex": 166,
+  "family": "FAMILY_LEDYBA",
   "generation": 2,
   "types": [
     "bug",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_LEDYBA",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_STRUGGLE_BUG_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BUG_BITE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_BUG_BUZZ",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SILVER_WIND",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_STRUGGLE_BUG_FAST": false,
+    "MOVE_BUG_BITE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_BUG_BUZZ": false,
+    "MOVE_SILVER_WIND": false,
+    "MOVE_AERIAL_ACE": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 1.4,
-  "weight": 35.6,
-  "family": "FAMILY_LEDYBA",
-  "forms": null,
-  "_id": "POKEMON_LEDIAN"
+  "weight": 35.6
 }

@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_SIGNAL_BEAM",
   "name": "Signal Beam",
   "type": "bug",
-  "power": 75
+  "power": 75,
+  "quick": false
 }

@@ -1,6 +1,7 @@
 {
   "name": "Slugma",
   "dex": 218,
+  "family": "FAMILY_SLUGMA",
   "generation": 2,
   "types": [
     "fire"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_MAGCARGO",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_EMBER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_THROW_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_FLAME_BURST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FLAME_CHARGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SLIDE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_ROCK_THROW_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_FLAME_BURST": false,
+    "MOVE_FLAME_CHARGE": false,
+    "MOVE_ROCK_SLIDE": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.71,
-  "weight": 35,
-  "family": "FAMILY_SLUGMA",
-  "forms": null,
-  "_id": "POKEMON_SLUGMA"
+  "weight": 35
 }

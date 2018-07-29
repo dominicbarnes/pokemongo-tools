@@ -1,6 +1,7 @@
 {
   "name": "Girafarig",
   "dex": 203,
+  "family": "FAMILY_GIRAFARIG",
   "generation": 2,
   "types": [
     "normal",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CONFUSION_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDERBOLT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MIRROR_COAT",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_TACKLE_FAST": false,
+    "MOVE_CONFUSION_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_PSYCHIC": false,
+    "MOVE_THUNDERBOLT": false,
+    "MOVE_MIRROR_COAT": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.5,
-  "weight": 41.5,
-  "family": "FAMILY_GIRAFARIG",
-  "forms": null,
-  "_id": "POKEMON_GIRAFARIG"
+  "weight": 41.5
 }

@@ -1,6 +1,7 @@
 {
   "name": "Victreebel",
   "dex": 71,
+  "family": "FAMILY_BELLSPROUT",
   "generation": 1,
   "types": [
     "grass",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_WEEPINBELL",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_RAZOR_LEAF_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ACID_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_LEAF_BLADE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SOLAR_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_RAZOR_LEAF_FAST": false,
+    "MOVE_ACID_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_LEAF_BLADE": false,
+    "MOVE_SLUDGE_BOMB": false,
+    "MOVE_SOLAR_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.7,
-  "weight": 15.5,
-  "family": "FAMILY_BELLSPROUT",
-  "forms": null,
-  "_id": "POKEMON_VICTREEBEL"
+  "weight": 15.5
 }

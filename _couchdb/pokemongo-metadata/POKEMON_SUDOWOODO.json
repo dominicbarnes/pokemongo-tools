@@ -1,6 +1,7 @@
 {
   "name": "Sudowoodo",
   "dex": 185,
+  "family": "FAMILY_SUDOWOODO",
   "generation": 2,
   "types": [
     "rock"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_ROCK_THROW_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_COUNTER_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STONE_EDGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SLIDE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_ROCK_THROW_FAST": false,
+    "MOVE_COUNTER_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STONE_EDGE": false,
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_ROCK_SLIDE": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.19,
-  "weight": 38,
-  "family": "FAMILY_SUDOWOODO",
-  "forms": null,
-  "_id": "POKEMON_SUDOWOODO"
+  "weight": 38
 }

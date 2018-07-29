@@ -1,6 +1,7 @@
 {
   "name": "Paras",
   "dex": 46,
+  "family": "FAMILY_PARAS",
   "generation": 1,
   "types": [
     "bug",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_PARASECT",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SCRATCH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BUG_BITE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_CROSS_POISON",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_X_SCISSOR",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SEED_BOMB",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SCRATCH_FAST": false,
+    "MOVE_BUG_BITE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_CROSS_POISON": false,
+    "MOVE_X_SCISSOR": false,
+    "MOVE_SEED_BOMB": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.3,
-  "weight": 5.4,
-  "family": "FAMILY_PARAS",
-  "forms": null,
-  "_id": "POKEMON_PARAS"
+  "weight": 5.4
 }

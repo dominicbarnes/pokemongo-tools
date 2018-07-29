@@ -1,6 +1,7 @@
 {
   "name": "Tauros",
   "dex": 128,
+  "family": "FAMILY_TAUROS",
   "generation": 1,
   "types": [
     "normal"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ZEN_HEADBUTT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_HORN_ATTACK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_IRON_HEAD",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_TACKLE_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_HORN_ATTACK": false,
+    "MOVE_IRON_HEAD": false,
+    "MOVE_EARTHQUAKE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.4,
-  "weight": 88.4,
-  "family": "FAMILY_TAUROS",
-  "forms": null,
-  "_id": "POKEMON_TAUROS"
+  "weight": 88.4
 }

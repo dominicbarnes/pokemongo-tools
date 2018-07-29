@@ -2,5 +2,5 @@
   "name": "Hidden Power",
   "type": "normal",
   "power": 15,
-  "_id": "MOVE_HIDDEN_POWER_FAST"
+  "quick": true
 }

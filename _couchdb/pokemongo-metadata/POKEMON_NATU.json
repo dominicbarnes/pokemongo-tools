@@ -1,6 +1,7 @@
 {
   "name": "Natu",
   "dex": 177,
+  "family": "FAMILY_NATU",
   "generation": 2,
   "types": [
     "psychic",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_XATU",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_PECK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_QUICK_ATTACK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_NIGHT_SHADE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYSHOCK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DRILL_PECK",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_PECK_FAST": false,
+    "MOVE_QUICK_ATTACK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_NIGHT_SHADE": false,
+    "MOVE_PSYSHOCK": false,
+    "MOVE_DRILL_PECK": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.2,
-  "weight": 2,
-  "family": "FAMILY_NATU",
-  "forms": null,
-  "_id": "POKEMON_NATU"
+  "weight": 2
 }

@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_BRICK_BREAK",
   "name": "Brick Break",
   "type": "fighting",
-  "power": 40
+  "power": 40,
+  "quick": false
 }

@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_BONE_CLUB",
   "name": "Bone Club",
   "type": "ground",
-  "power": 40
+  "power": 40,
+  "quick": false
 }

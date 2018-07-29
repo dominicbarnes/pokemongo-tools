@@ -1,6 +1,7 @@
 {
   "name": "Togetic",
   "dex": 176,
+  "family": "FAMILY_TOGEPI",
   "generation": 2,
   "types": [
     "fairy",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_TOGEPI",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_EXTRASENSORY_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HIDDEN_POWER_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_ANCIENT_POWER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DAZZLING_GLEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_EXTRASENSORY_FAST": false,
+    "MOVE_HIDDEN_POWER_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_ANCIENT_POWER": false,
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_AERIAL_ACE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.61,
-  "weight": 3.2,
-  "family": "FAMILY_TOGEPI",
-  "forms": null,
-  "_id": "POKEMON_TOGETIC"
+  "weight": 3.2
 }

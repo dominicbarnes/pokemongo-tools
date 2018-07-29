@@ -1,6 +1,7 @@
 {
   "name": "Slakoth",
   "dex": 287,
+  "family": "FAMILY_SLAKOTH",
   "generation": 3,
   "types": [
     "normal"
@@ -14,43 +15,21 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_VIGOROTH",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_YAWN_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_BODY_SLAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_NIGHT_SLASH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BRICK_BREAK",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_YAWN_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_BODY_SLAM": false,
+    "MOVE_NIGHT_SLASH": false,
+    "MOVE_BRICK_BREAK": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.79,
-  "weight": 24,
-  "family": "FAMILY_SLAKOTH",
-  "forms": null,
-  "_id": "POKEMON_SLAKOTH"
+  "weight": 24
 }

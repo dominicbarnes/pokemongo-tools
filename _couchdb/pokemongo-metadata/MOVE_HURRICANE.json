@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_HURRICANE",
   "name": "Hurricane",
   "type": "flying",
-  "power": 110
+  "power": 110,
+  "quick": false
 }

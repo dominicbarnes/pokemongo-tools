@@ -1,6 +1,7 @@
 {
   "name": "Jynx",
   "dex": 124,
+  "family": "FAMILY_JYNX",
   "generation": 1,
   "types": [
     "ice",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_SMOOCHUM",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_FROST_BREATH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CONFUSION_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_DRAINING_KISS",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AVALANCHE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYSHOCK",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_FROST_BREATH_FAST": false,
+    "MOVE_CONFUSION_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_DRAINING_KISS": false,
+    "MOVE_AVALANCHE": false,
+    "MOVE_PSYSHOCK": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.4,
-  "weight": 40.6,
-  "family": "FAMILY_JYNX",
-  "forms": null,
-  "_id": "POKEMON_JYNX"
+  "weight": 40.6
 }

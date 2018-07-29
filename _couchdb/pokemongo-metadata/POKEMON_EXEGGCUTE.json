@@ -1,6 +1,7 @@
 {
   "name": "Exeggcute",
   "dex": 102,
+  "family": "FAMILY_EXEGGCUTE",
   "generation": 1,
   "types": [
     "grass",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_EXEGGUTOR",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_CONFUSION_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BULLET_SEED_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_SEED_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ANCIENT_POWER",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_BULLET_SEED_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_SEED_BOMB": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_ANCIENT_POWER": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.4,
-  "weight": 2.5,
-  "family": "FAMILY_EXEGGCUTE",
-  "forms": null,
-  "_id": "POKEMON_EXEGGCUTE"
+  "weight": 2.5
 }

@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_DARK_PULSE",
   "name": "Dark Pulse",
   "type": "dark",
-  "power": 80
+  "power": 80,
+  "quick": false
 }

@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_ROCK_THROW_FAST",
   "name": "Rock Throw",
   "type": "rock",
-  "power": 12
+  "power": 12,
+  "quick": true
 }

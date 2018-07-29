@@ -1,6 +1,7 @@
 {
   "name": "Loudred",
   "dex": 294,
+  "family": "FAMILY_WHISMUR",
   "generation": 3,
   "types": [
     "normal"
@@ -14,51 +15,23 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_EXPLOUD",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_BITE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SMASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_CRUNCH",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_DISARMING_VOICE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FLAMETHROWER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STOMP",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_BITE_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_CRUNCH": true,
+    "MOVE_DISARMING_VOICE": false,
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_STOMP": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.99,
-  "weight": 40.5,
-  "family": "FAMILY_WHISMUR",
-  "forms": null,
-  "_id": "POKEMON_LOUDRED"
+  "weight": 40.5
 }

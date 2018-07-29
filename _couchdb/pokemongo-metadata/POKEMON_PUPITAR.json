@@ -1,6 +1,7 @@
 {
   "name": "Pupitar",
   "dex": 247,
+  "family": "FAMILY_LARVITAR",
   "generation": 2,
   "types": [
     "rock",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_TYRANITAR",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_BITE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SMASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_DIG",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CRUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ANCIENT_POWER",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_DIG": false,
+    "MOVE_CRUNCH": false,
+    "MOVE_ANCIENT_POWER": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.19,
-  "weight": 152,
-  "family": "FAMILY_LARVITAR",
-  "forms": null,
-  "_id": "POKEMON_PUPITAR"
+  "weight": 152
 }

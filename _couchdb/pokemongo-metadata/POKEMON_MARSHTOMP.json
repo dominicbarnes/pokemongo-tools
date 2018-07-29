@@ -1,6 +1,7 @@
 {
   "name": "Marshtomp",
   "dex": 259,
+  "family": "FAMILY_MUDKIP",
   "generation": 3,
   "types": [
     "water",
@@ -15,47 +16,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_SWAMPERT",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_MUD_SHOT_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_MUD_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SURF",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_MUD_SHOT_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_MUD_BOMB": false,
+    "MOVE_SLUDGE": false,
+    "MOVE_SURF": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.71,
-  "weight": 28,
-  "family": "FAMILY_MUDKIP",
-  "forms": null,
-  "_id": "POKEMON_MARSHTOMP"
+  "weight": 28
 }

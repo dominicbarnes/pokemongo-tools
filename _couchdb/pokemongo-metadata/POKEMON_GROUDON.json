@@ -1,6 +1,7 @@
 {
   "name": "Groudon",
   "dex": 383,
+  "family": "FAMILY_GROUDON",
   "generation": 3,
   "types": [
     "ground"
@@ -12,43 +13,19 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_MUD_SHOT_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DRAGON_TAIL_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FIRE_BLAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SOLAR_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_MUD_SHOT_FAST": false,
+    "MOVE_DRAGON_TAIL_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_FIRE_BLAST": false,
+    "MOVE_SOLAR_BEAM": false
+  },
   "rarity": "legendary",
   "buddyDistance": 20,
   "height": 3.51,
-  "weight": 950,
-  "family": "FAMILY_GROUDON",
-  "forms": null,
-  "_id": "POKEMON_GROUDON"
+  "weight": 950
 }

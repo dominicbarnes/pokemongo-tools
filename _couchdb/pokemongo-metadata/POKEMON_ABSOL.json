@@ -1,6 +1,7 @@
 {
   "name": "Absol",
   "dex": 359,
+  "family": "FAMILY_ABSOL",
   "generation": 3,
   "types": [
     "dark"
@@ -12,43 +13,19 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_PSYCHO_CUT_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SNARL_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_DARK_PULSE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MEGAHORN",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_PSYCHO_CUT_FAST": false,
+    "MOVE_SNARL_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_DARK_PULSE": false,
+    "MOVE_THUNDER": false,
+    "MOVE_MEGAHORN": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.19,
-  "weight": 47,
-  "family": "FAMILY_ABSOL",
-  "forms": null,
-  "_id": "POKEMON_ABSOL"
+  "weight": 47
 }

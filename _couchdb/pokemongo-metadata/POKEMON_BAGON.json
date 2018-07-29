@@ -1,6 +1,7 @@
 {
   "name": "Bagon",
   "dex": 371,
+  "family": "FAMILY_BAGON",
   "generation": 3,
   "types": [
     "dragon"
@@ -14,47 +15,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_SHELGON",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_BITE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EMBER_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_FLAMETHROWER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_TWISTER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CRUNCH",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_BITE_FAST": false,
+    "MOVE_EMBER_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_TWISTER": false,
+    "MOVE_CRUNCH": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.61,
-  "weight": 42.1,
-  "family": "FAMILY_BAGON",
-  "forms": null,
-  "_id": "POKEMON_BAGON"
+  "weight": 42.1
 }

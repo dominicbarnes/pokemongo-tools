@@ -1,6 +1,7 @@
 {
   "name": "Hoothoot",
   "dex": 163,
+  "family": "FAMILY_HOOTHOOT",
   "generation": 2,
   "types": [
     "normal",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_NOCTOWL",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_FEINT_ATTACK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PECK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SKY_ATTACK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_NIGHT_SHADE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_FEINT_ATTACK_FAST": false,
+    "MOVE_PECK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_SKY_ATTACK": false,
+    "MOVE_NIGHT_SHADE": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.71,
-  "weight": 21.2,
-  "family": "FAMILY_HOOTHOOT",
-  "forms": null,
-  "_id": "POKEMON_HOOTHOOT"
+  "weight": 21.2
 }

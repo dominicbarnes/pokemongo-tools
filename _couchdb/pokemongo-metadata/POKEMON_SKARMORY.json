@@ -1,6 +1,7 @@
 {
   "name": "Skarmory",
   "dex": 227,
+  "family": "FAMILY_SKARMORY",
   "generation": 2,
   "types": [
     "steel",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_STEEL_WING_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AIR_SLASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_BRAVE_BIRD",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SKY_ATTACK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FLASH_CANNON",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_STEEL_WING_FAST": false,
+    "MOVE_AIR_SLASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_BRAVE_BIRD": false,
+    "MOVE_SKY_ATTACK": false,
+    "MOVE_FLASH_CANNON": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.7,
-  "weight": 50.5,
-  "family": "FAMILY_SKARMORY",
-  "forms": null,
-  "_id": "POKEMON_SKARMORY"
+  "weight": 50.5
 }

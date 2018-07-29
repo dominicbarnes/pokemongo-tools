@@ -1,6 +1,7 @@
 {
   "name": "Feraligatr",
   "dex": 160,
+  "family": "FAMILY_TOTODILE",
   "generation": 2,
   "types": [
     "water"
@@ -12,39 +13,18 @@
   },
   "previousEvolution": "POKEMON_CROCONAW",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_BITE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATERFALL_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_CRUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HYDRO_PUMP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ICE_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_WATER_GUN_FAST": true,
+    "MOVE_BITE_FAST": false,
+    "MOVE_WATERFALL_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_CRUNCH": false,
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_ICE_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 2.31,
-  "weight": 88.8,
-  "family": "FAMILY_TOTODILE",
-  "forms": null,
-  "_id": "POKEMON_FERALIGATR"
+  "weight": 88.8
 }

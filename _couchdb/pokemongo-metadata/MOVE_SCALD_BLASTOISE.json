@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_SCALD_BLASTOISE",
   "name": "Scald Blastoise",
   "type": "water",
-  "power": 50
+  "power": 50,
+  "quick": false
 }

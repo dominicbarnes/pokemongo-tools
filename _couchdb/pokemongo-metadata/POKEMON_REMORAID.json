@@ -1,6 +1,7 @@
 {
   "name": "Remoraid",
   "dex": 223,
+  "family": "FAMILY_REMORAID",
   "generation": 2,
   "types": [
     "water"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_OCTILLERY",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MUD_SHOT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_AURORA_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_PULSE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_BLAST",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_WATER_GUN_FAST": false,
+    "MOVE_MUD_SHOT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_AURORA_BEAM": false,
+    "MOVE_WATER_PULSE": false,
+    "MOVE_ROCK_BLAST": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.61,
-  "weight": 12,
-  "family": "FAMILY_REMORAID",
-  "forms": null,
-  "_id": "POKEMON_REMORAID"
+  "weight": 12
 }

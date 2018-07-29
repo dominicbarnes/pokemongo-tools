@@ -1,6 +1,7 @@
 {
   "name": "Nincada",
   "dex": 290,
+  "family": "FAMILY_NINCADA",
   "generation": 3,
   "types": [
     "bug",
@@ -15,52 +16,26 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_NINJASK",
-      "candy": 50,
-      "item": null
+      "candy": 50
     },
     {
       "pokemon": "POKEMON_SHEDINJA",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_SCRATCH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BUG_BITE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_NIGHT_SLASH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BUG_BUZZ",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_SCRATCH_FAST": false,
+    "MOVE_BUG_BITE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_NIGHT_SLASH": false,
+    "MOVE_BUG_BUZZ": false,
+    "MOVE_AERIAL_ACE": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.51,
-  "weight": 5.5,
-  "family": "FAMILY_NINCADA",
-  "forms": null,
-  "_id": "POKEMON_NINCADA"
+  "weight": 5.5
 }

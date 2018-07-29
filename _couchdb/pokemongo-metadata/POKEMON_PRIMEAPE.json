@@ -1,6 +1,7 @@
 {
   "name": "Primeape",
   "dex": 57,
+  "family": "FAMILY_MANKEY",
   "generation": 1,
   "types": [
     "fighting"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_MANKEY",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_LOW_KICK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_COUNTER_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_CLOSE_COMBAT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_LOW_SWEEP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_NIGHT_SLASH",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_LOW_KICK_FAST": false,
+    "MOVE_COUNTER_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_CLOSE_COMBAT": false,
+    "MOVE_LOW_SWEEP": false,
+    "MOVE_NIGHT_SLASH": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1,
-  "weight": 32,
-  "family": "FAMILY_MANKEY",
-  "forms": null,
-  "_id": "POKEMON_PRIMEAPE"
+  "weight": 32
 }

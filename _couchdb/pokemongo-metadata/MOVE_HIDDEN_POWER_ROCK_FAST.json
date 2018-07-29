@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_HIDDEN_POWER_ROCK_FAST",
   "name": "Hidden Power",
-  "type": "rock",
-  "power": 15
+  "type": "normal",
+  "power": 15,
+  "quick": true
 }

@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_ORIGIN_PULSE",
   "name": "Origin Pulse",
   "type": "water",
-  "power": 130
+  "power": 130,
+  "quick": false
 }

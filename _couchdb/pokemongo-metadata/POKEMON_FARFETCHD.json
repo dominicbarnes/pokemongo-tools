@@ -1,6 +1,7 @@
 {
   "name": "Farfetchd",
   "dex": 83,
+  "family": "FAMILY_FARFETCHD",
   "generation": 1,
   "types": [
     "normal",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_AIR_SLASH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FURY_CUTTER_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AIR_CUTTER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_LEAF_BLADE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_AIR_SLASH_FAST": false,
+    "MOVE_FURY_CUTTER_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_AIR_CUTTER": false,
+    "MOVE_LEAF_BLADE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.8,
-  "weight": 15,
-  "family": "FAMILY_FARFETCHD",
-  "forms": null,
-  "_id": "POKEMON_FARFETCHD"
+  "weight": 15
 }

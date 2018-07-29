@@ -1,6 +1,7 @@
 {
   "name": "Zapdos",
   "dex": 145,
+  "family": "FAMILY_ZAPDOS",
   "generation": 1,
   "types": [
     "electric",
@@ -13,31 +14,16 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_CHARGE_BEAM_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_ZAP_CANNON",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDERBOLT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDER",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_CHARGE_BEAM_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_ZAP_CANNON": false,
+    "MOVE_THUNDERBOLT": false,
+    "MOVE_THUNDER": false
+  },
   "rarity": "legendary",
   "buddyDistance": 20,
   "height": 1.6,
-  "weight": 52.6,
-  "family": "FAMILY_ZAPDOS",
-  "forms": null,
-  "_id": "POKEMON_ZAPDOS"
+  "weight": 52.6
 }

@@ -1,6 +1,7 @@
 {
   "name": "Grumpig",
   "dex": 326,
+  "family": "FAMILY_SPOINK",
   "generation": 3,
   "types": [
     "psychic"
@@ -12,43 +13,19 @@
   },
   "previousEvolution": "POKEMON_SPOINK",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_CHARGE_BEAM_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EXTRASENSORY_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SHADOW_BALL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MIRROR_COAT",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_CHARGE_BEAM_FAST": false,
+    "MOVE_EXTRASENSORY_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_PSYCHIC": false,
+    "MOVE_SHADOW_BALL": false,
+    "MOVE_MIRROR_COAT": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.89,
-  "weight": 71.5,
-  "family": "FAMILY_SPOINK",
-  "forms": null,
-  "_id": "POKEMON_GRUMPIG"
+  "weight": 71.5
 }

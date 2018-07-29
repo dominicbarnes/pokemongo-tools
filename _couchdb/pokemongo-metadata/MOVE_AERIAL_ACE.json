@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_AERIAL_ACE",
   "name": "Aerial Ace",
   "type": "flying",
-  "power": 55
+  "power": 55,
+  "quick": false
 }

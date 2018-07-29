@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_ACID_FAST",
   "name": "Acid",
   "type": "poison",
-  "power": 9
+  "power": 9,
+  "quick": true
 }

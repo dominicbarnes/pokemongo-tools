@@ -1,6 +1,7 @@
 {
   "name": "Metang",
   "dex": 375,
+  "family": "FAMILY_BELDUM",
   "generation": 3,
   "types": [
     "steel",
@@ -15,47 +16,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_METAGROSS",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_ZEN_HEADBUTT_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_METAL_CLAW_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_GYRO_BALL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYSHOCK",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_ZEN_HEADBUTT_FAST": false,
+    "MOVE_METAL_CLAW_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_PSYCHIC": false,
+    "MOVE_GYRO_BALL": false,
+    "MOVE_PSYSHOCK": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.19,
-  "weight": 202.5,
-  "family": "FAMILY_BELDUM",
-  "forms": null,
-  "_id": "POKEMON_METANG"
+  "weight": 202.5
 }

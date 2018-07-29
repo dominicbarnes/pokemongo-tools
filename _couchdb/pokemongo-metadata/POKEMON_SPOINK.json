@@ -1,6 +1,7 @@
 {
   "name": "Spoink",
   "dex": 325,
+  "family": "FAMILY_SPOINK",
   "generation": 3,
   "types": [
     "psychic"
@@ -14,43 +15,21 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_GRUMPIG",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ZEN_HEADBUTT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_PSYBEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SHADOW_BALL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MIRROR_COAT",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_PSYBEAM": false,
+    "MOVE_SHADOW_BALL": false,
+    "MOVE_MIRROR_COAT": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.71,
-  "weight": 30.6,
-  "family": "FAMILY_SPOINK",
-  "forms": null,
-  "_id": "POKEMON_SPOINK"
+  "weight": 30.6
 }

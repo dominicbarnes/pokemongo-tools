@@ -1,6 +1,7 @@
 {
   "name": "Latias",
   "dex": 380,
+  "family": "FAMILY_LATIAS",
   "generation": 3,
   "types": [
     "dragon",
@@ -13,47 +14,20 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_DRAGON_BREATH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ZEN_HEADBUTT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DRAGON_CLAW",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_THUNDER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_OUTRAGE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_DRAGON_BREATH_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_PSYCHIC": false,
+    "MOVE_DRAGON_CLAW": true,
+    "MOVE_THUNDER": false,
+    "MOVE_OUTRAGE": false
+  },
   "rarity": "legendary",
   "buddyDistance": 20,
   "height": 1.4,
-  "weight": 40,
-  "family": "FAMILY_LATIAS",
-  "forms": null,
-  "_id": "POKEMON_LATIAS"
+  "weight": 40
 }

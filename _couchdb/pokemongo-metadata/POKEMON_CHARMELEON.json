@@ -1,6 +1,7 @@
 {
   "name": "Charmeleon",
   "dex": 5,
+  "family": "FAMILY_CHARMANDER",
   "generation": 1,
   "types": [
     "fire"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_CHARIZARD",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_EMBER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FIRE_FANG_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_FIRE_PUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FLAME_BURST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FLAMETHROWER",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_FIRE_FANG_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_FIRE_PUNCH": false,
+    "MOVE_FLAME_BURST": false,
+    "MOVE_FLAMETHROWER": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.1,
-  "weight": 19,
-  "family": "FAMILY_CHARMANDER",
-  "forms": null,
-  "_id": "POKEMON_CHARMELEON"
+  "weight": 19
 }

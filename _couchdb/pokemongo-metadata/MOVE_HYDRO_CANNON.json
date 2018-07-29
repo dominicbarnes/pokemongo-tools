@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_HYDRO_CANNON",
   "name": "Hydro Cannon",
   "type": "water",
-  "power": 90
+  "power": 90,
+  "quick": false
 }

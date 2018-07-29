@@ -1,6 +1,7 @@
 {
   "name": "Azurill",
   "dex": 298,
+  "family": "FAMILY_MARILL",
   "generation": 3,
   "types": [
     "normal",
@@ -15,43 +16,21 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_MARILL",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BUBBLE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_BUBBLE_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ICE_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BODY_SLAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": false,
+    "MOVE_BUBBLE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_BUBBLE_BEAM": false,
+    "MOVE_ICE_BEAM": false,
+    "MOVE_BODY_SLAM": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.2,
-  "weight": 2,
-  "family": "FAMILY_MARILL",
-  "forms": null,
-  "_id": "POKEMON_AZURILL"
+  "weight": 2
 }

@@ -1,6 +1,7 @@
 {
   "name": "Mew",
   "dex": 151,
+  "family": "FAMILY_MEW",
   "generation": 1,
   "types": [
     "psychic"
@@ -12,179 +13,53 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_POUND_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STEEL_WING_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CHARGE_BEAM_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SHADOW_CLAW_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_VOLT_SWITCH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STRUGGLE_BUG_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FROST_BREATH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DRAGON_TAIL_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_INFESTATION_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_POISON_JAB_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SMASH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SNARL_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CUT_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATERFALL_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_BLIZZARD",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FOCUS_BLAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FIRE_BLAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_SOLAR_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HYPER_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ANCIENT_POWER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DRAGON_CLAW",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYSHOCK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ICE_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDERBOLT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FLAME_CHARGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_LOW_SWEEP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_OVERHEAT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ENERGY_BALL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STONE_EDGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_GYRO_BALL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BULLDOZE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SLIDE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_GRASS_KNOT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FLASH_CANNON",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WILD_CHARGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DARK_PULSE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DAZZLING_GLEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SURF",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_POUND_FAST": false,
+    "MOVE_STEEL_WING_FAST": false,
+    "MOVE_CHARGE_BEAM_FAST": false,
+    "MOVE_SHADOW_CLAW_FAST": false,
+    "MOVE_VOLT_SWITCH_FAST": false,
+    "MOVE_STRUGGLE_BUG_FAST": false,
+    "MOVE_FROST_BREATH_FAST": false,
+    "MOVE_DRAGON_TAIL_FAST": false,
+    "MOVE_INFESTATION_FAST": false,
+    "MOVE_POISON_JAB_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false,
+    "MOVE_SNARL_FAST": false,
+    "MOVE_CUT_FAST": false,
+    "MOVE_WATERFALL_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_BLIZZARD": false,
+    "MOVE_EARTHQUAKE": true,
+    "MOVE_PSYCHIC": false,
+    "MOVE_FOCUS_BLAST": false,
+    "MOVE_THUNDER": false,
+    "MOVE_FIRE_BLAST": true,
+    "MOVE_SOLAR_BEAM": false,
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_ANCIENT_POWER": false,
+    "MOVE_DRAGON_CLAW": false,
+    "MOVE_PSYSHOCK": false,
+    "MOVE_ICE_BEAM": false,
+    "MOVE_THUNDERBOLT": false,
+    "MOVE_FLAME_CHARGE": false,
+    "MOVE_LOW_SWEEP": false,
+    "MOVE_OVERHEAT": false,
+    "MOVE_ENERGY_BALL": false,
+    "MOVE_STONE_EDGE": false,
+    "MOVE_GYRO_BALL": false,
+    "MOVE_BULLDOZE": false,
+    "MOVE_ROCK_SLIDE": false,
+    "MOVE_GRASS_KNOT": false,
+    "MOVE_FLASH_CANNON": false,
+    "MOVE_WILD_CHARGE": false,
+    "MOVE_DARK_PULSE": false,
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_SURF": false
+  },
   "rarity": "mythic",
   "buddyDistance": 20,
   "height": 0.4,
-  "weight": 4,
-  "family": "FAMILY_MEW",
-  "forms": null,
-  "_id": "POKEMON_MEW"
+  "weight": 4
 }

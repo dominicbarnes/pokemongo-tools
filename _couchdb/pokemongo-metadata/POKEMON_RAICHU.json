@@ -1,6 +1,7 @@
 {
   "name": "Raichu",
   "dex": 26,
+  "family": "FAMILY_PIKACHU",
   "generation": 1,
   "types": [
     "electric"
@@ -12,39 +13,24 @@
   },
   "previousEvolution": "POKEMON_PIKACHU",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_VOLT_SWITCH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SPARK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_BRICK_BREAK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDER_PUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WILD_CHARGE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_VOLT_SWITCH_FAST": false,
+    "MOVE_SPARK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_BRICK_BREAK": false,
+    "MOVE_THUNDER_PUNCH": false,
+    "MOVE_WILD_CHARGE": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.8,
   "weight": 30,
-  "family": "FAMILY_PIKACHU",
   "forms": {
     "alola": {
       "name": "Raichu (Alola)",
       "dex": 26,
+      "family": "FAMILY_PIKACHU",
       "generation": 1,
       "types": [
         "electric",
@@ -57,40 +43,24 @@
       },
       "previousEvolution": "POKEMON_PIKACHU",
       "nextEvolutions": [],
-      "quickMoves": [
-        {
-          "id": "MOVE_VOLT_SWITCH_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_SPARK_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_PSYCHIC",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_THUNDER_PUNCH",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_WILD_CHARGE",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_VOLT_SWITCH_FAST": false,
+        "MOVE_SPARK_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_PSYCHIC": false,
+        "MOVE_THUNDER_PUNCH": false,
+        "MOVE_WILD_CHARGE": false
+      },
       "rarity": null,
       "buddyDistance": 1,
       "height": 0.7,
-      "weight": 21,
-      "family": "FAMILY_PIKACHU",
-      "_id": "POKEMON_RAICHU"
+      "weight": 21
     },
     "normal": {
       "name": "Raichu",
       "dex": 26,
+      "family": "FAMILY_PIKACHU",
       "generation": 1,
       "types": [
         "electric"
@@ -102,37 +72,19 @@
       },
       "previousEvolution": "POKEMON_PIKACHU",
       "nextEvolutions": [],
-      "quickMoves": [
-        {
-          "id": "MOVE_VOLT_SWITCH_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_SPARK_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_BRICK_BREAK",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_THUNDER_PUNCH",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_WILD_CHARGE",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_VOLT_SWITCH_FAST": false,
+        "MOVE_SPARK_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_BRICK_BREAK": false,
+        "MOVE_THUNDER_PUNCH": false,
+        "MOVE_WILD_CHARGE": false
+      },
       "rarity": null,
       "buddyDistance": 1,
       "height": 0.8,
-      "weight": 30,
-      "family": "FAMILY_PIKACHU",
-      "_id": "POKEMON_RAICHU"
+      "weight": 30
     }
-  },
-  "_id": "POKEMON_RAICHU"
+  }
 }

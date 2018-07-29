@@ -1,6 +1,7 @@
 {
   "name": "Volbeat",
   "dex": 313,
+  "family": "FAMILY_VOLBEAT",
   "generation": 3,
   "types": [
     "bug"
@@ -12,43 +13,19 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_STRUGGLE_BUG_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_SIGNAL_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BUG_BUZZ",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDERBOLT",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_STRUGGLE_BUG_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_SIGNAL_BEAM": false,
+    "MOVE_BUG_BUZZ": false,
+    "MOVE_THUNDERBOLT": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.71,
-  "weight": 17.7,
-  "family": "FAMILY_VOLBEAT",
-  "forms": null,
-  "_id": "POKEMON_VOLBEAT"
+  "weight": 17.7
 }

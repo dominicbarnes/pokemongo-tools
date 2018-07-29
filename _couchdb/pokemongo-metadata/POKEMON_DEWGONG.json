@@ -1,6 +1,7 @@
 {
   "name": "Dewgong",
   "dex": 87,
+  "family": "FAMILY_SEEL",
   "generation": 1,
   "types": [
     "water",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_SEEL",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_FROST_BREATH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_IRON_TAIL_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_AURORA_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_PULSE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BLIZZARD",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_FROST_BREATH_FAST": false,
+    "MOVE_IRON_TAIL_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_AURORA_BEAM": false,
+    "MOVE_WATER_PULSE": false,
+    "MOVE_BLIZZARD": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.7,
-  "weight": 120,
-  "family": "FAMILY_SEEL",
-  "forms": null,
-  "_id": "POKEMON_DEWGONG"
+  "weight": 120
 }

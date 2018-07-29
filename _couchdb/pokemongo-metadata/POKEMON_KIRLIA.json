@@ -1,6 +1,7 @@
 {
   "name": "Kirlia",
   "dex": 281,
+  "family": "FAMILY_RALTS",
   "generation": 3,
   "types": [
     "psychic",
@@ -15,47 +16,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_GARDEVOIR",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_CONFUSION_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CHARGE_BEAM_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DISARMING_VOICE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SHADOW_SNEAK",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_CHARGE_BEAM_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_PSYCHIC": false,
+    "MOVE_DISARMING_VOICE": false,
+    "MOVE_SHADOW_SNEAK": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.79,
-  "weight": 20.2,
-  "family": "FAMILY_RALTS",
-  "forms": null,
-  "_id": "POKEMON_KIRLIA"
+  "weight": 20.2
 }

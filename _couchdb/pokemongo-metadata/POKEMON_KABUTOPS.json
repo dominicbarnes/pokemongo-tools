@@ -1,6 +1,7 @@
 {
   "name": "Kabutops",
   "dex": 141,
+  "family": "FAMILY_KABUTO",
   "generation": 1,
   "types": [
     "rock",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_KABUTO",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_MUD_SHOT_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SMASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_ANCIENT_POWER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_PULSE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STONE_EDGE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_MUD_SHOT_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_ANCIENT_POWER": false,
+    "MOVE_WATER_PULSE": false,
+    "MOVE_STONE_EDGE": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.3,
-  "weight": 40.5,
-  "family": "FAMILY_KABUTO",
-  "forms": null,
-  "_id": "POKEMON_KABUTOPS"
+  "weight": 40.5
 }

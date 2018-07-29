@@ -1,6 +1,7 @@
 {
   "name": "Mankey",
   "dex": 56,
+  "family": "FAMILY_MANKEY",
   "generation": 1,
   "types": [
     "fighting"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_PRIMEAPE",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_KARATE_CHOP_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SCRATCH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_CROSS_CHOP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_LOW_SWEEP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BRICK_BREAK",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_KARATE_CHOP_FAST": false,
+    "MOVE_SCRATCH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_CROSS_CHOP": false,
+    "MOVE_LOW_SWEEP": false,
+    "MOVE_BRICK_BREAK": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.5,
-  "weight": 28,
-  "family": "FAMILY_MANKEY",
-  "forms": null,
-  "_id": "POKEMON_MANKEY"
+  "weight": 28
 }

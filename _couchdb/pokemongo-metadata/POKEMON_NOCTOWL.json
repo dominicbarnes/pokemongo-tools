@@ -1,6 +1,7 @@
 {
   "name": "Noctowl",
   "dex": 164,
+  "family": "FAMILY_HOOTHOOT",
   "generation": 2,
   "types": [
     "normal",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_HOOTHOOT",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_WING_ATTACK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EXTRASENSORY_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SKY_ATTACK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_NIGHT_SHADE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_WING_ATTACK_FAST": false,
+    "MOVE_EXTRASENSORY_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_PSYCHIC": false,
+    "MOVE_SKY_ATTACK": false,
+    "MOVE_NIGHT_SHADE": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 1.6,
-  "weight": 40.8,
-  "family": "FAMILY_HOOTHOOT",
-  "forms": null,
-  "_id": "POKEMON_NOCTOWL"
+  "weight": 40.8
 }

@@ -1,6 +1,7 @@
 {
   "name": "Mawile",
   "dex": 303,
+  "family": "FAMILY_MAWILE",
   "generation": 3,
   "types": [
     "steel",
@@ -13,43 +14,19 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_BITE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ASTONISH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_PLAY_ROUGH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_VICE_GRIP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_IRON_HEAD",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_BITE_FAST": false,
+    "MOVE_ASTONISH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_PLAY_ROUGH": false,
+    "MOVE_VICE_GRIP": false,
+    "MOVE_IRON_HEAD": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.61,
-  "weight": 11.5,
-  "family": "FAMILY_MAWILE",
-  "forms": null,
-  "_id": "POKEMON_MAWILE"
+  "weight": 11.5
 }

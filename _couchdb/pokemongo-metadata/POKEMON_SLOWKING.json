@@ -1,6 +1,7 @@
 {
   "name": "Slowking",
   "dex": 199,
+  "family": "FAMILY_SLOWPOKE",
   "generation": 2,
   "types": [
     "water",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_SLOWPOKE",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CONFUSION_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_BLIZZARD",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FIRE_BLAST",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_WATER_GUN_FAST": false,
+    "MOVE_CONFUSION_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_BLIZZARD": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_FIRE_BLAST": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 2.01,
-  "weight": 79.5,
-  "family": "FAMILY_SLOWPOKE",
-  "forms": null,
-  "_id": "POKEMON_SLOWKING"
+  "weight": 79.5
 }

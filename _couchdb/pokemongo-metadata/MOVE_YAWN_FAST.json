@@ -1,6 +1,5 @@
 {
-  "_id": "MOVE_YAWN_FAST",
   "name": "Yawn",
   "type": "normal",
-  "power": 0
+  "quick": true
 }

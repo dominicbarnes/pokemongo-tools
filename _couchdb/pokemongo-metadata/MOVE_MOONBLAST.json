@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_MOONBLAST",
   "name": "Moonblast",
   "type": "fairy",
-  "power": 130
+  "power": 130,
+  "quick": false
 }

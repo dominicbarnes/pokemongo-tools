@@ -1,6 +1,7 @@
 {
   "name": "Wobbuffet",
   "dex": 202,
+  "family": "FAMILY_WOBBUFFET",
   "generation": 2,
   "types": [
     "psychic"
@@ -12,27 +13,15 @@
   },
   "previousEvolution": "POKEMON_WYNAUT",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_COUNTER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_MIRROR_COAT",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_COUNTER_FAST": false,
+    "MOVE_SPLASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_MIRROR_COAT": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.3,
-  "weight": 28.5,
-  "family": "FAMILY_WOBBUFFET",
-  "forms": null,
-  "_id": "POKEMON_WOBBUFFET"
+  "weight": 28.5
 }

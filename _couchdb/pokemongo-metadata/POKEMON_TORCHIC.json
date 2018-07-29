@@ -1,6 +1,7 @@
 {
   "name": "Torchic",
   "dex": 255,
+  "family": "FAMILY_TORCHIC",
   "generation": 3,
   "types": [
     "fire"
@@ -14,47 +15,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_COMBUSKEN",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_SCRATCH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EMBER_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_FLAME_CHARGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FLAMETHROWER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_TOMB",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_SCRATCH_FAST": false,
+    "MOVE_EMBER_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_FLAME_CHARGE": false,
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_ROCK_TOMB": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.41,
-  "weight": 2.5,
-  "family": "FAMILY_TORCHIC",
-  "forms": null,
-  "_id": "POKEMON_TORCHIC"
+  "weight": 2.5
 }

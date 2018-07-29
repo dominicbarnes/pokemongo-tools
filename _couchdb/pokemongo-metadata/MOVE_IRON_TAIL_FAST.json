@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_IRON_TAIL_FAST",
   "name": "Iron Tail",
   "type": "steel",
-  "power": 15
+  "power": 15,
+  "quick": true
 }

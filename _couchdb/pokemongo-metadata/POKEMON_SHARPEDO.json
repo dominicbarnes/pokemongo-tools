@@ -1,6 +1,7 @@
 {
   "name": "Sharpedo",
   "dex": 319,
+  "family": "FAMILY_CARVANHA",
   "generation": 3,
   "types": [
     "water",
@@ -13,43 +14,19 @@
   },
   "previousEvolution": "POKEMON_CARVANHA",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_BITE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATERFALL_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_HYDRO_PUMP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CRUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_POISON_FANG",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_BITE_FAST": false,
+    "MOVE_WATERFALL_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_CRUNCH": false,
+    "MOVE_POISON_FANG": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.8,
-  "weight": 88.8,
-  "family": "FAMILY_CARVANHA",
-  "forms": null,
-  "_id": "POKEMON_SHARPEDO"
+  "weight": 88.8
 }

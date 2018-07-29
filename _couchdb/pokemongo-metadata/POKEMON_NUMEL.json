@@ -1,6 +1,7 @@
 {
   "name": "Numel",
   "dex": 322,
+  "family": "FAMILY_NUMEL",
   "generation": 3,
   "types": [
     "fire",
@@ -15,47 +16,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_CAMERUPT",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_EMBER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_BULLDOZE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HEAT_WAVE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STOMP",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_EMBER_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_BULLDOZE": false,
+    "MOVE_HEAT_WAVE": false,
+    "MOVE_STOMP": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.71,
-  "weight": 24,
-  "family": "FAMILY_NUMEL",
-  "forms": null,
-  "_id": "POKEMON_NUMEL"
+  "weight": 24
 }

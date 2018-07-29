@@ -1,6 +1,7 @@
 {
   "name": "Flygon",
   "dex": 330,
+  "family": "FAMILY_TRAPINCH",
   "generation": 3,
   "types": [
     "ground",
@@ -13,43 +14,19 @@
   },
   "previousEvolution": "POKEMON_VIBRAVA",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_MUD_SHOT_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DRAGON_TAIL_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DRAGON_CLAW",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STONE_EDGE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_MUD_SHOT_FAST": false,
+    "MOVE_DRAGON_TAIL_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_DRAGON_CLAW": false,
+    "MOVE_STONE_EDGE": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 2.01,
-  "weight": 82,
-  "family": "FAMILY_TRAPINCH",
-  "forms": null,
-  "_id": "POKEMON_FLYGON"
+  "weight": 82
 }

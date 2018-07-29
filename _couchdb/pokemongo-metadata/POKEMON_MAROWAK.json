@@ -1,6 +1,7 @@
 {
   "name": "Marowak",
   "dex": 105,
+  "family": "FAMILY_CUBONE",
   "generation": 1,
   "types": [
     "ground"
@@ -12,39 +13,24 @@
   },
   "previousEvolution": "POKEMON_CUBONE",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_MUD_SLAP_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SMASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_BONE_CLUB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DIG",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_MUD_SLAP_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_BONE_CLUB": false,
+    "MOVE_DIG": false,
+    "MOVE_EARTHQUAKE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1,
   "weight": 45,
-  "family": "FAMILY_CUBONE",
   "forms": {
     "alola": {
       "name": "Marowak (Alola)",
       "dex": 105,
+      "family": "FAMILY_CUBONE",
       "generation": 1,
       "types": [
         "fire",
@@ -57,40 +43,24 @@
       },
       "previousEvolution": "POKEMON_CUBONE",
       "nextEvolutions": [],
-      "quickMoves": [
-        {
-          "id": "MOVE_HEX_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_ROCK_SMASH_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_BONE_CLUB",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_SHADOW_BALL",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_FIRE_BLAST",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_HEX_FAST": false,
+        "MOVE_ROCK_SMASH_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_BONE_CLUB": false,
+        "MOVE_SHADOW_BALL": false,
+        "MOVE_FIRE_BLAST": false
+      },
       "rarity": null,
       "buddyDistance": 3,
       "height": 1,
-      "weight": 34,
-      "family": "FAMILY_CUBONE",
-      "_id": "POKEMON_MAROWAK"
+      "weight": 34
     },
     "normal": {
       "name": "Marowak",
       "dex": 105,
+      "family": "FAMILY_CUBONE",
       "generation": 1,
       "types": [
         "ground"
@@ -102,37 +72,19 @@
       },
       "previousEvolution": "POKEMON_CUBONE",
       "nextEvolutions": [],
-      "quickMoves": [
-        {
-          "id": "MOVE_MUD_SLAP_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_ROCK_SMASH_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_BONE_CLUB",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_DIG",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_EARTHQUAKE",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_MUD_SLAP_FAST": false,
+        "MOVE_ROCK_SMASH_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_BONE_CLUB": false,
+        "MOVE_DIG": false,
+        "MOVE_EARTHQUAKE": false
+      },
       "rarity": null,
       "buddyDistance": 3,
       "height": 1,
-      "weight": 45,
-      "family": "FAMILY_CUBONE",
-      "_id": "POKEMON_MAROWAK"
+      "weight": 45
     }
-  },
-  "_id": "POKEMON_MAROWAK"
+  }
 }

@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_THUNDERBOLT",
   "name": "Thunderbolt",
   "type": "electric",
-  "power": 80
+  "power": 80,
+  "quick": false
 }

@@ -1,6 +1,7 @@
 {
   "name": "Vigoroth",
   "dex": 288,
+  "family": "FAMILY_SLAKOTH",
   "generation": 3,
   "types": [
     "normal"
@@ -14,47 +15,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_SLAKING",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_SCRATCH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_COUNTER_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_BODY_SLAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BULLDOZE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BRICK_BREAK",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_SCRATCH_FAST": false,
+    "MOVE_COUNTER_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_BODY_SLAM": false,
+    "MOVE_BULLDOZE": false,
+    "MOVE_BRICK_BREAK": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.4,
-  "weight": 46.5,
-  "family": "FAMILY_SLAKOTH",
-  "forms": null,
-  "_id": "POKEMON_VIGOROTH"
+  "weight": 46.5
 }

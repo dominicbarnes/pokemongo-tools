@@ -1,6 +1,7 @@
 {
   "name": "Gyarados",
   "dex": 130,
+  "family": "FAMILY_MAGIKARP",
   "generation": 1,
   "types": [
     "water",
@@ -13,39 +14,18 @@
   },
   "previousEvolution": "POKEMON_MAGIKARP",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_BITE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DRAGON_TAIL_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_WATERFALL_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_HYDRO_PUMP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CRUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_OUTRAGE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_DRAGON_TAIL_FAST": true,
+    "MOVE_WATERFALL_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_CRUNCH": false,
+    "MOVE_OUTRAGE": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 6.5,
-  "weight": 235,
-  "family": "FAMILY_MAGIKARP",
-  "forms": null,
-  "_id": "POKEMON_GYARADOS"
+  "weight": 235
 }

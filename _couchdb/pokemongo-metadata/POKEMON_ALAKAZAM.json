@@ -1,6 +1,7 @@
 {
   "name": "Alakazam",
   "dex": 65,
+  "family": "FAMILY_ABRA",
   "generation": 1,
   "types": [
     "psychic"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_KADABRA",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_PSYCHO_CUT_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CONFUSION_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_FUTURESIGHT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FOCUS_BLAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SHADOW_BALL",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_PSYCHO_CUT_FAST": false,
+    "MOVE_CONFUSION_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_FUTURESIGHT": false,
+    "MOVE_FOCUS_BLAST": false,
+    "MOVE_SHADOW_BALL": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.5,
-  "weight": 48,
-  "family": "FAMILY_ABRA",
-  "forms": null,
-  "_id": "POKEMON_ALAKAZAM"
+  "weight": 48
 }

@@ -1,6 +1,7 @@
 {
   "name": "Mareep",
   "dex": 179,
+  "family": "FAMILY_MAREEP",
   "generation": 2,
   "types": [
     "electric"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_FLAAFFY",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDER_SHOCK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_BODY_SLAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDERBOLT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DISCHARGE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_TACKLE_FAST": false,
+    "MOVE_THUNDER_SHOCK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_BODY_SLAM": false,
+    "MOVE_THUNDERBOLT": false,
+    "MOVE_DISCHARGE": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.61,
-  "weight": 7.8,
-  "family": "FAMILY_MAREEP",
-  "forms": null,
-  "_id": "POKEMON_MAREEP"
+  "weight": 7.8
 }

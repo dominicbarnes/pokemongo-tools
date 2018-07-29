@@ -1,6 +1,7 @@
 {
   "name": "Wooper",
   "dex": 194,
+  "family": "FAMILY_WOOPER",
   "generation": 2,
   "types": [
     "water",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_QUAGSIRE",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MUD_SHOT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_MUD_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DIG",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BODY_SLAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_WATER_GUN_FAST": false,
+    "MOVE_MUD_SHOT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_MUD_BOMB": false,
+    "MOVE_DIG": false,
+    "MOVE_BODY_SLAM": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.41,
-  "weight": 8.5,
-  "family": "FAMILY_WOOPER",
-  "forms": null,
-  "_id": "POKEMON_WOOPER"
+  "weight": 8.5
 }

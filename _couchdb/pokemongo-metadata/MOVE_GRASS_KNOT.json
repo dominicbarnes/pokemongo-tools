@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_GRASS_KNOT",
   "name": "Grass Knot",
   "type": "grass",
-  "power": 90
+  "power": 90,
+  "quick": false
 }

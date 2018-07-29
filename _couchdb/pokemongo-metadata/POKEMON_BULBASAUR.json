@@ -1,6 +1,7 @@
 {
   "name": "Bulbasaur",
   "dex": 1,
+  "family": "FAMILY_BULBASAUR",
   "generation": 1,
   "types": [
     "grass",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_IVYSAUR",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_VINE_WHIP_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_SLUDGE_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SEED_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_POWER_WHIP",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_VINE_WHIP_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_SLUDGE_BOMB": false,
+    "MOVE_SEED_BOMB": false,
+    "MOVE_POWER_WHIP": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.7,
-  "weight": 6.9,
-  "family": "FAMILY_BULBASAUR",
-  "forms": null,
-  "_id": "POKEMON_BULBASAUR"
+  "weight": 6.9
 }

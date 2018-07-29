@@ -1,6 +1,7 @@
 {
   "name": "Blaziken",
   "dex": 257,
+  "family": "FAMILY_TORCHIC",
   "generation": 3,
   "types": [
     "fire",
@@ -13,47 +14,20 @@
   },
   "previousEvolution": "POKEMON_COMBUSKEN",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_COUNTER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FIRE_SPIN_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_STONE_EDGE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_OVERHEAT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BRAVE_BIRD",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FOCUS_BLAST",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_COUNTER_FAST": false,
+    "MOVE_FIRE_SPIN_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_STONE_EDGE": true,
+    "MOVE_OVERHEAT": false,
+    "MOVE_BRAVE_BIRD": false,
+    "MOVE_FOCUS_BLAST": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.91,
-  "weight": 52,
-  "family": "FAMILY_TORCHIC",
-  "forms": null,
-  "_id": "POKEMON_BLAZIKEN"
+  "weight": 52
 }

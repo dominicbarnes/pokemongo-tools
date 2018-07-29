@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_WEATHER_BALL_ROCK",
   "name": "Weather Ball Rock",
   "type": "rock",
-  "power": 60
+  "power": 60,
+  "quick": false
 }

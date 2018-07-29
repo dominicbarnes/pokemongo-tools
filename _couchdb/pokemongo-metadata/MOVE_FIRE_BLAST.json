@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_FIRE_BLAST",
   "name": "Fire Blast",
   "type": "fire",
-  "power": 140
+  "power": 140,
+  "quick": false
 }

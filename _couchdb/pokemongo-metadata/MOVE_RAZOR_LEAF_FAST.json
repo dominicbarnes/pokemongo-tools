@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_RAZOR_LEAF_FAST",
   "name": "Razor Leaf",
   "type": "grass",
-  "power": 13
+  "power": 13,
+  "quick": true
 }

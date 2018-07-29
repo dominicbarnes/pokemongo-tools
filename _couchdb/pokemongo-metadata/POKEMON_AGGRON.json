@@ -1,6 +1,7 @@
 {
   "name": "Aggron",
   "dex": 306,
+  "family": "FAMILY_ARON",
   "generation": 3,
   "types": [
     "steel",
@@ -13,43 +14,19 @@
   },
   "previousEvolution": "POKEMON_LAIRON",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_DRAGON_TAIL_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_IRON_TAIL_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_THUNDER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STONE_EDGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HEAVY_SLAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_DRAGON_TAIL_FAST": false,
+    "MOVE_IRON_TAIL_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_THUNDER": false,
+    "MOVE_STONE_EDGE": false,
+    "MOVE_HEAVY_SLAM": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 2.11,
-  "weight": 360,
-  "family": "FAMILY_ARON",
-  "forms": null,
-  "_id": "POKEMON_AGGRON"
+  "weight": 360
 }

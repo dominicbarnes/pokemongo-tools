@@ -1,6 +1,7 @@
 {
   "name": "Solrock",
   "dex": 338,
+  "family": "FAMILY_SOLROCK",
   "generation": 3,
   "types": [
     "rock",
@@ -13,43 +14,19 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_ROCK_THROW_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CONFUSION_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SLIDE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SOLAR_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_ROCK_THROW_FAST": false,
+    "MOVE_CONFUSION_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_PSYCHIC": false,
+    "MOVE_ROCK_SLIDE": false,
+    "MOVE_SOLAR_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.19,
-  "weight": 154,
-  "family": "FAMILY_SOLROCK",
-  "forms": null,
-  "_id": "POKEMON_SOLROCK"
+  "weight": 154
 }

@@ -1,6 +1,7 @@
 {
   "name": "Dragonite",
   "dex": 149,
+  "family": "FAMILY_DRATINI",
   "generation": 1,
   "types": [
     "dragon",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_DRAGONAIR",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_DRAGON_TAIL_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STEEL_WING_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_HURRICANE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HYPER_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_OUTRAGE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_DRAGON_TAIL_FAST": false,
+    "MOVE_STEEL_WING_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_HURRICANE": false,
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_OUTRAGE": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 2.2,
-  "weight": 210,
-  "family": "FAMILY_DRATINI",
-  "forms": null,
-  "_id": "POKEMON_DRAGONITE"
+  "weight": 210
 }

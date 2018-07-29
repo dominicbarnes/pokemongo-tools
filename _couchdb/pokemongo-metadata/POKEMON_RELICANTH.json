@@ -1,6 +1,7 @@
 {
   "name": "Relicanth",
   "dex": 369,
+  "family": "FAMILY_RELICANTH",
   "generation": 3,
   "types": [
     "water",
@@ -13,43 +14,19 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ZEN_HEADBUTT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_ANCIENT_POWER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AQUA_TAIL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HYDRO_PUMP",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_WATER_GUN_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_ANCIENT_POWER": false,
+    "MOVE_AQUA_TAIL": false,
+    "MOVE_HYDRO_PUMP": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.99,
-  "weight": 23.4,
-  "family": "FAMILY_RELICANTH",
-  "forms": null,
-  "_id": "POKEMON_RELICANTH"
+  "weight": 23.4
 }

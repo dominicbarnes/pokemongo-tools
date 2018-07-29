@@ -1,6 +1,7 @@
 {
   "name": "Omanyte",
   "dex": 138,
+  "family": "FAMILY_OMANYTE",
   "generation": 1,
   "types": [
     "rock",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_OMASTAR",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MUD_SHOT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_ANCIENT_POWER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BUBBLE_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_BLAST",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_WATER_GUN_FAST": false,
+    "MOVE_MUD_SHOT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_ANCIENT_POWER": false,
+    "MOVE_BUBBLE_BEAM": false,
+    "MOVE_ROCK_BLAST": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.4,
-  "weight": 7.5,
-  "family": "FAMILY_OMANYTE",
-  "forms": null,
-  "_id": "POKEMON_OMANYTE"
+  "weight": 7.5
 }

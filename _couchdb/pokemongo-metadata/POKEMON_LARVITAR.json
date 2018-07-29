@@ -1,6 +1,7 @@
 {
   "name": "Larvitar",
   "dex": 246,
+  "family": "FAMILY_LARVITAR",
   "generation": 2,
   "types": [
     "rock",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_PUPITAR",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_BITE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SMASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STOMP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CRUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ANCIENT_POWER",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STOMP": false,
+    "MOVE_CRUNCH": false,
+    "MOVE_ANCIENT_POWER": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.61,
-  "weight": 72,
-  "family": "FAMILY_LARVITAR",
-  "forms": null,
-  "_id": "POKEMON_LARVITAR"
+  "weight": 72
 }

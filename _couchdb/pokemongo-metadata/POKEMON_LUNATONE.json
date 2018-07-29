@@ -1,6 +1,7 @@
 {
   "name": "Lunatone",
   "dex": 337,
+  "family": "FAMILY_LUNATONE",
   "generation": 3,
   "types": [
     "rock",
@@ -13,43 +14,19 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_ROCK_THROW_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CONFUSION_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SLIDE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MOONBLAST",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_ROCK_THROW_FAST": false,
+    "MOVE_CONFUSION_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_PSYCHIC": false,
+    "MOVE_ROCK_SLIDE": false,
+    "MOVE_MOONBLAST": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.99,
-  "weight": 168,
-  "family": "FAMILY_LUNATONE",
-  "forms": null,
-  "_id": "POKEMON_LUNATONE"
+  "weight": 168
 }

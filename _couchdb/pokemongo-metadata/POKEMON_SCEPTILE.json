@@ -1,6 +1,7 @@
 {
   "name": "Sceptile",
   "dex": 254,
+  "family": "FAMILY_TREECKO",
   "generation": 3,
   "types": [
     "grass"
@@ -12,43 +13,19 @@
   },
   "previousEvolution": "POKEMON_GROVYLE",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_FURY_CUTTER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BULLET_SEED_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_LEAF_BLADE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_FURY_CUTTER_FAST": false,
+    "MOVE_BULLET_SEED_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_LEAF_BLADE": false,
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_EARTHQUAKE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.7,
-  "weight": 52.2,
-  "family": "FAMILY_TREECKO",
-  "forms": null,
-  "_id": "POKEMON_SCEPTILE"
+  "weight": 52.2
 }

@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_HEART_STAMP",
   "name": "Heart Stamp",
   "type": "psychic",
-  "power": 40
+  "power": 40,
+  "quick": false
 }

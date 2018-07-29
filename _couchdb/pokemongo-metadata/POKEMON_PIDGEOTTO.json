@@ -1,6 +1,7 @@
 {
   "name": "Pidgeotto",
   "dex": 17,
+  "family": "FAMILY_PIDGEY",
   "generation": 1,
   "types": [
     "normal",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_PIDGEOT",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_WING_ATTACK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STEEL_WING_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_TWISTER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AIR_CUTTER",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_WING_ATTACK_FAST": false,
+    "MOVE_STEEL_WING_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_TWISTER": false,
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_AIR_CUTTER": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 1.1,
-  "weight": 30,
-  "family": "FAMILY_PIDGEY",
-  "forms": null,
-  "_id": "POKEMON_PIDGEOTTO"
+  "weight": 30
 }

@@ -1,6 +1,7 @@
 {
   "name": "Politoed",
   "dex": 186,
+  "family": "FAMILY_POLIWAG",
   "generation": 2,
   "types": [
     "water"
@@ -12,39 +13,18 @@
   },
   "previousEvolution": "POKEMON_POLIWHIRL",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_MUD_SHOT_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BUBBLE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_HYDRO_PUMP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BLIZZARD",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_SURF",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_MUD_SHOT_FAST": false,
+    "MOVE_BUBBLE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_BLIZZARD": false,
+    "MOVE_EARTHQUAKE": true,
+    "MOVE_SURF": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.09,
-  "weight": 33.9,
-  "family": "FAMILY_POLIWAG",
-  "forms": null,
-  "_id": "POKEMON_POLITOED"
+  "weight": 33.9
 }

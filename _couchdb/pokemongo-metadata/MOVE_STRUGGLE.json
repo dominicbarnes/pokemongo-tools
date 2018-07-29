@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_STRUGGLE",
   "name": "Struggle",
   "type": "normal",
-  "power": 35
+  "power": 35,
+  "quick": false
 }

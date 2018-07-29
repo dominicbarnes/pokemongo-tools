@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_DIG",
   "name": "Dig",
   "type": "ground",
-  "power": 100
+  "power": 100,
+  "quick": false
 }

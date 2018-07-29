@@ -1,6 +1,7 @@
 {
   "name": "Armaldo",
   "dex": 348,
+  "family": "FAMILY_ANORITH",
   "generation": 3,
   "types": [
     "rock",
@@ -13,43 +14,19 @@
   },
   "previousEvolution": "POKEMON_ANORITH",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_FURY_CUTTER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STRUGGLE_BUG_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_CROSS_POISON",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_PULSE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_BLAST",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_FURY_CUTTER_FAST": false,
+    "MOVE_STRUGGLE_BUG_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_CROSS_POISON": false,
+    "MOVE_WATER_PULSE": false,
+    "MOVE_ROCK_BLAST": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.5,
-  "weight": 68.2,
-  "family": "FAMILY_ANORITH",
-  "forms": null,
-  "_id": "POKEMON_ARMALDO"
+  "weight": 68.2
 }

@@ -1,6 +1,7 @@
 {
   "name": "Shuckle",
   "dex": 213,
+  "family": "FAMILY_SHUCKLE",
   "generation": 2,
   "types": [
     "bug",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_STRUGGLE_BUG_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_THROW_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_ROCK_BLAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STONE_EDGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_GYRO_BALL",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_STRUGGLE_BUG_FAST": false,
+    "MOVE_ROCK_THROW_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_ROCK_BLAST": false,
+    "MOVE_STONE_EDGE": false,
+    "MOVE_GYRO_BALL": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.61,
-  "weight": 20.5,
-  "family": "FAMILY_SHUCKLE",
-  "forms": null,
-  "_id": "POKEMON_SHUCKLE"
+  "weight": 20.5
 }

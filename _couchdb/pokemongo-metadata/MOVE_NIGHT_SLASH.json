@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_NIGHT_SLASH",
   "name": "Night Slash",
   "type": "dark",
-  "power": 50
+  "power": 50,
+  "quick": false
 }

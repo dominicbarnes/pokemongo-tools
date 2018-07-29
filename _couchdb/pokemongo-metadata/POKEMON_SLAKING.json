@@ -1,6 +1,7 @@
 {
   "name": "Slaking",
   "dex": 289,
+  "family": "FAMILY_SLAKOTH",
   "generation": 3,
   "types": [
     "normal"
@@ -12,39 +13,18 @@
   },
   "previousEvolution": "POKEMON_VIGOROTH",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_YAWN_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_HYPER_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PLAY_ROUGH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_YAWN_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_PLAY_ROUGH": false,
+    "MOVE_EARTHQUAKE": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 2.01,
-  "weight": 130.5,
-  "family": "FAMILY_SLAKOTH",
-  "forms": null,
-  "_id": "POKEMON_SLAKING"
+  "weight": 130.5
 }

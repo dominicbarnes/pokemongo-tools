@@ -1,6 +1,7 @@
 {
   "name": "Jirachi",
   "dex": 385,
+  "family": "FAMILY_JIRACHI",
   "generation": 3,
   "types": [
     "steel",
@@ -13,43 +14,19 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_CONFUSION_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CHARGE_BEAM_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_DAZZLING_GLEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DOOM_DESIRE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_CHARGE_BEAM_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_DOOM_DESIRE": false
+  },
   "rarity": "mythic",
   "buddyDistance": 20,
   "height": 0.3,
-  "weight": 1.1,
-  "family": "FAMILY_JIRACHI",
-  "forms": null,
-  "_id": "POKEMON_JIRACHI"
+  "weight": 1.1
 }

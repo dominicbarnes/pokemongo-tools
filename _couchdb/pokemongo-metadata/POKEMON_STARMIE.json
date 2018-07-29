@@ -1,6 +1,7 @@
 {
   "name": "Starmie",
   "dex": 121,
+  "family": "FAMILY_STARYU",
   "generation": 1,
   "types": [
     "water",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_STARYU",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_HIDDEN_POWER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_HYDRO_PUMP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_POWER_GEM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_HIDDEN_POWER_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_POWER_GEM": false,
+    "MOVE_PSYCHIC": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.1,
-  "weight": 80,
-  "family": "FAMILY_STARYU",
-  "forms": null,
-  "_id": "POKEMON_STARMIE"
+  "weight": 80
 }

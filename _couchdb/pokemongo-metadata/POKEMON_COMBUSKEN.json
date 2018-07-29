@@ -1,6 +1,7 @@
 {
   "name": "Combusken",
   "dex": 256,
+  "family": "FAMILY_TORCHIC",
   "generation": 3,
   "types": [
     "fire",
@@ -15,47 +16,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_BLAZIKEN",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_PECK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EMBER_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_FLAME_CHARGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FLAMETHROWER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SLIDE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_PECK_FAST": false,
+    "MOVE_EMBER_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_FLAME_CHARGE": false,
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_ROCK_SLIDE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.89,
-  "weight": 19.5,
-  "family": "FAMILY_TORCHIC",
-  "forms": null,
-  "_id": "POKEMON_COMBUSKEN"
+  "weight": 19.5
 }

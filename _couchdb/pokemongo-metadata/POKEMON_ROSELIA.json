@@ -1,6 +1,7 @@
 {
   "name": "Roselia",
   "dex": 315,
+  "family": "FAMILY_ROSELIA",
   "generation": 3,
   "types": [
     "grass",
@@ -13,43 +14,19 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_POISON_JAB_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_RAZOR_LEAF_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_PETAL_BLIZZARD",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DAZZLING_GLEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_POISON_JAB_FAST": false,
+    "MOVE_RAZOR_LEAF_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_PETAL_BLIZZARD": false,
+    "MOVE_SLUDGE_BOMB": false,
+    "MOVE_DAZZLING_GLEAM": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.3,
-  "weight": 2,
-  "family": "FAMILY_ROSELIA",
-  "forms": null,
-  "_id": "POKEMON_ROSELIA"
+  "weight": 2
 }

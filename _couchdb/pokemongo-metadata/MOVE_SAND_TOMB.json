@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_SAND_TOMB",
   "name": "Sand Tomb",
   "type": "ground",
-  "power": 80
+  "power": 80,
+  "quick": false
 }

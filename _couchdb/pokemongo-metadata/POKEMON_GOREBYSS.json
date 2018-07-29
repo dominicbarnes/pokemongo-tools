@@ -1,6 +1,7 @@
 {
   "name": "Gorebyss",
   "dex": 368,
+  "family": "FAMILY_CLAMPERL",
   "generation": 3,
   "types": [
     "water"
@@ -12,43 +13,19 @@
   },
   "previousEvolution": "POKEMON_CLAMPERL",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CONFUSION_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_DRAINING_KISS",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_PULSE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_WATER_GUN_FAST": false,
+    "MOVE_CONFUSION_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_DRAINING_KISS": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_WATER_PULSE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.8,
-  "weight": 22.6,
-  "family": "FAMILY_CLAMPERL",
-  "forms": null,
-  "_id": "POKEMON_GOREBYSS"
+  "weight": 22.6
 }

@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_DRILL_RUN",
   "name": "Drill Run",
   "type": "ground",
-  "power": 80
+  "power": 80,
+  "quick": false
 }

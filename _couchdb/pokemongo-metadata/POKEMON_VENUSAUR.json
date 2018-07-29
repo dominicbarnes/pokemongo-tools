@@ -1,6 +1,7 @@
 {
   "name": "Venusaur",
   "dex": 3,
+  "family": "FAMILY_BULBASAUR",
   "generation": 1,
   "types": [
     "grass",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_IVYSAUR",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_RAZOR_LEAF_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_VINE_WHIP_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_SLUDGE_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PETAL_BLIZZARD",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SOLAR_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_RAZOR_LEAF_FAST": false,
+    "MOVE_VINE_WHIP_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_SLUDGE_BOMB": false,
+    "MOVE_PETAL_BLIZZARD": false,
+    "MOVE_SOLAR_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 2,
-  "weight": 100,
-  "family": "FAMILY_BULBASAUR",
-  "forms": null,
-  "_id": "POKEMON_VENUSAUR"
+  "weight": 100
 }

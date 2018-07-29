@@ -1,6 +1,7 @@
 {
   "name": "Magnemite",
   "dex": 81,
+  "family": "FAMILY_MAGNEMITE",
   "generation": 1,
   "types": [
     "electric",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_MAGNETON",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPARK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDER_SHOCK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_DISCHARGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MAGNET_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDERBOLT",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPARK_FAST": false,
+    "MOVE_THUNDER_SHOCK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_DISCHARGE": false,
+    "MOVE_MAGNET_BOMB": false,
+    "MOVE_THUNDERBOLT": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.3,
-  "weight": 6,
-  "family": "FAMILY_MAGNEMITE",
-  "forms": null,
-  "_id": "POKEMON_MAGNEMITE"
+  "weight": 6
 }

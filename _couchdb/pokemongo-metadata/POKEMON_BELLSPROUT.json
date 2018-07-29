@@ -1,6 +1,7 @@
 {
   "name": "Bellsprout",
   "dex": 69,
+  "family": "FAMILY_BELLSPROUT",
   "generation": 1,
   "types": [
     "grass",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_WEEPINBELL",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_VINE_WHIP_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ACID_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_POWER_WHIP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WRAP",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_VINE_WHIP_FAST": false,
+    "MOVE_ACID_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_POWER_WHIP": false,
+    "MOVE_SLUDGE_BOMB": false,
+    "MOVE_WRAP": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.7,
-  "weight": 4,
-  "family": "FAMILY_BELLSPROUT",
-  "forms": null,
-  "_id": "POKEMON_BELLSPROUT"
+  "weight": 4
 }

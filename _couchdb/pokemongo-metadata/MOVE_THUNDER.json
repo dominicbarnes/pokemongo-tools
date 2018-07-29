@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_THUNDER",
   "name": "Thunder",
   "type": "electric",
-  "power": 100
+  "power": 100,
+  "quick": false
 }

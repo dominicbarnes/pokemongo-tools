@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_ENERGY_BALL",
   "name": "Energy Ball",
   "type": "grass",
-  "power": 90
+  "power": 90,
+  "quick": false
 }

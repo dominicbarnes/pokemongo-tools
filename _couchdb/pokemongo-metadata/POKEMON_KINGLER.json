@@ -1,6 +1,7 @@
 {
   "name": "Kingler",
   "dex": 99,
+  "family": "FAMILY_KRABBY",
   "generation": 1,
   "types": [
     "water"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_KRABBY",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_BUBBLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_METAL_CLAW_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_VICE_GRIP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_X_SCISSOR",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_PULSE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_BUBBLE_FAST": false,
+    "MOVE_METAL_CLAW_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_VICE_GRIP": false,
+    "MOVE_X_SCISSOR": false,
+    "MOVE_WATER_PULSE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.3,
-  "weight": 60,
-  "family": "FAMILY_KRABBY",
-  "forms": null,
-  "_id": "POKEMON_KINGLER"
+  "weight": 60
 }

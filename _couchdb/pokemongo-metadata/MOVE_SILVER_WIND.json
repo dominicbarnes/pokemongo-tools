@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_SILVER_WIND",
   "name": "Silver Wind",
   "type": "bug",
-  "power": 70
+  "power": 70,
+  "quick": false
 }

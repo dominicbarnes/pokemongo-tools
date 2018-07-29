@@ -1,6 +1,7 @@
 {
   "name": "Krabby",
   "dex": 98,
+  "family": "FAMILY_KRABBY",
   "generation": 1,
   "types": [
     "water"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_KINGLER",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_BUBBLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MUD_SHOT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_VICE_GRIP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BUBBLE_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_PULSE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_BUBBLE_FAST": false,
+    "MOVE_MUD_SHOT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_VICE_GRIP": false,
+    "MOVE_BUBBLE_BEAM": false,
+    "MOVE_WATER_PULSE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.4,
-  "weight": 6.5,
-  "family": "FAMILY_KRABBY",
-  "forms": null,
-  "_id": "POKEMON_KRABBY"
+  "weight": 6.5
 }

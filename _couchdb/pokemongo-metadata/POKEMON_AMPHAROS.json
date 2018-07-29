@@ -1,6 +1,7 @@
 {
   "name": "Ampharos",
   "dex": 181,
+  "family": "FAMILY_MAREEP",
   "generation": 2,
   "types": [
     "electric"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_FLAAFFY",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_CHARGE_BEAM_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_VOLT_SWITCH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_ZAP_CANNON",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FOCUS_BLAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDER",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_CHARGE_BEAM_FAST": false,
+    "MOVE_VOLT_SWITCH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_ZAP_CANNON": false,
+    "MOVE_FOCUS_BLAST": false,
+    "MOVE_THUNDER": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.4,
-  "weight": 61.5,
-  "family": "FAMILY_MAREEP",
-  "forms": null,
-  "_id": "POKEMON_AMPHAROS"
+  "weight": 61.5
 }

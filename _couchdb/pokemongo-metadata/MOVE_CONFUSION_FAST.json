@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_CONFUSION_FAST",
   "name": "Confusion",
   "type": "psychic",
-  "power": 20
+  "power": 20,
+  "quick": true
 }

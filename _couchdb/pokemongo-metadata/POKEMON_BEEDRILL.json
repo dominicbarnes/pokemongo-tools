@@ -1,6 +1,7 @@
 {
   "name": "Beedrill",
   "dex": 15,
+  "family": "FAMILY_WEEDLE",
   "generation": 1,
   "types": [
     "bug",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_KAKUNA",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_INFESTATION_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_POISON_JAB_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_SLUDGE_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_X_SCISSOR",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_INFESTATION_FAST": false,
+    "MOVE_POISON_JAB_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_SLUDGE_BOMB": false,
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_X_SCISSOR": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 1,
-  "weight": 29.5,
-  "family": "FAMILY_WEEDLE",
-  "forms": null,
-  "_id": "POKEMON_BEEDRILL"
+  "weight": 29.5
 }

@@ -1,6 +1,7 @@
 {
   "name": "Parasect",
   "dex": 47,
+  "family": "FAMILY_PARAS",
   "generation": 1,
   "types": [
     "bug",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_PARAS",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_STRUGGLE_BUG_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FURY_CUTTER_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_CROSS_POISON",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_X_SCISSOR",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SOLAR_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_STRUGGLE_BUG_FAST": false,
+    "MOVE_FURY_CUTTER_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_CROSS_POISON": false,
+    "MOVE_X_SCISSOR": false,
+    "MOVE_SOLAR_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1,
-  "weight": 29.5,
-  "family": "FAMILY_PARAS",
-  "forms": null,
-  "_id": "POKEMON_PARASECT"
+  "weight": 29.5
 }

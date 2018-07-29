@@ -1,6 +1,7 @@
 {
   "name": "Rhyhorn",
   "dex": 111,
+  "family": "FAMILY_RHYHORN",
   "generation": 1,
   "types": [
     "ground",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_RHYDON",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_MUD_SLAP_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SMASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_BULLDOZE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HORN_ATTACK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STOMP",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_MUD_SLAP_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_BULLDOZE": false,
+    "MOVE_HORN_ATTACK": false,
+    "MOVE_STOMP": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1,
-  "weight": 115,
-  "family": "FAMILY_RHYHORN",
-  "forms": null,
-  "_id": "POKEMON_RHYHORN"
+  "weight": 115
 }

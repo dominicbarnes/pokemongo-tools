@@ -1,6 +1,7 @@
 {
   "name": "Smeargle",
   "dex": 235,
+  "family": "FAMILY_SMEARGLE",
   "generation": 2,
   "types": [
     "normal"
@@ -12,23 +13,14 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_TACKLE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.19,
-  "weight": 58,
-  "family": "FAMILY_SMEARGLE",
-  "forms": null,
-  "_id": "POKEMON_SMEARGLE"
+  "weight": 58
 }

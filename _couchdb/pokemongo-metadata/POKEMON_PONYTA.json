@@ -1,6 +1,7 @@
 {
   "name": "Ponyta",
   "dex": 77,
+  "family": "FAMILY_PONYTA",
   "generation": 1,
   "types": [
     "fire"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_RAPIDASH",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EMBER_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_FLAME_CHARGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FLAME_WHEEL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STOMP",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_TACKLE_FAST": false,
+    "MOVE_EMBER_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_FLAME_CHARGE": false,
+    "MOVE_FLAME_WHEEL": false,
+    "MOVE_STOMP": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1,
-  "weight": 30,
-  "family": "FAMILY_PONYTA",
-  "forms": null,
-  "_id": "POKEMON_PONYTA"
+  "weight": 30
 }

@@ -1,6 +1,7 @@
 {
   "name": "Wurmple",
   "dex": 265,
+  "family": "FAMILY_WURMPLE",
   "generation": 3,
   "types": [
     "bug"
@@ -14,40 +15,23 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_SILCOON",
-      "candy": 12,
-      "item": null
+      "candy": 12
     },
     {
       "pokemon": "POKEMON_CASCOON",
-      "candy": 12,
-      "item": null
+      "candy": 12
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BUG_BITE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_TACKLE_FAST": false,
+    "MOVE_BUG_BITE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.3,
-  "weight": 3.6,
-  "family": "FAMILY_WURMPLE",
-  "forms": null,
-  "_id": "POKEMON_WURMPLE"
+  "weight": 3.6
 }

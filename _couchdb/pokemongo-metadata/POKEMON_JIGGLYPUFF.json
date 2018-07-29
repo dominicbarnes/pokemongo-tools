@@ -1,6 +1,7 @@
 {
   "name": "Jigglypuff",
   "dex": 39,
+  "family": "FAMILY_JIGGLYPUFF",
   "generation": 1,
   "types": [
     "normal",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_WIGGLYTUFF",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_POUND_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FEINT_ATTACK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_DISARMING_VOICE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_GYRO_BALL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DAZZLING_GLEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_POUND_FAST": false,
+    "MOVE_FEINT_ATTACK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_DISARMING_VOICE": false,
+    "MOVE_GYRO_BALL": false,
+    "MOVE_DAZZLING_GLEAM": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.5,
-  "weight": 5.5,
-  "family": "FAMILY_JIGGLYPUFF",
-  "forms": null,
-  "_id": "POKEMON_JIGGLYPUFF"
+  "weight": 5.5
 }

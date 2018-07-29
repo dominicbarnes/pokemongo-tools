@@ -1,6 +1,7 @@
 {
   "name": "Wailord",
   "dex": 321,
+  "family": "FAMILY_WAILMER",
   "generation": 3,
   "types": [
     "water"
@@ -12,43 +13,19 @@
   },
   "previousEvolution": "POKEMON_WAILMER",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_ZEN_HEADBUTT_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_SURF",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BLIZZARD",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HYPER_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_ZEN_HEADBUTT_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_SURF": false,
+    "MOVE_BLIZZARD": false,
+    "MOVE_HYPER_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 14.5,
-  "weight": 398,
-  "family": "FAMILY_WAILMER",
-  "forms": null,
-  "_id": "POKEMON_WAILORD"
+  "weight": 398
 }

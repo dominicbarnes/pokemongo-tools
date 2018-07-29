@@ -1,6 +1,7 @@
 {
   "name": "Voltorb",
   "dex": 100,
+  "family": "FAMILY_VOLTORB",
   "generation": 1,
   "types": [
     "electric"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_ELECTRODE",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPARK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_DISCHARGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDERBOLT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_GYRO_BALL",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPARK_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_DISCHARGE": false,
+    "MOVE_THUNDERBOLT": false,
+    "MOVE_GYRO_BALL": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.5,
-  "weight": 10.4,
-  "family": "FAMILY_VOLTORB",
-  "forms": null,
-  "_id": "POKEMON_VOLTORB"
+  "weight": 10.4
 }

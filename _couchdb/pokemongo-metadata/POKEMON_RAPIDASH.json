@@ -1,6 +1,7 @@
 {
   "name": "Rapidash",
   "dex": 78,
+  "family": "FAMILY_PONYTA",
   "generation": 1,
   "types": [
     "fire"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_PONYTA",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_LOW_KICK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FIRE_SPIN_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_FIRE_BLAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DRILL_RUN",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HEAT_WAVE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_LOW_KICK_FAST": false,
+    "MOVE_FIRE_SPIN_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_FIRE_BLAST": false,
+    "MOVE_DRILL_RUN": false,
+    "MOVE_HEAT_WAVE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.7,
-  "weight": 95,
-  "family": "FAMILY_PONYTA",
-  "forms": null,
-  "_id": "POKEMON_RAPIDASH"
+  "weight": 95
 }

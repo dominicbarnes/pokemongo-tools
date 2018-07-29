@@ -1,6 +1,7 @@
 {
   "name": "Hypno",
   "dex": 97,
+  "family": "FAMILY_DROWZEE",
   "generation": 1,
   "types": [
     "psychic"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_DROWZEE",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_ZEN_HEADBUTT_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CONFUSION_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_FUTURESIGHT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FOCUS_BLAST",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_ZEN_HEADBUTT_FAST": false,
+    "MOVE_CONFUSION_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_FUTURESIGHT": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_FOCUS_BLAST": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.6,
-  "weight": 75.6,
-  "family": "FAMILY_DROWZEE",
-  "forms": null,
-  "_id": "POKEMON_HYPNO"
+  "weight": 75.6
 }

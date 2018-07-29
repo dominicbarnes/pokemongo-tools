@@ -1,6 +1,7 @@
 {
   "name": "Bellossom",
   "dex": 182,
+  "family": "FAMILY_ODDISH",
   "generation": 2,
   "types": [
     "grass"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_GLOOM",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_RAZOR_LEAF_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ACID_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_LEAF_BLADE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PETAL_BLIZZARD",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DAZZLING_GLEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_RAZOR_LEAF_FAST": false,
+    "MOVE_ACID_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_LEAF_BLADE": false,
+    "MOVE_PETAL_BLIZZARD": false,
+    "MOVE_DAZZLING_GLEAM": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.41,
-  "weight": 5.8,
-  "family": "FAMILY_ODDISH",
-  "forms": null,
-  "_id": "POKEMON_BELLOSSOM"
+  "weight": 5.8
 }

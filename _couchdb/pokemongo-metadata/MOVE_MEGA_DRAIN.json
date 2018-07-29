@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_MEGA_DRAIN",
   "name": "Mega Drain",
   "type": "grass",
-  "power": 25
+  "power": 25,
+  "quick": false
 }

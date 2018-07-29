@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_ZEN_HEADBUTT_FAST",
   "name": "Zen Headbutt",
   "type": "psychic",
-  "power": 12
+  "power": 12,
+  "quick": true
 }

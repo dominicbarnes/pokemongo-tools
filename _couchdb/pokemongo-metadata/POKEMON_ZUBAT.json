@@ -1,6 +1,7 @@
 {
   "name": "Zubat",
   "dex": 41,
+  "family": "FAMILY_ZUBAT",
   "generation": 1,
   "types": [
     "poison",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_GOLBAT",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_QUICK_ATTACK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BITE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_POISON_FANG",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AIR_CUTTER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SWIFT",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_QUICK_ATTACK_FAST": false,
+    "MOVE_BITE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_POISON_FANG": false,
+    "MOVE_AIR_CUTTER": false,
+    "MOVE_SWIFT": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.8,
-  "weight": 7.5,
-  "family": "FAMILY_ZUBAT",
-  "forms": null,
-  "_id": "POKEMON_ZUBAT"
+  "weight": 7.5
 }

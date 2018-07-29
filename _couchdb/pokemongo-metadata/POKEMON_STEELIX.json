@@ -1,6 +1,7 @@
 {
   "name": "Steelix",
   "dex": 208,
+  "family": "FAMILY_ONIX",
   "generation": 2,
   "types": [
     "steel",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_ONIX",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_IRON_TAIL_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DRAGON_TAIL_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HEAVY_SLAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CRUNCH",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_IRON_TAIL_FAST": false,
+    "MOVE_DRAGON_TAIL_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_HEAVY_SLAM": false,
+    "MOVE_CRUNCH": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 9.19,
-  "weight": 400,
-  "family": "FAMILY_ONIX",
-  "forms": null,
-  "_id": "POKEMON_STEELIX"
+  "weight": 400
 }

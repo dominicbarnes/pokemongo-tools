@@ -1,6 +1,7 @@
 {
   "name": "Barboach",
   "dex": 339,
+  "family": "FAMILY_BARBOACH",
   "generation": 3,
   "types": [
     "water",
@@ -15,47 +16,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_WHISCASH",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MUD_SHOT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_AQUA_TAIL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ICE_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MUD_BOMB",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_WATER_GUN_FAST": false,
+    "MOVE_MUD_SHOT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_AQUA_TAIL": false,
+    "MOVE_ICE_BEAM": false,
+    "MOVE_MUD_BOMB": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.41,
-  "weight": 1.9,
-  "family": "FAMILY_BARBOACH",
-  "forms": null,
-  "_id": "POKEMON_BARBOACH"
+  "weight": 1.9
 }

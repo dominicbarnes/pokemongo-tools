@@ -1,6 +1,7 @@
 {
   "name": "Seadra",
   "dex": 117,
+  "family": "FAMILY_HORSEA",
   "generation": 1,
   "types": [
     "water"
@@ -15,40 +16,20 @@
     {
       "pokemon": "POKEMON_KINGDRA",
       "candy": 100,
-      "item": {
-        "id": "ITEM_DRAGON_SCALE"
-      }
+      "item": "ITEM_DRAGON_SCALE"
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DRAGON_BREATH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_AURORA_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DRAGON_PULSE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HYDRO_PUMP",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_WATER_GUN_FAST": false,
+    "MOVE_DRAGON_BREATH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_AURORA_BEAM": false,
+    "MOVE_DRAGON_PULSE": false,
+    "MOVE_HYDRO_PUMP": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.2,
-  "weight": 25,
-  "family": "FAMILY_HORSEA",
-  "forms": null,
-  "_id": "POKEMON_SEADRA"
+  "weight": 25
 }

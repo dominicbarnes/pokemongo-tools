@@ -1,6 +1,7 @@
 {
   "name": "Drowzee",
   "dex": 96,
+  "family": "FAMILY_DROWZEE",
   "generation": 1,
   "types": [
     "psychic"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_HYPNO",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_POUND_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CONFUSION_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_PSYBEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYSHOCK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_POUND_FAST": false,
+    "MOVE_CONFUSION_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_PSYBEAM": false,
+    "MOVE_PSYSHOCK": false,
+    "MOVE_PSYCHIC": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1,
-  "weight": 32.4,
-  "family": "FAMILY_DROWZEE",
-  "forms": null,
-  "_id": "POKEMON_DROWZEE"
+  "weight": 32.4
 }

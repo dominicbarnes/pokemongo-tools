@@ -1,6 +1,7 @@
 {
   "name": "Masquerain",
   "dex": 284,
+  "family": "FAMILY_SURSKIT",
   "generation": 3,
   "types": [
     "bug",
@@ -13,43 +14,19 @@
   },
   "previousEvolution": "POKEMON_SURSKIT",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_INFESTATION_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AIR_SLASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_AIR_CUTTER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_OMINOUS_WIND",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SILVER_WIND",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_INFESTATION_FAST": false,
+    "MOVE_AIR_SLASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_AIR_CUTTER": false,
+    "MOVE_OMINOUS_WIND": false,
+    "MOVE_SILVER_WIND": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.79,
-  "weight": 3.6,
-  "family": "FAMILY_SURSKIT",
-  "forms": null,
-  "_id": "POKEMON_MASQUERAIN"
+  "weight": 3.6
 }

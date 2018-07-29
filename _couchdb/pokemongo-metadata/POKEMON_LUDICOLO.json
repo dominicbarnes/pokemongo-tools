@@ -1,6 +1,7 @@
 {
   "name": "Ludicolo",
   "dex": 272,
+  "family": "FAMILY_LOTAD",
   "generation": 3,
   "types": [
     "water",
@@ -13,43 +14,19 @@
   },
   "previousEvolution": "POKEMON_LOMBRE",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_BUBBLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_RAZOR_LEAF_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_HYDRO_PUMP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BLIZZARD",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SOLAR_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_BUBBLE_FAST": false,
+    "MOVE_RAZOR_LEAF_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_BLIZZARD": false,
+    "MOVE_SOLAR_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.5,
-  "weight": 55,
-  "family": "FAMILY_LOTAD",
-  "forms": null,
-  "_id": "POKEMON_LUDICOLO"
+  "weight": 55
 }

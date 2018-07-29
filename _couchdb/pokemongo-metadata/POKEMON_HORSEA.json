@@ -1,6 +1,7 @@
 {
   "name": "Horsea",
   "dex": 116,
+  "family": "FAMILY_HORSEA",
   "generation": 1,
   "types": [
     "water"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_SEADRA",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BUBBLE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_BUBBLE_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DRAGON_PULSE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FLASH_CANNON",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_WATER_GUN_FAST": false,
+    "MOVE_BUBBLE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_BUBBLE_BEAM": false,
+    "MOVE_DRAGON_PULSE": false,
+    "MOVE_FLASH_CANNON": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.4,
-  "weight": 8,
-  "family": "FAMILY_HORSEA",
-  "forms": null,
-  "_id": "POKEMON_HORSEA"
+  "weight": 8
 }

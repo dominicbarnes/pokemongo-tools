@@ -1,6 +1,7 @@
 {
   "name": "Poochyena",
   "dex": 261,
+  "family": "FAMILY_POOCHYENA",
   "generation": 3,
   "types": [
     "dark"
@@ -14,47 +15,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_MIGHTYENA",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SNARL_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_CRUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DIG",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_POISON_FANG",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_TACKLE_FAST": false,
+    "MOVE_SNARL_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_CRUNCH": false,
+    "MOVE_DIG": false,
+    "MOVE_POISON_FANG": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.51,
-  "weight": 13.6,
-  "family": "FAMILY_POOCHYENA",
-  "forms": null,
-  "_id": "POKEMON_POOCHYENA"
+  "weight": 13.6
 }

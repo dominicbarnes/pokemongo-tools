@@ -1,6 +1,7 @@
 {
   "name": "Growlithe",
   "dex": 58,
+  "family": "FAMILY_GROWLITHE",
   "generation": 1,
   "types": [
     "fire"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_ARCANINE",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_EMBER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BITE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_FLAME_WHEEL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BODY_SLAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FLAMETHROWER",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_BITE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_FLAME_WHEEL": false,
+    "MOVE_BODY_SLAM": false,
+    "MOVE_FLAMETHROWER": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.7,
-  "weight": 19,
-  "family": "FAMILY_GROWLITHE",
-  "forms": null,
-  "_id": "POKEMON_GROWLITHE"
+  "weight": 19
 }

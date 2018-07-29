@@ -1,6 +1,7 @@
 {
   "name": "Gengar",
   "dex": 94,
+  "family": "FAMILY_GASTLY",
   "generation": 1,
   "types": [
     "ghost",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_HAUNTER",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SUCKER_PUNCH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HEX_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_SHADOW_BALL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FOCUS_BLAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_BOMB",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SUCKER_PUNCH_FAST": false,
+    "MOVE_HEX_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_SHADOW_BALL": false,
+    "MOVE_FOCUS_BLAST": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.5,
-  "weight": 40.5,
-  "family": "FAMILY_GASTLY",
-  "forms": null,
-  "_id": "POKEMON_GENGAR"
+  "weight": 40.5
 }

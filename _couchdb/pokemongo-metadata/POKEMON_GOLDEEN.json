@@ -1,6 +1,7 @@
 {
   "name": "Goldeen",
   "dex": 118,
+  "family": "FAMILY_GOLDEEN",
   "generation": 1,
   "types": [
     "water"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_SEAKING",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_PECK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MUD_SHOT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_WATER_PULSE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HORN_ATTACK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AQUA_TAIL",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_PECK_FAST": false,
+    "MOVE_MUD_SHOT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_WATER_PULSE": false,
+    "MOVE_HORN_ATTACK": false,
+    "MOVE_AQUA_TAIL": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.6,
-  "weight": 15,
-  "family": "FAMILY_GOLDEEN",
-  "forms": null,
-  "_id": "POKEMON_GOLDEEN"
+  "weight": 15
 }

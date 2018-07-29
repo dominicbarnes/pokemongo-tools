@@ -1,6 +1,7 @@
 {
   "name": "Octillery",
   "dex": 224,
+  "family": "FAMILY_REMORAID",
   "generation": 2,
   "types": [
     "water"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_REMORAID",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MUD_SHOT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_GUNK_SHOT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_PULSE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AURORA_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_WATER_GUN_FAST": false,
+    "MOVE_MUD_SHOT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_GUNK_SHOT": false,
+    "MOVE_WATER_PULSE": false,
+    "MOVE_AURORA_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.89,
-  "weight": 28.5,
-  "family": "FAMILY_REMORAID",
-  "forms": null,
-  "_id": "POKEMON_OCTILLERY"
+  "weight": 28.5
 }

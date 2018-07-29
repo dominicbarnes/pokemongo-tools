@@ -1,6 +1,7 @@
 {
   "name": "Flaaffy",
   "dex": 180,
+  "family": "FAMILY_MAREEP",
   "generation": 2,
   "types": [
     "electric"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_AMPHAROS",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CHARGE_BEAM_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_POWER_GEM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDERBOLT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DISCHARGE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_TACKLE_FAST": false,
+    "MOVE_CHARGE_BEAM_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_POWER_GEM": false,
+    "MOVE_THUNDERBOLT": false,
+    "MOVE_DISCHARGE": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.79,
-  "weight": 13.3,
-  "family": "FAMILY_MAREEP",
-  "forms": null,
-  "_id": "POKEMON_FLAAFFY"
+  "weight": 13.3
 }

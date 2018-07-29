@@ -1,6 +1,7 @@
 {
   "name": "Magby",
   "dex": 240,
+  "family": "FAMILY_MAGMAR",
   "generation": 2,
   "types": [
     "fire"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_MAGMAR",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_EMBER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_KARATE_CHOP_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_BRICK_BREAK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FIRE_PUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FLAME_BURST",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_KARATE_CHOP_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_BRICK_BREAK": false,
+    "MOVE_FIRE_PUNCH": false,
+    "MOVE_FLAME_BURST": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.71,
-  "weight": 21.4,
-  "family": "FAMILY_MAGMAR",
-  "forms": null,
-  "_id": "POKEMON_MAGBY"
+  "weight": 21.4
 }

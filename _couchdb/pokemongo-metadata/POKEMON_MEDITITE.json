@@ -1,6 +1,7 @@
 {
   "name": "Meditite",
   "dex": 307,
+  "family": "FAMILY_MEDITITE",
   "generation": 3,
   "types": [
     "fighting",
@@ -15,47 +16,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_MEDICHAM",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_CONFUSION_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SMASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_ICE_PUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYSHOCK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_LOW_SWEEP",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_ICE_PUNCH": false,
+    "MOVE_PSYSHOCK": false,
+    "MOVE_LOW_SWEEP": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.61,
-  "weight": 11.2,
-  "family": "FAMILY_MEDITITE",
-  "forms": null,
-  "_id": "POKEMON_MEDITITE"
+  "weight": 11.2
 }

@@ -1,6 +1,7 @@
 {
   "name": "Misdreavus",
   "dex": 200,
+  "family": "FAMILY_MISDREAVUS",
   "generation": 2,
   "types": [
     "ghost"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_ASTONISH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HEX_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_SHADOW_SNEAK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DARK_PULSE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_OMINOUS_WIND",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_ASTONISH_FAST": false,
+    "MOVE_HEX_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_SHADOW_SNEAK": false,
+    "MOVE_DARK_PULSE": false,
+    "MOVE_OMINOUS_WIND": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.71,
-  "weight": 1,
-  "family": "FAMILY_MISDREAVUS",
-  "forms": null,
-  "_id": "POKEMON_MISDREAVUS"
+  "weight": 1
 }

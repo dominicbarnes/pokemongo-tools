@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_BRAVE_BIRD",
   "name": "Brave Bird",
   "type": "flying",
-  "power": 90
+  "power": 90,
+  "quick": false
 }

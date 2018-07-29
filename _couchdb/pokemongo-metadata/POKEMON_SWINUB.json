@@ -1,6 +1,7 @@
 {
   "name": "Swinub",
   "dex": 220,
+  "family": "FAMILY_SWINUB",
   "generation": 2,
   "types": [
     "ice",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_PILOSWINE",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_POWDER_SNOW_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_ICY_WIND",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BODY_SLAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SLIDE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_TACKLE_FAST": false,
+    "MOVE_POWDER_SNOW_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_ICY_WIND": false,
+    "MOVE_BODY_SLAM": false,
+    "MOVE_ROCK_SLIDE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.41,
-  "weight": 6.5,
-  "family": "FAMILY_SWINUB",
-  "forms": null,
-  "_id": "POKEMON_SWINUB"
+  "weight": 6.5
 }

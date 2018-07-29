@@ -1,6 +1,7 @@
 {
   "name": "Spinda",
   "dex": 327,
+  "family": "FAMILY_SPINDA",
   "generation": 3,
   "types": [
     "normal"
@@ -12,43 +13,19 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_SUCKER_PUNCH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYCHO_CUT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_DIG",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_TOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ICY_WIND",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_SUCKER_PUNCH_FAST": false,
+    "MOVE_PSYCHO_CUT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_DIG": false,
+    "MOVE_ROCK_TOMB": false,
+    "MOVE_ICY_WIND": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.09,
-  "weight": 5,
-  "family": "FAMILY_SPINDA",
-  "forms": null,
-  "_id": "POKEMON_SPINDA"
+  "weight": 5
 }

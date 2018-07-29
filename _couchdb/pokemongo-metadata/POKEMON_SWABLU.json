@@ -1,6 +1,7 @@
 {
   "name": "Swablu",
   "dex": 333,
+  "family": "FAMILY_SWABLU",
   "generation": 3,
   "types": [
     "normal",
@@ -15,47 +16,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_ALTARIA",
-      "candy": 400,
-      "item": null
+      "candy": 400
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_PECK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ASTONISH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_DISARMING_VOICE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ICE_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_PECK_FAST": false,
+    "MOVE_ASTONISH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_DISARMING_VOICE": false,
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_ICE_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.41,
-  "weight": 1.2,
-  "family": "FAMILY_SWABLU",
-  "forms": null,
-  "_id": "POKEMON_SWABLU"
+  "weight": 1.2
 }

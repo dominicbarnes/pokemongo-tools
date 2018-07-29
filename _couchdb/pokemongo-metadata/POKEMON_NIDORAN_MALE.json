@@ -1,6 +1,7 @@
 {
   "name": "Nidoran ♂",
   "dex": 32,
+  "family": "FAMILY_NIDORAN_MALE",
   "generation": 1,
   "types": [
     "poison"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_NIDORINO",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_PECK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_POISON_STING_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_HORN_ATTACK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BODY_SLAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_BOMB",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_PECK_FAST": false,
+    "MOVE_POISON_STING_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_HORN_ATTACK": false,
+    "MOVE_BODY_SLAM": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.5,
-  "weight": 9,
-  "family": "FAMILY_NIDORAN_MALE",
-  "forms": null,
-  "_id": "POKEMON_NIDORAN_MALE"
+  "weight": 9
 }

@@ -1,6 +1,7 @@
 {
   "name": "Donphan",
   "dex": 232,
+  "family": "FAMILY_PHANPY",
   "generation": 2,
   "types": [
     "ground"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_PHANPY",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_COUNTER_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HEAVY_SLAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PLAY_ROUGH",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_TACKLE_FAST": false,
+    "MOVE_COUNTER_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_HEAVY_SLAM": false,
+    "MOVE_PLAY_ROUGH": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.09,
-  "weight": 120,
-  "family": "FAMILY_PHANPY",
-  "forms": null,
-  "_id": "POKEMON_DONPHAN"
+  "weight": 120
 }

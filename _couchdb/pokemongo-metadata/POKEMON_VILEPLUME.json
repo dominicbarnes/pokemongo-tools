@@ -1,6 +1,7 @@
 {
   "name": "Vileplume",
   "dex": 45,
+  "family": "FAMILY_ODDISH",
   "generation": 1,
   "types": [
     "grass",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_GLOOM",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_RAZOR_LEAF_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ACID_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_PETAL_BLIZZARD",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SOLAR_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MOONBLAST",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_RAZOR_LEAF_FAST": false,
+    "MOVE_ACID_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_PETAL_BLIZZARD": false,
+    "MOVE_SOLAR_BEAM": false,
+    "MOVE_MOONBLAST": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.2,
-  "weight": 18.6,
-  "family": "FAMILY_ODDISH",
-  "forms": null,
-  "_id": "POKEMON_VILEPLUME"
+  "weight": 18.6
 }

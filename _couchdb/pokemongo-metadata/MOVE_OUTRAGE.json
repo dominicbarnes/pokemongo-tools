@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_OUTRAGE",
   "name": "Outrage",
   "type": "dragon",
-  "power": 110
+  "power": 110,
+  "quick": false
 }

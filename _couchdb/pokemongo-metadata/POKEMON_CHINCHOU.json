@@ -1,6 +1,7 @@
 {
   "name": "Chinchou",
   "dex": 170,
+  "family": "FAMILY_CHINCHOU",
   "generation": 2,
   "types": [
     "water",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_LANTURN",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_BUBBLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SPARK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_WATER_PULSE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDERBOLT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BUBBLE_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_BUBBLE_FAST": false,
+    "MOVE_SPARK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_WATER_PULSE": false,
+    "MOVE_THUNDERBOLT": false,
+    "MOVE_BUBBLE_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.51,
-  "weight": 12,
-  "family": "FAMILY_CHINCHOU",
-  "forms": null,
-  "_id": "POKEMON_CHINCHOU"
+  "weight": 12
 }

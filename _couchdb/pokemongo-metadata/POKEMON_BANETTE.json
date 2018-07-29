@@ -1,6 +1,7 @@
 {
   "name": "Banette",
   "dex": 354,
+  "family": "FAMILY_SHUPPET",
   "generation": 3,
   "types": [
     "ghost"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_SHUPPET",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_HEX_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SHADOW_CLAW_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_SHADOW_BALL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DAZZLING_GLEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDER",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_HEX_FAST": false,
+    "MOVE_SHADOW_CLAW_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_SHADOW_BALL": false,
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_THUNDER": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.09,
-  "weight": 12.5,
-  "family": "FAMILY_SHUPPET",
-  "forms": null,
-  "_id": "POKEMON_BANETTE"
+  "weight": 12.5
 }

@@ -1,6 +1,7 @@
 {
   "name": "Grovyle",
   "dex": 253,
+  "family": "FAMILY_TREECKO",
   "generation": 3,
   "types": [
     "grass"
@@ -14,47 +15,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_SCEPTILE",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_QUICK_ATTACK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BULLET_SEED_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_LEAF_BLADE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_GRASS_KNOT",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_QUICK_ATTACK_FAST": false,
+    "MOVE_BULLET_SEED_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_LEAF_BLADE": false,
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_GRASS_KNOT": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.89,
-  "weight": 21.6,
-  "family": "FAMILY_TREECKO",
-  "forms": null,
-  "_id": "POKEMON_GROVYLE"
+  "weight": 21.6
 }

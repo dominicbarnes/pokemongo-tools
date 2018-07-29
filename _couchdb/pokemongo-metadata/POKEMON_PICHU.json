@@ -1,6 +1,7 @@
 {
   "name": "Pichu",
   "dex": 172,
+  "family": "FAMILY_PIKACHU",
   "generation": 2,
   "types": [
     "electric"
@@ -14,35 +15,19 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_PIKACHU",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_THUNDER_SHOCK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_THUNDERBOLT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DISARMING_VOICE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDER_PUNCH",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_THUNDER_SHOCK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_THUNDERBOLT": false,
+    "MOVE_DISARMING_VOICE": false,
+    "MOVE_THUNDER_PUNCH": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.3,
-  "weight": 2,
-  "family": "FAMILY_PIKACHU",
-  "forms": null,
-  "_id": "POKEMON_PICHU"
+  "weight": 2
 }

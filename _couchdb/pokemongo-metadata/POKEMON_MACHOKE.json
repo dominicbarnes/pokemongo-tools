@@ -1,6 +1,7 @@
 {
   "name": "Machoke",
   "dex": 67,
+  "family": "FAMILY_MACHOP",
   "generation": 1,
   "types": [
     "fighting"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_MACHAMP",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_LOW_KICK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_KARATE_CHOP_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_SUBMISSION",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BRICK_BREAK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DYNAMIC_PUNCH",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_LOW_KICK_FAST": false,
+    "MOVE_KARATE_CHOP_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_SUBMISSION": false,
+    "MOVE_BRICK_BREAK": false,
+    "MOVE_DYNAMIC_PUNCH": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.5,
-  "weight": 70.5,
-  "family": "FAMILY_MACHOP",
-  "forms": null,
-  "_id": "POKEMON_MACHOKE"
+  "weight": 70.5
 }

@@ -1,6 +1,7 @@
 {
   "name": "Beldum",
   "dex": 374,
+  "family": "FAMILY_BELDUM",
   "generation": 3,
   "types": [
     "steel",
@@ -15,31 +16,18 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_METANG",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_TAKE_DOWN_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_TAKE_DOWN_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.61,
-  "weight": 95.2,
-  "family": "FAMILY_BELDUM",
-  "forms": null,
-  "_id": "POKEMON_BELDUM"
+  "weight": 95.2
 }

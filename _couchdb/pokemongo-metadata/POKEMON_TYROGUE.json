@@ -1,6 +1,7 @@
 {
   "name": "Tyrogue",
   "dex": 236,
+  "family": "FAMILY_TYROGUE",
   "generation": 2,
   "types": [
     "fighting"
@@ -14,49 +15,28 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_HITMONLEE",
-      "candy": 25,
-      "item": null
+      "candy": 25
     },
     {
       "pokemon": "POKEMON_HITMONCHAN",
-      "candy": 25,
-      "item": null
+      "candy": 25
     },
     {
       "pokemon": "POKEMON_HITMONTOP",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_ROCK_SMASH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_BRICK_BREAK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SLIDE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_LOW_SWEEP",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_ROCK_SMASH_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_BRICK_BREAK": false,
+    "MOVE_ROCK_SLIDE": false,
+    "MOVE_LOW_SWEEP": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.71,
-  "weight": 21,
-  "family": "FAMILY_TYROGUE",
-  "forms": null,
-  "_id": "POKEMON_TYROGUE"
+  "weight": 21
 }

@@ -1,6 +1,7 @@
 {
   "name": "Vibrava",
   "dex": 329,
+  "family": "FAMILY_TRAPINCH",
   "generation": 3,
   "types": [
     "ground",
@@ -15,47 +16,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_FLYGON",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_MUD_SHOT_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DRAGON_BREATH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_SAND_TOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BULLDOZE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BUG_BUZZ",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_MUD_SHOT_FAST": false,
+    "MOVE_DRAGON_BREATH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_SAND_TOMB": false,
+    "MOVE_BULLDOZE": false,
+    "MOVE_BUG_BUZZ": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.09,
-  "weight": 15.3,
-  "family": "FAMILY_TRAPINCH",
-  "forms": null,
-  "_id": "POKEMON_VIBRAVA"
+  "weight": 15.3
 }

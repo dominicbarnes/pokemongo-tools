@@ -1,6 +1,7 @@
 {
   "name": "Wynaut",
   "dex": 360,
+  "family": "FAMILY_WOBBUFFET",
   "generation": 3,
   "types": [
     "psychic"
@@ -14,35 +15,19 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_WOBBUFFET",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_COUNTER_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_MIRROR_COAT",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": false,
+    "MOVE_COUNTER_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_MIRROR_COAT": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.61,
-  "weight": 14,
-  "family": "FAMILY_WOBBUFFET",
-  "forms": null,
-  "_id": "POKEMON_WYNAUT"
+  "weight": 14
 }

@@ -1,6 +1,7 @@
 {
   "name": "Cubone",
   "dex": 104,
+  "family": "FAMILY_CUBONE",
   "generation": 1,
   "types": [
     "ground"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_MAROWAK",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_MUD_SLAP_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SMASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_BONE_CLUB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DIG",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BULLDOZE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_MUD_SLAP_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_BONE_CLUB": false,
+    "MOVE_DIG": false,
+    "MOVE_BULLDOZE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.4,
-  "weight": 6.5,
-  "family": "FAMILY_CUBONE",
-  "forms": null,
-  "_id": "POKEMON_CUBONE"
+  "weight": 6.5
 }

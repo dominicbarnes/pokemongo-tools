@@ -1,6 +1,7 @@
 {
   "name": "Scizor",
   "dex": 212,
+  "family": "FAMILY_SCYTHER",
   "generation": 2,
   "types": [
     "bug",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_SCYTHER",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_BULLET_PUNCH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FURY_CUTTER_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_X_SCISSOR",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_IRON_HEAD",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_NIGHT_SLASH",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_BULLET_PUNCH_FAST": false,
+    "MOVE_FURY_CUTTER_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_X_SCISSOR": false,
+    "MOVE_IRON_HEAD": false,
+    "MOVE_NIGHT_SLASH": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 2.01,
-  "weight": 125,
-  "family": "FAMILY_SCYTHER",
-  "forms": null,
-  "_id": "POKEMON_SCIZOR"
+  "weight": 125
 }

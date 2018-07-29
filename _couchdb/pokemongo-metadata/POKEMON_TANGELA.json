@@ -1,6 +1,7 @@
 {
   "name": "Tangela",
   "dex": 114,
+  "family": "FAMILY_TANGELA",
   "generation": 1,
   "types": [
     "grass"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_VINE_WHIP_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_INFESTATION_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_GRASS_KNOT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SOLAR_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_VINE_WHIP_FAST": false,
+    "MOVE_INFESTATION_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_GRASS_KNOT": false,
+    "MOVE_SLUDGE_BOMB": false,
+    "MOVE_SOLAR_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1,
-  "weight": 35,
-  "family": "FAMILY_TANGELA",
-  "forms": null,
-  "_id": "POKEMON_TANGELA"
+  "weight": 35
 }

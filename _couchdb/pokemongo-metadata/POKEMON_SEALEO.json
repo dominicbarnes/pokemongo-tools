@@ -1,6 +1,7 @@
 {
   "name": "Sealeo",
   "dex": 364,
+  "family": "FAMILY_SPHEAL",
   "generation": 3,
   "types": [
     "ice",
@@ -15,47 +16,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_WALREIN",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_POWDER_SNOW_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_AURORA_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BODY_SLAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_PULSE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_WATER_GUN_FAST": false,
+    "MOVE_POWDER_SNOW_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_AURORA_BEAM": false,
+    "MOVE_BODY_SLAM": false,
+    "MOVE_WATER_PULSE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.09,
-  "weight": 87.6,
-  "family": "FAMILY_SPHEAL",
-  "forms": null,
-  "_id": "POKEMON_SEALEO"
+  "weight": 87.6
 }

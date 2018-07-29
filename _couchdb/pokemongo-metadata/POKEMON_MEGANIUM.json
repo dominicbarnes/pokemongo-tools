@@ -1,6 +1,7 @@
 {
   "name": "Meganium",
   "dex": 154,
+  "family": "FAMILY_CHIKORITA",
   "generation": 2,
   "types": [
     "grass"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_BAYLEEF",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_RAZOR_LEAF_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_VINE_WHIP_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_PETAL_BLIZZARD",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SOLAR_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_RAZOR_LEAF_FAST": false,
+    "MOVE_VINE_WHIP_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_PETAL_BLIZZARD": false,
+    "MOVE_SOLAR_BEAM": false,
+    "MOVE_EARTHQUAKE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.8,
-  "weight": 100.5,
-  "family": "FAMILY_CHIKORITA",
-  "forms": null,
-  "_id": "POKEMON_MEGANIUM"
+  "weight": 100.5
 }

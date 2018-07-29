@@ -1,6 +1,7 @@
 {
   "name": "Exploud",
   "dex": 295,
+  "family": "FAMILY_WHISMUR",
   "generation": 3,
   "types": [
     "normal"
@@ -12,43 +13,19 @@
   },
   "previousEvolution": "POKEMON_LOUDRED",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_BITE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ASTONISH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_CRUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DISARMING_VOICE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FIRE_BLAST",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_BITE_FAST": false,
+    "MOVE_ASTONISH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_CRUNCH": false,
+    "MOVE_DISARMING_VOICE": false,
+    "MOVE_FIRE_BLAST": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 1.5,
-  "weight": 84,
-  "family": "FAMILY_WHISMUR",
-  "forms": null,
-  "_id": "POKEMON_EXPLOUD"
+  "weight": 84
 }

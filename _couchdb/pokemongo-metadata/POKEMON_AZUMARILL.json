@@ -1,6 +1,7 @@
 {
   "name": "Azumarill",
   "dex": 184,
+  "family": "FAMILY_MARILL",
   "generation": 2,
   "types": [
     "water",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_MARILL",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_ROCK_SMASH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BUBBLE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_PLAY_ROUGH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HYDRO_PUMP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ICE_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_ROCK_SMASH_FAST": false,
+    "MOVE_BUBBLE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_PLAY_ROUGH": false,
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_ICE_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.79,
-  "weight": 28.5,
-  "family": "FAMILY_MARILL",
-  "forms": null,
-  "_id": "POKEMON_AZUMARILL"
+  "weight": 28.5
 }

@@ -1,6 +1,7 @@
 {
   "name": "Snorlax",
   "dex": 143,
+  "family": "FAMILY_SNORLAX",
   "generation": 1,
   "types": [
     "normal"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_ZEN_HEADBUTT_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_LICK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_HEAVY_SLAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HYPER_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_ZEN_HEADBUTT_FAST": false,
+    "MOVE_LICK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_HEAVY_SLAM": false,
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_EARTHQUAKE": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 2.1,
-  "weight": 460,
-  "family": "FAMILY_SNORLAX",
-  "forms": null,
-  "_id": "POKEMON_SNORLAX"
+  "weight": 460
 }

@@ -1,6 +1,7 @@
 {
   "name": "Raikou",
   "dex": 243,
+  "family": "FAMILY_RAIKOU",
   "generation": 2,
   "types": [
     "electric"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_THUNDER_SHOCK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_VOLT_SWITCH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_THUNDER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDERBOLT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WILD_CHARGE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_THUNDER_SHOCK_FAST": false,
+    "MOVE_VOLT_SWITCH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_THUNDER": false,
+    "MOVE_THUNDERBOLT": false,
+    "MOVE_WILD_CHARGE": false
+  },
   "rarity": "legendary",
   "buddyDistance": 20,
   "height": 1.91,
-  "weight": 178,
-  "family": "FAMILY_RAIKOU",
-  "forms": null,
-  "_id": "POKEMON_RAIKOU"
+  "weight": 178
 }

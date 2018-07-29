@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_VINE_WHIP_FAST",
   "name": "Vine Whip",
   "type": "grass",
-  "power": 7
+  "power": 7,
+  "quick": true
 }

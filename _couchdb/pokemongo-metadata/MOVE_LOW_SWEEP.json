@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_LOW_SWEEP",
   "name": "Low Sweep",
   "type": "fighting",
-  "power": 40
+  "power": 40,
+  "quick": false
 }

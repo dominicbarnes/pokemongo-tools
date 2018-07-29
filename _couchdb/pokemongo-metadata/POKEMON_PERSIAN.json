@@ -1,6 +1,7 @@
 {
   "name": "Persian",
   "dex": 53,
+  "family": "FAMILY_MEOWTH",
   "generation": 1,
   "types": [
     "normal"
@@ -12,39 +13,24 @@
   },
   "previousEvolution": "POKEMON_MEOWTH",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SCRATCH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FEINT_ATTACK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_FOUL_PLAY",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_POWER_GEM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PLAY_ROUGH",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SCRATCH_FAST": false,
+    "MOVE_FEINT_ATTACK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_FOUL_PLAY": false,
+    "MOVE_POWER_GEM": false,
+    "MOVE_PLAY_ROUGH": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1,
   "weight": 32,
-  "family": "FAMILY_MEOWTH",
   "forms": {
     "alola": {
       "name": "Persian (Alola)",
       "dex": 53,
+      "family": "FAMILY_MEOWTH",
       "generation": 1,
       "types": [
         "dark"
@@ -56,40 +42,24 @@
       },
       "previousEvolution": "POKEMON_MEOWTH",
       "nextEvolutions": [],
-      "quickMoves": [
-        {
-          "id": "MOVE_SCRATCH_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_FEINT_ATTACK_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_FOUL_PLAY",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_DARK_PULSE",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_PLAY_ROUGH",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_SCRATCH_FAST": false,
+        "MOVE_FEINT_ATTACK_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_FOUL_PLAY": false,
+        "MOVE_DARK_PULSE": false,
+        "MOVE_PLAY_ROUGH": false
+      },
       "rarity": null,
       "buddyDistance": 3,
       "height": 1.1,
-      "weight": 33,
-      "family": "FAMILY_MEOWTH",
-      "_id": "POKEMON_PERSIAN"
+      "weight": 33
     },
     "normal": {
       "name": "Persian",
       "dex": 53,
+      "family": "FAMILY_MEOWTH",
       "generation": 1,
       "types": [
         "normal"
@@ -101,37 +71,19 @@
       },
       "previousEvolution": "POKEMON_MEOWTH",
       "nextEvolutions": [],
-      "quickMoves": [
-        {
-          "id": "MOVE_SCRATCH_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_FEINT_ATTACK_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_FOUL_PLAY",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_POWER_GEM",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_PLAY_ROUGH",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_SCRATCH_FAST": false,
+        "MOVE_FEINT_ATTACK_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_FOUL_PLAY": false,
+        "MOVE_POWER_GEM": false,
+        "MOVE_PLAY_ROUGH": false
+      },
       "rarity": null,
       "buddyDistance": 3,
       "height": 1,
-      "weight": 32,
-      "family": "FAMILY_MEOWTH",
-      "_id": "POKEMON_PERSIAN"
+      "weight": 32
     }
-  },
-  "_id": "POKEMON_PERSIAN"
+  }
 }

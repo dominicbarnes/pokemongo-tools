@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_EARTHQUAKE",
   "name": "Earthquake",
   "type": "ground",
-  "power": 120
+  "power": 120,
+  "quick": false
 }

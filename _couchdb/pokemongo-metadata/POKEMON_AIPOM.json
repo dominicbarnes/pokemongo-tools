@@ -1,6 +1,7 @@
 {
   "name": "Aipom",
   "dex": 190,
+  "family": "FAMILY_AIPOM",
   "generation": 2,
   "types": [
     "normal"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SCRATCH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ASTONISH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_LOW_SWEEP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SWIFT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SCRATCH_FAST": false,
+    "MOVE_ASTONISH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_LOW_SWEEP": false,
+    "MOVE_SWIFT": false,
+    "MOVE_AERIAL_ACE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.79,
-  "weight": 11.5,
-  "family": "FAMILY_AIPOM",
-  "forms": null,
-  "_id": "POKEMON_AIPOM"
+  "weight": 11.5
 }

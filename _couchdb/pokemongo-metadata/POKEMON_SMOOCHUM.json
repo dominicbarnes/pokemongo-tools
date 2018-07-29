@@ -1,6 +1,7 @@
 {
   "name": "Smoochum",
   "dex": 238,
+  "family": "FAMILY_JYNX",
   "generation": 2,
   "types": [
     "ice",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_JYNX",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_POWDER_SNOW_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_POUND_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_ICE_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ICE_PUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYSHOCK",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_POWDER_SNOW_FAST": false,
+    "MOVE_POUND_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_ICE_BEAM": false,
+    "MOVE_ICE_PUNCH": false,
+    "MOVE_PSYSHOCK": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.41,
-  "weight": 6,
-  "family": "FAMILY_JYNX",
-  "forms": null,
-  "_id": "POKEMON_SMOOCHUM"
+  "weight": 6
 }

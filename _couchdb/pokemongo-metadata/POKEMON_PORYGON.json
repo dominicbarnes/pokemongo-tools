@@ -1,6 +1,7 @@
 {
   "name": "Porygon",
   "dex": 137,
+  "family": "FAMILY_PORYGON",
   "generation": 1,
   "types": [
     "normal"
@@ -15,40 +16,20 @@
     {
       "pokemon": "POKEMON_PORYGON2",
       "candy": 50,
-      "item": {
-        "id": "ITEM_UP_GRADE"
-      }
+      "item": "ITEM_UP_GRADE"
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_CHARGE_BEAM_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HIDDEN_POWER_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_SOLAR_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HYPER_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ZAP_CANNON",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_CHARGE_BEAM_FAST": false,
+    "MOVE_HIDDEN_POWER_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_SOLAR_BEAM": false,
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_ZAP_CANNON": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.8,
-  "weight": 36.5,
-  "family": "FAMILY_PORYGON",
-  "forms": null,
-  "_id": "POKEMON_PORYGON"
+  "weight": 36.5
 }

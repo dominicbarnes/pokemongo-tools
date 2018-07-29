@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_POWER_GEM",
   "name": "Power Gem",
   "type": "rock",
-  "power": 80
+  "power": 80,
+  "quick": false
 }

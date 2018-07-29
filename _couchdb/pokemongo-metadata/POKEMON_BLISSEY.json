@@ -1,6 +1,7 @@
 {
   "name": "Blissey",
   "dex": 242,
+  "family": "FAMILY_CHANSEY",
   "generation": 2,
   "types": [
     "normal"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_CHANSEY",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_POUND_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ZEN_HEADBUTT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HYPER_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DAZZLING_GLEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_POUND_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_PSYCHIC": false,
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_DAZZLING_GLEAM": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.5,
-  "weight": 46.8,
-  "family": "FAMILY_CHANSEY",
-  "forms": null,
-  "_id": "POKEMON_BLISSEY"
+  "weight": 46.8
 }

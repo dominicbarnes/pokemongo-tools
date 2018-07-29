@@ -1,6 +1,7 @@
 {
   "name": "Omastar",
   "dex": 139,
+  "family": "FAMILY_OMANYTE",
   "generation": 1,
   "types": [
     "rock",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_OMANYTE",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_MUD_SHOT_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_ANCIENT_POWER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HYDRO_PUMP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_BLAST",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_MUD_SHOT_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_ANCIENT_POWER": false,
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_ROCK_BLAST": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1,
-  "weight": 35,
-  "family": "FAMILY_OMANYTE",
-  "forms": null,
-  "_id": "POKEMON_OMASTAR"
+  "weight": 35
 }

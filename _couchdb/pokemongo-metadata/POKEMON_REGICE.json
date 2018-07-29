@@ -1,6 +1,7 @@
 {
   "name": "Regice",
   "dex": 378,
+  "family": "FAMILY_REGICE",
   "generation": 3,
   "types": [
     "ice"
@@ -12,43 +13,19 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_FROST_BREATH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SMASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_BLIZZARD",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FOCUS_BLAST",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_FROST_BREATH_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_BLIZZARD": false,
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_FOCUS_BLAST": false
+  },
   "rarity": "legendary",
   "buddyDistance": 20,
   "height": 1.8,
-  "weight": 175,
-  "family": "FAMILY_REGICE",
-  "forms": null,
-  "_id": "POKEMON_REGICE"
+  "weight": 175
 }

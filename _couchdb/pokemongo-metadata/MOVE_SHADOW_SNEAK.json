@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_SHADOW_SNEAK",
   "name": "Shadow Sneak",
   "type": "ghost",
-  "power": 50
+  "power": 50,
+  "quick": false
 }

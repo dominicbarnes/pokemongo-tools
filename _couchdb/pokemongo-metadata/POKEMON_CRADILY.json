@@ -1,6 +1,7 @@
 {
   "name": "Cradily",
   "dex": 346,
+  "family": "FAMILY_LILEEP",
   "generation": 3,
   "types": [
     "rock",
@@ -13,43 +14,19 @@
   },
   "previousEvolution": "POKEMON_LILEEP",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_ACID_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_INFESTATION_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_GRASS_KNOT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BULLDOZE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STONE_EDGE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_ACID_FAST": false,
+    "MOVE_INFESTATION_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_GRASS_KNOT": false,
+    "MOVE_BULLDOZE": false,
+    "MOVE_STONE_EDGE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.5,
-  "weight": 60.4,
-  "family": "FAMILY_LILEEP",
-  "forms": null,
-  "_id": "POKEMON_CRADILY"
+  "weight": 60.4
 }

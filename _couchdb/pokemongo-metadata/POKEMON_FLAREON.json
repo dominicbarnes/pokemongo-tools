@@ -1,6 +1,7 @@
 {
   "name": "Flareon",
   "dex": 136,
+  "family": "FAMILY_EEVEE",
   "generation": 1,
   "types": [
     "fire"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_EEVEE",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_EMBER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FIRE_SPIN_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_FIRE_BLAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FLAMETHROWER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_OVERHEAT",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_FIRE_SPIN_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_FIRE_BLAST": false,
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_OVERHEAT": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.9,
-  "weight": 25,
-  "family": "FAMILY_EEVEE",
-  "forms": null,
-  "_id": "POKEMON_FLAREON"
+  "weight": 25
 }

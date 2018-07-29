@@ -1,6 +1,7 @@
 {
   "name": "Gastly",
   "dex": 92,
+  "family": "FAMILY_GASTLY",
   "generation": 1,
   "types": [
     "ghost",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_HAUNTER",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_LICK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ASTONISH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_NIGHT_SHADE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DARK_PULSE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_BOMB",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_LICK_FAST": false,
+    "MOVE_ASTONISH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_NIGHT_SHADE": false,
+    "MOVE_DARK_PULSE": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.3,
-  "weight": 0.1,
-  "family": "FAMILY_GASTLY",
-  "forms": null,
-  "_id": "POKEMON_GASTLY"
+  "weight": 0.1
 }

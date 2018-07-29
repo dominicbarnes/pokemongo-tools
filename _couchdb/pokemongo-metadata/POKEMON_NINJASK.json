@@ -1,6 +1,7 @@
 {
   "name": "Ninjask",
   "dex": 291,
+  "family": "FAMILY_NINCADA",
   "generation": 3,
   "types": [
     "bug",
@@ -13,43 +14,19 @@
   },
   "previousEvolution": "POKEMON_NINCADA",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_FURY_CUTTER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_METAL_CLAW_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_SHADOW_BALL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BUG_BUZZ",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_FURY_CUTTER_FAST": false,
+    "MOVE_METAL_CLAW_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_SHADOW_BALL": false,
+    "MOVE_BUG_BUZZ": false,
+    "MOVE_AERIAL_ACE": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.79,
-  "weight": 12,
-  "family": "FAMILY_NINCADA",
-  "forms": null,
-  "_id": "POKEMON_NINJASK"
+  "weight": 12
 }

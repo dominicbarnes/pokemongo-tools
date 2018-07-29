@@ -1,6 +1,7 @@
 {
   "name": "Clefable",
   "dex": 36,
+  "family": "FAMILY_CLEFAIRY",
   "generation": 1,
   "types": [
     "fairy"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_CLEFAIRY",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_CHARGE_BEAM_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ZEN_HEADBUTT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_DAZZLING_GLEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MOONBLAST",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_CHARGE_BEAM_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_MOONBLAST": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 1.3,
-  "weight": 40,
-  "family": "FAMILY_CLEFAIRY",
-  "forms": null,
-  "_id": "POKEMON_CLEFABLE"
+  "weight": 40
 }

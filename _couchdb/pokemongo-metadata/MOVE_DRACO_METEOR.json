@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_DRACO_METEOR",
   "name": "Draco Meteor",
   "type": "dragon",
-  "power": 150
+  "power": 150,
+  "quick": false
 }

@@ -1,6 +1,7 @@
 {
   "name": "Lairon",
   "dex": 305,
+  "family": "FAMILY_ARON",
   "generation": 3,
   "types": [
     "steel",
@@ -15,47 +16,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_AGGRON",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_METAL_CLAW_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_IRON_TAIL_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_BODY_SLAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SLIDE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HEAVY_SLAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_METAL_CLAW_FAST": false,
+    "MOVE_IRON_TAIL_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_BODY_SLAM": false,
+    "MOVE_ROCK_SLIDE": false,
+    "MOVE_HEAVY_SLAM": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.89,
-  "weight": 120,
-  "family": "FAMILY_ARON",
-  "forms": null,
-  "_id": "POKEMON_LAIRON"
+  "weight": 120
 }

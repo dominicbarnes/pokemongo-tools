@@ -1,6 +1,7 @@
 {
   "name": "Electabuzz",
   "dex": 125,
+  "family": "FAMILY_ELECTABUZZ",
   "generation": 1,
   "types": [
     "electric"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_ELEKID",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_THUNDER_SHOCK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_LOW_KICK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_THUNDER_PUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDERBOLT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDER",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_THUNDER_SHOCK_FAST": false,
+    "MOVE_LOW_KICK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_THUNDER_PUNCH": false,
+    "MOVE_THUNDERBOLT": false,
+    "MOVE_THUNDER": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.1,
-  "weight": 30,
-  "family": "FAMILY_ELECTABUZZ",
-  "forms": null,
-  "_id": "POKEMON_ELECTABUZZ"
+  "weight": 30
 }

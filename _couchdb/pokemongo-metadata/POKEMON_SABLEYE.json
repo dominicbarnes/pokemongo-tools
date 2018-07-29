@@ -1,6 +1,7 @@
 {
   "name": "Sableye",
   "dex": 302,
+  "family": "FAMILY_SABLEYE",
   "generation": 3,
   "types": [
     "dark",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SHADOW_CLAW_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FEINT_ATTACK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_POWER_GEM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FOUL_PLAY",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SHADOW_SNEAK",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SHADOW_CLAW_FAST": false,
+    "MOVE_FEINT_ATTACK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_POWER_GEM": false,
+    "MOVE_FOUL_PLAY": false,
+    "MOVE_SHADOW_SNEAK": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.51,
-  "weight": 11,
-  "family": "FAMILY_SABLEYE",
-  "forms": null,
-  "_id": "POKEMON_SABLEYE"
+  "weight": 11
 }

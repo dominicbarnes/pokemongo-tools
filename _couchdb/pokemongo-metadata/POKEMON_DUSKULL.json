@@ -1,6 +1,7 @@
 {
   "name": "Duskull",
   "dex": 355,
+  "family": "FAMILY_DUSKULL",
   "generation": 3,
   "types": [
     "ghost"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_DUSCLOPS",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_HEX_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ASTONISH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_OMINOUS_WIND",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_NIGHT_SHADE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SHADOW_SNEAK",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_HEX_FAST": false,
+    "MOVE_ASTONISH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_OMINOUS_WIND": false,
+    "MOVE_NIGHT_SHADE": false,
+    "MOVE_SHADOW_SNEAK": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.79,
-  "weight": 15,
-  "family": "FAMILY_DUSKULL",
-  "forms": null,
-  "_id": "POKEMON_DUSKULL"
+  "weight": 15
 }

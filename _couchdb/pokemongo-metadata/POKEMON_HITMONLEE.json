@@ -1,6 +1,7 @@
 {
   "name": "Hitmonlee",
   "dex": 106,
+  "family": "FAMILY_TYROGUE",
   "generation": 1,
   "types": [
     "fighting"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_TYROGUE",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_LOW_KICK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SMASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_CLOSE_COMBAT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_LOW_SWEEP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STONE_EDGE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_LOW_KICK_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_CLOSE_COMBAT": false,
+    "MOVE_LOW_SWEEP": false,
+    "MOVE_STONE_EDGE": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.5,
-  "weight": 49.8,
-  "family": "FAMILY_TYROGUE",
-  "forms": null,
-  "_id": "POKEMON_HITMONLEE"
+  "weight": 49.8
 }

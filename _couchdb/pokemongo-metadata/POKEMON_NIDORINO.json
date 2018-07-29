@@ -1,6 +1,7 @@
 {
   "name": "Nidorino",
   "dex": 33,
+  "family": "FAMILY_NIDORAN_MALE",
   "generation": 1,
   "types": [
     "poison"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_NIDOKING",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_POISON_JAB_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_POISON_STING_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_HORN_ATTACK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DIG",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_BOMB",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_POISON_JAB_FAST": false,
+    "MOVE_POISON_STING_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_HORN_ATTACK": false,
+    "MOVE_DIG": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.9,
-  "weight": 19.5,
-  "family": "FAMILY_NIDORAN_MALE",
-  "forms": null,
-  "_id": "POKEMON_NIDORINO"
+  "weight": 19.5
 }

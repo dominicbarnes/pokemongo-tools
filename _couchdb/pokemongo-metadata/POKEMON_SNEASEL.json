@@ -1,6 +1,7 @@
 {
   "name": "Sneasel",
   "dex": 215,
+  "family": "FAMILY_SNEASEL",
   "generation": 2,
   "types": [
     "dark",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_ICE_SHARD_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FEINT_ATTACK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_AVALANCHE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ICE_PUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FOUL_PLAY",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_ICE_SHARD_FAST": false,
+    "MOVE_FEINT_ATTACK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_AVALANCHE": false,
+    "MOVE_ICE_PUNCH": false,
+    "MOVE_FOUL_PLAY": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.89,
-  "weight": 28,
-  "family": "FAMILY_SNEASEL",
-  "forms": null,
-  "_id": "POKEMON_SNEASEL"
+  "weight": 28
 }

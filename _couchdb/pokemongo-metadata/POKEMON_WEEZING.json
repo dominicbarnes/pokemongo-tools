@@ -1,6 +1,7 @@
 {
   "name": "Weezing",
   "dex": 110,
+  "family": "FAMILY_KOFFING",
   "generation": 1,
   "types": [
     "poison"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_KOFFING",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_INFESTATION_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_SLUDGE_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SHADOW_BALL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DARK_PULSE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_TACKLE_FAST": false,
+    "MOVE_INFESTATION_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_SLUDGE_BOMB": false,
+    "MOVE_SHADOW_BALL": false,
+    "MOVE_DARK_PULSE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.2,
-  "weight": 9.5,
-  "family": "FAMILY_KOFFING",
-  "forms": null,
-  "_id": "POKEMON_WEEZING"
+  "weight": 9.5
 }

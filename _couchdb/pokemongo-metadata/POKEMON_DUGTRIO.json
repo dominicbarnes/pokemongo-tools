@@ -1,6 +1,7 @@
 {
   "name": "Dugtrio",
   "dex": 51,
+  "family": "FAMILY_DIGLETT",
   "generation": 1,
   "types": [
     "ground"
@@ -12,39 +13,24 @@
   },
   "previousEvolution": "POKEMON_DIGLETT",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SUCKER_PUNCH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MUD_SLAP_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MUD_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STONE_EDGE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SUCKER_PUNCH_FAST": false,
+    "MOVE_MUD_SLAP_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_MUD_BOMB": false,
+    "MOVE_STONE_EDGE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.7,
   "weight": 33.3,
-  "family": "FAMILY_DIGLETT",
   "forms": {
     "alola": {
       "name": "Dugtrio (Alola)",
       "dex": 51,
+      "family": "FAMILY_DIGLETT",
       "generation": 1,
       "types": [
         "ground",
@@ -57,40 +43,24 @@
       },
       "previousEvolution": "POKEMON_DIGLETT",
       "nextEvolutions": [],
-      "quickMoves": [
-        {
-          "id": "MOVE_METAL_CLAW_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_MUD_SLAP_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_EARTHQUAKE",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_MUD_BOMB",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_IRON_HEAD",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_METAL_CLAW_FAST": false,
+        "MOVE_MUD_SLAP_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_EARTHQUAKE": false,
+        "MOVE_MUD_BOMB": false,
+        "MOVE_IRON_HEAD": false
+      },
       "rarity": null,
       "buddyDistance": 3,
       "height": 0.7,
-      "weight": 66.6,
-      "family": "FAMILY_DIGLETT",
-      "_id": "POKEMON_DUGTRIO"
+      "weight": 66.6
     },
     "normal": {
       "name": "Dugtrio",
       "dex": 51,
+      "family": "FAMILY_DIGLETT",
       "generation": 1,
       "types": [
         "ground"
@@ -102,37 +72,19 @@
       },
       "previousEvolution": "POKEMON_DIGLETT",
       "nextEvolutions": [],
-      "quickMoves": [
-        {
-          "id": "MOVE_SUCKER_PUNCH_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_MUD_SLAP_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_EARTHQUAKE",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_MUD_BOMB",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_STONE_EDGE",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_SUCKER_PUNCH_FAST": false,
+        "MOVE_MUD_SLAP_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_EARTHQUAKE": false,
+        "MOVE_MUD_BOMB": false,
+        "MOVE_STONE_EDGE": false
+      },
       "rarity": null,
       "buddyDistance": 3,
       "height": 0.7,
-      "weight": 33.3,
-      "family": "FAMILY_DIGLETT",
-      "_id": "POKEMON_DUGTRIO"
+      "weight": 33.3
     }
-  },
-  "_id": "POKEMON_DUGTRIO"
+  }
 }

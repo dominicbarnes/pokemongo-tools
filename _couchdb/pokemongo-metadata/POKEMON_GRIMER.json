@@ -1,6 +1,7 @@
 {
   "name": "Grimer",
   "dex": 88,
+  "family": "FAMILY_GRIMER",
   "generation": 1,
   "types": [
     "poison"
@@ -14,43 +15,27 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_MUK",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_POISON_JAB_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MUD_SLAP_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_SLUDGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MUD_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_BOMB",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_POISON_JAB_FAST": false,
+    "MOVE_MUD_SLAP_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_SLUDGE": false,
+    "MOVE_MUD_BOMB": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.9,
   "weight": 30,
-  "family": "FAMILY_GRIMER",
   "forms": {
     "alola": {
       "name": "Grimer (Alola)",
       "dex": 88,
+      "family": "FAMILY_GRIMER",
       "generation": 1,
       "types": [
         "poison",
@@ -65,44 +50,27 @@
       "nextEvolutions": [
         {
           "pokemon": "POKEMON_MUK",
-          "candy": 50,
-          "item": null
+          "candy": 50
         }
       ],
-      "quickMoves": [
-        {
-          "id": "MOVE_POISON_JAB_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_BITE_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_CRUNCH",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_GUNK_SHOT",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_SLUDGE_BOMB",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_POISON_JAB_FAST": false,
+        "MOVE_BITE_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_CRUNCH": false,
+        "MOVE_GUNK_SHOT": false,
+        "MOVE_SLUDGE_BOMB": false
+      },
       "rarity": null,
       "buddyDistance": 3,
       "height": 0.7,
-      "weight": 42,
-      "family": "FAMILY_GRIMER",
-      "_id": "POKEMON_GRIMER"
+      "weight": 42
     },
     "normal": {
       "name": "Grimer",
       "dex": 88,
+      "family": "FAMILY_GRIMER",
       "generation": 1,
       "types": [
         "poison"
@@ -116,41 +84,22 @@
       "nextEvolutions": [
         {
           "pokemon": "POKEMON_MUK",
-          "candy": 50,
-          "item": null
+          "candy": 50
         }
       ],
-      "quickMoves": [
-        {
-          "id": "MOVE_POISON_JAB_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_MUD_SLAP_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_SLUDGE",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_MUD_BOMB",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_SLUDGE_BOMB",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_POISON_JAB_FAST": false,
+        "MOVE_MUD_SLAP_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_SLUDGE": false,
+        "MOVE_MUD_BOMB": false,
+        "MOVE_SLUDGE_BOMB": false
+      },
       "rarity": null,
       "buddyDistance": 3,
       "height": 0.9,
-      "weight": 30,
-      "family": "FAMILY_GRIMER",
-      "_id": "POKEMON_GRIMER"
+      "weight": 30
     }
-  },
-  "_id": "POKEMON_GRIMER"
+  }
 }

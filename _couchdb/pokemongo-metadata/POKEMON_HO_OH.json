@@ -1,6 +1,7 @@
 {
   "name": "Ho Oh",
   "dex": 250,
+  "family": "FAMILY_HO_OH",
   "generation": 2,
   "types": [
     "fire",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_EXTRASENSORY_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STEEL_WING_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_BRAVE_BIRD",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FIRE_BLAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SOLAR_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_EXTRASENSORY_FAST": false,
+    "MOVE_STEEL_WING_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_BRAVE_BIRD": false,
+    "MOVE_FIRE_BLAST": false,
+    "MOVE_SOLAR_BEAM": false
+  },
   "rarity": "legendary",
   "buddyDistance": 20,
   "height": 3.81,
-  "weight": 199,
-  "family": "FAMILY_HO_OH",
-  "forms": null,
-  "_id": "POKEMON_HO_OH"
+  "weight": 199
 }

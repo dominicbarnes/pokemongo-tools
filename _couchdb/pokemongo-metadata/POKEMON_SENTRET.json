@@ -1,6 +1,7 @@
 {
   "name": "Sentret",
   "dex": 161,
+  "family": "FAMILY_SENTRET",
   "generation": 2,
   "types": [
     "normal"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_FURRET",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SCRATCH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_QUICK_ATTACK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_DIG",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BRICK_BREAK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_GRASS_KNOT",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SCRATCH_FAST": false,
+    "MOVE_QUICK_ATTACK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_DIG": false,
+    "MOVE_BRICK_BREAK": false,
+    "MOVE_GRASS_KNOT": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.79,
-  "weight": 6,
-  "family": "FAMILY_SENTRET",
-  "forms": null,
-  "_id": "POKEMON_SENTRET"
+  "weight": 6
 }

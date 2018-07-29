@@ -1,6 +1,7 @@
 {
   "name": "Mantine",
   "dex": 226,
+  "family": "FAMILY_MANTINE",
   "generation": 2,
   "types": [
     "water",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_BUBBLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WING_ATTACK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_WATER_PULSE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ICE_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_BUBBLE_FAST": false,
+    "MOVE_WING_ATTACK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_WATER_PULSE": false,
+    "MOVE_ICE_BEAM": false,
+    "MOVE_AERIAL_ACE": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 2.11,
-  "weight": 220,
-  "family": "FAMILY_MANTINE",
-  "forms": null,
-  "_id": "POKEMON_MANTINE"
+  "weight": 220
 }

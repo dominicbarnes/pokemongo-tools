@@ -1,6 +1,7 @@
 {
   "name": "Plusle",
   "dex": 311,
+  "family": "FAMILY_PLUSLE",
   "generation": 3,
   "types": [
     "electric"
@@ -12,43 +13,19 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_SPARK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_QUICK_ATTACK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_THUNDERBOLT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DISCHARGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SWIFT",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_SPARK_FAST": false,
+    "MOVE_QUICK_ATTACK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_THUNDERBOLT": false,
+    "MOVE_DISCHARGE": false,
+    "MOVE_SWIFT": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.41,
-  "weight": 4.2,
-  "family": "FAMILY_PLUSLE",
-  "forms": null,
-  "_id": "POKEMON_PLUSLE"
+  "weight": 4.2
 }

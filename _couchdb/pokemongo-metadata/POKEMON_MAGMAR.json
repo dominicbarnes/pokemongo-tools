@@ -1,6 +1,7 @@
 {
   "name": "Magmar",
   "dex": 126,
+  "family": "FAMILY_MAGMAR",
   "generation": 1,
   "types": [
     "fire"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_MAGBY",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_EMBER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_KARATE_CHOP_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_FIRE_BLAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FIRE_PUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FLAMETHROWER",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_KARATE_CHOP_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_FIRE_BLAST": false,
+    "MOVE_FIRE_PUNCH": false,
+    "MOVE_FLAMETHROWER": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.3,
-  "weight": 44.5,
-  "family": "FAMILY_MAGMAR",
-  "forms": null,
-  "_id": "POKEMON_MAGMAR"
+  "weight": 44.5
 }

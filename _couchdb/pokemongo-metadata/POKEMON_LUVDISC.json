@@ -1,6 +1,7 @@
 {
   "name": "Luvdisc",
   "dex": 370,
+  "family": "FAMILY_LUVDISC",
   "generation": 3,
   "types": [
     "water"
@@ -12,39 +13,18 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_DRAINING_KISS",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_PULSE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AQUA_JET",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_DRAINING_KISS": false,
+    "MOVE_WATER_PULSE": false,
+    "MOVE_AQUA_JET": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.61,
-  "weight": 8.7,
-  "family": "FAMILY_LUVDISC",
-  "forms": null,
-  "_id": "POKEMON_LUVDISC"
+  "weight": 8.7
 }

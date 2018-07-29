@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_ROCK_TOMB",
   "name": "Rock Tomb",
   "type": "rock",
-  "power": 70
+  "power": 70,
+  "quick": false
 }

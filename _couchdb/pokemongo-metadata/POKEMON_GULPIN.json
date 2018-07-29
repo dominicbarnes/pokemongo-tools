@@ -1,6 +1,7 @@
 {
   "name": "Gulpin",
   "dex": 316,
+  "family": "FAMILY_GULPIN",
   "generation": 3,
   "types": [
     "poison"
@@ -14,47 +15,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_SWALOT",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_POUND_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SMASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_SLUDGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_GUNK_SHOT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ICE_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_POUND_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_SLUDGE": false,
+    "MOVE_GUNK_SHOT": false,
+    "MOVE_ICE_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.41,
-  "weight": 10.3,
-  "family": "FAMILY_GULPIN",
-  "forms": null,
-  "_id": "POKEMON_GULPIN"
+  "weight": 10.3
 }

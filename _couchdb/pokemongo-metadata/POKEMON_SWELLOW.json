@@ -1,6 +1,7 @@
 {
   "name": "Swellow",
   "dex": 277,
+  "family": "FAMILY_TAILLOW",
   "generation": 3,
   "types": [
     "normal",
@@ -13,43 +14,19 @@
   },
   "previousEvolution": "POKEMON_TAILLOW",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_WING_ATTACK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STEEL_WING_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BRAVE_BIRD",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SKY_ATTACK",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_WING_ATTACK_FAST": false,
+    "MOVE_STEEL_WING_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_BRAVE_BIRD": false,
+    "MOVE_SKY_ATTACK": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.71,
-  "weight": 19.8,
-  "family": "FAMILY_TAILLOW",
-  "forms": null,
-  "_id": "POKEMON_SWELLOW"
+  "weight": 19.8
 }

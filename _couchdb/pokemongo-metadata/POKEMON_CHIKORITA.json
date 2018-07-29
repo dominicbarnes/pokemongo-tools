@@ -1,6 +1,7 @@
 {
   "name": "Chikorita",
   "dex": 152,
+  "family": "FAMILY_CHIKORITA",
   "generation": 2,
   "types": [
     "grass"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_BAYLEEF",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_VINE_WHIP_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_ENERGY_BALL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_GRASS_KNOT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BODY_SLAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_VINE_WHIP_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_ENERGY_BALL": false,
+    "MOVE_GRASS_KNOT": false,
+    "MOVE_BODY_SLAM": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.89,
-  "weight": 6.4,
-  "family": "FAMILY_CHIKORITA",
-  "forms": null,
-  "_id": "POKEMON_CHIKORITA"
+  "weight": 6.4
 }

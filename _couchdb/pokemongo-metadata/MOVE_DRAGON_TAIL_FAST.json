@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_DRAGON_TAIL_FAST",
   "name": "Dragon Tail",
   "type": "dragon",
-  "power": 15
+  "power": 15,
+  "quick": true
 }

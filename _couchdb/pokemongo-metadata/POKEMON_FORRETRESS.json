@@ -1,6 +1,7 @@
 {
   "name": "Forretress",
   "dex": 205,
+  "family": "FAMILY_PINECO",
   "generation": 2,
   "types": [
     "bug",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_PINECO",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_BUG_BITE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STRUGGLE_BUG_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_HEAVY_SLAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_TOMB",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_BUG_BITE_FAST": false,
+    "MOVE_STRUGGLE_BUG_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_HEAVY_SLAM": false,
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_ROCK_TOMB": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.19,
-  "weight": 125.8,
-  "family": "FAMILY_PINECO",
-  "forms": null,
-  "_id": "POKEMON_FORRETRESS"
+  "weight": 125.8
 }

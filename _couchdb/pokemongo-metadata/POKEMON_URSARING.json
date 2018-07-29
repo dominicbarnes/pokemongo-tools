@@ -1,6 +1,7 @@
 {
   "name": "Ursaring",
   "dex": 217,
+  "family": "FAMILY_TEDDIURSA",
   "generation": 2,
   "types": [
     "normal"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_TEDDIURSA",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_METAL_CLAW_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_COUNTER_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_CLOSE_COMBAT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HYPER_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PLAY_ROUGH",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_METAL_CLAW_FAST": false,
+    "MOVE_COUNTER_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_CLOSE_COMBAT": false,
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_PLAY_ROUGH": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.8,
-  "weight": 125.8,
-  "family": "FAMILY_TEDDIURSA",
-  "forms": null,
-  "_id": "POKEMON_URSARING"
+  "weight": 125.8
 }

@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_TAKE_DOWN_FAST",
   "name": "Take Down",
   "type": "normal",
-  "power": 8
+  "power": 8,
+  "quick": true
 }

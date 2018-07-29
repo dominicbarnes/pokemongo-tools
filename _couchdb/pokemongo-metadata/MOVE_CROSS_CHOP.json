@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_CROSS_CHOP",
   "name": "Cross Chop",
   "type": "fighting",
-  "power": 50
+  "power": 50,
+  "quick": false
 }

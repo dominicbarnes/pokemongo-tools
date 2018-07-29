@@ -1,6 +1,7 @@
 {
   "name": "Mudkip",
   "dex": 258,
+  "family": "FAMILY_MUDKIP",
   "generation": 3,
   "types": [
     "water"
@@ -14,47 +15,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_MARSHTOMP",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_DIG",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STOMP",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_TACKLE_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_DIG": false,
+    "MOVE_SLUDGE": false,
+    "MOVE_STOMP": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.41,
-  "weight": 7.6,
-  "family": "FAMILY_MUDKIP",
-  "forms": null,
-  "_id": "POKEMON_MUDKIP"
+  "weight": 7.6
 }

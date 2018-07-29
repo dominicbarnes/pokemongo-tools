@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_STONE_EDGE",
   "name": "Stone Edge",
   "type": "rock",
-  "power": 100
+  "power": 100,
+  "quick": false
 }

@@ -1,6 +1,7 @@
 {
   "name": "Regirock",
   "dex": 377,
+  "family": "FAMILY_REGIROCK",
   "generation": 3,
   "types": [
     "rock"
@@ -12,43 +13,19 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_ROCK_THROW_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SMASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_STONE_EDGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ZAP_CANNON",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FOCUS_BLAST",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_ROCK_THROW_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_STONE_EDGE": false,
+    "MOVE_ZAP_CANNON": false,
+    "MOVE_FOCUS_BLAST": false
+  },
   "rarity": "legendary",
   "buddyDistance": 20,
   "height": 1.7,
-  "weight": 230,
-  "family": "FAMILY_REGIROCK",
-  "forms": null,
-  "_id": "POKEMON_REGIROCK"
+  "weight": 230
 }

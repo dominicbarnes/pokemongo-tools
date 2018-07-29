@@ -1,6 +1,7 @@
 {
   "name": "Lanturn",
   "dex": 171,
+  "family": "FAMILY_CHINCHOU",
   "generation": 2,
   "types": [
     "water",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_CHINCHOU",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CHARGE_BEAM_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_HYDRO_PUMP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDERBOLT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDER",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_WATER_GUN_FAST": false,
+    "MOVE_CHARGE_BEAM_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_THUNDERBOLT": false,
+    "MOVE_THUNDER": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.19,
-  "weight": 22.5,
-  "family": "FAMILY_CHINCHOU",
-  "forms": null,
-  "_id": "POKEMON_LANTURN"
+  "weight": 22.5
 }

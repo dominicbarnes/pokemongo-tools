@@ -1,6 +1,7 @@
 {
   "name": "Vaporeon",
   "dex": 134,
+  "family": "FAMILY_EEVEE",
   "generation": 1,
   "types": [
     "water"
@@ -12,31 +13,16 @@
   },
   "previousEvolution": "POKEMON_EEVEE",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_WATER_PULSE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HYDRO_PUMP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AQUA_TAIL",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_WATER_PULSE": false,
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_AQUA_TAIL": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1,
-  "weight": 29,
-  "family": "FAMILY_EEVEE",
-  "forms": null,
-  "_id": "POKEMON_VAPOREON"
+  "weight": 29
 }

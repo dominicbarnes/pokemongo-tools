@@ -1,6 +1,7 @@
 {
   "name": "Lickitung",
   "dex": 108,
+  "family": "FAMILY_LICKITUNG",
   "generation": 1,
   "types": [
     "normal"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_LICK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ZEN_HEADBUTT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_HYPER_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STOMP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_POWER_WHIP",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_LICK_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_STOMP": false,
+    "MOVE_POWER_WHIP": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.2,
-  "weight": 65.5,
-  "family": "FAMILY_LICKITUNG",
-  "forms": null,
-  "_id": "POKEMON_LICKITUNG"
+  "weight": 65.5
 }

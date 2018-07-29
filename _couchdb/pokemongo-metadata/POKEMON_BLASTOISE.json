@@ -1,6 +1,7 @@
 {
   "name": "Blastoise",
   "dex": 9,
+  "family": "FAMILY_SQUIRTLE",
   "generation": 1,
   "types": [
     "water"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_WARTORTLE",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BITE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_FLASH_CANNON",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ICE_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HYDRO_PUMP",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_WATER_GUN_FAST": false,
+    "MOVE_BITE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_FLASH_CANNON": false,
+    "MOVE_ICE_BEAM": false,
+    "MOVE_HYDRO_PUMP": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.6,
-  "weight": 85.5,
-  "family": "FAMILY_SQUIRTLE",
-  "forms": null,
-  "_id": "POKEMON_BLASTOISE"
+  "weight": 85.5
 }

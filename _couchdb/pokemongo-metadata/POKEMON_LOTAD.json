@@ -1,6 +1,7 @@
 {
   "name": "Lotad",
   "dex": 270,
+  "family": "FAMILY_LOTAD",
   "generation": 3,
   "types": [
     "water",
@@ -15,43 +16,21 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_LOMBRE",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_RAZOR_LEAF_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_BUBBLE_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ENERGY_BALL",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_WATER_GUN_FAST": false,
+    "MOVE_RAZOR_LEAF_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_BUBBLE_BEAM": false,
+    "MOVE_ENERGY_BALL": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.51,
-  "weight": 2.6,
-  "family": "FAMILY_LOTAD",
-  "forms": null,
-  "_id": "POKEMON_LOTAD"
+  "weight": 2.6
 }

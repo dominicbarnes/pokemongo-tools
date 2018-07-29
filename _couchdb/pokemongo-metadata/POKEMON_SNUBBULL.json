@@ -1,6 +1,7 @@
 {
   "name": "Snubbull",
   "dex": 209,
+  "family": "FAMILY_SNUBBULL",
   "generation": 2,
   "types": [
     "fairy"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_GRANBULL",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BITE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_CRUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DAZZLING_GLEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BRICK_BREAK",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_TACKLE_FAST": false,
+    "MOVE_BITE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_CRUNCH": false,
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_BRICK_BREAK": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.61,
-  "weight": 7.8,
-  "family": "FAMILY_SNUBBULL",
-  "forms": null,
-  "_id": "POKEMON_SNUBBULL"
+  "weight": 7.8
 }

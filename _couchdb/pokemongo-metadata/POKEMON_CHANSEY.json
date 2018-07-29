@@ -1,6 +1,7 @@
 {
   "name": "Chansey",
   "dex": 113,
+  "family": "FAMILY_CHANSEY",
   "generation": 1,
   "types": [
     "normal"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_BLISSEY",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_POUND_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ZEN_HEADBUTT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HYPER_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DAZZLING_GLEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_POUND_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_PSYCHIC": false,
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_DAZZLING_GLEAM": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.1,
-  "weight": 34.6,
-  "family": "FAMILY_CHANSEY",
-  "forms": null,
-  "_id": "POKEMON_CHANSEY"
+  "weight": 34.6
 }

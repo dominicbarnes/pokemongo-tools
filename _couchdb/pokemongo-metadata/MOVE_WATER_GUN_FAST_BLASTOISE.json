@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_WATER_GUN_FAST_BLASTOISE",
-  "name": "Water Gun Blastoise",
+  "name": "Water Gun Fast Blastoise",
   "type": "water",
-  "power": 10
+  "power": 10,
+  "quick": false
 }

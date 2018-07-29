@@ -1,6 +1,7 @@
 {
   "name": "Tentacruel",
   "dex": 73,
+  "family": "FAMILY_TENTACOOL",
   "generation": 1,
   "types": [
     "water",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_TENTACOOL",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_ACID_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_POISON_JAB_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_HYDRO_PUMP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_WAVE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BLIZZARD",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_ACID_FAST": false,
+    "MOVE_POISON_JAB_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_SLUDGE_WAVE": false,
+    "MOVE_BLIZZARD": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.6,
-  "weight": 55,
-  "family": "FAMILY_TENTACOOL",
-  "forms": null,
-  "_id": "POKEMON_TENTACRUEL"
+  "weight": 55
 }

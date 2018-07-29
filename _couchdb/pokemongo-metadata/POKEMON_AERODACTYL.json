@@ -1,6 +1,7 @@
 {
   "name": "Aerodactyl",
   "dex": 142,
+  "family": "FAMILY_AERODACTYL",
   "generation": 1,
   "types": [
     "rock",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_STEEL_WING_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BITE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_ANCIENT_POWER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_IRON_HEAD",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HYPER_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_STEEL_WING_FAST": false,
+    "MOVE_BITE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_ANCIENT_POWER": false,
+    "MOVE_IRON_HEAD": false,
+    "MOVE_HYPER_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.8,
-  "weight": 59,
-  "family": "FAMILY_AERODACTYL",
-  "forms": null,
-  "_id": "POKEMON_AERODACTYL"
+  "weight": 59
 }

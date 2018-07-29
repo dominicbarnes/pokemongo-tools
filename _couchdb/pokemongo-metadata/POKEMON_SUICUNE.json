@@ -1,6 +1,7 @@
 {
   "name": "Suicune",
   "dex": 245,
+  "family": "FAMILY_SUICUNE",
   "generation": 2,
   "types": [
     "water"
@@ -12,39 +13,18 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_EXTRASENSORY_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SNARL_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HIDDEN_POWER_FAST",
-      "legacy": true
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_HYDRO_PUMP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BUBBLE_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_PULSE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_EXTRASENSORY_FAST": false,
+    "MOVE_SNARL_FAST": false,
+    "MOVE_HIDDEN_POWER_FAST": true
+  },
+  "chargeMoves": {
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_BUBBLE_BEAM": false,
+    "MOVE_WATER_PULSE": false
+  },
   "rarity": "legendary",
   "buddyDistance": 20,
   "height": 2.01,
-  "weight": 187,
-  "family": "FAMILY_SUICUNE",
-  "forms": null,
-  "_id": "POKEMON_SUICUNE"
+  "weight": 187
 }

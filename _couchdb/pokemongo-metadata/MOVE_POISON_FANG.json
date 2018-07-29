@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_POISON_FANG",
   "name": "Poison Fang",
   "type": "poison",
-  "power": 35
+  "power": 35,
+  "quick": false
 }

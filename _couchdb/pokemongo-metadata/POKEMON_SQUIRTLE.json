@@ -1,6 +1,7 @@
 {
   "name": "Squirtle",
   "dex": 7,
+  "family": "FAMILY_SQUIRTLE",
   "generation": 1,
   "types": [
     "water"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_WARTORTLE",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_BUBBLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_AQUA_JET",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AQUA_TAIL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_PULSE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_BUBBLE_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_AQUA_JET": false,
+    "MOVE_AQUA_TAIL": false,
+    "MOVE_WATER_PULSE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.5,
-  "weight": 9,
-  "family": "FAMILY_SQUIRTLE",
-  "forms": null,
-  "_id": "POKEMON_SQUIRTLE"
+  "weight": 9
 }

@@ -1,6 +1,7 @@
 {
   "name": "Totodile",
   "dex": 158,
+  "family": "FAMILY_TOTODILE",
   "generation": 2,
   "types": [
     "water"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_CROCONAW",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SCRATCH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_CRUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AQUA_JET",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_PULSE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_WATER_GUN_FAST": false,
+    "MOVE_SCRATCH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_CRUNCH": false,
+    "MOVE_AQUA_JET": false,
+    "MOVE_WATER_PULSE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.61,
-  "weight": 9.5,
-  "family": "FAMILY_TOTODILE",
-  "forms": null,
-  "_id": "POKEMON_TOTODILE"
+  "weight": 9.5
 }

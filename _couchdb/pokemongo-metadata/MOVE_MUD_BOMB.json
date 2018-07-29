@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_MUD_BOMB",
   "name": "Mud Bomb",
   "type": "ground",
-  "power": 55
+  "power": 55,
+  "quick": false
 }

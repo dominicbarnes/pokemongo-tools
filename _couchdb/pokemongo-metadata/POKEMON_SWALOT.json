@@ -1,6 +1,7 @@
 {
   "name": "Swalot",
   "dex": 317,
+  "family": "FAMILY_GULPIN",
   "generation": 3,
   "types": [
     "poison"
@@ -12,43 +13,19 @@
   },
   "previousEvolution": "POKEMON_GULPIN",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_ROCK_SMASH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_INFESTATION_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_GUNK_SHOT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ICE_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_ROCK_SMASH_FAST": false,
+    "MOVE_INFESTATION_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_GUNK_SHOT": false,
+    "MOVE_SLUDGE_BOMB": false,
+    "MOVE_ICE_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 1.7,
-  "weight": 80,
-  "family": "FAMILY_GULPIN",
-  "forms": null,
-  "_id": "POKEMON_SWALOT"
+  "weight": 80
 }

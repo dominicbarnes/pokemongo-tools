@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_FLAMETHROWER",
   "name": "Flamethrower",
   "type": "fire",
-  "power": 70
+  "power": 70,
+  "quick": false
 }

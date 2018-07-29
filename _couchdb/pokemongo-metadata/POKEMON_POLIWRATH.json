@@ -1,6 +1,7 @@
 {
   "name": "Poliwrath",
   "dex": 62,
+  "family": "FAMILY_POLIWAG",
   "generation": 1,
   "types": [
     "water",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_POLIWHIRL",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_BUBBLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SMASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_HYDRO_PUMP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DYNAMIC_PUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ICE_PUNCH",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_BUBBLE_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_DYNAMIC_PUNCH": false,
+    "MOVE_ICE_PUNCH": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.3,
-  "weight": 54,
-  "family": "FAMILY_POLIWAG",
-  "forms": null,
-  "_id": "POKEMON_POLIWRATH"
+  "weight": 54
 }

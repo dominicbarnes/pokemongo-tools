@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_ASTONISH_FAST",
   "name": "Astonish",
   "type": "ghost",
-  "power": 8
+  "power": 8,
+  "quick": true
 }

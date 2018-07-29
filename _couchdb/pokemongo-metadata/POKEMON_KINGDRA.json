@@ -1,6 +1,7 @@
 {
   "name": "Kingdra",
   "dex": 230,
+  "family": "FAMILY_HORSEA",
   "generation": 2,
   "types": [
     "water",
@@ -13,39 +14,18 @@
   },
   "previousEvolution": "POKEMON_SEADRA",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_WATER_GUN_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_DRAGON_BREATH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATERFALL_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_HYDRO_PUMP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BLIZZARD",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_OUTRAGE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_WATER_GUN_FAST": true,
+    "MOVE_DRAGON_BREATH_FAST": false,
+    "MOVE_WATERFALL_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_BLIZZARD": false,
+    "MOVE_OUTRAGE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.8,
-  "weight": 152,
-  "family": "FAMILY_HORSEA",
-  "forms": null,
-  "_id": "POKEMON_KINGDRA"
+  "weight": 152
 }

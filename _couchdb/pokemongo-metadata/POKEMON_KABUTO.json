@@ -1,6 +1,7 @@
 {
   "name": "Kabuto",
   "dex": 140,
+  "family": "FAMILY_KABUTO",
   "generation": 1,
   "types": [
     "rock",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_KABUTOPS",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SCRATCH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MUD_SHOT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_ANCIENT_POWER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AQUA_JET",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_TOMB",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SCRATCH_FAST": false,
+    "MOVE_MUD_SHOT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_ANCIENT_POWER": false,
+    "MOVE_AQUA_JET": false,
+    "MOVE_ROCK_TOMB": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.5,
-  "weight": 11.5,
-  "family": "FAMILY_KABUTO",
-  "forms": null,
-  "_id": "POKEMON_KABUTO"
+  "weight": 11.5
 }

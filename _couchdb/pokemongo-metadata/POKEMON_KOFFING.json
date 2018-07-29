@@ -1,6 +1,7 @@
 {
   "name": "Koffing",
   "dex": 109,
+  "family": "FAMILY_KOFFING",
   "generation": 1,
   "types": [
     "poison"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_WEEZING",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_INFESTATION_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_SLUDGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DARK_PULSE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_TACKLE_FAST": false,
+    "MOVE_INFESTATION_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_SLUDGE": false,
+    "MOVE_SLUDGE_BOMB": false,
+    "MOVE_DARK_PULSE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.6,
-  "weight": 1,
-  "family": "FAMILY_KOFFING",
-  "forms": null,
-  "_id": "POKEMON_KOFFING"
+  "weight": 1
 }

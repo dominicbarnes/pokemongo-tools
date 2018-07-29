@@ -1,6 +1,7 @@
 {
   "name": "Seviper",
   "dex": 336,
+  "family": "FAMILY_SEVIPER",
   "generation": 3,
   "types": [
     "poison"
@@ -12,43 +13,19 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_POISON_JAB_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_IRON_TAIL_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_POISON_FANG",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CRUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WRAP",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_POISON_JAB_FAST": false,
+    "MOVE_IRON_TAIL_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_POISON_FANG": false,
+    "MOVE_CRUNCH": false,
+    "MOVE_WRAP": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 2.69,
-  "weight": 52.5,
-  "family": "FAMILY_SEVIPER",
-  "forms": null,
-  "_id": "POKEMON_SEVIPER"
+  "weight": 52.5
 }

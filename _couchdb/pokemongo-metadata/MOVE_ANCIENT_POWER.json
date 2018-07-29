@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_ANCIENT_POWER",
   "name": "Ancient Power",
   "type": "rock",
-  "power": 70
+  "power": 70,
+  "quick": false
 }

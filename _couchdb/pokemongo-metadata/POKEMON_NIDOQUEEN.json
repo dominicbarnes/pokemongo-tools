@@ -1,6 +1,7 @@
 {
   "name": "Nidoqueen",
   "dex": 31,
+  "family": "FAMILY_NIDORAN_FEMALE",
   "generation": 1,
   "types": [
     "poison",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_NIDORINA",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_POISON_JAB_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BITE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_WAVE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STONE_EDGE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_POISON_JAB_FAST": false,
+    "MOVE_BITE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_SLUDGE_WAVE": false,
+    "MOVE_STONE_EDGE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.3,
-  "weight": 60,
-  "family": "FAMILY_NIDORAN_FEMALE",
-  "forms": null,
-  "_id": "POKEMON_NIDOQUEEN"
+  "weight": 60
 }

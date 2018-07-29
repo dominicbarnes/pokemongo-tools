@@ -1,6 +1,7 @@
 {
   "name": "Clefairy",
   "dex": 35,
+  "family": "FAMILY_CLEFAIRY",
   "generation": 1,
   "types": [
     "fairy"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_CLEFABLE",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_POUND_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ZEN_HEADBUTT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_DISARMING_VOICE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BODY_SLAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MOONBLAST",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_POUND_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_DISARMING_VOICE": false,
+    "MOVE_BODY_SLAM": false,
+    "MOVE_MOONBLAST": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.6,
-  "weight": 7.5,
-  "family": "FAMILY_CLEFAIRY",
-  "forms": null,
-  "_id": "POKEMON_CLEFAIRY"
+  "weight": 7.5
 }

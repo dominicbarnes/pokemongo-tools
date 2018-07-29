@@ -1,6 +1,7 @@
 {
   "name": "Sunkern",
   "dex": 191,
+  "family": "FAMILY_SUNKERN",
   "generation": 2,
   "types": [
     "grass"
@@ -15,40 +16,20 @@
     {
       "pokemon": "POKEMON_SUNFLORA",
       "candy": 50,
-      "item": {
-        "id": "ITEM_SUN_STONE"
-      }
+      "item": "ITEM_SUN_STONE"
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_RAZOR_LEAF_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CUT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_ENERGY_BALL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_GRASS_KNOT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SEED_BOMB",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_RAZOR_LEAF_FAST": false,
+    "MOVE_CUT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_ENERGY_BALL": false,
+    "MOVE_GRASS_KNOT": false,
+    "MOVE_SEED_BOMB": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.3,
-  "weight": 1.8,
-  "family": "FAMILY_SUNKERN",
-  "forms": null,
-  "_id": "POKEMON_SUNKERN"
+  "weight": 1.8
 }

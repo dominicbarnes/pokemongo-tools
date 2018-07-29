@@ -1,6 +1,7 @@
 {
   "name": "Ditto",
   "dex": 132,
+  "family": "FAMILY_DITTO",
   "generation": 1,
   "types": [
     "normal"
@@ -12,23 +13,14 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_TRANSFORM_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_TRANSFORM_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.3,
-  "weight": 4,
-  "family": "FAMILY_DITTO",
-  "forms": null,
-  "_id": "POKEMON_DITTO"
+  "weight": 4
 }

@@ -1,6 +1,7 @@
 {
   "name": "Celebi",
   "dex": 251,
+  "family": "FAMILY_CELEBI",
   "generation": 2,
   "types": [
     "psychic",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_CONFUSION_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CHARGE_BEAM_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_HYPER_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PSYCHIC",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DAZZLING_GLEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_CHARGE_BEAM_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_DAZZLING_GLEAM": false
+  },
   "rarity": "mythic",
   "buddyDistance": 5,
   "height": 0.61,
-  "weight": 5,
-  "family": "FAMILY_CELEBI",
-  "forms": null,
-  "_id": "POKEMON_CELEBI"
+  "weight": 5
 }

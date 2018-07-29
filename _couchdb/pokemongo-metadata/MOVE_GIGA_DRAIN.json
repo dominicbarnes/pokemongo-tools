@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_GIGA_DRAIN",
   "name": "Giga Drain",
   "type": "grass",
-  "power": 50
+  "power": 50,
+  "quick": false
 }

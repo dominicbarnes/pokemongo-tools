@@ -1,6 +1,7 @@
 {
   "name": "Nosepass",
   "dex": 299,
+  "family": "FAMILY_NOSEPASS",
   "generation": 3,
   "types": [
     "rock"
@@ -12,43 +13,19 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_ROCK_THROW_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SPARK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_ROCK_BLAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SLIDE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDERBOLT",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_ROCK_THROW_FAST": false,
+    "MOVE_SPARK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_ROCK_BLAST": false,
+    "MOVE_ROCK_SLIDE": false,
+    "MOVE_THUNDERBOLT": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.99,
-  "weight": 97,
-  "family": "FAMILY_NOSEPASS",
-  "forms": null,
-  "_id": "POKEMON_NOSEPASS"
+  "weight": 97
 }

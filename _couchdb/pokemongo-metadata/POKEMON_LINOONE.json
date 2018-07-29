@@ -1,6 +1,7 @@
 {
   "name": "Linoone",
   "dex": 264,
+  "family": "FAMILY_ZIGZAGOON",
   "generation": 3,
   "types": [
     "normal"
@@ -12,43 +13,19 @@
   },
   "previousEvolution": "POKEMON_ZIGZAGOON",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_SHADOW_CLAW_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_DIG",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_GRASS_KNOT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDER",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_SHADOW_CLAW_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_DIG": false,
+    "MOVE_GRASS_KNOT": false,
+    "MOVE_THUNDER": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.51,
-  "weight": 32.5,
-  "family": "FAMILY_ZIGZAGOON",
-  "forms": null,
-  "_id": "POKEMON_LINOONE"
+  "weight": 32.5
 }

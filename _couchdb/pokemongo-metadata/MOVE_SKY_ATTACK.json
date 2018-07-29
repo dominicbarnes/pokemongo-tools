@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_SKY_ATTACK",
   "name": "Sky Attack",
   "type": "flying",
-  "power": 80
+  "power": 80,
+  "quick": false
 }

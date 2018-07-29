@@ -1,6 +1,7 @@
 {
   "name": "Meowth",
   "dex": 52,
+  "family": "FAMILY_MEOWTH",
   "generation": 1,
   "types": [
     "normal"
@@ -14,43 +15,27 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_PERSIAN",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SCRATCH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BITE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_NIGHT_SLASH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DARK_PULSE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FOUL_PLAY",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SCRATCH_FAST": false,
+    "MOVE_BITE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_NIGHT_SLASH": false,
+    "MOVE_DARK_PULSE": false,
+    "MOVE_FOUL_PLAY": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.4,
   "weight": 4.2,
-  "family": "FAMILY_MEOWTH",
   "forms": {
     "alola": {
       "name": "Meowth (Alola)",
       "dex": 52,
+      "family": "FAMILY_MEOWTH",
       "generation": 1,
       "types": [
         "dark"
@@ -64,44 +49,27 @@
       "nextEvolutions": [
         {
           "pokemon": "POKEMON_PERSIAN",
-          "candy": 50,
-          "item": null
+          "candy": 50
         }
       ],
-      "quickMoves": [
-        {
-          "id": "MOVE_SCRATCH_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_BITE_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_NIGHT_SLASH",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_DARK_PULSE",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_FOUL_PLAY",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_SCRATCH_FAST": false,
+        "MOVE_BITE_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_NIGHT_SLASH": false,
+        "MOVE_DARK_PULSE": false,
+        "MOVE_FOUL_PLAY": false
+      },
       "rarity": null,
       "buddyDistance": 3,
       "height": 0.4,
-      "weight": 4.2,
-      "family": "FAMILY_MEOWTH",
-      "_id": "POKEMON_MEOWTH"
+      "weight": 4.2
     },
     "normal": {
       "name": "Meowth",
       "dex": 52,
+      "family": "FAMILY_MEOWTH",
       "generation": 1,
       "types": [
         "normal"
@@ -115,41 +83,22 @@
       "nextEvolutions": [
         {
           "pokemon": "POKEMON_PERSIAN",
-          "candy": 50,
-          "item": null
+          "candy": 50
         }
       ],
-      "quickMoves": [
-        {
-          "id": "MOVE_SCRATCH_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_BITE_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_NIGHT_SLASH",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_DARK_PULSE",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_FOUL_PLAY",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_SCRATCH_FAST": false,
+        "MOVE_BITE_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_NIGHT_SLASH": false,
+        "MOVE_DARK_PULSE": false,
+        "MOVE_FOUL_PLAY": false
+      },
       "rarity": null,
       "buddyDistance": 3,
       "height": 0.4,
-      "weight": 4.2,
-      "family": "FAMILY_MEOWTH",
-      "_id": "POKEMON_MEOWTH"
+      "weight": 4.2
     }
-  },
-  "_id": "POKEMON_MEOWTH"
+  }
 }

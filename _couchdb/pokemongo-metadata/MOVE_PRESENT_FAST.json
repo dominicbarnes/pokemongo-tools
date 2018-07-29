@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_PRESENT_FAST",
   "name": "Present",
   "type": "normal",
-  "power": 5
+  "power": 5,
+  "quick": true
 }

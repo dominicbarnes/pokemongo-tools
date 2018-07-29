@@ -1,6 +1,7 @@
 {
   "name": "Dustox",
   "dex": 269,
+  "family": "FAMILY_WURMPLE",
   "generation": 3,
   "types": [
     "bug",
@@ -13,43 +14,19 @@
   },
   "previousEvolution": "POKEMON_CASCOON",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_STRUGGLE_BUG_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CONFUSION_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_SILVER_WIND",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BUG_BUZZ",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_STRUGGLE_BUG_FAST": false,
+    "MOVE_CONFUSION_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_SILVER_WIND": false,
+    "MOVE_SLUDGE_BOMB": false,
+    "MOVE_BUG_BUZZ": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 1.19,
-  "weight": 31.6,
-  "family": "FAMILY_WURMPLE",
-  "forms": null,
-  "_id": "POKEMON_DUSTOX"
+  "weight": 31.6
 }

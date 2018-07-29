@@ -1,6 +1,7 @@
 {
   "name": "Sandslash",
   "dex": 28,
+  "family": "FAMILY_SANDSHREW",
   "generation": 1,
   "types": [
     "ground"
@@ -12,39 +13,24 @@
   },
   "previousEvolution": "POKEMON_SANDSHREW",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_METAL_CLAW_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MUD_SHOT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_TOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BULLDOZE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_METAL_CLAW_FAST": false,
+    "MOVE_MUD_SHOT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_ROCK_TOMB": false,
+    "MOVE_BULLDOZE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1,
   "weight": 29.5,
-  "family": "FAMILY_SANDSHREW",
   "forms": {
     "alola": {
       "name": "Sandslash (Alola)",
       "dex": 28,
+      "family": "FAMILY_SANDSHREW",
       "generation": 1,
       "types": [
         "ice",
@@ -57,40 +43,24 @@
       },
       "previousEvolution": "POKEMON_SANDSHREW",
       "nextEvolutions": [],
-      "quickMoves": [
-        {
-          "id": "MOVE_METAL_CLAW_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_POWDER_SNOW_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_BLIZZARD",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_GYRO_BALL",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_BULLDOZE",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_METAL_CLAW_FAST": false,
+        "MOVE_POWDER_SNOW_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_BLIZZARD": false,
+        "MOVE_GYRO_BALL": false,
+        "MOVE_BULLDOZE": false
+      },
       "rarity": null,
       "buddyDistance": 3,
       "height": 1.2,
-      "weight": 55,
-      "family": "FAMILY_SANDSHREW",
-      "_id": "POKEMON_SANDSLASH"
+      "weight": 55
     },
     "normal": {
       "name": "Sandslash",
       "dex": 28,
+      "family": "FAMILY_SANDSHREW",
       "generation": 1,
       "types": [
         "ground"
@@ -102,37 +72,19 @@
       },
       "previousEvolution": "POKEMON_SANDSHREW",
       "nextEvolutions": [],
-      "quickMoves": [
-        {
-          "id": "MOVE_METAL_CLAW_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_MUD_SHOT_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_EARTHQUAKE",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_ROCK_TOMB",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_BULLDOZE",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_METAL_CLAW_FAST": false,
+        "MOVE_MUD_SHOT_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_EARTHQUAKE": false,
+        "MOVE_ROCK_TOMB": false,
+        "MOVE_BULLDOZE": false
+      },
       "rarity": null,
       "buddyDistance": 3,
       "height": 1,
-      "weight": 29.5,
-      "family": "FAMILY_SANDSHREW",
-      "_id": "POKEMON_SANDSLASH"
+      "weight": 29.5
     }
-  },
-  "_id": "POKEMON_SANDSLASH"
+  }
 }

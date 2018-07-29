@@ -1,6 +1,7 @@
 {
   "name": "Oddish",
   "dex": 43,
+  "family": "FAMILY_ODDISH",
   "generation": 1,
   "types": [
     "grass",
@@ -15,39 +16,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_GLOOM",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_RAZOR_LEAF_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ACID_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_SEED_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MOONBLAST",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_RAZOR_LEAF_FAST": false,
+    "MOVE_ACID_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_SEED_BOMB": false,
+    "MOVE_SLUDGE_BOMB": false,
+    "MOVE_MOONBLAST": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.5,
-  "weight": 5.4,
-  "family": "FAMILY_ODDISH",
-  "forms": null,
-  "_id": "POKEMON_ODDISH"
+  "weight": 5.4
 }

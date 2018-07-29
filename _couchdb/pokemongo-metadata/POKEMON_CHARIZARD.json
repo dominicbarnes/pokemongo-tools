@@ -1,6 +1,7 @@
 {
   "name": "Charizard",
   "dex": 6,
+  "family": "FAMILY_CHARMANDER",
   "generation": 1,
   "types": [
     "fire",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_CHARMELEON",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_FIRE_SPIN_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AIR_SLASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_FIRE_BLAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DRAGON_CLAW",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_OVERHEAT",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_FIRE_SPIN_FAST": false,
+    "MOVE_AIR_SLASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_FIRE_BLAST": false,
+    "MOVE_DRAGON_CLAW": false,
+    "MOVE_OVERHEAT": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.7,
-  "weight": 90.5,
-  "family": "FAMILY_CHARMANDER",
-  "forms": null,
-  "_id": "POKEMON_CHARIZARD"
+  "weight": 90.5
 }

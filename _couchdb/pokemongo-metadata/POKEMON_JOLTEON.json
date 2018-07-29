@@ -1,6 +1,7 @@
 {
   "name": "Jolteon",
   "dex": 135,
+  "family": "FAMILY_EEVEE",
   "generation": 1,
   "types": [
     "electric"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_EEVEE",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_THUNDER_SHOCK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_VOLT_SWITCH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_DISCHARGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDERBOLT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDER",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_THUNDER_SHOCK_FAST": false,
+    "MOVE_VOLT_SWITCH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_DISCHARGE": false,
+    "MOVE_THUNDERBOLT": false,
+    "MOVE_THUNDER": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.8,
-  "weight": 24.5,
-  "family": "FAMILY_EEVEE",
-  "forms": null,
-  "_id": "POKEMON_JOLTEON"
+  "weight": 24.5
 }

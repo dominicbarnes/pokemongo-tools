@@ -1,6 +1,7 @@
 {
   "name": "Gligar",
   "dex": 207,
+  "family": "FAMILY_GLIGAR",
   "generation": 2,
   "types": [
     "ground",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_FURY_CUTTER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WING_ATTACK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_DIG",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_NIGHT_SLASH",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_FURY_CUTTER_FAST": false,
+    "MOVE_WING_ATTACK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_DIG": false,
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_NIGHT_SLASH": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.09,
-  "weight": 64.8,
-  "family": "FAMILY_GLIGAR",
-  "forms": null,
-  "_id": "POKEMON_GLIGAR"
+  "weight": 64.8
 }

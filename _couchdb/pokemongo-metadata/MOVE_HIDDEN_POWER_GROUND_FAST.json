@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_HIDDEN_POWER_GROUND_FAST",
   "name": "Hidden Power",
-  "type": "ground",
-  "power": 15
+  "type": "normal",
+  "power": 15,
+  "quick": true
 }

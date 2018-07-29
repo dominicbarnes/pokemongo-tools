@@ -1,6 +1,7 @@
 {
   "name": "Walrein",
   "dex": 365,
+  "family": "FAMILY_SPHEAL",
   "generation": 3,
   "types": [
     "ice",
@@ -13,43 +14,19 @@
   },
   "previousEvolution": "POKEMON_SEALEO",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_WATERFALL_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FROST_BREATH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_BLIZZARD",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WATER_PULSE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_WATERFALL_FAST": false,
+    "MOVE_FROST_BREATH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_BLIZZARD": false,
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_WATER_PULSE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.4,
-  "weight": 150.6,
-  "family": "FAMILY_SPHEAL",
-  "forms": null,
-  "_id": "POKEMON_WALREIN"
+  "weight": 150.6
 }

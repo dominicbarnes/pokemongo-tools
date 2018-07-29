@@ -1,6 +1,7 @@
 {
   "name": "Muk",
   "dex": 89,
+  "family": "FAMILY_GRIMER",
   "generation": 1,
   "types": [
     "poison"
@@ -12,39 +13,24 @@
   },
   "previousEvolution": "POKEMON_GRIMER",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_INFESTATION_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_POISON_JAB_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_DARK_PULSE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_GUNK_SHOT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SLUDGE_WAVE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_INFESTATION_FAST": false,
+    "MOVE_POISON_JAB_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_DARK_PULSE": false,
+    "MOVE_GUNK_SHOT": false,
+    "MOVE_SLUDGE_WAVE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.2,
   "weight": 30,
-  "family": "FAMILY_GRIMER",
   "forms": {
     "alola": {
       "name": "Muk (Alola)",
       "dex": 89,
+      "family": "FAMILY_GRIMER",
       "generation": 1,
       "types": [
         "poison",
@@ -57,40 +43,24 @@
       },
       "previousEvolution": "POKEMON_GRIMER",
       "nextEvolutions": [],
-      "quickMoves": [
-        {
-          "id": "MOVE_BITE_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_POISON_JAB_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_DARK_PULSE",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_GUNK_SHOT",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_SLUDGE_WAVE",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_BITE_FAST": false,
+        "MOVE_POISON_JAB_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_DARK_PULSE": false,
+        "MOVE_GUNK_SHOT": false,
+        "MOVE_SLUDGE_WAVE": false
+      },
       "rarity": null,
       "buddyDistance": 3,
       "height": 1,
-      "weight": 52,
-      "family": "FAMILY_GRIMER",
-      "_id": "POKEMON_MUK"
+      "weight": 52
     },
     "normal": {
       "name": "Muk",
       "dex": 89,
+      "family": "FAMILY_GRIMER",
       "generation": 1,
       "types": [
         "poison"
@@ -102,37 +72,19 @@
       },
       "previousEvolution": "POKEMON_GRIMER",
       "nextEvolutions": [],
-      "quickMoves": [
-        {
-          "id": "MOVE_INFESTATION_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_POISON_JAB_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_DARK_PULSE",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_GUNK_SHOT",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_SLUDGE_WAVE",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_INFESTATION_FAST": false,
+        "MOVE_POISON_JAB_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_DARK_PULSE": false,
+        "MOVE_GUNK_SHOT": false,
+        "MOVE_SLUDGE_WAVE": false
+      },
       "rarity": null,
       "buddyDistance": 3,
       "height": 1.2,
-      "weight": 30,
-      "family": "FAMILY_GRIMER",
-      "_id": "POKEMON_MUK"
+      "weight": 30
     }
-  },
-  "_id": "POKEMON_MUK"
+  }
 }

@@ -1,6 +1,7 @@
 {
   "name": "Teddiursa",
   "dex": 216,
+  "family": "FAMILY_TEDDIURSA",
   "generation": 2,
   "types": [
     "normal"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_URSARING",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SCRATCH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_LICK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_CROSS_CHOP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CRUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PLAY_ROUGH",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SCRATCH_FAST": false,
+    "MOVE_LICK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_CROSS_CHOP": false,
+    "MOVE_CRUNCH": false,
+    "MOVE_PLAY_ROUGH": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.61,
-  "weight": 8.8,
-  "family": "FAMILY_TEDDIURSA",
-  "forms": null,
-  "_id": "POKEMON_TEDDIURSA"
+  "weight": 8.8
 }

@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_DRAGON_CLAW",
   "name": "Dragon Claw",
   "type": "dragon",
-  "power": 50
+  "power": 50,
+  "quick": false
 }

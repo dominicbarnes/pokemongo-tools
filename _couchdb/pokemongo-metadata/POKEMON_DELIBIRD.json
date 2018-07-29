@@ -1,6 +1,7 @@
 {
   "name": "Delibird",
   "dex": 225,
+  "family": "FAMILY_DELIBIRD",
   "generation": 2,
   "types": [
     "ice",
@@ -13,39 +14,18 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_ICE_SHARD_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_QUICK_ATTACK_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_PRESENT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_ICE_PUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ICY_WIND",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_ICE_SHARD_FAST": true,
+    "MOVE_QUICK_ATTACK_FAST": true,
+    "MOVE_PRESENT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_ICE_PUNCH": false,
+    "MOVE_ICY_WIND": false,
+    "MOVE_AERIAL_ACE": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.89,
-  "weight": 16,
-  "family": "FAMILY_DELIBIRD",
-  "forms": null,
-  "_id": "POKEMON_DELIBIRD"
+  "weight": 16
 }

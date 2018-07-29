@@ -1,6 +1,7 @@
 {
   "name": "Registeel",
   "dex": 379,
+  "family": "FAMILY_REGISTEEL",
   "generation": 3,
   "types": [
     "steel"
@@ -12,43 +13,19 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_METAL_CLAW_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SMASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_FLASH_CANNON",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HYPER_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FOCUS_BLAST",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_METAL_CLAW_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_FLASH_CANNON": false,
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_FOCUS_BLAST": false
+  },
   "rarity": "legendary",
   "buddyDistance": 20,
   "height": 1.91,
-  "weight": 205,
-  "family": "FAMILY_REGISTEEL",
-  "forms": null,
-  "_id": "POKEMON_REGISTEEL"
+  "weight": 205
 }

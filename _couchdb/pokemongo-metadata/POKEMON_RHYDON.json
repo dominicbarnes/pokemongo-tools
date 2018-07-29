@@ -1,6 +1,7 @@
 {
   "name": "Rhydon",
   "dex": 112,
+  "family": "FAMILY_RHYHORN",
   "generation": 1,
   "types": [
     "ground",
@@ -13,39 +14,18 @@
   },
   "previousEvolution": "POKEMON_RHYHORN",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_MUD_SLAP_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SMASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_MEGAHORN",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STONE_EDGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SURF",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_MUD_SLAP_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_MEGAHORN": true,
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_STONE_EDGE": false,
+    "MOVE_SURF": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.9,
-  "weight": 120,
-  "family": "FAMILY_RHYHORN",
-  "forms": null,
-  "_id": "POKEMON_RHYDON"
+  "weight": 120
 }

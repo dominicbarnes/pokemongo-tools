@@ -1,6 +1,7 @@
 {
   "name": "Magikarp",
   "dex": 129,
+  "family": "FAMILY_MAGIKARP",
   "generation": 1,
   "types": [
     "water"
@@ -14,27 +15,17 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_GYARADOS",
-      "candy": 400,
-      "item": null
+      "candy": 400
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.9,
-  "weight": 10,
-  "family": "FAMILY_MAGIKARP",
-  "forms": null,
-  "_id": "POKEMON_MAGIKARP"
+  "weight": 10
 }

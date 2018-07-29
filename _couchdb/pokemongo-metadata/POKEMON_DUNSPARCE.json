@@ -1,6 +1,7 @@
 {
   "name": "Dunsparce",
   "dex": 206,
+  "family": "FAMILY_DUNSPARCE",
   "generation": 2,
   "types": [
     "normal"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_BITE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ASTONISH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_DIG",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_SLIDE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DRILL_RUN",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_ASTONISH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_DIG": false,
+    "MOVE_ROCK_SLIDE": false,
+    "MOVE_DRILL_RUN": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.5,
-  "weight": 14,
-  "family": "FAMILY_DUNSPARCE",
-  "forms": null,
-  "_id": "POKEMON_DUNSPARCE"
+  "weight": 14
 }

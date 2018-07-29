@@ -1,6 +1,7 @@
 {
   "name": "Deoxys",
   "dex": 386,
+  "family": "FAMILY_DEOXYS",
   "generation": 3,
   "types": [
     "psychic"
@@ -12,47 +13,26 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_ZEN_HEADBUTT_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_COUNTER_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_PSYCHO_BOOST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ZAP_CANNON",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SWIFT",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_ZEN_HEADBUTT_FAST": false,
+    "MOVE_COUNTER_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_PSYCHO_BOOST": false,
+    "MOVE_ZAP_CANNON": false,
+    "MOVE_SWIFT": false
+  },
   "rarity": "mythic",
   "buddyDistance": 20,
   "height": 1.7,
   "weight": 60.8,
-  "family": "FAMILY_DEOXYS",
   "forms": {
     "attack": {
       "name": "Deoxys (Attack)",
       "dex": 386,
+      "family": "FAMILY_DEOXYS",
       "generation": 3,
       "types": [
         "psychic"
@@ -64,40 +44,24 @@
       },
       "previousEvolution": null,
       "nextEvolutions": [],
-      "quickMoves": [
-        {
-          "id": "MOVE_ZEN_HEADBUTT_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_COUNTER_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_PSYCHO_BOOST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_ZAP_CANNON",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_SWIFT",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_ZEN_HEADBUTT_FAST": false,
+        "MOVE_COUNTER_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_PSYCHO_BOOST": false,
+        "MOVE_ZAP_CANNON": false,
+        "MOVE_SWIFT": false
+      },
       "rarity": "mythic",
       "buddyDistance": 20,
       "height": 1.7,
-      "weight": 60.8,
-      "family": "FAMILY_DEOXYS",
-      "_id": "POKEMON_DEOXYS"
+      "weight": 60.8
     },
     "defense": {
       "name": "Deoxys (Defense)",
       "dex": 386,
+      "family": "FAMILY_DEOXYS",
       "generation": 3,
       "types": [
         "psychic"
@@ -109,40 +73,24 @@
       },
       "previousEvolution": null,
       "nextEvolutions": [],
-      "quickMoves": [
-        {
-          "id": "MOVE_ZEN_HEADBUTT_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_COUNTER_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_PSYCHO_BOOST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_ZAP_CANNON",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_SWIFT",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_ZEN_HEADBUTT_FAST": false,
+        "MOVE_COUNTER_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_PSYCHO_BOOST": false,
+        "MOVE_ZAP_CANNON": false,
+        "MOVE_SWIFT": false
+      },
       "rarity": "mythic",
       "buddyDistance": 20,
       "height": 1.7,
-      "weight": 60.8,
-      "family": "FAMILY_DEOXYS",
-      "_id": "POKEMON_DEOXYS"
+      "weight": 60.8
     },
     "normal": {
       "name": "Deoxys",
       "dex": 386,
+      "family": "FAMILY_DEOXYS",
       "generation": 3,
       "types": [
         "psychic"
@@ -154,40 +102,24 @@
       },
       "previousEvolution": null,
       "nextEvolutions": [],
-      "quickMoves": [
-        {
-          "id": "MOVE_ZEN_HEADBUTT_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_COUNTER_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_PSYCHO_BOOST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_ZAP_CANNON",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_SWIFT",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_ZEN_HEADBUTT_FAST": false,
+        "MOVE_COUNTER_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_PSYCHO_BOOST": false,
+        "MOVE_ZAP_CANNON": false,
+        "MOVE_SWIFT": false
+      },
       "rarity": "mythic",
       "buddyDistance": 20,
       "height": 1.7,
-      "weight": 60.8,
-      "family": "FAMILY_DEOXYS",
-      "_id": "POKEMON_DEOXYS"
+      "weight": 60.8
     },
     "speed": {
       "name": "Deoxys (Speed)",
       "dex": 386,
+      "family": "FAMILY_DEOXYS",
       "generation": 3,
       "types": [
         "psychic"
@@ -199,37 +131,19 @@
       },
       "previousEvolution": null,
       "nextEvolutions": [],
-      "quickMoves": [
-        {
-          "id": "MOVE_ZEN_HEADBUTT_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_COUNTER_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_PSYCHO_BOOST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_ZAP_CANNON",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_SWIFT",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_ZEN_HEADBUTT_FAST": false,
+        "MOVE_COUNTER_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_PSYCHO_BOOST": false,
+        "MOVE_ZAP_CANNON": false,
+        "MOVE_SWIFT": false
+      },
       "rarity": "mythic",
       "buddyDistance": 20,
       "height": 1.7,
-      "weight": 60.8,
-      "family": "FAMILY_DEOXYS",
-      "_id": "POKEMON_DEOXYS"
+      "weight": 60.8
     }
-  },
-  "_id": "POKEMON_DEOXYS"
+  }
 }

@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_HYPER_FANG",
   "name": "Hyper Fang",
   "type": "normal",
-  "power": 80
+  "power": 80,
+  "quick": false
 }

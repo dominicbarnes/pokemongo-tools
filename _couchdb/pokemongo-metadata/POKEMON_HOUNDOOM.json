@@ -1,6 +1,7 @@
 {
   "name": "Houndoom",
   "dex": 229,
+  "family": "FAMILY_HOUNDOUR",
   "generation": 2,
   "types": [
     "dark",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_HOUNDOUR",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SNARL_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FIRE_FANG_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_CRUNCH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FIRE_BLAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FOUL_PLAY",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SNARL_FAST": false,
+    "MOVE_FIRE_FANG_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_CRUNCH": false,
+    "MOVE_FIRE_BLAST": false,
+    "MOVE_FOUL_PLAY": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.4,
-  "weight": 35,
-  "family": "FAMILY_HOUNDOUR",
-  "forms": null,
-  "_id": "POKEMON_HOUNDOOM"
+  "weight": 35
 }

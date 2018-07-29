@@ -1,6 +1,7 @@
 {
   "name": "Seel",
   "dex": 86,
+  "family": "FAMILY_SEEL",
   "generation": 1,
   "types": [
     "water"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_DEWGONG",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_ICE_SHARD_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_LICK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_AURORA_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ICY_WIND",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AQUA_TAIL",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_ICE_SHARD_FAST": false,
+    "MOVE_LICK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_AURORA_BEAM": false,
+    "MOVE_ICY_WIND": false,
+    "MOVE_AQUA_TAIL": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.1,
-  "weight": 90,
-  "family": "FAMILY_SEEL",
-  "forms": null,
-  "_id": "POKEMON_SEEL"
+  "weight": 90
 }

@@ -1,6 +1,7 @@
 {
   "name": "Ariados",
   "dex": 168,
+  "family": "FAMILY_SPINARAK",
   "generation": 2,
   "types": [
     "bug",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_SPINARAK",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_POISON_STING_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_INFESTATION_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_SHADOW_SNEAK",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MEGAHORN",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CROSS_POISON",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_POISON_STING_FAST": false,
+    "MOVE_INFESTATION_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_SHADOW_SNEAK": false,
+    "MOVE_MEGAHORN": false,
+    "MOVE_CROSS_POISON": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 1.09,
-  "weight": 33.5,
-  "family": "FAMILY_SPINARAK",
-  "forms": null,
-  "_id": "POKEMON_ARIADOS"
+  "weight": 33.5
 }

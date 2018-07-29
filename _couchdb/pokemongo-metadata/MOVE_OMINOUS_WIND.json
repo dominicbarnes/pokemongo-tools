@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_OMINOUS_WIND",
   "name": "Ominous Wind",
   "type": "ghost",
-  "power": 50
+  "power": 50,
+  "quick": false
 }

@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_THUNDER_SHOCK_FAST",
   "name": "Thunder Shock",
   "type": "electric",
-  "power": 5
+  "power": 5,
+  "quick": true
 }

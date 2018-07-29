@@ -1,6 +1,7 @@
 {
   "name": "Heracross",
   "dex": 214,
+  "family": "FAMILY_HERACROSS",
   "generation": 2,
   "types": [
     "bug",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_COUNTER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STRUGGLE_BUG_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_MEGAHORN",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CLOSE_COMBAT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_EARTHQUAKE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_COUNTER_FAST": false,
+    "MOVE_STRUGGLE_BUG_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_MEGAHORN": false,
+    "MOVE_CLOSE_COMBAT": false,
+    "MOVE_EARTHQUAKE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.5,
-  "weight": 54,
-  "family": "FAMILY_HERACROSS",
-  "forms": null,
-  "_id": "POKEMON_HERACROSS"
+  "weight": 54
 }

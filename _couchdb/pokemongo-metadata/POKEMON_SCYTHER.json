@@ -1,6 +1,7 @@
 {
   "name": "Scyther",
   "dex": 123,
+  "family": "FAMILY_SCYTHER",
   "generation": 1,
   "types": [
     "bug",
@@ -16,40 +17,20 @@
     {
       "pokemon": "POKEMON_SCIZOR",
       "candy": 50,
-      "item": {
-        "id": "ITEM_METAL_COAT"
-      }
+      "item": "ITEM_METAL_COAT"
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_FURY_CUTTER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AIR_SLASH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_NIGHT_SLASH",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_X_SCISSOR",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_FURY_CUTTER_FAST": false,
+    "MOVE_AIR_SLASH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_NIGHT_SLASH": false,
+    "MOVE_X_SCISSOR": false,
+    "MOVE_AERIAL_ACE": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.5,
-  "weight": 56,
-  "family": "FAMILY_SCYTHER",
-  "forms": null,
-  "_id": "POKEMON_SCYTHER"
+  "weight": 56
 }

@@ -1,6 +1,7 @@
 {
   "name": "Hariyama",
   "dex": 297,
+  "family": "FAMILY_MAKUHITA",
   "generation": 3,
   "types": [
     "fighting"
@@ -12,43 +13,19 @@
   },
   "previousEvolution": "POKEMON_MAKUHITA",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_COUNTER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BULLET_PUNCH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_HEAVY_SLAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CLOSE_COMBAT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DYNAMIC_PUNCH",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_COUNTER_FAST": false,
+    "MOVE_BULLET_PUNCH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_HEAVY_SLAM": false,
+    "MOVE_CLOSE_COMBAT": false,
+    "MOVE_DYNAMIC_PUNCH": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 2.31,
-  "weight": 253.8,
-  "family": "FAMILY_MAKUHITA",
-  "forms": null,
-  "_id": "POKEMON_HARIYAMA"
+  "weight": 253.8
 }

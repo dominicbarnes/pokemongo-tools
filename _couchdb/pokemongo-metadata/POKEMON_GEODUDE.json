@@ -1,6 +1,7 @@
 {
   "name": "Geodude",
   "dex": 74,
+  "family": "FAMILY_GEODUDE",
   "generation": 1,
   "types": [
     "rock",
@@ -15,43 +16,27 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_GRAVELER",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_ROCK_THROW_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_ROCK_SLIDE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_TOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DIG",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_ROCK_THROW_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_ROCK_SLIDE": false,
+    "MOVE_ROCK_TOMB": false,
+    "MOVE_DIG": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.4,
   "weight": 20,
-  "family": "FAMILY_GEODUDE",
   "forms": {
     "alola": {
       "name": "Geodude (Alola)",
       "dex": 74,
+      "family": "FAMILY_GEODUDE",
       "generation": 1,
       "types": [
         "rock",
@@ -66,44 +51,27 @@
       "nextEvolutions": [
         {
           "pokemon": "POKEMON_GRAVELER",
-          "candy": 25,
-          "item": null
+          "candy": 25
         }
       ],
-      "quickMoves": [
-        {
-          "id": "MOVE_ROCK_THROW_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_VOLT_SWITCH_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_ROCK_SLIDE",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_ROCK_TOMB",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_THUNDERBOLT",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_ROCK_THROW_FAST": false,
+        "MOVE_VOLT_SWITCH_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_ROCK_SLIDE": false,
+        "MOVE_ROCK_TOMB": false,
+        "MOVE_THUNDERBOLT": false
+      },
       "rarity": null,
       "buddyDistance": 1,
       "height": 0.4,
-      "weight": 20.3,
-      "family": "FAMILY_GEODUDE",
-      "_id": "POKEMON_GEODUDE"
+      "weight": 20.3
     },
     "normal": {
       "name": "Geodude",
       "dex": 74,
+      "family": "FAMILY_GEODUDE",
       "generation": 1,
       "types": [
         "rock",
@@ -118,41 +86,22 @@
       "nextEvolutions": [
         {
           "pokemon": "POKEMON_GRAVELER",
-          "candy": 25,
-          "item": null
+          "candy": 25
         }
       ],
-      "quickMoves": [
-        {
-          "id": "MOVE_ROCK_THROW_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_TACKLE_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_ROCK_SLIDE",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_ROCK_TOMB",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_DIG",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_ROCK_THROW_FAST": false,
+        "MOVE_TACKLE_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_ROCK_SLIDE": false,
+        "MOVE_ROCK_TOMB": false,
+        "MOVE_DIG": false
+      },
       "rarity": null,
       "buddyDistance": 1,
       "height": 0.4,
-      "weight": 20,
-      "family": "FAMILY_GEODUDE",
-      "_id": "POKEMON_GEODUDE"
+      "weight": 20
     }
-  },
-  "_id": "POKEMON_GEODUDE"
+  }
 }

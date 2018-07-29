@@ -1,6 +1,7 @@
 {
   "name": "Magcargo",
   "dex": 219,
+  "family": "FAMILY_SLUGMA",
   "generation": 2,
   "types": [
     "fire",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_SLUGMA",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_EMBER_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ROCK_THROW_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_HEAT_WAVE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_OVERHEAT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STONE_EDGE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_ROCK_THROW_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_HEAT_WAVE": false,
+    "MOVE_OVERHEAT": false,
+    "MOVE_STONE_EDGE": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.79,
-  "weight": 55,
-  "family": "FAMILY_SLUGMA",
-  "forms": null,
-  "_id": "POKEMON_MAGCARGO"
+  "weight": 55
 }

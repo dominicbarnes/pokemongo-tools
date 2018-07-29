@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_COUNTER_FAST",
   "name": "Counter",
   "type": "fighting",
-  "power": 12
+  "power": 12,
+  "quick": true
 }

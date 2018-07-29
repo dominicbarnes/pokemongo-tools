@@ -1,6 +1,7 @@
 {
   "name": "Lombre",
   "dex": 271,
+  "family": "FAMILY_LOTAD",
   "generation": 3,
   "types": [
     "water",
@@ -15,47 +16,22 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_LUDICOLO",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_BUBBLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_RAZOR_LEAF_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_BUBBLE_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ICE_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_GRASS_KNOT",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_BUBBLE_FAST": false,
+    "MOVE_RAZOR_LEAF_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_BUBBLE_BEAM": false,
+    "MOVE_ICE_BEAM": false,
+    "MOVE_GRASS_KNOT": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.19,
-  "weight": 32.5,
-  "family": "FAMILY_LOTAD",
-  "forms": null,
-  "_id": "POKEMON_LOMBRE"
+  "weight": 32.5
 }

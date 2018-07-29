@@ -1,6 +1,7 @@
 {
   "name": "Dragonair",
   "dex": 148,
+  "family": "FAMILY_DRATINI",
   "generation": 1,
   "types": [
     "dragon"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_DRAGONITE",
-      "candy": 100,
-      "item": null
+      "candy": 100
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_DRAGON_BREATH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_IRON_TAIL_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_WRAP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AQUA_TAIL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DRAGON_PULSE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_DRAGON_BREATH_FAST": false,
+    "MOVE_IRON_TAIL_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_WRAP": false,
+    "MOVE_AQUA_TAIL": false,
+    "MOVE_DRAGON_PULSE": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 4,
-  "weight": 16.5,
-  "family": "FAMILY_DRATINI",
-  "forms": null,
-  "_id": "POKEMON_DRAGONAIR"
+  "weight": 16.5
 }

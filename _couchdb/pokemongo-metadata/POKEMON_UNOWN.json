@@ -1,6 +1,7 @@
 {
   "name": "Unown",
   "dex": 201,
+  "family": "FAMILY_UNOWN",
   "generation": 2,
   "types": [
     "psychic"
@@ -12,23 +13,14 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_HIDDEN_POWER_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_HIDDEN_POWER_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.51,
-  "weight": 5,
-  "family": "FAMILY_UNOWN",
-  "forms": null,
-  "_id": "POKEMON_UNOWN"
+  "weight": 5
 }

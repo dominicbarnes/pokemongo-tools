@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_GUNK_SHOT",
   "name": "Gunk Shot",
   "type": "poison",
-  "power": 130
+  "power": 130,
+  "quick": false
 }

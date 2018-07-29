@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_LOW_KICK_FAST",
   "name": "Low Kick",
   "type": "fighting",
-  "power": 6
+  "power": 6,
+  "quick": true
 }

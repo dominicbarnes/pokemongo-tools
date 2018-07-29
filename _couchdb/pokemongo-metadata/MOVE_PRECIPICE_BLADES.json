@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_PRECIPICE_BLADES",
   "name": "Precipice Blades",
   "type": "ground",
-  "power": 130
+  "power": 130,
+  "quick": false
 }

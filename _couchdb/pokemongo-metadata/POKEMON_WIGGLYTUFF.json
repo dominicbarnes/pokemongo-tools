@@ -1,6 +1,7 @@
 {
   "name": "Wigglytuff",
   "dex": 40,
+  "family": "FAMILY_JIGGLYPUFF",
   "generation": 1,
   "types": [
     "normal",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_JIGGLYPUFF",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_POUND_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FEINT_ATTACK_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_DAZZLING_GLEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_HYPER_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_PLAY_ROUGH",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_POUND_FAST": false,
+    "MOVE_FEINT_ATTACK_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_PLAY_ROUGH": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 1,
-  "weight": 12,
-  "family": "FAMILY_JIGGLYPUFF",
-  "forms": null,
-  "_id": "POKEMON_WIGGLYTUFF"
+  "weight": 12
 }

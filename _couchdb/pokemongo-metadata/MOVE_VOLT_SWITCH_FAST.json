@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_VOLT_SWITCH_FAST",
   "name": "Volt Switch",
   "type": "electric",
-  "power": 20
+  "power": 20,
+  "quick": true
 }

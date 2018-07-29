@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_HYPER_BEAM",
   "name": "Hyper Beam",
   "type": "normal",
-  "power": 150
+  "power": 150,
+  "quick": false
 }

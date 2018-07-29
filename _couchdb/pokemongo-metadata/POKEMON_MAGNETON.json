@@ -1,6 +1,7 @@
 {
   "name": "Magneton",
   "dex": 82,
+  "family": "FAMILY_MAGNEMITE",
   "generation": 1,
   "types": [
     "electric",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_MAGNEMITE",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPARK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CHARGE_BEAM_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_ZAP_CANNON",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MAGNET_BOMB",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FLASH_CANNON",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPARK_FAST": false,
+    "MOVE_CHARGE_BEAM_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_ZAP_CANNON": false,
+    "MOVE_MAGNET_BOMB": false,
+    "MOVE_FLASH_CANNON": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1,
-  "weight": 60,
-  "family": "FAMILY_MAGNEMITE",
-  "forms": null,
-  "_id": "POKEMON_MAGNETON"
+  "weight": 60
 }

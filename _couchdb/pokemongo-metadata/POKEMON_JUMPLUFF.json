@@ -1,6 +1,7 @@
 {
   "name": "Jumpluff",
   "dex": 189,
+  "family": "FAMILY_HOPPIP",
   "generation": 2,
   "types": [
     "grass",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_SKIPLOOM",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_INFESTATION_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BULLET_SEED_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_ENERGY_BALL",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_DAZZLING_GLEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SOLAR_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_INFESTATION_FAST": false,
+    "MOVE_BULLET_SEED_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_ENERGY_BALL": false,
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_SOLAR_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.79,
-  "weight": 3,
-  "family": "FAMILY_HOPPIP",
-  "forms": null,
-  "_id": "POKEMON_JUMPLUFF"
+  "weight": 3
 }

@@ -1,6 +1,7 @@
 {
   "name": "Stantler",
   "dex": 234,
+  "family": "FAMILY_STANTLER",
   "generation": 2,
   "types": [
     "normal"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_TACKLE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ZEN_HEADBUTT_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STOMP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WILD_CHARGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_MEGAHORN",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_TACKLE_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STOMP": false,
+    "MOVE_WILD_CHARGE": false,
+    "MOVE_MEGAHORN": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.4,
-  "weight": 71.2,
-  "family": "FAMILY_STANTLER",
-  "forms": null,
-  "_id": "POKEMON_STANTLER"
+  "weight": 71.2
 }

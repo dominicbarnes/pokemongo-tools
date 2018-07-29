@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_DAZZLING_GLEAM",
   "name": "Dazzling Gleam",
   "type": "fairy",
-  "power": 100
+  "power": 100,
+  "quick": false
 }

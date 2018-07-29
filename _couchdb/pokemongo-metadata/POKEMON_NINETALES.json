@@ -1,6 +1,7 @@
 {
   "name": "Ninetales",
   "dex": 38,
+  "family": "FAMILY_VULPIX",
   "generation": 1,
   "types": [
     "fire"
@@ -12,39 +13,24 @@
   },
   "previousEvolution": "POKEMON_VULPIX",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_FEINT_ATTACK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FIRE_SPIN_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_HEAT_WAVE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_OVERHEAT",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SOLAR_BEAM",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_FEINT_ATTACK_FAST": false,
+    "MOVE_FIRE_SPIN_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_HEAT_WAVE": false,
+    "MOVE_OVERHEAT": false,
+    "MOVE_SOLAR_BEAM": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.1,
   "weight": 19.9,
-  "family": "FAMILY_VULPIX",
   "forms": {
     "alola": {
       "name": "Ninetales (Alola)",
       "dex": 38,
+      "family": "FAMILY_VULPIX",
       "generation": 1,
       "types": [
         "ice",
@@ -57,40 +43,24 @@
       },
       "previousEvolution": "POKEMON_VULPIX",
       "nextEvolutions": [],
-      "quickMoves": [
-        {
-          "id": "MOVE_FEINT_ATTACK_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_POWDER_SNOW_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_DAZZLING_GLEAM",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_ICE_BEAM",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_BLIZZARD",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_FEINT_ATTACK_FAST": false,
+        "MOVE_POWDER_SNOW_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_DAZZLING_GLEAM": false,
+        "MOVE_ICE_BEAM": false,
+        "MOVE_BLIZZARD": false
+      },
       "rarity": null,
       "buddyDistance": 3,
       "height": 1.1,
-      "weight": 19.9,
-      "family": "FAMILY_VULPIX",
-      "_id": "POKEMON_NINETALES"
+      "weight": 19.9
     },
     "normal": {
       "name": "Ninetales",
       "dex": 38,
+      "family": "FAMILY_VULPIX",
       "generation": 1,
       "types": [
         "fire"
@@ -102,37 +72,19 @@
       },
       "previousEvolution": "POKEMON_VULPIX",
       "nextEvolutions": [],
-      "quickMoves": [
-        {
-          "id": "MOVE_FEINT_ATTACK_FAST",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_FIRE_SPIN_FAST",
-          "legacy": false
-        }
-      ],
-      "chargeMoves": [
-        {
-          "id": "MOVE_HEAT_WAVE",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_OVERHEAT",
-          "legacy": false
-        },
-        {
-          "id": "MOVE_SOLAR_BEAM",
-          "legacy": false
-        }
-      ],
+      "quickMoves": {
+        "MOVE_FEINT_ATTACK_FAST": false,
+        "MOVE_FIRE_SPIN_FAST": false
+      },
+      "chargeMoves": {
+        "MOVE_HEAT_WAVE": false,
+        "MOVE_OVERHEAT": false,
+        "MOVE_SOLAR_BEAM": false
+      },
       "rarity": null,
       "buddyDistance": 3,
       "height": 1.1,
-      "weight": 19.9,
-      "family": "FAMILY_VULPIX",
-      "_id": "POKEMON_NINETALES"
+      "weight": 19.9
     }
-  },
-  "_id": "POKEMON_NINETALES"
+  }
 }

@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_HIDDEN_POWER_BUG_FAST",
   "name": "Hidden Power",
-  "type": "bug",
-  "power": 15
+  "type": "normal",
+  "power": 15,
+  "quick": true
 }

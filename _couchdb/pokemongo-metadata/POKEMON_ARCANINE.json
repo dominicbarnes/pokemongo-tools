@@ -1,6 +1,7 @@
 {
   "name": "Arcanine",
   "dex": 59,
+  "family": "FAMILY_GROWLITHE",
   "generation": 1,
   "types": [
     "fire"
@@ -12,35 +13,17 @@
   },
   "previousEvolution": "POKEMON_GROWLITHE",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_FIRE_FANG_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SNARL_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_FIRE_BLAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_WILD_CHARGE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_CRUNCH",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_FIRE_FANG_FAST": false,
+    "MOVE_SNARL_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_FIRE_BLAST": false,
+    "MOVE_WILD_CHARGE": false,
+    "MOVE_CRUNCH": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.9,
-  "weight": 155,
-  "family": "FAMILY_GROWLITHE",
-  "forms": null,
-  "_id": "POKEMON_ARCANINE"
+  "weight": 155
 }

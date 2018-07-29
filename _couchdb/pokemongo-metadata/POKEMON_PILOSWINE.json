@@ -1,6 +1,7 @@
 {
   "name": "Piloswine",
   "dex": 221,
+  "family": "FAMILY_SWINUB",
   "generation": 2,
   "types": [
     "ice",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_SWINUB",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_ICE_SHARD_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_POWDER_SNOW_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_AVALANCHE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BULLDOZE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STONE_EDGE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_ICE_SHARD_FAST": false,
+    "MOVE_POWDER_SNOW_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_AVALANCHE": false,
+    "MOVE_BULLDOZE": false,
+    "MOVE_STONE_EDGE": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 1.09,
-  "weight": 55.8,
-  "family": "FAMILY_SWINUB",
-  "forms": null,
-  "_id": "POKEMON_PILOSWINE"
+  "weight": 55.8
 }

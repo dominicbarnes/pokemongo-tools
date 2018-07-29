@@ -1,6 +1,7 @@
 {
   "name": "Weedle",
   "dex": 13,
+  "family": "FAMILY_WEEDLE",
   "generation": 1,
   "types": [
     "bug",
@@ -15,31 +16,18 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_KAKUNA",
-      "candy": 12,
-      "item": null
+      "candy": 12
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_BUG_BITE_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_POISON_STING_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_BUG_BITE_FAST": false,
+    "MOVE_POISON_STING_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 0.3,
-  "weight": 3.2,
-  "family": "FAMILY_WEEDLE",
-  "forms": null,
-  "_id": "POKEMON_WEEDLE"
+  "weight": 3.2
 }

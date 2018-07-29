@@ -1,6 +1,7 @@
 {
   "name": "Shuppet",
   "dex": 353,
+  "family": "FAMILY_SHUPPET",
   "generation": 3,
   "types": [
     "ghost"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_BANETTE",
-      "candy": 50,
-      "item": null
+      "candy": 50
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_FEINT_ATTACK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ASTONISH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_OMINOUS_WIND",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_NIGHT_SHADE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SHADOW_SNEAK",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_FEINT_ATTACK_FAST": false,
+    "MOVE_ASTONISH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_OMINOUS_WIND": false,
+    "MOVE_NIGHT_SHADE": false,
+    "MOVE_SHADOW_SNEAK": false
+  },
   "rarity": null,
   "buddyDistance": 3,
   "height": 0.61,
-  "weight": 2.3,
-  "family": "FAMILY_SHUPPET",
-  "forms": null,
-  "_id": "POKEMON_SHUPPET"
+  "weight": 2.3
 }

@@ -1,6 +1,7 @@
 {
   "name": "Kecleon",
   "dex": 352,
+  "family": "FAMILY_KECLEON",
   "generation": 3,
   "types": [
     "normal"
@@ -12,55 +13,22 @@
   },
   "previousEvolution": null,
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_SPLASH_FAST",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_LICK_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SUCKER_PUNCH_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_STRUGGLE",
-      "legacy": true
-    },
-    {
-      "id": "MOVE_FOUL_PLAY",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_FLAMETHROWER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_THUNDER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_ICE_BEAM",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_SHADOW_SNEAK",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
+    "MOVE_LICK_FAST": false,
+    "MOVE_SUCKER_PUNCH_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_STRUGGLE": true,
+    "MOVE_FOUL_PLAY": false,
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_THUNDER": false,
+    "MOVE_ICE_BEAM": false,
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_SHADOW_SNEAK": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 0.99,
-  "weight": 22,
-  "family": "FAMILY_KECLEON",
-  "forms": null,
-  "_id": "POKEMON_KECLEON"
+  "weight": 22
 }

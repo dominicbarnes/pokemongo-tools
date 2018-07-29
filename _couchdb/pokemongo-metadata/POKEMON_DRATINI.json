@@ -1,6 +1,7 @@
 {
   "name": "Dratini",
   "dex": 147,
+  "family": "FAMILY_DRATINI",
   "generation": 1,
   "types": [
     "dragon"
@@ -14,39 +15,20 @@
   "nextEvolutions": [
     {
       "pokemon": "POKEMON_DRAGONAIR",
-      "candy": 25,
-      "item": null
+      "candy": 25
     }
   ],
-  "quickMoves": [
-    {
-      "id": "MOVE_DRAGON_BREATH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_IRON_TAIL_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_WRAP",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_TWISTER",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AQUA_TAIL",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_DRAGON_BREATH_FAST": false,
+    "MOVE_IRON_TAIL_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_WRAP": false,
+    "MOVE_TWISTER": false,
+    "MOVE_AQUA_TAIL": false
+  },
   "rarity": null,
   "buddyDistance": 5,
   "height": 1.8,
-  "weight": 3.3,
-  "family": "FAMILY_DRATINI",
-  "forms": null,
-  "_id": "POKEMON_DRATINI"
+  "weight": 3.3
 }

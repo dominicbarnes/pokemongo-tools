@@ -1,6 +1,7 @@
 {
   "name": "Pidgeot",
   "dex": 18,
+  "family": "FAMILY_PIDGEY",
   "generation": 1,
   "types": [
     "normal",
@@ -13,35 +14,17 @@
   },
   "previousEvolution": "POKEMON_PIDGEOTTO",
   "nextEvolutions": [],
-  "quickMoves": [
-    {
-      "id": "MOVE_AIR_SLASH_FAST",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_STEEL_WING_FAST",
-      "legacy": false
-    }
-  ],
-  "chargeMoves": [
-    {
-      "id": "MOVE_HURRICANE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_AERIAL_ACE",
-      "legacy": false
-    },
-    {
-      "id": "MOVE_BRAVE_BIRD",
-      "legacy": false
-    }
-  ],
+  "quickMoves": {
+    "MOVE_AIR_SLASH_FAST": false,
+    "MOVE_STEEL_WING_FAST": false
+  },
+  "chargeMoves": {
+    "MOVE_HURRICANE": false,
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_BRAVE_BIRD": false
+  },
   "rarity": null,
   "buddyDistance": 1,
   "height": 1.5,
-  "weight": 39.5,
-  "family": "FAMILY_PIDGEY",
-  "forms": null,
-  "_id": "POKEMON_PIDGEOT"
+  "weight": 39.5
 }

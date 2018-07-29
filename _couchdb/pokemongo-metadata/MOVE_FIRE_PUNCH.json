@@ -1,6 +1,6 @@
 {
-  "_id": "MOVE_FIRE_PUNCH",
   "name": "Fire Punch",
   "type": "fire",
-  "power": 55
+  "power": 55,
+  "quick": false
 }
