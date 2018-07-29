@@ -1,4 +1,12 @@
 
+0.8.1 / 2018-07-28
+==================
+
+  * chore: add pokemongo-game-master submodule
+  * fix(pokedex): update for new metadata
+  * chore(couchdb): regenerate data
+  * feat(import): reference pokemongo-game-master directly
+
 0.8.0 / 2018-07-20
 ==================
 
