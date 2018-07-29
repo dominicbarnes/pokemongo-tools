@@ -194,7 +194,8 @@
       metadataQuickMoves() {
         const metadata = this.getMetadata()
         if (!metadata) return null
-        return metadata.quickMoves.map(move => this.moveOption(this.movesByID(move.id), !!move.legacy))
+        return Object.keys(metadata.quickMoves)
+          .map(id => this.moveOption(this.movesByID(id), !!metadata.quickMoves[id]))
       },
       chargeMoves() {
         return this.$store.getters.chargeMoves.map(move => this.moveOption(move))
@@ -202,7 +203,8 @@
       metadataChargeMoves() {
         const metadata = this.getMetadata()
         if (!metadata) return null
-        return metadata.chargeMoves.map(move => this.moveOption(this.movesByID(move.id), !!move.legacy))
+        return Object.keys(metadata.chargeMoves)
+          .map(id => this.moveOption(this.movesByID(id), !!metadata.chargeMoves[id]))
       },
 
       totalIVs() {
