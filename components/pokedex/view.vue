@@ -133,9 +133,13 @@
         const { movesByID } = this.$store.getters
         const { quickMoves } = this.pokemon
         if (!quickMoves) return null
-        return quickMoves
-          .map(move => movesByID(move.id))
+        return Object.keys(quickMoves)
+          .map(id => movesByID(id))
           .filter(Boolean)
+          .map(move => {
+            move.legacy = quickMoves[move._id]
+            return move
+          })
           .sort(sortBy('power'))
       },
 
@@ -143,9 +147,13 @@
         const { movesByID } = this.$store.getters
         const { chargeMoves } = this.pokemon
         if (!chargeMoves) return null
-        return chargeMoves
-          .map(move => movesByID(move.id))
+        return Object.keys(chargeMoves)
+          .map(id => movesByID(id))
           .filter(Boolean)
+          .map(move => {
+            move.legacy = chargeMoves[move._id]
+            return move
+          })
           .sort(sortBy('power'))
       },
 
