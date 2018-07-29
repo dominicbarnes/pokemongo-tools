@@ -1,4 +1,9 @@
 
+0.8.2 / 2018-07-28
+==================
+
+  * fix(catalog): update form to handle new move metadata
+
 0.8.1 / 2018-07-28
 ==================
 
