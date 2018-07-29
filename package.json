@@ -25,6 +25,7 @@
     "bootstrap": "^4.1.2",
     "bootstrap-vue": "^2.0.0-rc.11",
     "browserify": "^16.2.2",
+    "case": "^1.5.5",
     "clone": "^2.1.2",
     "concurrently": "^3.6.0",
     "couchdb-bootstrap": "^1.14.0",
@@ -40,6 +41,7 @@
     "eslint-plugin-standard": "^3.1.0",
     "eslint-plugin-vue": "^4.7.0",
     "exorcist": "^1.0.0",
+    "fs-extra": "^7.0.0",
     "graphql-request": "^1.6.0",
     "husky": "^0.14.3",
     "moment": "^2.22.1",
@@ -47,6 +49,7 @@
     "nano-blue": "^0.3.0",
     "nano-markdown": "^1.2.0",
     "nano-promises": "^1.2.0",
+    "node-pogo-protos-vnext": "2.24.0",
     "node-prune": "^1.0.2",
     "numeral": "^2.0.6",
     "postcss-cli": "^5.0.1",
@@ -84,7 +87,8 @@
     "import": "node scripts/import.js",
     "version": "git-changelog --tag $npm_package_version && git add HISTORY.md",
     "postversion": "git push --tags && git push",
-    "precommit": "npm test"
+    "precommit": "npm test",
+    "update": "git submodule update --recursive --remote"
   },
   "eslintConfig": {
     "parserOptions": {
@@ -97,6 +101,7 @@
   },
   "eslintIgnore": [
     "_couchdb/**",
-    "public/**"
+    "public/**",
+    "pokemongo-game-master/**"
   ]
 }
