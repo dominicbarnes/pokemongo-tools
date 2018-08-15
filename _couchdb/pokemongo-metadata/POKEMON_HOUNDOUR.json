@@ -1,35 +1,35 @@
 {
-  "name": "Houndour",
+  "baseStats": {
+    "attack": 152,
+    "defense": 93,
+    "stamina": 90
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_CRUNCH": false,
+    "MOVE_DARK_PULSE": false,
+    "MOVE_FLAMETHROWER": false
+  },
   "dex": 228,
   "family": "FAMILY_HOUNDOUR",
   "generation": 2,
+  "height": 0.61,
+  "name": "Houndour",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_HOUNDOOM"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_FEINT_ATTACK_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "dark",
     "fire"
   ],
-  "baseStats": {
-    "stamina": 90,
-    "attack": 152,
-    "defense": 93
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_HOUNDOOM",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_FEINT_ATTACK_FAST": false,
-    "MOVE_EMBER_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_CRUNCH": false,
-    "MOVE_FLAMETHROWER": false,
-    "MOVE_DARK_PULSE": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.61,
   "weight": 10.8
 }

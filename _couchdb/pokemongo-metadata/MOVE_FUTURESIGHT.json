@@ -1,6 +1,6 @@
 {
   "name": "Futuresight",
-  "type": "psychic",
   "power": 120,
-  "quick": false
+  "quick": false,
+  "type": "psychic"
 }

@@ -1,36 +1,34 @@
 {
-  "name": "Zigzagoon",
-  "dex": 263,
-  "family": "FAMILY_ZIGZAGOON",
-  "generation": 3,
-  "types": [
-    "normal"
-  ],
   "baseStats": {
-    "stamina": 76,
     "attack": 58,
-    "defense": 80
+    "defense": 80,
+    "stamina": 76
   },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_LINOONE",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_TACKLE_FAST": false,
-    "MOVE_ROCK_SMASH_FAST": false
-  },
+  "buddyDistance": 1,
   "chargeMoves": {
-    "MOVE_STRUGGLE": true,
     "MOVE_DIG": false,
     "MOVE_GRASS_KNOT": false,
     "MOVE_THUNDERBOLT": false
   },
-  "rarity": null,
-  "buddyDistance": 1,
+  "dex": 263,
+  "family": "FAMILY_ZIGZAGOON",
+  "generation": 3,
   "height": 0.41,
+  "name": "Zigzagoon",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_LINOONE"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_ROCK_SMASH_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
   "weight": 17.5
 }

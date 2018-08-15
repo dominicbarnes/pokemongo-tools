@@ -1,29 +1,30 @@
 {
-  "name": "Tangela",
-  "dex": 114,
-  "family": "FAMILY_TANGELA",
-  "generation": 1,
-  "types": [
-    "grass"
-  ],
   "baseStats": {
-    "stamina": 130,
     "attack": 183,
-    "defense": 205
+    "defense": 205,
+    "stamina": 130
   },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_VINE_WHIP_FAST": false,
-    "MOVE_INFESTATION_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_GRASS_KNOT": false,
     "MOVE_SLUDGE_BOMB": false,
     "MOVE_SOLAR_BEAM": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 114,
+  "family": "FAMILY_TANGELA",
+  "generation": 1,
   "height": 1,
+  "name": "Tangela",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_INFESTATION_FAST": false,
+    "MOVE_VINE_WHIP_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "grass"
+  ],
   "weight": 35
 }

@@ -1,34 +1,33 @@
 {
-  "name": "Kecleon",
+  "baseStats": {
+    "attack": 161,
+    "defense": 212,
+    "stamina": 120
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_FOUL_PLAY": false,
+    "MOVE_ICE_BEAM": false,
+    "MOVE_SHADOW_SNEAK": false,
+    "MOVE_THUNDER": false
+  },
   "dex": 352,
   "family": "FAMILY_KECLEON",
   "generation": 3,
-  "types": [
-    "normal"
+  "height": 0.99,
+  "name": "Kecleon",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 120,
-    "attack": 161,
-    "defense": 212
-  },
   "previousEvolution": null,
-  "nextEvolutions": [],
   "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
     "MOVE_LICK_FAST": false,
     "MOVE_SUCKER_PUNCH_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_FOUL_PLAY": false,
-    "MOVE_FLAMETHROWER": false,
-    "MOVE_THUNDER": false,
-    "MOVE_ICE_BEAM": false,
-    "MOVE_AERIAL_ACE": false,
-    "MOVE_SHADOW_SNEAK": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 0.99,
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
   "weight": 22
 }

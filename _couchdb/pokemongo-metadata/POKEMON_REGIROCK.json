@@ -1,31 +1,30 @@
 {
-  "name": "Regirock",
+  "baseStats": {
+    "attack": 179,
+    "defense": 356,
+    "stamina": 160
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_FOCUS_BLAST": false,
+    "MOVE_STONE_EDGE": false,
+    "MOVE_ZAP_CANNON": false
+  },
   "dex": 377,
   "family": "FAMILY_REGIROCK",
   "generation": 3,
+  "height": 1.7,
+  "name": "Regirock",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_ROCK_SMASH_FAST": false,
+    "MOVE_ROCK_THROW_FAST": false
+  },
+  "rarity": "legendary",
   "types": [
     "rock"
   ],
-  "baseStats": {
-    "stamina": 160,
-    "attack": 179,
-    "defense": 356
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_ROCK_THROW_FAST": false,
-    "MOVE_ROCK_SMASH_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_STONE_EDGE": false,
-    "MOVE_ZAP_CANNON": false,
-    "MOVE_FOCUS_BLAST": false
-  },
-  "rarity": "legendary",
-  "buddyDistance": 20,
-  "height": 1.7,
   "weight": 230
 }

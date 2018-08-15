@@ -1,32 +1,31 @@
 {
-  "name": "Lunatone",
+  "baseStats": {
+    "attack": 178,
+    "defense": 163,
+    "stamina": 180
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_MOONBLAST": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_ROCK_SLIDE": false
+  },
   "dex": 337,
   "family": "FAMILY_LUNATONE",
   "generation": 3,
+  "height": 0.99,
+  "name": "Lunatone",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_ROCK_THROW_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "rock",
     "psychic"
   ],
-  "baseStats": {
-    "stamina": 180,
-    "attack": 178,
-    "defense": 163
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_ROCK_THROW_FAST": false,
-    "MOVE_CONFUSION_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_PSYCHIC": false,
-    "MOVE_ROCK_SLIDE": false,
-    "MOVE_MOONBLAST": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.99,
   "weight": 168
 }

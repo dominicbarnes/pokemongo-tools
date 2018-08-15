@@ -1,35 +1,35 @@
 {
-  "name": "Ivysaur",
+  "baseStats": {
+    "attack": 151,
+    "defense": 151,
+    "stamina": 120
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_POWER_WHIP": false,
+    "MOVE_SLUDGE_BOMB": false,
+    "MOVE_SOLAR_BEAM": false
+  },
   "dex": 2,
   "family": "FAMILY_BULBASAUR",
   "generation": 1,
-  "types": [
-    "grass",
-    "poison"
-  ],
-  "baseStats": {
-    "stamina": 120,
-    "attack": 151,
-    "defense": 151
-  },
-  "previousEvolution": "POKEMON_BULBASAUR",
+  "height": 1,
+  "name": "Ivysaur",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_VENUSAUR",
-      "candy": 100
+      "candy": 100,
+      "pokemon": "POKEMON_VENUSAUR"
     }
   ],
+  "previousEvolution": "POKEMON_BULBASAUR",
   "quickMoves": {
     "MOVE_RAZOR_LEAF_FAST": false,
     "MOVE_VINE_WHIP_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_SLUDGE_BOMB": false,
-    "MOVE_SOLAR_BEAM": false,
-    "MOVE_POWER_WHIP": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1,
+  "rarity": "common",
+  "types": [
+    "grass",
+    "poison"
+  ],
   "weight": 13
 }

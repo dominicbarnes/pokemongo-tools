@@ -1,32 +1,31 @@
 {
-  "name": "Masquerain",
-  "dex": 284,
-  "family": "FAMILY_SURSKIT",
-  "generation": 3,
-  "types": [
-    "bug",
-    "flying"
-  ],
   "baseStats": {
-    "stamina": 140,
     "attack": 192,
-    "defense": 161
+    "defense": 161,
+    "stamina": 140
   },
-  "previousEvolution": "POKEMON_SURSKIT",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_INFESTATION_FAST": false,
-    "MOVE_AIR_SLASH_FAST": false
-  },
+  "buddyDistance": 1,
   "chargeMoves": {
-    "MOVE_STRUGGLE": true,
     "MOVE_AIR_CUTTER": false,
     "MOVE_OMINOUS_WIND": false,
     "MOVE_SILVER_WIND": false
   },
-  "rarity": null,
-  "buddyDistance": 1,
+  "dex": 284,
+  "family": "FAMILY_SURSKIT",
+  "generation": 3,
   "height": 0.79,
+  "name": "Masquerain",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_SURSKIT",
+  "quickMoves": {
+    "MOVE_AIR_SLASH_FAST": false,
+    "MOVE_INFESTATION_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "bug",
+    "flying"
+  ],
   "weight": 3.6
 }

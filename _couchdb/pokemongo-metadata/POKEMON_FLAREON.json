@@ -1,29 +1,30 @@
 {
-  "name": "Flareon",
-  "dex": 136,
-  "family": "FAMILY_EEVEE",
-  "generation": 1,
-  "types": [
-    "fire"
-  ],
   "baseStats": {
-    "stamina": 130,
     "attack": 246,
-    "defense": 204
+    "defense": 204,
+    "stamina": 130
   },
-  "previousEvolution": "POKEMON_EEVEE",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_EMBER_FAST": false,
-    "MOVE_FIRE_SPIN_FAST": false
-  },
+  "buddyDistance": 5,
   "chargeMoves": {
     "MOVE_FIRE_BLAST": false,
     "MOVE_FLAMETHROWER": false,
     "MOVE_OVERHEAT": false
   },
-  "rarity": null,
-  "buddyDistance": 5,
+  "dex": 136,
+  "family": "FAMILY_EEVEE",
+  "generation": 1,
   "height": 0.9,
+  "name": "Flareon",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_EEVEE",
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_FIRE_SPIN_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "fire"
+  ],
   "weight": 25
 }

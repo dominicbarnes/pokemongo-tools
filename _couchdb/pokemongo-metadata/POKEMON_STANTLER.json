@@ -1,29 +1,30 @@
 {
-  "name": "Stantler",
+  "baseStats": {
+    "attack": 192,
+    "defense": 132,
+    "stamina": 146
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_MEGAHORN": false,
+    "MOVE_STOMP": false,
+    "MOVE_WILD_CHARGE": false
+  },
   "dex": 234,
   "family": "FAMILY_STANTLER",
   "generation": 2,
-  "types": [
-    "normal"
+  "height": 1.4,
+  "name": "Stantler",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 146,
-    "attack": 192,
-    "defense": 132
-  },
   "previousEvolution": null,
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_TACKLE_FAST": false,
     "MOVE_ZEN_HEADBUTT_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STOMP": false,
-    "MOVE_WILD_CHARGE": false,
-    "MOVE_MEGAHORN": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.4,
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
   "weight": 71.2
 }

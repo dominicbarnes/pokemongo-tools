@@ -1,35 +1,33 @@
 {
-  "name": "Taillow",
+  "baseStats": {
+    "attack": 106,
+    "defense": 61,
+    "stamina": 80
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false
+  },
   "dex": 276,
   "family": "FAMILY_TAILLOW",
   "generation": 3,
+  "height": 0.3,
+  "name": "Taillow",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_SWELLOW"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_PECK_FAST": false,
+    "MOVE_QUICK_ATTACK_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "normal",
     "flying"
   ],
-  "baseStats": {
-    "stamina": 80,
-    "attack": 106,
-    "defense": 61
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_SWELLOW",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_PECK_FAST": false,
-    "MOVE_QUICK_ATTACK_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_AERIAL_ACE": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 0.3,
   "weight": 2.3
 }

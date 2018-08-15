@@ -1,31 +1,31 @@
 {
-  "name": "Lapras",
+  "baseStats": {
+    "attack": 165,
+    "defense": 180,
+    "stamina": 260
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_BLIZZARD": false,
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_SURF": false
+  },
   "dex": 131,
   "family": "FAMILY_LAPRAS",
   "generation": 1,
-  "types": [
-    "water",
-    "ice"
+  "height": 2.5,
+  "name": "Lapras",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 260,
-    "attack": 165,
-    "defense": 180
-  },
   "previousEvolution": null,
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_FROST_BREATH_FAST": false,
     "MOVE_WATER_GUN_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_HYDRO_PUMP": false,
-    "MOVE_ICE_BEAM": true,
-    "MOVE_BLIZZARD": false,
-    "MOVE_SURF": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 2.5,
+  "rarity": "common",
+  "types": [
+    "water",
+    "ice"
+  ],
   "weight": 220
 }

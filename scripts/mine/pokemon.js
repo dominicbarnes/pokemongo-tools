@@ -1,30 +1,51 @@
 
 const Case = require('case')
+const clone = require('clone')
 const POGOProtos = require('node-pogo-protos-vnext')
 
 module.exports = function (m, data) {
-  data.get('pokemonSettings').forEach(pokemon => {
-    const id = `POKEMON_${pokemon.pokemonId}`
+  const pokemon = new Map()
 
-    if (pokemon.form) {
-      const o = m.get(id)
-
-      if (!o.forms) o.forms = {}
-
-      const f = form(pokemon)
-      o.forms[f] = merge(o.forms[f], document(pokemon, id))
-
-      m.set(id, o)
-    } else {
-      const o = document(pokemon, id)
-
-      if (m.has(id)) {
-        m.set(id, merge(m.get(id), o))
-      } else {
-        m.set(id, o)
-      }
-    }
+  // set up all the base/normal forms (skip any alternate forms)
+  data.get('pokemonSettings').forEach(settings => {
+    if (settings.form) return
+    pokemon.set(`POKEMON_${settings.pokemonId}`, document(settings))
   })
+
+  // set up alternate forms that have their own metadata/stats
+  data.get('pokemonSettings').forEach(settings => {
+    if (!settings.form) return
+    const f = form(settings)
+    const doc = pokemon.get(`POKEMON_${settings.pokemonId}`)
+    if (!doc.forms) doc.forms = Object.create(null)
+    doc.forms[f] = document(settings)
+  })
+
+  // extract asset bundle ids for alternate forms
+  data.get('formSettings').forEach(settings => {
+    if (!settings.forms) return
+    const doc = pokemon.get(`POKEMON_${settings.pokemon}`)
+    settings.forms.forEach(form => {
+      const f = form.form.replace(`${settings.pokemon}_`, '').toLowerCase()
+      if (!doc.forms) {
+        doc.defaultForm = f
+        doc.forms = Object.create(null)
+      }
+      if (!doc.forms[f]) {
+        doc.forms[f] = { name: `${doc.name} (${Case.title(f)})`, assetBundle: form.assetBundleValue }
+      } else {
+        doc.forms[f].assetBundle = form.assetBundleValue
+      }
+    })
+  })
+
+  for (const [ id, doc ] of pokemon.entries()) {
+    if (m.has(id)) {
+      m.set(id, merge(m.get(id), doc))
+    } else {
+      m.set(id, doc)
+    }
+  }
 }
 
 function generation (dex) {
@@ -40,7 +61,7 @@ function generation (dex) {
   }
 }
 
-function document (pokemon, id) {
+function document (pokemon) {
   const dex = POGOProtos.Enums.PokemonId[pokemon.pokemonId]
 
   return {
@@ -59,7 +80,7 @@ function document (pokemon, id) {
       : null,
     nextEvolutions: (pokemon.evolutionBranch || []).map(branch => {
       return {
-        pokemon: `POKEMON_${branch.evolution}`,
+        pokemon: `POKEMON_${branch.form || branch.evolution}`,
         candy: branch.candyCost,
         item: branch.evolutionItemRequirement
       }
@@ -95,7 +116,7 @@ function form (pokemon) {
 }
 
 function rarity (pokemon) {
-  if (!pokemon.rarity) return null
+  if (!pokemon.rarity) return 'common'
   return pokemon.rarity.replace('POKEMON_RARITY_', '').toLowerCase()
 }
 
@@ -116,11 +137,15 @@ function merge (prev, next) {
 
 function mergeMoves (a, b) {
   const c = Object.create(null)
-  Object.keys(a).forEach(id => {
-    c[id] = true
-  })
-  Object.keys(b).forEach(id => {
-    c[id] = b[id]
-  })
+  if (a) {
+    Object.keys(a).forEach(id => {
+      c[id] = true
+    })
+  }
+  if (b) {
+    Object.keys(b).forEach(id => {
+      c[id] = b[id]
+    })
+  }
   return c
 }

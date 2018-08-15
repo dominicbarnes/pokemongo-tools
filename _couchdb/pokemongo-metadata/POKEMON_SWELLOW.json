@@ -1,32 +1,31 @@
 {
-  "name": "Swellow",
-  "dex": 277,
-  "family": "FAMILY_TAILLOW",
-  "generation": 3,
-  "types": [
-    "normal",
-    "flying"
-  ],
   "baseStats": {
-    "stamina": 120,
     "attack": 185,
-    "defense": 130
+    "defense": 130,
+    "stamina": 120
   },
-  "previousEvolution": "POKEMON_TAILLOW",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_WING_ATTACK_FAST": false,
-    "MOVE_STEEL_WING_FAST": false
-  },
+  "buddyDistance": 1,
   "chargeMoves": {
-    "MOVE_STRUGGLE": true,
     "MOVE_AERIAL_ACE": false,
     "MOVE_BRAVE_BIRD": false,
     "MOVE_SKY_ATTACK": false
   },
-  "rarity": null,
-  "buddyDistance": 1,
+  "dex": 277,
+  "family": "FAMILY_TAILLOW",
+  "generation": 3,
   "height": 0.71,
+  "name": "Swellow",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_TAILLOW",
+  "quickMoves": {
+    "MOVE_STEEL_WING_FAST": false,
+    "MOVE_WING_ATTACK_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal",
+    "flying"
+  ],
   "weight": 19.8
 }

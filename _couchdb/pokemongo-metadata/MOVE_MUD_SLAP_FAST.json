@@ -1,6 +1,6 @@
 {
   "name": "Mud Slap",
-  "type": "ground",
   "power": 15,
-  "quick": true
+  "quick": true,
+  "type": "ground"
 }

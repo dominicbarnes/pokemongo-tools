@@ -1,6 +1,6 @@
 {
   "name": "Counter",
-  "type": "fighting",
   "power": 12,
-  "quick": true
+  "quick": true,
+  "type": "fighting"
 }

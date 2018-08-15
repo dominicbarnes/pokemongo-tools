@@ -1,6 +1,6 @@
 {
   "name": "Hex",
-  "type": "ghost",
   "power": 10,
-  "quick": true
+  "quick": true,
+  "type": "ghost"
 }

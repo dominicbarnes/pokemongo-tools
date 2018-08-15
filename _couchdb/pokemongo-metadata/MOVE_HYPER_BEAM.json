@@ -1,6 +1,6 @@
 {
   "name": "Hyper Beam",
-  "type": "normal",
   "power": 150,
-  "quick": false
+  "quick": false,
+  "type": "normal"
 }

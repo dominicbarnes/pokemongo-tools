@@ -1,37 +1,35 @@
 {
-  "name": "Metang",
+  "baseStats": {
+    "attack": 138,
+    "defense": 185,
+    "stamina": 120
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_GYRO_BALL": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_PSYSHOCK": false
+  },
   "dex": 375,
   "family": "FAMILY_BELDUM",
   "generation": 3,
+  "height": 1.19,
+  "name": "Metang",
+  "nextEvolutions": [
+    {
+      "candy": 100,
+      "pokemon": "POKEMON_METAGROSS"
+    }
+  ],
+  "previousEvolution": "POKEMON_BELDUM",
+  "quickMoves": {
+    "MOVE_METAL_CLAW_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "steel",
     "psychic"
   ],
-  "baseStats": {
-    "stamina": 120,
-    "attack": 138,
-    "defense": 185
-  },
-  "previousEvolution": "POKEMON_BELDUM",
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_METAGROSS",
-      "candy": 100
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_ZEN_HEADBUTT_FAST": false,
-    "MOVE_METAL_CLAW_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_PSYCHIC": false,
-    "MOVE_GYRO_BALL": false,
-    "MOVE_PSYSHOCK": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 1.19,
   "weight": 202.5
 }

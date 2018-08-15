@@ -1,6 +1,6 @@
 {
   "name": "Dragon Breath",
-  "type": "dragon",
   "power": 6,
-  "quick": true
+  "quick": true,
+  "type": "dragon"
 }

@@ -1,35 +1,35 @@
 {
-  "name": "Venonat",
-  "dex": 48,
-  "family": "FAMILY_VENONAT",
-  "generation": 1,
-  "types": [
-    "bug",
-    "poison"
-  ],
   "baseStats": {
-    "stamina": 120,
     "attack": 100,
-    "defense": 102
+    "defense": 102,
+    "stamina": 120
   },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_VENOMOTH",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_BUG_BITE_FAST": false,
-    "MOVE_CONFUSION_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_POISON_FANG": false,
     "MOVE_PSYBEAM": false,
     "MOVE_SIGNAL_BEAM": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 48,
+  "family": "FAMILY_VENONAT",
+  "generation": 1,
   "height": 1,
+  "name": "Venonat",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_VENOMOTH"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_BUG_BITE_FAST": false,
+    "MOVE_CONFUSION_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "bug",
+    "poison"
+  ],
   "weight": 30
 }

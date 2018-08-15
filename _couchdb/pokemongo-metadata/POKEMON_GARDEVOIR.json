@@ -1,32 +1,31 @@
 {
-  "name": "Gardevoir",
+  "baseStats": {
+    "attack": 237,
+    "defense": 220,
+    "stamina": 136
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_SHADOW_BALL": false
+  },
   "dex": 282,
   "family": "FAMILY_RALTS",
   "generation": 3,
+  "height": 1.6,
+  "name": "Gardevoir",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_KIRLIA",
+  "quickMoves": {
+    "MOVE_CHARGE_BEAM_FAST": false,
+    "MOVE_CONFUSION_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "psychic",
     "fairy"
   ],
-  "baseStats": {
-    "stamina": 136,
-    "attack": 237,
-    "defense": 220
-  },
-  "previousEvolution": "POKEMON_KIRLIA",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_CONFUSION_FAST": false,
-    "MOVE_CHARGE_BEAM_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_PSYCHIC": false,
-    "MOVE_DAZZLING_GLEAM": false,
-    "MOVE_SHADOW_BALL": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 1.6,
   "weight": 48.4
 }

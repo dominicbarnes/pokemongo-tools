@@ -1,32 +1,31 @@
 {
-  "name": "Camerupt",
-  "dex": 323,
-  "family": "FAMILY_NUMEL",
-  "generation": 3,
-  "types": [
-    "fire",
-    "ground"
-  ],
   "baseStats": {
-    "stamina": 140,
     "attack": 194,
-    "defense": 139
+    "defense": 139,
+    "stamina": 140
   },
-  "previousEvolution": "POKEMON_NUMEL",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_EMBER_FAST": false,
-    "MOVE_ROCK_SMASH_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
-    "MOVE_STRUGGLE": true,
     "MOVE_EARTHQUAKE": false,
     "MOVE_OVERHEAT": false,
     "MOVE_SOLAR_BEAM": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 323,
+  "family": "FAMILY_NUMEL",
+  "generation": 3,
   "height": 1.91,
+  "name": "Camerupt",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_NUMEL",
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "fire",
+    "ground"
+  ],
   "weight": 220
 }

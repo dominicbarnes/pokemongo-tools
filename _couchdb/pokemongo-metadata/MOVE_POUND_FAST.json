@@ -1,6 +1,6 @@
 {
   "name": "Pound",
-  "type": "normal",
   "power": 7,
-  "quick": true
+  "quick": true,
+  "type": "normal"
 }

@@ -1,29 +1,30 @@
 {
-  "name": "Sunflora",
+  "baseStats": {
+    "attack": 185,
+    "defense": 148,
+    "stamina": 150
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_PETAL_BLIZZARD": false,
+    "MOVE_SLUDGE_BOMB": false,
+    "MOVE_SOLAR_BEAM": false
+  },
   "dex": 192,
   "family": "FAMILY_SUNKERN",
   "generation": 2,
+  "height": 0.79,
+  "name": "Sunflora",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_SUNKERN",
+  "quickMoves": {
+    "MOVE_BULLET_SEED_FAST": false,
+    "MOVE_RAZOR_LEAF_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "grass"
   ],
-  "baseStats": {
-    "stamina": 150,
-    "attack": 185,
-    "defense": 148
-  },
-  "previousEvolution": "POKEMON_SUNKERN",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_RAZOR_LEAF_FAST": false,
-    "MOVE_BULLET_SEED_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_SOLAR_BEAM": false,
-    "MOVE_PETAL_BLIZZARD": false,
-    "MOVE_SLUDGE_BOMB": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.79,
   "weight": 8.5
 }

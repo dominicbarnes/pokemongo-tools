@@ -1,31 +1,30 @@
 {
-  "name": "Volbeat",
+  "baseStats": {
+    "attack": 143,
+    "defense": 171,
+    "stamina": 130
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BUG_BUZZ": false,
+    "MOVE_SIGNAL_BEAM": false,
+    "MOVE_THUNDERBOLT": false
+  },
   "dex": 313,
   "family": "FAMILY_VOLBEAT",
   "generation": 3,
-  "types": [
-    "bug"
+  "height": 0.71,
+  "name": "Volbeat",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 130,
-    "attack": 143,
-    "defense": 171
-  },
   "previousEvolution": null,
-  "nextEvolutions": [],
   "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
     "MOVE_STRUGGLE_BUG_FAST": false,
     "MOVE_TACKLE_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_SIGNAL_BEAM": false,
-    "MOVE_BUG_BUZZ": false,
-    "MOVE_THUNDERBOLT": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.71,
+  "rarity": "common",
+  "types": [
+    "bug"
+  ],
   "weight": 17.7
 }

@@ -1,6 +1,6 @@
 {
   "name": "Sludge Wave",
-  "type": "poison",
   "power": 110,
-  "quick": false
+  "quick": false,
+  "type": "poison"
 }

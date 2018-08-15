@@ -1,31 +1,30 @@
 {
-  "name": "Seviper",
+  "baseStats": {
+    "attack": 196,
+    "defense": 118,
+    "stamina": 146
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_CRUNCH": false,
+    "MOVE_POISON_FANG": false,
+    "MOVE_WRAP": false
+  },
   "dex": 336,
   "family": "FAMILY_SEVIPER",
   "generation": 3,
+  "height": 2.69,
+  "name": "Seviper",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_IRON_TAIL_FAST": false,
+    "MOVE_POISON_JAB_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "poison"
   ],
-  "baseStats": {
-    "stamina": 146,
-    "attack": 196,
-    "defense": 118
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_POISON_JAB_FAST": false,
-    "MOVE_IRON_TAIL_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_POISON_FANG": false,
-    "MOVE_CRUNCH": false,
-    "MOVE_WRAP": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 2.69,
   "weight": 52.5
 }

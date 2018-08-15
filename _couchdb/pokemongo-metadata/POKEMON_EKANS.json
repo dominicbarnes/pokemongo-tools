@@ -1,34 +1,34 @@
 {
-  "name": "Ekans",
+  "baseStats": {
+    "attack": 110,
+    "defense": 102,
+    "stamina": 70
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_POISON_FANG": false,
+    "MOVE_SLUDGE_BOMB": false,
+    "MOVE_WRAP": false
+  },
   "dex": 23,
   "family": "FAMILY_EKANS",
   "generation": 1,
+  "height": 2,
+  "name": "Ekans",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_ARBOK"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_ACID_FAST": false,
+    "MOVE_POISON_STING_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "poison"
   ],
-  "baseStats": {
-    "stamina": 70,
-    "attack": 110,
-    "defense": 102
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_ARBOK",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_POISON_STING_FAST": false,
-    "MOVE_ACID_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_WRAP": false,
-    "MOVE_POISON_FANG": false,
-    "MOVE_SLUDGE_BOMB": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 2,
   "weight": 6.9
 }

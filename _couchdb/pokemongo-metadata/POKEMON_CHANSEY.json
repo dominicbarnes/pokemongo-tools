@@ -1,34 +1,34 @@
 {
-  "name": "Chansey",
+  "baseStats": {
+    "attack": 60,
+    "defense": 176,
+    "stamina": 500
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_PSYCHIC": false
+  },
   "dex": 113,
   "family": "FAMILY_CHANSEY",
   "generation": 1,
-  "types": [
-    "normal"
-  ],
-  "baseStats": {
-    "stamina": 500,
-    "attack": 60,
-    "defense": 176
-  },
-  "previousEvolution": null,
+  "height": 1.1,
+  "name": "Chansey",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_BLISSEY",
-      "candy": 50
+      "candy": 50,
+      "pokemon": "POKEMON_BLISSEY"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
     "MOVE_POUND_FAST": false,
     "MOVE_ZEN_HEADBUTT_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_PSYCHIC": false,
-    "MOVE_HYPER_BEAM": false,
-    "MOVE_DAZZLING_GLEAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 1.1,
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
   "weight": 34.6
 }

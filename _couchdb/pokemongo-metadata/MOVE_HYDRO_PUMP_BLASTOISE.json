@@ -1,6 +1,6 @@
 {
   "name": "Hydro Pump Blastoise",
-  "type": "water",
   "power": 90,
-  "quick": false
+  "quick": false,
+  "type": "water"
 }

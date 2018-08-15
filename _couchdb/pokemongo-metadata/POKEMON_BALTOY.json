@@ -1,37 +1,35 @@
 {
-  "name": "Baltoy",
+  "baseStats": {
+    "attack": 77,
+    "defense": 131,
+    "stamina": 80
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DIG": false,
+    "MOVE_GYRO_BALL": false,
+    "MOVE_PSYBEAM": false
+  },
   "dex": 343,
   "family": "FAMILY_BALTOY",
   "generation": 3,
+  "height": 0.51,
+  "name": "Baltoy",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_CLAYDOL"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_EXTRASENSORY_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "ground",
     "psychic"
   ],
-  "baseStats": {
-    "stamina": 80,
-    "attack": 77,
-    "defense": 131
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_CLAYDOL",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_CONFUSION_FAST": false,
-    "MOVE_EXTRASENSORY_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_GYRO_BALL": false,
-    "MOVE_PSYBEAM": false,
-    "MOVE_DIG": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.51,
   "weight": 21.5
 }

@@ -1,29 +1,30 @@
 {
-  "name": "Dusclops",
+  "baseStats": {
+    "attack": 124,
+    "defense": 234,
+    "stamina": 80
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_FIRE_PUNCH": false,
+    "MOVE_ICE_PUNCH": false,
+    "MOVE_SHADOW_PUNCH": false
+  },
   "dex": 356,
   "family": "FAMILY_DUSKULL",
   "generation": 3,
+  "height": 1.6,
+  "name": "Dusclops",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_DUSKULL",
+  "quickMoves": {
+    "MOVE_FEINT_ATTACK_FAST": false,
+    "MOVE_HEX_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "ghost"
   ],
-  "baseStats": {
-    "stamina": 80,
-    "attack": 124,
-    "defense": 234
-  },
-  "previousEvolution": "POKEMON_DUSKULL",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_HEX_FAST": false,
-    "MOVE_FEINT_ATTACK_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_SHADOW_PUNCH": false,
-    "MOVE_ICE_PUNCH": false,
-    "MOVE_FIRE_PUNCH": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.6,
   "weight": 30.6
 }

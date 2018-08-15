@@ -1,6 +1,6 @@
 {
   "name": "Bullet Punch",
-  "type": "steel",
   "power": 9,
-  "quick": true
+  "quick": true,
+  "type": "steel"
 }

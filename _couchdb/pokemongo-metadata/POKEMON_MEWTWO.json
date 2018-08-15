@@ -1,30 +1,31 @@
 {
-  "name": "Mewtwo",
+  "baseStats": {
+    "attack": 300,
+    "defense": 182,
+    "stamina": 193
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_FOCUS_BLAST": false,
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_SHADOW_BALL": false
+  },
   "dex": 150,
   "family": "FAMILY_MEWTWO",
   "generation": 1,
+  "height": 2,
+  "name": "Mewtwo",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_PSYCHO_CUT_FAST": false
+  },
+  "rarity": "legendary",
   "types": [
     "psychic"
   ],
-  "baseStats": {
-    "stamina": 193,
-    "attack": 300,
-    "defense": 182
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_PSYCHO_CUT_FAST": false,
-    "MOVE_CONFUSION_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_PSYCHIC": false,
-    "MOVE_SHADOW_BALL": false,
-    "MOVE_HYPER_BEAM": false,
-    "MOVE_FOCUS_BLAST": false
-  },
-  "rarity": "legendary",
-  "buddyDistance": 20,
-  "height": 2,
   "weight": 122
 }

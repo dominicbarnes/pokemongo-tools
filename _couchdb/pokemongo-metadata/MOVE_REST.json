@@ -1,6 +1,6 @@
 {
   "name": "Rest",
-  "type": "normal",
   "power": 50,
-  "quick": false
+  "quick": false,
+  "type": "normal"
 }

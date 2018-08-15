@@ -1,6 +1,6 @@
 {
   "name": "Steel Wing",
-  "type": "steel",
   "power": 11,
-  "quick": true
+  "quick": true,
+  "type": "steel"
 }

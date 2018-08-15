@@ -1,29 +1,30 @@
 {
-  "name": "Clefable",
+  "baseStats": {
+    "attack": 178,
+    "defense": 171,
+    "stamina": 190
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_MOONBLAST": false,
+    "MOVE_PSYCHIC": false
+  },
   "dex": 36,
   "family": "FAMILY_CLEFAIRY",
   "generation": 1,
-  "types": [
-    "fairy"
+  "height": 1.3,
+  "name": "Clefable",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 190,
-    "attack": 178,
-    "defense": 171
-  },
   "previousEvolution": "POKEMON_CLEFAIRY",
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_CHARGE_BEAM_FAST": false,
     "MOVE_ZEN_HEADBUTT_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_DAZZLING_GLEAM": false,
-    "MOVE_PSYCHIC": false,
-    "MOVE_MOONBLAST": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 1.3,
+  "rarity": "common",
+  "types": [
+    "fairy"
+  ],
   "weight": 40
 }

@@ -1,29 +1,30 @@
 {
-  "name": "Aipom",
+  "baseStats": {
+    "attack": 136,
+    "defense": 112,
+    "stamina": 110
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_LOW_SWEEP": false,
+    "MOVE_SWIFT": false
+  },
   "dex": 190,
   "family": "FAMILY_AIPOM",
   "generation": 2,
+  "height": 0.79,
+  "name": "Aipom",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_ASTONISH_FAST": false,
+    "MOVE_SCRATCH_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "normal"
   ],
-  "baseStats": {
-    "stamina": 110,
-    "attack": 136,
-    "defense": 112
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SCRATCH_FAST": false,
-    "MOVE_ASTONISH_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_LOW_SWEEP": false,
-    "MOVE_SWIFT": false,
-    "MOVE_AERIAL_ACE": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.79,
   "weight": 11.5
 }

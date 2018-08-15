@@ -1,6 +1,6 @@
 {
   "name": "Shadow Sneak",
-  "type": "ghost",
   "power": 50,
-  "quick": false
+  "quick": false,
+  "type": "ghost"
 }

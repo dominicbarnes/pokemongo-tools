@@ -1,35 +1,35 @@
 {
-  "name": "Larvitar",
+  "baseStats": {
+    "attack": 115,
+    "defense": 93,
+    "stamina": 100
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_ANCIENT_POWER": false,
+    "MOVE_CRUNCH": false,
+    "MOVE_STOMP": false
+  },
   "dex": 246,
   "family": "FAMILY_LARVITAR",
   "generation": 2,
-  "types": [
-    "rock",
-    "ground"
-  ],
-  "baseStats": {
-    "stamina": 100,
-    "attack": 115,
-    "defense": 93
-  },
-  "previousEvolution": null,
+  "height": 0.61,
+  "name": "Larvitar",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_PUPITAR",
-      "candy": 25
+      "candy": 25,
+      "pokemon": "POKEMON_PUPITAR"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
     "MOVE_BITE_FAST": false,
     "MOVE_ROCK_SMASH_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STOMP": false,
-    "MOVE_CRUNCH": false,
-    "MOVE_ANCIENT_POWER": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 0.61,
+  "rarity": "common",
+  "types": [
+    "rock",
+    "ground"
+  ],
   "weight": 72
 }

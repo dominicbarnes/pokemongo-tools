@@ -1,6 +1,6 @@
 {
   "name": "Signal Beam",
-  "type": "bug",
   "power": 75,
-  "quick": false
+  "quick": false,
+  "type": "bug"
 }

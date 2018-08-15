@@ -1,6 +1,6 @@
 {
   "name": "Magnet Bomb",
-  "type": "steel",
   "power": 70,
-  "quick": false
+  "quick": false,
+  "type": "steel"
 }

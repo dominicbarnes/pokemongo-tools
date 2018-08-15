@@ -1,29 +1,30 @@
 {
-  "name": "Hitmonlee",
-  "dex": 106,
-  "family": "FAMILY_TYROGUE",
-  "generation": 1,
-  "types": [
-    "fighting"
-  ],
   "baseStats": {
-    "stamina": 100,
     "attack": 224,
-    "defense": 211
+    "defense": 211,
+    "stamina": 100
   },
-  "previousEvolution": "POKEMON_TYROGUE",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_LOW_KICK_FAST": false,
-    "MOVE_ROCK_SMASH_FAST": false
-  },
+  "buddyDistance": 5,
   "chargeMoves": {
     "MOVE_CLOSE_COMBAT": false,
     "MOVE_LOW_SWEEP": false,
     "MOVE_STONE_EDGE": false
   },
-  "rarity": null,
-  "buddyDistance": 5,
+  "dex": 106,
+  "family": "FAMILY_TYROGUE",
+  "generation": 1,
   "height": 1.5,
+  "name": "Hitmonlee",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_TYROGUE",
+  "quickMoves": {
+    "MOVE_LOW_KICK_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "fighting"
+  ],
   "weight": 49.8
 }

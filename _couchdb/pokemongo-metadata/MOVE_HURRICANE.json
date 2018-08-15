@@ -1,6 +1,6 @@
 {
   "name": "Hurricane",
-  "type": "flying",
   "power": 110,
-  "quick": false
+  "quick": false,
+  "type": "flying"
 }

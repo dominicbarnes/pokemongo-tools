@@ -1,29 +1,30 @@
 {
-  "name": "Miltank",
+  "baseStats": {
+    "attack": 157,
+    "defense": 211,
+    "stamina": 190
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_BODY_SLAM": false,
+    "MOVE_GYRO_BALL": false,
+    "MOVE_STOMP": false
+  },
   "dex": 241,
   "family": "FAMILY_MILTANK",
   "generation": 2,
-  "types": [
-    "normal"
+  "height": 1.19,
+  "name": "Miltank",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 190,
-    "attack": 157,
-    "defense": 211
-  },
   "previousEvolution": null,
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_TACKLE_FAST": false,
     "MOVE_ZEN_HEADBUTT_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STOMP": false,
-    "MOVE_BODY_SLAM": false,
-    "MOVE_GYRO_BALL": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 1.19,
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
   "weight": 75.5
 }

@@ -1,40 +1,40 @@
 {
-  "name": "Slowpoke",
+  "baseStats": {
+    "attack": 109,
+    "defense": 109,
+    "stamina": 180
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_PSYCHIC": false,
+    "MOVE_PSYSHOCK": false,
+    "MOVE_WATER_PULSE": false
+  },
   "dex": 79,
   "family": "FAMILY_SLOWPOKE",
   "generation": 1,
+  "height": 1.2,
+  "name": "Slowpoke",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_SLOWBRO"
+    },
+    {
+      "candy": 50,
+      "item": "ITEM_KINGS_ROCK",
+      "pokemon": "POKEMON_SLOWKING"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "water",
     "psychic"
   ],
-  "baseStats": {
-    "stamina": 180,
-    "attack": 109,
-    "defense": 109
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_SLOWBRO",
-      "candy": 50
-    },
-    {
-      "pokemon": "POKEMON_SLOWKING",
-      "candy": 50,
-      "item": "ITEM_KINGS_ROCK"
-    }
-  ],
-  "quickMoves": {
-    "MOVE_WATER_GUN_FAST": false,
-    "MOVE_CONFUSION_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_WATER_PULSE": false,
-    "MOVE_PSYSHOCK": false,
-    "MOVE_PSYCHIC": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.2,
   "weight": 36
 }

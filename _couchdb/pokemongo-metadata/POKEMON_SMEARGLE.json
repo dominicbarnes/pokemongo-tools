@@ -1,26 +1,27 @@
 {
-  "name": "Smeargle",
-  "dex": 235,
-  "family": "FAMILY_SMEARGLE",
-  "generation": 2,
-  "types": [
-    "normal"
-  ],
   "baseStats": {
-    "stamina": 110,
     "attack": 40,
-    "defense": 88
+    "defense": 88,
+    "stamina": 110
   },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_TACKLE_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_STRUGGLE": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 235,
+  "family": "FAMILY_SMEARGLE",
+  "generation": 2,
   "height": 1.19,
+  "name": "Smeargle",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
   "weight": 58
 }

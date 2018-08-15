@@ -1,32 +1,31 @@
 {
-  "name": "Altaria",
+  "baseStats": {
+    "attack": 141,
+    "defense": 208,
+    "stamina": 150
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_DRAGON_PULSE": false,
+    "MOVE_SKY_ATTACK": false
+  },
   "dex": 334,
   "family": "FAMILY_SWABLU",
   "generation": 3,
+  "height": 1.09,
+  "name": "Altaria",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_SWABLU",
+  "quickMoves": {
+    "MOVE_DRAGON_BREATH_FAST": false,
+    "MOVE_PECK_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "dragon",
     "flying"
   ],
-  "baseStats": {
-    "stamina": 150,
-    "attack": 141,
-    "defense": 208
-  },
-  "previousEvolution": "POKEMON_SWABLU",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_PECK_FAST": false,
-    "MOVE_DRAGON_BREATH_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_SKY_ATTACK": false,
-    "MOVE_DAZZLING_GLEAM": false,
-    "MOVE_DRAGON_PULSE": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 1.09,
   "weight": 20.6
 }

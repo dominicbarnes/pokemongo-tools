@@ -1,36 +1,34 @@
 {
-  "name": "Torchic",
+  "baseStats": {
+    "attack": 130,
+    "defense": 92,
+    "stamina": 90
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_FLAME_CHARGE": false,
+    "MOVE_ROCK_TOMB": false
+  },
   "dex": 255,
   "family": "FAMILY_TORCHIC",
   "generation": 3,
+  "height": 0.41,
+  "name": "Torchic",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_COMBUSKEN"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_SCRATCH_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "fire"
   ],
-  "baseStats": {
-    "stamina": 90,
-    "attack": 130,
-    "defense": 92
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_COMBUSKEN",
-      "candy": 25
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_SCRATCH_FAST": false,
-    "MOVE_EMBER_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_FLAME_CHARGE": false,
-    "MOVE_FLAMETHROWER": false,
-    "MOVE_ROCK_TOMB": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.41,
   "weight": 2.5
 }

@@ -1,6 +1,6 @@
 {
   "name": "Dragon Claw",
-  "type": "dragon",
   "power": 50,
-  "quick": false
+  "quick": false,
+  "type": "dragon"
 }

@@ -1,35 +1,35 @@
 {
-  "name": "Hoothoot",
+  "baseStats": {
+    "attack": 67,
+    "defense": 101,
+    "stamina": 120
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_NIGHT_SHADE": false,
+    "MOVE_SKY_ATTACK": false
+  },
   "dex": 163,
   "family": "FAMILY_HOOTHOOT",
   "generation": 2,
-  "types": [
-    "normal",
-    "flying"
-  ],
-  "baseStats": {
-    "stamina": 120,
-    "attack": 67,
-    "defense": 101
-  },
-  "previousEvolution": null,
+  "height": 0.71,
+  "name": "Hoothoot",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_NOCTOWL",
-      "candy": 50
+      "candy": 50,
+      "pokemon": "POKEMON_NOCTOWL"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
     "MOVE_FEINT_ATTACK_FAST": false,
     "MOVE_PECK_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_AERIAL_ACE": false,
-    "MOVE_SKY_ATTACK": false,
-    "MOVE_NIGHT_SHADE": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 0.71,
+  "rarity": "common",
+  "types": [
+    "normal",
+    "flying"
+  ],
   "weight": 21.2
 }

@@ -1,32 +1,31 @@
 {
-  "name": "Shiftry",
+  "baseStats": {
+    "attack": 200,
+    "defense": 121,
+    "stamina": 180
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_FOUL_PLAY": false,
+    "MOVE_HURRICANE": false,
+    "MOVE_LEAF_BLADE": false
+  },
   "dex": 275,
   "family": "FAMILY_SEEDOT",
   "generation": 3,
+  "height": 1.3,
+  "name": "Shiftry",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_NUZLEAF",
+  "quickMoves": {
+    "MOVE_FEINT_ATTACK_FAST": false,
+    "MOVE_RAZOR_LEAF_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "grass",
     "dark"
   ],
-  "baseStats": {
-    "stamina": 180,
-    "attack": 200,
-    "defense": 121
-  },
-  "previousEvolution": "POKEMON_NUZLEAF",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_RAZOR_LEAF_FAST": false,
-    "MOVE_FEINT_ATTACK_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_LEAF_BLADE": false,
-    "MOVE_HURRICANE": false,
-    "MOVE_FOUL_PLAY": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.3,
   "weight": 59.6
 }

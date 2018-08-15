@@ -1,6 +1,6 @@
 {
   "name": "Flash Cannon",
-  "type": "steel",
   "power": 100,
-  "quick": false
+  "quick": false,
+  "type": "steel"
 }

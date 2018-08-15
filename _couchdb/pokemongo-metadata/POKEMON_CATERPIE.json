@@ -1,32 +1,32 @@
 {
-  "name": "Caterpie",
+  "baseStats": {
+    "attack": 55,
+    "defense": 62,
+    "stamina": 90
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_STRUGGLE": false
+  },
   "dex": 10,
   "family": "FAMILY_CATERPIE",
   "generation": 1,
-  "types": [
-    "bug"
-  ],
-  "baseStats": {
-    "stamina": 90,
-    "attack": 55,
-    "defense": 62
-  },
-  "previousEvolution": null,
+  "height": 0.3,
+  "name": "Caterpie",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_METAPOD",
-      "candy": 12
+      "candy": 12,
+      "pokemon": "POKEMON_METAPOD"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
     "MOVE_BUG_BITE_FAST": false,
     "MOVE_TACKLE_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 0.3,
+  "rarity": "common",
+  "types": [
+    "bug"
+  ],
   "weight": 2.9
 }

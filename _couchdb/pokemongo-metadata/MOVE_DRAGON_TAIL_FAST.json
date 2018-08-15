@@ -1,6 +1,6 @@
 {
   "name": "Dragon Tail",
-  "type": "dragon",
   "power": 15,
-  "quick": true
+  "quick": true,
+  "type": "dragon"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Bite",
-  "type": "dark",
   "power": 6,
-  "quick": true
+  "quick": true,
+  "type": "dark"
 }

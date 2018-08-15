@@ -1,34 +1,34 @@
 {
-  "name": "Voltorb",
+  "baseStats": {
+    "attack": 109,
+    "defense": 114,
+    "stamina": 80
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DISCHARGE": false,
+    "MOVE_GYRO_BALL": false,
+    "MOVE_THUNDERBOLT": false
+  },
   "dex": 100,
   "family": "FAMILY_VOLTORB",
   "generation": 1,
-  "types": [
-    "electric"
-  ],
-  "baseStats": {
-    "stamina": 80,
-    "attack": 109,
-    "defense": 114
-  },
-  "previousEvolution": null,
+  "height": 0.5,
+  "name": "Voltorb",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_ELECTRODE",
-      "candy": 50
+      "candy": 50,
+      "pokemon": "POKEMON_ELECTRODE"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
     "MOVE_SPARK_FAST": false,
     "MOVE_TACKLE_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_DISCHARGE": false,
-    "MOVE_THUNDERBOLT": false,
-    "MOVE_GYRO_BALL": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.5,
+  "rarity": "common",
+  "types": [
+    "electric"
+  ],
   "weight": 10.4
 }

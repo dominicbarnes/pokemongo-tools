@@ -1,34 +1,34 @@
 {
-  "name": "Elekid",
+  "baseStats": {
+    "attack": 135,
+    "defense": 110,
+    "stamina": 90
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_BRICK_BREAK": false,
+    "MOVE_DISCHARGE": false,
+    "MOVE_THUNDER_PUNCH": false
+  },
   "dex": 239,
   "family": "FAMILY_ELECTABUZZ",
   "generation": 2,
+  "height": 0.61,
+  "name": "Elekid",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_ELECTABUZZ"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_LOW_KICK_FAST": false,
+    "MOVE_THUNDER_SHOCK_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "electric"
   ],
-  "baseStats": {
-    "stamina": 90,
-    "attack": 135,
-    "defense": 110
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_ELECTABUZZ",
-      "candy": 25
-    }
-  ],
-  "quickMoves": {
-    "MOVE_THUNDER_SHOCK_FAST": false,
-    "MOVE_LOW_KICK_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_THUNDER_PUNCH": false,
-    "MOVE_BRICK_BREAK": false,
-    "MOVE_DISCHARGE": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 0.61,
   "weight": 23.5
 }

@@ -1,29 +1,30 @@
 {
-  "name": "Snorlax",
+  "baseStats": {
+    "attack": 190,
+    "defense": 190,
+    "stamina": 320
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_HEAVY_SLAM": false,
+    "MOVE_HYPER_BEAM": false
+  },
   "dex": 143,
   "family": "FAMILY_SNORLAX",
   "generation": 1,
+  "height": 2.1,
+  "name": "Snorlax",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_LICK_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "normal"
   ],
-  "baseStats": {
-    "stamina": 320,
-    "attack": 190,
-    "defense": 190
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_ZEN_HEADBUTT_FAST": false,
-    "MOVE_LICK_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_HEAVY_SLAM": false,
-    "MOVE_HYPER_BEAM": false,
-    "MOVE_EARTHQUAKE": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 2.1,
   "weight": 460
 }

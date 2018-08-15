@@ -1,33 +1,32 @@
 {
-  "name": "Cascoon",
-  "dex": 268,
-  "family": "FAMILY_WURMPLE",
-  "generation": 3,
-  "types": [
-    "bug"
-  ],
   "baseStats": {
-    "stamina": 100,
     "attack": 60,
-    "defense": 91
+    "defense": 91,
+    "stamina": 100
   },
-  "previousEvolution": "POKEMON_WURMPLE",
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_DUSTOX",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_POISON_STING_FAST": false,
-    "MOVE_BUG_BITE_FAST": false
-  },
+  "buddyDistance": 1,
   "chargeMoves": {
     "MOVE_STRUGGLE": false
   },
-  "rarity": null,
-  "buddyDistance": 1,
+  "dex": 268,
+  "family": "FAMILY_WURMPLE",
+  "generation": 3,
   "height": 0.71,
+  "name": "Cascoon",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_DUSTOX"
+    }
+  ],
+  "previousEvolution": "POKEMON_WURMPLE",
+  "quickMoves": {
+    "MOVE_BUG_BITE_FAST": false,
+    "MOVE_POISON_STING_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "bug"
+  ],
   "weight": 11.5
 }

@@ -1,29 +1,30 @@
 {
-  "name": "Articuno",
+  "baseStats": {
+    "attack": 192,
+    "defense": 249,
+    "stamina": 180
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_BLIZZARD": false,
+    "MOVE_ICE_BEAM": false,
+    "MOVE_ICY_WIND": false
+  },
   "dex": 144,
   "family": "FAMILY_ARTICUNO",
   "generation": 1,
+  "height": 1.7,
+  "name": "Articuno",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_FROST_BREATH_FAST": false
+  },
+  "rarity": "legendary",
   "types": [
     "ice",
     "flying"
   ],
-  "baseStats": {
-    "stamina": 180,
-    "attack": 192,
-    "defense": 249
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_FROST_BREATH_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_ICE_BEAM": false,
-    "MOVE_ICY_WIND": false,
-    "MOVE_BLIZZARD": false
-  },
-  "rarity": "legendary",
-  "buddyDistance": 20,
-  "height": 1.7,
   "weight": 55.4
 }

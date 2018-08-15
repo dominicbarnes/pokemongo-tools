@@ -1,6 +1,6 @@
 {
   "name": "Cut",
-  "type": "normal",
   "power": 5,
-  "quick": true
+  "quick": true,
+  "type": "normal"
 }

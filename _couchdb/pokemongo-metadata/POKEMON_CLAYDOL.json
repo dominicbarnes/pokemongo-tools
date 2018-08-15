@@ -1,32 +1,31 @@
 {
-  "name": "Claydol",
+  "baseStats": {
+    "attack": 140,
+    "defense": 236,
+    "stamina": 120
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_GYRO_BALL": false,
+    "MOVE_PSYCHIC": false
+  },
   "dex": 344,
   "family": "FAMILY_BALTOY",
   "generation": 3,
+  "height": 1.5,
+  "name": "Claydol",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_BALTOY",
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_EXTRASENSORY_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "ground",
     "psychic"
   ],
-  "baseStats": {
-    "stamina": 120,
-    "attack": 140,
-    "defense": 236
-  },
-  "previousEvolution": "POKEMON_BALTOY",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_EXTRASENSORY_FAST": false,
-    "MOVE_CONFUSION_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_GYRO_BALL": false,
-    "MOVE_PSYCHIC": false,
-    "MOVE_EARTHQUAKE": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.5,
   "weight": 108
 }

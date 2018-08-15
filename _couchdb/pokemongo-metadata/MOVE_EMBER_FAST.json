@@ -1,6 +1,6 @@
 {
   "name": "Ember",
-  "type": "fire",
   "power": 10,
-  "quick": true
+  "quick": true,
+  "type": "fire"
 }

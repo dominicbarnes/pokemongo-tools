@@ -1,6 +1,6 @@
 {
   "name": "Sky Attack",
-  "type": "flying",
   "power": 80,
-  "quick": false
+  "quick": false,
+  "type": "flying"
 }

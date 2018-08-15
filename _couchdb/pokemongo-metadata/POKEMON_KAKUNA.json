@@ -1,33 +1,33 @@
 {
-  "name": "Kakuna",
+  "baseStats": {
+    "attack": 46,
+    "defense": 86,
+    "stamina": 90
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_STRUGGLE": false
+  },
   "dex": 14,
   "family": "FAMILY_WEEDLE",
   "generation": 1,
-  "types": [
-    "bug",
-    "poison"
-  ],
-  "baseStats": {
-    "stamina": 90,
-    "attack": 46,
-    "defense": 86
-  },
-  "previousEvolution": "POKEMON_WEEDLE",
+  "height": 0.6,
+  "name": "Kakuna",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_BEEDRILL",
-      "candy": 50
+      "candy": 50,
+      "pokemon": "POKEMON_BEEDRILL"
     }
   ],
+  "previousEvolution": "POKEMON_WEEDLE",
   "quickMoves": {
     "MOVE_BUG_BITE_FAST": false,
     "MOVE_POISON_STING_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 0.6,
+  "rarity": "common",
+  "types": [
+    "bug",
+    "poison"
+  ],
   "weight": 10
 }

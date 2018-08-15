@@ -1,6 +1,6 @@
 {
   "name": "Cross Poison",
-  "type": "poison",
   "power": 40,
-  "quick": false
+  "quick": false,
+  "type": "poison"
 }

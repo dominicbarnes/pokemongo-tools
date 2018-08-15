@@ -1,31 +1,30 @@
 {
-  "name": "Swalot",
+  "baseStats": {
+    "attack": 140,
+    "defense": 159,
+    "stamina": 200
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_GUNK_SHOT": false,
+    "MOVE_ICE_BEAM": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
   "dex": 317,
   "family": "FAMILY_GULPIN",
   "generation": 3,
+  "height": 1.7,
+  "name": "Swalot",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_GULPIN",
+  "quickMoves": {
+    "MOVE_INFESTATION_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "poison"
   ],
-  "baseStats": {
-    "stamina": 200,
-    "attack": 140,
-    "defense": 159
-  },
-  "previousEvolution": "POKEMON_GULPIN",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_ROCK_SMASH_FAST": false,
-    "MOVE_INFESTATION_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_GUNK_SHOT": false,
-    "MOVE_SLUDGE_BOMB": false,
-    "MOVE_ICE_BEAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 1.7,
   "weight": 80
 }

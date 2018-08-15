@@ -1,42 +1,42 @@
 {
-  "name": "Tyrogue",
+  "baseStats": {
+    "attack": 64,
+    "defense": 64,
+    "stamina": 70
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_BRICK_BREAK": false,
+    "MOVE_LOW_SWEEP": false,
+    "MOVE_ROCK_SLIDE": false
+  },
   "dex": 236,
   "family": "FAMILY_TYROGUE",
   "generation": 2,
-  "types": [
-    "fighting"
-  ],
-  "baseStats": {
-    "stamina": 70,
-    "attack": 64,
-    "defense": 64
-  },
-  "previousEvolution": null,
+  "height": 0.71,
+  "name": "Tyrogue",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_HITMONLEE",
-      "candy": 25
+      "candy": 25,
+      "pokemon": "POKEMON_HITMONLEE"
     },
     {
-      "pokemon": "POKEMON_HITMONCHAN",
-      "candy": 25
+      "candy": 25,
+      "pokemon": "POKEMON_HITMONCHAN"
     },
     {
-      "pokemon": "POKEMON_HITMONTOP",
-      "candy": 25
+      "candy": 25,
+      "pokemon": "POKEMON_HITMONTOP"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
     "MOVE_ROCK_SMASH_FAST": false,
     "MOVE_TACKLE_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_BRICK_BREAK": false,
-    "MOVE_ROCK_SLIDE": false,
-    "MOVE_LOW_SWEEP": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 0.71,
+  "rarity": "common",
+  "types": [
+    "fighting"
+  ],
   "weight": 21
 }

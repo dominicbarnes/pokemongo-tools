@@ -1,29 +1,30 @@
 {
-  "name": "Furret",
+  "baseStats": {
+    "attack": 148,
+    "defense": 130,
+    "stamina": 170
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_BRICK_BREAK": false,
+    "MOVE_DIG": false,
+    "MOVE_HYPER_BEAM": false
+  },
   "dex": 162,
   "family": "FAMILY_SENTRET",
   "generation": 2,
-  "types": [
-    "normal"
+  "height": 1.8,
+  "name": "Furret",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 170,
-    "attack": 148,
-    "defense": 130
-  },
   "previousEvolution": "POKEMON_SENTRET",
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_QUICK_ATTACK_FAST": false,
     "MOVE_SUCKER_PUNCH_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_DIG": false,
-    "MOVE_BRICK_BREAK": false,
-    "MOVE_HYPER_BEAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 1.8,
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
   "weight": 32.5
 }

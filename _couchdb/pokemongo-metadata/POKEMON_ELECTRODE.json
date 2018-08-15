@@ -1,29 +1,30 @@
 {
-  "name": "Electrode",
+  "baseStats": {
+    "attack": 173,
+    "defense": 179,
+    "stamina": 120
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DISCHARGE": false,
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_THUNDERBOLT": false
+  },
   "dex": 101,
   "family": "FAMILY_VOLTORB",
   "generation": 1,
-  "types": [
-    "electric"
+  "height": 1.2,
+  "name": "Electrode",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 120,
-    "attack": 173,
-    "defense": 179
-  },
   "previousEvolution": "POKEMON_VOLTORB",
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_SPARK_FAST": false,
     "MOVE_VOLT_SWITCH_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_DISCHARGE": false,
-    "MOVE_THUNDERBOLT": false,
-    "MOVE_HYPER_BEAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.2,
+  "rarity": "common",
+  "types": [
+    "electric"
+  ],
   "weight": 66.6
 }

@@ -1,29 +1,30 @@
 {
-  "name": "Hitmontop",
-  "dex": 237,
-  "family": "FAMILY_TYROGUE",
-  "generation": 2,
-  "types": [
-    "fighting"
-  ],
   "baseStats": {
-    "stamina": 100,
     "attack": 173,
-    "defense": 214
+    "defense": 214,
+    "stamina": 100
   },
-  "previousEvolution": "POKEMON_TYROGUE",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_ROCK_SMASH_FAST": false,
-    "MOVE_COUNTER_FAST": false
-  },
+  "buddyDistance": 5,
   "chargeMoves": {
     "MOVE_CLOSE_COMBAT": false,
     "MOVE_GYRO_BALL": false,
     "MOVE_STONE_EDGE": false
   },
-  "rarity": null,
-  "buddyDistance": 5,
+  "dex": 237,
+  "family": "FAMILY_TYROGUE",
+  "generation": 2,
   "height": 1.4,
+  "name": "Hitmontop",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_TYROGUE",
+  "quickMoves": {
+    "MOVE_COUNTER_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "fighting"
+  ],
   "weight": 48
 }

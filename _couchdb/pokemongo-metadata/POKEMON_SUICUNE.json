@@ -1,30 +1,30 @@
 {
-  "name": "Suicune",
+  "baseStats": {
+    "attack": 180,
+    "defense": 235,
+    "stamina": 200
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_BUBBLE_BEAM": false,
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_WATER_PULSE": false
+  },
   "dex": 245,
   "family": "FAMILY_SUICUNE",
   "generation": 2,
+  "height": 2.01,
+  "name": "Suicune",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_EXTRASENSORY_FAST": false,
+    "MOVE_SNARL_FAST": false
+  },
+  "rarity": "legendary",
   "types": [
     "water"
   ],
-  "baseStats": {
-    "stamina": 200,
-    "attack": 180,
-    "defense": 235
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_EXTRASENSORY_FAST": false,
-    "MOVE_SNARL_FAST": false,
-    "MOVE_HIDDEN_POWER_FAST": true
-  },
-  "chargeMoves": {
-    "MOVE_HYDRO_PUMP": false,
-    "MOVE_BUBBLE_BEAM": false,
-    "MOVE_WATER_PULSE": false
-  },
-  "rarity": "legendary",
-  "buddyDistance": 20,
-  "height": 2.01,
   "weight": 187
 }

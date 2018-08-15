@@ -1,29 +1,30 @@
 {
-  "name": "Dunsparce",
+  "baseStats": {
+    "attack": 131,
+    "defense": 131,
+    "stamina": 200
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DIG": false,
+    "MOVE_DRILL_RUN": false,
+    "MOVE_ROCK_SLIDE": false
+  },
   "dex": 206,
   "family": "FAMILY_DUNSPARCE",
   "generation": 2,
+  "height": 1.5,
+  "name": "Dunsparce",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_ASTONISH_FAST": false,
+    "MOVE_BITE_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "normal"
   ],
-  "baseStats": {
-    "stamina": 200,
-    "attack": 131,
-    "defense": 131
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_BITE_FAST": false,
-    "MOVE_ASTONISH_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_DIG": false,
-    "MOVE_ROCK_SLIDE": false,
-    "MOVE_DRILL_RUN": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.5,
   "weight": 14
 }

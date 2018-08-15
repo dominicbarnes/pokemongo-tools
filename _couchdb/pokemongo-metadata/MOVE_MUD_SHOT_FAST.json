@@ -1,6 +1,6 @@
 {
   "name": "Mud Shot",
-  "type": "ground",
   "power": 5,
-  "quick": true
+  "quick": true,
+  "type": "ground"
 }

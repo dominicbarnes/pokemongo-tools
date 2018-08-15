@@ -1,6 +1,6 @@
 {
   "name": "Ominous Wind",
-  "type": "ghost",
   "power": 50,
-  "quick": false
+  "quick": false,
+  "type": "ghost"
 }

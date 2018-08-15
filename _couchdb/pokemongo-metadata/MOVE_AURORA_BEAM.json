@@ -1,6 +1,6 @@
 {
   "name": "Aurora Beam",
-  "type": "ice",
   "power": 80,
-  "quick": false
+  "quick": false,
+  "type": "ice"
 }

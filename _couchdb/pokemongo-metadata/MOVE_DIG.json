@@ -1,6 +1,6 @@
 {
   "name": "Dig",
-  "type": "ground",
   "power": 100,
-  "quick": false
+  "quick": false,
+  "type": "ground"
 }

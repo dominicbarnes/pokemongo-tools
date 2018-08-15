@@ -1,32 +1,31 @@
 {
-  "name": "Flygon",
+  "baseStats": {
+    "attack": 205,
+    "defense": 168,
+    "stamina": 160
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_DRAGON_CLAW": false,
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_STONE_EDGE": false
+  },
   "dex": 330,
   "family": "FAMILY_TRAPINCH",
   "generation": 3,
+  "height": 2.01,
+  "name": "Flygon",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_VIBRAVA",
+  "quickMoves": {
+    "MOVE_DRAGON_TAIL_FAST": false,
+    "MOVE_MUD_SHOT_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "ground",
     "dragon"
   ],
-  "baseStats": {
-    "stamina": 160,
-    "attack": 205,
-    "defense": 168
-  },
-  "previousEvolution": "POKEMON_VIBRAVA",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_MUD_SHOT_FAST": false,
-    "MOVE_DRAGON_TAIL_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_EARTHQUAKE": false,
-    "MOVE_DRAGON_CLAW": false,
-    "MOVE_STONE_EDGE": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 2.01,
   "weight": 82
 }

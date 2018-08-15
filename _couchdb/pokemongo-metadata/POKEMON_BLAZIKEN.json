@@ -1,33 +1,31 @@
 {
-  "name": "Blaziken",
+  "baseStats": {
+    "attack": 240,
+    "defense": 141,
+    "stamina": 160
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BRAVE_BIRD": false,
+    "MOVE_FOCUS_BLAST": false,
+    "MOVE_OVERHEAT": false
+  },
   "dex": 257,
   "family": "FAMILY_TORCHIC",
   "generation": 3,
+  "height": 1.91,
+  "name": "Blaziken",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_COMBUSKEN",
+  "quickMoves": {
+    "MOVE_COUNTER_FAST": false,
+    "MOVE_FIRE_SPIN_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "fire",
     "fighting"
   ],
-  "baseStats": {
-    "stamina": 160,
-    "attack": 240,
-    "defense": 141
-  },
-  "previousEvolution": "POKEMON_COMBUSKEN",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_COUNTER_FAST": false,
-    "MOVE_FIRE_SPIN_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_STONE_EDGE": true,
-    "MOVE_OVERHEAT": false,
-    "MOVE_BRAVE_BIRD": false,
-    "MOVE_FOCUS_BLAST": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.91,
   "weight": 52
 }

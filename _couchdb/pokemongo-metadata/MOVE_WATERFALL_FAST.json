@@ -1,6 +1,6 @@
 {
   "name": "Waterfall",
-  "type": "water",
   "power": 16,
-  "quick": true
+  "quick": true,
+  "type": "water"
 }

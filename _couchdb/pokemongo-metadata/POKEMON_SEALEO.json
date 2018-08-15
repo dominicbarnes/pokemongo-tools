@@ -1,37 +1,35 @@
 {
-  "name": "Sealeo",
-  "dex": 364,
-  "family": "FAMILY_SPHEAL",
-  "generation": 3,
-  "types": [
-    "ice",
-    "water"
-  ],
   "baseStats": {
-    "stamina": 180,
     "attack": 137,
-    "defense": 132
+    "defense": 132,
+    "stamina": 180
   },
-  "previousEvolution": "POKEMON_SPHEAL",
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_WALREIN",
-      "candy": 100
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_WATER_GUN_FAST": false,
-    "MOVE_POWDER_SNOW_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
-    "MOVE_STRUGGLE": true,
     "MOVE_AURORA_BEAM": false,
     "MOVE_BODY_SLAM": false,
     "MOVE_WATER_PULSE": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 364,
+  "family": "FAMILY_SPHEAL",
+  "generation": 3,
   "height": 1.09,
+  "name": "Sealeo",
+  "nextEvolutions": [
+    {
+      "candy": 100,
+      "pokemon": "POKEMON_WALREIN"
+    }
+  ],
+  "previousEvolution": "POKEMON_SPHEAL",
+  "quickMoves": {
+    "MOVE_POWDER_SNOW_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "ice",
+    "water"
+  ],
   "weight": 87.6
 }

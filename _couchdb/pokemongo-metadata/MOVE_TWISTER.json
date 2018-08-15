@@ -1,6 +1,6 @@
 {
   "name": "Twister",
-  "type": "dragon",
   "power": 45,
-  "quick": false
+  "quick": false,
+  "type": "dragon"
 }

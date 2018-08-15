@@ -1,35 +1,33 @@
 {
-  "name": "Slakoth",
+  "baseStats": {
+    "attack": 104,
+    "defense": 104,
+    "stamina": 120
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_BODY_SLAM": false,
+    "MOVE_BRICK_BREAK": false,
+    "MOVE_NIGHT_SLASH": false
+  },
   "dex": 287,
   "family": "FAMILY_SLAKOTH",
   "generation": 3,
+  "height": 0.79,
+  "name": "Slakoth",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_VIGOROTH"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_YAWN_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "normal"
   ],
-  "baseStats": {
-    "stamina": 120,
-    "attack": 104,
-    "defense": 104
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_VIGOROTH",
-      "candy": 25
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_YAWN_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_BODY_SLAM": false,
-    "MOVE_NIGHT_SLASH": false,
-    "MOVE_BRICK_BREAK": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 0.79,
   "weight": 24
 }

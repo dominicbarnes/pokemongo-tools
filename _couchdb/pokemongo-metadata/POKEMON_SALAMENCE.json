@@ -1,32 +1,31 @@
 {
-  "name": "Salamence",
+  "baseStats": {
+    "attack": 277,
+    "defense": 168,
+    "stamina": 190
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_DRACO_METEOR": false,
+    "MOVE_FIRE_BLAST": false,
+    "MOVE_HYDRO_PUMP": false
+  },
   "dex": 373,
   "family": "FAMILY_BAGON",
   "generation": 3,
+  "height": 1.5,
+  "name": "Salamence",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_SHELGON",
+  "quickMoves": {
+    "MOVE_DRAGON_TAIL_FAST": false,
+    "MOVE_FIRE_FANG_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "dragon",
     "flying"
   ],
-  "baseStats": {
-    "stamina": 190,
-    "attack": 277,
-    "defense": 168
-  },
-  "previousEvolution": "POKEMON_SHELGON",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_DRAGON_TAIL_FAST": false,
-    "MOVE_FIRE_FANG_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_FIRE_BLAST": false,
-    "MOVE_HYDRO_PUMP": false,
-    "MOVE_DRACO_METEOR": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 1.5,
   "weight": 102.6
 }

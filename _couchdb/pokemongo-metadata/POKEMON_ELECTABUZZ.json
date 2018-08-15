@@ -1,29 +1,30 @@
 {
-  "name": "Electabuzz",
+  "baseStats": {
+    "attack": 198,
+    "defense": 173,
+    "stamina": 130
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_THUNDER": false,
+    "MOVE_THUNDERBOLT": false,
+    "MOVE_THUNDER_PUNCH": false
+  },
   "dex": 125,
   "family": "FAMILY_ELECTABUZZ",
   "generation": 1,
+  "height": 1.1,
+  "name": "Electabuzz",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_ELEKID",
+  "quickMoves": {
+    "MOVE_LOW_KICK_FAST": false,
+    "MOVE_THUNDER_SHOCK_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "electric"
   ],
-  "baseStats": {
-    "stamina": 130,
-    "attack": 198,
-    "defense": 173
-  },
-  "previousEvolution": "POKEMON_ELEKID",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_THUNDER_SHOCK_FAST": false,
-    "MOVE_LOW_KICK_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_THUNDER_PUNCH": false,
-    "MOVE_THUNDERBOLT": false,
-    "MOVE_THUNDER": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 1.1,
   "weight": 30
 }

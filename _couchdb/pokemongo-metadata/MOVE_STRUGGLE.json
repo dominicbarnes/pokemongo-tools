@@ -1,6 +1,6 @@
 {
   "name": "Struggle",
-  "type": "normal",
   "power": 35,
-  "quick": false
+  "quick": false,
+  "type": "normal"
 }

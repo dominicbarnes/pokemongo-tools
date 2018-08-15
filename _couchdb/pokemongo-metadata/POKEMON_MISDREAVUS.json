@@ -1,29 +1,30 @@
 {
-  "name": "Misdreavus",
+  "baseStats": {
+    "attack": 167,
+    "defense": 167,
+    "stamina": 120
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DARK_PULSE": false,
+    "MOVE_OMINOUS_WIND": false,
+    "MOVE_SHADOW_SNEAK": false
+  },
   "dex": 200,
   "family": "FAMILY_MISDREAVUS",
   "generation": 2,
-  "types": [
-    "ghost"
+  "height": 0.71,
+  "name": "Misdreavus",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 120,
-    "attack": 167,
-    "defense": 167
-  },
   "previousEvolution": null,
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_ASTONISH_FAST": false,
     "MOVE_HEX_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_SHADOW_SNEAK": false,
-    "MOVE_DARK_PULSE": false,
-    "MOVE_OMINOUS_WIND": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.71,
+  "rarity": "common",
+  "types": [
+    "ghost"
+  ],
   "weight": 1
 }

@@ -1,36 +1,34 @@
 {
-  "name": "Bagon",
+  "baseStats": {
+    "attack": 134,
+    "defense": 107,
+    "stamina": 90
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_CRUNCH": false,
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_TWISTER": false
+  },
   "dex": 371,
   "family": "FAMILY_BAGON",
   "generation": 3,
-  "types": [
-    "dragon"
-  ],
-  "baseStats": {
-    "stamina": 90,
-    "attack": 134,
-    "defense": 107
-  },
-  "previousEvolution": null,
+  "height": 0.61,
+  "name": "Bagon",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_SHELGON",
-      "candy": 25
+      "candy": 25,
+      "pokemon": "POKEMON_SHELGON"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
     "MOVE_BITE_FAST": false,
     "MOVE_EMBER_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_FLAMETHROWER": false,
-    "MOVE_TWISTER": false,
-    "MOVE_CRUNCH": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 0.61,
+  "rarity": "common",
+  "types": [
+    "dragon"
+  ],
   "weight": 42.1
 }

@@ -1,30 +1,31 @@
 {
-  "name": "Skarmory",
+  "baseStats": {
+    "attack": 148,
+    "defense": 260,
+    "stamina": 130
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_BRAVE_BIRD": false,
+    "MOVE_FLASH_CANNON": false,
+    "MOVE_SKY_ATTACK": false
+  },
   "dex": 227,
   "family": "FAMILY_SKARMORY",
   "generation": 2,
+  "height": 1.7,
+  "name": "Skarmory",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_AIR_SLASH_FAST": false,
+    "MOVE_STEEL_WING_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "steel",
     "flying"
   ],
-  "baseStats": {
-    "stamina": 130,
-    "attack": 148,
-    "defense": 260
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_STEEL_WING_FAST": false,
-    "MOVE_AIR_SLASH_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_BRAVE_BIRD": false,
-    "MOVE_SKY_ATTACK": false,
-    "MOVE_FLASH_CANNON": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 1.7,
   "weight": 50.5
 }

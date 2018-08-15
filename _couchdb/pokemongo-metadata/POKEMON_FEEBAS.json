@@ -1,33 +1,32 @@
 {
-  "name": "Feebas",
+  "baseStats": {
+    "attack": 29,
+    "defense": 102,
+    "stamina": 40
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_MIRROR_COAT": false
+  },
   "dex": 349,
   "family": "FAMILY_FEEBAS",
   "generation": 3,
-  "types": [
-    "water"
-  ],
-  "baseStats": {
-    "stamina": 40,
-    "attack": 29,
-    "defense": 102
-  },
-  "previousEvolution": null,
+  "height": 0.61,
+  "name": "Feebas",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_MILOTIC",
-      "candy": 100
+      "candy": 100,
+      "pokemon": "POKEMON_MILOTIC"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
     "MOVE_SPLASH_FAST": false,
     "MOVE_TACKLE_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_MIRROR_COAT": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 0.61,
+  "rarity": "common",
+  "types": [
+    "water"
+  ],
   "weight": 7.4
 }

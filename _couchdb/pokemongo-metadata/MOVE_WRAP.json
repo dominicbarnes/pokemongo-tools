@@ -1,6 +1,6 @@
 {
   "name": "Wrap",
-  "type": "normal",
   "power": 60,
-  "quick": false
+  "quick": false,
+  "type": "normal"
 }

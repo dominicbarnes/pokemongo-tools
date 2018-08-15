@@ -1,6 +1,6 @@
 {
   "name": "Outrage",
-  "type": "dragon",
   "power": 110,
-  "quick": false
+  "quick": false,
+  "type": "dragon"
 }

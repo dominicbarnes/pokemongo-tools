@@ -1,6 +1,6 @@
 {
   "name": "Submission",
-  "type": "fighting",
   "power": 60,
-  "quick": false
+  "quick": false,
+  "type": "fighting"
 }

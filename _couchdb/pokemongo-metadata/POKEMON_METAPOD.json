@@ -1,32 +1,32 @@
 {
-  "name": "Metapod",
+  "baseStats": {
+    "attack": 45,
+    "defense": 94,
+    "stamina": 100
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_STRUGGLE": false
+  },
   "dex": 11,
   "family": "FAMILY_CATERPIE",
   "generation": 1,
-  "types": [
-    "bug"
-  ],
-  "baseStats": {
-    "stamina": 100,
-    "attack": 45,
-    "defense": 94
-  },
-  "previousEvolution": "POKEMON_CATERPIE",
+  "height": 0.7,
+  "name": "Metapod",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_BUTTERFREE",
-      "candy": 50
+      "candy": 50,
+      "pokemon": "POKEMON_BUTTERFREE"
     }
   ],
+  "previousEvolution": "POKEMON_CATERPIE",
   "quickMoves": {
     "MOVE_BUG_BITE_FAST": false,
     "MOVE_TACKLE_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 0.7,
+  "rarity": "common",
+  "types": [
+    "bug"
+  ],
   "weight": 9.9
 }

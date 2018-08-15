@@ -1,6 +1,6 @@
 {
   "name": "Power Whip",
-  "type": "grass",
   "power": 90,
-  "quick": false
+  "quick": false,
+  "type": "grass"
 }

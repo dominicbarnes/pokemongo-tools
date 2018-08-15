@@ -1,33 +1,33 @@
 {
-  "name": "Pichu",
+  "baseStats": {
+    "attack": 77,
+    "defense": 63,
+    "stamina": 40
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_DISARMING_VOICE": false,
+    "MOVE_THUNDERBOLT": false,
+    "MOVE_THUNDER_PUNCH": false
+  },
   "dex": 172,
   "family": "FAMILY_PIKACHU",
   "generation": 2,
-  "types": [
-    "electric"
-  ],
-  "baseStats": {
-    "stamina": 40,
-    "attack": 77,
-    "defense": 63
-  },
-  "previousEvolution": null,
+  "height": 0.3,
+  "name": "Pichu",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_PIKACHU",
-      "candy": 25
+      "candy": 25,
+      "pokemon": "POKEMON_PIKACHU"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
     "MOVE_THUNDER_SHOCK_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_THUNDERBOLT": false,
-    "MOVE_DISARMING_VOICE": false,
-    "MOVE_THUNDER_PUNCH": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 0.3,
+  "rarity": "common",
+  "types": [
+    "electric"
+  ],
   "weight": 2
 }

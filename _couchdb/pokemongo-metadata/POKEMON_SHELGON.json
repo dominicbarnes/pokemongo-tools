@@ -1,36 +1,34 @@
 {
-  "name": "Shelgon",
+  "baseStats": {
+    "attack": 172,
+    "defense": 179,
+    "stamina": 130
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_DRAGON_PULSE": false,
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_TWISTER": false
+  },
   "dex": 372,
   "family": "FAMILY_BAGON",
   "generation": 3,
+  "height": 1.09,
+  "name": "Shelgon",
+  "nextEvolutions": [
+    {
+      "candy": 100,
+      "pokemon": "POKEMON_SALAMENCE"
+    }
+  ],
+  "previousEvolution": "POKEMON_BAGON",
+  "quickMoves": {
+    "MOVE_DRAGON_BREATH_FAST": false,
+    "MOVE_EMBER_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "dragon"
   ],
-  "baseStats": {
-    "stamina": 130,
-    "attack": 172,
-    "defense": 179
-  },
-  "previousEvolution": "POKEMON_BAGON",
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_SALAMENCE",
-      "candy": 100
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_EMBER_FAST": false,
-    "MOVE_DRAGON_BREATH_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_FLAMETHROWER": false,
-    "MOVE_DRAGON_PULSE": false,
-    "MOVE_TWISTER": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 1.09,
   "weight": 110.5
 }

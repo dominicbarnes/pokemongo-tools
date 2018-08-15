@@ -1,31 +1,29 @@
 {
-  "name": "Kyogre",
+  "baseStats": {
+    "attack": 270,
+    "defense": 251,
+    "stamina": 182
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_BLIZZARD": false,
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_THUNDER": false
+  },
   "dex": 382,
   "family": "FAMILY_KYOGRE",
   "generation": 3,
+  "height": 4.5,
+  "name": "Kyogre",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_WATERFALL_FAST": false
+  },
+  "rarity": "legendary",
   "types": [
     "water"
   ],
-  "baseStats": {
-    "stamina": 182,
-    "attack": 270,
-    "defense": 251
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_WATERFALL_FAST": false,
-    "MOVE_DRAGON_TAIL_FAST": true
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_HYDRO_PUMP": false,
-    "MOVE_BLIZZARD": false,
-    "MOVE_THUNDER": false
-  },
-  "rarity": "legendary",
-  "buddyDistance": 20,
-  "height": 4.5,
   "weight": 352
 }

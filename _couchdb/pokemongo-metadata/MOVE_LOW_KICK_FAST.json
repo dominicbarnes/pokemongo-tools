@@ -1,6 +1,6 @@
 {
   "name": "Low Kick",
-  "type": "fighting",
   "power": 6,
-  "quick": true
+  "quick": true,
+  "type": "fighting"
 }

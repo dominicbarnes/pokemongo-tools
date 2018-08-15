@@ -1,30 +1,31 @@
 {
-  "name": "Togetic",
+  "baseStats": {
+    "attack": 139,
+    "defense": 191,
+    "stamina": 110
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_ANCIENT_POWER": false,
+    "MOVE_DAZZLING_GLEAM": false
+  },
   "dex": 176,
   "family": "FAMILY_TOGEPI",
   "generation": 2,
-  "types": [
-    "fairy",
-    "flying"
+  "height": 0.61,
+  "name": "Togetic",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 110,
-    "attack": 139,
-    "defense": 191
-  },
   "previousEvolution": "POKEMON_TOGEPI",
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_EXTRASENSORY_FAST": false,
     "MOVE_HIDDEN_POWER_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_ANCIENT_POWER": false,
-    "MOVE_DAZZLING_GLEAM": false,
-    "MOVE_AERIAL_ACE": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.61,
+  "rarity": "common",
+  "types": [
+    "fairy",
+    "flying"
+  ],
   "weight": 3.2
 }

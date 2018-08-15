@@ -1,6 +1,6 @@
 {
   "name": "Focus Blast",
-  "type": "fighting",
   "power": 140,
-  "quick": false
+  "quick": false,
+  "type": "fighting"
 }

@@ -1,35 +1,35 @@
 {
-  "name": "Igglybuff",
+  "baseStats": {
+    "attack": 69,
+    "defense": 34,
+    "stamina": 180
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_PSYCHIC": false,
+    "MOVE_SHADOW_BALL": false,
+    "MOVE_WILD_CHARGE": false
+  },
   "dex": 174,
   "family": "FAMILY_JIGGLYPUFF",
   "generation": 2,
+  "height": 0.3,
+  "name": "Igglybuff",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_JIGGLYPUFF"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_FEINT_ATTACK_FAST": false,
+    "MOVE_POUND_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "normal",
     "fairy"
   ],
-  "baseStats": {
-    "stamina": 180,
-    "attack": 69,
-    "defense": 34
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_JIGGLYPUFF",
-      "candy": 25
-    }
-  ],
-  "quickMoves": {
-    "MOVE_POUND_FAST": false,
-    "MOVE_FEINT_ATTACK_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_WILD_CHARGE": false,
-    "MOVE_SHADOW_BALL": false,
-    "MOVE_PSYCHIC": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 0.3,
   "weight": 1
 }

@@ -1,29 +1,30 @@
 {
-  "name": "Arbok",
+  "baseStats": {
+    "attack": 167,
+    "defense": 158,
+    "stamina": 120
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DARK_PULSE": false,
+    "MOVE_GUNK_SHOT": false,
+    "MOVE_SLUDGE_WAVE": false
+  },
   "dex": 24,
   "family": "FAMILY_EKANS",
   "generation": 1,
+  "height": 3.5,
+  "name": "Arbok",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_EKANS",
+  "quickMoves": {
+    "MOVE_ACID_FAST": false,
+    "MOVE_BITE_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "poison"
   ],
-  "baseStats": {
-    "stamina": 120,
-    "attack": 167,
-    "defense": 158
-  },
-  "previousEvolution": "POKEMON_EKANS",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_BITE_FAST": false,
-    "MOVE_ACID_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_DARK_PULSE": false,
-    "MOVE_SLUDGE_WAVE": false,
-    "MOVE_GUNK_SHOT": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 3.5,
   "weight": 65
 }

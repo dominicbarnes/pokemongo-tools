@@ -1,6 +1,6 @@
 {
   "name": "Water Gun Fast Blastoise",
-  "type": "water",
   "power": 10,
-  "quick": false
+  "quick": false,
+  "type": "water"
 }

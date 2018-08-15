@@ -1,28 +1,29 @@
 {
-  "name": "Umbreon",
-  "dex": 197,
-  "family": "FAMILY_EEVEE",
-  "generation": 2,
-  "types": [
-    "dark"
-  ],
   "baseStats": {
-    "stamina": 190,
     "attack": 126,
-    "defense": 250
+    "defense": 250,
+    "stamina": 190
   },
-  "previousEvolution": "POKEMON_EEVEE",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_FEINT_ATTACK_FAST": false,
-    "MOVE_SNARL_FAST": false
-  },
+  "buddyDistance": 5,
   "chargeMoves": {
     "MOVE_DARK_PULSE": false,
     "MOVE_FOUL_PLAY": false
   },
-  "rarity": null,
-  "buddyDistance": 5,
+  "dex": 197,
+  "family": "FAMILY_EEVEE",
+  "generation": 2,
   "height": 0.99,
+  "name": "Umbreon",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_EEVEE",
+  "quickMoves": {
+    "MOVE_FEINT_ATTACK_FAST": false,
+    "MOVE_SNARL_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "dark"
+  ],
   "weight": 27
 }

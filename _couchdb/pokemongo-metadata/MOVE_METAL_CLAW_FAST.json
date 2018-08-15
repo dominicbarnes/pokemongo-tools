@@ -1,6 +1,6 @@
 {
   "name": "Metal Claw",
-  "type": "steel",
   "power": 8,
-  "quick": true
+  "quick": true,
+  "type": "steel"
 }

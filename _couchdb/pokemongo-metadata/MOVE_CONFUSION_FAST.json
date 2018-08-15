@@ -1,6 +1,6 @@
 {
   "name": "Confusion",
-  "type": "psychic",
   "power": 20,
-  "quick": true
+  "quick": true,
+  "type": "psychic"
 }

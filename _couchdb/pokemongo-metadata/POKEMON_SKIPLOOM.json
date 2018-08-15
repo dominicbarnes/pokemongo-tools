@@ -1,35 +1,35 @@
 {
-  "name": "Skiploom",
+  "baseStats": {
+    "attack": 91,
+    "defense": 127,
+    "stamina": 110
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_ENERGY_BALL": false,
+    "MOVE_GRASS_KNOT": false
+  },
   "dex": 188,
   "family": "FAMILY_HOPPIP",
   "generation": 2,
+  "height": 0.61,
+  "name": "Skiploom",
+  "nextEvolutions": [
+    {
+      "candy": 100,
+      "pokemon": "POKEMON_JUMPLUFF"
+    }
+  ],
+  "previousEvolution": "POKEMON_HOPPIP",
+  "quickMoves": {
+    "MOVE_BULLET_SEED_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "grass",
     "flying"
   ],
-  "baseStats": {
-    "stamina": 110,
-    "attack": 91,
-    "defense": 127
-  },
-  "previousEvolution": "POKEMON_HOPPIP",
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_JUMPLUFF",
-      "candy": 100
-    }
-  ],
-  "quickMoves": {
-    "MOVE_TACKLE_FAST": false,
-    "MOVE_BULLET_SEED_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_GRASS_KNOT": false,
-    "MOVE_DAZZLING_GLEAM": false,
-    "MOVE_ENERGY_BALL": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.61,
   "weight": 1
 }

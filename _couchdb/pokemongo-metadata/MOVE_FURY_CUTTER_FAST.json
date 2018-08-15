@@ -1,6 +1,6 @@
 {
   "name": "Fury Cutter",
-  "type": "bug",
   "power": 3,
-  "quick": true
+  "quick": true,
+  "type": "bug"
 }

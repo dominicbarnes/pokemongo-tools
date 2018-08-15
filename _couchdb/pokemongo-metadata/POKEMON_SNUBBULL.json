@@ -1,34 +1,34 @@
 {
-  "name": "Snubbull",
+  "baseStats": {
+    "attack": 137,
+    "defense": 89,
+    "stamina": 120
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BRICK_BREAK": false,
+    "MOVE_CRUNCH": false,
+    "MOVE_DAZZLING_GLEAM": false
+  },
   "dex": 209,
   "family": "FAMILY_SNUBBULL",
   "generation": 2,
+  "height": 0.61,
+  "name": "Snubbull",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_GRANBULL"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "fairy"
   ],
-  "baseStats": {
-    "stamina": 120,
-    "attack": 137,
-    "defense": 89
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_GRANBULL",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_TACKLE_FAST": false,
-    "MOVE_BITE_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_CRUNCH": false,
-    "MOVE_DAZZLING_GLEAM": false,
-    "MOVE_BRICK_BREAK": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.61,
   "weight": 7.8
 }

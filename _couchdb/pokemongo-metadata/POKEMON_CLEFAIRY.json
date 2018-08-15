@@ -1,34 +1,34 @@
 {
-  "name": "Clefairy",
+  "baseStats": {
+    "attack": 107,
+    "defense": 116,
+    "stamina": 140
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_BODY_SLAM": false,
+    "MOVE_DISARMING_VOICE": false,
+    "MOVE_MOONBLAST": false
+  },
   "dex": 35,
   "family": "FAMILY_CLEFAIRY",
   "generation": 1,
-  "types": [
-    "fairy"
-  ],
-  "baseStats": {
-    "stamina": 140,
-    "attack": 107,
-    "defense": 116
-  },
-  "previousEvolution": "POKEMON_CLEFFA",
+  "height": 0.6,
+  "name": "Clefairy",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_CLEFABLE",
-      "candy": 50
+      "candy": 50,
+      "pokemon": "POKEMON_CLEFABLE"
     }
   ],
+  "previousEvolution": "POKEMON_CLEFFA",
   "quickMoves": {
     "MOVE_POUND_FAST": false,
     "MOVE_ZEN_HEADBUTT_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_DISARMING_VOICE": false,
-    "MOVE_BODY_SLAM": false,
-    "MOVE_MOONBLAST": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 0.6,
+  "rarity": "common",
+  "types": [
+    "fairy"
+  ],
   "weight": 7.5
 }

@@ -1,37 +1,35 @@
 {
-  "name": "Kirlia",
+  "baseStats": {
+    "attack": 117,
+    "defense": 100,
+    "stamina": 76
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_DISARMING_VOICE": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_SHADOW_SNEAK": false
+  },
   "dex": 281,
   "family": "FAMILY_RALTS",
   "generation": 3,
+  "height": 0.79,
+  "name": "Kirlia",
+  "nextEvolutions": [
+    {
+      "candy": 100,
+      "pokemon": "POKEMON_GARDEVOIR"
+    }
+  ],
+  "previousEvolution": "POKEMON_RALTS",
+  "quickMoves": {
+    "MOVE_CHARGE_BEAM_FAST": false,
+    "MOVE_CONFUSION_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "psychic",
     "fairy"
   ],
-  "baseStats": {
-    "stamina": 76,
-    "attack": 117,
-    "defense": 100
-  },
-  "previousEvolution": "POKEMON_RALTS",
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_GARDEVOIR",
-      "candy": 100
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_CONFUSION_FAST": false,
-    "MOVE_CHARGE_BEAM_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_PSYCHIC": false,
-    "MOVE_DISARMING_VOICE": false,
-    "MOVE_SHADOW_SNEAK": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 0.79,
   "weight": 20.2
 }

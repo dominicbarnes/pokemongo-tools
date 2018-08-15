@@ -1,6 +1,6 @@
 {
   "name": "Overheat",
-  "type": "fire",
   "power": 160,
-  "quick": false
+  "quick": false,
+  "type": "fire"
 }

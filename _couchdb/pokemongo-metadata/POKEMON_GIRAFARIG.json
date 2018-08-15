@@ -1,30 +1,31 @@
 {
-  "name": "Girafarig",
+  "baseStats": {
+    "attack": 182,
+    "defense": 133,
+    "stamina": 140
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_MIRROR_COAT": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_THUNDERBOLT": false
+  },
   "dex": 203,
   "family": "FAMILY_GIRAFARIG",
   "generation": 2,
+  "height": 1.5,
+  "name": "Girafarig",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "normal",
     "psychic"
   ],
-  "baseStats": {
-    "stamina": 140,
-    "attack": 182,
-    "defense": 133
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_TACKLE_FAST": false,
-    "MOVE_CONFUSION_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_PSYCHIC": false,
-    "MOVE_THUNDERBOLT": false,
-    "MOVE_MIRROR_COAT": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.5,
   "weight": 41.5
 }

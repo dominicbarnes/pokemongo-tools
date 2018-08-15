@@ -1,6 +1,6 @@
 {
   "name": "Low Sweep",
-  "type": "fighting",
   "power": 40,
-  "quick": false
+  "quick": false,
+  "type": "fighting"
 }

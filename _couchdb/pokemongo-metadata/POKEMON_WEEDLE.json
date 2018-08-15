@@ -1,33 +1,33 @@
 {
-  "name": "Weedle",
+  "baseStats": {
+    "attack": 63,
+    "defense": 55,
+    "stamina": 80
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_STRUGGLE": false
+  },
   "dex": 13,
   "family": "FAMILY_WEEDLE",
   "generation": 1,
-  "types": [
-    "bug",
-    "poison"
-  ],
-  "baseStats": {
-    "stamina": 80,
-    "attack": 63,
-    "defense": 55
-  },
-  "previousEvolution": null,
+  "height": 0.3,
+  "name": "Weedle",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_KAKUNA",
-      "candy": 12
+      "candy": 12,
+      "pokemon": "POKEMON_KAKUNA"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
     "MOVE_BUG_BITE_FAST": false,
     "MOVE_POISON_STING_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 0.3,
+  "rarity": "common",
+  "types": [
+    "bug",
+    "poison"
+  ],
   "weight": 3.2
 }

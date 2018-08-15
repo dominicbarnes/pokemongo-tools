@@ -1,6 +1,6 @@
 {
   "name": "Astonish",
-  "type": "ghost",
   "power": 8,
-  "quick": true
+  "quick": true,
+  "type": "ghost"
 }

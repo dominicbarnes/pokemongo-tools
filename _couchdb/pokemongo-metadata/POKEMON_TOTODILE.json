@@ -1,34 +1,34 @@
 {
-  "name": "Totodile",
+  "baseStats": {
+    "attack": 117,
+    "defense": 116,
+    "stamina": 100
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AQUA_JET": false,
+    "MOVE_CRUNCH": false,
+    "MOVE_WATER_PULSE": false
+  },
   "dex": 158,
   "family": "FAMILY_TOTODILE",
   "generation": 2,
+  "height": 0.61,
+  "name": "Totodile",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_CROCONAW"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_SCRATCH_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "water"
   ],
-  "baseStats": {
-    "stamina": 100,
-    "attack": 117,
-    "defense": 116
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_CROCONAW",
-      "candy": 25
-    }
-  ],
-  "quickMoves": {
-    "MOVE_WATER_GUN_FAST": false,
-    "MOVE_SCRATCH_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_CRUNCH": false,
-    "MOVE_AQUA_JET": false,
-    "MOVE_WATER_PULSE": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.61,
   "weight": 9.5
 }

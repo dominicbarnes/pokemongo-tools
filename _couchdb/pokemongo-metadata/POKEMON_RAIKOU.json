@@ -1,29 +1,30 @@
 {
-  "name": "Raikou",
-  "dex": 243,
-  "family": "FAMILY_RAIKOU",
-  "generation": 2,
-  "types": [
-    "electric"
-  ],
   "baseStats": {
-    "stamina": 180,
     "attack": 241,
-    "defense": 210
+    "defense": 210,
+    "stamina": 180
   },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_THUNDER_SHOCK_FAST": false,
-    "MOVE_VOLT_SWITCH_FAST": false
-  },
+  "buddyDistance": 20,
   "chargeMoves": {
     "MOVE_THUNDER": false,
     "MOVE_THUNDERBOLT": false,
     "MOVE_WILD_CHARGE": false
   },
-  "rarity": "legendary",
-  "buddyDistance": 20,
+  "dex": 243,
+  "family": "FAMILY_RAIKOU",
+  "generation": 2,
   "height": 1.91,
+  "name": "Raikou",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_THUNDER_SHOCK_FAST": false,
+    "MOVE_VOLT_SWITCH_FAST": false
+  },
+  "rarity": "legendary",
+  "types": [
+    "electric"
+  ],
   "weight": 178
 }

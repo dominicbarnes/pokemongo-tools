@@ -1,34 +1,34 @@
 {
-  "name": "Chikorita",
+  "baseStats": {
+    "attack": 92,
+    "defense": 122,
+    "stamina": 90
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BODY_SLAM": false,
+    "MOVE_ENERGY_BALL": false,
+    "MOVE_GRASS_KNOT": false
+  },
   "dex": 152,
   "family": "FAMILY_CHIKORITA",
   "generation": 2,
+  "height": 0.89,
+  "name": "Chikorita",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_BAYLEEF"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_TACKLE_FAST": false,
+    "MOVE_VINE_WHIP_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "grass"
   ],
-  "baseStats": {
-    "stamina": 90,
-    "attack": 92,
-    "defense": 122
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_BAYLEEF",
-      "candy": 25
-    }
-  ],
-  "quickMoves": {
-    "MOVE_VINE_WHIP_FAST": false,
-    "MOVE_TACKLE_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_ENERGY_BALL": false,
-    "MOVE_GRASS_KNOT": false,
-    "MOVE_BODY_SLAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.89,
   "weight": 6.4
 }

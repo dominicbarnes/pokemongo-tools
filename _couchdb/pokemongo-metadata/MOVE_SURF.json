@@ -1,6 +1,6 @@
 {
   "name": "Surf",
-  "type": "water",
   "power": 65,
-  "quick": false
+  "quick": false,
+  "type": "water"
 }

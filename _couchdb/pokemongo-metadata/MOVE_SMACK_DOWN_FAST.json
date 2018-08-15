@@ -1,6 +1,6 @@
 {
   "name": "Smack Down",
-  "type": "rock",
   "power": 16,
-  "quick": true
+  "quick": true,
+  "type": "rock"
 }

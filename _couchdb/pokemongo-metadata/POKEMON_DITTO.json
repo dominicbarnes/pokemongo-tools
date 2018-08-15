@@ -1,26 +1,27 @@
 {
-  "name": "Ditto",
-  "dex": 132,
-  "family": "FAMILY_DITTO",
-  "generation": 1,
-  "types": [
-    "normal"
-  ],
   "baseStats": {
-    "stamina": 96,
     "attack": 91,
-    "defense": 91
+    "defense": 91,
+    "stamina": 96
   },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_TRANSFORM_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_STRUGGLE": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 132,
+  "family": "FAMILY_DITTO",
+  "generation": 1,
   "height": 0.3,
+  "name": "Ditto",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_TRANSFORM_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
   "weight": 4
 }

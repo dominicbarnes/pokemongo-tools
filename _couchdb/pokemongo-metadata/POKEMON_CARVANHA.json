@@ -1,37 +1,35 @@
 {
-  "name": "Carvanha",
-  "dex": 318,
-  "family": "FAMILY_CARVANHA",
-  "generation": 3,
-  "types": [
-    "water",
-    "dark"
-  ],
   "baseStats": {
-    "stamina": 90,
     "attack": 171,
-    "defense": 39
+    "defense": 39,
+    "stamina": 90
   },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_SHARPEDO",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_BITE_FAST": false,
-    "MOVE_SNARL_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
-    "MOVE_STRUGGLE": true,
     "MOVE_AQUA_JET": false,
     "MOVE_CRUNCH": false,
     "MOVE_POISON_FANG": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 318,
+  "family": "FAMILY_CARVANHA",
+  "generation": 3,
   "height": 0.79,
+  "name": "Carvanha",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_SHARPEDO"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_SNARL_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "water",
+    "dark"
+  ],
   "weight": 20.8
 }

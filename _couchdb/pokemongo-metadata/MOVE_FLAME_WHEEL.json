@@ -1,6 +1,6 @@
 {
   "name": "Flame Wheel",
-  "type": "fire",
   "power": 60,
-  "quick": false
+  "quick": false,
+  "type": "fire"
 }

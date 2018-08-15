@@ -1,6 +1,6 @@
 {
   "name": "Earthquake",
-  "type": "ground",
   "power": 120,
-  "quick": false
+  "quick": false,
+  "type": "ground"
 }

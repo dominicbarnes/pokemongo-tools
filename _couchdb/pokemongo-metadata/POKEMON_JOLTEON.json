@@ -1,29 +1,30 @@
 {
-  "name": "Jolteon",
+  "baseStats": {
+    "attack": 232,
+    "defense": 201,
+    "stamina": 130
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_DISCHARGE": false,
+    "MOVE_THUNDER": false,
+    "MOVE_THUNDERBOLT": false
+  },
   "dex": 135,
   "family": "FAMILY_EEVEE",
   "generation": 1,
-  "types": [
-    "electric"
+  "height": 0.8,
+  "name": "Jolteon",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 130,
-    "attack": 232,
-    "defense": 201
-  },
   "previousEvolution": "POKEMON_EEVEE",
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_THUNDER_SHOCK_FAST": false,
     "MOVE_VOLT_SWITCH_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_DISCHARGE": false,
-    "MOVE_THUNDERBOLT": false,
-    "MOVE_THUNDER": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 0.8,
+  "rarity": "common",
+  "types": [
+    "electric"
+  ],
   "weight": 24.5
 }

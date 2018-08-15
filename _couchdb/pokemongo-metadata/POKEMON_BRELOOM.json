@@ -1,32 +1,31 @@
 {
-  "name": "Breloom",
-  "dex": 286,
-  "family": "FAMILY_SHROOMISH",
-  "generation": 3,
-  "types": [
-    "grass",
-    "fighting"
-  ],
   "baseStats": {
-    "stamina": 120,
     "attack": 241,
-    "defense": 153
+    "defense": 153,
+    "stamina": 120
   },
-  "previousEvolution": "POKEMON_SHROOMISH",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_COUNTER_FAST": false,
-    "MOVE_BULLET_SEED_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
-    "MOVE_STRUGGLE": true,
     "MOVE_DYNAMIC_PUNCH": false,
     "MOVE_SEED_BOMB": false,
     "MOVE_SLUDGE_BOMB": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 286,
+  "family": "FAMILY_SHROOMISH",
+  "generation": 3,
   "height": 1.19,
+  "name": "Breloom",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_SHROOMISH",
+  "quickMoves": {
+    "MOVE_BULLET_SEED_FAST": false,
+    "MOVE_COUNTER_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "grass",
+    "fighting"
+  ],
   "weight": 39.2
 }

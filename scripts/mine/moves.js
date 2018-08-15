@@ -7,23 +7,24 @@ module.exports = function (m, data) {
   })
 
   data.get('moveSettings').forEach(move => {
+    const id = `MOVE_${move.movementId}`
+
+    m.set(id, {
+      name: Case.title(id.replace(/^MOVE_(.*?)(_FAST)?$/, '$1')),
+      type: move.pokemonType.replace('POKEMON_TYPE_', '').toLowerCase(),
+      power: move.power,
+      quick: id.endsWith('_FAST')
+    })
+
     if (move.movementId === 'HIDDEN_POWER_FAST') {
       types.forEach(type => {
         const id = `MOVE_HIDDEN_POWER_${type.toUpperCase()}_FAST`
         m.set(id, {
           name: 'Hidden Power',
-          type: move.pokemonType.replace('POKEMON_TYPE_', '').toLowerCase(),
+          type: type,
           power: move.power,
           quick: id.endsWith('_FAST')
         })
-      })
-    } else {
-      const id = `MOVE_${move.movementId}`
-      m.set(id, {
-        name: Case.title(id.replace(/^MOVE_(.*?)(_FAST)?$/, '$1')),
-        type: move.pokemonType.replace('POKEMON_TYPE_', '').toLowerCase(),
-        power: move.power,
-        quick: id.endsWith('_FAST')
       })
     }
   })

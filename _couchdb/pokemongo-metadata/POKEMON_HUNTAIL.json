@@ -1,31 +1,30 @@
 {
-  "name": "Huntail",
+  "baseStats": {
+    "attack": 197,
+    "defense": 194,
+    "stamina": 110
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AQUA_TAIL": false,
+    "MOVE_CRUNCH": false,
+    "MOVE_ICE_BEAM": false
+  },
   "dex": 367,
   "family": "FAMILY_CLAMPERL",
   "generation": 3,
+  "height": 1.7,
+  "name": "Huntail",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_CLAMPERL",
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "water"
   ],
-  "baseStats": {
-    "stamina": 110,
-    "attack": 197,
-    "defense": 194
-  },
-  "previousEvolution": "POKEMON_CLAMPERL",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_WATER_GUN_FAST": false,
-    "MOVE_BITE_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_CRUNCH": false,
-    "MOVE_ICE_BEAM": false,
-    "MOVE_AQUA_TAIL": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.7,
   "weight": 27
 }

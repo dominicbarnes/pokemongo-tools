@@ -1,6 +1,6 @@
 {
   "name": "Blast Burn",
-  "type": "fire",
   "power": 110,
-  "quick": false
+  "quick": false,
+  "type": "fire"
 }

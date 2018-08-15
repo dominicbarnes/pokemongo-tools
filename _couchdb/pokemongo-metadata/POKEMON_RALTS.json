@@ -1,37 +1,35 @@
 {
-  "name": "Ralts",
+  "baseStats": {
+    "attack": 79,
+    "defense": 63,
+    "stamina": 56
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_DISARMING_VOICE": false,
+    "MOVE_PSYSHOCK": false,
+    "MOVE_SHADOW_SNEAK": false
+  },
   "dex": 280,
   "family": "FAMILY_RALTS",
   "generation": 3,
+  "height": 0.41,
+  "name": "Ralts",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_KIRLIA"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_CHARGE_BEAM_FAST": false,
+    "MOVE_CONFUSION_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "psychic",
     "fairy"
   ],
-  "baseStats": {
-    "stamina": 56,
-    "attack": 79,
-    "defense": 63
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_KIRLIA",
-      "candy": 25
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_CONFUSION_FAST": false,
-    "MOVE_CHARGE_BEAM_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_PSYSHOCK": false,
-    "MOVE_DISARMING_VOICE": false,
-    "MOVE_SHADOW_SNEAK": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 0.41,
   "weight": 6.6
 }

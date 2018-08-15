@@ -1,32 +1,31 @@
 {
-  "name": "Dustox",
+  "baseStats": {
+    "attack": 98,
+    "defense": 172,
+    "stamina": 120
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_BUG_BUZZ": false,
+    "MOVE_SILVER_WIND": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
   "dex": 269,
   "family": "FAMILY_WURMPLE",
   "generation": 3,
+  "height": 1.19,
+  "name": "Dustox",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_CASCOON",
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_STRUGGLE_BUG_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "bug",
     "poison"
   ],
-  "baseStats": {
-    "stamina": 120,
-    "attack": 98,
-    "defense": 172
-  },
-  "previousEvolution": "POKEMON_CASCOON",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_STRUGGLE_BUG_FAST": false,
-    "MOVE_CONFUSION_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_SILVER_WIND": false,
-    "MOVE_SLUDGE_BOMB": false,
-    "MOVE_BUG_BUZZ": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 1.19,
   "weight": 31.6
 }

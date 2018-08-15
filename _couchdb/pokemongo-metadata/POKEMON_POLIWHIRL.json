@@ -1,39 +1,39 @@
 {
-  "name": "Poliwhirl",
+  "baseStats": {
+    "attack": 130,
+    "defense": 130,
+    "stamina": 130
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BUBBLE_BEAM": false,
+    "MOVE_MUD_BOMB": false,
+    "MOVE_WATER_PULSE": false
+  },
   "dex": 61,
   "family": "FAMILY_POLIWAG",
   "generation": 1,
-  "types": [
-    "water"
-  ],
-  "baseStats": {
-    "stamina": 130,
-    "attack": 130,
-    "defense": 130
-  },
-  "previousEvolution": "POKEMON_POLIWAG",
+  "height": 1,
+  "name": "Poliwhirl",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_POLIWRATH",
-      "candy": 100
+      "candy": 100,
+      "pokemon": "POKEMON_POLIWRATH"
     },
     {
-      "pokemon": "POKEMON_POLITOED",
       "candy": 100,
-      "item": "ITEM_KINGS_ROCK"
+      "item": "ITEM_KINGS_ROCK",
+      "pokemon": "POKEMON_POLITOED"
     }
   ],
+  "previousEvolution": "POKEMON_POLIWAG",
   "quickMoves": {
     "MOVE_BUBBLE_FAST": false,
     "MOVE_MUD_SHOT_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_WATER_PULSE": false,
-    "MOVE_MUD_BOMB": false,
-    "MOVE_BUBBLE_BEAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1,
+  "rarity": "common",
+  "types": [
+    "water"
+  ],
   "weight": 20
 }

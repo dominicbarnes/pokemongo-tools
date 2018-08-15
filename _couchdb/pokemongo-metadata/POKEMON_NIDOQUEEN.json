@@ -1,30 +1,31 @@
 {
-  "name": "Nidoqueen",
-  "dex": 31,
-  "family": "FAMILY_NIDORAN_FEMALE",
-  "generation": 1,
-  "types": [
-    "poison",
-    "ground"
-  ],
   "baseStats": {
-    "stamina": 180,
     "attack": 180,
-    "defense": 174
+    "defense": 174,
+    "stamina": 180
   },
-  "previousEvolution": "POKEMON_NIDORINA",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_POISON_JAB_FAST": false,
-    "MOVE_BITE_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_EARTHQUAKE": false,
     "MOVE_SLUDGE_WAVE": false,
     "MOVE_STONE_EDGE": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 31,
+  "family": "FAMILY_NIDORAN_FEMALE",
+  "generation": 1,
   "height": 1.3,
+  "name": "Nidoqueen",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_NIDORINA",
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_POISON_JAB_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "poison",
+    "ground"
+  ],
   "weight": 60
 }

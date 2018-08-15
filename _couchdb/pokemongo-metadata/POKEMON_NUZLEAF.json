@@ -1,37 +1,35 @@
 {
-  "name": "Nuzleaf",
+  "baseStats": {
+    "attack": 134,
+    "defense": 78,
+    "stamina": 140
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_FOUL_PLAY": false,
+    "MOVE_GRASS_KNOT": false,
+    "MOVE_LEAF_BLADE": false
+  },
   "dex": 274,
   "family": "FAMILY_SEEDOT",
   "generation": 3,
+  "height": 0.99,
+  "name": "Nuzleaf",
+  "nextEvolutions": [
+    {
+      "candy": 100,
+      "pokemon": "POKEMON_SHIFTRY"
+    }
+  ],
+  "previousEvolution": "POKEMON_SEEDOT",
+  "quickMoves": {
+    "MOVE_FEINT_ATTACK_FAST": false,
+    "MOVE_RAZOR_LEAF_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "grass",
     "dark"
   ],
-  "baseStats": {
-    "stamina": 140,
-    "attack": 134,
-    "defense": 78
-  },
-  "previousEvolution": "POKEMON_SEEDOT",
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_SHIFTRY",
-      "candy": 100
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_RAZOR_LEAF_FAST": false,
-    "MOVE_FEINT_ATTACK_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_LEAF_BLADE": false,
-    "MOVE_GRASS_KNOT": false,
-    "MOVE_FOUL_PLAY": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.99,
   "weight": 28
 }

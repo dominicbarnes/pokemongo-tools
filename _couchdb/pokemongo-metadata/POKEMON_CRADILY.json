@@ -1,32 +1,31 @@
 {
-  "name": "Cradily",
+  "baseStats": {
+    "attack": 152,
+    "defense": 198,
+    "stamina": 172
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BULLDOZE": false,
+    "MOVE_GRASS_KNOT": false,
+    "MOVE_STONE_EDGE": false
+  },
   "dex": 346,
   "family": "FAMILY_LILEEP",
   "generation": 3,
+  "height": 1.5,
+  "name": "Cradily",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_LILEEP",
+  "quickMoves": {
+    "MOVE_ACID_FAST": false,
+    "MOVE_INFESTATION_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "rock",
     "grass"
   ],
-  "baseStats": {
-    "stamina": 172,
-    "attack": 152,
-    "defense": 198
-  },
-  "previousEvolution": "POKEMON_LILEEP",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_ACID_FAST": false,
-    "MOVE_INFESTATION_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_GRASS_KNOT": false,
-    "MOVE_BULLDOZE": false,
-    "MOVE_STONE_EDGE": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.5,
   "weight": 60.4
 }

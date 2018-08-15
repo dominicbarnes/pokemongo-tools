@@ -1,34 +1,34 @@
 {
-  "name": "Pineco",
-  "dex": 204,
-  "family": "FAMILY_PINECO",
-  "generation": 2,
-  "types": [
-    "bug"
-  ],
   "baseStats": {
-    "stamina": 100,
     "attack": 108,
-    "defense": 146
+    "defense": 146,
+    "stamina": 100
   },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_FORRETRESS",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_TACKLE_FAST": false,
-    "MOVE_BUG_BITE_FAST": false
-  },
+  "buddyDistance": 5,
   "chargeMoves": {
     "MOVE_GYRO_BALL": false,
     "MOVE_ROCK_TOMB": false,
     "MOVE_SAND_TOMB": false
   },
-  "rarity": null,
-  "buddyDistance": 5,
+  "dex": 204,
+  "family": "FAMILY_PINECO",
+  "generation": 2,
   "height": 0.61,
+  "name": "Pineco",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_FORRETRESS"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_BUG_BITE_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "bug"
+  ],
   "weight": 7.2
 }

@@ -1,36 +1,36 @@
 {
-  "name": "Onix",
+  "baseStats": {
+    "attack": 85,
+    "defense": 288,
+    "stamina": 70
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_HEAVY_SLAM": false,
+    "MOVE_SAND_TOMB": false,
+    "MOVE_STONE_EDGE": false
+  },
   "dex": 95,
   "family": "FAMILY_ONIX",
   "generation": 1,
-  "types": [
-    "rock",
-    "ground"
-  ],
-  "baseStats": {
-    "stamina": 70,
-    "attack": 85,
-    "defense": 288
-  },
-  "previousEvolution": null,
+  "height": 8.8,
+  "name": "Onix",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_STEELIX",
       "candy": 50,
-      "item": "ITEM_METAL_COAT"
+      "item": "ITEM_METAL_COAT",
+      "pokemon": "POKEMON_STEELIX"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
     "MOVE_ROCK_THROW_FAST": false,
     "MOVE_TACKLE_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_SAND_TOMB": false,
-    "MOVE_STONE_EDGE": false,
-    "MOVE_HEAVY_SLAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 8.8,
+  "rarity": "common",
+  "types": [
+    "rock",
+    "ground"
+  ],
   "weight": 210
 }

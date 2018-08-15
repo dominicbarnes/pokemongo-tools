@@ -1,6 +1,6 @@
 {
   "name": "Poison Jab",
-  "type": "poison",
   "power": 10,
-  "quick": true
+  "quick": true,
+  "type": "poison"
 }

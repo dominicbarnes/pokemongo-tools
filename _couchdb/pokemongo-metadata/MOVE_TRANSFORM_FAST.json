@@ -1,5 +1,5 @@
 {
   "name": "Transform",
-  "type": "normal",
-  "quick": true
+  "quick": true,
+  "type": "normal"
 }

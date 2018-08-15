@@ -1,35 +1,35 @@
 {
-  "name": "Bulbasaur",
+  "baseStats": {
+    "attack": 118,
+    "defense": 118,
+    "stamina": 90
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_POWER_WHIP": false,
+    "MOVE_SEED_BOMB": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
   "dex": 1,
   "family": "FAMILY_BULBASAUR",
   "generation": 1,
+  "height": 0.7,
+  "name": "Bulbasaur",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_IVYSAUR"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_TACKLE_FAST": false,
+    "MOVE_VINE_WHIP_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "grass",
     "poison"
   ],
-  "baseStats": {
-    "stamina": 90,
-    "attack": 118,
-    "defense": 118
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_IVYSAUR",
-      "candy": 25
-    }
-  ],
-  "quickMoves": {
-    "MOVE_VINE_WHIP_FAST": false,
-    "MOVE_TACKLE_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_SLUDGE_BOMB": false,
-    "MOVE_SEED_BOMB": false,
-    "MOVE_POWER_WHIP": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.7,
   "weight": 6.9
 }

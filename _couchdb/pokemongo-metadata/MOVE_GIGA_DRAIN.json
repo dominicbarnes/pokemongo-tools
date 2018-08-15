@@ -1,6 +1,6 @@
 {
   "name": "Giga Drain",
-  "type": "grass",
   "power": 50,
-  "quick": false
+  "quick": false,
+  "type": "grass"
 }

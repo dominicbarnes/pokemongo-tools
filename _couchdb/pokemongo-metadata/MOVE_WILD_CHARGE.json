@@ -1,6 +1,6 @@
 {
   "name": "Wild Charge",
-  "type": "electric",
   "power": 90,
-  "quick": false
+  "quick": false,
+  "type": "electric"
 }

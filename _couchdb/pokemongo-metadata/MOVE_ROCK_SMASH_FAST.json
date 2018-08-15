@@ -1,6 +1,6 @@
 {
   "name": "Rock Smash",
-  "type": "fighting",
   "power": 15,
-  "quick": true
+  "quick": true,
+  "type": "fighting"
 }

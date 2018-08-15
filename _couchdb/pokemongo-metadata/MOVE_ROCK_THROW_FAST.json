@@ -1,6 +1,6 @@
 {
   "name": "Rock Throw",
-  "type": "rock",
   "power": 12,
-  "quick": true
+  "quick": true,
+  "type": "rock"
 }

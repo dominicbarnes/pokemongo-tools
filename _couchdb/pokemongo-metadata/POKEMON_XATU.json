@@ -1,30 +1,31 @@
 {
-  "name": "Xatu",
+  "baseStats": {
+    "attack": 192,
+    "defense": 146,
+    "stamina": 130
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_FUTURESIGHT": false,
+    "MOVE_OMINOUS_WIND": false
+  },
   "dex": 178,
   "family": "FAMILY_NATU",
   "generation": 2,
-  "types": [
-    "psychic",
-    "flying"
+  "height": 1.5,
+  "name": "Xatu",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 130,
-    "attack": 192,
-    "defense": 146
-  },
   "previousEvolution": "POKEMON_NATU",
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_AIR_SLASH_FAST": false,
     "MOVE_FEINT_ATTACK_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_OMINOUS_WIND": false,
-    "MOVE_FUTURESIGHT": false,
-    "MOVE_AERIAL_ACE": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.5,
+  "rarity": "common",
+  "types": [
+    "psychic",
+    "flying"
+  ],
   "weight": 15
 }

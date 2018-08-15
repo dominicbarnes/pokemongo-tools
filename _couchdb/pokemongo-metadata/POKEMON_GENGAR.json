@@ -1,30 +1,31 @@
 {
-  "name": "Gengar",
+  "baseStats": {
+    "attack": 261,
+    "defense": 156,
+    "stamina": 120
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_FOCUS_BLAST": false,
+    "MOVE_SHADOW_BALL": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
   "dex": 94,
   "family": "FAMILY_GASTLY",
   "generation": 1,
+  "height": 1.5,
+  "name": "Gengar",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_HAUNTER",
+  "quickMoves": {
+    "MOVE_HEX_FAST": false,
+    "MOVE_SUCKER_PUNCH_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "ghost",
     "poison"
   ],
-  "baseStats": {
-    "stamina": 120,
-    "attack": 261,
-    "defense": 156
-  },
-  "previousEvolution": "POKEMON_HAUNTER",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SUCKER_PUNCH_FAST": false,
-    "MOVE_HEX_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_SHADOW_BALL": false,
-    "MOVE_FOCUS_BLAST": false,
-    "MOVE_SLUDGE_BOMB": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.5,
   "weight": 40.5
 }

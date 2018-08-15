@@ -1,6 +1,6 @@
 {
   "name": "Night Shade",
-  "type": "ghost",
   "power": 60,
-  "quick": false
+  "quick": false,
+  "type": "ghost"
 }

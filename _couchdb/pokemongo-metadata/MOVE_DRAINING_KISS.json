@@ -1,6 +1,6 @@
 {
   "name": "Draining Kiss",
-  "type": "fairy",
   "power": 60,
-  "quick": false
+  "quick": false,
+  "type": "fairy"
 }

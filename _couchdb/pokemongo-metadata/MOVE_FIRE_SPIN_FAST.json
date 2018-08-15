@@ -1,6 +1,6 @@
 {
   "name": "Fire Spin",
-  "type": "fire",
   "power": 14,
-  "quick": true
+  "quick": true,
+  "type": "fire"
 }

@@ -1,37 +1,36 @@
 {
-  "name": "Wurmple",
-  "dex": 265,
-  "family": "FAMILY_WURMPLE",
-  "generation": 3,
-  "types": [
-    "bug"
-  ],
   "baseStats": {
-    "stamina": 90,
     "attack": 75,
-    "defense": 61
+    "defense": 61,
+    "stamina": 90
   },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_SILCOON",
-      "candy": 12
-    },
-    {
-      "pokemon": "POKEMON_CASCOON",
-      "candy": 12
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_TACKLE_FAST": false,
-    "MOVE_BUG_BITE_FAST": false
-  },
+  "buddyDistance": 1,
   "chargeMoves": {
     "MOVE_STRUGGLE": false
   },
-  "rarity": null,
-  "buddyDistance": 1,
+  "dex": 265,
+  "family": "FAMILY_WURMPLE",
+  "generation": 3,
   "height": 0.3,
+  "name": "Wurmple",
+  "nextEvolutions": [
+    {
+      "candy": 12,
+      "pokemon": "POKEMON_SILCOON"
+    },
+    {
+      "candy": 12,
+      "pokemon": "POKEMON_CASCOON"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_BUG_BITE_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "bug"
+  ],
   "weight": 3.6
 }

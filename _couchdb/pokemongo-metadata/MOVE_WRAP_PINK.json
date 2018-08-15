@@ -1,6 +1,6 @@
 {
   "name": "Wrap Pink",
-  "type": "normal",
   "power": 25,
-  "quick": false
+  "quick": false,
+  "type": "normal"
 }

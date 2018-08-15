@@ -1,31 +1,30 @@
 {
-  "name": "Linoone",
-  "dex": 264,
-  "family": "FAMILY_ZIGZAGOON",
-  "generation": 3,
-  "types": [
-    "normal"
-  ],
   "baseStats": {
-    "stamina": 156,
     "attack": 142,
-    "defense": 128
+    "defense": 128,
+    "stamina": 156
   },
-  "previousEvolution": "POKEMON_ZIGZAGOON",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_SHADOW_CLAW_FAST": false,
-    "MOVE_TACKLE_FAST": false
-  },
+  "buddyDistance": 1,
   "chargeMoves": {
-    "MOVE_STRUGGLE": true,
     "MOVE_DIG": false,
     "MOVE_GRASS_KNOT": false,
     "MOVE_THUNDER": false
   },
-  "rarity": null,
-  "buddyDistance": 1,
+  "dex": 264,
+  "family": "FAMILY_ZIGZAGOON",
+  "generation": 3,
   "height": 0.51,
+  "name": "Linoone",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_ZIGZAGOON",
+  "quickMoves": {
+    "MOVE_SHADOW_CLAW_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
   "weight": 32.5
 }

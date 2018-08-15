@@ -1,30 +1,31 @@
 {
-  "name": "Crobat",
+  "baseStats": {
+    "attack": 194,
+    "defense": 178,
+    "stamina": 170
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_AIR_CUTTER": false,
+    "MOVE_SHADOW_BALL": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
   "dex": 169,
   "family": "FAMILY_ZUBAT",
   "generation": 2,
-  "types": [
-    "poison",
-    "flying"
+  "height": 1.8,
+  "name": "Crobat",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 170,
-    "attack": 194,
-    "defense": 178
-  },
   "previousEvolution": "POKEMON_GOLBAT",
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_AIR_SLASH_FAST": false,
     "MOVE_BITE_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_SHADOW_BALL": false,
-    "MOVE_AIR_CUTTER": false,
-    "MOVE_SLUDGE_BOMB": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 1.8,
+  "rarity": "common",
+  "types": [
+    "poison",
+    "flying"
+  ],
   "weight": 75
 }

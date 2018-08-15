@@ -1,6 +1,6 @@
 {
   "name": "Shadow Punch",
-  "type": "ghost",
   "power": 40,
-  "quick": false
+  "quick": false,
+  "type": "ghost"
 }

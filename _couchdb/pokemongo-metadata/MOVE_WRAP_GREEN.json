@@ -1,6 +1,6 @@
 {
   "name": "Wrap Green",
-  "type": "normal",
   "power": 25,
-  "quick": false
+  "quick": false,
+  "type": "normal"
 }

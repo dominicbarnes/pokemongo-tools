@@ -1,6 +1,6 @@
 {
   "name": "Acid",
-  "type": "poison",
   "power": 9,
-  "quick": true
+  "quick": true,
+  "type": "poison"
 }

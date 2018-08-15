@@ -1,6 +1,6 @@
 {
   "name": "Disarming Voice",
-  "type": "fairy",
   "power": 70,
-  "quick": false
+  "quick": false,
+  "type": "fairy"
 }

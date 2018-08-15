@@ -1,32 +1,31 @@
 {
-  "name": "Tropius",
+  "baseStats": {
+    "attack": 136,
+    "defense": 165,
+    "stamina": 198
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_LEAF_BLADE": false,
+    "MOVE_STOMP": false
+  },
   "dex": 357,
   "family": "FAMILY_TROPIUS",
   "generation": 3,
+  "height": 2.01,
+  "name": "Tropius",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_AIR_SLASH_FAST": false,
+    "MOVE_RAZOR_LEAF_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "grass",
     "flying"
   ],
-  "baseStats": {
-    "stamina": 198,
-    "attack": 136,
-    "defense": 165
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_AIR_SLASH_FAST": false,
-    "MOVE_RAZOR_LEAF_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_STOMP": false,
-    "MOVE_AERIAL_ACE": false,
-    "MOVE_LEAF_BLADE": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 2.01,
   "weight": 100
 }

@@ -1,33 +1,32 @@
 {
-  "name": "Silcoon",
-  "dex": 266,
-  "family": "FAMILY_WURMPLE",
-  "generation": 3,
-  "types": [
-    "bug"
-  ],
   "baseStats": {
-    "stamina": 100,
     "attack": 60,
-    "defense": 91
+    "defense": 91,
+    "stamina": 100
   },
-  "previousEvolution": "POKEMON_WURMPLE",
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_BEAUTIFLY",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_POISON_STING_FAST": false,
-    "MOVE_BUG_BITE_FAST": false
-  },
+  "buddyDistance": 1,
   "chargeMoves": {
     "MOVE_STRUGGLE": false
   },
-  "rarity": null,
-  "buddyDistance": 1,
+  "dex": 266,
+  "family": "FAMILY_WURMPLE",
+  "generation": 3,
   "height": 0.61,
+  "name": "Silcoon",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_BEAUTIFLY"
+    }
+  ],
+  "previousEvolution": "POKEMON_WURMPLE",
+  "quickMoves": {
+    "MOVE_BUG_BITE_FAST": false,
+    "MOVE_POISON_STING_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "bug"
+  ],
   "weight": 10
 }

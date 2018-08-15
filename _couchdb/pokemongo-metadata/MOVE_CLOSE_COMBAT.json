@@ -1,6 +1,6 @@
 {
   "name": "Close Combat",
-  "type": "fighting",
   "power": 100,
-  "quick": false
+  "quick": false,
+  "type": "fighting"
 }

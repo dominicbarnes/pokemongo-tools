@@ -1,6 +1,6 @@
 {
   "name": "Poison Fang",
-  "type": "poison",
   "power": 35,
-  "quick": false
+  "quick": false,
+  "type": "poison"
 }

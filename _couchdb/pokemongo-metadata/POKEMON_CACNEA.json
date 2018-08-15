@@ -1,36 +1,34 @@
 {
-  "name": "Cacnea",
+  "baseStats": {
+    "attack": 156,
+    "defense": 74,
+    "stamina": 100
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BRICK_BREAK": false,
+    "MOVE_GRASS_KNOT": false,
+    "MOVE_SEED_BOMB": false
+  },
   "dex": 331,
   "family": "FAMILY_CACNEA",
   "generation": 3,
-  "types": [
-    "grass"
-  ],
-  "baseStats": {
-    "stamina": 100,
-    "attack": 156,
-    "defense": 74
-  },
-  "previousEvolution": null,
+  "height": 0.41,
+  "name": "Cacnea",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_CACTURNE",
-      "candy": 50
+      "candy": 50,
+      "pokemon": "POKEMON_CACTURNE"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
     "MOVE_POISON_STING_FAST": false,
     "MOVE_SUCKER_PUNCH_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_GRASS_KNOT": false,
-    "MOVE_BRICK_BREAK": false,
-    "MOVE_SEED_BOMB": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.41,
+  "rarity": "common",
+  "types": [
+    "grass"
+  ],
   "weight": 51.3
 }

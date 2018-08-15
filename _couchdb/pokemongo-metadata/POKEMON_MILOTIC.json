@@ -1,31 +1,30 @@
 {
-  "name": "Milotic",
+  "baseStats": {
+    "attack": 192,
+    "defense": 242,
+    "stamina": 190
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_BLIZZARD": false,
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_SURF": false
+  },
   "dex": 350,
   "family": "FAMILY_FEEBAS",
   "generation": 3,
+  "height": 6.2,
+  "name": "Milotic",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_FEEBAS",
+  "quickMoves": {
+    "MOVE_DRAGON_TAIL_FAST": false,
+    "MOVE_WATERFALL_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "water"
   ],
-  "baseStats": {
-    "stamina": 190,
-    "attack": 192,
-    "defense": 242
-  },
-  "previousEvolution": "POKEMON_FEEBAS",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_WATERFALL_FAST": false,
-    "MOVE_DRAGON_TAIL_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_SURF": false,
-    "MOVE_BLIZZARD": false,
-    "MOVE_HYPER_BEAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 6.2,
   "weight": 162
 }

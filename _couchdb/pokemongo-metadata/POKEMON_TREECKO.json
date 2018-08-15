@@ -1,36 +1,34 @@
 {
-  "name": "Treecko",
+  "baseStats": {
+    "attack": 124,
+    "defense": 104,
+    "stamina": 80
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_ENERGY_BALL": false,
+    "MOVE_GRASS_KNOT": false
+  },
   "dex": 252,
   "family": "FAMILY_TREECKO",
   "generation": 3,
+  "height": 0.51,
+  "name": "Treecko",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_GROVYLE"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_BULLET_SEED_FAST": false,
+    "MOVE_POUND_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "grass"
   ],
-  "baseStats": {
-    "stamina": 80,
-    "attack": 124,
-    "defense": 104
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_GROVYLE",
-      "candy": 25
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_POUND_FAST": false,
-    "MOVE_BULLET_SEED_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_ENERGY_BALL": false,
-    "MOVE_AERIAL_ACE": false,
-    "MOVE_GRASS_KNOT": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.51,
   "weight": 5
 }

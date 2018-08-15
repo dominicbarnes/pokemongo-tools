@@ -1,34 +1,34 @@
 {
-  "name": "Charmander",
+  "baseStats": {
+    "attack": 116,
+    "defense": 96,
+    "stamina": 78
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_FLAME_BURST": false,
+    "MOVE_FLAME_CHARGE": false
+  },
   "dex": 4,
   "family": "FAMILY_CHARMANDER",
   "generation": 1,
-  "types": [
-    "fire"
-  ],
-  "baseStats": {
-    "stamina": 78,
-    "attack": 116,
-    "defense": 96
-  },
-  "previousEvolution": null,
+  "height": 0.6,
+  "name": "Charmander",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_CHARMELEON",
-      "candy": 25
+      "candy": 25,
+      "pokemon": "POKEMON_CHARMELEON"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
     "MOVE_EMBER_FAST": false,
     "MOVE_SCRATCH_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_FLAME_CHARGE": false,
-    "MOVE_FLAME_BURST": false,
-    "MOVE_FLAMETHROWER": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.6,
+  "rarity": "common",
+  "types": [
+    "fire"
+  ],
   "weight": 8.5
 }

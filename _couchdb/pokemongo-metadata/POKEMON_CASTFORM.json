@@ -1,149 +1,151 @@
 {
-  "name": "Castform",
+  "baseStats": {
+    "attack": 139,
+    "defense": 139,
+    "stamina": 140
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_ENERGY_BALL": false,
+    "MOVE_HURRICANE": false
+  },
   "dex": 351,
   "family": "FAMILY_CASTFORM",
-  "generation": 3,
-  "types": [
-    "normal"
-  ],
-  "baseStats": {
-    "stamina": 140,
-    "attack": 139,
-    "defense": 139
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_BITE_FAST": true,
-    "MOVE_ROCK_SMASH_FAST": true,
-    "MOVE_TACKLE_FAST": false,
-    "MOVE_HEX_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_STOMP": true,
-    "MOVE_CRUNCH": true,
-    "MOVE_ANCIENT_POWER": true,
-    "MOVE_HURRICANE": false,
-    "MOVE_ENERGY_BALL": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 0.3,
-  "weight": 0.8,
   "forms": {
     "normal": {
-      "name": "Castform",
+      "assetBundle": 11,
+      "baseStats": {
+        "attack": 139,
+        "defense": 139,
+        "stamina": 140
+      },
+      "buddyDistance": 5,
+      "chargeMoves": {
+        "MOVE_ENERGY_BALL": false,
+        "MOVE_HURRICANE": false
+      },
       "dex": 351,
       "family": "FAMILY_CASTFORM",
       "generation": 3,
+      "height": 0.3,
+      "name": "Castform",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_HEX_FAST": false,
+        "MOVE_TACKLE_FAST": false
+      },
+      "rarity": "common",
       "types": [
         "normal"
       ],
-      "baseStats": {
-        "stamina": 140,
-        "attack": 139,
-        "defense": 139
-      },
-      "previousEvolution": null,
-      "nextEvolutions": [],
-      "quickMoves": {
-        "MOVE_TACKLE_FAST": false,
-        "MOVE_HEX_FAST": false
-      },
-      "chargeMoves": {
-        "MOVE_HURRICANE": false,
-        "MOVE_ENERGY_BALL": false
-      },
-      "rarity": null,
-      "buddyDistance": 5,
-      "height": 0.3,
       "weight": 0.8
     },
     "rainy": {
-      "name": "Castform (Rainy)",
-      "dex": 351,
-      "family": "FAMILY_CASTFORM",
-      "generation": 3,
-      "types": [
-        "water"
-      ],
+      "assetBundle": 13,
       "baseStats": {
-        "stamina": 140,
         "attack": 139,
-        "defense": 139
+        "defense": 139,
+        "stamina": 140
       },
-      "previousEvolution": null,
-      "nextEvolutions": [],
-      "quickMoves": {
-        "MOVE_WATER_GUN_FAST": false,
-        "MOVE_TACKLE_FAST": false
-      },
+      "buddyDistance": 5,
       "chargeMoves": {
         "MOVE_HYDRO_PUMP": false,
         "MOVE_THUNDER": false
       },
-      "rarity": null,
-      "buddyDistance": 5,
-      "height": 0.3,
-      "weight": 0.8
-    },
-    "snowy": {
-      "name": "Castform (Snowy)",
       "dex": 351,
       "family": "FAMILY_CASTFORM",
       "generation": 3,
-      "types": [
-        "ice"
+      "height": 0.3,
+      "name": "Castform (Rainy)",
+      "nextEvolutions": [
       ],
-      "baseStats": {
-        "stamina": 140,
-        "attack": 139,
-        "defense": 139
-      },
       "previousEvolution": null,
-      "nextEvolutions": [],
       "quickMoves": {
-        "MOVE_POWDER_SNOW_FAST": false,
-        "MOVE_TACKLE_FAST": false
+        "MOVE_TACKLE_FAST": false,
+        "MOVE_WATER_GUN_FAST": false
       },
+      "rarity": "common",
+      "types": [
+        "water"
+      ],
+      "weight": 0.8
+    },
+    "snowy": {
+      "assetBundle": 14,
+      "baseStats": {
+        "attack": 139,
+        "defense": 139,
+        "stamina": 140
+      },
+      "buddyDistance": 5,
       "chargeMoves": {
         "MOVE_BLIZZARD": false,
         "MOVE_ICE_BEAM": false
       },
-      "rarity": null,
-      "buddyDistance": 5,
-      "height": 0.3,
-      "weight": 0.8
-    },
-    "sunny": {
-      "name": "Castform (Sunny)",
       "dex": 351,
       "family": "FAMILY_CASTFORM",
       "generation": 3,
-      "types": [
-        "fire"
+      "height": 0.3,
+      "name": "Castform (Snowy)",
+      "nextEvolutions": [
       ],
-      "baseStats": {
-        "stamina": 140,
-        "attack": 139,
-        "defense": 139
-      },
       "previousEvolution": null,
-      "nextEvolutions": [],
       "quickMoves": {
-        "MOVE_EMBER_FAST": false,
+        "MOVE_POWDER_SNOW_FAST": false,
         "MOVE_TACKLE_FAST": false
       },
+      "rarity": "common",
+      "types": [
+        "ice"
+      ],
+      "weight": 0.8
+    },
+    "sunny": {
+      "assetBundle": 12,
+      "baseStats": {
+        "attack": 139,
+        "defense": 139,
+        "stamina": 140
+      },
+      "buddyDistance": 5,
       "chargeMoves": {
         "MOVE_FIRE_BLAST": false,
         "MOVE_SOLAR_BEAM": false
       },
-      "rarity": null,
-      "buddyDistance": 5,
+      "dex": 351,
+      "family": "FAMILY_CASTFORM",
+      "generation": 3,
       "height": 0.3,
+      "name": "Castform (Sunny)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_EMBER_FAST": false,
+        "MOVE_TACKLE_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "fire"
+      ],
       "weight": 0.8
     }
-  }
+  },
+  "generation": 3,
+  "height": 0.3,
+  "name": "Castform",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_HEX_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
+  "weight": 0.8
 }

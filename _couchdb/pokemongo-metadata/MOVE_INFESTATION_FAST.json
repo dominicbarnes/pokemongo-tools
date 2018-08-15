@@ -1,6 +1,6 @@
 {
   "name": "Infestation",
-  "type": "bug",
   "power": 10,
-  "quick": true
+  "quick": true,
+  "type": "bug"
 }

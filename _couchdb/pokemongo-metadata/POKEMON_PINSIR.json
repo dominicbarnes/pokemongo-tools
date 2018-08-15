@@ -1,29 +1,30 @@
 {
-  "name": "Pinsir",
+  "baseStats": {
+    "attack": 238,
+    "defense": 197,
+    "stamina": 130
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_CLOSE_COMBAT": false,
+    "MOVE_VICE_GRIP": false,
+    "MOVE_X_SCISSOR": false
+  },
   "dex": 127,
   "family": "FAMILY_PINSIR",
   "generation": 1,
+  "height": 1.5,
+  "name": "Pinsir",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_BUG_BITE_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "bug"
   ],
-  "baseStats": {
-    "stamina": 130,
-    "attack": 238,
-    "defense": 197
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_ROCK_SMASH_FAST": false,
-    "MOVE_BUG_BITE_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_VICE_GRIP": false,
-    "MOVE_X_SCISSOR": false,
-    "MOVE_CLOSE_COMBAT": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 1.5,
   "weight": 55
 }

@@ -1,37 +1,35 @@
 {
-  "name": "Lileep",
+  "baseStats": {
+    "attack": 105,
+    "defense": 154,
+    "stamina": 132
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_ANCIENT_POWER": false,
+    "MOVE_GRASS_KNOT": false,
+    "MOVE_MIRROR_COAT": false
+  },
   "dex": 345,
   "family": "FAMILY_LILEEP",
   "generation": 3,
+  "height": 0.99,
+  "name": "Lileep",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_CRADILY"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_ACID_FAST": false,
+    "MOVE_INFESTATION_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "rock",
     "grass"
   ],
-  "baseStats": {
-    "stamina": 132,
-    "attack": 105,
-    "defense": 154
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_CRADILY",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_ACID_FAST": false,
-    "MOVE_INFESTATION_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_GRASS_KNOT": false,
-    "MOVE_MIRROR_COAT": false,
-    "MOVE_ANCIENT_POWER": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.99,
   "weight": 23.8
 }

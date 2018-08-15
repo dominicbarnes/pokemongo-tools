@@ -1,6 +1,6 @@
 {
   "name": "Vine Whip",
-  "type": "grass",
   "power": 7,
-  "quick": true
+  "quick": true,
+  "type": "grass"
 }

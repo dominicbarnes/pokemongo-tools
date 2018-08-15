@@ -1,35 +1,35 @@
 {
-  "name": "Ledyba",
+  "baseStats": {
+    "attack": 72,
+    "defense": 142,
+    "stamina": 80
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_SILVER_WIND": false,
+    "MOVE_SWIFT": false
+  },
   "dex": 165,
   "family": "FAMILY_LEDYBA",
   "generation": 2,
+  "height": 0.99,
+  "name": "Ledyba",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_LEDIAN"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_BUG_BITE_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "bug",
     "flying"
   ],
-  "baseStats": {
-    "stamina": 80,
-    "attack": 72,
-    "defense": 142
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_LEDIAN",
-      "candy": 25
-    }
-  ],
-  "quickMoves": {
-    "MOVE_TACKLE_FAST": false,
-    "MOVE_BUG_BITE_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_SILVER_WIND": false,
-    "MOVE_SWIFT": false,
-    "MOVE_AERIAL_ACE": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 0.99,
   "weight": 10.8
 }

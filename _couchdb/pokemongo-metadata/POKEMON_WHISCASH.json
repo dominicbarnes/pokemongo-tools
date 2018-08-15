@@ -1,32 +1,31 @@
 {
-  "name": "Whiscash",
+  "baseStats": {
+    "attack": 151,
+    "defense": 142,
+    "stamina": 220
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_BLIZZARD": false,
+    "MOVE_MUD_BOMB": false,
+    "MOVE_WATER_PULSE": false
+  },
   "dex": 340,
   "family": "FAMILY_BARBOACH",
   "generation": 3,
+  "height": 0.89,
+  "name": "Whiscash",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_BARBOACH",
+  "quickMoves": {
+    "MOVE_MUD_SHOT_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "water",
     "ground"
   ],
-  "baseStats": {
-    "stamina": 220,
-    "attack": 151,
-    "defense": 142
-  },
-  "previousEvolution": "POKEMON_BARBOACH",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_WATER_GUN_FAST": false,
-    "MOVE_MUD_SHOT_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_WATER_PULSE": false,
-    "MOVE_BLIZZARD": false,
-    "MOVE_MUD_BOMB": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 0.89,
   "weight": 23.6
 }

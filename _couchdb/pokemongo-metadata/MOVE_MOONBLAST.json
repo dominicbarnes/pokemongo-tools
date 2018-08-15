@@ -1,6 +1,6 @@
 {
   "name": "Moonblast",
-  "type": "fairy",
   "power": 130,
-  "quick": false
+  "quick": false,
+  "type": "fairy"
 }

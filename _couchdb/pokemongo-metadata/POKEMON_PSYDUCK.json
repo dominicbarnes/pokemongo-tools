@@ -1,34 +1,34 @@
 {
-  "name": "Psyduck",
+  "baseStats": {
+    "attack": 122,
+    "defense": 96,
+    "stamina": 100
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AQUA_TAIL": false,
+    "MOVE_CROSS_CHOP": false,
+    "MOVE_PSYBEAM": false
+  },
   "dex": 54,
   "family": "FAMILY_PSYDUCK",
   "generation": 1,
-  "types": [
-    "water"
-  ],
-  "baseStats": {
-    "stamina": 100,
-    "attack": 122,
-    "defense": 96
-  },
-  "previousEvolution": null,
+  "height": 0.8,
+  "name": "Psyduck",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_GOLDUCK",
-      "candy": 50
+      "candy": 50,
+      "pokemon": "POKEMON_GOLDUCK"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
     "MOVE_WATER_GUN_FAST": false,
     "MOVE_ZEN_HEADBUTT_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_PSYBEAM": false,
-    "MOVE_AQUA_TAIL": false,
-    "MOVE_CROSS_CHOP": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.8,
+  "rarity": "common",
+  "types": [
+    "water"
+  ],
   "weight": 19.6
 }

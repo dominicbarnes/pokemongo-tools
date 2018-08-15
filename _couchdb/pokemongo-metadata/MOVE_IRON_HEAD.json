@@ -1,6 +1,6 @@
 {
   "name": "Iron Head",
-  "type": "steel",
   "power": 60,
-  "quick": false
+  "quick": false,
+  "type": "steel"
 }

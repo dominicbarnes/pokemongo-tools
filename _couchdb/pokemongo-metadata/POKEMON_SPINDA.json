@@ -1,31 +1,30 @@
 {
-  "name": "Spinda",
+  "baseStats": {
+    "attack": 116,
+    "defense": 116,
+    "stamina": 120
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DIG": false,
+    "MOVE_ICY_WIND": false,
+    "MOVE_ROCK_TOMB": false
+  },
   "dex": 327,
   "family": "FAMILY_SPINDA",
   "generation": 3,
+  "height": 1.09,
+  "name": "Spinda",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_PSYCHO_CUT_FAST": false,
+    "MOVE_SUCKER_PUNCH_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "normal"
   ],
-  "baseStats": {
-    "stamina": 120,
-    "attack": 116,
-    "defense": 116
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_SUCKER_PUNCH_FAST": false,
-    "MOVE_PSYCHO_CUT_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_DIG": false,
-    "MOVE_ROCK_TOMB": false,
-    "MOVE_ICY_WIND": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.09,
   "weight": 5
 }

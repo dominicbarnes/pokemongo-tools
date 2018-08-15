@@ -1,31 +1,30 @@
 {
-  "name": "Grumpig",
+  "baseStats": {
+    "attack": 171,
+    "defense": 211,
+    "stamina": 160
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_MIRROR_COAT": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_SHADOW_BALL": false
+  },
   "dex": 326,
   "family": "FAMILY_SPOINK",
   "generation": 3,
-  "types": [
-    "psychic"
+  "height": 0.89,
+  "name": "Grumpig",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 160,
-    "attack": 171,
-    "defense": 211
-  },
   "previousEvolution": "POKEMON_SPOINK",
-  "nextEvolutions": [],
   "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
     "MOVE_CHARGE_BEAM_FAST": false,
     "MOVE_EXTRASENSORY_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_PSYCHIC": false,
-    "MOVE_SHADOW_BALL": false,
-    "MOVE_MIRROR_COAT": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 0.89,
+  "rarity": "common",
+  "types": [
+    "psychic"
+  ],
   "weight": 71.5
 }

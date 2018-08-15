@@ -1,30 +1,31 @@
 {
-  "name": "Pidgeot",
+  "baseStats": {
+    "attack": 166,
+    "defense": 157,
+    "stamina": 166
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_BRAVE_BIRD": false,
+    "MOVE_HURRICANE": false
+  },
   "dex": 18,
   "family": "FAMILY_PIDGEY",
   "generation": 1,
-  "types": [
-    "normal",
-    "flying"
+  "height": 1.5,
+  "name": "Pidgeot",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 166,
-    "attack": 166,
-    "defense": 157
-  },
   "previousEvolution": "POKEMON_PIDGEOTTO",
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_AIR_SLASH_FAST": false,
     "MOVE_STEEL_WING_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_HURRICANE": false,
-    "MOVE_AERIAL_ACE": false,
-    "MOVE_BRAVE_BIRD": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 1.5,
+  "rarity": "common",
+  "types": [
+    "normal",
+    "flying"
+  ],
   "weight": 39.5
 }

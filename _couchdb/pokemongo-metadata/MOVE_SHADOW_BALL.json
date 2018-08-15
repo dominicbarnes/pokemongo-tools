@@ -1,6 +1,6 @@
 {
   "name": "Shadow Ball",
-  "type": "ghost",
   "power": 100,
-  "quick": false
+  "quick": false,
+  "type": "ghost"
 }

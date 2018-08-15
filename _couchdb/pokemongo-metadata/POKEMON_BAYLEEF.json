@@ -1,34 +1,34 @@
 {
-  "name": "Bayleef",
+  "baseStats": {
+    "attack": 122,
+    "defense": 155,
+    "stamina": 120
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_ANCIENT_POWER": false,
+    "MOVE_ENERGY_BALL": false,
+    "MOVE_GRASS_KNOT": false
+  },
   "dex": 153,
   "family": "FAMILY_CHIKORITA",
   "generation": 2,
-  "types": [
-    "grass"
-  ],
-  "baseStats": {
-    "stamina": 120,
-    "attack": 122,
-    "defense": 155
-  },
-  "previousEvolution": "POKEMON_CHIKORITA",
+  "height": 1.19,
+  "name": "Bayleef",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_MEGANIUM",
-      "candy": 100
+      "candy": 100,
+      "pokemon": "POKEMON_MEGANIUM"
     }
   ],
+  "previousEvolution": "POKEMON_CHIKORITA",
   "quickMoves": {
     "MOVE_RAZOR_LEAF_FAST": false,
     "MOVE_TACKLE_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_ENERGY_BALL": false,
-    "MOVE_GRASS_KNOT": false,
-    "MOVE_ANCIENT_POWER": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.19,
+  "rarity": "common",
+  "types": [
+    "grass"
+  ],
   "weight": 15.8
 }

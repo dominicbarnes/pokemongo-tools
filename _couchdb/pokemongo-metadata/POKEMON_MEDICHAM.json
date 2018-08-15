@@ -1,32 +1,31 @@
 {
-  "name": "Medicham",
+  "baseStats": {
+    "attack": 121,
+    "defense": 152,
+    "stamina": 120
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DYNAMIC_PUNCH": false,
+    "MOVE_ICE_PUNCH": false,
+    "MOVE_PSYCHIC": false
+  },
   "dex": 308,
   "family": "FAMILY_MEDITITE",
   "generation": 3,
+  "height": 1.3,
+  "name": "Medicham",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_MEDITITE",
+  "quickMoves": {
+    "MOVE_COUNTER_FAST": false,
+    "MOVE_PSYCHO_CUT_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "fighting",
     "psychic"
   ],
-  "baseStats": {
-    "stamina": 120,
-    "attack": 121,
-    "defense": 152
-  },
-  "previousEvolution": "POKEMON_MEDITITE",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_PSYCHO_CUT_FAST": false,
-    "MOVE_COUNTER_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_ICE_PUNCH": false,
-    "MOVE_PSYCHIC": false,
-    "MOVE_DYNAMIC_PUNCH": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.3,
   "weight": 31.5
 }

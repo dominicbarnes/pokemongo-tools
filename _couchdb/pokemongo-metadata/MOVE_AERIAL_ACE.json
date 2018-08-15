@@ -1,6 +1,6 @@
 {
   "name": "Aerial Ace",
-  "type": "flying",
   "power": 55,
-  "quick": false
+  "quick": false,
+  "type": "flying"
 }

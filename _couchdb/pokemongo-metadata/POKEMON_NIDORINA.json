@@ -1,34 +1,34 @@
 {
-  "name": "Nidorina",
+  "baseStats": {
+    "attack": 117,
+    "defense": 126,
+    "stamina": 140
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DIG": false,
+    "MOVE_POISON_FANG": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
   "dex": 30,
   "family": "FAMILY_NIDORAN_FEMALE",
   "generation": 1,
-  "types": [
-    "poison"
-  ],
-  "baseStats": {
-    "stamina": 140,
-    "attack": 117,
-    "defense": 126
-  },
-  "previousEvolution": "POKEMON_NIDORAN_FEMALE",
+  "height": 0.8,
+  "name": "Nidorina",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_NIDOQUEEN",
-      "candy": 100
+      "candy": 100,
+      "pokemon": "POKEMON_NIDOQUEEN"
     }
   ],
+  "previousEvolution": "POKEMON_NIDORAN_FEMALE",
   "quickMoves": {
     "MOVE_BITE_FAST": false,
     "MOVE_POISON_STING_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_POISON_FANG": false,
-    "MOVE_DIG": false,
-    "MOVE_SLUDGE_BOMB": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.8,
+  "rarity": "common",
+  "types": [
+    "poison"
+  ],
   "weight": 20
 }

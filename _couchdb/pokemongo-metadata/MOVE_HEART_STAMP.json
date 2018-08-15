@@ -1,6 +1,6 @@
 {
   "name": "Heart Stamp",
-  "type": "psychic",
   "power": 40,
-  "quick": false
+  "quick": false,
+  "type": "psychic"
 }

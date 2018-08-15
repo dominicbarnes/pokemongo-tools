@@ -1,37 +1,35 @@
 {
-  "name": "Meditite",
+  "baseStats": {
+    "attack": 78,
+    "defense": 107,
+    "stamina": 60
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_ICE_PUNCH": false,
+    "MOVE_LOW_SWEEP": false,
+    "MOVE_PSYSHOCK": false
+  },
   "dex": 307,
   "family": "FAMILY_MEDITITE",
   "generation": 3,
+  "height": 0.61,
+  "name": "Meditite",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_MEDICHAM"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "fighting",
     "psychic"
   ],
-  "baseStats": {
-    "stamina": 60,
-    "attack": 78,
-    "defense": 107
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_MEDICHAM",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_CONFUSION_FAST": false,
-    "MOVE_ROCK_SMASH_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_ICE_PUNCH": false,
-    "MOVE_PSYSHOCK": false,
-    "MOVE_LOW_SWEEP": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.61,
   "weight": 11.2
 }

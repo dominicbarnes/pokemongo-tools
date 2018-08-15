@@ -1,30 +1,31 @@
 {
-  "name": "Dewgong",
+  "baseStats": {
+    "attack": 139,
+    "defense": 184,
+    "stamina": 180
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AURORA_BEAM": false,
+    "MOVE_BLIZZARD": false,
+    "MOVE_WATER_PULSE": false
+  },
   "dex": 87,
   "family": "FAMILY_SEEL",
   "generation": 1,
-  "types": [
-    "water",
-    "ice"
+  "height": 1.7,
+  "name": "Dewgong",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 180,
-    "attack": 139,
-    "defense": 184
-  },
   "previousEvolution": "POKEMON_SEEL",
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_FROST_BREATH_FAST": false,
     "MOVE_IRON_TAIL_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_AURORA_BEAM": false,
-    "MOVE_WATER_PULSE": false,
-    "MOVE_BLIZZARD": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.7,
+  "rarity": "common",
+  "types": [
+    "water",
+    "ice"
+  ],
   "weight": 120
 }

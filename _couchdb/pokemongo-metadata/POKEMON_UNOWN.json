@@ -1,26 +1,142 @@
 {
-  "name": "Unown",
-  "dex": 201,
-  "family": "FAMILY_UNOWN",
-  "generation": 2,
-  "types": [
-    "psychic"
-  ],
   "baseStats": {
-    "stamina": 96,
     "attack": 136,
-    "defense": 91
+    "defense": 91,
+    "stamina": 96
   },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_HIDDEN_POWER_FAST": false
-  },
+  "buddyDistance": 5,
   "chargeMoves": {
     "MOVE_STRUGGLE": false
   },
-  "rarity": null,
-  "buddyDistance": 5,
+  "defaultForm": "f",
+  "dex": 201,
+  "family": "FAMILY_UNOWN",
+  "forms": {
+    "a": {
+      "assetBundle": 11,
+      "name": "Unown (A)"
+    },
+    "b": {
+      "assetBundle": 12,
+      "name": "Unown (B)"
+    },
+    "c": {
+      "assetBundle": 13,
+      "name": "Unown (C)"
+    },
+    "d": {
+      "assetBundle": 14,
+      "name": "Unown (D)"
+    },
+    "e": {
+      "assetBundle": 15,
+      "name": "Unown (E)"
+    },
+    "exclamation_point": {
+      "assetBundle": 37,
+      "name": "Unown (Exclamation Point)"
+    },
+    "f": {
+      "assetBundle": 16,
+      "name": "Unown (F)"
+    },
+    "g": {
+      "assetBundle": 17,
+      "name": "Unown (G)"
+    },
+    "h": {
+      "assetBundle": 18,
+      "name": "Unown (H)"
+    },
+    "i": {
+      "assetBundle": 19,
+      "name": "Unown (I)"
+    },
+    "j": {
+      "assetBundle": 20,
+      "name": "Unown (J)"
+    },
+    "k": {
+      "assetBundle": 21,
+      "name": "Unown (K)"
+    },
+    "l": {
+      "assetBundle": 22,
+      "name": "Unown (L)"
+    },
+    "m": {
+      "assetBundle": 23,
+      "name": "Unown (M)"
+    },
+    "n": {
+      "assetBundle": 24,
+      "name": "Unown (N)"
+    },
+    "o": {
+      "assetBundle": 25,
+      "name": "Unown (O)"
+    },
+    "p": {
+      "assetBundle": 26,
+      "name": "Unown (P)"
+    },
+    "q": {
+      "assetBundle": 27,
+      "name": "Unown (Q)"
+    },
+    "question_mark": {
+      "assetBundle": 38,
+      "name": "Unown (Question Mark)"
+    },
+    "r": {
+      "assetBundle": 28,
+      "name": "Unown (R)"
+    },
+    "s": {
+      "assetBundle": 29,
+      "name": "Unown (S)"
+    },
+    "t": {
+      "assetBundle": 30,
+      "name": "Unown (T)"
+    },
+    "u": {
+      "assetBundle": 31,
+      "name": "Unown (U)"
+    },
+    "v": {
+      "assetBundle": 32,
+      "name": "Unown (V)"
+    },
+    "w": {
+      "assetBundle": 33,
+      "name": "Unown (W)"
+    },
+    "x": {
+      "assetBundle": 34,
+      "name": "Unown (X)"
+    },
+    "y": {
+      "assetBundle": 35,
+      "name": "Unown (Y)"
+    },
+    "z": {
+      "assetBundle": 36,
+      "name": "Unown (Z)"
+    }
+  },
+  "generation": 2,
   "height": 0.51,
+  "name": "Unown",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_HIDDEN_POWER_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "psychic"
+  ],
   "weight": 5
 }

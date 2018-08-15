@@ -1,92 +1,96 @@
 {
-  "name": "Exeggutor",
-  "dex": 103,
-  "family": "FAMILY_EXEGGCUTE",
-  "generation": 1,
-  "types": [
-    "grass",
-    "psychic"
-  ],
   "baseStats": {
-    "stamina": 190,
     "attack": 233,
-    "defense": 158
+    "defense": 158,
+    "stamina": 190
   },
-  "previousEvolution": "POKEMON_EXEGGCUTE",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_BULLET_SEED_FAST": false,
-    "MOVE_EXTRASENSORY_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
-    "MOVE_SEED_BOMB": false,
     "MOVE_PSYCHIC": false,
+    "MOVE_SEED_BOMB": false,
     "MOVE_SOLAR_BEAM": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 2,
-  "weight": 120,
+  "dex": 103,
+  "family": "FAMILY_EXEGGCUTE",
   "forms": {
     "alola": {
-      "name": "Exeggutor (Alola)",
+      "assetBundle": 61,
+      "baseStats": {
+        "attack": 230,
+        "defense": 158,
+        "stamina": 190
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_DRAGON_PULSE": false,
+        "MOVE_SEED_BOMB": false,
+        "MOVE_SOLAR_BEAM": false
+      },
       "dex": 103,
       "family": "FAMILY_EXEGGCUTE",
       "generation": 1,
-      "types": [
-        "grass",
-        "dragon"
+      "height": 10.9,
+      "name": "Exeggutor (Alola)",
+      "nextEvolutions": [
       ],
-      "baseStats": {
-        "stamina": 190,
-        "attack": 230,
-        "defense": 158
-      },
       "previousEvolution": "POKEMON_EXEGGCUTE",
-      "nextEvolutions": [],
       "quickMoves": {
         "MOVE_BULLET_SEED_FAST": false,
         "MOVE_DRAGON_TAIL_FAST": false
       },
-      "chargeMoves": {
-        "MOVE_SEED_BOMB": false,
-        "MOVE_DRAGON_PULSE": false,
-        "MOVE_SOLAR_BEAM": false
-      },
-      "rarity": null,
-      "buddyDistance": 3,
-      "height": 10.9,
+      "rarity": "common",
+      "types": [
+        "grass",
+        "dragon"
+      ],
       "weight": 415.6
     },
     "normal": {
-      "name": "Exeggutor",
+      "baseStats": {
+        "attack": 233,
+        "defense": 158,
+        "stamina": 190
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_PSYCHIC": false,
+        "MOVE_SEED_BOMB": false,
+        "MOVE_SOLAR_BEAM": false
+      },
       "dex": 103,
       "family": "FAMILY_EXEGGCUTE",
       "generation": 1,
-      "types": [
-        "grass",
-        "psychic"
+      "height": 2,
+      "name": "Exeggutor",
+      "nextEvolutions": [
       ],
-      "baseStats": {
-        "stamina": 190,
-        "attack": 233,
-        "defense": 158
-      },
       "previousEvolution": "POKEMON_EXEGGCUTE",
-      "nextEvolutions": [],
       "quickMoves": {
         "MOVE_BULLET_SEED_FAST": false,
         "MOVE_EXTRASENSORY_FAST": false
       },
-      "chargeMoves": {
-        "MOVE_SEED_BOMB": false,
-        "MOVE_PSYCHIC": false,
-        "MOVE_SOLAR_BEAM": false
-      },
-      "rarity": null,
-      "buddyDistance": 3,
-      "height": 2,
+      "rarity": "common",
+      "types": [
+        "grass",
+        "psychic"
+      ],
       "weight": 120
     }
-  }
+  },
+  "generation": 1,
+  "height": 2,
+  "name": "Exeggutor",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_EXEGGCUTE",
+  "quickMoves": {
+    "MOVE_BULLET_SEED_FAST": false,
+    "MOVE_EXTRASENSORY_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "grass",
+    "psychic"
+  ],
+  "weight": 120
 }

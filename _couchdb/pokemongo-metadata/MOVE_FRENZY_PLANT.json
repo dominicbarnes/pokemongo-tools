@@ -1,6 +1,6 @@
 {
   "name": "Frenzy Plant",
-  "type": "grass",
   "power": 100,
-  "quick": false
+  "quick": false,
+  "type": "grass"
 }

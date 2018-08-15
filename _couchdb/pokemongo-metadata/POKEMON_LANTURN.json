@@ -1,30 +1,31 @@
 {
-  "name": "Lanturn",
+  "baseStats": {
+    "attack": 146,
+    "defense": 146,
+    "stamina": 250
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_THUNDER": false,
+    "MOVE_THUNDERBOLT": false
+  },
   "dex": 171,
   "family": "FAMILY_CHINCHOU",
   "generation": 2,
+  "height": 1.19,
+  "name": "Lanturn",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_CHINCHOU",
+  "quickMoves": {
+    "MOVE_CHARGE_BEAM_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "water",
     "electric"
   ],
-  "baseStats": {
-    "stamina": 250,
-    "attack": 146,
-    "defense": 146
-  },
-  "previousEvolution": "POKEMON_CHINCHOU",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_WATER_GUN_FAST": false,
-    "MOVE_CHARGE_BEAM_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_HYDRO_PUMP": false,
-    "MOVE_THUNDERBOLT": false,
-    "MOVE_THUNDER": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.19,
   "weight": 22.5
 }

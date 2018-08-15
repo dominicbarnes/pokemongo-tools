@@ -1,35 +1,35 @@
 {
-  "name": "Seadra",
-  "dex": 117,
-  "family": "FAMILY_HORSEA",
-  "generation": 1,
-  "types": [
-    "water"
-  ],
   "baseStats": {
-    "stamina": 110,
     "attack": 187,
-    "defense": 182
+    "defense": 182,
+    "stamina": 110
   },
-  "previousEvolution": "POKEMON_HORSEA",
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_KINGDRA",
-      "candy": 100,
-      "item": "ITEM_DRAGON_SCALE"
-    }
-  ],
-  "quickMoves": {
-    "MOVE_WATER_GUN_FAST": false,
-    "MOVE_DRAGON_BREATH_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_AURORA_BEAM": false,
     "MOVE_DRAGON_PULSE": false,
     "MOVE_HYDRO_PUMP": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 117,
+  "family": "FAMILY_HORSEA",
+  "generation": 1,
   "height": 1.2,
+  "name": "Seadra",
+  "nextEvolutions": [
+    {
+      "candy": 100,
+      "item": "ITEM_DRAGON_SCALE",
+      "pokemon": "POKEMON_KINGDRA"
+    }
+  ],
+  "previousEvolution": "POKEMON_HORSEA",
+  "quickMoves": {
+    "MOVE_DRAGON_BREATH_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "water"
+  ],
   "weight": 25
 }

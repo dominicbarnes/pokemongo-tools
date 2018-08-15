@@ -1,34 +1,34 @@
 {
-  "name": "Mareep",
+  "baseStats": {
+    "attack": 114,
+    "defense": 82,
+    "stamina": 110
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_BODY_SLAM": false,
+    "MOVE_DISCHARGE": false,
+    "MOVE_THUNDERBOLT": false
+  },
   "dex": 179,
   "family": "FAMILY_MAREEP",
   "generation": 2,
-  "types": [
-    "electric"
-  ],
-  "baseStats": {
-    "stamina": 110,
-    "attack": 114,
-    "defense": 82
-  },
-  "previousEvolution": null,
+  "height": 0.61,
+  "name": "Mareep",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_FLAAFFY",
-      "candy": 25
+      "candy": 25,
+      "pokemon": "POKEMON_FLAAFFY"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
     "MOVE_TACKLE_FAST": false,
     "MOVE_THUNDER_SHOCK_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_BODY_SLAM": false,
-    "MOVE_THUNDERBOLT": false,
-    "MOVE_DISCHARGE": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 0.61,
+  "rarity": "common",
+  "types": [
+    "electric"
+  ],
   "weight": 7.8
 }

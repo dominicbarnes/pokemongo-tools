@@ -1,6 +1,6 @@
 {
   "name": "Dynamic Punch",
-  "type": "fighting",
   "power": 90,
-  "quick": false
+  "quick": false,
+  "type": "fighting"
 }

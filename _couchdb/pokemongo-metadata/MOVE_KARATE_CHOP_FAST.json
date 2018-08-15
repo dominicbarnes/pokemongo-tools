@@ -1,6 +1,6 @@
 {
   "name": "Karate Chop",
-  "type": "fighting",
   "power": 8,
-  "quick": true
+  "quick": true,
+  "type": "fighting"
 }

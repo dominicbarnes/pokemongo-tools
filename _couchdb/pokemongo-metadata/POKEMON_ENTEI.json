@@ -1,29 +1,30 @@
 {
-  "name": "Entei",
+  "baseStats": {
+    "attack": 235,
+    "defense": 176,
+    "stamina": 230
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_FIRE_BLAST": false,
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_OVERHEAT": false
+  },
   "dex": 244,
   "family": "FAMILY_ENTEI",
   "generation": 2,
+  "height": 2.11,
+  "name": "Entei",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_FIRE_FANG_FAST": false,
+    "MOVE_FIRE_SPIN_FAST": false
+  },
+  "rarity": "legendary",
   "types": [
     "fire"
   ],
-  "baseStats": {
-    "stamina": 230,
-    "attack": 235,
-    "defense": 176
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_FIRE_SPIN_FAST": false,
-    "MOVE_FIRE_FANG_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_FLAMETHROWER": false,
-    "MOVE_FIRE_BLAST": false,
-    "MOVE_OVERHEAT": false
-  },
-  "rarity": "legendary",
-  "buddyDistance": 20,
-  "height": 2.11,
   "weight": 198
 }

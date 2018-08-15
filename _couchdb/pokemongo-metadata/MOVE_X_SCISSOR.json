@@ -1,6 +1,6 @@
 {
   "name": "X Scissor",
-  "type": "bug",
   "power": 45,
-  "quick": false
+  "quick": false,
+  "type": "bug"
 }

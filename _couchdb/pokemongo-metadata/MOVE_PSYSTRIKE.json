@@ -1,6 +1,6 @@
 {
   "name": "Psystrike",
-  "type": "psychic",
   "power": 100,
-  "quick": false
+  "quick": false,
+  "type": "psychic"
 }

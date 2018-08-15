@@ -1,32 +1,31 @@
 {
-  "name": "Ninjask",
+  "baseStats": {
+    "attack": 196,
+    "defense": 114,
+    "stamina": 122
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_BUG_BUZZ": false,
+    "MOVE_SHADOW_BALL": false
+  },
   "dex": 291,
   "family": "FAMILY_NINCADA",
   "generation": 3,
+  "height": 0.79,
+  "name": "Ninjask",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_NINCADA",
+  "quickMoves": {
+    "MOVE_FURY_CUTTER_FAST": false,
+    "MOVE_METAL_CLAW_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "bug",
     "flying"
   ],
-  "baseStats": {
-    "stamina": 122,
-    "attack": 196,
-    "defense": 114
-  },
-  "previousEvolution": "POKEMON_NINCADA",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_FURY_CUTTER_FAST": false,
-    "MOVE_METAL_CLAW_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_SHADOW_BALL": false,
-    "MOVE_BUG_BUZZ": false,
-    "MOVE_AERIAL_ACE": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 0.79,
   "weight": 12
 }

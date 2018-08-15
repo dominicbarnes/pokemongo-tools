@@ -1,35 +1,35 @@
 {
-  "name": "Sunkern",
-  "dex": 191,
-  "family": "FAMILY_SUNKERN",
-  "generation": 2,
-  "types": [
-    "grass"
-  ],
   "baseStats": {
-    "stamina": 60,
     "attack": 55,
-    "defense": 55
+    "defense": 55,
+    "stamina": 60
   },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_SUNFLORA",
-      "candy": 50,
-      "item": "ITEM_SUN_STONE"
-    }
-  ],
-  "quickMoves": {
-    "MOVE_RAZOR_LEAF_FAST": false,
-    "MOVE_CUT_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_ENERGY_BALL": false,
     "MOVE_GRASS_KNOT": false,
     "MOVE_SEED_BOMB": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 191,
+  "family": "FAMILY_SUNKERN",
+  "generation": 2,
   "height": 0.3,
+  "name": "Sunkern",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "item": "ITEM_SUN_STONE",
+      "pokemon": "POKEMON_SUNFLORA"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_CUT_FAST": false,
+    "MOVE_RAZOR_LEAF_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "grass"
+  ],
   "weight": 1.8
 }

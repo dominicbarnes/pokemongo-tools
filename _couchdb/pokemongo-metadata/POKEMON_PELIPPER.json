@@ -1,32 +1,31 @@
 {
-  "name": "Pelipper",
+  "baseStats": {
+    "attack": 175,
+    "defense": 189,
+    "stamina": 120
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BLIZZARD": false,
+    "MOVE_HURRICANE": false,
+    "MOVE_HYDRO_PUMP": false
+  },
   "dex": 279,
   "family": "FAMILY_WINGULL",
   "generation": 3,
+  "height": 1.19,
+  "name": "Pelipper",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_WINGULL",
+  "quickMoves": {
+    "MOVE_WATER_GUN_FAST": false,
+    "MOVE_WING_ATTACK_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "water",
     "flying"
   ],
-  "baseStats": {
-    "stamina": 120,
-    "attack": 175,
-    "defense": 189
-  },
-  "previousEvolution": "POKEMON_WINGULL",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_WATER_GUN_FAST": false,
-    "MOVE_WING_ATTACK_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_HYDRO_PUMP": false,
-    "MOVE_HURRICANE": false,
-    "MOVE_BLIZZARD": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.19,
   "weight": 28
 }

@@ -1,37 +1,35 @@
 {
-  "name": "Numel",
-  "dex": 322,
-  "family": "FAMILY_NUMEL",
-  "generation": 3,
-  "types": [
-    "fire",
-    "ground"
-  ],
   "baseStats": {
-    "stamina": 120,
     "attack": 119,
-    "defense": 82
+    "defense": 82,
+    "stamina": 120
   },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_CAMERUPT",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_EMBER_FAST": false,
-    "MOVE_TACKLE_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
-    "MOVE_STRUGGLE": true,
     "MOVE_BULLDOZE": false,
     "MOVE_HEAT_WAVE": false,
     "MOVE_STOMP": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 322,
+  "family": "FAMILY_NUMEL",
+  "generation": 3,
   "height": 0.71,
+  "name": "Numel",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_CAMERUPT"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "fire",
+    "ground"
+  ],
   "weight": 24
 }

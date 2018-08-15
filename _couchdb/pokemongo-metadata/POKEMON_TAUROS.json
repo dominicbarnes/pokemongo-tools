@@ -1,29 +1,30 @@
 {
-  "name": "Tauros",
+  "baseStats": {
+    "attack": 198,
+    "defense": 197,
+    "stamina": 150
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_HORN_ATTACK": false,
+    "MOVE_IRON_HEAD": false
+  },
   "dex": 128,
   "family": "FAMILY_TAUROS",
   "generation": 1,
-  "types": [
-    "normal"
+  "height": 1.4,
+  "name": "Tauros",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 150,
-    "attack": 198,
-    "defense": 197
-  },
   "previousEvolution": null,
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_TACKLE_FAST": false,
     "MOVE_ZEN_HEADBUTT_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_HORN_ATTACK": false,
-    "MOVE_IRON_HEAD": false,
-    "MOVE_EARTHQUAKE": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.4,
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
   "weight": 88.4
 }

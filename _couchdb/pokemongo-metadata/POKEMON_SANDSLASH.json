@@ -1,90 +1,94 @@
 {
-  "name": "Sandslash",
+  "baseStats": {
+    "attack": 182,
+    "defense": 202,
+    "stamina": 150
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BULLDOZE": false,
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_ROCK_TOMB": false
+  },
   "dex": 28,
   "family": "FAMILY_SANDSHREW",
-  "generation": 1,
-  "types": [
-    "ground"
-  ],
-  "baseStats": {
-    "stamina": 150,
-    "attack": 182,
-    "defense": 202
-  },
-  "previousEvolution": "POKEMON_SANDSHREW",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_METAL_CLAW_FAST": false,
-    "MOVE_MUD_SHOT_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_EARTHQUAKE": false,
-    "MOVE_ROCK_TOMB": false,
-    "MOVE_BULLDOZE": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1,
-  "weight": 29.5,
   "forms": {
     "alola": {
-      "name": "Sandslash (Alola)",
+      "assetBundle": 61,
+      "baseStats": {
+        "attack": 177,
+        "defense": 221,
+        "stamina": 150
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_BLIZZARD": false,
+        "MOVE_BULLDOZE": false,
+        "MOVE_GYRO_BALL": false
+      },
       "dex": 28,
       "family": "FAMILY_SANDSHREW",
       "generation": 1,
-      "types": [
-        "ice",
-        "steel"
+      "height": 1.2,
+      "name": "Sandslash (Alola)",
+      "nextEvolutions": [
       ],
-      "baseStats": {
-        "stamina": 150,
-        "attack": 177,
-        "defense": 221
-      },
       "previousEvolution": "POKEMON_SANDSHREW",
-      "nextEvolutions": [],
       "quickMoves": {
         "MOVE_METAL_CLAW_FAST": false,
         "MOVE_POWDER_SNOW_FAST": false
       },
-      "chargeMoves": {
-        "MOVE_BLIZZARD": false,
-        "MOVE_GYRO_BALL": false,
-        "MOVE_BULLDOZE": false
-      },
-      "rarity": null,
-      "buddyDistance": 3,
-      "height": 1.2,
+      "rarity": "common",
+      "types": [
+        "ice",
+        "steel"
+      ],
       "weight": 55
     },
     "normal": {
-      "name": "Sandslash",
+      "baseStats": {
+        "attack": 182,
+        "defense": 202,
+        "stamina": 150
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_BULLDOZE": false,
+        "MOVE_EARTHQUAKE": false,
+        "MOVE_ROCK_TOMB": false
+      },
       "dex": 28,
       "family": "FAMILY_SANDSHREW",
       "generation": 1,
-      "types": [
-        "ground"
+      "height": 1,
+      "name": "Sandslash",
+      "nextEvolutions": [
       ],
-      "baseStats": {
-        "stamina": 150,
-        "attack": 182,
-        "defense": 202
-      },
       "previousEvolution": "POKEMON_SANDSHREW",
-      "nextEvolutions": [],
       "quickMoves": {
         "MOVE_METAL_CLAW_FAST": false,
         "MOVE_MUD_SHOT_FAST": false
       },
-      "chargeMoves": {
-        "MOVE_EARTHQUAKE": false,
-        "MOVE_ROCK_TOMB": false,
-        "MOVE_BULLDOZE": false
-      },
-      "rarity": null,
-      "buddyDistance": 3,
-      "height": 1,
+      "rarity": "common",
+      "types": [
+        "ground"
+      ],
       "weight": 29.5
     }
-  }
+  },
+  "generation": 1,
+  "height": 1,
+  "name": "Sandslash",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_SANDSHREW",
+  "quickMoves": {
+    "MOVE_METAL_CLAW_FAST": false,
+    "MOVE_MUD_SHOT_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "ground"
+  ],
+  "weight": 29.5
 }

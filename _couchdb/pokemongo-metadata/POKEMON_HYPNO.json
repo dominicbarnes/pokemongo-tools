@@ -1,29 +1,30 @@
 {
-  "name": "Hypno",
+  "baseStats": {
+    "attack": 144,
+    "defense": 215,
+    "stamina": 170
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_FOCUS_BLAST": false,
+    "MOVE_FUTURESIGHT": false,
+    "MOVE_PSYCHIC": false
+  },
   "dex": 97,
   "family": "FAMILY_DROWZEE",
   "generation": 1,
+  "height": 1.6,
+  "name": "Hypno",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_DROWZEE",
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "psychic"
   ],
-  "baseStats": {
-    "stamina": 170,
-    "attack": 144,
-    "defense": 215
-  },
-  "previousEvolution": "POKEMON_DROWZEE",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_ZEN_HEADBUTT_FAST": false,
-    "MOVE_CONFUSION_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_FUTURESIGHT": false,
-    "MOVE_PSYCHIC": false,
-    "MOVE_FOCUS_BLAST": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.6,
   "weight": 75.6
 }

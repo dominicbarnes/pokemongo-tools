@@ -1,36 +1,34 @@
 {
-  "name": "Seedot",
+  "baseStats": {
+    "attack": 71,
+    "defense": 86,
+    "stamina": 80
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_ENERGY_BALL": false,
+    "MOVE_FOUL_PLAY": false,
+    "MOVE_GRASS_KNOT": false
+  },
   "dex": 273,
   "family": "FAMILY_SEEDOT",
   "generation": 3,
-  "types": [
-    "grass"
-  ],
-  "baseStats": {
-    "stamina": 80,
-    "attack": 71,
-    "defense": 86
-  },
-  "previousEvolution": null,
+  "height": 0.51,
+  "name": "Seedot",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_NUZLEAF",
-      "candy": 25
+      "candy": 25,
+      "pokemon": "POKEMON_NUZLEAF"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
     "MOVE_BULLET_SEED_FAST": false,
     "MOVE_QUICK_ATTACK_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_ENERGY_BALL": false,
-    "MOVE_GRASS_KNOT": false,
-    "MOVE_FOUL_PLAY": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.51,
+  "rarity": "common",
+  "types": [
+    "grass"
+  ],
   "weight": 4
 }

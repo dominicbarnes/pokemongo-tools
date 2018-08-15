@@ -1,32 +1,31 @@
 {
-  "name": "Solrock",
-  "dex": 338,
-  "family": "FAMILY_SOLROCK",
-  "generation": 3,
-  "types": [
-    "rock",
-    "psychic"
-  ],
   "baseStats": {
-    "stamina": 180,
     "attack": 178,
-    "defense": 163
+    "defense": 163,
+    "stamina": 180
   },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_ROCK_THROW_FAST": false,
-    "MOVE_CONFUSION_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
-    "MOVE_STRUGGLE": true,
     "MOVE_PSYCHIC": false,
     "MOVE_ROCK_SLIDE": false,
     "MOVE_SOLAR_BEAM": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 338,
+  "family": "FAMILY_SOLROCK",
+  "generation": 3,
   "height": 1.19,
+  "name": "Solrock",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_ROCK_THROW_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "rock",
+    "psychic"
+  ],
   "weight": 154
 }

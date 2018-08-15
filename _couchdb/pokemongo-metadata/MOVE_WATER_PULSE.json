@@ -1,6 +1,6 @@
 {
   "name": "Water Pulse",
-  "type": "water",
   "power": 70,
-  "quick": false
+  "quick": false,
+  "type": "water"
 }

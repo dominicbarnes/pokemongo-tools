@@ -1,6 +1,6 @@
 {
   "name": "Flame Burst",
-  "type": "fire",
   "power": 70,
-  "quick": false
+  "quick": false,
+  "type": "fire"
 }

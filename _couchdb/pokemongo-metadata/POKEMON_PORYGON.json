@@ -1,35 +1,35 @@
 {
-  "name": "Porygon",
+  "baseStats": {
+    "attack": 153,
+    "defense": 139,
+    "stamina": 130
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_SOLAR_BEAM": false,
+    "MOVE_ZAP_CANNON": false
+  },
   "dex": 137,
   "family": "FAMILY_PORYGON",
   "generation": 1,
-  "types": [
-    "normal"
-  ],
-  "baseStats": {
-    "stamina": 130,
-    "attack": 153,
-    "defense": 139
-  },
-  "previousEvolution": null,
+  "height": 0.8,
+  "name": "Porygon",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_PORYGON2",
       "candy": 50,
-      "item": "ITEM_UP_GRADE"
+      "item": "ITEM_UP_GRADE",
+      "pokemon": "POKEMON_PORYGON2"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
     "MOVE_CHARGE_BEAM_FAST": false,
     "MOVE_HIDDEN_POWER_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_SOLAR_BEAM": false,
-    "MOVE_HYPER_BEAM": false,
-    "MOVE_ZAP_CANNON": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.8,
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
   "weight": 36.5
 }

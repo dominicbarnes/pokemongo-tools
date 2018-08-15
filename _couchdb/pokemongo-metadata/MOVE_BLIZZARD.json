@@ -1,6 +1,6 @@
 {
   "name": "Blizzard",
-  "type": "ice",
   "power": 130,
-  "quick": false
+  "quick": false,
+  "type": "ice"
 }

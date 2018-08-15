@@ -1,31 +1,30 @@
 {
-  "name": "Nosepass",
-  "dex": 299,
-  "family": "FAMILY_NOSEPASS",
-  "generation": 3,
-  "types": [
-    "rock"
-  ],
   "baseStats": {
-    "stamina": 60,
     "attack": 82,
-    "defense": 236
+    "defense": 236,
+    "stamina": 60
   },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_ROCK_THROW_FAST": false,
-    "MOVE_SPARK_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
-    "MOVE_STRUGGLE": true,
     "MOVE_ROCK_BLAST": false,
     "MOVE_ROCK_SLIDE": false,
     "MOVE_THUNDERBOLT": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 299,
+  "family": "FAMILY_NOSEPASS",
+  "generation": 3,
   "height": 0.99,
+  "name": "Nosepass",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_ROCK_THROW_FAST": false,
+    "MOVE_SPARK_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "rock"
+  ],
   "weight": 97
 }

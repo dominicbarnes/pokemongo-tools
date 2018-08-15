@@ -1,6 +1,6 @@
 {
   "name": "Dazzling Gleam",
-  "type": "fairy",
   "power": 100,
-  "quick": false
+  "quick": false,
+  "type": "fairy"
 }

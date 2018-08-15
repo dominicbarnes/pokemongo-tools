@@ -1,30 +1,31 @@
 {
-  "name": "Murkrow",
+  "baseStats": {
+    "attack": 175,
+    "defense": 87,
+    "stamina": 120
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DARK_PULSE": false,
+    "MOVE_DRILL_PECK": false,
+    "MOVE_FOUL_PLAY": false
+  },
   "dex": 198,
   "family": "FAMILY_MURKROW",
   "generation": 2,
+  "height": 0.51,
+  "name": "Murkrow",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_FEINT_ATTACK_FAST": false,
+    "MOVE_PECK_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "dark",
     "flying"
   ],
-  "baseStats": {
-    "stamina": 120,
-    "attack": 175,
-    "defense": 87
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_PECK_FAST": false,
-    "MOVE_FEINT_ATTACK_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_DRILL_PECK": false,
-    "MOVE_FOUL_PLAY": false,
-    "MOVE_DARK_PULSE": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.51,
   "weight": 2.1
 }

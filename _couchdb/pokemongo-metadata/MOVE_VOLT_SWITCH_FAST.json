@@ -1,6 +1,6 @@
 {
   "name": "Volt Switch",
-  "type": "electric",
   "power": 20,
-  "quick": true
+  "quick": true,
+  "type": "electric"
 }

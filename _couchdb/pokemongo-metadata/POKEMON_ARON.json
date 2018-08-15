@@ -1,37 +1,35 @@
 {
-  "name": "Aron",
+  "baseStats": {
+    "attack": 121,
+    "defense": 168,
+    "stamina": 100
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_BODY_SLAM": false,
+    "MOVE_IRON_HEAD": false,
+    "MOVE_ROCK_TOMB": false
+  },
   "dex": 304,
   "family": "FAMILY_ARON",
   "generation": 3,
+  "height": 0.41,
+  "name": "Aron",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_LAIRON"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_METAL_CLAW_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "steel",
     "rock"
   ],
-  "baseStats": {
-    "stamina": 100,
-    "attack": 121,
-    "defense": 168
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_LAIRON",
-      "candy": 25
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_TACKLE_FAST": false,
-    "MOVE_METAL_CLAW_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_IRON_HEAD": false,
-    "MOVE_ROCK_TOMB": false,
-    "MOVE_BODY_SLAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 0.41,
   "weight": 60
 }

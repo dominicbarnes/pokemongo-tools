@@ -1,6 +1,6 @@
 {
   "name": "Mud Bomb",
-  "type": "ground",
   "power": 55,
-  "quick": false
+  "quick": false,
+  "type": "ground"
 }

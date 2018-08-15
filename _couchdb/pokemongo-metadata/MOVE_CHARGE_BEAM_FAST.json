@@ -1,6 +1,6 @@
 {
   "name": "Charge Beam",
-  "type": "electric",
   "power": 8,
-  "quick": true
+  "quick": true,
+  "type": "electric"
 }

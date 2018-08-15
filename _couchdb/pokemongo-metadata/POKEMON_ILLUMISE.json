@@ -1,31 +1,30 @@
 {
-  "name": "Illumise",
+  "baseStats": {
+    "attack": 143,
+    "defense": 171,
+    "stamina": 130
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BUG_BUZZ": false,
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_SILVER_WIND": false
+  },
   "dex": 314,
   "family": "FAMILY_ILLUMISE",
   "generation": 3,
-  "types": [
-    "bug"
+  "height": 0.61,
+  "name": "Illumise",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 130,
-    "attack": 143,
-    "defense": 171
-  },
   "previousEvolution": null,
-  "nextEvolutions": [],
   "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
     "MOVE_STRUGGLE_BUG_FAST": false,
     "MOVE_TACKLE_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_SILVER_WIND": false,
-    "MOVE_BUG_BUZZ": false,
-    "MOVE_DAZZLING_GLEAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.61,
+  "rarity": "common",
+  "types": [
+    "bug"
+  ],
   "weight": 17.7
 }

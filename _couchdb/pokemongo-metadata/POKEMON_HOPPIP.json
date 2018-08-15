@@ -1,35 +1,35 @@
 {
-  "name": "Hoppip",
+  "baseStats": {
+    "attack": 67,
+    "defense": 101,
+    "stamina": 70
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_GRASS_KNOT": false,
+    "MOVE_SEED_BOMB": false
+  },
   "dex": 187,
   "family": "FAMILY_HOPPIP",
   "generation": 2,
+  "height": 0.41,
+  "name": "Hoppip",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_SKIPLOOM"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_BULLET_SEED_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "grass",
     "flying"
   ],
-  "baseStats": {
-    "stamina": 70,
-    "attack": 67,
-    "defense": 101
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_SKIPLOOM",
-      "candy": 25
-    }
-  ],
-  "quickMoves": {
-    "MOVE_TACKLE_FAST": false,
-    "MOVE_BULLET_SEED_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_GRASS_KNOT": false,
-    "MOVE_DAZZLING_GLEAM": false,
-    "MOVE_SEED_BOMB": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.41,
   "weight": 0.5
 }

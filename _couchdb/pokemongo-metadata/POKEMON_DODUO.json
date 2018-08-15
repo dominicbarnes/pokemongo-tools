@@ -1,35 +1,35 @@
 {
-  "name": "Doduo",
+  "baseStats": {
+    "attack": 158,
+    "defense": 88,
+    "stamina": 70
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_BRAVE_BIRD": false,
+    "MOVE_DRILL_PECK": false
+  },
   "dex": 84,
   "family": "FAMILY_DODUO",
   "generation": 1,
-  "types": [
-    "normal",
-    "flying"
-  ],
-  "baseStats": {
-    "stamina": 70,
-    "attack": 158,
-    "defense": 88
-  },
-  "previousEvolution": null,
+  "height": 1.4,
+  "name": "Doduo",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_DODRIO",
-      "candy": 50
+      "candy": 50,
+      "pokemon": "POKEMON_DODRIO"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
     "MOVE_PECK_FAST": false,
     "MOVE_QUICK_ATTACK_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_DRILL_PECK": false,
-    "MOVE_AERIAL_ACE": false,
-    "MOVE_BRAVE_BIRD": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.4,
+  "rarity": "common",
+  "types": [
+    "normal",
+    "flying"
+  ],
   "weight": 39.2
 }

@@ -1,35 +1,35 @@
 {
-  "name": "Oddish",
+  "baseStats": {
+    "attack": 131,
+    "defense": 116,
+    "stamina": 90
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_MOONBLAST": false,
+    "MOVE_SEED_BOMB": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
   "dex": 43,
   "family": "FAMILY_ODDISH",
   "generation": 1,
+  "height": 0.5,
+  "name": "Oddish",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_GLOOM"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_ACID_FAST": false,
+    "MOVE_RAZOR_LEAF_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "grass",
     "poison"
   ],
-  "baseStats": {
-    "stamina": 90,
-    "attack": 131,
-    "defense": 116
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_GLOOM",
-      "candy": 25
-    }
-  ],
-  "quickMoves": {
-    "MOVE_RAZOR_LEAF_FAST": false,
-    "MOVE_ACID_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_SEED_BOMB": false,
-    "MOVE_SLUDGE_BOMB": false,
-    "MOVE_MOONBLAST": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.5,
   "weight": 5.4
 }

@@ -1,29 +1,30 @@
 {
-  "name": "Alakazam",
+  "baseStats": {
+    "attack": 271,
+    "defense": 194,
+    "stamina": 110
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_FOCUS_BLAST": false,
+    "MOVE_FUTURESIGHT": false,
+    "MOVE_SHADOW_BALL": false
+  },
   "dex": 65,
   "family": "FAMILY_ABRA",
   "generation": 1,
+  "height": 1.5,
+  "name": "Alakazam",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_KADABRA",
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_PSYCHO_CUT_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "psychic"
   ],
-  "baseStats": {
-    "stamina": 110,
-    "attack": 271,
-    "defense": 194
-  },
-  "previousEvolution": "POKEMON_KADABRA",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_PSYCHO_CUT_FAST": false,
-    "MOVE_CONFUSION_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_FUTURESIGHT": false,
-    "MOVE_FOCUS_BLAST": false,
-    "MOVE_SHADOW_BALL": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.5,
   "weight": 48
 }

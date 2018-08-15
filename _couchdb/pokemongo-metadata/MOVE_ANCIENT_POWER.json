@@ -1,6 +1,6 @@
 {
   "name": "Ancient Power",
-  "type": "rock",
   "power": 70,
-  "quick": false
+  "quick": false,
+  "type": "rock"
 }

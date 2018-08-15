@@ -1,29 +1,30 @@
 {
-  "name": "Blissey",
+  "baseStats": {
+    "attack": 129,
+    "defense": 229,
+    "stamina": 510
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_PSYCHIC": false
+  },
   "dex": 242,
   "family": "FAMILY_CHANSEY",
   "generation": 2,
-  "types": [
-    "normal"
+  "height": 1.5,
+  "name": "Blissey",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 510,
-    "attack": 129,
-    "defense": 229
-  },
   "previousEvolution": "POKEMON_CHANSEY",
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_POUND_FAST": false,
     "MOVE_ZEN_HEADBUTT_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_PSYCHIC": false,
-    "MOVE_HYPER_BEAM": false,
-    "MOVE_DAZZLING_GLEAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 1.5,
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
   "weight": 46.8
 }

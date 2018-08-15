@@ -1,30 +1,31 @@
 {
-  "name": "Ho Oh",
-  "dex": 250,
-  "family": "FAMILY_HO_OH",
-  "generation": 2,
-  "types": [
-    "fire",
-    "flying"
-  ],
   "baseStats": {
-    "stamina": 193,
     "attack": 239,
-    "defense": 274
+    "defense": 274,
+    "stamina": 193
   },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_EXTRASENSORY_FAST": false,
-    "MOVE_STEEL_WING_FAST": false
-  },
+  "buddyDistance": 20,
   "chargeMoves": {
     "MOVE_BRAVE_BIRD": false,
     "MOVE_FIRE_BLAST": false,
     "MOVE_SOLAR_BEAM": false
   },
-  "rarity": "legendary",
-  "buddyDistance": 20,
+  "dex": 250,
+  "family": "FAMILY_HO_OH",
+  "generation": 2,
   "height": 3.81,
+  "name": "Ho Oh",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_EXTRASENSORY_FAST": false,
+    "MOVE_STEEL_WING_FAST": false
+  },
+  "rarity": "legendary",
+  "types": [
+    "fire",
+    "flying"
+  ],
   "weight": 199
 }

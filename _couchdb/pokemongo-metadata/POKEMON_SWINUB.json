@@ -1,35 +1,35 @@
 {
-  "name": "Swinub",
+  "baseStats": {
+    "attack": 90,
+    "defense": 74,
+    "stamina": 100
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BODY_SLAM": false,
+    "MOVE_ICY_WIND": false,
+    "MOVE_ROCK_SLIDE": false
+  },
   "dex": 220,
   "family": "FAMILY_SWINUB",
   "generation": 2,
+  "height": 0.41,
+  "name": "Swinub",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_PILOSWINE"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_POWDER_SNOW_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "ice",
     "ground"
   ],
-  "baseStats": {
-    "stamina": 100,
-    "attack": 90,
-    "defense": 74
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_PILOSWINE",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_TACKLE_FAST": false,
-    "MOVE_POWDER_SNOW_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_ICY_WIND": false,
-    "MOVE_BODY_SLAM": false,
-    "MOVE_ROCK_SLIDE": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.41,
   "weight": 6.5
 }

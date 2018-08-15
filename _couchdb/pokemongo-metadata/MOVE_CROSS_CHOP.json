@@ -1,6 +1,6 @@
 {
   "name": "Cross Chop",
-  "type": "fighting",
   "power": 50,
-  "quick": false
+  "quick": false,
+  "type": "fighting"
 }

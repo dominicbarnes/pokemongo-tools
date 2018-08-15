@@ -1,6 +1,6 @@
 {
   "name": "Bubble Beam",
-  "type": "water",
   "power": 45,
-  "quick": false
+  "quick": false,
+  "type": "water"
 }

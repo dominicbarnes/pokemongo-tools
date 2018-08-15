@@ -1,5 +1,5 @@
 {
   "name": "Splash",
-  "type": "water",
-  "quick": true
+  "quick": true,
+  "type": "water"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Scald",
-  "type": "water",
   "power": 80,
-  "quick": false
+  "quick": false,
+  "type": "water"
 }

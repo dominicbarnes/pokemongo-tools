@@ -1,29 +1,30 @@
 {
-  "name": "Kangaskhan",
-  "dex": 115,
-  "family": "FAMILY_KANGASKHAN",
-  "generation": 1,
-  "types": [
-    "normal"
-  ],
   "baseStats": {
-    "stamina": 210,
     "attack": 181,
-    "defense": 165
+    "defense": 165,
+    "stamina": 210
   },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_MUD_SLAP_FAST": false,
-    "MOVE_LOW_KICK_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_CRUNCH": false,
     "MOVE_EARTHQUAKE": false,
     "MOVE_OUTRAGE": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 115,
+  "family": "FAMILY_KANGASKHAN",
+  "generation": 1,
   "height": 2.2,
+  "name": "Kangaskhan",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_LOW_KICK_FAST": false,
+    "MOVE_MUD_SLAP_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
   "weight": 80
 }

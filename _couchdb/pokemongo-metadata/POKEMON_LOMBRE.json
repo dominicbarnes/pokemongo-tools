@@ -1,37 +1,35 @@
 {
-  "name": "Lombre",
+  "baseStats": {
+    "attack": 112,
+    "defense": 128,
+    "stamina": 120
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BUBBLE_BEAM": false,
+    "MOVE_GRASS_KNOT": false,
+    "MOVE_ICE_BEAM": false
+  },
   "dex": 271,
   "family": "FAMILY_LOTAD",
   "generation": 3,
+  "height": 1.19,
+  "name": "Lombre",
+  "nextEvolutions": [
+    {
+      "candy": 100,
+      "pokemon": "POKEMON_LUDICOLO"
+    }
+  ],
+  "previousEvolution": "POKEMON_LOTAD",
+  "quickMoves": {
+    "MOVE_BUBBLE_FAST": false,
+    "MOVE_RAZOR_LEAF_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "water",
     "grass"
   ],
-  "baseStats": {
-    "stamina": 120,
-    "attack": 112,
-    "defense": 128
-  },
-  "previousEvolution": "POKEMON_LOTAD",
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_LUDICOLO",
-      "candy": 100
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_BUBBLE_FAST": false,
-    "MOVE_RAZOR_LEAF_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_BUBBLE_BEAM": false,
-    "MOVE_ICE_BEAM": false,
-    "MOVE_GRASS_KNOT": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.19,
   "weight": 32.5
 }

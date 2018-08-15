@@ -1,6 +1,6 @@
 {
   "name": "Spark",
-  "type": "electric",
   "power": 6,
-  "quick": true
+  "quick": true,
+  "type": "electric"
 }

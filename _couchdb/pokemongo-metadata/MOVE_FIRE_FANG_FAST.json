@@ -1,6 +1,6 @@
 {
   "name": "Fire Fang",
-  "type": "fire",
   "power": 11,
-  "quick": true
+  "quick": true,
+  "type": "fire"
 }

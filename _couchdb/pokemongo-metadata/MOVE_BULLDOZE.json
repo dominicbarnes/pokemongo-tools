@@ -1,6 +1,6 @@
 {
   "name": "Bulldoze",
-  "type": "ground",
   "power": 80,
-  "quick": false
+  "quick": false,
+  "type": "ground"
 }

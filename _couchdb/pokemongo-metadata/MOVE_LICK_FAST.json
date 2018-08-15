@@ -1,6 +1,6 @@
 {
   "name": "Lick",
-  "type": "ghost",
   "power": 5,
-  "quick": true
+  "quick": true,
+  "type": "ghost"
 }

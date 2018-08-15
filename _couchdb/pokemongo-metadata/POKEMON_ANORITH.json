@@ -1,37 +1,35 @@
 {
-  "name": "Anorith",
+  "baseStats": {
+    "attack": 176,
+    "defense": 100,
+    "stamina": 90
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_ANCIENT_POWER": false,
+    "MOVE_AQUA_JET": false,
+    "MOVE_CROSS_POISON": false
+  },
   "dex": 347,
   "family": "FAMILY_ANORITH",
   "generation": 3,
+  "height": 0.71,
+  "name": "Anorith",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_ARMALDO"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_SCRATCH_FAST": false,
+    "MOVE_STRUGGLE_BUG_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "rock",
     "bug"
   ],
-  "baseStats": {
-    "stamina": 90,
-    "attack": 176,
-    "defense": 100
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_ARMALDO",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_STRUGGLE_BUG_FAST": false,
-    "MOVE_SCRATCH_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_CROSS_POISON": false,
-    "MOVE_AQUA_JET": false,
-    "MOVE_ANCIENT_POWER": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.71,
   "weight": 12.5
 }

@@ -1,6 +1,6 @@
 {
   "name": "Scratch",
-  "type": "normal",
   "power": 6,
-  "quick": true
+  "quick": true,
+  "type": "normal"
 }

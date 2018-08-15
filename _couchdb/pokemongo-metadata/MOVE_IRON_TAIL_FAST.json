@@ -1,6 +1,6 @@
 {
   "name": "Iron Tail",
-  "type": "steel",
   "power": 15,
-  "quick": true
+  "quick": true,
+  "type": "steel"
 }

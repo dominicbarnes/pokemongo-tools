@@ -1,29 +1,30 @@
 {
-  "name": "Golduck",
+  "baseStats": {
+    "attack": 191,
+    "defense": 163,
+    "stamina": 160
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_ICE_BEAM": false,
+    "MOVE_PSYCHIC": false
+  },
   "dex": 55,
   "family": "FAMILY_PSYDUCK",
   "generation": 1,
+  "height": 1.7,
+  "name": "Golduck",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_PSYDUCK",
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "water"
   ],
-  "baseStats": {
-    "stamina": 160,
-    "attack": 191,
-    "defense": 163
-  },
-  "previousEvolution": "POKEMON_PSYDUCK",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_WATER_GUN_FAST": false,
-    "MOVE_CONFUSION_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_PSYCHIC": false,
-    "MOVE_HYDRO_PUMP": false,
-    "MOVE_ICE_BEAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.7,
   "weight": 76.6
 }

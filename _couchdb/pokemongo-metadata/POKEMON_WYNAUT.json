@@ -1,33 +1,32 @@
 {
-  "name": "Wynaut",
+  "baseStats": {
+    "attack": 41,
+    "defense": 86,
+    "stamina": 190
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_MIRROR_COAT": false
+  },
   "dex": 360,
   "family": "FAMILY_WOBBUFFET",
   "generation": 3,
+  "height": 0.61,
+  "name": "Wynaut",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_WOBBUFFET"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_COUNTER_FAST": false,
+    "MOVE_SPLASH_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "psychic"
   ],
-  "baseStats": {
-    "stamina": 190,
-    "attack": 41,
-    "defense": 86
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_WOBBUFFET",
-      "candy": 25
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": false,
-    "MOVE_COUNTER_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_MIRROR_COAT": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.61,
   "weight": 14
 }

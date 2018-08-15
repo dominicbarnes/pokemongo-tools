@@ -1,31 +1,30 @@
 {
-  "name": "Glalie",
-  "dex": 362,
-  "family": "FAMILY_SNORUNT",
-  "generation": 3,
-  "types": [
-    "ice"
-  ],
   "baseStats": {
-    "stamina": 160,
     "attack": 162,
-    "defense": 162
+    "defense": 162,
+    "stamina": 160
   },
-  "previousEvolution": "POKEMON_SNORUNT",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_ICE_SHARD_FAST": false,
-    "MOVE_FROST_BREATH_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
-    "MOVE_STRUGGLE": true,
     "MOVE_AVALANCHE": false,
     "MOVE_GYRO_BALL": false,
     "MOVE_SHADOW_BALL": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 362,
+  "family": "FAMILY_SNORUNT",
+  "generation": 3,
   "height": 1.5,
+  "name": "Glalie",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_SNORUNT",
+  "quickMoves": {
+    "MOVE_FROST_BREATH_FAST": false,
+    "MOVE_ICE_SHARD_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "ice"
+  ],
   "weight": 256.5
 }

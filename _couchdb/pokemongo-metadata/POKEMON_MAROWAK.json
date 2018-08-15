@@ -1,90 +1,94 @@
 {
-  "name": "Marowak",
-  "dex": 105,
-  "family": "FAMILY_CUBONE",
-  "generation": 1,
-  "types": [
-    "ground"
-  ],
   "baseStats": {
-    "stamina": 120,
     "attack": 144,
-    "defense": 200
+    "defense": 200,
+    "stamina": 120
   },
-  "previousEvolution": "POKEMON_CUBONE",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_MUD_SLAP_FAST": false,
-    "MOVE_ROCK_SMASH_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_BONE_CLUB": false,
     "MOVE_DIG": false,
     "MOVE_EARTHQUAKE": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1,
-  "weight": 45,
+  "dex": 105,
+  "family": "FAMILY_CUBONE",
   "forms": {
     "alola": {
-      "name": "Marowak (Alola)",
+      "assetBundle": 61,
+      "baseStats": {
+        "attack": 144,
+        "defense": 200,
+        "stamina": 120
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_BONE_CLUB": false,
+        "MOVE_FIRE_BLAST": false,
+        "MOVE_SHADOW_BALL": false
+      },
       "dex": 105,
       "family": "FAMILY_CUBONE",
       "generation": 1,
-      "types": [
-        "fire",
-        "ghost"
+      "height": 1,
+      "name": "Marowak (Alola)",
+      "nextEvolutions": [
       ],
-      "baseStats": {
-        "stamina": 120,
-        "attack": 144,
-        "defense": 200
-      },
       "previousEvolution": "POKEMON_CUBONE",
-      "nextEvolutions": [],
       "quickMoves": {
         "MOVE_HEX_FAST": false,
         "MOVE_ROCK_SMASH_FAST": false
       },
-      "chargeMoves": {
-        "MOVE_BONE_CLUB": false,
-        "MOVE_SHADOW_BALL": false,
-        "MOVE_FIRE_BLAST": false
-      },
-      "rarity": null,
-      "buddyDistance": 3,
-      "height": 1,
+      "rarity": "common",
+      "types": [
+        "fire",
+        "ghost"
+      ],
       "weight": 34
     },
     "normal": {
-      "name": "Marowak",
-      "dex": 105,
-      "family": "FAMILY_CUBONE",
-      "generation": 1,
-      "types": [
-        "ground"
-      ],
       "baseStats": {
-        "stamina": 120,
         "attack": 144,
-        "defense": 200
+        "defense": 200,
+        "stamina": 120
       },
-      "previousEvolution": "POKEMON_CUBONE",
-      "nextEvolutions": [],
-      "quickMoves": {
-        "MOVE_MUD_SLAP_FAST": false,
-        "MOVE_ROCK_SMASH_FAST": false
-      },
+      "buddyDistance": 3,
       "chargeMoves": {
         "MOVE_BONE_CLUB": false,
         "MOVE_DIG": false,
         "MOVE_EARTHQUAKE": false
       },
-      "rarity": null,
-      "buddyDistance": 3,
+      "dex": 105,
+      "family": "FAMILY_CUBONE",
+      "generation": 1,
       "height": 1,
+      "name": "Marowak",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_CUBONE",
+      "quickMoves": {
+        "MOVE_MUD_SLAP_FAST": false,
+        "MOVE_ROCK_SMASH_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "ground"
+      ],
       "weight": 45
     }
-  }
+  },
+  "generation": 1,
+  "height": 1,
+  "name": "Marowak",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_CUBONE",
+  "quickMoves": {
+    "MOVE_MUD_SLAP_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "ground"
+  ],
+  "weight": 45
 }

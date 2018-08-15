@@ -1,30 +1,31 @@
 {
-  "name": "Charizard",
+  "baseStats": {
+    "attack": 223,
+    "defense": 176,
+    "stamina": 156
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DRAGON_CLAW": false,
+    "MOVE_FIRE_BLAST": false,
+    "MOVE_OVERHEAT": false
+  },
   "dex": 6,
   "family": "FAMILY_CHARMANDER",
   "generation": 1,
+  "height": 1.7,
+  "name": "Charizard",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_CHARMELEON",
+  "quickMoves": {
+    "MOVE_AIR_SLASH_FAST": false,
+    "MOVE_FIRE_SPIN_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "fire",
     "flying"
   ],
-  "baseStats": {
-    "stamina": 156,
-    "attack": 223,
-    "defense": 176
-  },
-  "previousEvolution": "POKEMON_CHARMELEON",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_FIRE_SPIN_FAST": false,
-    "MOVE_AIR_SLASH_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_FIRE_BLAST": false,
-    "MOVE_DRAGON_CLAW": false,
-    "MOVE_OVERHEAT": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.7,
   "weight": 90.5
 }

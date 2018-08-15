@@ -1,32 +1,31 @@
 {
-  "name": "Swampert",
-  "dex": 260,
-  "family": "FAMILY_MUDKIP",
-  "generation": 3,
-  "types": [
-    "water",
-    "ground"
-  ],
   "baseStats": {
-    "stamina": 200,
     "attack": 208,
-    "defense": 175
+    "defense": 175,
+    "stamina": 200
   },
-  "previousEvolution": "POKEMON_MARSHTOMP",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_MUD_SHOT_FAST": false,
-    "MOVE_WATER_GUN_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
-    "MOVE_STRUGGLE": true,
     "MOVE_EARTHQUAKE": false,
     "MOVE_SLUDGE_WAVE": false,
     "MOVE_SURF": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 260,
+  "family": "FAMILY_MUDKIP",
+  "generation": 3,
   "height": 1.5,
+  "name": "Swampert",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_MARSHTOMP",
+  "quickMoves": {
+    "MOVE_MUD_SHOT_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "water",
+    "ground"
+  ],
   "weight": 81.9
 }

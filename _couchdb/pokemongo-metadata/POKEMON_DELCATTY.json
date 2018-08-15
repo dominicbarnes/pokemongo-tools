@@ -1,31 +1,30 @@
 {
-  "name": "Delcatty",
+  "baseStats": {
+    "attack": 132,
+    "defense": 132,
+    "stamina": 140
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DISARMING_VOICE": false,
+    "MOVE_PLAY_ROUGH": false,
+    "MOVE_WILD_CHARGE": false
+  },
   "dex": 301,
   "family": "FAMILY_SKITTY",
   "generation": 3,
-  "types": [
-    "normal"
+  "height": 1.09,
+  "name": "Delcatty",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 140,
-    "attack": 132,
-    "defense": 132
-  },
   "previousEvolution": "POKEMON_SKITTY",
-  "nextEvolutions": [],
   "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
     "MOVE_FEINT_ATTACK_FAST": false,
     "MOVE_ZEN_HEADBUTT_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_PLAY_ROUGH": false,
-    "MOVE_DISARMING_VOICE": false,
-    "MOVE_WILD_CHARGE": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.09,
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
   "weight": 32.6
 }

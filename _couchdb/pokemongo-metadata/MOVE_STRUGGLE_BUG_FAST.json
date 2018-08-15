@@ -1,6 +1,6 @@
 {
   "name": "Struggle Bug",
-  "type": "bug",
   "power": 15,
-  "quick": true
+  "quick": true,
+  "type": "bug"
 }

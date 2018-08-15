@@ -1,6 +1,6 @@
 {
   "name": "Weather Ball Fire",
-  "type": "fire",
   "power": 60,
-  "quick": false
+  "quick": false,
+  "type": "fire"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Extrasensory",
-  "type": "psychic",
   "power": 12,
-  "quick": true
+  "quick": true,
+  "type": "psychic"
 }

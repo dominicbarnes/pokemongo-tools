@@ -1,35 +1,35 @@
 {
-  "name": "Marill",
+  "baseStats": {
+    "attack": 37,
+    "defense": 93,
+    "stamina": 140
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AQUA_TAIL": false,
+    "MOVE_BODY_SLAM": false,
+    "MOVE_BUBBLE_BEAM": false
+  },
   "dex": 183,
   "family": "FAMILY_MARILL",
   "generation": 2,
+  "height": 0.41,
+  "name": "Marill",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_AZUMARILL"
+    }
+  ],
+  "previousEvolution": "POKEMON_AZURILL",
+  "quickMoves": {
+    "MOVE_BUBBLE_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "water",
     "fairy"
   ],
-  "baseStats": {
-    "stamina": 140,
-    "attack": 37,
-    "defense": 93
-  },
-  "previousEvolution": "POKEMON_AZURILL",
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_AZUMARILL",
-      "candy": 25
-    }
-  ],
-  "quickMoves": {
-    "MOVE_TACKLE_FAST": false,
-    "MOVE_BUBBLE_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_BUBBLE_BEAM": false,
-    "MOVE_AQUA_TAIL": false,
-    "MOVE_BODY_SLAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.41,
   "weight": 8.5
 }

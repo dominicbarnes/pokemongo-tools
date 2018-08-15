@@ -1,35 +1,35 @@
 {
-  "name": "Wooper",
+  "baseStats": {
+    "attack": 75,
+    "defense": 75,
+    "stamina": 110
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BODY_SLAM": false,
+    "MOVE_DIG": false,
+    "MOVE_MUD_BOMB": false
+  },
   "dex": 194,
   "family": "FAMILY_WOOPER",
   "generation": 2,
+  "height": 0.41,
+  "name": "Wooper",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_QUAGSIRE"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_MUD_SHOT_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "water",
     "ground"
   ],
-  "baseStats": {
-    "stamina": 110,
-    "attack": 75,
-    "defense": 75
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_QUAGSIRE",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_WATER_GUN_FAST": false,
-    "MOVE_MUD_SHOT_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_MUD_BOMB": false,
-    "MOVE_DIG": false,
-    "MOVE_BODY_SLAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.41,
   "weight": 8.5
 }

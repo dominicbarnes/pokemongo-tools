@@ -1,29 +1,30 @@
 {
-  "name": "Machamp",
+  "baseStats": {
+    "attack": 234,
+    "defense": 162,
+    "stamina": 180
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_CLOSE_COMBAT": false,
+    "MOVE_DYNAMIC_PUNCH": false,
+    "MOVE_HEAVY_SLAM": false
+  },
   "dex": 68,
   "family": "FAMILY_MACHOP",
   "generation": 1,
-  "types": [
-    "fighting"
+  "height": 1.6,
+  "name": "Machamp",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 180,
-    "attack": 234,
-    "defense": 162
-  },
   "previousEvolution": "POKEMON_MACHOKE",
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_BULLET_PUNCH_FAST": false,
     "MOVE_COUNTER_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_HEAVY_SLAM": false,
-    "MOVE_DYNAMIC_PUNCH": false,
-    "MOVE_CLOSE_COMBAT": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.6,
+  "rarity": "common",
+  "types": [
+    "fighting"
+  ],
   "weight": 130
 }

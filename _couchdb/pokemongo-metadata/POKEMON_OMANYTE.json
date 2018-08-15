@@ -1,35 +1,35 @@
 {
-  "name": "Omanyte",
-  "dex": 138,
-  "family": "FAMILY_OMANYTE",
-  "generation": 1,
-  "types": [
-    "rock",
-    "water"
-  ],
   "baseStats": {
-    "stamina": 70,
     "attack": 155,
-    "defense": 174
+    "defense": 174,
+    "stamina": 70
   },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_OMASTAR",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_WATER_GUN_FAST": false,
-    "MOVE_MUD_SHOT_FAST": false
-  },
+  "buddyDistance": 5,
   "chargeMoves": {
     "MOVE_ANCIENT_POWER": false,
     "MOVE_BUBBLE_BEAM": false,
     "MOVE_ROCK_BLAST": false
   },
-  "rarity": null,
-  "buddyDistance": 5,
+  "dex": 138,
+  "family": "FAMILY_OMANYTE",
+  "generation": 1,
   "height": 0.4,
+  "name": "Omanyte",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_OMASTAR"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_MUD_SHOT_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "rock",
+    "water"
+  ],
   "weight": 7.5
 }

@@ -1,34 +1,34 @@
 {
-  "name": "Seel",
+  "baseStats": {
+    "attack": 85,
+    "defense": 128,
+    "stamina": 130
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AQUA_TAIL": false,
+    "MOVE_AURORA_BEAM": false,
+    "MOVE_ICY_WIND": false
+  },
   "dex": 86,
   "family": "FAMILY_SEEL",
   "generation": 1,
-  "types": [
-    "water"
-  ],
-  "baseStats": {
-    "stamina": 130,
-    "attack": 85,
-    "defense": 128
-  },
-  "previousEvolution": null,
+  "height": 1.1,
+  "name": "Seel",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_DEWGONG",
-      "candy": 50
+      "candy": 50,
+      "pokemon": "POKEMON_DEWGONG"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
     "MOVE_ICE_SHARD_FAST": false,
     "MOVE_LICK_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_AURORA_BEAM": false,
-    "MOVE_ICY_WIND": false,
-    "MOVE_AQUA_TAIL": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.1,
+  "rarity": "common",
+  "types": [
+    "water"
+  ],
   "weight": 90
 }

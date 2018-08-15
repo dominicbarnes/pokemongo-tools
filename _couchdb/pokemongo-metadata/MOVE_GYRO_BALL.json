@@ -1,6 +1,6 @@
 {
   "name": "Gyro Ball",
-  "type": "steel",
   "power": 80,
-  "quick": false
+  "quick": false,
+  "type": "steel"
 }

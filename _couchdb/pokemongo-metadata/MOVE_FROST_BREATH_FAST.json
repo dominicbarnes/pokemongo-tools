@@ -1,6 +1,6 @@
 {
   "name": "Frost Breath",
-  "type": "ice",
   "power": 10,
-  "quick": true
+  "quick": true,
+  "type": "ice"
 }

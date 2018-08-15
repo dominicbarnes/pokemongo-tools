@@ -1,6 +1,6 @@
 {
   "name": "Psyshock",
-  "type": "psychic",
   "power": 65,
-  "quick": false
+  "quick": false,
+  "type": "psychic"
 }

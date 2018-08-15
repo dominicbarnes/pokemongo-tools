@@ -1,6 +1,6 @@
 {
   "name": "Razor Leaf",
-  "type": "grass",
   "power": 13,
-  "quick": true
+  "quick": true,
+  "type": "grass"
 }

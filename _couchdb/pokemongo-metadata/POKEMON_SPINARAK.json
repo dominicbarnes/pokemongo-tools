@@ -1,35 +1,35 @@
 {
-  "name": "Spinarak",
+  "baseStats": {
+    "attack": 105,
+    "defense": 73,
+    "stamina": 80
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_CROSS_POISON": false,
+    "MOVE_NIGHT_SLASH": false,
+    "MOVE_SIGNAL_BEAM": false
+  },
   "dex": 167,
   "family": "FAMILY_SPINARAK",
   "generation": 2,
+  "height": 0.51,
+  "name": "Spinarak",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_ARIADOS"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_BUG_BITE_FAST": false,
+    "MOVE_POISON_STING_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "bug",
     "poison"
   ],
-  "baseStats": {
-    "stamina": 80,
-    "attack": 105,
-    "defense": 73
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_ARIADOS",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_POISON_STING_FAST": false,
-    "MOVE_BUG_BITE_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_NIGHT_SLASH": false,
-    "MOVE_SIGNAL_BEAM": false,
-    "MOVE_CROSS_POISON": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 0.51,
   "weight": 8.5
 }

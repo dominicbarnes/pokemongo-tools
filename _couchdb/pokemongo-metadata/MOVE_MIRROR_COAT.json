@@ -1,6 +1,6 @@
 {
   "name": "Mirror Coat",
-  "type": "psychic",
   "power": 60,
-  "quick": false
+  "quick": false,
+  "type": "psychic"
 }

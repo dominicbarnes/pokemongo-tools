@@ -1,32 +1,31 @@
 {
-  "name": "Mawile",
+  "baseStats": {
+    "attack": 155,
+    "defense": 155,
+    "stamina": 100
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_IRON_HEAD": false,
+    "MOVE_PLAY_ROUGH": false,
+    "MOVE_VICE_GRIP": false
+  },
   "dex": 303,
   "family": "FAMILY_MAWILE",
   "generation": 3,
+  "height": 0.61,
+  "name": "Mawile",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_ASTONISH_FAST": false,
+    "MOVE_BITE_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "steel",
     "fairy"
   ],
-  "baseStats": {
-    "stamina": 100,
-    "attack": 155,
-    "defense": 155
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_BITE_FAST": false,
-    "MOVE_ASTONISH_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_PLAY_ROUGH": false,
-    "MOVE_VICE_GRIP": false,
-    "MOVE_IRON_HEAD": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 0.61,
   "weight": 11.5
 }

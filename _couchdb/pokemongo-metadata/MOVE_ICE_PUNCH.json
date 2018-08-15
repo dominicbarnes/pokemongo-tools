@@ -1,6 +1,6 @@
 {
   "name": "Ice Punch",
-  "type": "ice",
   "power": 50,
-  "quick": false
+  "quick": false,
+  "type": "ice"
 }

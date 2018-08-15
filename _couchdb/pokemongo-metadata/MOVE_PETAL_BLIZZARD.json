@@ -1,6 +1,6 @@
 {
   "name": "Petal Blizzard",
-  "type": "grass",
   "power": 110,
-  "quick": false
+  "quick": false,
+  "type": "grass"
 }

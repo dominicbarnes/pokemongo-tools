@@ -1,35 +1,35 @@
 {
-  "name": "Golbat",
+  "baseStats": {
+    "attack": 161,
+    "defense": 153,
+    "stamina": 150
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_AIR_CUTTER": false,
+    "MOVE_POISON_FANG": false,
+    "MOVE_SHADOW_BALL": false
+  },
   "dex": 42,
   "family": "FAMILY_ZUBAT",
   "generation": 1,
+  "height": 1.6,
+  "name": "Golbat",
+  "nextEvolutions": [
+    {
+      "candy": 100,
+      "pokemon": "POKEMON_CROBAT"
+    }
+  ],
+  "previousEvolution": "POKEMON_ZUBAT",
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_WING_ATTACK_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "poison",
     "flying"
   ],
-  "baseStats": {
-    "stamina": 150,
-    "attack": 161,
-    "defense": 153
-  },
-  "previousEvolution": "POKEMON_ZUBAT",
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_CROBAT",
-      "candy": 100
-    }
-  ],
-  "quickMoves": {
-    "MOVE_WING_ATTACK_FAST": false,
-    "MOVE_BITE_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_SHADOW_BALL": false,
-    "MOVE_AIR_CUTTER": false,
-    "MOVE_POISON_FANG": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 1.6,
   "weight": 55
 }

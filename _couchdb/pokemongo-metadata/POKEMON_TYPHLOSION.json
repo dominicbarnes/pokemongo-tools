@@ -1,29 +1,30 @@
 {
-  "name": "Typhlosion",
-  "dex": 157,
-  "family": "FAMILY_CYNDAQUIL",
-  "generation": 2,
-  "types": [
-    "fire"
-  ],
   "baseStats": {
-    "stamina": 156,
     "attack": 223,
-    "defense": 176
+    "defense": 176,
+    "stamina": 156
   },
-  "previousEvolution": "POKEMON_QUILAVA",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_EMBER_FAST": false,
-    "MOVE_SHADOW_CLAW_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_FIRE_BLAST": false,
     "MOVE_OVERHEAT": false,
     "MOVE_SOLAR_BEAM": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 157,
+  "family": "FAMILY_CYNDAQUIL",
+  "generation": 2,
   "height": 1.7,
+  "name": "Typhlosion",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_QUILAVA",
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_SHADOW_CLAW_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "fire"
+  ],
   "weight": 79.5
 }

@@ -1,30 +1,31 @@
 {
-  "name": "Poliwrath",
+  "baseStats": {
+    "attack": 182,
+    "defense": 187,
+    "stamina": 180
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DYNAMIC_PUNCH": false,
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_ICE_PUNCH": false
+  },
   "dex": 62,
   "family": "FAMILY_POLIWAG",
   "generation": 1,
-  "types": [
-    "water",
-    "fighting"
+  "height": 1.3,
+  "name": "Poliwrath",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 180,
-    "attack": 182,
-    "defense": 187
-  },
   "previousEvolution": "POKEMON_POLIWHIRL",
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_BUBBLE_FAST": false,
     "MOVE_ROCK_SMASH_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_HYDRO_PUMP": false,
-    "MOVE_DYNAMIC_PUNCH": false,
-    "MOVE_ICE_PUNCH": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.3,
+  "rarity": "common",
+  "types": [
+    "water",
+    "fighting"
+  ],
   "weight": 54
 }

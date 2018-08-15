@@ -1,31 +1,30 @@
 {
-  "name": "Zangoose",
+  "baseStats": {
+    "attack": 222,
+    "defense": 124,
+    "stamina": 146
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_CLOSE_COMBAT": false,
+    "MOVE_DIG": false,
+    "MOVE_NIGHT_SLASH": false
+  },
   "dex": 335,
   "family": "FAMILY_ZANGOOSE",
   "generation": 3,
-  "types": [
-    "normal"
+  "height": 1.3,
+  "name": "Zangoose",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 146,
-    "attack": 222,
-    "defense": 124
-  },
   "previousEvolution": null,
-  "nextEvolutions": [],
   "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
     "MOVE_FURY_CUTTER_FAST": false,
     "MOVE_SHADOW_CLAW_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_CLOSE_COMBAT": false,
-    "MOVE_NIGHT_SLASH": false,
-    "MOVE_DIG": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.3,
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
   "weight": 40.3
 }

@@ -1,32 +1,31 @@
 {
-  "name": "Roselia",
+  "baseStats": {
+    "attack": 186,
+    "defense": 148,
+    "stamina": 100
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_PETAL_BLIZZARD": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
   "dex": 315,
   "family": "FAMILY_ROSELIA",
   "generation": 3,
+  "height": 0.3,
+  "name": "Roselia",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_POISON_JAB_FAST": false,
+    "MOVE_RAZOR_LEAF_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "grass",
     "poison"
   ],
-  "baseStats": {
-    "stamina": 100,
-    "attack": 186,
-    "defense": 148
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_POISON_JAB_FAST": false,
-    "MOVE_RAZOR_LEAF_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_PETAL_BLIZZARD": false,
-    "MOVE_SLUDGE_BOMB": false,
-    "MOVE_DAZZLING_GLEAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.3,
   "weight": 2
 }

@@ -1,6 +1,6 @@
 {
   "name": "Shadow Claw",
-  "type": "ghost",
   "power": 9,
-  "quick": true
+  "quick": true,
+  "type": "ghost"
 }

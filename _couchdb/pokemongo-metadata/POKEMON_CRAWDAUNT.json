@@ -1,32 +1,31 @@
 {
-  "name": "Crawdaunt",
+  "baseStats": {
+    "attack": 224,
+    "defense": 156,
+    "stamina": 126
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BUBBLE_BEAM": false,
+    "MOVE_NIGHT_SLASH": false,
+    "MOVE_VICE_GRIP": false
+  },
   "dex": 342,
   "family": "FAMILY_CORPHISH",
   "generation": 3,
+  "height": 1.09,
+  "name": "Crawdaunt",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_CORPHISH",
+  "quickMoves": {
+    "MOVE_SNARL_FAST": false,
+    "MOVE_WATERFALL_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "water",
     "dark"
   ],
-  "baseStats": {
-    "stamina": 126,
-    "attack": 224,
-    "defense": 156
-  },
-  "previousEvolution": "POKEMON_CORPHISH",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_WATERFALL_FAST": false,
-    "MOVE_SNARL_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_VICE_GRIP": false,
-    "MOVE_BUBBLE_BEAM": false,
-    "MOVE_NIGHT_SLASH": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.09,
   "weight": 32.8
 }

@@ -1,6 +1,6 @@
 {
   "name": "Zap Cannon",
-  "type": "electric",
   "power": 140,
-  "quick": false
+  "quick": false,
+  "type": "electric"
 }

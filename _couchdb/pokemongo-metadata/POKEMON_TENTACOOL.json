@@ -1,35 +1,35 @@
 {
-  "name": "Tentacool",
-  "dex": 72,
-  "family": "FAMILY_TENTACOOL",
-  "generation": 1,
-  "types": [
-    "water",
-    "poison"
-  ],
   "baseStats": {
-    "stamina": 80,
     "attack": 97,
-    "defense": 182
+    "defense": 182,
+    "stamina": 80
   },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_TENTACRUEL",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_BUBBLE_FAST": false,
-    "MOVE_POISON_STING_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_BUBBLE_BEAM": false,
     "MOVE_WATER_PULSE": false,
     "MOVE_WRAP": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 72,
+  "family": "FAMILY_TENTACOOL",
+  "generation": 1,
   "height": 0.9,
+  "name": "Tentacool",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_TENTACRUEL"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_BUBBLE_FAST": false,
+    "MOVE_POISON_STING_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "water",
+    "poison"
+  ],
   "weight": 45.5
 }

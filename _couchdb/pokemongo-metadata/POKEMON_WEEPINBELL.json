@@ -1,35 +1,35 @@
 {
-  "name": "Weepinbell",
+  "baseStats": {
+    "attack": 172,
+    "defense": 95,
+    "stamina": 130
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_POWER_WHIP": false,
+    "MOVE_SEED_BOMB": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
   "dex": 70,
   "family": "FAMILY_BELLSPROUT",
   "generation": 1,
+  "height": 1,
+  "name": "Weepinbell",
+  "nextEvolutions": [
+    {
+      "candy": 100,
+      "pokemon": "POKEMON_VICTREEBEL"
+    }
+  ],
+  "previousEvolution": "POKEMON_BELLSPROUT",
+  "quickMoves": {
+    "MOVE_ACID_FAST": false,
+    "MOVE_BULLET_SEED_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "grass",
     "poison"
   ],
-  "baseStats": {
-    "stamina": 130,
-    "attack": 172,
-    "defense": 95
-  },
-  "previousEvolution": "POKEMON_BELLSPROUT",
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_VICTREEBEL",
-      "candy": 100
-    }
-  ],
-  "quickMoves": {
-    "MOVE_BULLET_SEED_FAST": false,
-    "MOVE_ACID_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_POWER_WHIP": false,
-    "MOVE_SLUDGE_BOMB": false,
-    "MOVE_SEED_BOMB": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1,
   "weight": 6.4
 }

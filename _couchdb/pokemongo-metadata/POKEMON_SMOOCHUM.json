@@ -1,35 +1,35 @@
 {
-  "name": "Smoochum",
-  "dex": 238,
-  "family": "FAMILY_JYNX",
-  "generation": 2,
-  "types": [
-    "ice",
-    "psychic"
-  ],
   "baseStats": {
-    "stamina": 90,
     "attack": 153,
-    "defense": 116
+    "defense": 116,
+    "stamina": 90
   },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_JYNX",
-      "candy": 25
-    }
-  ],
-  "quickMoves": {
-    "MOVE_POWDER_SNOW_FAST": false,
-    "MOVE_POUND_FAST": false
-  },
+  "buddyDistance": 5,
   "chargeMoves": {
     "MOVE_ICE_BEAM": false,
     "MOVE_ICE_PUNCH": false,
     "MOVE_PSYSHOCK": false
   },
-  "rarity": null,
-  "buddyDistance": 5,
+  "dex": 238,
+  "family": "FAMILY_JYNX",
+  "generation": 2,
   "height": 0.41,
+  "name": "Smoochum",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_JYNX"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_POUND_FAST": false,
+    "MOVE_POWDER_SNOW_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "ice",
+    "psychic"
+  ],
   "weight": 6
 }

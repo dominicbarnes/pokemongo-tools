@@ -1,30 +1,31 @@
 {
-  "name": "Sneasel",
+  "baseStats": {
+    "attack": 189,
+    "defense": 157,
+    "stamina": 110
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AVALANCHE": false,
+    "MOVE_FOUL_PLAY": false,
+    "MOVE_ICE_PUNCH": false
+  },
   "dex": 215,
   "family": "FAMILY_SNEASEL",
   "generation": 2,
+  "height": 0.89,
+  "name": "Sneasel",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_FEINT_ATTACK_FAST": false,
+    "MOVE_ICE_SHARD_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "dark",
     "ice"
   ],
-  "baseStats": {
-    "stamina": 110,
-    "attack": 189,
-    "defense": 157
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_ICE_SHARD_FAST": false,
-    "MOVE_FEINT_ATTACK_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_AVALANCHE": false,
-    "MOVE_ICE_PUNCH": false,
-    "MOVE_FOUL_PLAY": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.89,
   "weight": 28
 }

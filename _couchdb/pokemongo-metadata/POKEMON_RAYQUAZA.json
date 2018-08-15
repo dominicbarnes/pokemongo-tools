@@ -1,32 +1,31 @@
 {
-  "name": "Rayquaza",
+  "baseStats": {
+    "attack": 284,
+    "defense": 170,
+    "stamina": 191
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_ANCIENT_POWER": false,
+    "MOVE_OUTRAGE": false
+  },
   "dex": 384,
   "family": "FAMILY_RAYQUAZA",
   "generation": 3,
+  "height": 7.01,
+  "name": "Rayquaza",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_AIR_SLASH_FAST": false,
+    "MOVE_DRAGON_TAIL_FAST": false
+  },
+  "rarity": "legendary",
   "types": [
     "dragon",
     "flying"
   ],
-  "baseStats": {
-    "stamina": 191,
-    "attack": 284,
-    "defense": 170
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_AIR_SLASH_FAST": false,
-    "MOVE_DRAGON_TAIL_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_OUTRAGE": false,
-    "MOVE_AERIAL_ACE": false,
-    "MOVE_ANCIENT_POWER": false
-  },
-  "rarity": "legendary",
-  "buddyDistance": 20,
-  "height": 7.01,
   "weight": 206.5
 }

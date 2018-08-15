@@ -1,6 +1,6 @@
 {
   "name": "Wing Attack",
-  "type": "flying",
   "power": 8,
-  "quick": true
+  "quick": true,
+  "type": "flying"
 }

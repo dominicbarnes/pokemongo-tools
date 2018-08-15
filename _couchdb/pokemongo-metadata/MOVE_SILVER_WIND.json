@@ -1,6 +1,6 @@
 {
   "name": "Silver Wind",
-  "type": "bug",
   "power": 70,
-  "quick": false
+  "quick": false,
+  "type": "bug"
 }

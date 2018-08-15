@@ -1,6 +1,6 @@
 {
   "name": "Bone Club",
-  "type": "ground",
   "power": 40,
-  "quick": false
+  "quick": false,
+  "type": "ground"
 }

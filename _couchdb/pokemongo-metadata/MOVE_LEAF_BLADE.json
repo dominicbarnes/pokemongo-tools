@@ -1,6 +1,6 @@
 {
   "name": "Leaf Blade",
-  "type": "grass",
   "power": 70,
-  "quick": false
+  "quick": false,
+  "type": "grass"
 }

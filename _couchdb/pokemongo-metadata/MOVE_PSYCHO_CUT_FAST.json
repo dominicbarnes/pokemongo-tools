@@ -1,6 +1,6 @@
 {
   "name": "Psycho Cut",
-  "type": "psychic",
   "power": 5,
-  "quick": true
+  "quick": true,
+  "type": "psychic"
 }

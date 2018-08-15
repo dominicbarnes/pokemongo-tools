@@ -1,31 +1,30 @@
 {
-  "name": "Groudon",
-  "dex": 383,
-  "family": "FAMILY_GROUDON",
-  "generation": 3,
-  "types": [
-    "ground"
-  ],
   "baseStats": {
-    "stamina": 182,
     "attack": 270,
-    "defense": 251
+    "defense": 251,
+    "stamina": 182
   },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_MUD_SHOT_FAST": false,
-    "MOVE_DRAGON_TAIL_FAST": false
-  },
+  "buddyDistance": 20,
   "chargeMoves": {
-    "MOVE_STRUGGLE": true,
     "MOVE_EARTHQUAKE": false,
     "MOVE_FIRE_BLAST": false,
     "MOVE_SOLAR_BEAM": false
   },
-  "rarity": "legendary",
-  "buddyDistance": 20,
+  "dex": 383,
+  "family": "FAMILY_GROUDON",
+  "generation": 3,
   "height": 3.51,
+  "name": "Groudon",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_DRAGON_TAIL_FAST": false,
+    "MOVE_MUD_SHOT_FAST": false
+  },
+  "rarity": "legendary",
+  "types": [
+    "ground"
+  ],
   "weight": 950
 }

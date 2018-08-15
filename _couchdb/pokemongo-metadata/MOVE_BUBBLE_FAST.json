@@ -1,6 +1,6 @@
 {
   "name": "Bubble",
-  "type": "water",
   "power": 12,
-  "quick": true
+  "quick": true,
+  "type": "water"
 }

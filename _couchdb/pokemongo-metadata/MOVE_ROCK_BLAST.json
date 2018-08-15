@@ -1,6 +1,6 @@
 {
   "name": "Rock Blast",
-  "type": "rock",
   "power": 50,
-  "quick": false
+  "quick": false,
+  "type": "rock"
 }

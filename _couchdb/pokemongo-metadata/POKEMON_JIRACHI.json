@@ -1,32 +1,31 @@
 {
-  "name": "Jirachi",
+  "baseStats": {
+    "attack": 210,
+    "defense": 210,
+    "stamina": 200
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_DOOM_DESIRE": false,
+    "MOVE_PSYCHIC": false
+  },
   "dex": 385,
   "family": "FAMILY_JIRACHI",
   "generation": 3,
+  "height": 0.3,
+  "name": "Jirachi",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_CHARGE_BEAM_FAST": false,
+    "MOVE_CONFUSION_FAST": false
+  },
+  "rarity": "mythic",
   "types": [
     "steel",
     "psychic"
   ],
-  "baseStats": {
-    "stamina": 200,
-    "attack": 210,
-    "defense": 210
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_CONFUSION_FAST": false,
-    "MOVE_CHARGE_BEAM_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_DAZZLING_GLEAM": false,
-    "MOVE_PSYCHIC": false,
-    "MOVE_DOOM_DESIRE": false
-  },
-  "rarity": "mythic",
-  "buddyDistance": 20,
-  "height": 0.3,
   "weight": 1.1
 }

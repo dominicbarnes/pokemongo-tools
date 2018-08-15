@@ -1,31 +1,30 @@
 {
-  "name": "Chimecho",
+  "baseStats": {
+    "attack": 175,
+    "defense": 174,
+    "stamina": 150
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_ENERGY_BALL": false,
+    "MOVE_PSYSHOCK": false,
+    "MOVE_SHADOW_BALL": false
+  },
   "dex": 358,
   "family": "FAMILY_CHIMECHO",
   "generation": 3,
+  "height": 0.61,
+  "name": "Chimecho",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_ASTONISH_FAST": false,
+    "MOVE_EXTRASENSORY_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "psychic"
   ],
-  "baseStats": {
-    "stamina": 150,
-    "attack": 175,
-    "defense": 174
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_EXTRASENSORY_FAST": false,
-    "MOVE_ASTONISH_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_ENERGY_BALL": false,
-    "MOVE_SHADOW_BALL": false,
-    "MOVE_PSYSHOCK": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 0.61,
   "weight": 1
 }

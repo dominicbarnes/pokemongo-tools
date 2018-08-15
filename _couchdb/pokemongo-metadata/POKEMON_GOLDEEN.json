@@ -1,34 +1,34 @@
 {
-  "name": "Goldeen",
+  "baseStats": {
+    "attack": 123,
+    "defense": 115,
+    "stamina": 90
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AQUA_TAIL": false,
+    "MOVE_HORN_ATTACK": false,
+    "MOVE_WATER_PULSE": false
+  },
   "dex": 118,
   "family": "FAMILY_GOLDEEN",
   "generation": 1,
+  "height": 0.6,
+  "name": "Goldeen",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_SEAKING"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_MUD_SHOT_FAST": false,
+    "MOVE_PECK_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "water"
   ],
-  "baseStats": {
-    "stamina": 90,
-    "attack": 123,
-    "defense": 115
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_SEAKING",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_PECK_FAST": false,
-    "MOVE_MUD_SHOT_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_WATER_PULSE": false,
-    "MOVE_HORN_ATTACK": false,
-    "MOVE_AQUA_TAIL": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.6,
   "weight": 15
 }

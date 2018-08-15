@@ -1,37 +1,35 @@
 {
-  "name": "Vibrava",
+  "baseStats": {
+    "attack": 134,
+    "defense": 99,
+    "stamina": 100
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_BUG_BUZZ": false,
+    "MOVE_BULLDOZE": false,
+    "MOVE_SAND_TOMB": false
+  },
   "dex": 329,
   "family": "FAMILY_TRAPINCH",
   "generation": 3,
+  "height": 1.09,
+  "name": "Vibrava",
+  "nextEvolutions": [
+    {
+      "candy": 100,
+      "pokemon": "POKEMON_FLYGON"
+    }
+  ],
+  "previousEvolution": "POKEMON_TRAPINCH",
+  "quickMoves": {
+    "MOVE_DRAGON_BREATH_FAST": false,
+    "MOVE_MUD_SHOT_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "ground",
     "dragon"
   ],
-  "baseStats": {
-    "stamina": 100,
-    "attack": 134,
-    "defense": 99
-  },
-  "previousEvolution": "POKEMON_TRAPINCH",
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_FLYGON",
-      "candy": 100
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_MUD_SHOT_FAST": false,
-    "MOVE_DRAGON_BREATH_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_SAND_TOMB": false,
-    "MOVE_BULLDOZE": false,
-    "MOVE_BUG_BUZZ": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 1.09,
   "weight": 15.3
 }

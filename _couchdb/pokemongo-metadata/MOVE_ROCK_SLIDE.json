@@ -1,6 +1,6 @@
 {
   "name": "Rock Slide",
-  "type": "rock",
   "power": 80,
-  "quick": false
+  "quick": false,
+  "type": "rock"
 }

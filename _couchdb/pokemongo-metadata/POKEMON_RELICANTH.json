@@ -1,32 +1,31 @@
 {
-  "name": "Relicanth",
-  "dex": 369,
-  "family": "FAMILY_RELICANTH",
-  "generation": 3,
-  "types": [
-    "water",
-    "rock"
-  ],
   "baseStats": {
-    "stamina": 200,
     "attack": 162,
-    "defense": 234
+    "defense": 234,
+    "stamina": 200
   },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_WATER_GUN_FAST": false,
-    "MOVE_ZEN_HEADBUTT_FAST": false
-  },
+  "buddyDistance": 5,
   "chargeMoves": {
-    "MOVE_STRUGGLE": true,
     "MOVE_ANCIENT_POWER": false,
     "MOVE_AQUA_TAIL": false,
     "MOVE_HYDRO_PUMP": false
   },
-  "rarity": null,
-  "buddyDistance": 5,
+  "dex": 369,
+  "family": "FAMILY_RELICANTH",
+  "generation": 3,
   "height": 0.99,
+  "name": "Relicanth",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_WATER_GUN_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "water",
+    "rock"
+  ],
   "weight": 23.4
 }

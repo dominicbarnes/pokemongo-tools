@@ -1,32 +1,31 @@
 {
-  "name": "Latios",
+  "baseStats": {
+    "attack": 268,
+    "defense": 228,
+    "stamina": 160
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_DRAGON_CLAW": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_SOLAR_BEAM": false
+  },
   "dex": 381,
   "family": "FAMILY_LATIOS",
   "generation": 3,
+  "height": 2.01,
+  "name": "Latios",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_DRAGON_BREATH_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "rarity": "legendary",
   "types": [
     "dragon",
     "psychic"
   ],
-  "baseStats": {
-    "stamina": 160,
-    "attack": 268,
-    "defense": 228
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_DRAGON_BREATH_FAST": false,
-    "MOVE_ZEN_HEADBUTT_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_PSYCHIC": false,
-    "MOVE_DRAGON_CLAW": false,
-    "MOVE_SOLAR_BEAM": false
-  },
-  "rarity": "legendary",
-  "buddyDistance": 20,
-  "height": 2.01,
   "weight": 60
 }

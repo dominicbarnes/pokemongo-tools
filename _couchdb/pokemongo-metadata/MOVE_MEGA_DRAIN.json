@@ -1,6 +1,6 @@
 {
   "name": "Mega Drain",
-  "type": "grass",
   "power": 25,
-  "quick": false
+  "quick": false,
+  "type": "grass"
 }

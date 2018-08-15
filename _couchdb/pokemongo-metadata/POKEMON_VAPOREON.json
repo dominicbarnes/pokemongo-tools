@@ -1,28 +1,29 @@
 {
-  "name": "Vaporeon",
+  "baseStats": {
+    "attack": 205,
+    "defense": 177,
+    "stamina": 260
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_AQUA_TAIL": false,
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_WATER_PULSE": false
+  },
   "dex": 134,
   "family": "FAMILY_EEVEE",
   "generation": 1,
-  "types": [
-    "water"
+  "height": 1,
+  "name": "Vaporeon",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 260,
-    "attack": 205,
-    "defense": 177
-  },
   "previousEvolution": "POKEMON_EEVEE",
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_WATER_GUN_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_WATER_PULSE": false,
-    "MOVE_HYDRO_PUMP": false,
-    "MOVE_AQUA_TAIL": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 1,
+  "rarity": "common",
+  "types": [
+    "water"
+  ],
   "weight": 29
 }

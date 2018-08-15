@@ -1,6 +1,6 @@
 {
   "name": "Bullet Seed",
-  "type": "grass",
   "power": 8,
-  "quick": true
+  "quick": true,
+  "type": "grass"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Seed Bomb",
-  "type": "grass",
   "power": 55,
-  "quick": false
+  "quick": false,
+  "type": "grass"
 }

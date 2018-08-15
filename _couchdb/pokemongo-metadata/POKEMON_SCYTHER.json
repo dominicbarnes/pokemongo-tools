@@ -1,36 +1,36 @@
 {
-  "name": "Scyther",
+  "baseStats": {
+    "attack": 218,
+    "defense": 170,
+    "stamina": 140
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_NIGHT_SLASH": false,
+    "MOVE_X_SCISSOR": false
+  },
   "dex": 123,
   "family": "FAMILY_SCYTHER",
   "generation": 1,
+  "height": 1.5,
+  "name": "Scyther",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "item": "ITEM_METAL_COAT",
+      "pokemon": "POKEMON_SCIZOR"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_AIR_SLASH_FAST": false,
+    "MOVE_FURY_CUTTER_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "bug",
     "flying"
   ],
-  "baseStats": {
-    "stamina": 140,
-    "attack": 218,
-    "defense": 170
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_SCIZOR",
-      "candy": 50,
-      "item": "ITEM_METAL_COAT"
-    }
-  ],
-  "quickMoves": {
-    "MOVE_FURY_CUTTER_FAST": false,
-    "MOVE_AIR_SLASH_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_NIGHT_SLASH": false,
-    "MOVE_X_SCISSOR": false,
-    "MOVE_AERIAL_ACE": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 1.5,
   "weight": 56
 }

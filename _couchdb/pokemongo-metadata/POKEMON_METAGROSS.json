@@ -1,32 +1,31 @@
 {
-  "name": "Metagross",
+  "baseStats": {
+    "attack": 257,
+    "defense": 247,
+    "stamina": 160
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_FLASH_CANNON": false,
+    "MOVE_PSYCHIC": false
+  },
   "dex": 376,
   "family": "FAMILY_BELDUM",
   "generation": 3,
+  "height": 1.6,
+  "name": "Metagross",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_METANG",
+  "quickMoves": {
+    "MOVE_BULLET_PUNCH_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "steel",
     "psychic"
   ],
-  "baseStats": {
-    "stamina": 160,
-    "attack": 257,
-    "defense": 247
-  },
-  "previousEvolution": "POKEMON_METANG",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_BULLET_PUNCH_FAST": false,
-    "MOVE_ZEN_HEADBUTT_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_PSYCHIC": false,
-    "MOVE_FLASH_CANNON": false,
-    "MOVE_EARTHQUAKE": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 1.6,
   "weight": 550
 }

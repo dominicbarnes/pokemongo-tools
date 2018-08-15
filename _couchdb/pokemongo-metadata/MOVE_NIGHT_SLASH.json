@@ -1,6 +1,6 @@
 {
   "name": "Night Slash",
-  "type": "dark",
   "power": 50,
-  "quick": false
+  "quick": false,
+  "type": "dark"
 }

@@ -1,105 +1,106 @@
 {
-  "name": "Rattata",
+  "baseStats": {
+    "attack": 103,
+    "defense": 70,
+    "stamina": 60
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_BODY_SLAM": false,
+    "MOVE_DIG": false,
+    "MOVE_HYPER_FANG": false
+  },
   "dex": 19,
   "family": "FAMILY_RATTATA",
-  "generation": 1,
-  "types": [
-    "normal"
-  ],
-  "baseStats": {
-    "stamina": 60,
-    "attack": 103,
-    "defense": 70
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_RATICATE",
-      "candy": 25
-    }
-  ],
-  "quickMoves": {
-    "MOVE_TACKLE_FAST": false,
-    "MOVE_QUICK_ATTACK_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_DIG": false,
-    "MOVE_HYPER_FANG": false,
-    "MOVE_BODY_SLAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 0.3,
-  "weight": 3.5,
   "forms": {
     "alola": {
-      "name": "Rattata (Alola)",
-      "dex": 19,
-      "family": "FAMILY_RATTATA",
-      "generation": 1,
-      "types": [
-        "dark",
-        "normal"
-      ],
+      "assetBundle": 61,
       "baseStats": {
-        "stamina": 60,
         "attack": 103,
-        "defense": 70
+        "defense": 70,
+        "stamina": 60
       },
-      "previousEvolution": null,
-      "nextEvolutions": [
-        {
-          "pokemon": "POKEMON_RATICATE",
-          "candy": 25
-        }
-      ],
-      "quickMoves": {
-        "MOVE_TACKLE_FAST": false,
-        "MOVE_QUICK_ATTACK_FAST": false
-      },
+      "buddyDistance": 1,
       "chargeMoves": {
         "MOVE_CRUNCH": false,
         "MOVE_HYPER_FANG": false,
         "MOVE_SHADOW_BALL": false
       },
-      "rarity": null,
-      "buddyDistance": 1,
-      "height": 0.3,
-      "weight": 3.8
-    },
-    "normal": {
-      "name": "Rattata",
       "dex": 19,
       "family": "FAMILY_RATTATA",
       "generation": 1,
+      "height": 0.3,
+      "name": "Rattata (Alola)",
+      "nextEvolutions": [
+        {
+          "candy": 25,
+          "pokemon": "POKEMON_RATICATE_ALOLA"
+        }
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_QUICK_ATTACK_FAST": false,
+        "MOVE_TACKLE_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "dark",
+        "normal"
+      ],
+      "weight": 3.8
+    },
+    "normal": {
+      "baseStats": {
+        "attack": 103,
+        "defense": 70,
+        "stamina": 60
+      },
+      "buddyDistance": 1,
+      "chargeMoves": {
+        "MOVE_BODY_SLAM": false,
+        "MOVE_DIG": false,
+        "MOVE_HYPER_FANG": false
+      },
+      "dex": 19,
+      "family": "FAMILY_RATTATA",
+      "generation": 1,
+      "height": 0.3,
+      "name": "Rattata",
+      "nextEvolutions": [
+        {
+          "candy": 25,
+          "pokemon": "POKEMON_RATICATE_NORMAL"
+        }
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_QUICK_ATTACK_FAST": false,
+        "MOVE_TACKLE_FAST": false
+      },
+      "rarity": "common",
       "types": [
         "normal"
       ],
-      "baseStats": {
-        "stamina": 60,
-        "attack": 103,
-        "defense": 70
-      },
-      "previousEvolution": null,
-      "nextEvolutions": [
-        {
-          "pokemon": "POKEMON_RATICATE",
-          "candy": 25
-        }
-      ],
-      "quickMoves": {
-        "MOVE_TACKLE_FAST": false,
-        "MOVE_QUICK_ATTACK_FAST": false
-      },
-      "chargeMoves": {
-        "MOVE_DIG": false,
-        "MOVE_HYPER_FANG": false,
-        "MOVE_BODY_SLAM": false
-      },
-      "rarity": null,
-      "buddyDistance": 1,
-      "height": 0.3,
       "weight": 3.5
     }
-  }
+  },
+  "generation": 1,
+  "height": 0.3,
+  "name": "Rattata",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_RATICATE_NORMAL"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_QUICK_ATTACK_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
+  "weight": 3.5
 }

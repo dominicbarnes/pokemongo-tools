@@ -1,104 +1,105 @@
 {
-  "name": "Vulpix",
-  "dex": 37,
-  "family": "FAMILY_VULPIX",
-  "generation": 1,
-  "types": [
-    "fire"
-  ],
   "baseStats": {
-    "stamina": 76,
     "attack": 96,
-    "defense": 122
+    "defense": 122,
+    "stamina": 76
   },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_NINETALES",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_QUICK_ATTACK_FAST": false,
-    "MOVE_EMBER_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_BODY_SLAM": false,
     "MOVE_FLAMETHROWER": false,
     "MOVE_FLAME_CHARGE": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.6,
-  "weight": 9.9,
+  "dex": 37,
+  "family": "FAMILY_VULPIX",
   "forms": {
     "alola": {
-      "name": "Vulpix (Alola)",
+      "assetBundle": 61,
+      "baseStats": {
+        "attack": 96,
+        "defense": 122,
+        "stamina": 76
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_BLIZZARD": false,
+        "MOVE_DARK_PULSE": false,
+        "MOVE_ICE_BEAM": false
+      },
       "dex": 37,
       "family": "FAMILY_VULPIX",
       "generation": 1,
+      "height": 0.6,
+      "name": "Vulpix (Alola)",
+      "nextEvolutions": [
+        {
+          "candy": 50,
+          "pokemon": "POKEMON_NINETALES_ALOLA"
+        }
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_POWDER_SNOW_FAST": false,
+        "MOVE_ZEN_HEADBUTT_FAST": false
+      },
+      "rarity": "common",
       "types": [
         "ice"
       ],
-      "baseStats": {
-        "stamina": 76,
-        "attack": 96,
-        "defense": 122
-      },
-      "previousEvolution": null,
-      "nextEvolutions": [
-        {
-          "pokemon": "POKEMON_NINETALES",
-          "candy": 50
-        }
-      ],
-      "quickMoves": {
-        "MOVE_ZEN_HEADBUTT_FAST": false,
-        "MOVE_POWDER_SNOW_FAST": false
-      },
-      "chargeMoves": {
-        "MOVE_DARK_PULSE": false,
-        "MOVE_ICE_BEAM": false,
-        "MOVE_BLIZZARD": false
-      },
-      "rarity": null,
-      "buddyDistance": 3,
-      "height": 0.6,
       "weight": 9.9
     },
     "normal": {
-      "name": "Vulpix",
-      "dex": 37,
-      "family": "FAMILY_VULPIX",
-      "generation": 1,
-      "types": [
-        "fire"
-      ],
       "baseStats": {
-        "stamina": 76,
         "attack": 96,
-        "defense": 122
+        "defense": 122,
+        "stamina": 76
       },
-      "previousEvolution": null,
-      "nextEvolutions": [
-        {
-          "pokemon": "POKEMON_NINETALES",
-          "candy": 50
-        }
-      ],
-      "quickMoves": {
-        "MOVE_QUICK_ATTACK_FAST": false,
-        "MOVE_EMBER_FAST": false
-      },
+      "buddyDistance": 3,
       "chargeMoves": {
         "MOVE_BODY_SLAM": false,
         "MOVE_FLAMETHROWER": false,
         "MOVE_FLAME_CHARGE": false
       },
-      "rarity": null,
-      "buddyDistance": 3,
+      "dex": 37,
+      "family": "FAMILY_VULPIX",
+      "generation": 1,
       "height": 0.6,
+      "name": "Vulpix",
+      "nextEvolutions": [
+        {
+          "candy": 50,
+          "pokemon": "POKEMON_NINETALES_NORMAL"
+        }
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_EMBER_FAST": false,
+        "MOVE_QUICK_ATTACK_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "fire"
+      ],
       "weight": 9.9
     }
-  }
+  },
+  "generation": 1,
+  "height": 0.6,
+  "name": "Vulpix",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_NINETALES_NORMAL"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_QUICK_ATTACK_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "fire"
+  ],
+  "weight": 9.9
 }

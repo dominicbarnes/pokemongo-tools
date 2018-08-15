@@ -1,35 +1,35 @@
 {
-  "name": "Pidgeotto",
+  "baseStats": {
+    "attack": 117,
+    "defense": 108,
+    "stamina": 126
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_AIR_CUTTER": false,
+    "MOVE_TWISTER": false
+  },
   "dex": 17,
   "family": "FAMILY_PIDGEY",
   "generation": 1,
+  "height": 1.1,
+  "name": "Pidgeotto",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_PIDGEOT"
+    }
+  ],
+  "previousEvolution": "POKEMON_PIDGEY",
+  "quickMoves": {
+    "MOVE_STEEL_WING_FAST": false,
+    "MOVE_WING_ATTACK_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "normal",
     "flying"
   ],
-  "baseStats": {
-    "stamina": 126,
-    "attack": 117,
-    "defense": 108
-  },
-  "previousEvolution": "POKEMON_PIDGEY",
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_PIDGEOT",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_WING_ATTACK_FAST": false,
-    "MOVE_STEEL_WING_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_TWISTER": false,
-    "MOVE_AERIAL_ACE": false,
-    "MOVE_AIR_CUTTER": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 1.1,
   "weight": 30
 }

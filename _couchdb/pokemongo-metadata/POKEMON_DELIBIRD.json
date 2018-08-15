@@ -1,31 +1,30 @@
 {
-  "name": "Delibird",
+  "baseStats": {
+    "attack": 128,
+    "defense": 90,
+    "stamina": 90
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_ICE_PUNCH": false,
+    "MOVE_ICY_WIND": false
+  },
   "dex": 225,
   "family": "FAMILY_DELIBIRD",
   "generation": 2,
+  "height": 0.89,
+  "name": "Delibird",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_PRESENT_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "ice",
     "flying"
   ],
-  "baseStats": {
-    "stamina": 90,
-    "attack": 128,
-    "defense": 90
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_ICE_SHARD_FAST": true,
-    "MOVE_QUICK_ATTACK_FAST": true,
-    "MOVE_PRESENT_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_ICE_PUNCH": false,
-    "MOVE_ICY_WIND": false,
-    "MOVE_AERIAL_ACE": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 0.89,
   "weight": 16
 }

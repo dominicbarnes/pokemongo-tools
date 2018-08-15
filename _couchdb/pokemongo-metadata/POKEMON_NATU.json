@@ -1,35 +1,35 @@
 {
-  "name": "Natu",
+  "baseStats": {
+    "attack": 134,
+    "defense": 89,
+    "stamina": 80
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DRILL_PECK": false,
+    "MOVE_NIGHT_SHADE": false,
+    "MOVE_PSYSHOCK": false
+  },
   "dex": 177,
   "family": "FAMILY_NATU",
   "generation": 2,
-  "types": [
-    "psychic",
-    "flying"
-  ],
-  "baseStats": {
-    "stamina": 80,
-    "attack": 134,
-    "defense": 89
-  },
-  "previousEvolution": null,
+  "height": 0.2,
+  "name": "Natu",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_XATU",
-      "candy": 50
+      "candy": 50,
+      "pokemon": "POKEMON_XATU"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
     "MOVE_PECK_FAST": false,
     "MOVE_QUICK_ATTACK_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_NIGHT_SHADE": false,
-    "MOVE_PSYSHOCK": false,
-    "MOVE_DRILL_PECK": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.2,
+  "rarity": "common",
+  "types": [
+    "psychic",
+    "flying"
+  ],
   "weight": 2
 }

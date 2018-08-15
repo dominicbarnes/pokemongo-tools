@@ -1,6 +1,6 @@
 {
   "name": "Hidden Power",
-  "type": "normal",
   "power": 15,
-  "quick": true
+  "quick": true,
+  "type": "electric"
 }

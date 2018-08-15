@@ -1,6 +1,6 @@
 {
   "name": "Megahorn",
-  "type": "bug",
   "power": 90,
-  "quick": false
+  "quick": false,
+  "type": "bug"
 }

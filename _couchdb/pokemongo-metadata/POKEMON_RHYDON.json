@@ -1,31 +1,31 @@
 {
-  "name": "Rhydon",
-  "dex": 112,
-  "family": "FAMILY_RHYHORN",
-  "generation": 1,
-  "types": [
-    "ground",
-    "rock"
-  ],
   "baseStats": {
-    "stamina": 210,
     "attack": 222,
-    "defense": 206
+    "defense": 206,
+    "stamina": 210
   },
-  "previousEvolution": "POKEMON_RHYHORN",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_MUD_SLAP_FAST": false,
-    "MOVE_ROCK_SMASH_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
-    "MOVE_MEGAHORN": true,
     "MOVE_EARTHQUAKE": false,
     "MOVE_STONE_EDGE": false,
     "MOVE_SURF": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 112,
+  "family": "FAMILY_RHYHORN",
+  "generation": 1,
   "height": 1.9,
+  "name": "Rhydon",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_RHYHORN",
+  "quickMoves": {
+    "MOVE_MUD_SLAP_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "ground",
+    "rock"
+  ],
   "weight": 120
 }

@@ -1,6 +1,6 @@
 {
   "name": "Feint Attack",
-  "type": "dark",
   "power": 10,
-  "quick": true
+  "quick": true,
+  "type": "dark"
 }

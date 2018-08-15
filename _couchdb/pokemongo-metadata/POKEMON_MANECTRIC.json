@@ -1,31 +1,30 @@
 {
-  "name": "Manectric",
+  "baseStats": {
+    "attack": 215,
+    "defense": 127,
+    "stamina": 140
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_FLAME_BURST": false,
+    "MOVE_THUNDER": false,
+    "MOVE_WILD_CHARGE": false
+  },
   "dex": 310,
   "family": "FAMILY_ELECTRIKE",
   "generation": 3,
+  "height": 1.5,
+  "name": "Manectric",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_ELECTRIKE",
+  "quickMoves": {
+    "MOVE_CHARGE_BEAM_FAST": false,
+    "MOVE_SNARL_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "electric"
   ],
-  "baseStats": {
-    "stamina": 140,
-    "attack": 215,
-    "defense": 127
-  },
-  "previousEvolution": "POKEMON_ELECTRIKE",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_SNARL_FAST": false,
-    "MOVE_CHARGE_BEAM_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_THUNDER": false,
-    "MOVE_WILD_CHARGE": false,
-    "MOVE_FLAME_BURST": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.5,
   "weight": 40.2
 }

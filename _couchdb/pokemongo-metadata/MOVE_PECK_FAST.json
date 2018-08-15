@@ -1,6 +1,6 @@
 {
   "name": "Peck",
-  "type": "flying",
   "power": 10,
-  "quick": true
+  "quick": true,
+  "type": "flying"
 }

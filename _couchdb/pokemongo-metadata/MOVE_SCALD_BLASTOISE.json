@@ -1,6 +1,6 @@
 {
   "name": "Scald Blastoise",
-  "type": "water",
   "power": 50,
-  "quick": false
+  "quick": false,
+  "type": "water"
 }

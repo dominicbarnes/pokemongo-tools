@@ -1,6 +1,6 @@
 {
   "name": "Bug Bite",
-  "type": "bug",
   "power": 5,
-  "quick": true
+  "quick": true,
+  "type": "bug"
 }

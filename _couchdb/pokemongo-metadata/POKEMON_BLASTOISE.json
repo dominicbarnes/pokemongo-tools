@@ -1,29 +1,30 @@
 {
-  "name": "Blastoise",
+  "baseStats": {
+    "attack": 171,
+    "defense": 210,
+    "stamina": 158
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_FLASH_CANNON": false,
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_ICE_BEAM": false
+  },
   "dex": 9,
   "family": "FAMILY_SQUIRTLE",
   "generation": 1,
+  "height": 1.6,
+  "name": "Blastoise",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_WARTORTLE",
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "water"
   ],
-  "baseStats": {
-    "stamina": 158,
-    "attack": 171,
-    "defense": 210
-  },
-  "previousEvolution": "POKEMON_WARTORTLE",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_WATER_GUN_FAST": false,
-    "MOVE_BITE_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_FLASH_CANNON": false,
-    "MOVE_ICE_BEAM": false,
-    "MOVE_HYDRO_PUMP": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.6,
   "weight": 85.5
 }

@@ -4,195 +4,11 @@
       "candy": 1,
       "stardust": 200
     },
-    "2": {
-      "candy": 1,
-      "stardust": 200
-    },
-    "3": {
-      "candy": 1,
-      "stardust": 400
-    },
-    "4": {
-      "candy": 1,
-      "stardust": 400
-    },
-    "5": {
-      "candy": 1,
-      "stardust": 600
-    },
-    "6": {
-      "candy": 1,
-      "stardust": 600
-    },
-    "7": {
-      "candy": 1,
-      "stardust": 800
-    },
-    "8": {
-      "candy": 1,
-      "stardust": 800
-    },
-    "9": {
-      "candy": 1,
-      "stardust": 1000
-    },
-    "10": {
-      "candy": 1,
-      "stardust": 1000
-    },
-    "11": {
-      "candy": 2,
-      "stardust": 1300
-    },
-    "12": {
-      "candy": 2,
-      "stardust": 1300
-    },
-    "13": {
-      "candy": 2,
-      "stardust": 1600
-    },
-    "14": {
-      "candy": 2,
-      "stardust": 1600
-    },
-    "15": {
-      "candy": 2,
-      "stardust": 1900
-    },
-    "16": {
-      "candy": 2,
-      "stardust": 1900
-    },
-    "17": {
-      "candy": 2,
-      "stardust": 2200
-    },
-    "18": {
-      "candy": 2,
-      "stardust": 2200
-    },
-    "19": {
-      "candy": 2,
-      "stardust": 2500
-    },
-    "20": {
-      "candy": 2,
-      "stardust": 2500
-    },
-    "21": {
-      "candy": 3,
-      "stardust": 3000
-    },
-    "22": {
-      "candy": 3,
-      "stardust": 3000
-    },
-    "23": {
-      "candy": 3,
-      "stardust": 3500
-    },
-    "24": {
-      "candy": 3,
-      "stardust": 3500
-    },
-    "25": {
-      "candy": 3,
-      "stardust": 4000
-    },
-    "26": {
-      "candy": 4,
-      "stardust": 4000
-    },
-    "27": {
-      "candy": 4,
-      "stardust": 4500
-    },
-    "28": {
-      "candy": 4,
-      "stardust": 4500
-    },
-    "29": {
-      "candy": 4,
-      "stardust": 5000
-    },
-    "30": {
-      "candy": 4,
-      "stardust": 5000
-    },
-    "31": {
-      "candy": 6,
-      "stardust": 6000
-    },
-    "32": {
-      "candy": 6,
-      "stardust": 6000
-    },
-    "33": {
-      "candy": 8,
-      "stardust": 7000
-    },
-    "34": {
-      "candy": 8,
-      "stardust": 7000
-    },
-    "35": {
-      "candy": 10,
-      "stardust": 8000
-    },
-    "36": {
-      "candy": 10,
-      "stardust": 8000
-    },
-    "37": {
-      "candy": 12,
-      "stardust": 9000
-    },
-    "38": {
-      "candy": 12,
-      "stardust": 9000
-    },
-    "39": {
-      "candy": 15,
-      "stardust": 10000
-    },
-    "40": {
-      "candy": 15,
-      "stardust": 10000
-    },
     "1.5": {
       "candy": 1,
       "stardust": 200
     },
-    "2.5": {
-      "candy": 1,
-      "stardust": 200
-    },
-    "3.5": {
-      "candy": 1,
-      "stardust": 400
-    },
-    "4.5": {
-      "candy": 1,
-      "stardust": 400
-    },
-    "5.5": {
-      "candy": 1,
-      "stardust": 600
-    },
-    "6.5": {
-      "candy": 1,
-      "stardust": 600
-    },
-    "7.5": {
-      "candy": 1,
-      "stardust": 800
-    },
-    "8.5": {
-      "candy": 1,
-      "stardust": 800
-    },
-    "9.5": {
+    "10": {
       "candy": 1,
       "stardust": 1000
     },
@@ -200,7 +16,15 @@
       "candy": 1,
       "stardust": 1000
     },
+    "11": {
+      "candy": 2,
+      "stardust": 1300
+    },
     "11.5": {
+      "candy": 2,
+      "stardust": 1300
+    },
+    "12": {
       "candy": 2,
       "stardust": 1300
     },
@@ -208,7 +32,15 @@
       "candy": 2,
       "stardust": 1300
     },
+    "13": {
+      "candy": 2,
+      "stardust": 1600
+    },
     "13.5": {
+      "candy": 2,
+      "stardust": 1600
+    },
+    "14": {
       "candy": 2,
       "stardust": 1600
     },
@@ -216,7 +48,15 @@
       "candy": 2,
       "stardust": 1600
     },
+    "15": {
+      "candy": 2,
+      "stardust": 1900
+    },
     "15.5": {
+      "candy": 2,
+      "stardust": 1900
+    },
+    "16": {
       "candy": 2,
       "stardust": 1900
     },
@@ -224,7 +64,15 @@
       "candy": 2,
       "stardust": 1900
     },
+    "17": {
+      "candy": 2,
+      "stardust": 2200
+    },
     "17.5": {
+      "candy": 2,
+      "stardust": 2200
+    },
+    "18": {
       "candy": 2,
       "stardust": 2200
     },
@@ -232,7 +80,23 @@
       "candy": 2,
       "stardust": 2200
     },
+    "19": {
+      "candy": 2,
+      "stardust": 2500
+    },
     "19.5": {
+      "candy": 2,
+      "stardust": 2500
+    },
+    "2": {
+      "candy": 1,
+      "stardust": 200
+    },
+    "2.5": {
+      "candy": 1,
+      "stardust": 200
+    },
+    "20": {
       "candy": 2,
       "stardust": 2500
     },
@@ -240,7 +104,15 @@
       "candy": 2,
       "stardust": 2500
     },
+    "21": {
+      "candy": 3,
+      "stardust": 3000
+    },
     "21.5": {
+      "candy": 3,
+      "stardust": 3000
+    },
+    "22": {
       "candy": 3,
       "stardust": 3000
     },
@@ -248,7 +120,15 @@
       "candy": 3,
       "stardust": 3000
     },
+    "23": {
+      "candy": 3,
+      "stardust": 3500
+    },
     "23.5": {
+      "candy": 3,
+      "stardust": 3500
+    },
+    "24": {
       "candy": 3,
       "stardust": 3500
     },
@@ -256,15 +136,31 @@
       "candy": 3,
       "stardust": 3500
     },
+    "25": {
+      "candy": 3,
+      "stardust": 4000
+    },
     "25.5": {
       "candy": 3,
+      "stardust": 4000
+    },
+    "26": {
+      "candy": 4,
       "stardust": 4000
     },
     "26.5": {
       "candy": 4,
       "stardust": 4000
     },
+    "27": {
+      "candy": 4,
+      "stardust": 4500
+    },
     "27.5": {
+      "candy": 4,
+      "stardust": 4500
+    },
+    "28": {
       "candy": 4,
       "stardust": 4500
     },
@@ -272,7 +168,23 @@
       "candy": 4,
       "stardust": 4500
     },
+    "29": {
+      "candy": 4,
+      "stardust": 5000
+    },
     "29.5": {
+      "candy": 4,
+      "stardust": 5000
+    },
+    "3": {
+      "candy": 1,
+      "stardust": 400
+    },
+    "3.5": {
+      "candy": 1,
+      "stardust": 400
+    },
+    "30": {
       "candy": 4,
       "stardust": 5000
     },
@@ -280,7 +192,15 @@
       "candy": 4,
       "stardust": 5000
     },
+    "31": {
+      "candy": 6,
+      "stardust": 6000
+    },
     "31.5": {
+      "candy": 6,
+      "stardust": 6000
+    },
+    "32": {
       "candy": 6,
       "stardust": 6000
     },
@@ -288,7 +208,15 @@
       "candy": 6,
       "stardust": 6000
     },
+    "33": {
+      "candy": 8,
+      "stardust": 7000
+    },
     "33.5": {
+      "candy": 8,
+      "stardust": 7000
+    },
+    "34": {
       "candy": 8,
       "stardust": 7000
     },
@@ -296,7 +224,15 @@
       "candy": 8,
       "stardust": 7000
     },
+    "35": {
+      "candy": 10,
+      "stardust": 8000
+    },
     "35.5": {
+      "candy": 10,
+      "stardust": 8000
+    },
+    "36": {
       "candy": 10,
       "stardust": 8000
     },
@@ -304,7 +240,15 @@
       "candy": 10,
       "stardust": 8000
     },
+    "37": {
+      "candy": 12,
+      "stardust": 9000
+    },
     "37.5": {
+      "candy": 12,
+      "stardust": 9000
+    },
+    "38": {
       "candy": 12,
       "stardust": 9000
     },
@@ -312,9 +256,65 @@
       "candy": 12,
       "stardust": 9000
     },
+    "39": {
+      "candy": 15,
+      "stardust": 10000
+    },
     "39.5": {
       "candy": 15,
       "stardust": 10000
+    },
+    "4": {
+      "candy": 1,
+      "stardust": 400
+    },
+    "4.5": {
+      "candy": 1,
+      "stardust": 400
+    },
+    "40": {
+      "candy": 15,
+      "stardust": 10000
+    },
+    "5": {
+      "candy": 1,
+      "stardust": 600
+    },
+    "5.5": {
+      "candy": 1,
+      "stardust": 600
+    },
+    "6": {
+      "candy": 1,
+      "stardust": 600
+    },
+    "6.5": {
+      "candy": 1,
+      "stardust": 600
+    },
+    "7": {
+      "candy": 1,
+      "stardust": 800
+    },
+    "7.5": {
+      "candy": 1,
+      "stardust": 800
+    },
+    "8": {
+      "candy": 1,
+      "stardust": 800
+    },
+    "8.5": {
+      "candy": 1,
+      "stardust": 800
+    },
+    "9": {
+      "candy": 1,
+      "stardust": 1000
+    },
+    "9.5": {
+      "candy": 1,
+      "stardust": 1000
     }
   }
 }

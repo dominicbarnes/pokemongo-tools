@@ -1,6 +1,6 @@
 {
   "name": "Sucker Punch",
-  "type": "dark",
   "power": 7,
-  "quick": true
+  "quick": true,
+  "type": "dark"
 }

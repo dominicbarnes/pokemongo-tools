@@ -1,37 +1,35 @@
 {
-  "name": "Surskit",
-  "dex": 283,
-  "family": "FAMILY_SURSKIT",
-  "generation": 3,
-  "types": [
-    "bug",
-    "water"
-  ],
   "baseStats": {
-    "stamina": 80,
     "attack": 93,
-    "defense": 97
+    "defense": 97,
+    "stamina": 80
   },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_MASQUERAIN",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_BUBBLE_FAST": false,
-    "MOVE_BUG_BITE_FAST": false
-  },
+  "buddyDistance": 1,
   "chargeMoves": {
-    "MOVE_STRUGGLE": true,
     "MOVE_AQUA_JET": false,
     "MOVE_BUBBLE_BEAM": false,
     "MOVE_SIGNAL_BEAM": false
   },
-  "rarity": null,
-  "buddyDistance": 1,
+  "dex": 283,
+  "family": "FAMILY_SURSKIT",
+  "generation": 3,
   "height": 0.51,
+  "name": "Surskit",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_MASQUERAIN"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_BUBBLE_FAST": false,
+    "MOVE_BUG_BITE_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "bug",
+    "water"
+  ],
   "weight": 1.7
 }

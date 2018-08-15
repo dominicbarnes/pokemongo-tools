@@ -1,6 +1,6 @@
 {
   "name": "Thunder Punch",
-  "type": "electric",
   "power": 45,
-  "quick": false
+  "quick": false,
+  "type": "electric"
 }

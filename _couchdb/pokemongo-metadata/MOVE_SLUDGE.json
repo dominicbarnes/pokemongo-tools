@@ -1,6 +1,6 @@
 {
   "name": "Sludge",
-  "type": "poison",
   "power": 50,
-  "quick": false
+  "quick": false,
+  "type": "poison"
 }

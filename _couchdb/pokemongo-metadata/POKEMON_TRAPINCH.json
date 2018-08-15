@@ -1,36 +1,34 @@
 {
-  "name": "Trapinch",
+  "baseStats": {
+    "attack": 162,
+    "defense": 78,
+    "stamina": 90
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_CRUNCH": false,
+    "MOVE_DIG": false,
+    "MOVE_SAND_TOMB": false
+  },
   "dex": 328,
   "family": "FAMILY_TRAPINCH",
   "generation": 3,
-  "types": [
-    "ground"
-  ],
-  "baseStats": {
-    "stamina": 90,
-    "attack": 162,
-    "defense": 78
-  },
-  "previousEvolution": null,
+  "height": 0.71,
+  "name": "Trapinch",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_VIBRAVA",
-      "candy": 25
+      "candy": 25,
+      "pokemon": "POKEMON_VIBRAVA"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
     "MOVE_MUD_SHOT_FAST": false,
     "MOVE_STRUGGLE_BUG_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_SAND_TOMB": false,
-    "MOVE_DIG": false,
-    "MOVE_CRUNCH": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 0.71,
+  "rarity": "common",
+  "types": [
+    "ground"
+  ],
   "weight": 15
 }

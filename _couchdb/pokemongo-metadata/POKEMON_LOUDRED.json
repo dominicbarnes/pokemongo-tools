@@ -1,37 +1,34 @@
 {
-  "name": "Loudred",
-  "dex": 294,
-  "family": "FAMILY_WHISMUR",
-  "generation": 3,
-  "types": [
-    "normal"
-  ],
   "baseStats": {
-    "stamina": 168,
     "attack": 134,
-    "defense": 81
+    "defense": 81,
+    "stamina": 168
   },
-  "previousEvolution": "POKEMON_WHISMUR",
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_EXPLOUD",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_BITE_FAST": false,
-    "MOVE_ROCK_SMASH_FAST": false
-  },
+  "buddyDistance": 1,
   "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_CRUNCH": true,
     "MOVE_DISARMING_VOICE": false,
     "MOVE_FLAMETHROWER": false,
     "MOVE_STOMP": false
   },
-  "rarity": null,
-  "buddyDistance": 1,
+  "dex": 294,
+  "family": "FAMILY_WHISMUR",
+  "generation": 3,
   "height": 0.99,
+  "name": "Loudred",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_EXPLOUD"
+    }
+  ],
+  "previousEvolution": "POKEMON_WHISMUR",
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
   "weight": 40.5
 }

@@ -1,37 +1,35 @@
 {
-  "name": "Barboach",
-  "dex": 339,
-  "family": "FAMILY_BARBOACH",
-  "generation": 3,
-  "types": [
-    "water",
-    "ground"
-  ],
   "baseStats": {
-    "stamina": 100,
     "attack": 93,
-    "defense": 83
+    "defense": 83,
+    "stamina": 100
   },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_WHISCASH",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_WATER_GUN_FAST": false,
-    "MOVE_MUD_SHOT_FAST": false
-  },
+  "buddyDistance": 1,
   "chargeMoves": {
-    "MOVE_STRUGGLE": true,
     "MOVE_AQUA_TAIL": false,
     "MOVE_ICE_BEAM": false,
     "MOVE_MUD_BOMB": false
   },
-  "rarity": null,
-  "buddyDistance": 1,
+  "dex": 339,
+  "family": "FAMILY_BARBOACH",
+  "generation": 3,
   "height": 0.41,
+  "name": "Barboach",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_WHISCASH"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_MUD_SHOT_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "water",
+    "ground"
+  ],
   "weight": 1.9
 }

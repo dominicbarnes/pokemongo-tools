@@ -1,30 +1,29 @@
 {
-  "name": "Slaking",
+  "baseStats": {
+    "attack": 290,
+    "defense": 183,
+    "stamina": 273
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_PLAY_ROUGH": false
+  },
   "dex": 289,
   "family": "FAMILY_SLAKOTH",
   "generation": 3,
+  "height": 2.01,
+  "name": "Slaking",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_VIGOROTH",
+  "quickMoves": {
+    "MOVE_YAWN_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "normal"
   ],
-  "baseStats": {
-    "stamina": 273,
-    "attack": 290,
-    "defense": 183
-  },
-  "previousEvolution": "POKEMON_VIGOROTH",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_YAWN_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_HYPER_BEAM": false,
-    "MOVE_PLAY_ROUGH": false,
-    "MOVE_EARTHQUAKE": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 2.01,
   "weight": 130.5
 }

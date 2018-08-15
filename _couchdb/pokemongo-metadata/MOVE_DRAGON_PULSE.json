@@ -1,6 +1,6 @@
 {
   "name": "Dragon Pulse",
-  "type": "dragon",
   "power": 90,
-  "quick": false
+  "quick": false,
+  "type": "dragon"
 }

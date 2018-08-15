@@ -1,6 +1,6 @@
 {
   "name": "Stone Edge",
-  "type": "rock",
   "power": 100,
-  "quick": false
+  "quick": false,
+  "type": "rock"
 }

@@ -1,35 +1,35 @@
 {
-  "name": "Haunter",
+  "baseStats": {
+    "attack": 223,
+    "defense": 112,
+    "stamina": 90
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DARK_PULSE": false,
+    "MOVE_SHADOW_PUNCH": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
   "dex": 93,
   "family": "FAMILY_GASTLY",
   "generation": 1,
+  "height": 1.6,
+  "name": "Haunter",
+  "nextEvolutions": [
+    {
+      "candy": 100,
+      "pokemon": "POKEMON_GENGAR"
+    }
+  ],
+  "previousEvolution": "POKEMON_GASTLY",
+  "quickMoves": {
+    "MOVE_ASTONISH_FAST": false,
+    "MOVE_SHADOW_CLAW_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "ghost",
     "poison"
   ],
-  "baseStats": {
-    "stamina": 90,
-    "attack": 223,
-    "defense": 112
-  },
-  "previousEvolution": "POKEMON_GASTLY",
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_GENGAR",
-      "candy": 100
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SHADOW_CLAW_FAST": false,
-    "MOVE_ASTONISH_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_SHADOW_PUNCH": false,
-    "MOVE_DARK_PULSE": false,
-    "MOVE_SLUDGE_BOMB": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.6,
   "weight": 0.1
 }

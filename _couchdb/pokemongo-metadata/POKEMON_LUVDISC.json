@@ -1,30 +1,30 @@
 {
-  "name": "Luvdisc",
+  "baseStats": {
+    "attack": 81,
+    "defense": 134,
+    "stamina": 86
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AQUA_JET": false,
+    "MOVE_DRAINING_KISS": false,
+    "MOVE_WATER_PULSE": false
+  },
   "dex": 370,
   "family": "FAMILY_LUVDISC",
   "generation": 3,
-  "types": [
-    "water"
+  "height": 0.61,
+  "name": "Luvdisc",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 86,
-    "attack": 81,
-    "defense": 134
-  },
   "previousEvolution": null,
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_SPLASH_FAST": false,
     "MOVE_WATER_GUN_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_DRAINING_KISS": false,
-    "MOVE_WATER_PULSE": false,
-    "MOVE_AQUA_JET": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.61,
+  "rarity": "common",
+  "types": [
+    "water"
+  ],
   "weight": 8.7
 }

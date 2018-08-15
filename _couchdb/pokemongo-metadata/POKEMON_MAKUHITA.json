@@ -1,36 +1,34 @@
 {
-  "name": "Makuhita",
+  "baseStats": {
+    "attack": 99,
+    "defense": 54,
+    "stamina": 144
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_CROSS_CHOP": false,
+    "MOVE_HEAVY_SLAM": false,
+    "MOVE_LOW_SWEEP": false
+  },
   "dex": 296,
   "family": "FAMILY_MAKUHITA",
   "generation": 3,
-  "types": [
-    "fighting"
-  ],
-  "baseStats": {
-    "stamina": 144,
-    "attack": 99,
-    "defense": 54
-  },
-  "previousEvolution": null,
+  "height": 0.99,
+  "name": "Makuhita",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_HARIYAMA",
-      "candy": 50
+      "candy": 50,
+      "pokemon": "POKEMON_HARIYAMA"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
     "MOVE_ROCK_SMASH_FAST": false,
     "MOVE_TACKLE_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_HEAVY_SLAM": false,
-    "MOVE_LOW_SWEEP": false,
-    "MOVE_CROSS_CHOP": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.99,
+  "rarity": "common",
+  "types": [
+    "fighting"
+  ],
   "weight": 86.4
 }

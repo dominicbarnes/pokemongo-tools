@@ -1,36 +1,34 @@
 {
-  "name": "Snorunt",
-  "dex": 361,
-  "family": "FAMILY_SNORUNT",
-  "generation": 3,
-  "types": [
-    "ice"
-  ],
   "baseStats": {
-    "stamina": 100,
     "attack": 95,
-    "defense": 95
+    "defense": 95,
+    "stamina": 100
   },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_GLALIE",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_POWDER_SNOW_FAST": false,
-    "MOVE_HEX_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
-    "MOVE_STRUGGLE": true,
     "MOVE_AVALANCHE": false,
     "MOVE_ICY_WIND": false,
     "MOVE_SHADOW_BALL": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 361,
+  "family": "FAMILY_SNORUNT",
+  "generation": 3,
   "height": 0.71,
+  "name": "Snorunt",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_GLALIE"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_HEX_FAST": false,
+    "MOVE_POWDER_SNOW_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "ice"
+  ],
   "weight": 16.8
 }

@@ -1,30 +1,31 @@
 {
-  "name": "Slowbro",
+  "baseStats": {
+    "attack": 177,
+    "defense": 194,
+    "stamina": 190
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_ICE_BEAM": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_WATER_PULSE": false
+  },
   "dex": 80,
   "family": "FAMILY_SLOWPOKE",
   "generation": 1,
+  "height": 1.6,
+  "name": "Slowbro",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_SLOWPOKE",
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "water",
     "psychic"
   ],
-  "baseStats": {
-    "stamina": 190,
-    "attack": 177,
-    "defense": 194
-  },
-  "previousEvolution": "POKEMON_SLOWPOKE",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_WATER_GUN_FAST": false,
-    "MOVE_CONFUSION_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_WATER_PULSE": false,
-    "MOVE_PSYCHIC": false,
-    "MOVE_ICE_BEAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.6,
   "weight": 78.5
 }

@@ -1,36 +1,34 @@
 {
-  "name": "Whismur",
+  "baseStats": {
+    "attack": 92,
+    "defense": 42,
+    "stamina": 128
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_DISARMING_VOICE": false,
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_STOMP": false
+  },
   "dex": 293,
   "family": "FAMILY_WHISMUR",
   "generation": 3,
+  "height": 0.61,
+  "name": "Whismur",
+  "nextEvolutions": [
+    {
+      "candy": 12,
+      "pokemon": "POKEMON_LOUDRED"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_ASTONISH_FAST": false,
+    "MOVE_POUND_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "normal"
   ],
-  "baseStats": {
-    "stamina": 128,
-    "attack": 92,
-    "defense": 42
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_LOUDRED",
-      "candy": 12
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_POUND_FAST": false,
-    "MOVE_ASTONISH_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_STOMP": false,
-    "MOVE_DISARMING_VOICE": false,
-    "MOVE_FLAMETHROWER": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 0.61,
   "weight": 16.3
 }

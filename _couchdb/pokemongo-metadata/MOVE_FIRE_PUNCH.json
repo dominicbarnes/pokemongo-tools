@@ -1,6 +1,6 @@
 {
   "name": "Fire Punch",
-  "type": "fire",
   "power": 55,
-  "quick": false
+  "quick": false,
+  "type": "fire"
 }

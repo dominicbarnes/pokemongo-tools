@@ -1,6 +1,6 @@
 {
   "name": "Horn Attack",
-  "type": "normal",
   "power": 40,
-  "quick": false
+  "quick": false,
+  "type": "normal"
 }

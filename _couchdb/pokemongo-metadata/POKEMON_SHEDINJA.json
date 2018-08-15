@@ -1,32 +1,31 @@
 {
-  "name": "Shedinja",
+  "baseStats": {
+    "attack": 153,
+    "defense": 80,
+    "stamina": 2
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_DIG": false,
+    "MOVE_SHADOW_SNEAK": false
+  },
   "dex": 292,
   "family": "FAMILY_NINCADA",
   "generation": 3,
+  "height": 0.79,
+  "name": "Shedinja",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_NINCADA",
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_STRUGGLE_BUG_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "bug",
     "ghost"
   ],
-  "baseStats": {
-    "stamina": 2,
-    "attack": 153,
-    "defense": 80
-  },
-  "previousEvolution": "POKEMON_NINCADA",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_BITE_FAST": false,
-    "MOVE_STRUGGLE_BUG_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_SHADOW_SNEAK": false,
-    "MOVE_AERIAL_ACE": false,
-    "MOVE_DIG": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 0.79,
   "weight": 1.2
 }

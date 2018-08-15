@@ -1,35 +1,35 @@
 {
-  "name": "Bellsprout",
-  "dex": 69,
-  "family": "FAMILY_BELLSPROUT",
-  "generation": 1,
-  "types": [
-    "grass",
-    "poison"
-  ],
   "baseStats": {
-    "stamina": 100,
     "attack": 139,
-    "defense": 64
+    "defense": 64,
+    "stamina": 100
   },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_WEEPINBELL",
-      "candy": 25
-    }
-  ],
-  "quickMoves": {
-    "MOVE_VINE_WHIP_FAST": false,
-    "MOVE_ACID_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_POWER_WHIP": false,
     "MOVE_SLUDGE_BOMB": false,
     "MOVE_WRAP": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 69,
+  "family": "FAMILY_BELLSPROUT",
+  "generation": 1,
   "height": 0.7,
+  "name": "Bellsprout",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_WEEPINBELL"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_ACID_FAST": false,
+    "MOVE_VINE_WHIP_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "grass",
+    "poison"
+  ],
   "weight": 4
 }

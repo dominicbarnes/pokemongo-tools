@@ -1,6 +1,6 @@
 {
   "name": "Brave Bird",
-  "type": "flying",
   "power": 90,
-  "quick": false
+  "quick": false,
+  "type": "flying"
 }

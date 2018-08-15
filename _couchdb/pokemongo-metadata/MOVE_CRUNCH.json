@@ -1,6 +1,6 @@
 {
   "name": "Crunch",
-  "type": "dark",
   "power": 70,
-  "quick": false
+  "quick": false,
+  "type": "dark"
 }

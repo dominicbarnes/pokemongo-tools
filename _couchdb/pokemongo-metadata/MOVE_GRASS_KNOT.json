@@ -1,6 +1,6 @@
 {
   "name": "Grass Knot",
-  "type": "grass",
   "power": 90,
-  "quick": false
+  "quick": false,
+  "type": "grass"
 }

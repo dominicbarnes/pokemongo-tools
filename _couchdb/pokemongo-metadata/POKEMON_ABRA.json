@@ -1,34 +1,34 @@
 {
-  "name": "Abra",
+  "baseStats": {
+    "attack": 195,
+    "defense": 103,
+    "stamina": 50
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_PSYSHOCK": false,
+    "MOVE_SHADOW_BALL": false,
+    "MOVE_SIGNAL_BEAM": false
+  },
   "dex": 63,
   "family": "FAMILY_ABRA",
   "generation": 1,
+  "height": 0.9,
+  "name": "Abra",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_KADABRA"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_CHARGE_BEAM_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "psychic"
   ],
-  "baseStats": {
-    "stamina": 50,
-    "attack": 195,
-    "defense": 103
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_KADABRA",
-      "candy": 25
-    }
-  ],
-  "quickMoves": {
-    "MOVE_ZEN_HEADBUTT_FAST": false,
-    "MOVE_CHARGE_BEAM_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_PSYSHOCK": false,
-    "MOVE_SIGNAL_BEAM": false,
-    "MOVE_SHADOW_BALL": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.9,
   "weight": 19.5
 }

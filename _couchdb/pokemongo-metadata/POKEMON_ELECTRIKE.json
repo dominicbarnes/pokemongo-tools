@@ -1,36 +1,34 @@
 {
-  "name": "Electrike",
+  "baseStats": {
+    "attack": 123,
+    "defense": 78,
+    "stamina": 80
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DISCHARGE": false,
+    "MOVE_SWIFT": false,
+    "MOVE_THUNDERBOLT": false
+  },
   "dex": 309,
   "family": "FAMILY_ELECTRIKE",
   "generation": 3,
-  "types": [
-    "electric"
-  ],
-  "baseStats": {
-    "stamina": 80,
-    "attack": 123,
-    "defense": 78
-  },
-  "previousEvolution": null,
+  "height": 0.61,
+  "name": "Electrike",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_MANECTRIC",
-      "candy": 50
+      "candy": 50,
+      "pokemon": "POKEMON_MANECTRIC"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
     "MOVE_QUICK_ATTACK_FAST": false,
     "MOVE_SPARK_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_THUNDERBOLT": false,
-    "MOVE_DISCHARGE": false,
-    "MOVE_SWIFT": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.61,
+  "rarity": "common",
+  "types": [
+    "electric"
+  ],
   "weight": 15.2
 }

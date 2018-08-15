@@ -1,30 +1,31 @@
 {
-  "name": "Piloswine",
-  "dex": 221,
-  "family": "FAMILY_SWINUB",
-  "generation": 2,
-  "types": [
-    "ice",
-    "ground"
-  ],
   "baseStats": {
-    "stamina": 200,
     "attack": 181,
-    "defense": 147
+    "defense": 147,
+    "stamina": 200
   },
-  "previousEvolution": "POKEMON_SWINUB",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_ICE_SHARD_FAST": false,
-    "MOVE_POWDER_SNOW_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_AVALANCHE": false,
     "MOVE_BULLDOZE": false,
     "MOVE_STONE_EDGE": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
+  "dex": 221,
+  "family": "FAMILY_SWINUB",
+  "generation": 2,
   "height": 1.09,
+  "name": "Piloswine",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_SWINUB",
+  "quickMoves": {
+    "MOVE_ICE_SHARD_FAST": false,
+    "MOVE_POWDER_SNOW_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "ice",
+    "ground"
+  ],
   "weight": 55.8
 }

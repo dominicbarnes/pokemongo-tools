@@ -1,29 +1,30 @@
 {
-  "name": "Magmar",
-  "dex": 126,
-  "family": "FAMILY_MAGMAR",
-  "generation": 1,
-  "types": [
-    "fire"
-  ],
   "baseStats": {
-    "stamina": 130,
     "attack": 206,
-    "defense": 169
+    "defense": 169,
+    "stamina": 130
   },
-  "previousEvolution": "POKEMON_MAGBY",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_EMBER_FAST": false,
-    "MOVE_KARATE_CHOP_FAST": false
-  },
+  "buddyDistance": 5,
   "chargeMoves": {
     "MOVE_FIRE_BLAST": false,
     "MOVE_FIRE_PUNCH": false,
     "MOVE_FLAMETHROWER": false
   },
-  "rarity": null,
-  "buddyDistance": 5,
+  "dex": 126,
+  "family": "FAMILY_MAGMAR",
+  "generation": 1,
   "height": 1.3,
+  "name": "Magmar",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_MAGBY",
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_KARATE_CHOP_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "fire"
+  ],
   "weight": 44.5
 }

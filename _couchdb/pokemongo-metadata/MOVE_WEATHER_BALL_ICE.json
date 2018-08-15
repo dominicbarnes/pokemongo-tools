@@ -1,6 +1,6 @@
 {
   "name": "Weather Ball Ice",
-  "type": "ice",
   "power": 60,
-  "quick": false
+  "quick": false,
+  "type": "ice"
 }

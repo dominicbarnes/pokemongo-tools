@@ -1,6 +1,6 @@
 {
   "name": "Thunderbolt",
-  "type": "electric",
   "power": 80,
-  "quick": false
+  "quick": false,
+  "type": "electric"
 }

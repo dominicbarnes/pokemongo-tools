@@ -1,37 +1,35 @@
 {
-  "name": "Combusken",
+  "baseStats": {
+    "attack": 163,
+    "defense": 115,
+    "stamina": 120
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_FLAME_CHARGE": false,
+    "MOVE_ROCK_SLIDE": false
+  },
   "dex": 256,
   "family": "FAMILY_TORCHIC",
   "generation": 3,
+  "height": 0.89,
+  "name": "Combusken",
+  "nextEvolutions": [
+    {
+      "candy": 100,
+      "pokemon": "POKEMON_BLAZIKEN"
+    }
+  ],
+  "previousEvolution": "POKEMON_TORCHIC",
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_PECK_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "fire",
     "fighting"
   ],
-  "baseStats": {
-    "stamina": 120,
-    "attack": 163,
-    "defense": 115
-  },
-  "previousEvolution": "POKEMON_TORCHIC",
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_BLAZIKEN",
-      "candy": 100
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_PECK_FAST": false,
-    "MOVE_EMBER_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_FLAME_CHARGE": false,
-    "MOVE_FLAMETHROWER": false,
-    "MOVE_ROCK_SLIDE": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.89,
   "weight": 19.5
 }

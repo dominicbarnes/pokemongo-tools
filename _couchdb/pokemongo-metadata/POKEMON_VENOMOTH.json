@@ -1,30 +1,31 @@
 {
-  "name": "Venomoth",
+  "baseStats": {
+    "attack": 179,
+    "defense": 150,
+    "stamina": 140
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BUG_BUZZ": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_SILVER_WIND": false
+  },
   "dex": 49,
   "family": "FAMILY_VENONAT",
   "generation": 1,
+  "height": 1.5,
+  "name": "Venomoth",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_VENONAT",
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_INFESTATION_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "bug",
     "poison"
   ],
-  "baseStats": {
-    "stamina": 140,
-    "attack": 179,
-    "defense": 150
-  },
-  "previousEvolution": "POKEMON_VENONAT",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_INFESTATION_FAST": false,
-    "MOVE_CONFUSION_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_SILVER_WIND": false,
-    "MOVE_PSYCHIC": false,
-    "MOVE_BUG_BUZZ": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.5,
   "weight": 12.5
 }

@@ -1,32 +1,31 @@
 {
-  "name": "Sharpedo",
+  "baseStats": {
+    "attack": 243,
+    "defense": 83,
+    "stamina": 140
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_CRUNCH": false,
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_POISON_FANG": false
+  },
   "dex": 319,
   "family": "FAMILY_CARVANHA",
   "generation": 3,
+  "height": 1.8,
+  "name": "Sharpedo",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_CARVANHA",
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_WATERFALL_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "water",
     "dark"
   ],
-  "baseStats": {
-    "stamina": 140,
-    "attack": 243,
-    "defense": 83
-  },
-  "previousEvolution": "POKEMON_CARVANHA",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_BITE_FAST": false,
-    "MOVE_WATERFALL_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_HYDRO_PUMP": false,
-    "MOVE_CRUNCH": false,
-    "MOVE_POISON_FANG": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.8,
   "weight": 88.8
 }

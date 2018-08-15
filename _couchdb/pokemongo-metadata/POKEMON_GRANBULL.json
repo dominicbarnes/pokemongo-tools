@@ -1,29 +1,30 @@
 {
-  "name": "Granbull",
+  "baseStats": {
+    "attack": 212,
+    "defense": 137,
+    "stamina": 180
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_CLOSE_COMBAT": false,
+    "MOVE_CRUNCH": false,
+    "MOVE_PLAY_ROUGH": false
+  },
   "dex": 210,
   "family": "FAMILY_SNUBBULL",
   "generation": 2,
-  "types": [
-    "fairy"
+  "height": 1.4,
+  "name": "Granbull",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 180,
-    "attack": 212,
-    "defense": 137
-  },
   "previousEvolution": "POKEMON_SNUBBULL",
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_BITE_FAST": false,
     "MOVE_SNARL_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_CRUNCH": false,
-    "MOVE_PLAY_ROUGH": false,
-    "MOVE_CLOSE_COMBAT": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.4,
+  "rarity": "common",
+  "types": [
+    "fairy"
+  ],
   "weight": 48.7
 }

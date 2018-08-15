@@ -1,29 +1,30 @@
 {
-  "name": "Weezing",
+  "baseStats": {
+    "attack": 174,
+    "defense": 221,
+    "stamina": 130
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DARK_PULSE": false,
+    "MOVE_SHADOW_BALL": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
   "dex": 110,
   "family": "FAMILY_KOFFING",
   "generation": 1,
+  "height": 1.2,
+  "name": "Weezing",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_KOFFING",
+  "quickMoves": {
+    "MOVE_INFESTATION_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "poison"
   ],
-  "baseStats": {
-    "stamina": 130,
-    "attack": 174,
-    "defense": 221
-  },
-  "previousEvolution": "POKEMON_KOFFING",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_TACKLE_FAST": false,
-    "MOVE_INFESTATION_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_SLUDGE_BOMB": false,
-    "MOVE_SHADOW_BALL": false,
-    "MOVE_DARK_PULSE": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.2,
   "weight": 9.5
 }

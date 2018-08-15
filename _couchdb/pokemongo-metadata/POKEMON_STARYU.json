@@ -1,34 +1,34 @@
 {
-  "name": "Staryu",
+  "baseStats": {
+    "attack": 137,
+    "defense": 112,
+    "stamina": 60
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BUBBLE_BEAM": false,
+    "MOVE_POWER_GEM": false,
+    "MOVE_SWIFT": false
+  },
   "dex": 120,
   "family": "FAMILY_STARYU",
   "generation": 1,
-  "types": [
-    "water"
-  ],
-  "baseStats": {
-    "stamina": 60,
-    "attack": 137,
-    "defense": 112
-  },
-  "previousEvolution": null,
+  "height": 0.8,
+  "name": "Staryu",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_STARMIE",
-      "candy": 50
+      "candy": 50,
+      "pokemon": "POKEMON_STARMIE"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
     "MOVE_TACKLE_FAST": false,
     "MOVE_WATER_GUN_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_SWIFT": false,
-    "MOVE_BUBBLE_BEAM": false,
-    "MOVE_POWER_GEM": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.8,
+  "rarity": "common",
+  "types": [
+    "water"
+  ],
   "weight": 34.5
 }

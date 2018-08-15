@@ -1,6 +1,6 @@
 {
   "name": "Ice Beam",
-  "type": "ice",
   "power": 90,
-  "quick": false
+  "quick": false,
+  "type": "ice"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Ice Shard",
-  "type": "ice",
   "power": 12,
-  "quick": true
+  "quick": true,
+  "type": "ice"
 }

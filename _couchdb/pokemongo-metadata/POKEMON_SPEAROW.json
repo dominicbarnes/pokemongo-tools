@@ -1,35 +1,35 @@
 {
-  "name": "Spearow",
-  "dex": 21,
-  "family": "FAMILY_SPEAROW",
-  "generation": 1,
-  "types": [
-    "normal",
-    "flying"
-  ],
   "baseStats": {
-    "stamina": 80,
     "attack": 112,
-    "defense": 61
+    "defense": 61,
+    "stamina": 80
   },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_FEAROW",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_PECK_FAST": false,
-    "MOVE_QUICK_ATTACK_FAST": false
-  },
+  "buddyDistance": 1,
   "chargeMoves": {
     "MOVE_AERIAL_ACE": false,
     "MOVE_DRILL_PECK": false,
     "MOVE_SKY_ATTACK": false
   },
-  "rarity": null,
-  "buddyDistance": 1,
+  "dex": 21,
+  "family": "FAMILY_SPEAROW",
+  "generation": 1,
   "height": 0.3,
+  "name": "Spearow",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_FEAROW"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_PECK_FAST": false,
+    "MOVE_QUICK_ATTACK_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal",
+    "flying"
+  ],
   "weight": 2
 }

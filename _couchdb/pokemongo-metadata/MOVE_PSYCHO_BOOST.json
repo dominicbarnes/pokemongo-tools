@@ -1,6 +1,6 @@
 {
   "name": "Psycho Boost",
-  "type": "psychic",
   "power": 70,
-  "quick": false
+  "quick": false,
+  "type": "psychic"
 }

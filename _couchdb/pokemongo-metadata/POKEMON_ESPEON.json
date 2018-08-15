@@ -1,29 +1,30 @@
 {
-  "name": "Espeon",
+  "baseStats": {
+    "attack": 261,
+    "defense": 194,
+    "stamina": 130
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_FUTURESIGHT": false,
+    "MOVE_PSYBEAM": false,
+    "MOVE_PSYCHIC": false
+  },
   "dex": 196,
   "family": "FAMILY_EEVEE",
   "generation": 2,
-  "types": [
-    "psychic"
+  "height": 0.89,
+  "name": "Espeon",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 130,
-    "attack": 261,
-    "defense": 194
-  },
   "previousEvolution": "POKEMON_EEVEE",
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_CONFUSION_FAST": false,
     "MOVE_ZEN_HEADBUTT_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_PSYBEAM": false,
-    "MOVE_PSYCHIC": false,
-    "MOVE_FUTURESIGHT": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 0.89,
+  "rarity": "common",
+  "types": [
+    "psychic"
+  ],
   "weight": 26.5
 }

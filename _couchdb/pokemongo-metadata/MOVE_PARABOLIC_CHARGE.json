@@ -1,6 +1,6 @@
 {
   "name": "Parabolic Charge",
-  "type": "electric",
   "power": 25,
-  "quick": false
+  "quick": false,
+  "type": "electric"
 }

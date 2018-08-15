@@ -1,29 +1,30 @@
 {
-  "name": "Octillery",
+  "baseStats": {
+    "attack": 197,
+    "defense": 141,
+    "stamina": 150
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_AURORA_BEAM": false,
+    "MOVE_GUNK_SHOT": false,
+    "MOVE_WATER_PULSE": false
+  },
   "dex": 224,
   "family": "FAMILY_REMORAID",
   "generation": 2,
+  "height": 0.89,
+  "name": "Octillery",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_REMORAID",
+  "quickMoves": {
+    "MOVE_MUD_SHOT_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "water"
   ],
-  "baseStats": {
-    "stamina": 150,
-    "attack": 197,
-    "defense": 141
-  },
-  "previousEvolution": "POKEMON_REMORAID",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_WATER_GUN_FAST": false,
-    "MOVE_MUD_SHOT_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_GUNK_SHOT": false,
-    "MOVE_WATER_PULSE": false,
-    "MOVE_AURORA_BEAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 0.89,
   "weight": 28.5
 }

@@ -1,35 +1,34 @@
 {
-  "name": "Wailmer",
+  "baseStats": {
+    "attack": 136,
+    "defense": 68,
+    "stamina": 260
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_BODY_SLAM": false,
+    "MOVE_HEAVY_SLAM": false,
+    "MOVE_WATER_PULSE": false
+  },
   "dex": 320,
   "family": "FAMILY_WAILMER",
   "generation": 3,
-  "types": [
-    "water"
-  ],
-  "baseStats": {
-    "stamina": 260,
-    "attack": 136,
-    "defense": 68
-  },
-  "previousEvolution": null,
+  "height": 2.01,
+  "name": "Wailmer",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_WAILORD",
-      "candy": 400
+      "candy": 400,
+      "pokemon": "POKEMON_WAILORD"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
     "MOVE_SPLASH_FAST": false,
     "MOVE_WATER_GUN_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_HEAVY_SLAM": false,
-    "MOVE_WATER_PULSE": false,
-    "MOVE_BODY_SLAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 2.01,
+  "rarity": "common",
+  "types": [
+    "water"
+  ],
   "weight": 130
 }

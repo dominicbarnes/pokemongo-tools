@@ -1,29 +1,30 @@
 {
-  "name": "Moltres",
-  "dex": 146,
-  "family": "FAMILY_MOLTRES",
-  "generation": 1,
-  "types": [
-    "fire",
-    "flying"
-  ],
   "baseStats": {
-    "stamina": 180,
     "attack": 251,
-    "defense": 184
+    "defense": 184,
+    "stamina": 180
   },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_FIRE_SPIN_FAST": false
-  },
+  "buddyDistance": 20,
   "chargeMoves": {
     "MOVE_FIRE_BLAST": false,
     "MOVE_HEAT_WAVE": false,
     "MOVE_OVERHEAT": false
   },
-  "rarity": "legendary",
-  "buddyDistance": 20,
+  "dex": 146,
+  "family": "FAMILY_MOLTRES",
+  "generation": 1,
   "height": 2,
+  "name": "Moltres",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_FIRE_SPIN_FAST": false
+  },
+  "rarity": "legendary",
+  "types": [
+    "fire",
+    "flying"
+  ],
   "weight": 60
 }

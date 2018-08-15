@@ -1,92 +1,96 @@
 {
-  "name": "Golem",
+  "baseStats": {
+    "attack": 211,
+    "defense": 229,
+    "stamina": 160
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_ROCK_BLAST": false,
+    "MOVE_STONE_EDGE": false
+  },
   "dex": 76,
   "family": "FAMILY_GEODUDE",
-  "generation": 1,
-  "types": [
-    "rock",
-    "ground"
-  ],
-  "baseStats": {
-    "stamina": 160,
-    "attack": 211,
-    "defense": 229
-  },
-  "previousEvolution": "POKEMON_GRAVELER",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_ROCK_THROW_FAST": false,
-    "MOVE_MUD_SLAP_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STONE_EDGE": false,
-    "MOVE_ROCK_BLAST": false,
-    "MOVE_EARTHQUAKE": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 1.4,
-  "weight": 300,
   "forms": {
     "alola": {
-      "name": "Golem (Alola)",
+      "assetBundle": 61,
+      "baseStats": {
+        "attack": 211,
+        "defense": 229,
+        "stamina": 160
+      },
+      "buddyDistance": 1,
+      "chargeMoves": {
+        "MOVE_ROCK_BLAST": false,
+        "MOVE_STONE_EDGE": false,
+        "MOVE_WILD_CHARGE": false
+      },
       "dex": 76,
       "family": "FAMILY_GEODUDE",
       "generation": 1,
-      "types": [
-        "rock",
-        "electric"
+      "height": 1.7,
+      "name": "Golem (Alola)",
+      "nextEvolutions": [
       ],
-      "baseStats": {
-        "stamina": 160,
-        "attack": 211,
-        "defense": 229
-      },
       "previousEvolution": "POKEMON_GRAVELER",
-      "nextEvolutions": [],
       "quickMoves": {
         "MOVE_ROCK_THROW_FAST": false,
         "MOVE_VOLT_SWITCH_FAST": false
       },
-      "chargeMoves": {
-        "MOVE_STONE_EDGE": false,
-        "MOVE_ROCK_BLAST": false,
-        "MOVE_WILD_CHARGE": false
-      },
-      "rarity": null,
-      "buddyDistance": 1,
-      "height": 1.7,
+      "rarity": "common",
+      "types": [
+        "rock",
+        "electric"
+      ],
       "weight": 316
     },
     "normal": {
-      "name": "Golem",
+      "baseStats": {
+        "attack": 211,
+        "defense": 229,
+        "stamina": 160
+      },
+      "buddyDistance": 1,
+      "chargeMoves": {
+        "MOVE_EARTHQUAKE": false,
+        "MOVE_ROCK_BLAST": false,
+        "MOVE_STONE_EDGE": false
+      },
       "dex": 76,
       "family": "FAMILY_GEODUDE",
       "generation": 1,
+      "height": 1.4,
+      "name": "Golem",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_GRAVELER",
+      "quickMoves": {
+        "MOVE_MUD_SLAP_FAST": false,
+        "MOVE_ROCK_THROW_FAST": false
+      },
+      "rarity": "common",
       "types": [
         "rock",
         "ground"
       ],
-      "baseStats": {
-        "stamina": 160,
-        "attack": 211,
-        "defense": 229
-      },
-      "previousEvolution": "POKEMON_GRAVELER",
-      "nextEvolutions": [],
-      "quickMoves": {
-        "MOVE_ROCK_THROW_FAST": false,
-        "MOVE_MUD_SLAP_FAST": false
-      },
-      "chargeMoves": {
-        "MOVE_STONE_EDGE": false,
-        "MOVE_ROCK_BLAST": false,
-        "MOVE_EARTHQUAKE": false
-      },
-      "rarity": null,
-      "buddyDistance": 1,
-      "height": 1.4,
       "weight": 300
     }
-  }
+  },
+  "generation": 1,
+  "height": 1.4,
+  "name": "Golem",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_GRAVELER",
+  "quickMoves": {
+    "MOVE_MUD_SLAP_FAST": false,
+    "MOVE_ROCK_THROW_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "weight": 300
 }

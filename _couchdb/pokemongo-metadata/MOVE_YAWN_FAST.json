@@ -1,5 +1,5 @@
 {
   "name": "Yawn",
-  "type": "normal",
-  "quick": true
+  "quick": true,
+  "type": "normal"
 }

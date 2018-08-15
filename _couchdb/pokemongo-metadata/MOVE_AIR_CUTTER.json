@@ -1,6 +1,6 @@
 {
   "name": "Air Cutter",
-  "type": "flying",
   "power": 60,
-  "quick": false
+  "quick": false,
+  "type": "flying"
 }

@@ -1,29 +1,30 @@
 {
-  "name": "Banette",
+  "baseStats": {
+    "attack": 218,
+    "defense": 127,
+    "stamina": 128
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_SHADOW_BALL": false,
+    "MOVE_THUNDER": false
+  },
   "dex": 354,
   "family": "FAMILY_SHUPPET",
   "generation": 3,
-  "types": [
-    "ghost"
+  "height": 1.09,
+  "name": "Banette",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 128,
-    "attack": 218,
-    "defense": 127
-  },
   "previousEvolution": "POKEMON_SHUPPET",
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_HEX_FAST": false,
     "MOVE_SHADOW_CLAW_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_SHADOW_BALL": false,
-    "MOVE_DAZZLING_GLEAM": false,
-    "MOVE_THUNDER": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.09,
+  "rarity": "common",
+  "types": [
+    "ghost"
+  ],
   "weight": 12.5
 }

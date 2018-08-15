@@ -1,30 +1,31 @@
 {
-  "name": "Steelix",
+  "baseStats": {
+    "attack": 148,
+    "defense": 333,
+    "stamina": 150
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_CRUNCH": false,
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_HEAVY_SLAM": false
+  },
   "dex": 208,
   "family": "FAMILY_ONIX",
   "generation": 2,
+  "height": 9.19,
+  "name": "Steelix",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_ONIX",
+  "quickMoves": {
+    "MOVE_DRAGON_TAIL_FAST": false,
+    "MOVE_IRON_TAIL_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "steel",
     "ground"
   ],
-  "baseStats": {
-    "stamina": 150,
-    "attack": 148,
-    "defense": 333
-  },
-  "previousEvolution": "POKEMON_ONIX",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_IRON_TAIL_FAST": false,
-    "MOVE_DRAGON_TAIL_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_EARTHQUAKE": false,
-    "MOVE_HEAVY_SLAM": false,
-    "MOVE_CRUNCH": false
-  },
-  "rarity": null,
-  "buddyDistance": 5,
-  "height": 9.19,
   "weight": 400
 }

@@ -1,6 +1,6 @@
 {
   "name": "Origin Pulse",
-  "type": "water",
   "power": 130,
-  "quick": false
+  "quick": false,
+  "type": "water"
 }

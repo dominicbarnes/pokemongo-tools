@@ -1,31 +1,30 @@
 {
-  "name": "Regice",
-  "dex": 378,
-  "family": "FAMILY_REGICE",
-  "generation": 3,
-  "types": [
-    "ice"
-  ],
   "baseStats": {
-    "stamina": 160,
     "attack": 179,
-    "defense": 356
+    "defense": 356,
+    "stamina": 160
   },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_FROST_BREATH_FAST": false,
-    "MOVE_ROCK_SMASH_FAST": false
-  },
+  "buddyDistance": 20,
   "chargeMoves": {
-    "MOVE_STRUGGLE": true,
     "MOVE_BLIZZARD": false,
     "MOVE_EARTHQUAKE": false,
     "MOVE_FOCUS_BLAST": false
   },
-  "rarity": "legendary",
-  "buddyDistance": 20,
+  "dex": 378,
+  "family": "FAMILY_REGICE",
+  "generation": 3,
   "height": 1.8,
+  "name": "Regice",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_FROST_BREATH_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "rarity": "legendary",
+  "types": [
+    "ice"
+  ],
   "weight": 175
 }

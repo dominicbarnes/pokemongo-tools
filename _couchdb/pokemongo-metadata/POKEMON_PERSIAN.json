@@ -1,89 +1,93 @@
 {
-  "name": "Persian",
-  "dex": 53,
-  "family": "FAMILY_MEOWTH",
-  "generation": 1,
-  "types": [
-    "normal"
-  ],
   "baseStats": {
-    "stamina": 130,
     "attack": 150,
-    "defense": 139
+    "defense": 139,
+    "stamina": 130
   },
-  "previousEvolution": "POKEMON_MEOWTH",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SCRATCH_FAST": false,
-    "MOVE_FEINT_ATTACK_FAST": false
-  },
+  "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_FOUL_PLAY": false,
-    "MOVE_POWER_GEM": false,
-    "MOVE_PLAY_ROUGH": false
+    "MOVE_PLAY_ROUGH": false,
+    "MOVE_POWER_GEM": false
   },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1,
-  "weight": 32,
+  "dex": 53,
+  "family": "FAMILY_MEOWTH",
   "forms": {
     "alola": {
-      "name": "Persian (Alola)",
+      "assetBundle": 61,
+      "baseStats": {
+        "attack": 158,
+        "defense": 139,
+        "stamina": 130
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_DARK_PULSE": false,
+        "MOVE_FOUL_PLAY": false,
+        "MOVE_PLAY_ROUGH": false
+      },
       "dex": 53,
       "family": "FAMILY_MEOWTH",
       "generation": 1,
+      "height": 1.1,
+      "name": "Persian (Alola)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_MEOWTH",
+      "quickMoves": {
+        "MOVE_FEINT_ATTACK_FAST": false,
+        "MOVE_SCRATCH_FAST": false
+      },
+      "rarity": "common",
       "types": [
         "dark"
       ],
-      "baseStats": {
-        "stamina": 130,
-        "attack": 158,
-        "defense": 139
-      },
-      "previousEvolution": "POKEMON_MEOWTH",
-      "nextEvolutions": [],
-      "quickMoves": {
-        "MOVE_SCRATCH_FAST": false,
-        "MOVE_FEINT_ATTACK_FAST": false
-      },
-      "chargeMoves": {
-        "MOVE_FOUL_PLAY": false,
-        "MOVE_DARK_PULSE": false,
-        "MOVE_PLAY_ROUGH": false
-      },
-      "rarity": null,
-      "buddyDistance": 3,
-      "height": 1.1,
       "weight": 33
     },
     "normal": {
-      "name": "Persian",
+      "baseStats": {
+        "attack": 150,
+        "defense": 139,
+        "stamina": 130
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_FOUL_PLAY": false,
+        "MOVE_PLAY_ROUGH": false,
+        "MOVE_POWER_GEM": false
+      },
       "dex": 53,
       "family": "FAMILY_MEOWTH",
       "generation": 1,
+      "height": 1,
+      "name": "Persian",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_MEOWTH",
+      "quickMoves": {
+        "MOVE_FEINT_ATTACK_FAST": false,
+        "MOVE_SCRATCH_FAST": false
+      },
+      "rarity": "common",
       "types": [
         "normal"
       ],
-      "baseStats": {
-        "stamina": 130,
-        "attack": 150,
-        "defense": 139
-      },
-      "previousEvolution": "POKEMON_MEOWTH",
-      "nextEvolutions": [],
-      "quickMoves": {
-        "MOVE_SCRATCH_FAST": false,
-        "MOVE_FEINT_ATTACK_FAST": false
-      },
-      "chargeMoves": {
-        "MOVE_FOUL_PLAY": false,
-        "MOVE_POWER_GEM": false,
-        "MOVE_PLAY_ROUGH": false
-      },
-      "rarity": null,
-      "buddyDistance": 3,
-      "height": 1,
       "weight": 32
     }
-  }
+  },
+  "generation": 1,
+  "height": 1,
+  "name": "Persian",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_MEOWTH",
+  "quickMoves": {
+    "MOVE_FEINT_ATTACK_FAST": false,
+    "MOVE_SCRATCH_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
+  "weight": 32
 }

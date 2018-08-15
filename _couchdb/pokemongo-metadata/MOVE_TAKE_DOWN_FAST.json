@@ -1,6 +1,6 @@
 {
   "name": "Take Down",
-  "type": "normal",
   "power": 8,
-  "quick": true
+  "quick": true,
+  "type": "normal"
 }

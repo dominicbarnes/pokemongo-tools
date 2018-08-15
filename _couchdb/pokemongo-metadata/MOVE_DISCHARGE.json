@@ -1,6 +1,6 @@
 {
   "name": "Discharge",
-  "type": "electric",
   "power": 65,
-  "quick": false
+  "quick": false,
+  "type": "electric"
 }

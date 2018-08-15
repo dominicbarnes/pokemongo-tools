@@ -1,34 +1,34 @@
 {
-  "name": "Phanpy",
+  "baseStats": {
+    "attack": 107,
+    "defense": 107,
+    "stamina": 180
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BODY_SLAM": false,
+    "MOVE_BULLDOZE": false,
+    "MOVE_ROCK_SLIDE": false
+  },
   "dex": 231,
   "family": "FAMILY_PHANPY",
   "generation": 2,
+  "height": 0.51,
+  "name": "Phanpy",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_DONPHAN"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_ROCK_SMASH_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "ground"
   ],
-  "baseStats": {
-    "stamina": 180,
-    "attack": 107,
-    "defense": 107
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_DONPHAN",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_TACKLE_FAST": false,
-    "MOVE_ROCK_SMASH_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_BULLDOZE": false,
-    "MOVE_ROCK_SLIDE": false,
-    "MOVE_BODY_SLAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.51,
   "weight": 33.5
 }

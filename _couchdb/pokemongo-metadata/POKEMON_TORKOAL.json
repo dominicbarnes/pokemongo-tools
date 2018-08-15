@@ -1,31 +1,30 @@
 {
-  "name": "Torkoal",
+  "baseStats": {
+    "attack": 151,
+    "defense": 234,
+    "stamina": 140
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_OVERHEAT": false,
+    "MOVE_SOLAR_BEAM": false
+  },
   "dex": 324,
   "family": "FAMILY_TORKOAL",
   "generation": 3,
+  "height": 0.51,
+  "name": "Torkoal",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_FIRE_SPIN_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "fire"
   ],
-  "baseStats": {
-    "stamina": 140,
-    "attack": 151,
-    "defense": 234
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_FIRE_SPIN_FAST": false,
-    "MOVE_EMBER_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_OVERHEAT": false,
-    "MOVE_SOLAR_BEAM": false,
-    "MOVE_EARTHQUAKE": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.51,
   "weight": 80.4
 }

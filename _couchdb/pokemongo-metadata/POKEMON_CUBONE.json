@@ -1,34 +1,34 @@
 {
-  "name": "Cubone",
+  "baseStats": {
+    "attack": 90,
+    "defense": 165,
+    "stamina": 100
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BONE_CLUB": false,
+    "MOVE_BULLDOZE": false,
+    "MOVE_DIG": false
+  },
   "dex": 104,
   "family": "FAMILY_CUBONE",
   "generation": 1,
-  "types": [
-    "ground"
-  ],
-  "baseStats": {
-    "stamina": 100,
-    "attack": 90,
-    "defense": 165
-  },
-  "previousEvolution": null,
+  "height": 0.4,
+  "name": "Cubone",
   "nextEvolutions": [
     {
-      "pokemon": "POKEMON_MAROWAK",
-      "candy": 50
+      "candy": 50,
+      "pokemon": "POKEMON_MAROWAK"
     }
   ],
+  "previousEvolution": null,
   "quickMoves": {
     "MOVE_MUD_SLAP_FAST": false,
     "MOVE_ROCK_SMASH_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_BONE_CLUB": false,
-    "MOVE_DIG": false,
-    "MOVE_BULLDOZE": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.4,
+  "rarity": "common",
+  "types": [
+    "ground"
+  ],
   "weight": 6.5
 }

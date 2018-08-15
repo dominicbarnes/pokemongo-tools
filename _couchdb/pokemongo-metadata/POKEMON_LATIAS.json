@@ -1,33 +1,31 @@
 {
-  "name": "Latias",
+  "baseStats": {
+    "attack": 228,
+    "defense": 268,
+    "stamina": 160
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_OUTRAGE": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_THUNDER": false
+  },
   "dex": 380,
   "family": "FAMILY_LATIAS",
   "generation": 3,
+  "height": 1.4,
+  "name": "Latias",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_DRAGON_BREATH_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "rarity": "legendary",
   "types": [
     "dragon",
     "psychic"
   ],
-  "baseStats": {
-    "stamina": 160,
-    "attack": 228,
-    "defense": 268
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_DRAGON_BREATH_FAST": false,
-    "MOVE_ZEN_HEADBUTT_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_PSYCHIC": false,
-    "MOVE_DRAGON_CLAW": true,
-    "MOVE_THUNDER": false,
-    "MOVE_OUTRAGE": false
-  },
-  "rarity": "legendary",
-  "buddyDistance": 20,
-  "height": 1.4,
   "weight": 40
 }

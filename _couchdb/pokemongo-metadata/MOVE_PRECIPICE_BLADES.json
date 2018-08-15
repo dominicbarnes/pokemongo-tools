@@ -1,6 +1,6 @@
 {
   "name": "Precipice Blades",
-  "type": "ground",
   "power": 130,
-  "quick": false
+  "quick": false,
+  "type": "ground"
 }

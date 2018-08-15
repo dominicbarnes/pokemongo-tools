@@ -1,36 +1,34 @@
 {
-  "name": "Shroomish",
+  "baseStats": {
+    "attack": 74,
+    "defense": 110,
+    "stamina": 120
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_ENERGY_BALL": false,
+    "MOVE_GRASS_KNOT": false,
+    "MOVE_SEED_BOMB": false
+  },
   "dex": 285,
   "family": "FAMILY_SHROOMISH",
   "generation": 3,
+  "height": 0.41,
+  "name": "Shroomish",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_BRELOOM"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_BULLET_SEED_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "grass"
   ],
-  "baseStats": {
-    "stamina": 120,
-    "attack": 74,
-    "defense": 110
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_BRELOOM",
-      "candy": 50
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_TACKLE_FAST": false,
-    "MOVE_BULLET_SEED_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_SEED_BOMB": false,
-    "MOVE_GRASS_KNOT": false,
-    "MOVE_ENERGY_BALL": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 0.41,
   "weight": 4.5
 }

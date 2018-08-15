@@ -1,37 +1,35 @@
 {
-  "name": "Swablu",
+  "baseStats": {
+    "attack": 76,
+    "defense": 139,
+    "stamina": 90
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_DISARMING_VOICE": false,
+    "MOVE_ICE_BEAM": false
+  },
   "dex": 333,
   "family": "FAMILY_SWABLU",
   "generation": 3,
+  "height": 0.41,
+  "name": "Swablu",
+  "nextEvolutions": [
+    {
+      "candy": 400,
+      "pokemon": "POKEMON_ALTARIA"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_ASTONISH_FAST": false,
+    "MOVE_PECK_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "normal",
     "flying"
   ],
-  "baseStats": {
-    "stamina": 90,
-    "attack": 76,
-    "defense": 139
-  },
-  "previousEvolution": null,
-  "nextEvolutions": [
-    {
-      "pokemon": "POKEMON_ALTARIA",
-      "candy": 400
-    }
-  ],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_PECK_FAST": false,
-    "MOVE_ASTONISH_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_DISARMING_VOICE": false,
-    "MOVE_AERIAL_ACE": false,
-    "MOVE_ICE_BEAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 1,
-  "height": 0.41,
   "weight": 1.2
 }

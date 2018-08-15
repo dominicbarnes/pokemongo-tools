@@ -1,32 +1,31 @@
 {
-  "name": "Ludicolo",
+  "baseStats": {
+    "attack": 173,
+    "defense": 191,
+    "stamina": 160
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BLIZZARD": false,
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_SOLAR_BEAM": false
+  },
   "dex": 272,
   "family": "FAMILY_LOTAD",
   "generation": 3,
+  "height": 1.5,
+  "name": "Ludicolo",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_LOMBRE",
+  "quickMoves": {
+    "MOVE_BUBBLE_FAST": false,
+    "MOVE_RAZOR_LEAF_FAST": false
+  },
+  "rarity": "common",
   "types": [
     "water",
     "grass"
   ],
-  "baseStats": {
-    "stamina": 160,
-    "attack": 173,
-    "defense": 191
-  },
-  "previousEvolution": "POKEMON_LOMBRE",
-  "nextEvolutions": [],
-  "quickMoves": {
-    "MOVE_SPLASH_FAST": true,
-    "MOVE_BUBBLE_FAST": false,
-    "MOVE_RAZOR_LEAF_FAST": false
-  },
-  "chargeMoves": {
-    "MOVE_STRUGGLE": true,
-    "MOVE_HYDRO_PUMP": false,
-    "MOVE_BLIZZARD": false,
-    "MOVE_SOLAR_BEAM": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.5,
   "weight": 55
 }

@@ -1,30 +1,31 @@
 {
-  "name": "Cloyster",
+  "baseStats": {
+    "attack": 186,
+    "defense": 323,
+    "stamina": 100
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AURORA_BEAM": false,
+    "MOVE_AVALANCHE": false,
+    "MOVE_HYDRO_PUMP": false
+  },
   "dex": 91,
   "family": "FAMILY_SHELLDER",
   "generation": 1,
-  "types": [
-    "water",
-    "ice"
+  "height": 1.5,
+  "name": "Cloyster",
+  "nextEvolutions": [
   ],
-  "baseStats": {
-    "stamina": 100,
-    "attack": 186,
-    "defense": 323
-  },
   "previousEvolution": "POKEMON_SHELLDER",
-  "nextEvolutions": [],
   "quickMoves": {
     "MOVE_FROST_BREATH_FAST": false,
     "MOVE_ICE_SHARD_FAST": false
   },
-  "chargeMoves": {
-    "MOVE_AURORA_BEAM": false,
-    "MOVE_HYDRO_PUMP": false,
-    "MOVE_AVALANCHE": false
-  },
-  "rarity": null,
-  "buddyDistance": 3,
-  "height": 1.5,
+  "rarity": "common",
+  "types": [
+    "water",
+    "ice"
+  ],
   "weight": 132.5
 }
