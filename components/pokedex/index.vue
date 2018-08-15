@@ -9,7 +9,7 @@
         <b-col md="9" lg="10" class="pt-2">
           <paginated-list v-bind:list="list" v-bind:filter="filterer">
             <template slot="item" slot-scope="{ item: pokemon }">
-              <b-col v-bind:key="pokemon.id" cols="12" md="6" lg="4">
+              <b-col v-bind:key="pokemon.id" cols="12" md="6" lg="3">
                 <pokedex-item v-bind:pokemon="pokemon" />
               </b-col>
             </template>
@@ -35,9 +35,9 @@
 
     computed: {
       list() {
-        return this.$store.getters.pokemonSort('dex').map(pokemon => {
-          const { _id: id, dex, name, types, rarity, generation, family } = pokemon
-          return { dex, id, name, types, rarity, generation, family }
+        return this.$store.getters.pokemonSort([ 'dex', 'name' ]).map(pokemon => {
+          const { _id: id, dex, name, types, rarity, generation, family, assetBundle } = pokemon
+          return { dex, id, name, types, rarity, generation, family, assetBundle }
         })
       },
 

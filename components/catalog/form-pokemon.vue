@@ -1,7 +1,11 @@
 <template>
   <b-form v-on:submit.stop.prevent="$emit('submit', value)">
     <b-row>
-      <b-col md="10">
+      <b-col md="3" order-md="12">
+        <b-img v-bind:src="spriteURL" fluid-grow />
+      </b-col>
+
+      <b-col md="9">
         <b-form-group label="Pokémon" description="Choose the Pokémon species and whether it is shiny.">
           <b-input-group>
             <b-form-select id="add-species-input" v-bind:options="pokemonOptions" v-model="value.pokemonID" required size="lg" v-focus />
@@ -16,122 +20,120 @@
             </b-dropdown>
           </b-input-group>
         </b-form-group>
-      </b-col>
-      <b-col md="2">
-        <pokemon-sprite v-if="metadata" v-bind:pokemon="metadata.dex" v-bind:form="value.form" v-bind:shiny="value.shiny" />
+
+        <b-form-group id="add-nickname" label="Nickname" label-for="add-nickname">
+          <b-form-input id="add-nickname-input" v-model="value.nickname" />
+        </b-form-group>
+
+        <b-form-group label="Stats">
+          <template slot="description">
+            <div v-if="calculatedCP">
+              Calculated
+              <span v-if="calculatedCP">{{ calculatedCP }} CP</span>
+              <span v-if="calculatedHP">{{ calculatedHP }} HP</span>
+              <span v-if="calculatedIVs">{{ calculatedIVs | number('0%') }} IVs</span>
+            </div>
+            <div v-else class="font-italic">
+              Enter more information to calculate stats.
+            </div>
+          </template>
+          <b-form-row>
+            <b-col sm class="mb-2">
+              <b-input-group>
+                <b-input-group-prepend is-text>Level</b-input-group-prepend>
+                <b-form-input type="number" required min="1" step="0.5" max="40" v-model.number="value.level" />
+              </b-input-group>
+            </b-col>
+            <b-col sm class="mb-2">
+              <b-input-group>
+                <b-input-group-prepend is-text>Attack IV</b-input-group-prepend>
+                <b-form-input type="number" min="0" max="15" v-model.number="value.attackIV" />
+              </b-input-group>
+            </b-col>
+            <b-col sm class="mb-2">
+              <b-input-group>
+                <b-input-group-prepend is-text>Defense IV</b-input-group-prepend>
+                <b-form-input type="number" min="0" max="15" v-model.number="value.defenseIV" />
+              </b-input-group>
+            </b-col>
+            <b-col sm class="mb-2">
+              <b-input-group>
+                <b-input-group-prepend is-text>Stamina IV</b-input-group-prepend>
+                <b-form-input type="number" min="0" max="15" v-model.number="value.staminaIV" />
+              </b-input-group>
+            </b-col>
+            <b-col sm class="mb-2">
+              <b-form-checkbox v-model="value.uncertainStats" title="Check this if the stats you've entered are not certain (such as when multiple IV combinations lead to the same CP/HP).">
+                I'm uncertain about these stats
+              </b-form-checkbox>
+            </b-col>
+          </b-form-row>
+        </b-form-group>
+
+          <b-row>
+            <b-col md="6">
+              <b-form-group label="Quick Move">
+                <b-form-select v-model="value.quickMove">
+                  <option v-bind:value="null">&mdash;</option>
+                  <optgroup v-if="metadataQuickMoves" label="Can be learned by selected Pokémon">
+                    <option v-for="move in metadataQuickMoves" v-bind:key="move.id" v-bind:value="move.id">
+                      {{ move.name }}
+                      ({{move.type}})
+                      <template v-if="move.legacy">(legacy)</template>
+                    </option>
+                  </optgroup>
+                  <optgroup label="All available quick moves">
+                    <option v-for="move in quickMoves" v-bind:key="move.id" v-bind:value="move.id">
+                      {{ move.name }}
+                      ({{move.type}})
+                      <template v-if="move.legacy">(legacy)</template>
+                    </option>
+                  </optgroup>
+                </b-form-select>
+              </b-form-group>
+            </b-col>
+            <b-col md="6">
+              <b-form-group label="Charge Move">
+                <b-form-select v-model="value.chargeMove">
+                  <option v-bind:value="null">&mdash;</option>
+                  <optgroup v-if="metadataChargeMoves" label="Can be learned by selected Pokémon">
+                    <option v-for="move in metadataChargeMoves" v-bind:key="move.id" v-bind:value="move.id">
+                      {{ move.name }}
+                      ({{move.type}})
+                      <template v-if="move.legacy">(legacy)</template>
+                    </option>
+                  </optgroup>
+                  <optgroup label="All available charge moves">
+                    <option v-for="move in chargeMoves" v-bind:key="move.id" v-bind:value="move.id">
+                      {{ move.name }}
+                      ({{move.type}})
+                      <template v-if="move.legacy">(legacy)</template>
+                    </option>
+                  </optgroup>
+                </b-form-select>
+              </b-form-group>
+            </b-col>
+          </b-row>
+        </b-form-group>
+
+        <b-form-group id="add-caught" label="Date Caught" label-for="add-hp" description="Enter the date this Pokémon was caught/obtained">
+          <b-form-input id="add-caught-input" type="date" min="2016-07-06" v-model="value.caughtAt" />
+        </b-form-group>
+
+        <b-form-group id="add-notes" label="Notes" label-for="add-notes" description="Add your own custom notes about this Pokémon.">
+          <!-- <b-form-textarea id="add-notes-input" v-bind:rows="3" v-model="value.notes" /> -->
+          <b-form-input id="add-notes-input" v-model="value.notes" />
+        </b-form-group>
+
+        <slot />
       </b-col>
     </b-row>
-
-    <b-form-group id="add-nickname" label="Nickname" label-for="add-nickname">
-      <b-form-input id="add-nickname-input" v-model="value.nickname" />
-    </b-form-group>
-
-    <b-form-group label="Stats">
-      <template slot="description">
-        <div v-if="calculatedCP">
-          Calculated
-          <span v-if="calculatedCP">{{ calculatedCP }} CP</span>
-          <span v-if="calculatedHP">{{ calculatedHP }} HP</span>
-          <span v-if="calculatedIVs">{{ calculatedIVs | number('0%') }} IVs</span>
-        </div>
-        <div v-else class="font-italic">
-          Enter more information to calculate stats.
-        </div>
-      </template>
-      <b-form-row>
-        <b-col sm class="mb-2">
-          <b-input-group>
-            <b-input-group-prepend is-text>Level</b-input-group-prepend>
-            <b-form-input type="number" required min="1" step="0.5" max="40" v-model.number="value.level" />
-          </b-input-group>
-        </b-col>
-        <b-col sm class="mb-2">
-          <b-input-group>
-            <b-input-group-prepend is-text>Attack IV</b-input-group-prepend>
-            <b-form-input type="number" min="0" max="15" v-model.number="value.attackIV" />
-          </b-input-group>
-        </b-col>
-        <b-col sm class="mb-2">
-          <b-input-group>
-            <b-input-group-prepend is-text>Defense IV</b-input-group-prepend>
-            <b-form-input type="number" min="0" max="15" v-model.number="value.defenseIV" />
-          </b-input-group>
-        </b-col>
-        <b-col sm class="mb-2">
-          <b-input-group>
-            <b-input-group-prepend is-text>Stamina IV</b-input-group-prepend>
-            <b-form-input type="number" min="0" max="15" v-model.number="value.staminaIV" />
-          </b-input-group>
-        </b-col>
-        <b-col sm class="mb-2">
-          <b-form-checkbox v-model="value.uncertainStats" title="Check this if the stats you've entered are not certain (such as when multiple IV combinations lead to the same CP/HP).">
-            I'm uncertain about these stats
-          </b-form-checkbox>
-        </b-col>
-      </b-form-row>
-    </b-form-group>
-
-      <b-row>
-        <b-col md="6">
-          <b-form-group label="Quick Move">
-            <b-form-select v-model="value.quickMove">
-              <option v-bind:value="null">&mdash;</option>
-              <optgroup v-if="metadataQuickMoves" label="Can be learned by selected Pokémon">
-                <option v-for="move in metadataQuickMoves" v-bind:key="move.id" v-bind:value="move.id">
-                  {{ move.name }}
-                  ({{move.type}})
-                  <template v-if="move.legacy">(legacy)</template>
-                </option>
-              </optgroup>
-              <optgroup label="All available quick moves">
-                <option v-for="move in quickMoves" v-bind:key="move.id" v-bind:value="move.id">
-                  {{ move.name }}
-                  ({{move.type}})
-                  <template v-if="move.legacy">(legacy)</template>
-                </option>
-              </optgroup>
-            </b-form-select>
-          </b-form-group>
-        </b-col>
-        <b-col md="6">
-          <b-form-group label="Charge Move">
-            <b-form-select v-model="value.chargeMove">
-              <option v-bind:value="null">&mdash;</option>
-              <optgroup v-if="metadataChargeMoves" label="Can be learned by selected Pokémon">
-                <option v-for="move in metadataChargeMoves" v-bind:key="move.id" v-bind:value="move.id">
-                  {{ move.name }}
-                  ({{move.type}})
-                  <template v-if="move.legacy">(legacy)</template>
-                </option>
-              </optgroup>
-              <optgroup label="All available charge moves">
-                <option v-for="move in chargeMoves" v-bind:key="move.id" v-bind:value="move.id">
-                  {{ move.name }}
-                  ({{move.type}})
-                  <template v-if="move.legacy">(legacy)</template>
-                </option>
-              </optgroup>
-            </b-form-select>
-          </b-form-group>
-        </b-col>
-      </b-row>
-    </b-form-group>
-
-    <b-form-group id="add-caught" label="Date Caught" label-for="add-hp" description="Enter the date this Pokémon was caught/obtained">
-      <b-form-input id="add-caught-input" type="date" min="2016-07-06" v-model="value.caughtAt" />
-    </b-form-group>
-
-    <b-form-group id="add-notes" label="Notes" label-for="add-notes" description="Add your own custom notes about this Pokémon.">
-      <!-- <b-form-textarea id="add-notes-input" v-bind:rows="3" v-model="value.notes" /> -->
-      <b-form-input id="add-notes-input" v-model="value.notes" />
-    </b-form-group>
-
-    <slot />
   </b-form>
 </template>
 
 <script>
   import clone from 'clone'
+  import numeral from 'numeral'
 
   import PokemonSprite from '../pokemon-sprite.vue'
   import { cp, hp, dex } from '../../utils'
@@ -173,7 +175,7 @@
       },
 
       pokemonOptions() {
-        return this.$store.getters.pokemonSort('dex').map(pokemon => {
+        return this.$store.getters.pokemonSort([ 'dex' ]).map(pokemon => {
           const text = `${pokemon.name} (${dex(pokemon.dex)})`
           const value = pokemon._id
           return { text, value }
@@ -183,7 +185,8 @@
         const { metadata } = this
         if (metadata && metadata.forms) {
           return Object.keys(metadata.forms).map(key => {
-            return { text: metadata.forms[key].name, value: key }
+            const form = metadata.forms[key]
+            return { text: form && form.name, value: key }
           })
         }
         return null
@@ -231,6 +234,14 @@
       },
       calculatedIVs() {
         return this.totalIVs / 45
+      },
+      spriteURL() {
+        const metadata = this.getMetadata()
+        if (!metadata) return null
+        const bundle = metadata.assetBundle || 0
+        let basename = `pokemon_icon_${numeral(metadata.dex).format('000')}_${numeral(bundle).format('00')}`
+        if (!!this.value.shiny) basename += '_shiny'
+        return `https://raw.githubusercontent.com/ZeChrales/PogoAssets/master/decrypted_assets/${basename}.png`
       }
     },
 
@@ -245,9 +256,23 @@
       },
       getMetadata() {
         const { metadata, value } = this
-        return value.form
-          ? metadata.forms[value.form]
-          : metadata
+        if (!metadata) return null
+
+        const form = value.form || metadata.defaultForm
+        if (form) {
+          const o = clone(metadata)
+          Object.assign(o, o.forms[form])
+          delete o.forms
+          return o
+        } else {
+          return metadata
+        }
+      }
+    },
+
+    watch: {
+      'value.pokemonID': function () {
+        this.value.form = this.metadata.defaultForm || null
       }
     },
 

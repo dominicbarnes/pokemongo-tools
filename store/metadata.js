@@ -35,13 +35,19 @@ const getters = {
   pokemonByID ({ pokemon }) {
     const m = index(pokemon, '_id')
     return (id, form) => {
-      const o = m.get(id)
-      if (!o) return null
-      return form ? o.forms[form] : o
+      if (!m.has(id)) return null
+      if (form) {
+        const o = clone(m.get(id))
+        Object.assign(o, o.forms[form])
+        delete o.forms
+        return o
+      } else {
+        return m.get(id)
+      }
     }
   },
   pokemonSort ({ pokemon }) {
-    return key => pokemon.slice().sort(sortBy(key))
+    return keys => pokemon.slice().sort(sortBy.apply(null, keys))
   },
   pokemonCount ({ pokemon }) {
     return pokemon.length

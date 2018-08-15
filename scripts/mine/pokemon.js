@@ -1,6 +1,5 @@
 
 const Case = require('case')
-const clone = require('clone')
 const POGOProtos = require('node-pogo-protos-vnext')
 
 module.exports = function (m, data) {

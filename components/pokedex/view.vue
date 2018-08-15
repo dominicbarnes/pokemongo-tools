@@ -82,7 +82,6 @@
                   </h5>
                 </b-media>
                 <b-media tag="li" class="border bg-light mb-2">
-                  <pokemon-sprite slot="aside" v-bind:pokemon="pokemon.dex" size="60" />
                   <h5 class="my-1">{{pokemon.name}}</h5>
                 </b-media>
                 <b-media tag="li" v-for="evolution in nextEvolutions" class="border bg-light mb-2">
@@ -170,6 +169,7 @@
         if (!nextEvolutions) return null
         return nextEvolutions.map(evolution => {
           const pokemon = pokemonByID(evolution.pokemon)
+          console.log(evolution, pokemon)
           const { candy, item } = evolution
           return { pokemon, candy, item }
         })

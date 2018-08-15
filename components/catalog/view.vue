@@ -15,7 +15,9 @@
               <small class="text-muted">({{ catalog.species }})</small>
             </h3>
             <h3 v-else>{{ catalog.name }}</h3>
-            <pokemon-sprite v-bind:pokemon="catalog.dex" v-bind:form="catalog.form" v-bind:shiny="catalog.shiny" />
+            <center class="d-block">
+              <img v-bind:src="catalog.sprite" height="256" width="256" />
+            </center>
             <type-badge v-for="type in catalog.types" v-bind:type="type" />
             <rarity-badge v-if="catalog.rarity" v-bind:rarity="catalog.rarity" />
             <shiny-badge v-if="catalog.shiny" />
