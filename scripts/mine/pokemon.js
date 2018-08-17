@@ -1,6 +1,7 @@
 
 const Case = require('case')
 const POGOProtos = require('node-pogo-protos-vnext')
+const costumes = require('./costumes.json')
 
 module.exports = function (m, data) {
   const pokemon = new Map()
@@ -93,7 +94,8 @@ function document (pokemon) {
     rarity: rarity(pokemon),
     buddyDistance: pokemon.kmBuddyDistance,
     height: pokemon.pokedexHeightM,
-    weight: pokemon.pokedexWeightKg
+    weight: pokemon.pokedexWeightKg,
+    costumes: costumes[pokemon.familyId]
   }
 }
 

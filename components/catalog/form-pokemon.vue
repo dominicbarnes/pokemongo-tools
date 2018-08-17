@@ -16,7 +16,10 @@
               </label>
             </b-input-group-append>
             <b-dropdown v-if="formOptions" text="Alternate Forms" variant="secondary" slot="append">
-              <b-dropdown-item v-for="form in formOptions" v-bind:key="form.value" v-on:click="value.form = form.value">{{ form.text }}</b-dropdown-item>
+              <b-dropdown-item v-for="option in formOptions" v-bind:key="option.value" v-on:click="value.form = option.value">{{ option.text }}</b-dropdown-item>
+            </b-dropdown>
+            <b-dropdown v-if="costumeOptions" text="Costumes" variant="secondary" slot="append">
+              <b-dropdown-item v-for="option in costumeOptions" v-bind:key="option.value" v-on:click="value.costume = option.value">{{ option.text }}</b-dropdown-item>
             </b-dropdown>
           </b-input-group>
         </b-form-group>
@@ -132,6 +135,7 @@
 </template>
 
 <script>
+  import Case from 'case'
   import clone from 'clone'
   import numeral from 'numeral'
 
@@ -145,6 +149,7 @@
       attackIV: Number,
       caughtAt: String,
       chargeMove: String,
+      costume: String,
       defenseIV: Number,
       form: String,
       level: Number,
@@ -188,6 +193,18 @@
             const form = metadata.forms[key]
             return { text: form && form.name, value: key }
           })
+        }
+        return null
+      },
+      costumeOptions() {
+        const { metadata } = this
+        if (metadata && metadata.costumes) {
+          const options = [
+            { text: 'No Costume', value: null }
+          ]
+          return options.concat(Object.keys(metadata.costumes).map(key => {
+            return { text: Case.title(key), value: key }
+          }))
         }
         return null
       },
@@ -237,7 +254,10 @@
       },
       spriteURL() {
         const metadata = this.getMetadata()
-        return spriteURL(metadata, { shiny: this.value.shiny })
+        return spriteURL(metadata, {
+          costume: this.value.costume,
+          shiny: this.value.shiny
+        })
       },
       fallbackSpriteURL() {
         return spriteURL(null)
@@ -272,6 +292,7 @@
     watch: {
       'value.pokemonID': function () {
         this.value.form = this.metadata.defaultForm || null
+        this.value.costume = null
       }
     },
 

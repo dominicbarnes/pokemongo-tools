@@ -38,6 +38,14 @@ exports.spriteURL = function (metadata, catalog) {
   if (!metadata) return `${baseSpriteURL}/pokemon_icon_000.png`
   const bundle = metadata.assetBundle || 0
   let basename = `pokemon_icon_${numeral(metadata.dex).format('000')}_${numeral(bundle).format('00')}`
-  if (catalog && catalog.shiny) basename += '_shiny'
+  if (catalog) {
+    if (catalog.costume) {
+      const costume = metadata.costumes[catalog.costume]
+      basename += `_${numeral(costume).format('00')}`
+    }
+    if (catalog.shiny) {
+      basename += '_shiny'
+    }
+  }
   return `https://raw.githubusercontent.com/ZeChrales/PogoAssets/master/decrypted_assets/${basename}.png`
 }

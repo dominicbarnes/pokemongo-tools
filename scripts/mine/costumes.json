@@ -1,0 +1,12 @@
+{
+  "FAMILY_SQUIRTLE": {
+    "sunglasses": 5
+  },
+  "FAMILY_PIKACHU": {
+    "santa_hat": 1,
+    "birthday_hat": 2,
+    "ash_hat": 3,
+    "witch_hat": 4,
+    "summer_hat": 5
+  }
+}
