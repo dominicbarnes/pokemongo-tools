@@ -1,13 +1,12 @@
 
 import debounce from 'debounce'
 import moment from 'moment'
-import numeral from 'numeral'
 import sift from 'sift'
 import sortBy from 'sort-by'
 import Vue from 'vue'
 
 import { index } from './utils'
-import { cp, hp } from '../utils.js'
+import { cp, hp, spriteURL } from '../utils.js'
 
 const { hoodie } = window
 
@@ -241,14 +240,6 @@ function nextEvolutions (list) {
       candy: evolution.candy
     }
   })
-}
-
-function spriteURL (metadata, catalog) {
-  if (!metadata || !catalog) return null
-  const bundle = metadata.assetBundleValue || 0
-  let basename = `pokemon_icon_${numeral(metadata.dex).format('000')}_${numeral(bundle).format('00')}`
-  if (catalog.shiny) basename += '_shiny'
-  return `https://raw.githubusercontent.com/ZeChrales/PogoAssets/master/decrypted_assets/${basename}.png`
 }
 
 // this helper function will only be necessary until kvnneff/sort-by#10 lands

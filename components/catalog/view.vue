@@ -16,7 +16,7 @@
             </h3>
             <h3 v-else>{{ catalog.name }}</h3>
             <center class="d-block">
-              <img v-bind:src="catalog.sprite" height="256" width="256" />
+              <img v-bind:src="catalog.sprite" v-img-fallback="fallbackSpriteURL" height="256" width="256" />
             </center>
             <type-badge v-for="type in catalog.types" v-bind:type="type" />
             <rarity-badge v-if="catalog.rarity" v-bind:rarity="catalog.rarity" />
@@ -159,7 +159,7 @@
   import sortBy from 'sort-by'
   import { mapGetters } from 'vuex'
 
-  import { cp, hp, dex } from '../../utils'
+  import { cp, hp, dex, spriteURL } from '../../utils'
 
   import MoveSummary from '../move-summary.vue'
   import PokemonSprite from '../pokemon-sprite.vue'
@@ -244,6 +244,10 @@
 
       canEvolve() {
         return this.evolutions.length > 0
+      },
+
+      fallbackSpriteURL() {
+        return spriteURL(null)
       }
     },
 
