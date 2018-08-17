@@ -10,6 +10,13 @@
     "MOVE_THUNDERBOLT": false,
     "MOVE_THUNDER_PUNCH": false
   },
+  "costumes": {
+    "ash_hat": 3,
+    "birthday_hat": 2,
+    "santa_hat": 1,
+    "summer_hat": 5,
+    "witch_hat": 4
+  },
   "dex": 172,
   "family": "FAMILY_PIKACHU",
   "generation": 2,

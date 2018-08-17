@@ -10,6 +10,9 @@
     "MOVE_AQUA_TAIL": false,
     "MOVE_WATER_PULSE": false
   },
+  "costumes": {
+    "sunglasses": 5
+  },
   "dex": 7,
   "family": "FAMILY_SQUIRTLE",
   "generation": 1,

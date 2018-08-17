@@ -10,6 +10,9 @@
     "MOVE_HYDRO_PUMP": false,
     "MOVE_ICE_BEAM": false
   },
+  "costumes": {
+    "sunglasses": 5
+  },
   "dex": 9,
   "family": "FAMILY_SQUIRTLE",
   "generation": 1,
