@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_BLIZZARD": false,
     "MOVE_HYPER_BEAM": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_SURF": false
   },
   "dex": 350,
@@ -20,6 +21,7 @@
   "previousEvolution": "POKEMON_FEEBAS",
   "quickMoves": {
     "MOVE_DRAGON_TAIL_FAST": false,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_WATERFALL_FAST": false
   },
   "rarity": "common",

@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_ICE_PUNCH": false,
     "MOVE_LOW_SWEEP": false,
-    "MOVE_PSYSHOCK": false
+    "MOVE_PSYSHOCK": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 307,
   "family": "FAMILY_MEDITITE",
@@ -24,7 +25,8 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_CONFUSION_FAST": false,
-    "MOVE_ROCK_SMASH_FAST": false
+    "MOVE_ROCK_SMASH_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

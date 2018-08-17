@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_CRUNCH": false,
     "MOVE_HYDRO_PUMP": false,
-    "MOVE_POISON_FANG": false
+    "MOVE_POISON_FANG": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 319,
   "family": "FAMILY_CARVANHA",
@@ -20,6 +21,7 @@
   "previousEvolution": "POKEMON_CARVANHA",
   "quickMoves": {
     "MOVE_BITE_FAST": false,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_WATERFALL_FAST": false
   },
   "rarity": "common",

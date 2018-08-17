@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_AERIAL_ACE": false,
     "MOVE_EARTHQUAKE": false,
-    "MOVE_LEAF_BLADE": false
+    "MOVE_LEAF_BLADE": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 254,
   "family": "FAMILY_TREECKO",
@@ -20,7 +21,8 @@
   "previousEvolution": "POKEMON_GROVYLE",
   "quickMoves": {
     "MOVE_BULLET_SEED_FAST": false,
-    "MOVE_FURY_CUTTER_FAST": false
+    "MOVE_FURY_CUTTER_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

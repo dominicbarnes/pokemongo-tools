@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_AIR_CUTTER": false,
     "MOVE_OMINOUS_WIND": false,
-    "MOVE_SILVER_WIND": false
+    "MOVE_SILVER_WIND": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 284,
   "family": "FAMILY_SURSKIT",
@@ -20,7 +21,8 @@
   "previousEvolution": "POKEMON_SURSKIT",
   "quickMoves": {
     "MOVE_AIR_SLASH_FAST": false,
-    "MOVE_INFESTATION_FAST": false
+    "MOVE_INFESTATION_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

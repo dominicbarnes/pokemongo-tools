@@ -10,6 +10,7 @@
     "MOVE_ROCK_SLIDE": false,
     "MOVE_ROCK_TOMB": false
   },
+  "defaultForm": "normal",
   "dex": 74,
   "family": "FAMILY_GEODUDE",
   "forms": {

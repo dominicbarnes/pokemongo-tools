@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_FLASH_CANNON": false,
     "MOVE_FOCUS_BLAST": false,
-    "MOVE_HYPER_BEAM": false
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 379,
   "family": "FAMILY_REGISTEEL",
@@ -20,7 +21,8 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_METAL_CLAW_FAST": false,
-    "MOVE_ROCK_SMASH_FAST": false
+    "MOVE_ROCK_SMASH_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "legendary",
   "types": [

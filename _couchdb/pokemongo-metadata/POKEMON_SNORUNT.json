@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_AVALANCHE": false,
     "MOVE_ICY_WIND": false,
-    "MOVE_SHADOW_BALL": false
+    "MOVE_SHADOW_BALL": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 361,
   "family": "FAMILY_SNORUNT",
@@ -24,7 +25,8 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_HEX_FAST": false,
-    "MOVE_POWDER_SNOW_FAST": false
+    "MOVE_POWDER_SNOW_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

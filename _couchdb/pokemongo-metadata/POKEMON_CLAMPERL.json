@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_BODY_SLAM": false,
     "MOVE_ICE_BEAM": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_WATER_PULSE": false
   },
   "dex": 366,
@@ -27,6 +28,7 @@
   ],
   "previousEvolution": null,
   "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
     "MOVE_WATER_GUN_FAST": false
   },
   "rarity": "common",

@@ -10,6 +10,7 @@
     "MOVE_EARTHQUAKE": false,
     "MOVE_ROCK_TOMB": false
   },
+  "defaultForm": "normal",
   "dex": 28,
   "family": "FAMILY_SANDSHREW",
   "forms": {

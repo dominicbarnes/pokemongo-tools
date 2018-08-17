@@ -10,6 +10,7 @@
     "MOVE_FLAMETHROWER": false,
     "MOVE_FLAME_CHARGE": false
   },
+  "defaultForm": "normal",
   "dex": 37,
   "family": "FAMILY_VULPIX",
   "forms": {

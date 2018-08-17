@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_BLIZZARD": false,
     "MOVE_HYPER_BEAM": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_SURF": false
   },
   "dex": 321,
@@ -19,6 +20,7 @@
   ],
   "previousEvolution": "POKEMON_WAILMER",
   "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
     "MOVE_WATER_GUN_FAST": false,
     "MOVE_ZEN_HEADBUTT_FAST": false
   },

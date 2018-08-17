@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_CROSS_POISON": false,
     "MOVE_ROCK_BLAST": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_WATER_PULSE": false
   },
   "dex": 348,
@@ -20,6 +21,7 @@
   "previousEvolution": "POKEMON_ANORITH",
   "quickMoves": {
     "MOVE_FURY_CUTTER_FAST": false,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_STRUGGLE_BUG_FAST": false
   },
   "rarity": "common",

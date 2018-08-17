@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_EARTHQUAKE": false,
     "MOVE_OVERHEAT": false,
-    "MOVE_SOLAR_BEAM": false
+    "MOVE_SOLAR_BEAM": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 324,
   "family": "FAMILY_TORKOAL",
@@ -20,7 +21,8 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_EMBER_FAST": false,
-    "MOVE_FIRE_SPIN_FAST": false
+    "MOVE_FIRE_SPIN_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

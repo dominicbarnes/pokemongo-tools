@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_BLIZZARD": false,
     "MOVE_EARTHQUAKE": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_WATER_PULSE": false
   },
   "dex": 365,
@@ -20,6 +21,7 @@
   "previousEvolution": "POKEMON_SEALEO",
   "quickMoves": {
     "MOVE_FROST_BREATH_FAST": false,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_WATERFALL_FAST": false
   },
   "rarity": "common",

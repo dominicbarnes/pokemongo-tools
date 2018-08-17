@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_FOUL_PLAY": false,
     "MOVE_GRASS_KNOT": false,
-    "MOVE_LEAF_BLADE": false
+    "MOVE_LEAF_BLADE": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 274,
   "family": "FAMILY_SEEDOT",
@@ -24,7 +25,8 @@
   "previousEvolution": "POKEMON_SEEDOT",
   "quickMoves": {
     "MOVE_FEINT_ATTACK_FAST": false,
-    "MOVE_RAZOR_LEAF_FAST": false
+    "MOVE_RAZOR_LEAF_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

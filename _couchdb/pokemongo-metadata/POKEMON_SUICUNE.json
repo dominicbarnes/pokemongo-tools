@@ -20,6 +20,7 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_EXTRASENSORY_FAST": false,
+    "MOVE_HIDDEN_POWER_FAST": true,
     "MOVE_SNARL_FAST": false
   },
   "rarity": "legendary",

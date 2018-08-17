@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_MUD_BOMB": false,
     "MOVE_SLUDGE": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_SURF": false
   },
   "dex": 259,
@@ -24,6 +25,7 @@
   "previousEvolution": "POKEMON_MUDKIP",
   "quickMoves": {
     "MOVE_MUD_SHOT_FAST": false,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_WATER_GUN_FAST": false
   },
   "rarity": "common",

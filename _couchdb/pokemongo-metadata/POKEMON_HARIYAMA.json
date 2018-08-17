@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_CLOSE_COMBAT": false,
     "MOVE_DYNAMIC_PUNCH": false,
-    "MOVE_HEAVY_SLAM": false
+    "MOVE_HEAVY_SLAM": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 297,
   "family": "FAMILY_MAKUHITA",
@@ -20,7 +21,8 @@
   "previousEvolution": "POKEMON_MAKUHITA",
   "quickMoves": {
     "MOVE_BULLET_PUNCH_FAST": false,
-    "MOVE_COUNTER_FAST": false
+    "MOVE_COUNTER_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

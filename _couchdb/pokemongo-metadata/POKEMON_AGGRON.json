@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_HEAVY_SLAM": false,
     "MOVE_STONE_EDGE": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_THUNDER": false
   },
   "dex": 306,
@@ -20,7 +21,8 @@
   "previousEvolution": "POKEMON_LAIRON",
   "quickMoves": {
     "MOVE_DRAGON_TAIL_FAST": false,
-    "MOVE_IRON_TAIL_FAST": false
+    "MOVE_IRON_TAIL_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

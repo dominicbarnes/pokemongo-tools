@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_AQUA_JET": false,
     "MOVE_DRAINING_KISS": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_WATER_PULSE": false
   },
   "dex": 370,

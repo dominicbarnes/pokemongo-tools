@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_AQUA_JET": false,
     "MOVE_BUBBLE_BEAM": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_VICE_GRIP": false
   },
   "dex": 341,
@@ -24,7 +25,8 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_BUBBLE_FAST": false,
-    "MOVE_ROCK_SMASH_FAST": false
+    "MOVE_ROCK_SMASH_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

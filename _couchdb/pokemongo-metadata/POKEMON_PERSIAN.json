@@ -10,6 +10,7 @@
     "MOVE_PLAY_ROUGH": false,
     "MOVE_POWER_GEM": false
   },
+  "defaultForm": "normal",
   "dex": 53,
   "family": "FAMILY_MEOWTH",
   "forms": {

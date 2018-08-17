@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_BUG_BUZZ": false,
     "MOVE_SIGNAL_BEAM": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_THUNDERBOLT": false
   },
   "dex": 313,
@@ -19,6 +20,7 @@
   ],
   "previousEvolution": null,
   "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
     "MOVE_STRUGGLE_BUG_FAST": false,
     "MOVE_TACKLE_FAST": false
   },

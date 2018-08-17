@@ -6,9 +6,11 @@
   },
   "buddyDistance": 1,
   "chargeMoves": {
+    "MOVE_CRUNCH": true,
     "MOVE_DISARMING_VOICE": false,
     "MOVE_FLAMETHROWER": false,
-    "MOVE_STOMP": false
+    "MOVE_STOMP": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 294,
   "family": "FAMILY_WHISMUR",
@@ -24,7 +26,8 @@
   "previousEvolution": "POKEMON_WHISMUR",
   "quickMoves": {
     "MOVE_BITE_FAST": false,
-    "MOVE_ROCK_SMASH_FAST": false
+    "MOVE_ROCK_SMASH_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

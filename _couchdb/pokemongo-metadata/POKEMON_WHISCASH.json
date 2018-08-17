@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_BLIZZARD": false,
     "MOVE_MUD_BOMB": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_WATER_PULSE": false
   },
   "dex": 340,
@@ -20,6 +21,7 @@
   "previousEvolution": "POKEMON_BARBOACH",
   "quickMoves": {
     "MOVE_MUD_SHOT_FAST": false,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_WATER_GUN_FAST": false
   },
   "rarity": "common",

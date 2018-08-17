@@ -7,6 +7,7 @@
   "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_BLIZZARD": false,
+    "MOVE_EARTHQUAKE": true,
     "MOVE_HYDRO_PUMP": false,
     "MOVE_SURF": false
   },

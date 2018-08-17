@@ -10,6 +10,7 @@
     "MOVE_SEED_BOMB": false,
     "MOVE_SOLAR_BEAM": false
   },
+  "defaultForm": "normal",
   "dex": 103,
   "family": "FAMILY_EXEGGCUTE",
   "forms": {

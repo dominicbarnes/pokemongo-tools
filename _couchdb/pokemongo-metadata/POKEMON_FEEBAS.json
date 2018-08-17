@@ -6,7 +6,8 @@
   },
   "buddyDistance": 5,
   "chargeMoves": {
-    "MOVE_MIRROR_COAT": false
+    "MOVE_MIRROR_COAT": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 349,
   "family": "FAMILY_FEEBAS",

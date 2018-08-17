@@ -10,6 +10,7 @@
     "MOVE_MUD_BOMB": false,
     "MOVE_ROCK_TOMB": false
   },
+  "defaultForm": "normal",
   "dex": 50,
   "family": "FAMILY_DIGLETT",
   "forms": {

@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_CRUNCH": false,
     "MOVE_DISARMING_VOICE": false,
-    "MOVE_FIRE_BLAST": false
+    "MOVE_FIRE_BLAST": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 295,
   "family": "FAMILY_WHISMUR",
@@ -20,7 +21,8 @@
   "previousEvolution": "POKEMON_LOUDRED",
   "quickMoves": {
     "MOVE_ASTONISH_FAST": false,
-    "MOVE_BITE_FAST": false
+    "MOVE_BITE_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

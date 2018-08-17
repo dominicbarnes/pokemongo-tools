@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_DIG": false,
     "MOVE_DISARMING_VOICE": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_WILD_CHARGE": false
   },
   "dex": 300,
@@ -24,6 +25,7 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_FEINT_ATTACK_FAST": false,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_TACKLE_FAST": false
   },
   "rarity": "common",

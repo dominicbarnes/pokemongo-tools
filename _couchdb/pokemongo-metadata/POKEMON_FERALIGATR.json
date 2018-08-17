@@ -20,7 +20,8 @@
   "previousEvolution": "POKEMON_CROCONAW",
   "quickMoves": {
     "MOVE_BITE_FAST": false,
-    "MOVE_WATERFALL_FAST": false
+    "MOVE_WATERFALL_FAST": false,
+    "MOVE_WATER_GUN_FAST": true
   },
   "rarity": "common",
   "types": [

@@ -21,6 +21,7 @@
   ],
   "previousEvolution": null,
   "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
     "MOVE_TAKE_DOWN_FAST": false
   },
   "rarity": "common",

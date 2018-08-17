@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_AURORA_BEAM": false,
     "MOVE_BODY_SLAM": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_WATER_PULSE": false
   },
   "dex": 364,
@@ -24,6 +25,7 @@
   "previousEvolution": "POKEMON_SPHEAL",
   "quickMoves": {
     "MOVE_POWDER_SNOW_FAST": false,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_WATER_GUN_FAST": false
   },
   "rarity": "common",

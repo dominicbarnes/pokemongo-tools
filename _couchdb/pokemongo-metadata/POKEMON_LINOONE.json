@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_DIG": false,
     "MOVE_GRASS_KNOT": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_THUNDER": false
   },
   "dex": 264,
@@ -20,6 +21,7 @@
   "previousEvolution": "POKEMON_ZIGZAGOON",
   "quickMoves": {
     "MOVE_SHADOW_CLAW_FAST": false,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_TACKLE_FAST": false
   },
   "rarity": "common",

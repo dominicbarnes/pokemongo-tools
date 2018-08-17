@@ -10,6 +10,7 @@
     "MOVE_THUNDER_PUNCH": false,
     "MOVE_WILD_CHARGE": false
   },
+  "defaultForm": "normal",
   "dex": 26,
   "family": "FAMILY_PIKACHU",
   "forms": {

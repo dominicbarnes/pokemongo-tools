@@ -6,7 +6,8 @@
   },
   "buddyDistance": 1,
   "chargeMoves": {
-    "MOVE_AERIAL_ACE": false
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 276,
   "family": "FAMILY_TAILLOW",
@@ -22,7 +23,8 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_PECK_FAST": false,
-    "MOVE_QUICK_ATTACK_FAST": false
+    "MOVE_QUICK_ATTACK_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_DRAGON_CLAW": false,
     "MOVE_EARTHQUAKE": false,
-    "MOVE_STONE_EDGE": false
+    "MOVE_STONE_EDGE": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 330,
   "family": "FAMILY_TRAPINCH",
@@ -20,7 +21,8 @@
   "previousEvolution": "POKEMON_VIBRAVA",
   "quickMoves": {
     "MOVE_DRAGON_TAIL_FAST": false,
-    "MOVE_MUD_SHOT_FAST": false
+    "MOVE_MUD_SHOT_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

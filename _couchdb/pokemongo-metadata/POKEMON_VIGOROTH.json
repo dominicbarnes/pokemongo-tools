@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_BODY_SLAM": false,
     "MOVE_BRICK_BREAK": false,
-    "MOVE_BULLDOZE": false
+    "MOVE_BULLDOZE": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 288,
   "family": "FAMILY_SLAKOTH",
@@ -24,7 +25,8 @@
   "previousEvolution": "POKEMON_SLAKOTH",
   "quickMoves": {
     "MOVE_COUNTER_FAST": false,
-    "MOVE_SCRATCH_FAST": false
+    "MOVE_SCRATCH_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

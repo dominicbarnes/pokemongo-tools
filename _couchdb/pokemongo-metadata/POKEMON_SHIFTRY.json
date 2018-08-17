@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_FOUL_PLAY": false,
     "MOVE_HURRICANE": false,
-    "MOVE_LEAF_BLADE": false
+    "MOVE_LEAF_BLADE": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 275,
   "family": "FAMILY_SEEDOT",
@@ -20,7 +21,8 @@
   "previousEvolution": "POKEMON_NUZLEAF",
   "quickMoves": {
     "MOVE_FEINT_ATTACK_FAST": false,
-    "MOVE_RAZOR_LEAF_FAST": false
+    "MOVE_RAZOR_LEAF_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

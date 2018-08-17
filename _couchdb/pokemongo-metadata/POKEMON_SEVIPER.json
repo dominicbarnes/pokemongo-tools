@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_CRUNCH": false,
     "MOVE_POISON_FANG": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_WRAP": false
   },
   "dex": 336,
@@ -20,7 +21,8 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_IRON_TAIL_FAST": false,
-    "MOVE_POISON_JAB_FAST": false
+    "MOVE_POISON_JAB_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

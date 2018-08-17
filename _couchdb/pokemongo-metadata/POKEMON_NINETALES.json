@@ -10,6 +10,7 @@
     "MOVE_OVERHEAT": false,
     "MOVE_SOLAR_BEAM": false
   },
+  "defaultForm": "normal",
   "dex": 38,
   "family": "FAMILY_VULPIX",
   "forms": {

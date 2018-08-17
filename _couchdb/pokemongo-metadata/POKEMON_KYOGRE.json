@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_BLIZZARD": false,
     "MOVE_HYDRO_PUMP": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_THUNDER": false
   },
   "dex": 382,
@@ -19,6 +20,8 @@
   ],
   "previousEvolution": null,
   "quickMoves": {
+    "MOVE_DRAGON_TAIL_FAST": true,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_WATERFALL_FAST": false
   },
   "rarity": "legendary",

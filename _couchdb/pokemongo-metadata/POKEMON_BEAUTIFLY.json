@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_AIR_CUTTER": false,
     "MOVE_BUG_BUZZ": false,
-    "MOVE_SILVER_WIND": false
+    "MOVE_SILVER_WIND": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 267,
   "family": "FAMILY_WURMPLE",
@@ -20,6 +21,7 @@
   "previousEvolution": "POKEMON_SILCOON",
   "quickMoves": {
     "MOVE_INFESTATION_FAST": false,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_STRUGGLE_BUG_FAST": false
   },
   "rarity": "common",

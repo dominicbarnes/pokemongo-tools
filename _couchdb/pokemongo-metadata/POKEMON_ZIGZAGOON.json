@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_DIG": false,
     "MOVE_GRASS_KNOT": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_THUNDERBOLT": false
   },
   "dex": 263,
@@ -24,6 +25,7 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_ROCK_SMASH_FAST": false,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_TACKLE_FAST": false
   },
   "rarity": "common",

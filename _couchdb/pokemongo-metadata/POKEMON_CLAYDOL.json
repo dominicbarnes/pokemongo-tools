@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_EARTHQUAKE": false,
     "MOVE_GYRO_BALL": false,
-    "MOVE_PSYCHIC": false
+    "MOVE_PSYCHIC": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 344,
   "family": "FAMILY_BALTOY",
@@ -20,7 +21,8 @@
   "previousEvolution": "POKEMON_BALTOY",
   "quickMoves": {
     "MOVE_CONFUSION_FAST": false,
-    "MOVE_EXTRASENSORY_FAST": false
+    "MOVE_EXTRASENSORY_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

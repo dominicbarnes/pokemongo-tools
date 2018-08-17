@@ -10,6 +10,7 @@
     "MOVE_SLUDGE": false,
     "MOVE_SLUDGE_BOMB": false
   },
+  "defaultForm": "normal",
   "dex": 88,
   "family": "FAMILY_GRIMER",
   "forms": {

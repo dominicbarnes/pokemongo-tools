@@ -7,6 +7,7 @@
   "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_FLAME_BURST": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_THUNDER": false,
     "MOVE_WILD_CHARGE": false
   },
@@ -20,7 +21,8 @@
   "previousEvolution": "POKEMON_ELECTRIKE",
   "quickMoves": {
     "MOVE_CHARGE_BEAM_FAST": false,
-    "MOVE_SNARL_FAST": false
+    "MOVE_SNARL_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

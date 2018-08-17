@@ -7,9 +7,11 @@
   "buddyDistance": 20,
   "chargeMoves": {
     "MOVE_PSYCHO_BOOST": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_SWIFT": false,
     "MOVE_ZAP_CANNON": false
   },
+  "defaultForm": "normal",
   "dex": 386,
   "family": "FAMILY_DEOXYS",
   "forms": {
@@ -146,6 +148,7 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_COUNTER_FAST": false,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_ZEN_HEADBUTT_FAST": false
   },
   "rarity": "mythic",

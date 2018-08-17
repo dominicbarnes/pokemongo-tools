@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_BLIZZARD": false,
     "MOVE_HYDRO_PUMP": false,
+    "MOVE_ICE_BEAM": true,
     "MOVE_SURF": false
   },
   "dex": 131,

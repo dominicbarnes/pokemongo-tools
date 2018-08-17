@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_BODY_SLAM": false,
     "MOVE_HEAVY_SLAM": false,
-    "MOVE_ROCK_SLIDE": false
+    "MOVE_ROCK_SLIDE": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 305,
   "family": "FAMILY_ARON",
@@ -24,7 +25,8 @@
   "previousEvolution": "POKEMON_ARON",
   "quickMoves": {
     "MOVE_IRON_TAIL_FAST": false,
-    "MOVE_METAL_CLAW_FAST": false
+    "MOVE_METAL_CLAW_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

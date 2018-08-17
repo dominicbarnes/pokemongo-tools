@@ -19,7 +19,9 @@
   ],
   "previousEvolution": null,
   "quickMoves": {
-    "MOVE_PRESENT_FAST": false
+    "MOVE_ICE_SHARD_FAST": true,
+    "MOVE_PRESENT_FAST": false,
+    "MOVE_QUICK_ATTACK_FAST": true
   },
   "rarity": "common",
   "types": [

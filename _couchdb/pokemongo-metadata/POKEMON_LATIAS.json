@@ -6,8 +6,10 @@
   },
   "buddyDistance": 20,
   "chargeMoves": {
+    "MOVE_DRAGON_CLAW": true,
     "MOVE_OUTRAGE": false,
     "MOVE_PSYCHIC": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_THUNDER": false
   },
   "dex": 380,
@@ -20,6 +22,7 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_DRAGON_BREATH_FAST": false,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_ZEN_HEADBUTT_FAST": false
   },
   "rarity": "legendary",

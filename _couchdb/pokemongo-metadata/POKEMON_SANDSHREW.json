@@ -10,6 +10,7 @@
     "MOVE_ROCK_SLIDE": false,
     "MOVE_SAND_TOMB": false
   },
+  "defaultForm": "normal",
   "dex": 27,
   "family": "FAMILY_SANDSHREW",
   "forms": {

@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_DAZZLING_GLEAM": false,
     "MOVE_PSYCHIC": false,
-    "MOVE_SHADOW_BALL": false
+    "MOVE_SHADOW_BALL": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 282,
   "family": "FAMILY_RALTS",
@@ -20,7 +21,8 @@
   "previousEvolution": "POKEMON_KIRLIA",
   "quickMoves": {
     "MOVE_CHARGE_BEAM_FAST": false,
-    "MOVE_CONFUSION_FAST": false
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

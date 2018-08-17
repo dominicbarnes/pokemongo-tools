@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_BODY_SLAM": false,
     "MOVE_HEAVY_SLAM": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_WATER_PULSE": false
   },
   "dex": 320,

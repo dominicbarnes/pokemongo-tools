@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_DIG": false,
     "MOVE_SLUDGE": false,
-    "MOVE_STOMP": false
+    "MOVE_STOMP": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 258,
   "family": "FAMILY_MUDKIP",
@@ -23,6 +24,7 @@
   ],
   "previousEvolution": null,
   "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
     "MOVE_TACKLE_FAST": false,
     "MOVE_WATER_GUN_FAST": false
   },

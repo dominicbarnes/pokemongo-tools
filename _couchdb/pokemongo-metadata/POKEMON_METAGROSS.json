@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_EARTHQUAKE": false,
     "MOVE_FLASH_CANNON": false,
-    "MOVE_PSYCHIC": false
+    "MOVE_PSYCHIC": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 376,
   "family": "FAMILY_BELDUM",
@@ -20,6 +21,7 @@
   "previousEvolution": "POKEMON_METANG",
   "quickMoves": {
     "MOVE_BULLET_PUNCH_FAST": false,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_ZEN_HEADBUTT_FAST": false
   },
   "rarity": "common",

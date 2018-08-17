@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_EARTHQUAKE": false,
     "MOVE_SLUDGE_WAVE": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_SURF": false
   },
   "dex": 260,
@@ -20,6 +21,7 @@
   "previousEvolution": "POKEMON_MARSHTOMP",
   "quickMoves": {
     "MOVE_MUD_SHOT_FAST": false,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_WATER_GUN_FAST": false
   },
   "rarity": "common",

@@ -11,6 +11,7 @@
     "MOVE_FOUL_PLAY": false,
     "MOVE_ICE_BEAM": false,
     "MOVE_SHADOW_SNEAK": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_THUNDER": false
   },
   "dex": 352,
@@ -23,6 +24,7 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_LICK_FAST": false,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_SUCKER_PUNCH_FAST": false
   },
   "rarity": "common",

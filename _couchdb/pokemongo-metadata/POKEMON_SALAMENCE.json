@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_DRACO_METEOR": false,
     "MOVE_FIRE_BLAST": false,
-    "MOVE_HYDRO_PUMP": false
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 373,
   "family": "FAMILY_BAGON",
@@ -20,7 +21,8 @@
   "previousEvolution": "POKEMON_SHELGON",
   "quickMoves": {
     "MOVE_DRAGON_TAIL_FAST": false,
-    "MOVE_FIRE_FANG_FAST": false
+    "MOVE_FIRE_FANG_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

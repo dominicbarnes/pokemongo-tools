@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_ANCIENT_POWER": false,
     "MOVE_AQUA_TAIL": false,
-    "MOVE_HYDRO_PUMP": false
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 369,
   "family": "FAMILY_RELICANTH",
@@ -19,6 +20,7 @@
   ],
   "previousEvolution": null,
   "quickMoves": {
+    "MOVE_SPLASH_FAST": true,
     "MOVE_WATER_GUN_FAST": false,
     "MOVE_ZEN_HEADBUTT_FAST": false
   },

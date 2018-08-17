@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_DISARMING_VOICE": false,
     "MOVE_PSYCHIC": false,
-    "MOVE_SHADOW_SNEAK": false
+    "MOVE_SHADOW_SNEAK": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 281,
   "family": "FAMILY_RALTS",
@@ -24,7 +25,8 @@
   "previousEvolution": "POKEMON_RALTS",
   "quickMoves": {
     "MOVE_CHARGE_BEAM_FAST": false,
-    "MOVE_CONFUSION_FAST": false
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

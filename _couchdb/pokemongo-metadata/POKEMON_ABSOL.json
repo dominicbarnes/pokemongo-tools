@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_DARK_PULSE": false,
     "MOVE_MEGAHORN": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_THUNDER": false
   },
   "dex": 359,
@@ -20,7 +21,8 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_PSYCHO_CUT_FAST": false,
-    "MOVE_SNARL_FAST": false
+    "MOVE_SNARL_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

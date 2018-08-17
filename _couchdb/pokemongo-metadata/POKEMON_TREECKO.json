@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_AERIAL_ACE": false,
     "MOVE_ENERGY_BALL": false,
-    "MOVE_GRASS_KNOT": false
+    "MOVE_GRASS_KNOT": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 252,
   "family": "FAMILY_TREECKO",
@@ -24,7 +25,8 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_BULLET_SEED_FAST": false,
-    "MOVE_POUND_FAST": false
+    "MOVE_POUND_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

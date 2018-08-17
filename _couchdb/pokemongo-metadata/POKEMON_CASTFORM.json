@@ -6,9 +6,14 @@
   },
   "buddyDistance": 5,
   "chargeMoves": {
+    "MOVE_ANCIENT_POWER": true,
+    "MOVE_CRUNCH": true,
     "MOVE_ENERGY_BALL": false,
-    "MOVE_HURRICANE": false
+    "MOVE_HURRICANE": false,
+    "MOVE_STOMP": true,
+    "MOVE_STRUGGLE": true
   },
+  "defaultForm": "normal",
   "dex": 351,
   "family": "FAMILY_CASTFORM",
   "forms": {
@@ -140,7 +145,10 @@
   ],
   "previousEvolution": null,
   "quickMoves": {
+    "MOVE_BITE_FAST": true,
     "MOVE_HEX_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": true,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_TACKLE_FAST": false
   },
   "rarity": "common",

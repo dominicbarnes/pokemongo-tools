@@ -10,6 +10,7 @@
     "MOVE_DIG": false,
     "MOVE_HYPER_FANG": false
   },
+  "defaultForm": "normal",
   "dex": 19,
   "family": "FAMILY_RATTATA",
   "forms": {

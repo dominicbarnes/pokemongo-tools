@@ -10,6 +10,7 @@
     "MOVE_MUD_BOMB": false,
     "MOVE_STONE_EDGE": false
   },
+  "defaultForm": "normal",
   "dex": 51,
   "family": "FAMILY_DIGLETT",
   "forms": {

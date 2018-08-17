@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_BUBBLE_BEAM": false,
     "MOVE_GRASS_KNOT": false,
-    "MOVE_ICE_BEAM": false
+    "MOVE_ICE_BEAM": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 271,
   "family": "FAMILY_LOTAD",
@@ -24,7 +25,8 @@
   "previousEvolution": "POKEMON_LOTAD",
   "quickMoves": {
     "MOVE_BUBBLE_FAST": false,
-    "MOVE_RAZOR_LEAF_FAST": false
+    "MOVE_RAZOR_LEAF_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

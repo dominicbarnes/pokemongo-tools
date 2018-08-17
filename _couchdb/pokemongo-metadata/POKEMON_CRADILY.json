@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_BULLDOZE": false,
     "MOVE_GRASS_KNOT": false,
-    "MOVE_STONE_EDGE": false
+    "MOVE_STONE_EDGE": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 346,
   "family": "FAMILY_LILEEP",
@@ -20,7 +21,8 @@
   "previousEvolution": "POKEMON_LILEEP",
   "quickMoves": {
     "MOVE_ACID_FAST": false,
-    "MOVE_INFESTATION_FAST": false
+    "MOVE_INFESTATION_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

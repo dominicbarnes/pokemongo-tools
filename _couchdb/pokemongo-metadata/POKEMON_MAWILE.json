@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_IRON_HEAD": false,
     "MOVE_PLAY_ROUGH": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_VICE_GRIP": false
   },
   "dex": 303,
@@ -20,7 +21,8 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_ASTONISH_FAST": false,
-    "MOVE_BITE_FAST": false
+    "MOVE_BITE_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

@@ -10,6 +10,7 @@
     "MOVE_GUNK_SHOT": false,
     "MOVE_SLUDGE_WAVE": false
   },
+  "defaultForm": "normal",
   "dex": 89,
   "family": "FAMILY_GRIMER",
   "forms": {

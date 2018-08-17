@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_CRUNCH": false,
     "MOVE_PLAY_ROUGH": false,
-    "MOVE_POISON_FANG": false
+    "MOVE_POISON_FANG": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 262,
   "family": "FAMILY_POOCHYENA",
@@ -20,7 +21,8 @@
   "previousEvolution": "POKEMON_POOCHYENA",
   "quickMoves": {
     "MOVE_BITE_FAST": false,
-    "MOVE_FIRE_FANG_FAST": false
+    "MOVE_FIRE_FANG_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

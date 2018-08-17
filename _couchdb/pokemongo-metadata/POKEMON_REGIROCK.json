@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_FOCUS_BLAST": false,
     "MOVE_STONE_EDGE": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_ZAP_CANNON": false
   },
   "dex": 377,
@@ -20,7 +21,8 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_ROCK_SMASH_FAST": false,
-    "MOVE_ROCK_THROW_FAST": false
+    "MOVE_ROCK_THROW_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "legendary",
   "types": [

@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_DAZZLING_GLEAM": false,
     "MOVE_DRAGON_PULSE": false,
-    "MOVE_SKY_ATTACK": false
+    "MOVE_SKY_ATTACK": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 334,
   "family": "FAMILY_SWABLU",
@@ -20,7 +21,8 @@
   "previousEvolution": "POKEMON_SWABLU",
   "quickMoves": {
     "MOVE_DRAGON_BREATH_FAST": false,
-    "MOVE_PECK_FAST": false
+    "MOVE_PECK_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

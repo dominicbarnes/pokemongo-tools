@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_GUNK_SHOT": false,
     "MOVE_ICE_BEAM": false,
-    "MOVE_SLUDGE_BOMB": false
+    "MOVE_SLUDGE_BOMB": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 317,
   "family": "FAMILY_GULPIN",
@@ -20,7 +21,8 @@
   "previousEvolution": "POKEMON_GULPIN",
   "quickMoves": {
     "MOVE_INFESTATION_FAST": false,
-    "MOVE_ROCK_SMASH_FAST": false
+    "MOVE_ROCK_SMASH_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_AERIAL_ACE": false,
     "MOVE_ANCIENT_POWER": false,
-    "MOVE_OUTRAGE": false
+    "MOVE_OUTRAGE": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 384,
   "family": "FAMILY_RAYQUAZA",
@@ -20,7 +21,8 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_AIR_SLASH_FAST": false,
-    "MOVE_DRAGON_TAIL_FAST": false
+    "MOVE_DRAGON_TAIL_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "legendary",
   "types": [

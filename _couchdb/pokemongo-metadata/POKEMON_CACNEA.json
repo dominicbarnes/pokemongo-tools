@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_BRICK_BREAK": false,
     "MOVE_GRASS_KNOT": false,
-    "MOVE_SEED_BOMB": false
+    "MOVE_SEED_BOMB": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 331,
   "family": "FAMILY_CACNEA",
@@ -24,6 +25,7 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_POISON_STING_FAST": false,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_SUCKER_PUNCH_FAST": false
   },
   "rarity": "common",

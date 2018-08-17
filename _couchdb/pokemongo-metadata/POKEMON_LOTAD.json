@@ -7,7 +7,8 @@
   "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_BUBBLE_BEAM": false,
-    "MOVE_ENERGY_BALL": false
+    "MOVE_ENERGY_BALL": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 270,
   "family": "FAMILY_LOTAD",
@@ -23,6 +24,7 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_RAZOR_LEAF_FAST": false,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_WATER_GUN_FAST": false
   },
   "rarity": "common",

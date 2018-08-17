@@ -10,6 +10,7 @@
     "MOVE_DIG": false,
     "MOVE_EARTHQUAKE": false
   },
+  "defaultForm": "normal",
   "dex": 105,
   "family": "FAMILY_CUBONE",
   "forms": {

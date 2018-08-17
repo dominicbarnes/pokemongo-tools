@@ -10,6 +10,7 @@
     "MOVE_ROCK_BLAST": false,
     "MOVE_STONE_EDGE": false
   },
+  "defaultForm": "normal",
   "dex": 75,
   "family": "FAMILY_GEODUDE",
   "forms": {

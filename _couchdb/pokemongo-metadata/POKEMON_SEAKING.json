@@ -20,6 +20,7 @@
   "previousEvolution": "POKEMON_GOLDEEN",
   "quickMoves": {
     "MOVE_PECK_FAST": false,
+    "MOVE_POISON_JAB_FAST": true,
     "MOVE_WATERFALL_FAST": false
   },
   "rarity": "common",

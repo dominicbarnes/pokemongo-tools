@@ -8,7 +8,9 @@
   "chargeMoves": {
     "MOVE_BRAVE_BIRD": false,
     "MOVE_FOCUS_BLAST": false,
-    "MOVE_OVERHEAT": false
+    "MOVE_OVERHEAT": false,
+    "MOVE_STONE_EDGE": true,
+    "MOVE_STRUGGLE": true
   },
   "dex": 257,
   "family": "FAMILY_TORCHIC",
@@ -20,7 +22,8 @@
   "previousEvolution": "POKEMON_COMBUSKEN",
   "quickMoves": {
     "MOVE_COUNTER_FAST": false,
-    "MOVE_FIRE_SPIN_FAST": false
+    "MOVE_FIRE_SPIN_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

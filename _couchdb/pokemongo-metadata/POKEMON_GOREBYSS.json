@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_DRAINING_KISS": false,
     "MOVE_PSYCHIC": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_WATER_PULSE": false
   },
   "dex": 368,
@@ -20,6 +21,7 @@
   "previousEvolution": "POKEMON_CLAMPERL",
   "quickMoves": {
     "MOVE_CONFUSION_FAST": false,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_WATER_GUN_FAST": false
   },
   "rarity": "common",

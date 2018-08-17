@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_AERIAL_ACE": false,
     "MOVE_DIG": false,
-    "MOVE_SHADOW_SNEAK": false
+    "MOVE_SHADOW_SNEAK": false,
+    "MOVE_STRUGGLE": true
   },
   "dex": 292,
   "family": "FAMILY_NINCADA",
@@ -20,6 +21,7 @@
   "previousEvolution": "POKEMON_NINCADA",
   "quickMoves": {
     "MOVE_BITE_FAST": false,
+    "MOVE_SPLASH_FAST": true,
     "MOVE_STRUGGLE_BUG_FAST": false
   },
   "rarity": "common",

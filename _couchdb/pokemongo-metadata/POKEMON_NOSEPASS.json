@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_ROCK_BLAST": false,
     "MOVE_ROCK_SLIDE": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_THUNDERBOLT": false
   },
   "dex": 299,
@@ -20,7 +21,8 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_ROCK_THROW_FAST": false,
-    "MOVE_SPARK_FAST": false
+    "MOVE_SPARK_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [

@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_DRAGON_PULSE": false,
     "MOVE_FLAMETHROWER": false,
+    "MOVE_STRUGGLE": true,
     "MOVE_TWISTER": false
   },
   "dex": 372,
@@ -24,7 +25,8 @@
   "previousEvolution": "POKEMON_BAGON",
   "quickMoves": {
     "MOVE_DRAGON_BREATH_FAST": false,
-    "MOVE_EMBER_FAST": false
+    "MOVE_EMBER_FAST": false,
+    "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",
   "types": [
