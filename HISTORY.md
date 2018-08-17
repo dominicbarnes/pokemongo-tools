@@ -1,4 +1,16 @@
 
+0.9.0 / 2018-08-17
+==================
+
+  * fix(catalog): various sprite fixes
+  * metadata: rebuild
+  * feat(metadata): parse all versions again
+  * feat(metadata): set default form to normal when multiple forms detected
+  * feat(pokedex): add img src fallback for missing sprites
+  * fix(import): restore pull before mine
+  * feat: support unown forms and use better asset images
+  * feat(metadata): import alternate unown forms
+
 0.8.2 / 2018-07-28
 ==================
 
