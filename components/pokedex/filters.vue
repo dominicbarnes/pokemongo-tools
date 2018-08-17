@@ -3,8 +3,8 @@
     <b-form-group label="Keywords">
       <b-form-input v-model="value.name" type="text" placeholder="Name" />
     </b-form-group>
-    <filter-generation v-model="value.generation" />
     <filter-family v-model="value.family" />
+    <filter-generation v-model="value.generation" />
     <filter-rarity v-model="value.rarity" />
     <filter-types v-model="value.types" />
   </b-form>

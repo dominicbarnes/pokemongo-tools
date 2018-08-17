@@ -32,9 +32,10 @@ exports.multiplier = function (cp, attack, defense, stamina) {
   return Math.sqrt((cp * 10) / (attack * Math.sqrt(defense) * Math.sqrt(stamina)))
 }
 
+const baseSpriteURL = 'https://raw.githubusercontent.com/ZeChrales/PogoAssets/master/decrypted_assets'
+
 exports.spriteURL = function (metadata, catalog) {
-  if (!metadata) return null
-  if (metadata.dex === 20) console.log(metadata, catalog)
+  if (!metadata) return `${baseSpriteURL}/pokemon_icon_000.png`
   const bundle = metadata.assetBundle || 0
   let basename = `pokemon_icon_${numeral(metadata.dex).format('000')}_${numeral(bundle).format('00')}`
   if (catalog && catalog.shiny) basename += '_shiny'

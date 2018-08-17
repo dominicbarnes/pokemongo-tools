@@ -2,7 +2,7 @@
   <b-form v-on:submit.stop.prevent="$emit('submit', value)">
     <b-row>
       <b-col md="3" order-md="12">
-        <b-img v-bind:src="spriteURL" fluid-grow />
+        <b-img v-bind:src="spriteURL" v-img-fallback="fallbackSpriteURL" />
       </b-col>
 
       <b-col md="9">
@@ -136,7 +136,7 @@
   import numeral from 'numeral'
 
   import PokemonSprite from '../pokemon-sprite.vue'
-  import { cp, hp, dex } from '../../utils'
+  import { cp, hp, dex, spriteURL } from '../../utils'
   import { mapGetters } from 'vuex'
 
   export default {
@@ -237,11 +237,10 @@
       },
       spriteURL() {
         const metadata = this.getMetadata()
-        if (!metadata) return null
-        const bundle = metadata.assetBundle || 0
-        let basename = `pokemon_icon_${numeral(metadata.dex).format('000')}_${numeral(bundle).format('00')}`
-        if (!!this.value.shiny) basename += '_shiny'
-        return `https://raw.githubusercontent.com/ZeChrales/PogoAssets/master/decrypted_assets/${basename}.png`
+        return spriteURL(metadata, { shiny: this.value.shiny })
+      },
+      fallbackSpriteURL() {
+        return spriteURL(null)
       }
     },
 

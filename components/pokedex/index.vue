@@ -7,10 +7,13 @@
           <pokedex-filters v-model="filters" />
         </b-col>
         <b-col md="9" lg="10" class="pt-2">
+          <div class="mb-2">
+            <b-button v-bind:pressed.sync="shiny">Shiny Forms</b-button>
+          </div>
           <paginated-list v-bind:list="list" v-bind:filter="filterer">
             <template slot="item" slot-scope="{ item: pokemon }">
               <b-col v-bind:key="pokemon.id" cols="12" md="6" lg="3">
-                <pokedex-item v-bind:pokemon="pokemon" />
+                <pokedex-item v-bind:pokemon="pokemon" v-bind:shiny="shiny" />
               </b-col>
             </template>
           </paginated-list>
@@ -30,7 +33,10 @@
 
   export default {
     data() {
-      return { filters: Object.create(null) }
+      return {
+        shiny: false,
+        filters: Object.create(null)
+      }
     },
 
     computed: {

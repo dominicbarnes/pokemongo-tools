@@ -1,12 +1,15 @@
 <template>
-  <b-card class="border rounded mb-3" v-bind:img-src="spriteURL">
-    <h2 class="h3 mt-1 mb-0">
-      <b-link v-bind:to="{ name: 'pokedex-view', params: { pokemon: pokemon.id } }">{{pokemon.name}}</b-link>
-      <small>({{ pokemon.dex | dex }})</small>
-    </h2>
-    <type-badge v-for="type in pokemon.types" v-bind:type="type" />
-    <generation-badge v-bind:generation="pokemon.generation" />
-    <rarity-badge v-if="pokemon.rarity" v-bind:rarity="pokemon.rarity" />
+  <b-card class="border rounded mb-3" no-body>
+    <b-card-img v-bind:src="spriteURL" v-img-fallback="fallbackSpriteURL" />
+    <b-card-body>
+      <h2 class="h3 mt-1 mb-0">
+        <b-link v-bind:to="{ name: 'pokedex-view', params: { pokemon: pokemon.id } }">{{pokemon.name}}</b-link>
+        <small>({{ pokemon.dex | dex }})</small>
+      </h2>
+      <type-badge v-for="type in pokemon.types" v-bind:type="type" />
+      <generation-badge v-bind:generation="pokemon.generation" />
+      <rarity-badge v-if="pokemon.rarity" v-bind:rarity="pokemon.rarity" />
+    </b-card-body>
   </b-card>
 </template>
 
@@ -23,12 +26,18 @@
       pokemon: {
         type: Object,
         required: true
-      }
+      },
+      shiny: Boolean
     },
 
     computed: {
       spriteURL() {
-        return spriteURL(this.pokemon)
+        const { pokemon, shiny } = this
+        return spriteURL(pokemon, { shiny })
+      },
+
+      fallbackSpriteURL() {
+        return spriteURL(null)
       }
     },
 

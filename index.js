@@ -1,18 +1,20 @@
 import 'babel-polyfill'
-import './hoodie'
+import './hoodie.js'
 
 import BootstrapVue from 'bootstrap-vue'
 import markdown from 'nano-markdown'
 import numeral from 'numeral'
 import Vue from 'vue'
 
-import { stage, segmentWriteKey } from './config'
-import store from './store'
-import router from './router'
+import { stage, segmentWriteKey } from './config.js'
+import store from './store/index.js'
+import router from './router.js'
 import App from './components/app.vue'
 import LoadingPanel from './components/loading-panel.vue'
+import ImgFallback from './directives/img-fallback.js'
 
 Vue.use(BootstrapVue)
+Vue.directive('img-fallback', ImgFallback)
 
 Vue.filter('dex', value => `#${numeral(value).format('000')}`)
 Vue.filter('markdown', value => markdown(value))
