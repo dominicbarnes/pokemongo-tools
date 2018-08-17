@@ -10,9 +10,8 @@ const output = path.join(root, '_couchdb/pokemongo-metadata')
 
 module.exports = async function () {
   const data = new Map()
-  // const files = await fs.readdir(input)
-  // const versions = files.map(name => parseInt(name, 10)).filter(version => version > 0).sort()
-  const versions = [ 'latest' ]
+  const files = await fs.readdir(input)
+  const versions = files.map(name => parseInt(name, 10)).filter(version => version > 0).sort()
 
   console.log('importing GAME_MASTER data')
   for (const version of versions) {

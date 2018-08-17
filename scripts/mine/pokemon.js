@@ -28,6 +28,7 @@ module.exports = function (m, data) {
     if (!settings.forms) return
     const doc = pokemon.get(`POKEMON_${settings.pokemon}`)
     settings.forms.forEach(form => {
+      if (typeof form.form !== 'string') return // HACK
       const f = form.form.replace(`${settings.pokemon}_`, '').toLowerCase()
       if (!doc.forms) {
         doc.defaultForm = f
