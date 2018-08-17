@@ -16,7 +16,10 @@ module.exports = function (m, data) {
     if (!settings.form) return
     const f = form(settings)
     const doc = pokemon.get(`POKEMON_${settings.pokemonId}`)
-    if (!doc.forms) doc.forms = Object.create(null)
+    if (!doc.forms) {
+      doc.defaultForm = 'normal'
+      doc.forms = Object.create(null)
+    }
     doc.forms[f] = document(settings)
   })
 
