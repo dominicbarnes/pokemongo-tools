@@ -47,5 +47,5 @@ exports.spriteURL = function (metadata, catalog) {
       basename += '_shiny'
     }
   }
-  return `https://raw.githubusercontent.com/ZeChrales/PogoAssets/master/decrypted_assets/${basename}.png`
+  return `https://raw.githubusercontent.com/ZeChrales/PogoAssets/master/pokemon_icons/${basename}.png`
 }
