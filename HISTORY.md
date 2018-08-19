@@ -1,4 +1,10 @@
 
+0.10.1 / 2018-08-19
+===================
+
+  * feat(img-fallback): do not set img src if already that value
+  * fix: update pokemon icon base url
+
 0.10.0 / 2018-08-17
 ===================
 
