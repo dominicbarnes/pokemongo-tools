@@ -67,7 +67,7 @@ const getters = {
       }
     })
   },
-  filterer (state) {
+  filterer (state, getters, rootState, { pokemonThatEvolve }) {
     if (!state.filterBy) return null
 
     const { name, family, generation, minIV, minLevel, types, evolves, rarity, quickMove, chargeMove, form, shiny, uncertain } = state.filterBy
@@ -91,7 +91,7 @@ const getters = {
     if (typeof uncertain === 'boolean') query.$and.push({ uncertain })
     if (typeof evolves === 'boolean') {
       query.$and.push({
-        pokemon: { [evolves ? '$in' : '$nin']: this.evolves }
+        pokemon: { [evolves ? '$in' : '$nin']: pokemonThatEvolve }
       })
     }
 

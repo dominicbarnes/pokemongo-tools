@@ -58,6 +58,11 @@ const getters = {
       return acc
     }, new Set())).sort()
   },
+  pokemonThatEvolve ({ pokemon }) {
+    return pokemon
+      .filter(doc => doc.nextEvolutions && doc.nextEvolutions.length)
+      .map(doc => doc._id)
+  },
 
   movesByID ({ moves }) {
     const m = index(moves, '_id')
