@@ -1,5 +1,5 @@
 <template>
-  <b-form>
+  <b-form v-on:submit.prevent>
     <b-form-group label="Keywords">
       <b-form-input v-model="name" type="search" />
     </b-form-group>

@@ -14,7 +14,7 @@
               <b-button v-if="bulkSelected.length > 0" v-on:click="deleteBulk" variant="danger" class="mb-1">Delete {{ bulkSelected.length }}</b-button>
             </b-col>
             <b-col>
-              <b-form inline class="float-right">
+              <b-form v-on:submit.prevent inline class="float-right">
                 <label>
                   Sort By:&nbsp;
                   <b-form-select v-model="sort" v-bind:options="sortBy" />

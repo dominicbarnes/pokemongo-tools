@@ -23,7 +23,7 @@
         </div>
         <b-pagination v-model="currentPage" v-bind:per-page="perPage" v-bind:total-rows="count" align="center" />
         <div class="d-none d-md-block">
-          <b-form inline>
+          <b-form v-on:submit.prevent inline>
             <label for="per-page" class="mr-1">Per Page:</label>
             <b-form-select id="per-page" v-model="perPage" v-bind:options="options" />
           </b-form>
