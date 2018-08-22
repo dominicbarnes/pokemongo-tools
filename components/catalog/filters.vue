@@ -4,8 +4,8 @@
       <b-form-input v-model="name" type="search" />
     </b-form-group>
     <filter-family v-model="family" />
-    <filter-ivs v-model="minIV" />
-    <filter-level v-model="minLevel" />
+    <filter-ivs v-model="ivs" />
+    <filter-level v-model="levels" />
     <filter-generation v-model="generation" />
     <filter-rarity v-model="rarity" />
     <filter-form v-model="form" />
@@ -19,6 +19,7 @@
 </template>
 
 <script>
+  import clone from 'clone'
   import debounce from 'debounce'
 
   import FilterChargeMove from '../filters/charge-move.vue'
@@ -38,14 +39,13 @@
     props: ['value'],
 
     data() {
-      const { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove, form, shiny, uncertain } = this.value
-      return { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove, form, shiny, uncertain }
+      return clone(this.value)
     },
 
     computed: {
       newValue() {
-        const { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove, form, shiny, uncertain } = this
-        return { name, family, minIV, minLevel, generation, rarity, evolves, types, quickMove, chargeMove, form, shiny, uncertain }
+        const { name, family, ivs, levels, generation, rarity, evolves, types, quickMove, chargeMove, form, shiny, uncertain } = this
+        return { name, family, ivs, levels, generation, rarity, evolves, types, quickMove, chargeMove, form, shiny, uncertain }
       }
     },
 

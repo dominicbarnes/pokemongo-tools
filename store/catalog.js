@@ -12,7 +12,7 @@ const { hoodie } = window
 
 const state = {
   raw: [],
-  filterBy: {},
+  filterBy: { ivs: [ 0, 100 ], levels: [ 0, 40 ] },
   sortBy: 'recent'
 }
 
@@ -70,7 +70,7 @@ const getters = {
   filterer (state, getters, rootState, { pokemonThatEvolve }) {
     if (!state.filterBy) return null
 
-    const { name, family, generation, minIV, minLevel, types, evolves, rarity, quickMove, chargeMove, form, shiny, uncertain } = state.filterBy
+    const { name, family, generation, ivs, levels, types, evolves, rarity, quickMove, chargeMove, form, shiny, uncertain } = state.filterBy
     const query = { $and: [] }
 
     if (name) {
@@ -80,8 +80,22 @@ const getters = {
 
     if (family) query.$and.push({ family })
     if (generation) query.$and.push({ generation })
-    if (minIV) query.$and.push({ ivp: { $gte: minIV / 100 } })
-    if (minLevel) query.$and.push({ level: { $gte: minLevel } })
+    if (ivs) {
+      query.$and.push({
+        ivp: {
+          $gte: ivs[0] / 100,
+          $lte: ivs[1] / 100
+        }
+      })
+    }
+    if (levels) {
+      query.$and.push({
+        level: {
+          $gte: levels[0],
+          $lte: levels[1]
+        }
+      })
+    }
     if (rarity) query.$and.push({ rarity: rarity === 'common' ? null : rarity })
     if (types && types.length) query.$and.push({ types: { $all: types.slice() } })
     if (quickMove) query.$and.push({ 'quickMove._id': quickMove })

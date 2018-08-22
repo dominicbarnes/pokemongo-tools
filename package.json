@@ -64,6 +64,7 @@
     "uglifyify": "^4.0.5",
     "vue": "^2.5.15",
     "vue-router": "^3.0.1",
+    "vue-slider-component": "^2.7.6",
     "vueify": "^9.4.1",
     "vuex": "^3.0.1",
     "wait-port": "^0.2.2",

@@ -1,25 +1,23 @@
 <template>
-  <b-form-group label="Minimum Level">
-    <b-form-input id="catalog-filters-level" type="range" min="1" step="0.5" max="40" v-bind:value="value" v-on:input="update" />
-    <b-tooltip target="catalog-filters-level" placement="right">
-      {{ value | number('0.0') }}
-    </b-tooltip>
+  <b-form-group label="Levels">
+    <vue-slider type="range" v-bind:min="0" v-bind:interval="0.5" v-bind:max="40" tooltip="hover" v-bind:value="value" v-on:input="update" />
   </b-form-group>
 </template>
 
 <script>
+  import VueSlider from 'vue-slider-component'
+
   export default {
     props: {
-      value: {
-        type: Number,
-        default: 1
-      }
+      value: Array
     },
 
     methods: {
       update(value) {
-        this.$emit('input', parseFloat(value))
+        this.$emit('input', value)
       }
-    }
+    },
+
+    components: { VueSlider }
   }
 </script>
