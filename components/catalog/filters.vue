@@ -38,8 +38,9 @@
   export default {
     props: ['value'],
 
-    data() {
-      return clone(this.value)
+    data(vm) {
+      const { name, family, ivs, levels, generation, rarity, evolves, types, quickMove, chargeMove, form, shiny, uncertain } = vm.$props.value
+      return { name, family, ivs, levels, generation, rarity, evolves, types, quickMove, chargeMove, form, shiny, uncertain }
     },
 
     computed: {
