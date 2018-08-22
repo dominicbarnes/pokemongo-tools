@@ -1,4 +1,11 @@
 
+0.10.2 / 2018-08-22
+===================
+
+  * fix(catalog): fix all non-default filters
+  * feat(catalog): add support for filtering by level + iv ranges
+  * fix(catalog): fix evolves filter
+
 0.10.1 / 2018-08-19
 ===================
 
