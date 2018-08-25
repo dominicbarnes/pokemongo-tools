@@ -32,10 +32,11 @@ exports.multiplier = function (cp, attack, defense, stamina) {
   return Math.sqrt((cp * 10) / (attack * Math.sqrt(defense) * Math.sqrt(stamina)))
 }
 
-const baseSpriteURL = 'https://raw.githubusercontent.com/ZeChrales/PogoAssets/master/decrypted_assets'
+const baseSpriteURL = 'https://raw.githubusercontent.com/ZeChrales/PogoAssets/master'
 
+// TODO: rename sprite -> icon
 exports.spriteURL = function (metadata, catalog) {
-  if (!metadata) return `${baseSpriteURL}/pokemon_icon_000.png`
+  if (!metadata) return `${baseSpriteURL}/pokemon_icons/pokemon_icon_000.png`
   const bundle = metadata.assetBundle || 0
   let basename = `pokemon_icon_${numeral(metadata.dex).format('000')}_${numeral(bundle).format('00')}`
   if (catalog) {
@@ -47,5 +48,11 @@ exports.spriteURL = function (metadata, catalog) {
       basename += '_shiny'
     }
   }
-  return `https://raw.githubusercontent.com/ZeChrales/PogoAssets/master/pokemon_icons/${basename}.png`
+  return `${baseSpriteURL}/pokemon_icons/${basename}.png`
+}
+
+exports.smallIconURL = function (metadata) {
+  if (!metadata) return null
+  let basename = `pokemon_icon_${numeral(metadata.dex).format('000')}_00`
+  return `${baseSpriteURL}/pixels/${basename}.png`
 }
