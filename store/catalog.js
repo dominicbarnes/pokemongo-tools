@@ -96,7 +96,7 @@ const getters = {
         }
       })
     }
-    if (rarity) query.$and.push({ rarity: rarity === 'common' ? null : rarity })
+    if (rarity) query.$and.push({ rarity })
     if (types && types.length) query.$and.push({ types: { $all: types.slice() } })
     if (quickMove) query.$and.push({ 'quickMove._id': quickMove })
     if (chargeMove) query.$and.push({ 'chargeMove._id': chargeMove })
