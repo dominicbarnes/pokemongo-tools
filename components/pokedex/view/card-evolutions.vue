@@ -4,7 +4,7 @@
       <b-media tag="li" v-if="previousEvolution">
         <b-img slot="aside" v-bind:src="smallIconURL(previousEvolution)" />
         <h5 class="my-1">
-          <b-link v-bind:to="{ name: 'pokedex-view', params: { pokemon: previousEvolution._id } }">{{previousEvolution.name}}</b-link>
+          <b-link v-bind:to="{ name: 'pokedex-view', params: { pokemon: previousEvolution._id } }">{{ previousEvolution.name }}</b-link>
           <small class="text-muted">({{ previousEvolution.dex | dex }})</small>
         </h5>
       </b-media>
@@ -18,7 +18,7 @@
       <b-media tag="li" v-for="evolution in nextEvolutions">
         <b-img slot="aside" v-bind:src="smallIconURL(evolution.pokemon)" />
         <h5 class="my-1">
-          <b-link v-bind:to="{ name: 'pokedex-view', params: { pokemon: evolution.pokemon._id } }">{{evolution.pokemon.name}}</b-link>
+          <b-link v-bind:to="{ name: 'pokedex-view', params: { pokemon: evolution.pokemon._id } }">{{ evolution.pokemon.name }}</b-link>
           <small class="text-muted">({{ evolution.pokemon.dex | dex }})</small>
         </h5>
         <b-badge variant="primary">{{ evolution.candy }} Candies</b-badge>
