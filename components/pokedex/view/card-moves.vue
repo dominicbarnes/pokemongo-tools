@@ -6,11 +6,11 @@
     <b-list-group flush>
       <b-list-group-item><b>Quick Moves</b></b-list-group-item>
       <b-list-group-item v-for="move in quickMoves">
-        <move-summary v-bind:move="move" />
+        <move v-bind:move="move" />
       </b-list-group-item>
       <b-list-group-item><b>Charge Moves</b></b-list-group-item>
       <b-list-group-item v-for="move in chargeMoves">
-        <move-summary v-bind:move="move" />
+        <move v-bind:move="move" />
       </b-list-group-item>
     </b-list-group>
   </b-card>
@@ -20,7 +20,8 @@
   import sortBy from 'sort-by'
   import { mapGetters } from 'vuex'
 
-  import MoveSummary from '../../move-summary.vue'
+  import { BadgeType } from '../../badges'
+  import Move from './move.vue'
 
   import { cp } from '../../../utils.js'
 
@@ -33,46 +34,49 @@
     },
 
     computed: {
-      ...mapGetters({ cpMultipliers: 'cpMultipliers' }),
+      ...mapGetters([
+        'cpMultipliers',
+        'movesByID'
+      ]),
 
       maxCP() {
-        const { metadata } = this
-        const attack = metadata.baseStats.attack + 15
-        const defense = metadata.baseStats.defense + 15
-        const stamina = metadata.baseStats.stamina + 15
+        const { baseStats } = this.metadata
+        const attack = baseStats.attack + 15
+        const defense = baseStats.defense + 15
+        const stamina = baseStats.stamina + 15
         const multiplier = this.cpMultipliers(40)
         return cp(attack, defense, stamina, multiplier)
       },
 
       quickMoves() {
-        const { movesByID } = this.$store.getters
-        const { quickMoves } = this.metadata
-        if (!quickMoves) return null
-        return Object.keys(quickMoves)
-          .map(id => movesByID(id))
-          .filter(Boolean)
-          .map(move => {
-            move.legacy = quickMoves[move._id]
-            return move
-          })
-          .sort(sortBy('power'))
+        return this.moves(this.metadata.quickMoves)
       },
 
       chargeMoves() {
-        const { movesByID } = this.$store.getters
-        const { chargeMoves } = this.metadata
-        if (!chargeMoves) return null
-        return Object.keys(chargeMoves)
-          .map(id => movesByID(id))
+        return this.moves(this.metadata.chargeMoves)
+      },
+    },
+
+    methods: {
+      stab(move) {
+        const { types } = this.metadata
+        return types.indexOf(move.type) > -1
+      },
+
+      moves(moves) {
+        if (!moves) return null
+        return Object.keys(moves)
+          .map(id => this.movesByID(id))
           .filter(Boolean)
           .map(move => {
-            move.legacy = chargeMoves[move._id]
+            move.legacy = moves[move._id]
+            move.stab = this.stab(move)
             return move
           })
           .sort(sortBy('power'))
       }
     },
 
-    components: { MoveSummary }
+    components: { BadgeType, Move }
   }
 </script>

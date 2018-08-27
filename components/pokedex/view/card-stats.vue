@@ -1,7 +1,7 @@
 <template>
   <b-card title="Stats">
     <b-row class="text-center">
-      <b-col cols="4">
+      <b-col cols="4" class="mb-2">
         <div>{{ metadata.baseStats.attack }}</div>
         <small class="text-muted">Attack</small>
       </b-col>
