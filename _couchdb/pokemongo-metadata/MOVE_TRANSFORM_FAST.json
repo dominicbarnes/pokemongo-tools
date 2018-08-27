@@ -1,4 +1,7 @@
 {
+  "damageWindowEnd": 700,
+  "damageWindowStart": 300,
+  "duration": 2230,
   "name": "Transform",
   "quick": true,
   "type": "normal"

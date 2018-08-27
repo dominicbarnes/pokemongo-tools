@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3200,
+  "damageWindowStart": 2750,
+  "duration": 3300,
+  "energyDelta": -50,
   "name": "Blast Burn",
   "power": 110,
   "quick": false,

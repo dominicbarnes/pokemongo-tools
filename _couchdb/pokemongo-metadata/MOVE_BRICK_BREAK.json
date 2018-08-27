@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1400,
+  "damageWindowStart": 800,
+  "duration": 1600,
+  "energyDelta": -33,
   "name": "Brick Break",
   "power": 40,
   "quick": false,

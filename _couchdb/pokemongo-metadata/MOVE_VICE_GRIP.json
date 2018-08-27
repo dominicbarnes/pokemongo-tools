@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1500,
+  "damageWindowStart": 1100,
+  "duration": 1900,
+  "energyDelta": -33,
   "name": "Vice Grip",
   "power": 35,
   "quick": false,

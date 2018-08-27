@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 900,
+  "damageWindowStart": 750,
+  "duration": 900,
+  "energyDelta": 9,
   "name": "Feint Attack",
   "power": 10,
   "quick": true,

@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2800,
+  "damageWindowStart": 2400,
+  "duration": 3000,
+  "energyDelta": -50,
   "name": "Shadow Ball",
   "power": 100,
   "quick": false,

@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2000,
+  "damageWindowStart": 1500,
+  "duration": 2500,
+  "energyDelta": -50,
   "name": "Hyper Fang",
   "power": 80,
   "quick": false,

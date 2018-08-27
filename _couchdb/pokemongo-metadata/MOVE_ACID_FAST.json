@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 600,
+  "damageWindowStart": 400,
+  "duration": 800,
+  "energyDelta": 8,
   "name": "Acid",
   "power": 9,
   "quick": true,

@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 800,
+  "damageWindowStart": 600,
+  "duration": 800,
+  "energyDelta": 10,
   "name": "Karate Chop",
   "power": 8,
   "quick": true,

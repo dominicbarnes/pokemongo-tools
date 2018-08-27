@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3100,
+  "damageWindowStart": 2850,
+  "duration": 3500,
+  "energyDelta": -33,
   "name": "Ancient Power",
   "power": 70,
   "quick": false,

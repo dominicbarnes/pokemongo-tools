@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2900,
+  "damageWindowStart": 2200,
+  "duration": 3200,
+  "energyDelta": -50,
   "name": "Water Pulse",
   "power": 70,
   "quick": false,

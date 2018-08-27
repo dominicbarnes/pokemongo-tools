@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 600,
+  "damageWindowStart": 300,
+  "duration": 600,
+  "energyDelta": 6,
   "name": "Low Kick",
   "power": 6,
   "quick": true,

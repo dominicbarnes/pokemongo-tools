@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1900,
+  "damageWindowStart": 1200,
+  "duration": 2100,
+  "energyDelta": -33,
   "name": "Seed Bomb",
   "power": 55,
   "quick": false,

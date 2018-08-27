@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3800,
+  "damageWindowStart": 2600,
+  "duration": 4000,
+  "energyDelta": -100,
   "name": "Overheat",
   "power": 160,
   "quick": false,

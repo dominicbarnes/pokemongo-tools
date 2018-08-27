@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2800,
+  "damageWindowStart": 1700,
+  "duration": 3000,
+  "energyDelta": -100,
   "name": "Heat Wave",
   "power": 95,
   "quick": false,

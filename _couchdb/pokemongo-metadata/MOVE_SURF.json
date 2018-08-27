@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1600,
+  "damageWindowStart": 1400,
+  "duration": 1700,
+  "energyDelta": -50,
   "name": "Surf",
   "power": 65,
   "quick": false,

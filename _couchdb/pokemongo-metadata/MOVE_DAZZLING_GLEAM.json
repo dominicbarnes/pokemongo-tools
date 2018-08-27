@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3300,
+  "damageWindowStart": 2100,
+  "duration": 3500,
+  "energyDelta": -50,
   "name": "Dazzling Gleam",
   "power": 100,
   "quick": false,

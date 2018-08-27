@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 4000,
+  "damageWindowStart": 1700,
+  "duration": 4000,
+  "energyDelta": -50,
   "name": "Sand Tomb",
   "power": 80,
   "quick": false,

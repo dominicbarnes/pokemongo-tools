@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3000,
+  "damageWindowStart": 900,
+  "duration": 3300,
+  "energyDelta": -100,
   "name": "Hydro Pump",
   "power": 130,
   "quick": false,

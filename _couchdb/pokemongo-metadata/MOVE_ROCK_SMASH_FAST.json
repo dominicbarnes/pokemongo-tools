@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 800,
+  "damageWindowStart": 550,
+  "duration": 1300,
+  "energyDelta": 10,
   "name": "Rock Smash",
   "power": 15,
   "quick": true,

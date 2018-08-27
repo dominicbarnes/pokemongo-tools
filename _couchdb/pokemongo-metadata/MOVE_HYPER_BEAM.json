@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3600,
+  "damageWindowStart": 3300,
+  "duration": 3800,
+  "energyDelta": -100,
   "name": "Hyper Beam",
   "power": 150,
   "quick": false,

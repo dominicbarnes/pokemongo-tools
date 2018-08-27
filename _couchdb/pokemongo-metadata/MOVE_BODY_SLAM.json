@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1700,
+  "damageWindowStart": 1200,
+  "duration": 1900,
+  "energyDelta": -33,
   "name": "Body Slam",
   "power": 50,
   "quick": false,

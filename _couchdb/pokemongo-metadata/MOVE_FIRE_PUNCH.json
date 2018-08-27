@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1900,
+  "damageWindowStart": 1500,
+  "duration": 2200,
+  "energyDelta": -33,
   "name": "Fire Punch",
   "power": 55,
   "quick": false,

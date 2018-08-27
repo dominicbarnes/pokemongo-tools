@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2100,
+  "damageWindowStart": 1100,
+  "duration": 2300,
+  "energyDelta": -50,
   "name": "Sludge Bomb",
   "power": 80,
   "quick": false,

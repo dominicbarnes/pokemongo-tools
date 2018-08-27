@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3700,
+  "damageWindowStart": 2500,
+  "duration": 3900,
+  "energyDelta": -50,
   "name": "Outrage",
   "power": 110,
   "quick": false,

@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1200,
+  "damageWindowStart": 1000,
+  "duration": 1200,
+  "energyDelta": 10,
   "name": "Air Slash",
   "power": 14,
   "quick": true,

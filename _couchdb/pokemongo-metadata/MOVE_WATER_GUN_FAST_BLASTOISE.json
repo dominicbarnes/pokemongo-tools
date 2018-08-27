@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 500,
+  "damageWindowStart": 300,
+  "duration": 1000,
+  "energyDelta": 6,
   "name": "Water Gun Fast Blastoise",
   "power": 10,
   "quick": false,

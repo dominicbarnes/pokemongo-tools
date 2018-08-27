@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2700,
+  "damageWindowStart": 1200,
+  "duration": 2700,
+  "energyDelta": -50,
   "name": "Dynamic Punch",
   "power": 90,
   "quick": false,

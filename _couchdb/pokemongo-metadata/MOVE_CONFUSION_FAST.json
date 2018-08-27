@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1600,
+  "damageWindowStart": 600,
+  "duration": 1600,
+  "energyDelta": 15,
   "name": "Confusion",
   "power": 20,
   "quick": true,

@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2600,
+  "damageWindowStart": 1800,
+  "duration": 2900,
+  "energyDelta": -50,
   "name": "Signal Beam",
   "power": 75,
   "quick": false,

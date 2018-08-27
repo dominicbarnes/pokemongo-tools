@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3450,
+  "damageWindowStart": 2900,
+  "duration": 3800,
+  "energyDelta": -33,
   "name": "Flame Charge",
   "power": 70,
   "quick": false,

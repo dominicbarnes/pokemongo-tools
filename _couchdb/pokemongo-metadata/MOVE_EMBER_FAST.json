@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 800,
+  "damageWindowStart": 600,
+  "duration": 1000,
+  "energyDelta": 10,
   "name": "Ember",
   "power": 10,
   "quick": true,

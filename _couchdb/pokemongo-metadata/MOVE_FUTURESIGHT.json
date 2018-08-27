@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2700,
+  "damageWindowStart": 1400,
+  "duration": 2700,
+  "energyDelta": -100,
   "name": "Futuresight",
   "power": 120,
   "quick": false,

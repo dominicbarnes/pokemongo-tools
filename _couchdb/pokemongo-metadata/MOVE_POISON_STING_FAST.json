@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 575,
+  "damageWindowStart": 375,
+  "duration": 600,
+  "energyDelta": 7,
   "name": "Poison Sting",
   "power": 5,
   "quick": true,

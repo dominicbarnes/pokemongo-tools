@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1600,
+  "damageWindowStart": 1400,
+  "duration": 1700,
+  "energyDelta": -100,
   "name": "Precipice Blades",
   "power": 130,
   "quick": false,

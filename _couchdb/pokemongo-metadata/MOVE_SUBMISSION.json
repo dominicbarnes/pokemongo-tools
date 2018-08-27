@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2000,
+  "damageWindowStart": 1800,
+  "duration": 2200,
+  "energyDelta": -50,
   "name": "Submission",
   "power": 60,
   "quick": false,

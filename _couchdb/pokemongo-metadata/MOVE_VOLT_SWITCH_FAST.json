@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2100,
+  "damageWindowStart": 1800,
+  "duration": 2300,
+  "energyDelta": 25,
   "name": "Volt Switch",
   "power": 20,
   "quick": true,

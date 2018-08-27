@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3500,
+  "damageWindowStart": 3200,
+  "duration": 3900,
+  "energyDelta": -33,
   "name": "Disarming Voice",
   "power": 70,
   "quick": false,

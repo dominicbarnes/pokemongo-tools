@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1230,
+  "damageWindowStart": 1030,
+  "duration": 1730,
+  "energyDelta": 20,
   "name": "Splash",
   "quick": true,
   "type": "water"

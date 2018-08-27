@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2500,
+  "damageWindowStart": 1800,
+  "duration": 2700,
+  "energyDelta": -50,
   "name": "Air Cutter",
   "power": 60,
   "quick": false,

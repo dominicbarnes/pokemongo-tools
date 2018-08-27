@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3500,
+  "damageWindowStart": 1700,
+  "duration": 3700,
+  "energyDelta": -33,
   "name": "Silver Wind",
   "power": 70,
   "quick": false,

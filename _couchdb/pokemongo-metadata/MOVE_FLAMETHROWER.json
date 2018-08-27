@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1700,
+  "damageWindowStart": 1500,
+  "duration": 2200,
+  "energyDelta": -50,
   "name": "Flamethrower",
   "power": 70,
   "quick": false,

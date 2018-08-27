@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 450,
+  "damageWindowStart": 250,
+  "duration": 500,
+  "energyDelta": 6,
   "name": "Bug Bite",
   "power": 5,
   "quick": true,

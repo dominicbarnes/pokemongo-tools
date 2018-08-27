@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1100,
+  "damageWindowStart": 800,
+  "duration": 1200,
+  "energyDelta": 8,
   "name": "Smack Down",
   "power": 16,
   "quick": true,

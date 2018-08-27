@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 900,
+  "damageWindowStart": 600,
+  "duration": 1200,
+  "energyDelta": 12,
   "name": "Ice Shard",
   "power": 12,
   "quick": true,

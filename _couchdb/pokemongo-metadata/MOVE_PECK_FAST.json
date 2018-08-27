@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 900,
+  "damageWindowStart": 450,
+  "duration": 1000,
+  "energyDelta": 10,
   "name": "Peck",
   "power": 10,
   "quick": true,

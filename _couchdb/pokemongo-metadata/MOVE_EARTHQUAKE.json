@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3500,
+  "damageWindowStart": 2700,
+  "duration": 3600,
+  "energyDelta": -100,
   "name": "Earthquake",
   "power": 120,
   "quick": false,

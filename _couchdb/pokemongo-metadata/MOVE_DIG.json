@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 4500,
+  "damageWindowStart": 2800,
+  "duration": 4700,
+  "energyDelta": -50,
   "name": "Dig",
   "power": 100,
   "quick": false,

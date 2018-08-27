@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2700,
+  "damageWindowStart": 1700,
+  "duration": 3100,
+  "energyDelta": -100,
   "name": "Gunk Shot",
   "power": 130,
   "quick": false,

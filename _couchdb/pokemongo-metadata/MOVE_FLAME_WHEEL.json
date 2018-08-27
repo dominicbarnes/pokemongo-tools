@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2400,
+  "damageWindowStart": 2100,
+  "duration": 2700,
+  "energyDelta": -50,
   "name": "Flame Wheel",
   "power": 60,
   "quick": false,

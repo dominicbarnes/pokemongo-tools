@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2200,
+  "damageWindowStart": 1200,
+  "duration": 3900,
+  "energyDelta": -100,
   "name": "Giga Drain",
   "power": 50,
   "quick": false,

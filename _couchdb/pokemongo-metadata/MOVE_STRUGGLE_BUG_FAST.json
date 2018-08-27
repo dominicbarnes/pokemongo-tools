@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1500,
+  "damageWindowStart": 1200,
+  "duration": 1500,
+  "energyDelta": 15,
   "name": "Struggle Bug",
   "power": 15,
   "quick": true,

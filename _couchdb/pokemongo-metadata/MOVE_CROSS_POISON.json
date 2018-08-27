@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1300,
+  "damageWindowStart": 900,
+  "duration": 1500,
+  "energyDelta": -33,
   "name": "Cross Poison",
   "power": 40,
   "quick": false,

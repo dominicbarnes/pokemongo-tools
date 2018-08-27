@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2300,
+  "damageWindowStart": 1700,
+  "duration": 2600,
+  "energyDelta": -100,
   "name": "Petal Blizzard",
   "power": 110,
   "quick": false,

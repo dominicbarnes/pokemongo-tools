@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 4300,
+  "damageWindowStart": 2200,
+  "duration": 4500,
+  "energyDelta": -100,
   "name": "Hydro Pump Blastoise",
   "power": 90,
   "quick": false,

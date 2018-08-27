@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3000,
+  "damageWindowStart": 1300,
+  "duration": 3200,
+  "energyDelta": -33,
   "name": "Crunch",
   "power": 70,
   "quick": false,

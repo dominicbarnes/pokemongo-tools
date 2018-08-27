@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3100,
+  "damageWindowStart": 2000,
+  "duration": 3700,
+  "energyDelta": -50,
   "name": "Bug Buzz",
   "power": 90,
   "quick": false,

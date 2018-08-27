@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2700,
+  "damageWindowStart": 1950,
+  "duration": 2900,
+  "energyDelta": -50,
   "name": "Power Gem",
   "power": 80,
   "quick": false,

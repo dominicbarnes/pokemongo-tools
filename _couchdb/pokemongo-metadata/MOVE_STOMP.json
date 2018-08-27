@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1500,
+  "damageWindowStart": 1100,
+  "duration": 1700,
+  "energyDelta": -50,
   "name": "Stomp",
   "power": 55,
   "quick": false,

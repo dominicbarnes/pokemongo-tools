@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2600,
+  "damageWindowStart": 2000,
+  "duration": 2800,
+  "energyDelta": -50,
   "name": "Swift",
   "power": 60,
   "quick": false,

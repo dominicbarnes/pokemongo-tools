@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3700,
+  "damageWindowStart": 2200,
+  "duration": 3900,
+  "energyDelta": -100,
   "name": "Moonblast",
   "power": 130,
   "quick": false,

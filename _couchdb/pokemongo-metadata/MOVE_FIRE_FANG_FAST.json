@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 840,
+  "damageWindowStart": 640,
+  "duration": 900,
+  "energyDelta": 8,
   "name": "Fire Fang",
   "power": 11,
   "quick": true,

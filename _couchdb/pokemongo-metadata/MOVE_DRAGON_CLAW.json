@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1300,
+  "damageWindowStart": 1100,
+  "duration": 1700,
+  "energyDelta": -33,
   "name": "Dragon Claw",
   "power": 50,
   "quick": false,

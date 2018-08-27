@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2000,
+  "damageWindowStart": 950,
+  "duration": 2600,
+  "energyDelta": -50,
   "name": "Mega Drain",
   "power": 25,
   "quick": false,

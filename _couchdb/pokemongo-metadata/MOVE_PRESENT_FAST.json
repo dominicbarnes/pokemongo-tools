@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1300,
+  "damageWindowStart": 1100,
+  "duration": 1300,
+  "energyDelta": 20,
   "name": "Present",
   "power": 5,
   "quick": true,

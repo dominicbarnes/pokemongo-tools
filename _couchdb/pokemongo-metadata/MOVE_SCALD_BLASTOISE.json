@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 4600,
+  "damageWindowStart": 2500,
+  "duration": 4700,
+  "energyDelta": -100,
   "name": "Scald Blastoise",
   "power": 50,
   "quick": false,

@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 700,
+  "damageWindowStart": 300,
+  "duration": 700,
+  "energyDelta": 8,
   "name": "Sucker Punch",
   "power": 7,
   "quick": true,

@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1650,
+  "damageWindowStart": 800,
+  "duration": 1850,
+  "energyDelta": -33,
   "name": "Horn Attack",
   "power": 40,
   "quick": false,

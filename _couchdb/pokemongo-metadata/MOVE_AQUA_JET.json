@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2100,
+  "damageWindowStart": 1700,
+  "duration": 2600,
+  "energyDelta": -33,
   "name": "Aqua Jet",
   "power": 45,
   "quick": false,

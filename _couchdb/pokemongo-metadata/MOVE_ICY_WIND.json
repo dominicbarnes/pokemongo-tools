@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2800,
+  "damageWindowStart": 2000,
+  "duration": 3300,
+  "energyDelta": -33,
   "name": "Icy Wind",
   "power": 60,
   "quick": false,

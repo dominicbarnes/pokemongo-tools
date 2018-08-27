@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2900,
+  "damageWindowStart": 1500,
+  "duration": 3100,
+  "energyDelta": -100,
   "name": "Blizzard",
   "power": 130,
   "quick": false,

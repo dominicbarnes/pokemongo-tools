@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 800,
+  "damageWindowStart": 500,
+  "duration": 800,
+  "energyDelta": 6,
   "name": "Steel Wing",
   "power": 11,
   "quick": true,

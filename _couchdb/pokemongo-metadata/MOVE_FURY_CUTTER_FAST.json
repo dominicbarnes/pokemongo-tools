@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 400,
+  "damageWindowStart": 100,
+  "duration": 400,
+  "energyDelta": 6,
   "name": "Fury Cutter",
   "power": 3,
   "quick": true,

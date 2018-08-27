@@ -1,4 +1,7 @@
 {
+  "damageWindowEnd": 2000,
+  "damageWindowStart": 1200,
+  "duration": 2200,
   "name": "Struggle",
   "power": 35,
   "quick": false,

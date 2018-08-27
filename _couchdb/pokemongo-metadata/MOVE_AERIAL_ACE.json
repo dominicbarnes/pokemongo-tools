@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2200,
+  "damageWindowStart": 1900,
+  "duration": 2400,
+  "energyDelta": -33,
   "name": "Aerial Ace",
   "power": 55,
   "quick": false,

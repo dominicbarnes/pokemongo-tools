@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2100,
+  "damageWindowStart": 1000,
+  "duration": 2600,
+  "energyDelta": -50,
   "name": "Flame Burst",
   "power": 70,
   "quick": false,

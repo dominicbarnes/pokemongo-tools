@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 4200,
+  "damageWindowStart": 3000,
+  "duration": 4400,
+  "energyDelta": -50,
   "name": "Psystrike",
   "power": 100,
   "quick": false,

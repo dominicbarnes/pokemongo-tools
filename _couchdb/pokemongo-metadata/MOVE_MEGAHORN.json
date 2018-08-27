@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1900,
+  "damageWindowStart": 1700,
+  "duration": 2200,
+  "energyDelta": -100,
   "name": "Megahorn",
   "power": 90,
   "quick": false,

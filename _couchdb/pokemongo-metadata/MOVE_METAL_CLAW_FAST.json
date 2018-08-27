@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 630,
+  "damageWindowStart": 430,
+  "duration": 700,
+  "energyDelta": 7,
   "name": "Metal Claw",
   "power": 8,
   "quick": true,

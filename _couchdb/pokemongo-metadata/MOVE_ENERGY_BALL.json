@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3800,
+  "damageWindowStart": 3000,
+  "duration": 3900,
+  "energyDelta": -50,
   "name": "Energy Ball",
   "power": 90,
   "quick": false,

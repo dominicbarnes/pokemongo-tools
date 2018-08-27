@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 540,
+  "damageWindowStart": 340,
+  "duration": 600,
+  "energyDelta": 6,
   "name": "Pound",
   "power": 7,
   "quick": true,

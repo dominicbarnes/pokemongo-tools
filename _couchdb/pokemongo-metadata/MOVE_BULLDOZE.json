@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3100,
+  "damageWindowStart": 2600,
+  "duration": 3500,
+  "energyDelta": -50,
   "name": "Bulldoze",
   "power": 80,
   "quick": false,

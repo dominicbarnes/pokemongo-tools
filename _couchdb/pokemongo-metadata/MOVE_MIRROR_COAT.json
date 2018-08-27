@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2500,
+  "damageWindowStart": 2300,
+  "duration": 2600,
+  "energyDelta": -50,
   "name": "Mirror Coat",
   "power": 60,
   "quick": false,

@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 750,
+  "damageWindowStart": 550,
+  "duration": 800,
+  "energyDelta": 9,
   "name": "Wing Attack",
   "power": 8,
   "quick": true,

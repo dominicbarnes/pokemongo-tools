@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2300,
+  "damageWindowStart": 1400,
+  "duration": 3000,
+  "energyDelta": -50,
   "name": "Dark Pulse",
   "power": 80,
   "quick": false,

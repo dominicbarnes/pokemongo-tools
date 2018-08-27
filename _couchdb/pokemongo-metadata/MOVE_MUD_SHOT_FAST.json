@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 550,
+  "damageWindowStart": 350,
+  "duration": 600,
+  "energyDelta": 7,
   "name": "Mud Shot",
   "power": 5,
   "quick": true,

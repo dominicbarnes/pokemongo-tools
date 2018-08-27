@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1050,
+  "damageWindowStart": 850,
+  "duration": 1100,
+  "energyDelta": 15,
   "name": "Charge Beam",
   "power": 8,
   "quick": true,

@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 900,
+  "damageWindowStart": 300,
+  "duration": 900,
+  "energyDelta": 10,
   "name": "Bullet Punch",
   "power": 9,
   "quick": true,

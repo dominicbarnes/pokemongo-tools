@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2600,
+  "damageWindowStart": 2200,
+  "duration": 2800,
+  "energyDelta": -33,
   "name": "Magnet Bomb",
   "power": 70,
   "quick": false,

@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3900,
+  "damageWindowStart": 3100,
+  "duration": 4200,
+  "energyDelta": -100,
   "name": "Fire Blast",
   "power": 140,
   "quick": false,

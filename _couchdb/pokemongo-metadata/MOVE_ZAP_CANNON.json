@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3500,
+  "damageWindowStart": 3000,
+  "duration": 3700,
+  "energyDelta": -100,
   "name": "Zap Cannon",
   "power": 140,
   "quick": false,

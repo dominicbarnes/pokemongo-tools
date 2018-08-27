@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 850,
+  "damageWindowStart": 600,
+  "duration": 1000,
+  "energyDelta": 7,
   "name": "Razor Leaf",
   "power": 13,
   "quick": true,

@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2700,
+  "damageWindowStart": 2200,
+  "duration": 2900,
+  "energyDelta": -33,
   "name": "Shadow Sneak",
   "power": 50,
   "quick": false,

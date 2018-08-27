@@ -13,7 +13,11 @@ module.exports = function (m, data) {
       name: Case.title(id.replace(/^MOVE_(.*?)(_FAST)?$/, '$1')),
       type: move.pokemonType.replace('POKEMON_TYPE_', '').toLowerCase(),
       power: move.power,
-      quick: id.endsWith('_FAST')
+      quick: id.endsWith('_FAST'),
+      damageWindowStart: move.damageWindowStartMs,
+      damageWindowEnd: move.damageWindowEndMs,
+      duration: move.durationMs,
+      energyDelta: move.energyDelta
     })
 
     if (move.movementId === 'HIDDEN_POWER_FAST') {
@@ -23,7 +27,11 @@ module.exports = function (m, data) {
           name: 'Hidden Power',
           type: type,
           power: move.power,
-          quick: id.endsWith('_FAST')
+          quick: id.endsWith('_FAST'),
+          damageWindowStart: move.damageWindowStartMs,
+          damageWindowEnd: move.damageWindowEndMs,
+          duration: move.durationMs,
+          energyDelta: move.energyDelta
         })
       })
     }

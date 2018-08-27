@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2100,
+  "damageWindowStart": 1500,
+  "duration": 2300,
+  "energyDelta": -50,
   "name": "Brine",
   "power": 60,
   "quick": false,

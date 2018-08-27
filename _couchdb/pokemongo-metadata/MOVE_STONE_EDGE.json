@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2100,
+  "damageWindowStart": 700,
+  "duration": 2300,
+  "energyDelta": -100,
   "name": "Stone Edge",
   "power": 100,
   "quick": false,

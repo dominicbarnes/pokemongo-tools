@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 500,
+  "damageWindowStart": 250,
+  "duration": 700,
+  "energyDelta": 6,
   "name": "Shadow Claw",
   "power": 9,
   "quick": true,

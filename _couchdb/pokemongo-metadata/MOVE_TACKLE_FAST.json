@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 500,
+  "damageWindowStart": 300,
+  "duration": 500,
+  "energyDelta": 5,
   "name": "Tackle",
   "power": 5,
   "quick": true,

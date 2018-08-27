@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 4700,
+  "damageWindowStart": 2700,
+  "duration": 4900,
+  "energyDelta": -100,
   "name": "Solar Beam",
   "power": 180,
   "quick": false,

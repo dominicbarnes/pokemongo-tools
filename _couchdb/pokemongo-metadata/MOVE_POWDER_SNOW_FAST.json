@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1000,
+  "damageWindowStart": 850,
+  "duration": 1000,
+  "energyDelta": 15,
   "name": "Powder Snow",
   "power": 6,
   "quick": true,

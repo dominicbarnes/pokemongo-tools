@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2200,
+  "damageWindowStart": 1200,
+  "duration": 2400,
+  "energyDelta": -100,
   "name": "Thunder",
   "power": 100,
   "quick": false,

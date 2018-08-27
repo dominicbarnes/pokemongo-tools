@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1050,
+  "damageWindowStart": 700,
+  "duration": 1100,
+  "energyDelta": 14,
   "name": "Astonish",
   "power": 8,
   "quick": true,

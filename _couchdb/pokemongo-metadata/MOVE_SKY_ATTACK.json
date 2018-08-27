@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1700,
+  "damageWindowStart": 1500,
+  "duration": 2000,
+  "energyDelta": -50,
   "name": "Sky Attack",
   "power": 80,
   "quick": false,

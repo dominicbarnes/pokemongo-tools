@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 550,
+  "damageWindowStart": 250,
+  "duration": 800,
+  "energyDelta": 10,
   "name": "Quick Attack",
   "power": 8,
   "quick": true,

@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2000,
+  "damageWindowStart": 1600,
+  "duration": 2100,
+  "energyDelta": -33,
   "name": "Rock Blast",
   "power": 50,
   "quick": false,

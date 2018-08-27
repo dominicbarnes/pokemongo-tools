@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1900,
+  "damageWindowStart": 1700,
+  "duration": 2000,
+  "energyDelta": -50,
   "name": "Foul Play",
   "power": 70,
   "quick": false,

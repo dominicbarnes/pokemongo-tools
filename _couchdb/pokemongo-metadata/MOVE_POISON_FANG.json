@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1400,
+  "damageWindowStart": 900,
+  "duration": 1700,
+  "energyDelta": -33,
   "name": "Poison Fang",
   "power": 35,
   "quick": false,

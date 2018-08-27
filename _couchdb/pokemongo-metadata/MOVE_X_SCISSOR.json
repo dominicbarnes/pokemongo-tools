@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1400,
+  "damageWindowStart": 1200,
+  "duration": 1600,
+  "energyDelta": -33,
   "name": "X Scissor",
   "power": 45,
   "quick": false,

@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1650,
+  "damageWindowStart": 1300,
+  "duration": 1900,
+  "energyDelta": -33,
   "name": "Low Sweep",
   "power": 40,
   "quick": false,

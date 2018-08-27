@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1300,
+  "damageWindowStart": 1000,
+  "duration": 2600,
+  "energyDelta": -50,
   "name": "Draining Kiss",
   "power": 60,
   "quick": false,

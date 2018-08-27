@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2350,
+  "damageWindowStart": 1250,
+  "duration": 2600,
+  "energyDelta": -50,
   "name": "Power Whip",
   "power": 90,
   "quick": false,

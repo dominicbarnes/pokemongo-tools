@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2400,
+  "damageWindowStart": 1200,
+  "duration": 2700,
+  "energyDelta": -100,
   "name": "Hurricane",
   "power": 110,
   "quick": false,

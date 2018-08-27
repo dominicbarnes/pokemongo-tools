@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2600,
+  "damageWindowStart": 1300,
+  "duration": 2800,
+  "energyDelta": -100,
   "name": "Psychic",
   "power": 100,
   "quick": false,

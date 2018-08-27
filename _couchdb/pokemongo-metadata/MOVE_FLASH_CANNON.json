@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2500,
+  "damageWindowStart": 1600,
+  "duration": 2700,
+  "energyDelta": -100,
   "name": "Flash Cannon",
   "power": 100,
   "quick": false,

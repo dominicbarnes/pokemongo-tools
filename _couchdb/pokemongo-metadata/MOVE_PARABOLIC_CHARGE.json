@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2400,
+  "damageWindowStart": 1200,
+  "duration": 2800,
+  "energyDelta": -50,
   "name": "Parabolic Charge",
   "power": 25,
   "quick": false,

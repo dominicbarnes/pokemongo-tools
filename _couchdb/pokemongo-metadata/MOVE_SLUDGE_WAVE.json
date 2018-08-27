@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3000,
+  "damageWindowStart": 2000,
+  "duration": 3200,
+  "energyDelta": -100,
   "name": "Sludge Wave",
   "power": 110,
   "quick": false,

@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1550,
+  "damageWindowStart": 1700,
+  "duration": 1800,
+  "energyDelta": -33,
   "name": "Thunder Punch",
   "power": 45,
   "quick": false,

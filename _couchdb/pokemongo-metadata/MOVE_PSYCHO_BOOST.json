@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 4000,
+  "damageWindowStart": 3500,
+  "duration": 4000,
+  "energyDelta": -50,
   "name": "Psycho Boost",
   "power": 70,
   "quick": false,

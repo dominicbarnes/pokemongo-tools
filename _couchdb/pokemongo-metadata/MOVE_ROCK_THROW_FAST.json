@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 800,
+  "damageWindowStart": 500,
+  "duration": 900,
+  "energyDelta": 7,
   "name": "Rock Throw",
   "power": 12,
   "quick": true,

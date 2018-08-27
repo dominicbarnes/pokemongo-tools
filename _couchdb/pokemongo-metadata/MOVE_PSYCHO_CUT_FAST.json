@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 570,
+  "damageWindowStart": 370,
+  "duration": 600,
+  "energyDelta": 8,
   "name": "Psycho Cut",
   "power": 5,
   "quick": true,

@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3550,
+  "damageWindowStart": 3350,
+  "duration": 3550,
+  "energyDelta": -50,
   "name": "Aurora Beam",
   "power": 80,
   "quick": false,

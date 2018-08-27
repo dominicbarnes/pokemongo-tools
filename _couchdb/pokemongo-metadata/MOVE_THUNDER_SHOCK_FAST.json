@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 600,
+  "damageWindowStart": 300,
+  "duration": 600,
+  "energyDelta": 8,
   "name": "Thunder Shock",
   "power": 5,
   "quick": true,

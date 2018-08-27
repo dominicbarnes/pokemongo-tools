@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2300,
+  "damageWindowStart": 1000,
+  "duration": 2300,
+  "energyDelta": -100,
   "name": "Close Combat",
   "power": 100,
   "quick": false,

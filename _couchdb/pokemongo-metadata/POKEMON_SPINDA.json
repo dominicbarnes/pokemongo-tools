@@ -11,8 +11,43 @@
     "MOVE_ROCK_TOMB": false,
     "MOVE_STRUGGLE": true
   },
+  "defaultForm": "00",
   "dex": 327,
   "family": "FAMILY_SPINDA",
+  "forms": {
+    "00": {
+      "assetBundle": 11,
+      "name": "Spinda (00)"
+    },
+    "01": {
+      "assetBundle": 12,
+      "name": "Spinda (01)"
+    },
+    "02": {
+      "assetBundle": 13,
+      "name": "Spinda (02)"
+    },
+    "03": {
+      "assetBundle": 14,
+      "name": "Spinda (03)"
+    },
+    "04": {
+      "assetBundle": 15,
+      "name": "Spinda (04)"
+    },
+    "05": {
+      "assetBundle": 16,
+      "name": "Spinda (05)"
+    },
+    "06": {
+      "assetBundle": 17,
+      "name": "Spinda (06)"
+    },
+    "07": {
+      "assetBundle": 18,
+      "name": "Spinda (07)"
+    }
+  },
   "generation": 3,
   "height": 1.09,
   "name": "Spinda",

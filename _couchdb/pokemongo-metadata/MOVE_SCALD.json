@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3400,
+  "damageWindowStart": 1300,
+  "duration": 3700,
+  "energyDelta": -50,
   "name": "Scald",
   "power": 80,
   "quick": false,

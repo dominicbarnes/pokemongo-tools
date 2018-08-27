@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3500,
+  "damageWindowStart": 3000,
+  "duration": 3600,
+  "energyDelta": -100,
   "name": "Draco Meteor",
   "power": 150,
   "quick": false,

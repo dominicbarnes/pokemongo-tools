@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 600,
+  "damageWindowStart": 350,
+  "duration": 600,
+  "energyDelta": 6,
   "name": "Vine Whip",
   "power": 7,
   "quick": true,

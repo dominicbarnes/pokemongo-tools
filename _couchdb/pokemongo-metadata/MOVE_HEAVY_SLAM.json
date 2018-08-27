@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1900,
+  "damageWindowStart": 1500,
+  "duration": 2100,
+  "energyDelta": -50,
   "name": "Heavy Slam",
   "power": 70,
   "quick": false,

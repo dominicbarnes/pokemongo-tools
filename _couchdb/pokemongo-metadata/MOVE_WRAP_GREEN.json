@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2700,
+  "damageWindowStart": 2050,
+  "duration": 2900,
+  "energyDelta": -33,
   "name": "Wrap Green",
   "power": 25,
   "quick": false,

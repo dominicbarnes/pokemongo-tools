@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1350,
+  "damageWindowStart": 1150,
+  "duration": 1400,
+  "energyDelta": 12,
   "name": "Mud Slap",
   "power": 15,
   "quick": true,

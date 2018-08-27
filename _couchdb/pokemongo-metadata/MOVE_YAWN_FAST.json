@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1600,
+  "damageWindowStart": 1400,
+  "duration": 1700,
+  "energyDelta": 15,
   "name": "Yawn",
   "quick": true,
   "type": "normal"

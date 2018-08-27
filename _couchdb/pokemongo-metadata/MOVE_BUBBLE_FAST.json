@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1000,
+  "damageWindowStart": 750,
+  "duration": 1200,
+  "energyDelta": 14,
   "name": "Bubble",
   "power": 12,
   "quick": true,

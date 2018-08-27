@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 800,
+  "damageWindowStart": 200,
+  "duration": 800,
+  "energyDelta": 7,
   "name": "Poison Jab",
   "power": 10,
   "quick": true,

@@ -1,0 +1,10 @@
+{
+  "damageWindowEnd": 2850,
+  "damageWindowStart": 2700,
+  "duration": 2900,
+  "energyDelta": -50,
+  "name": "Last Resort",
+  "power": 90,
+  "quick": false,
+  "type": "normal"
+}

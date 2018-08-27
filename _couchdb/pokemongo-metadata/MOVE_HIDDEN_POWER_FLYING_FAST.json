@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1400,
+  "damageWindowStart": 1100,
+  "duration": 1500,
+  "energyDelta": 15,
   "name": "Hidden Power",
   "power": 15,
   "quick": true,

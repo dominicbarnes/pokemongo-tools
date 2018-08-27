@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2700,
+  "damageWindowStart": 1300,
+  "duration": 3200,
+  "energyDelta": -50,
   "name": "Psybeam",
   "power": 70,
   "quick": false,

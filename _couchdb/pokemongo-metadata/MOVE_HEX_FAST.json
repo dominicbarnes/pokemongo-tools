@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1200,
+  "damageWindowStart": 1000,
+  "duration": 1200,
+  "energyDelta": 15,
   "name": "Hex",
   "power": 10,
   "quick": true,

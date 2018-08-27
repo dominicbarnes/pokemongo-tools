@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1200,
+  "damageWindowStart": 800,
+  "duration": 1500,
+  "energyDelta": -50,
   "name": "Cross Chop",
   "power": 50,
   "quick": false,

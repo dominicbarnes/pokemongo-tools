@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3300,
+  "damageWindowStart": 3000,
+  "duration": 3300,
+  "energyDelta": -50,
   "name": "Gyro Ball",
   "power": 80,
   "quick": false,

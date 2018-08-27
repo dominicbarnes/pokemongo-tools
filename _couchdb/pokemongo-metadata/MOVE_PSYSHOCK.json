@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2600,
+  "damageWindowStart": 2000,
+  "duration": 2700,
+  "energyDelta": -33,
   "name": "Psyshock",
   "power": 65,
   "quick": false,

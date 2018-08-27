@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1600,
+  "damageWindowStart": 1000,
+  "duration": 2000,
+  "energyDelta": -100,
   "name": "Brave Bird",
   "power": 90,
   "quick": false,

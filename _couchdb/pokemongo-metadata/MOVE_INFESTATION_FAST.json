@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1050,
+  "damageWindowStart": 850,
+  "duration": 1100,
+  "energyDelta": 14,
   "name": "Infestation",
   "power": 10,
   "quick": true,

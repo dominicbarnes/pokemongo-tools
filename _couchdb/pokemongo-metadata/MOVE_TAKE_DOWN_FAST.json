@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 1100,
+  "damageWindowStart": 950,
+  "duration": 1200,
+  "energyDelta": 10,
   "name": "Take Down",
   "power": 8,
   "quick": true,

@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 3300,
+  "damageWindowStart": 2150,
+  "duration": 3600,
+  "energyDelta": -50,
   "name": "Dragon Pulse",
   "power": 90,
   "quick": false,

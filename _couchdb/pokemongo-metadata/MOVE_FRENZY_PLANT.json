@@ -1,4 +1,8 @@
 {
+  "damageWindowEnd": 2550,
+  "damageWindowStart": 2145,
+  "duration": 2600,
+  "energyDelta": -50,
   "name": "Frenzy Plant",
   "power": 100,
   "quick": false,
