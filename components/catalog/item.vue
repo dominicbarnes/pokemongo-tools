@@ -27,7 +27,8 @@
         <abbr title="Individual Values" class="initialism">IVs</abbr>
       </div>
       <div>
-        <b-badge variant="info">{{ pokemon.cp | number('0,0') }}</b-badge>
+        <b-badge v-if="pokemon.uncertain" variant="warning" title="Uncertain Stats">{{ pokemon.cp | number('0,0') }}*</b-badge>
+        <b-badge v-else variant="info">{{ pokemon.cp | number('0,0') }}</b-badge>
         <abbr title="Combat Power" class="initialism">CP</abbr>
         <b-badge variant="info">{{ pokemon.hp | number('0,0') }}</b-badge>
         <abbr title="Hit Points" class="initialism">HP</abbr>
