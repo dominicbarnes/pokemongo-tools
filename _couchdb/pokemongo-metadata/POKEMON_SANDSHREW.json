@@ -35,7 +35,8 @@
       "nextEvolutions": [
         {
           "candy": 50,
-          "pokemon": "POKEMON_SANDSLASH_ALOLA"
+          "form": "alola",
+          "pokemon": "POKEMON_SANDSLASH"
         }
       ],
       "previousEvolution": null,
@@ -70,7 +71,8 @@
       "nextEvolutions": [
         {
           "candy": 50,
-          "pokemon": "POKEMON_SANDSLASH_NORMAL"
+          "form": "normal",
+          "pokemon": "POKEMON_SANDSLASH"
         }
       ],
       "previousEvolution": null,
@@ -91,7 +93,8 @@
   "nextEvolutions": [
     {
       "candy": 50,
-      "pokemon": "POKEMON_SANDSLASH_NORMAL"
+      "form": "normal",
+      "pokemon": "POKEMON_SANDSLASH"
     }
   ],
   "previousEvolution": null,

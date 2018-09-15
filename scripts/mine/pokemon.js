@@ -84,9 +84,10 @@ function document (pokemon) {
       : null,
     nextEvolutions: (pokemon.evolutionBranch || []).map(branch => {
       return {
-        pokemon: `POKEMON_${branch.form || branch.evolution}`,
+        pokemon: `POKEMON_${branch.evolution}`,
         candy: branch.candyCost,
-        item: branch.evolutionItemRequirement
+        item: branch.evolutionItemRequirement,
+        form: branch.form ? branch.form.replace(branch.evolution + '_', '').toLowerCase() : undefined
       }
     }),
     quickMoves: moves(pokemon.quickMoves),

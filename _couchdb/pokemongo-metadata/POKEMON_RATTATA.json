@@ -35,7 +35,8 @@
       "nextEvolutions": [
         {
           "candy": 25,
-          "pokemon": "POKEMON_RATICATE_ALOLA"
+          "form": "alola",
+          "pokemon": "POKEMON_RATICATE"
         }
       ],
       "previousEvolution": null,
@@ -70,7 +71,8 @@
       "nextEvolutions": [
         {
           "candy": 25,
-          "pokemon": "POKEMON_RATICATE_NORMAL"
+          "form": "normal",
+          "pokemon": "POKEMON_RATICATE"
         }
       ],
       "previousEvolution": null,
@@ -91,7 +93,8 @@
   "nextEvolutions": [
     {
       "candy": 25,
-      "pokemon": "POKEMON_RATICATE_NORMAL"
+      "form": "normal",
+      "pokemon": "POKEMON_RATICATE"
     }
   ],
   "previousEvolution": null,

@@ -35,7 +35,8 @@
       "nextEvolutions": [
         {
           "candy": 50,
-          "pokemon": "POKEMON_PERSIAN_ALOLA"
+          "form": "alola",
+          "pokemon": "POKEMON_PERSIAN"
         }
       ],
       "previousEvolution": null,
@@ -69,7 +70,8 @@
       "nextEvolutions": [
         {
           "candy": 50,
-          "pokemon": "POKEMON_PERSIAN_NORMAL"
+          "form": "normal",
+          "pokemon": "POKEMON_PERSIAN"
         }
       ],
       "previousEvolution": null,
@@ -90,7 +92,8 @@
   "nextEvolutions": [
     {
       "candy": 50,
-      "pokemon": "POKEMON_PERSIAN_NORMAL"
+      "form": "normal",
+      "pokemon": "POKEMON_PERSIAN"
     }
   ],
   "previousEvolution": null,

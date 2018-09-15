@@ -35,7 +35,8 @@
       "nextEvolutions": [
         {
           "candy": 25,
-          "pokemon": "POKEMON_GRAVELER_ALOLA"
+          "form": "alola",
+          "pokemon": "POKEMON_GRAVELER"
         }
       ],
       "previousEvolution": null,
@@ -70,7 +71,8 @@
       "nextEvolutions": [
         {
           "candy": 25,
-          "pokemon": "POKEMON_GRAVELER_NORMAL"
+          "form": "normal",
+          "pokemon": "POKEMON_GRAVELER"
         }
       ],
       "previousEvolution": null,
@@ -92,7 +94,8 @@
   "nextEvolutions": [
     {
       "candy": 25,
-      "pokemon": "POKEMON_GRAVELER_NORMAL"
+      "form": "normal",
+      "pokemon": "POKEMON_GRAVELER"
     }
   ],
   "previousEvolution": null,

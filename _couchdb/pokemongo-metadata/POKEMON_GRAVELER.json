@@ -35,7 +35,8 @@
       "nextEvolutions": [
         {
           "candy": 100,
-          "pokemon": "POKEMON_GOLEM_ALOLA"
+          "form": "alola",
+          "pokemon": "POKEMON_GOLEM"
         }
       ],
       "previousEvolution": "POKEMON_GEODUDE",
@@ -70,7 +71,8 @@
       "nextEvolutions": [
         {
           "candy": 100,
-          "pokemon": "POKEMON_GOLEM_NORMAL"
+          "form": "normal",
+          "pokemon": "POKEMON_GOLEM"
         }
       ],
       "previousEvolution": "POKEMON_GEODUDE",
@@ -92,7 +94,8 @@
   "nextEvolutions": [
     {
       "candy": 100,
-      "pokemon": "POKEMON_GOLEM_NORMAL"
+      "form": "normal",
+      "pokemon": "POKEMON_GOLEM"
     }
   ],
   "previousEvolution": "POKEMON_GEODUDE",
