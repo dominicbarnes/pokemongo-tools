@@ -1,14 +1,15 @@
 {
   "baseStats": {
-    "attack": 1,
-    "defense": 1,
-    "stamina": 1
+    "attack": 345,
+    "defense": 115,
+    "stamina": 100
   },
   "buddyDistance": 20,
   "chargeMoves": {
+    "MOVE_HYPER_BEAM": false,
     "MOVE_PSYCHO_BOOST": false,
     "MOVE_STRUGGLE": true,
-    "MOVE_SWIFT": false,
+    "MOVE_SWIFT": true,
     "MOVE_ZAP_CANNON": false
   },
   "defaultForm": "normal",
@@ -18,14 +19,14 @@
     "attack": {
       "assetBundle": 12,
       "baseStats": {
-        "attack": 1,
-        "defense": 1,
-        "stamina": 1
+        "attack": 414,
+        "defense": 46,
+        "stamina": 100
       },
       "buddyDistance": 20,
       "chargeMoves": {
+        "MOVE_DARK_PULSE": false,
         "MOVE_PSYCHO_BOOST": false,
-        "MOVE_SWIFT": false,
         "MOVE_ZAP_CANNON": false
       },
       "dex": 386,
@@ -37,7 +38,7 @@
       ],
       "previousEvolution": null,
       "quickMoves": {
-        "MOVE_COUNTER_FAST": false,
+        "MOVE_POISON_JAB_FAST": false,
         "MOVE_ZEN_HEADBUTT_FAST": false
       },
       "rarity": "mythic",
@@ -49,14 +50,14 @@
     "defense": {
       "assetBundle": 13,
       "baseStats": {
-        "attack": 1,
-        "defense": 1,
-        "stamina": 1
+        "attack": 144,
+        "defense": 330,
+        "stamina": 100
       },
       "buddyDistance": 20,
       "chargeMoves": {
         "MOVE_PSYCHO_BOOST": false,
-        "MOVE_SWIFT": false,
+        "MOVE_ROCK_SLIDE": false,
         "MOVE_ZAP_CANNON": false
       },
       "dex": 386,
@@ -80,15 +81,15 @@
     "normal": {
       "assetBundle": 11,
       "baseStats": {
-        "attack": 1,
-        "defense": 1,
-        "stamina": 1
+        "attack": 345,
+        "defense": 115,
+        "stamina": 100
       },
       "buddyDistance": 20,
       "chargeMoves": {
+        "MOVE_HYPER_BEAM": false,
         "MOVE_PSYCHO_BOOST": false,
-        "MOVE_SWIFT": false,
-        "MOVE_ZAP_CANNON": false
+        "MOVE_THUNDERBOLT": false
       },
       "dex": 386,
       "family": "FAMILY_DEOXYS",
@@ -99,7 +100,7 @@
       ],
       "previousEvolution": null,
       "quickMoves": {
-        "MOVE_COUNTER_FAST": false,
+        "MOVE_CHARGE_BEAM_FAST": false,
         "MOVE_ZEN_HEADBUTT_FAST": false
       },
       "rarity": "mythic",
@@ -111,9 +112,9 @@
     "speed": {
       "assetBundle": 14,
       "baseStats": {
-        "attack": 1,
-        "defense": 1,
-        "stamina": 1
+        "attack": 230,
+        "defense": 218,
+        "stamina": 100
       },
       "buddyDistance": 20,
       "chargeMoves": {
@@ -130,7 +131,7 @@
       ],
       "previousEvolution": null,
       "quickMoves": {
-        "MOVE_COUNTER_FAST": false,
+        "MOVE_CHARGE_BEAM_FAST": false,
         "MOVE_ZEN_HEADBUTT_FAST": false
       },
       "rarity": "mythic",
@@ -147,7 +148,8 @@
   ],
   "previousEvolution": null,
   "quickMoves": {
-    "MOVE_COUNTER_FAST": false,
+    "MOVE_CHARGE_BEAM_FAST": false,
+    "MOVE_COUNTER_FAST": true,
     "MOVE_SPLASH_FAST": true,
     "MOVE_ZEN_HEADBUTT_FAST": false
   },
