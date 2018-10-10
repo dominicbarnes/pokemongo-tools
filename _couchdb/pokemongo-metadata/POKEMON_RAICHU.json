@@ -13,6 +13,7 @@
   "costumes": {
     "ash_hat": 3,
     "birthday_hat": 2,
+    "fragment_hat": 6,
     "santa_hat": 1,
     "summer_hat": 5,
     "witch_hat": 4
@@ -37,6 +38,7 @@
       "costumes": {
         "ash_hat": 3,
         "birthday_hat": 2,
+        "fragment_hat": 6,
         "santa_hat": 1,
         "summer_hat": 5,
         "witch_hat": 4
@@ -75,6 +77,7 @@
       "costumes": {
         "ash_hat": 3,
         "birthday_hat": 2,
+        "fragment_hat": 6,
         "santa_hat": 1,
         "summer_hat": 5,
         "witch_hat": 4
