@@ -248,7 +248,7 @@
 
       evolveSpriteURL() {
         const { catalog, metadata } = this
-        return metadata && catalog.form && catalog.form in metadata.forms
+        return metadata && catalog.form && metadata.forms && catalog.form in metadata.forms
           ? spriteURL(metadata.forms[catalog.form], catalog)
           : spriteURL(metadata, catalog)
       },
