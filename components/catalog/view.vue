@@ -113,7 +113,7 @@
 
         <b-modal id="modalEvolve" title="Evolve" v-on:show="reset('evolve-modal')" v-on:ok="evolve(newPokemonID, newQuickMove, newChargeMove)">
           <b-row>
-            <b-col cols="8">
+            <b-col>
               <b-form-group label="Pokémon" description="Choose the Pokémon species that you evolved into.">
                 <template slot="description">
                   Calculated
@@ -122,19 +122,19 @@
                 </template>
                 <b-form-select id="evolve-species-input" v-bind:options="evolutions" v-model="newPokemonID" required size="lg" />
               </b-form-group>
+
+              <b-form-group label="Quick Move" description="Select the new quick move.">
+                <b-form-select v-bind:options="quickMoves" v-model="newQuickMove" />
+              </b-form-group>
+
+              <b-form-group label="Charge Move" description="Select the new charge move.">
+                <b-form-select v-bind:options="chargeMoves" v-model="newChargeMove" />
+              </b-form-group>
             </b-col>
-            <b-col cols="4">
-              <pokemon-sprite v-if="dex" v-bind:pokemon="dex" v-bind:shiny="catalog.shiny" />
+            <b-col>
+              <img v-bind:src="evolveSpriteURL" v-img-fallback="fallbackSpriteURL" height="256" width="256" />
             </b-col>
           </b-row>
-
-          <b-form-group label="Quick Move" description="Select the new quick move.">
-            <b-form-select v-bind:options="quickMoves" v-model="newQuickMove" />
-          </b-form-group>
-
-          <b-form-group label="Charge Move" description="Select the new charge move.">
-            <b-form-select v-bind:options="chargeMoves" v-model="newChargeMove" />
-          </b-form-group>
         </b-modal>
 
         <b-modal id="modalUseTM" title="Use TM" v-on:show="reset('use-tm-modal')" v-on:ok="useTM(newQuickMove, newChargeMove)">
@@ -162,7 +162,6 @@
   import { cp, hp, dex, spriteURL } from '../../utils'
 
   import MoveSummary from '../move-summary.vue'
-  import PokemonSprite from '../pokemon-sprite.vue'
   import RelTime from '../rel-time.vue'
   import TypeBadge from '../badges/type.vue'
   import RarityBadge from '../badges/rarity.vue'
@@ -171,6 +170,7 @@
   export default {
     data() {
       return {
+        metadata: null,
         dex: null,
         cp: null,
         hp: null,
@@ -246,6 +246,13 @@
         return this.evolutions.length > 0
       },
 
+      evolveSpriteURL() {
+        const { catalog, metadata } = this
+        return catalog.form && metadata
+          ? spriteURL(metadata.forms[catalog.form], catalog)
+          : spriteURL(metadata, catalog)
+      },
+
       fallbackSpriteURL() {
         return spriteURL(null)
       }
@@ -255,6 +262,7 @@
       newPokemonID(id) {
         const metadata = this.pokemonByID(id)
         if (metadata) {
+          this.metadata = metadata
           this.dex = metadata.dex
           this.cp = this.calculateCP(metadata)
           this.hp = this.calculateHP(metadata)
@@ -358,6 +366,6 @@
       }
     },
 
-    components: { MoveSummary, PokemonSprite, RelTime, TypeBadge, RarityBadge, ShinyBadge }
+    components: { MoveSummary, RelTime, TypeBadge, RarityBadge, ShinyBadge }
   }
 </script>
