@@ -139,7 +139,6 @@
   import clone from 'clone'
   import numeral from 'numeral'
 
-  import PokemonSprite from '../pokemon-sprite.vue'
   import { cp, hp, dex, spriteURL } from '../../utils'
   import { mapGetters } from 'vuex'
 
@@ -302,8 +301,6 @@
           el.focus()
         }
       }
-    },
-
-    components: { PokemonSprite }
+    }
   }
 </script>

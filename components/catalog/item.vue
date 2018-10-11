@@ -49,7 +49,6 @@
 
   import GenerationBadge from '../badges/generation.vue'
   import LevelBadge from '../badges/level.vue'
-  import PokemonSprite from '../pokemon-sprite.vue'
   import RarityBadge from '../badges/rarity.vue'
   import RelTime from '../rel-time.vue'
   import ShinyBadge from '../badges/shiny.vue'
@@ -73,6 +72,6 @@
       }
     },
 
-    components: { GenerationBadge, LevelBadge, PokemonSprite, RarityBadge, RelTime, ShinyBadge, TypeBadge }
+    components: { GenerationBadge, LevelBadge, RarityBadge, RelTime, ShinyBadge, TypeBadge }
   }
 </script>

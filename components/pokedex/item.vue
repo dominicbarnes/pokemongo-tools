@@ -17,7 +17,6 @@
   import { spriteURL } from '../../utils.js'
 
   import GenerationBadge from '../badges/generation.vue'
-  import PokemonSprite from '../pokemon-sprite.vue'
   import RarityBadge from '../badges/rarity.vue'
   import TypeBadge from '../badges/type.vue'
 
@@ -41,6 +40,6 @@
       }
     },
 
-    components: { GenerationBadge, PokemonSprite, RarityBadge, TypeBadge }
+    components: { GenerationBadge, RarityBadge, TypeBadge }
   }
 </script>
