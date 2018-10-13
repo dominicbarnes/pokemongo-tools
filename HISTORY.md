@@ -1,4 +1,22 @@
 
+0.11.0 / 2018-10-13
+===================
+
+  * fix(catalog): handle more cases in the evolve modal
+  * fix(catalog): handle forms that are missing metadata (eg: normal)
+  * refactor: fully retire old sprite components
+  * feat(catalog): use new sprite system for evolve modal
+  * feat(metadata): add 'Fragment Hat' for Pikachu family
+  * chore(metadata): update
+  * fix(metadata): handle alt form evolutions correctly
+  * chore(package): update deps
+  * feat(catalog): undicate uncertain stats on list
+  * feat(pokedex): clean up moves list
+  * metadata(moves): update game-master, add more details
+  * fix(catalog): fix common rarity filter
+  * feat(pokedex-view): add left/right navigation
+  * refactor(pokedex): break into smaller components
+
 0.10.3 / 2018-08-22
 ===================
 
