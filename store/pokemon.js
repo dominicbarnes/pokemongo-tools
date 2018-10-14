@@ -97,6 +97,7 @@ function date (input) {
 }
 
 function move (types, moves, move) {
+  if (!move) return null
   const stab = types.indexOf(move.type) > -1
   const legacy = !!moves[move._id]
   return Object.assign({ stab, legacy }, move)
