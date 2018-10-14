@@ -1,12 +1,11 @@
 
 import debounce from 'debounce'
-import moment from 'moment'
 import sift from 'sift'
 import sortBy from 'sort-by'
 import Vue from 'vue'
 
+import pokemon from './pokemon.js'
 import { index } from './utils'
-import { cp, hp, spriteURL } from '../utils.js'
 
 const { hoodie } = window
 
@@ -25,47 +24,9 @@ const getters = {
     const m = index(raw, '_id')
     return id => m.get(id)
   },
-  all ({ raw }, getters, { loading }, { pokemonByID, movesByID, cpMultipliers }) {
+  all ({ raw }, getters, { loading }, state) {
     if (loading) return []
-    return raw.map(catalog => {
-      const metadata = pokemonByID(catalog.pokemonID, catalog.form)
-      const species = pokemonByID(catalog.pokemonID)
-      const { hoodie, attackIV = 0, defenseIV = 0, staminaIV = 0 } = catalog
-      const ivs = attackIV + defenseIV + staminaIV
-      const multiplier = cpMultipliers(catalog.level)
-      return {
-        added: hoodie.createdAt && moment(hoodie.createdAt).toDate(),
-        attackIV: attackIV,
-        caught: catalog.caughtAt && moment(catalog.caughtAt).toDate(),
-        chargeMove: catalog && movesByID(catalog.chargeMove),
-        cp: calculateCP(catalog, metadata, multiplier),
-        defenseIV: defenseIV,
-        dex: metadata && metadata.dex,
-        nextEvolutions: metadata && nextEvolutions(metadata.nextEvolutions),
-        id: catalog._id,
-        family: metadata && metadata.family,
-        form: catalog.form || 'normal',
-        generation: metadata && metadata.generation,
-        hp: calculateHP(catalog, metadata, multiplier),
-        ivs: ivs,
-        ivp: ivs / 45,
-        level: catalog.level,
-        name: catalog.nickname || (metadata && metadata.name),
-        nickname: catalog.nickname,
-        notes: catalog.notes,
-        pokemon: catalog.pokemonID,
-        prevEvolution: metadata && pokemonByID(metadata.prevEvolution),
-        quickMove: catalog && movesByID(catalog.quickMove, catalog.hiddenPowerType),
-        rarity: metadata && metadata.rarity,
-        shiny: !!catalog.shiny,
-        sprite: spriteURL(metadata, catalog),
-        species: species && species.name,
-        staminaIV: staminaIV,
-        types: metadata && metadata.types,
-        uncertain: !!catalog.uncertainStats,
-        updated: hoodie.updatedAt && moment(hoodie.updatedAt).toDate()
-      }
-    })
+    return raw.map(catalog => pokemon(catalog, state))
   },
   filterer (state, getters, rootState, { pokemonThatEvolve }) {
     if (!state.filterBy) return null
@@ -82,7 +43,7 @@ const getters = {
     if (generation) query.$and.push({ generation })
     if (ivs) {
       query.$and.push({
-        ivp: {
+        percentIV: {
           $gte: ivs[0] / 100,
           $lte: ivs[1] / 100
         }
@@ -113,11 +74,11 @@ const getters = {
   },
   sorter (state) {
     switch (state.sortBy) {
-      case 'recent': return sortBy('-caught', '-added', sortMapper)
+      case 'recent': return sortBy('-caughtAt', '-addedAt', sortMapper)
       case 'dex': return sortBy('dex', '-cp', sortMapper)
       case 'name': return sortBy('name', '-cp', sortMapper)
       case 'cp': return sortBy('-cp', sortMapper)
-      case 'ivs': return sortBy('-ivs', '-cp', '-added', sortMapper)
+      case 'ivs': return sortBy('-totalIV', '-cp', '-added', sortMapper)
       case 'level': return sortBy('-level', '-cp', sortMapper)
       default:
         console.warn('catalog: unrecognized sort by', state.sortBy)
@@ -229,31 +190,6 @@ export default {
   getters,
   mutations,
   actions
-}
-
-function calculateCP (catalog, metadata, multiplier) {
-  if (!catalog || !metadata) return 0
-  const attack = metadata.baseStats.attack + catalog.attackIV
-  const defense = metadata.baseStats.defense + catalog.defenseIV
-  const stamina = metadata.baseStats.stamina + catalog.staminaIV
-  return cp(attack, defense, stamina, multiplier)
-}
-
-function calculateHP (catalog, metadata, multiplier) {
-  if (!catalog || !metadata) return 0
-  const stamina = metadata.baseStats.stamina + catalog.staminaIV
-  return hp(stamina, multiplier)
-}
-
-function nextEvolutions (list) {
-  if (!list) return []
-  return list.map(evolution => {
-    return {
-      pokemon: evolution.pokemon,
-      item: evolution.item,
-      candy: evolution.candy
-    }
-  })
 }
 
 // this helper function will only be necessary until kvnneff/sort-by#10 lands

@@ -7,6 +7,7 @@ import Vue from 'vue'
 
 import config from '../config'
 import { index } from './utils'
+import { spriteURL } from '../utils.js'
 
 const store = new Store('pokemongo-metadata', {
   PouchDB: PouchDB,
@@ -20,7 +21,8 @@ const state = {
   pokemon: [],
   moves: [],
   families: [],
-  loading: true
+  loading: true,
+  fallbackSpriteURL: spriteURL()
 }
 
 const getters = {
