@@ -4,11 +4,12 @@
     <b-card-body>
       <h2 class="h3 mt-1 mb-0">
         <b-link v-bind:to="{ name: 'pokedex-view', params: { pokemon: pokemon.id } }">{{pokemon.name}}</b-link>
-        <small>({{ pokemon.dex | dex }})</small>
       </h2>
-      <type-badge v-for="type in pokemon.types" v-bind:type="type" />
+      <b-badge variant="dark">{{ pokemon.dex | dex }}</b-badge>
       <generation-badge v-bind:generation="pokemon.generation" />
       <rarity-badge v-if="pokemon.rarity" v-bind:rarity="pokemon.rarity" />
+      <br />
+      <type-badge v-for="type in pokemon.types" v-bind:type="type" />
     </b-card-body>
   </b-card>
 </template>

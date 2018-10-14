@@ -1,8 +1,10 @@
 <template>
-  <b-card v-bind:title="pokemon.name" v-bind:sub-title="subtitle">
+  <b-card v-bind:title="title" v-bind:sub-title="subtitle">
+    <b-badge variant="dark">{{ pokemon.dex | dex }}</b-badge>
+    <badge-generation v-bind:generation="pokemon.generation" />
+    &bull;
     <badge-type v-for="type in pokemon.types" v-bind:type="type" />
     &bull;
-    <badge-generation v-bind:generation="pokemon.generation" />
     <badge-rarity v-bind:rarity="pokemon.rarity" />
     <shiny-badge v-if="pokemon.shiny" />
     <center>
@@ -70,8 +72,12 @@
       ...mapGetters([ 'pokemonByID', 'quickMoves', 'chargeMoves', 'fallbackSpriteURL' ]),
       ...mapGetters({ catalogByID: 'catalog/rawByID' }),
 
+      title() {
+        return this.pokemon.nickname || this.pokemon.species
+      },
+
       subtitle() {
-        return dex(this.pokemon.dex)
+        return this.pokemon.nickname && this.pokemon.species
       },
 
       evolutionOptions() {

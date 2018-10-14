@@ -1,8 +1,10 @@
 <template>
-  <b-card v-bind:title="title" v-bind:sub-title="subtitle">
+  <b-card v-bind:title="metadata.name">
+    <b-badge variant="dark">{{ metadata.dex | dex }}</b-badge>
+    <badge-generation v-bind:generation="metadata.generation" />
+    &bull;
     <badge-type v-for="type in metadata.types" v-bind:type="type" />
     &bull;
-    <badge-generation v-bind:generation="metadata.generation" />
     <badge-rarity v-bind:rarity="metadata.rarity" />
     <center>
       <b-img v-bind:src="spriteURL" v-img-fallback="fallbackSpriteURL" />
@@ -39,14 +41,6 @@
 
     computed: {
       ...mapGetters([ 'fallbackSpriteURL' ]),
-
-      title() {
-        return this.metadata.name
-      },
-
-      subtitle() {
-        return dex(this.metadata.dex)
-      },
 
       spriteURL() {
         const { metadata, costume, shiny } = this
