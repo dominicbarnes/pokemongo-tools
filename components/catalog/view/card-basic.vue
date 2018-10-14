@@ -67,7 +67,7 @@
     },
 
     computed: {
-      ...mapGetters([ 'pokemonByID', 'quickMoves', 'chargeMoves' ]),
+      ...mapGetters([ 'pokemonByID', 'quickMoves', 'chargeMoves', 'fallbackSpriteURL' ]),
       ...mapGetters({ catalogByID: 'catalog/rawByID' }),
 
       subtitle() {

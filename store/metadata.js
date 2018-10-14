@@ -21,8 +21,7 @@ const state = {
   pokemon: [],
   moves: [],
   families: [],
-  loading: true,
-  fallbackSpriteURL: spriteURL()
+  loading: true
 }
 
 const getters = {
@@ -108,6 +107,10 @@ const getters = {
       if (!upgradeCosts.levels) return null
       return upgradeCosts.levels[level]
     }
+  },
+
+  fallbackSpriteURL () {
+    return spriteURL(null, null)
   }
 }
 

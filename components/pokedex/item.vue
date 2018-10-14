@@ -14,6 +14,8 @@
 </template>
 
 <script>
+  import { mapGetters } from 'vuex'
+
   import { spriteURL } from '../../utils.js'
 
   import GenerationBadge from '../badges/generation.vue'
@@ -30,13 +32,11 @@
     },
 
     computed: {
+      ...mapGetters([ 'fallbackSpriteURL' ]),
+
       spriteURL() {
         const { pokemon, shiny } = this
         return spriteURL(pokemon, { shiny })
-      },
-
-      fallbackSpriteURL() {
-        return spriteURL(null)
       }
     },
 

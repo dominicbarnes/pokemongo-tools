@@ -16,6 +16,7 @@
 
 <script>
   import Case from 'case'
+  import { mapGetters } from 'vuex';
 
   import { BadgeGeneration, BadgeRarity, BadgeType } from '../../badges/index.js'
 
@@ -37,6 +38,8 @@
     },
 
     computed: {
+      ...mapGetters([ 'fallbackSpriteURL' ]),
+
       title() {
         return this.metadata.name
       },
@@ -48,10 +51,6 @@
       spriteURL() {
         const { metadata, costume, shiny } = this
         return spriteURL(metadata, { costume, shiny })
-      },
-
-      fallbackSpriteURL() {
-        return spriteURL(null, null)
       },
 
       costumeOptions() {

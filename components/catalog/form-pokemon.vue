@@ -166,11 +166,7 @@
     },
 
     computed: {
-      ...mapGetters({
-        pokemonByID: 'pokemonByID',
-        cpMultipliers: 'cpMultipliers',
-        movesByID: 'movesByID'
-      }),
+      ...mapGetters([ 'cpMultipliers', 'fallbackSpriteURL', 'movesByID', 'pokemonByID' ]),
 
       metadata() {
         const { pokemonID } = this.value
@@ -257,9 +253,6 @@
           costume: this.value.costume,
           shiny: this.value.shiny
         })
-      },
-      fallbackSpriteURL() {
-        return spriteURL(null)
       }
     },
 

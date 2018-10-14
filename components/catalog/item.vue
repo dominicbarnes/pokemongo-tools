@@ -45,7 +45,7 @@
 </template>
 
 <script>
-  import { spriteURL } from '../../utils.js'
+  import { mapGetters } from 'vuex'
 
   import GenerationBadge from '../badges/generation.vue'
   import LevelBadge from '../badges/level.vue'
@@ -67,9 +67,7 @@
     },
 
     computed: {
-      fallbackSpriteURL() {
-        return spriteURL(null)
-      }
+      ...mapGetters([ 'fallbackSpriteURL' ])
     },
 
     components: { GenerationBadge, LevelBadge, RarityBadge, RelTime, ShinyBadge, TypeBadge }
