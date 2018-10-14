@@ -36,9 +36,7 @@
       <small class="text-muted">
         <template v-if="pokemon.caughtAt">
           Caught <rel-time v-bind:datetime="pokemon.caughtAt" format-tooltip="LL" refresh="1m" />
-          &bull;
         </template>
-        Added <rel-time v-bind:datetime="pokemon.addedAt" refresh="1m" />
       </small>
     </b-card-body>
   </b-card>
