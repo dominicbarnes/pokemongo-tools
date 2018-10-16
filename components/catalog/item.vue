@@ -1,48 +1,60 @@
 <template>
   <b-card class="border rounded mb-3" no-body v-bind:class="{ 'border-primary': selected, 'bg-light': selected }">
-    <b-card-img v-bind:src="pokemon.spriteURL" v-img-fallback="fallbackSpriteURL" />
     <b-card-body>
-      <h2 v-if="pokemon.nickname" class="h3 mt-1 mb-0">
-        <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: pokemon.id } }">{{ pokemon.nickname }}</b-link>
-        <small class="text-muted">({{ pokemon.species }})</small>
-      </h2>
-      <h2 v-else class="h3 mt-1 mb-0">
-        <b-link v-bind:to="{ name: 'catalog-view', params: { pokemon: pokemon.id } }">{{ pokemon.name }}</b-link>
-      </h2>
+      <h4 class="card-title">
+        <b-link v-bind:to="view">{{ title }}</b-link>
+        <small v-if="subtitle">({{ subtitle }})</small>
+      </h4>
       <div>
         <b-badge variant="dark">{{ pokemon.dex | dex }}</b-badge>
         <generation-badge v-bind:generation="pokemon.generation" />
-        <type-badge v-for="type in pokemon.types" v-bind:type="type" />
-      </div>
-      <div>
         <rarity-badge v-if="pokemon.rarity" v-bind:rarity="pokemon.rarity" />
         <shiny-badge v-if="pokemon.shiny" />
-        <b-badge v-if="pokemon.totalIV === 45" variant="success" title="100% IVs">Wonder</b-badge>
-        <b-badge v-if="pokemon.notes" v-b-tooltip.hover.right v-bind:title="pokemon.notes">Notes</b-badge>
       </div>
       <div>
-        Level <level-badge v-bind:level="pokemon.level" />
+        <type-badge v-for="type in pokemon.types" v-bind:type="type" />
         &bull;
-        <b-badge variant="primary">{{ pokemon.percentIV | number('0%') }}</b-badge>
-        <abbr title="Individual Values" class="initialism">IVs</abbr>
+        <type-badge v-for="type in moveTypes" v-bind:type="type" />
       </div>
-      <div>
-        <b-badge v-if="pokemon.uncertainIV" variant="warning" title="Uncertain Stats">{{ pokemon.cp | number('0,0') }}*</b-badge>
-        <b-badge v-else variant="info">{{ pokemon.cp | number('0,0') }}</b-badge>
-        <abbr title="Combat Power" class="initialism">CP</abbr>
-        <b-badge variant="info">{{ pokemon.hp | number('0,0') }}</b-badge>
-        <abbr title="Hit Points" class="initialism">HP</abbr>
-      </div>
-      <small class="text-muted">
-        <template v-if="pokemon.caughtAt">
-          Caught <rel-time v-bind:datetime="pokemon.caughtAt" format-tooltip="LL" refresh="1m" />
-        </template>
-      </small>
+      <b-card-img v-bind:src="pokemon.spriteURL" v-img-fallback="fallbackSpriteURL" />
+      <b-alert show v-if="pokemon.notes" variant="info" class="card-text mt-2">
+        <b>Notes:</b> {{ pokemon.notes }}
+      </b-alert>
+      <stat-grid class="mt-2">
+        <stat-grid-cell cols="6" label="CP">{{ pokemon.cp | number('0,0') }}</stat-grid-cell>
+        <stat-grid-cell cols="6" label="HP">{{ pokemon.hp | number('0,0') }}</stat-grid-cell>
+        <stat-grid-cell cols="6" label="IVs">
+          <b-badge v-if="pokemon.percentIV === 1" variant="success">Wonder</b-badge>
+          <b-badge v-else>{{ pokemon.percentIV | number('0%') }}</b-badge>
+        </stat-grid-cell>
+        <stat-grid-cell cols="6" label="Level">
+          <b-badge v-if="pokemon.level === 40" variant="success">Max</b-badge>
+          <span v-else>{{ pokemon.level | number('0.0') }}</span>
+        </stat-grid-cell>
+      </stat-grid>
     </b-card-body>
+    <b-card-footer>
+      <b-row no-gutters class="text-muted">
+        <b-col class="text-left">
+          <small v-if="pokemon.caughtAt">
+            Caught <rel-time v-bind:datetime="pokemon.caughtAt" format-tooltip="LL" refresh="1m" />
+          </small>
+        </b-col>
+        <b-col class="text-right">
+          <small v-if="pokemon.updatedAt">
+            Updated <rel-time v-bind:datetime="pokemon.updatedAt" format-tooltip="LL" refresh="1m" />
+          </small>
+          <small v-else>
+            Added <rel-time v-bind:datetime="pokemon.createdAt" format-tooltip="LL" refresh="1m" />
+          </small>
+        </b-col>
+      </b-row>
+    </b-card-footer>
   </b-card>
 </template>
 
 <script>
+  import numeral from 'numeral'
   import { mapGetters } from 'vuex'
 
   import GenerationBadge from '../badges/generation.vue'
@@ -51,6 +63,9 @@
   import RelTime from '../rel-time.vue'
   import ShinyBadge from '../badges/shiny.vue'
   import TypeBadge from '../badges/type.vue'
+
+  import StatGrid from '../stat-grid.vue'
+  import StatGridCell from '../stat-grid-cell.vue'
 
   export default {
     props: {
@@ -65,9 +80,27 @@
     },
 
     computed: {
-      ...mapGetters([ 'fallbackSpriteURL' ])
+      ...mapGetters([ 'fallbackSpriteURL' ]),
+
+      title() {
+        const { nickname, species } = this.pokemon
+        return nickname || species
+      },
+
+      subtitle() {
+        const { nickname, species } = this.pokemon
+        return nickname && species
+      },
+
+      view() {
+        return { name: 'catalog-view', params: { pokemon: this.pokemon.id } }
+      },
+
+      moveTypes() {
+        return [ this.pokemon.quickMove, this.pokemon.chargeMove ].filter(Boolean).map(move => move.type)
+      }
     },
 
-    components: { GenerationBadge, LevelBadge, RarityBadge, RelTime, ShinyBadge, TypeBadge }
+    components: { GenerationBadge, LevelBadge, RarityBadge, RelTime, ShinyBadge, TypeBadge, StatGrid, StatGridCell }
   }
 </script>
