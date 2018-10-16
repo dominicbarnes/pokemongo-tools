@@ -93,7 +93,7 @@ function nextEvolutions (list) {
 }
 
 function date (input) {
-  return input ? moment(input).toDate() : new Date()
+  return input ? moment(input).toDate() : null
 }
 
 function move (types, moves, move) {

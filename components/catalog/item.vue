@@ -42,10 +42,10 @@
         </b-col>
         <b-col class="text-right">
           <small v-if="pokemon.updatedAt">
-            Updated <rel-time v-bind:datetime="pokemon.updatedAt" format-tooltip="LL" refresh="1m" />
+            Updated <rel-time v-bind:datetime="pokemon.updatedAt" format-tooltip="LLLL" refresh="1m" />
           </small>
           <small v-else>
-            Added <rel-time v-bind:datetime="pokemon.createdAt" format-tooltip="LL" refresh="1m" />
+            Added <rel-time v-bind:datetime="pokemon.addedAt" format-tooltip="LLLL" refresh="1m" />
           </small>
         </b-col>
       </b-row>
