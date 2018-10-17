@@ -87,6 +87,7 @@
     "test": "eslint .",
     "preimport": "docker-compose up -d",
     "import": "node scripts/import.js",
+    "mine": "node scripts/mine.js",
     "version": "git-changelog --tag $npm_package_version && git add HISTORY.md",
     "postversion": "git push --tags && git push",
     "precommit": "npm test",
