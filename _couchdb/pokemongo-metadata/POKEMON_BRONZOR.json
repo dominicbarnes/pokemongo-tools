@@ -1,0 +1,34 @@
+{
+  "baseStats": {
+    "attack": 43,
+    "defense": 154,
+    "stamina": 149
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_GYRO_BALL": false,
+    "MOVE_HEAVY_SLAM": false,
+    "MOVE_PSYSHOCK": false
+  },
+  "family": "FAMILY_BRONZOR",
+  "generation": -1,
+  "height": 0.5,
+  "name": "Bronzor",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_BRONZONG"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "weight": 60.5
+}

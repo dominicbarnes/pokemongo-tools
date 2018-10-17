@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 156,
+    "defense": 194,
+    "stamina": 163
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_FIRE_PUNCH": false,
+    "MOVE_FOCUS_BLAST": false,
+    "MOVE_HYPER_BEAM": false
+  },
+  "family": "FAMILY_BUNEARY",
+  "generation": -1,
+  "height": 1.2,
+  "name": "Lopunny",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_BUNEARY",
+  "quickMoves": {
+    "MOVE_LOW_KICK_FAST": false,
+    "MOVE_POUND_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
+  "weight": 33.3
+}

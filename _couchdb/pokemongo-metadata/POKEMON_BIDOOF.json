@@ -1,0 +1,33 @@
+{
+  "baseStats": {
+    "attack": 80,
+    "defense": 73,
+    "stamina": 153
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_CRUNCH": false,
+    "MOVE_GRASS_KNOT": false,
+    "MOVE_HYPER_FANG": false
+  },
+  "family": "FAMILY_BIDOOF",
+  "generation": -1,
+  "height": 0.5,
+  "name": "Bidoof",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_BIBAREL"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_TACKLE_FAST": false,
+    "MOVE_TAKE_DOWN_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
+  "weight": 20
+}

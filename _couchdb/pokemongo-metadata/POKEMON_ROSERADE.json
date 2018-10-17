@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 243,
+    "defense": 185,
+    "stamina": 155
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_SLUDGE_BOMB": false,
+    "MOVE_SOLAR_BEAM": false
+  },
+  "family": "FAMILY_ROSELIA",
+  "generation": -1,
+  "height": 0.9,
+  "name": "Roserade",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_ROSELIA",
+  "quickMoves": {
+    "MOVE_POISON_JAB_FAST": false,
+    "MOVE_RAZOR_LEAF_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "weight": 14.5
+}

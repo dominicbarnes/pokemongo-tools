@@ -1,0 +1,33 @@
+{
+  "baseStats": {
+    "attack": 91,
+    "defense": 109,
+    "stamina": 120
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_ENERGY_BALL": false,
+    "MOVE_GRASS_KNOT": false
+  },
+  "family": "FAMILY_ROSELIA",
+  "generation": -1,
+  "height": 0.2,
+  "name": "Budew",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_ROSELIA"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_HIDDEN_POWER_FAST": false,
+    "MOVE_RAZOR_LEAF_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "weight": 1.2
+}

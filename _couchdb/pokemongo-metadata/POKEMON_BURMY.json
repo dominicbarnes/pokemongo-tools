@@ -1,0 +1,46 @@
+{
+  "baseStats": {
+    "attack": 53,
+    "defense": 83,
+    "stamina": 120
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_STRUGGLE": false
+  },
+  "family": "FAMILY_BURMY",
+  "generation": -1,
+  "height": 0.2,
+  "name": "Burmy",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "form": "plant",
+      "pokemon": "POKEMON_WORMADAM"
+    },
+    {
+      "candy": 50,
+      "form": "sandy",
+      "pokemon": "POKEMON_WORMADAM"
+    },
+    {
+      "candy": 50,
+      "form": "trash",
+      "pokemon": "POKEMON_WORMADAM"
+    },
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_MOTHIM"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_QUICK_ATTACK_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "bug"
+  ],
+  "weight": 3.4
+}

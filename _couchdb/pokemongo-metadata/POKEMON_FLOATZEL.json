@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 221,
+    "defense": 114,
+    "stamina": 198
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AQUA_JET": false,
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_SWIFT": false
+  },
+  "family": "FAMILY_BUIZEL",
+  "generation": -1,
+  "height": 1.1,
+  "name": "Floatzel",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_BUIZEL",
+  "quickMoves": {
+    "MOVE_WATERFALL_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "water"
+  ],
+  "weight": 33.5
+}

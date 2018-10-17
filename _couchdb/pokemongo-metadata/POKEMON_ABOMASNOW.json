@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 178,
+    "defense": 158,
+    "stamina": 207
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BLIZZARD": false,
+    "MOVE_ENERGY_BALL": false,
+    "MOVE_OUTRAGE": false
+  },
+  "family": "FAMILY_SNOVER",
+  "generation": -1,
+  "height": 2.2,
+  "name": "Abomasnow",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_SNOVER",
+  "quickMoves": {
+    "MOVE_POWDER_SNOW_FAST": false,
+    "MOVE_RAZOR_LEAF_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "ice",
+    "grass"
+  ],
+  "weight": 135.5
+}

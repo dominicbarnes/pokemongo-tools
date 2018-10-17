@@ -1,0 +1,34 @@
+{
+  "baseStats": {
+    "attack": 125,
+    "defense": 142,
+    "stamina": 85
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_PSYBEAM": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_PSYSHOCK": false
+  },
+  "family": "FAMILY_MR_MIME",
+  "generation": -1,
+  "height": 0.6,
+  "name": "Mime Jr",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_MR_MIME"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_POUND_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "weight": 13
+}

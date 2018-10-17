@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 238,
+    "defense": 205,
+    "stamina": 163
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AVALANCHE": false,
+    "MOVE_ICE_BEAM": false,
+    "MOVE_ICY_WIND": false
+  },
+  "family": "FAMILY_EEVEE",
+  "generation": -1,
+  "height": 0.8,
+  "name": "Glaceon",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_EEVEE",
+  "quickMoves": {
+    "MOVE_FROST_BREATH_FAST": false,
+    "MOVE_ICE_SHARD_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "ice"
+  ],
+  "weight": 25.9
+}

@@ -1,0 +1,32 @@
+{
+  "baseStats": {
+    "attack": 25,
+    "defense": 77,
+    "stamina": 225
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_PSYCHIC": false
+  },
+  "family": "FAMILY_CHANSEY",
+  "generation": -1,
+  "height": 0.6,
+  "name": "Happiny",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_CHANSEY"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_POUND_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
+  "weight": 24.4
+}

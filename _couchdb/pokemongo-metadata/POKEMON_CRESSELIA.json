@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 152,
+    "defense": 258,
+    "stamina": 260
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_AURORA_BEAM": false,
+    "MOVE_FUTURESIGHT": false,
+    "MOVE_MOONBLAST": false
+  },
+  "family": "FAMILY_CRESSELIA",
+  "generation": -1,
+  "height": 1.5,
+  "name": "Cresselia",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_PSYCHO_CUT_FAST": false
+  },
+  "rarity": "legendary",
+  "types": [
+    "psychic"
+  ],
+  "weight": 85.6
+}

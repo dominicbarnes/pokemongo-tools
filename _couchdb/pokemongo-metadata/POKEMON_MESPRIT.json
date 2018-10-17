@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 212,
+    "defense": 212,
+    "stamina": 190
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_BLIZZARD": false,
+    "MOVE_FUTURESIGHT": false,
+    "MOVE_SWIFT": false
+  },
+  "family": "FAMILY_MESPRIT",
+  "generation": -1,
+  "height": 0.3,
+  "name": "Mesprit",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_EXTRASENSORY_FAST": false
+  },
+  "rarity": "legendary",
+  "types": [
+    "psychic"
+  ],
+  "weight": 0.3
+}

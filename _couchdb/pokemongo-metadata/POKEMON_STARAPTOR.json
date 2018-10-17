@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 234,
+    "defense": 140,
+    "stamina": 198
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_BRAVE_BIRD": false,
+    "MOVE_CLOSE_COMBAT": false,
+    "MOVE_HEAT_WAVE": false
+  },
+  "family": "FAMILY_STARLY",
+  "generation": -1,
+  "height": 1.2,
+  "name": "Staraptor",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_STARAVIA",
+  "quickMoves": {
+    "MOVE_QUICK_ATTACK_FAST": false,
+    "MOVE_WING_ATTACK_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "weight": 24.9
+}

@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 162,
+    "defense": 119,
+    "stamina": 188
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_HYPER_FANG": false,
+    "MOVE_SURF": false
+  },
+  "family": "FAMILY_BIDOOF",
+  "generation": -1,
+  "height": 1,
+  "name": "Bibarel",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_BIDOOF",
+  "quickMoves": {
+    "MOVE_TAKE_DOWN_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal",
+    "water"
+  ],
+  "weight": 31.5
+}

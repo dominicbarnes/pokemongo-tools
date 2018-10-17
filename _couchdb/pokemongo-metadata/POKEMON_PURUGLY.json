@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 172,
+    "defense": 133,
+    "stamina": 174
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_PLAY_ROUGH": false,
+    "MOVE_THUNDER": false
+  },
+  "family": "FAMILY_GLAMEOW",
+  "generation": -1,
+  "height": 1,
+  "name": "Purugly",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_GLAMEOW",
+  "quickMoves": {
+    "MOVE_SCRATCH_FAST": false,
+    "MOVE_SHADOW_CLAW_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
+  "weight": 43.8
+}

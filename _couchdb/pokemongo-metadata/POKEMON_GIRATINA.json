@@ -1,0 +1,95 @@
+{
+  "baseStats": {
+    "attack": 187,
+    "defense": 225,
+    "stamina": 284
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_ANCIENT_POWER": false,
+    "MOVE_DRAGON_CLAW": false,
+    "MOVE_SHADOW_SNEAK": false
+  },
+  "defaultForm": "normal",
+  "family": "FAMILY_GIRATINA",
+  "forms": {
+    "altered": {
+      "assetBundle": 11,
+      "baseStats": {
+        "attack": 187,
+        "defense": 225,
+        "stamina": 284
+      },
+      "buddyDistance": 20,
+      "chargeMoves": {
+        "MOVE_ANCIENT_POWER": false,
+        "MOVE_DRAGON_CLAW": false,
+        "MOVE_SHADOW_SNEAK": false
+      },
+      "family": "FAMILY_GIRATINA",
+      "generation": -1,
+      "height": 4.5,
+      "name": "Giratina (Altered)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_DRAGON_BREATH_FAST": false,
+        "MOVE_SHADOW_CLAW_FAST": false
+      },
+      "rarity": "legendary",
+      "types": [
+        "ghost",
+        "dragon"
+      ],
+      "weight": 750
+    },
+    "origin": {
+      "assetBundle": 12,
+      "baseStats": {
+        "attack": 225,
+        "defense": 187,
+        "stamina": 284
+      },
+      "buddyDistance": 20,
+      "chargeMoves": {
+        "MOVE_ANCIENT_POWER": false,
+        "MOVE_DRAGON_CLAW": false,
+        "MOVE_SHADOW_SNEAK": false
+      },
+      "family": "FAMILY_GIRATINA",
+      "generation": -1,
+      "height": 4.5,
+      "name": "Giratina (Origin)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_DRAGON_BREATH_FAST": false,
+        "MOVE_SHADOW_CLAW_FAST": false
+      },
+      "rarity": "legendary",
+      "types": [
+        "ghost",
+        "dragon"
+      ],
+      "weight": 750
+    }
+  },
+  "generation": -1,
+  "height": 4.5,
+  "name": "Giratina",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_DRAGON_BREATH_FAST": false,
+    "MOVE_SHADOW_CLAW_FAST": false
+  },
+  "rarity": "legendary",
+  "types": [
+    "ghost",
+    "dragon"
+  ],
+  "weight": 750
+}

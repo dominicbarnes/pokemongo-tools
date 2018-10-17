@@ -1,0 +1,124 @@
+{
+  "baseStats": {
+    "attack": 141,
+    "defense": 180,
+    "stamina": 155
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_STRUGGLE": false
+  },
+  "defaultForm": "normal",
+  "family": "FAMILY_BURMY",
+  "forms": {
+    "plant": {
+      "assetBundle": 11,
+      "baseStats": {
+        "attack": 141,
+        "defense": 180,
+        "stamina": 155
+      },
+      "buddyDistance": 1,
+      "chargeMoves": {
+        "MOVE_BUG_BUZZ": false,
+        "MOVE_ENERGY_BALL": false,
+        "MOVE_PSYBEAM": false
+      },
+      "family": "FAMILY_BURMY",
+      "generation": -1,
+      "height": 0.5,
+      "name": "Wormadam (Plant)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_BURMY",
+      "quickMoves": {
+        "MOVE_BUG_BITE_FAST": false,
+        "MOVE_CONFUSION_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "bug",
+        "grass"
+      ],
+      "weight": 6.5
+    },
+    "sandy": {
+      "assetBundle": 12,
+      "baseStats": {
+        "attack": 127,
+        "defense": 175,
+        "stamina": 155
+      },
+      "buddyDistance": 1,
+      "chargeMoves": {
+        "MOVE_BUG_BUZZ": false,
+        "MOVE_BULLDOZE": false,
+        "MOVE_PSYBEAM": false
+      },
+      "family": "FAMILY_BURMY",
+      "generation": -1,
+      "height": 0.5,
+      "name": "Wormadam (Sandy)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_BURMY",
+      "quickMoves": {
+        "MOVE_BUG_BITE_FAST": false,
+        "MOVE_CONFUSION_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "bug",
+        "ground"
+      ],
+      "weight": 6.5
+    },
+    "trash": {
+      "assetBundle": 13,
+      "baseStats": {
+        "attack": 141,
+        "defense": 180,
+        "stamina": 155
+      },
+      "buddyDistance": 1,
+      "chargeMoves": {
+        "MOVE_BUG_BUZZ": false,
+        "MOVE_IRON_HEAD": false,
+        "MOVE_PSYBEAM": false
+      },
+      "family": "FAMILY_BURMY",
+      "generation": -1,
+      "height": 0.5,
+      "name": "Wormadam (Trash)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_BURMY",
+      "quickMoves": {
+        "MOVE_BUG_BITE_FAST": false,
+        "MOVE_CONFUSION_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "bug",
+        "steel"
+      ],
+      "weight": 6.5
+    }
+  },
+  "generation": -1,
+  "height": 0.5,
+  "name": "Wormadam",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_BURMY",
+  "quickMoves": {
+    "MOVE_BUG_BITE_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "weight": 6.5
+}

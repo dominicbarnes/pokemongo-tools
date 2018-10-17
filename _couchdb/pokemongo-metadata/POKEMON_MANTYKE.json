@@ -1,0 +1,33 @@
+{
+  "baseStats": {
+    "attack": 105,
+    "defense": 179,
+    "stamina": 128
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_ICE_BEAM": false,
+    "MOVE_WATER_PULSE": false
+  },
+  "family": "FAMILY_MANTINE",
+  "generation": -1,
+  "height": 1,
+  "name": "Mantyke",
+  "nextEvolutions": [
+    {
+      "pokemon": "POKEMON_MANTINE"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_BUBBLE_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "water",
+    "flying"
+  ],
+  "weight": 65
+}

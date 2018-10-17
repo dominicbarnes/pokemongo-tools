@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 243,
+    "defense": 171,
+    "stamina": 172
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AVALANCHE": false,
+    "MOVE_FOCUS_BLAST": false,
+    "MOVE_FOUL_PLAY": false
+  },
+  "family": "FAMILY_SNEASEL",
+  "generation": -1,
+  "height": 1.1,
+  "name": "Weavile",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_SNEASEL",
+  "quickMoves": {
+    "MOVE_FEINT_ATTACK_FAST": false,
+    "MOVE_ICE_SHARD_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "dark",
+    "ice"
+  ],
+  "weight": 34
+}

@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 180,
+    "defense": 254,
+    "stamina": 128
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DARK_PULSE": false,
+    "MOVE_OMINOUS_WIND": false,
+    "MOVE_PSYCHIC": false
+  },
+  "family": "FAMILY_DUSKULL",
+  "generation": -1,
+  "height": 2.2,
+  "name": "Dusknoir",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_DUSCLOPS",
+  "quickMoves": {
+    "MOVE_ASTONISH_FAST": false,
+    "MOVE_HEX_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "ghost"
+  ],
+  "weight": 106.6
+}

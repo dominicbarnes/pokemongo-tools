@@ -1,0 +1,95 @@
+{
+  "baseStats": {
+    "attack": 169,
+    "defense": 143,
+    "stamina": 244
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_BODY_SLAM": false,
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_WATER_PULSE": false
+  },
+  "defaultForm": "normal",
+  "family": "FAMILY_SHELLOS",
+  "forms": {
+    "east_sea": {
+      "assetBundle": 12,
+      "baseStats": {
+        "attack": 169,
+        "defense": 143,
+        "stamina": 244
+      },
+      "buddyDistance": 5,
+      "chargeMoves": {
+        "MOVE_BODY_SLAM": false,
+        "MOVE_EARTHQUAKE": false,
+        "MOVE_WATER_PULSE": false
+      },
+      "family": "FAMILY_SHELLOS",
+      "generation": -1,
+      "height": 0.9,
+      "name": "Gastrodon (East Sea)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_SHELLOS",
+      "quickMoves": {
+        "MOVE_HIDDEN_POWER_FAST": false,
+        "MOVE_MUD_SLAP_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "water",
+        "ground"
+      ],
+      "weight": 29.9
+    },
+    "west_sea": {
+      "assetBundle": 11,
+      "baseStats": {
+        "attack": 169,
+        "defense": 143,
+        "stamina": 244
+      },
+      "buddyDistance": 5,
+      "chargeMoves": {
+        "MOVE_BODY_SLAM": false,
+        "MOVE_EARTHQUAKE": false,
+        "MOVE_WATER_PULSE": false
+      },
+      "family": "FAMILY_SHELLOS",
+      "generation": -1,
+      "height": 0.9,
+      "name": "Gastrodon (West Sea)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_SHELLOS",
+      "quickMoves": {
+        "MOVE_HIDDEN_POWER_FAST": false,
+        "MOVE_MUD_SLAP_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "water",
+        "ground"
+      ],
+      "weight": 29.9
+    }
+  },
+  "generation": -1,
+  "height": 0.9,
+  "name": "Gastrodon",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_HIDDEN_POWER_FAST": false,
+    "MOVE_MUD_SLAP_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "water",
+    "ground"
+  ],
+  "weight": 29.9
+}

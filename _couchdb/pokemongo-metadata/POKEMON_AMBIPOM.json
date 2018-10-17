@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 205,
+    "defense": 143,
+    "stamina": 181
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_LOW_SWEEP": false
+  },
+  "family": "FAMILY_AIPOM",
+  "generation": -1,
+  "height": 1.2,
+  "name": "Ambipom",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_AIPOM",
+  "quickMoves": {
+    "MOVE_ASTONISH_FAST": false,
+    "MOVE_SCRATCH_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
+  "weight": 20.3
+}

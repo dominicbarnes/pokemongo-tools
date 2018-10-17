@@ -1,0 +1,32 @@
+{
+  "baseStats": {
+    "attack": 130,
+    "defense": 105,
+    "stamina": 146
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_FIRE_PUNCH": false,
+    "MOVE_SWIFT": false
+  },
+  "family": "FAMILY_BUNEARY",
+  "generation": -1,
+  "height": 0.4,
+  "name": "Buneary",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_LOPUNNY"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_POUND_FAST": false,
+    "MOVE_QUICK_ATTACK_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
+  "weight": 5.5
+}

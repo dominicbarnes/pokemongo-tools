@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 210,
+    "defense": 186,
+    "stamina": 197
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BLIZZARD": false,
+    "MOVE_FLASH_CANNON": false,
+    "MOVE_HYDRO_PUMP": false
+  },
+  "family": "FAMILY_PIPLUP",
+  "generation": -1,
+  "height": 1.7,
+  "name": "Empoleon",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_PRINPLUP",
+  "quickMoves": {
+    "MOVE_METAL_CLAW_FAST": false,
+    "MOVE_WATERFALL_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "water",
+    "steel"
+  ],
+  "weight": 84.5
+}

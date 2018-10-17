@@ -1,0 +1,33 @@
+{
+  "baseStats": {
+    "attack": 109,
+    "defense": 82,
+    "stamina": 135
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_PLAY_ROUGH": false,
+    "MOVE_THUNDERBOLT": false
+  },
+  "family": "FAMILY_GLAMEOW",
+  "generation": -1,
+  "height": 0.5,
+  "name": "Glameow",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_PURUGLY"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_QUICK_ATTACK_FAST": false,
+    "MOVE_SCRATCH_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
+  "weight": 3.9
+}

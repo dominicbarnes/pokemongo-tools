@@ -1,0 +1,33 @@
+{
+  "baseStats": {
+    "attack": 119,
+    "defense": 110,
+    "stamina": 146
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BODY_SLAM": false,
+    "MOVE_ENERGY_BALL": false,
+    "MOVE_SEED_BOMB": false
+  },
+  "family": "FAMILY_TURTWIG",
+  "generation": -1,
+  "height": 0.4,
+  "name": "Turtwig",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_GROTLE"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_RAZOR_LEAF_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "grass"
+  ],
+  "weight": 10.2
+}

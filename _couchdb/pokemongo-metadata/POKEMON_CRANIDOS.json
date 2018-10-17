@@ -1,0 +1,34 @@
+{
+  "baseStats": {
+    "attack": 218,
+    "defense": 71,
+    "stamina": 167
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_ANCIENT_POWER": false,
+    "MOVE_BULLDOZE": false,
+    "MOVE_ROCK_TOMB": false
+  },
+  "family": "FAMILY_CRANIDOS",
+  "generation": -1,
+  "height": 0.9,
+  "name": "Cranidos",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_RAMPARDOS"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_TAKE_DOWN_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "rock",
+    "rock"
+  ],
+  "weight": 31.5
+}

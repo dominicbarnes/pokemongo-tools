@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 210,
+    "defense": 210,
+    "stamina": 225
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_BUBBLE_BEAM": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_SURF": false
+  },
+  "family": "FAMILY_MANAPHY",
+  "generation": -1,
+  "height": 0.3,
+  "name": "Manaphy",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_PHIONE",
+  "quickMoves": {
+    "MOVE_BUBBLE_FAST": false,
+    "MOVE_WATERFALL_FAST": false
+  },
+  "rarity": "mythic",
+  "types": [
+    "water"
+  ],
+  "weight": 1.4
+}

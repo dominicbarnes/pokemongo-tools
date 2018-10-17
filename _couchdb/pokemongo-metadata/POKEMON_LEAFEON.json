@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 216,
+    "defense": 219,
+    "stamina": 163
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_ENERGY_BALL": false,
+    "MOVE_LEAF_BLADE": false,
+    "MOVE_SOLAR_BEAM": false
+  },
+  "family": "FAMILY_EEVEE",
+  "generation": -1,
+  "height": 1,
+  "name": "Leafeon",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_EEVEE",
+  "quickMoves": {
+    "MOVE_QUICK_ATTACK_FAST": false,
+    "MOVE_RAZOR_LEAF_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "grass"
+  ],
+  "weight": 25.5
+}

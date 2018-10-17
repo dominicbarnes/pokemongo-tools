@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 287,
+    "defense": 210,
+    "stamina": 221
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_AVALANCHE": false,
+    "MOVE_HEAVY_SLAM": false,
+    "MOVE_STONE_EDGE": false
+  },
+  "family": "FAMILY_REGIGIGAS",
+  "generation": -1,
+  "height": 3.7,
+  "name": "Regigigas",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_ROCK_SMASH_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "rarity": "legendary",
+  "types": [
+    "normal"
+  ],
+  "weight": 420
+}

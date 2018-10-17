@@ -1,0 +1,33 @@
+{
+  "baseStats": {
+    "attack": 112,
+    "defense": 102,
+    "stamina": 142
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BUBBLE_BEAM": false,
+    "MOVE_DRILL_PECK": false,
+    "MOVE_ICY_WIND": false
+  },
+  "family": "FAMILY_PIPLUP",
+  "generation": -1,
+  "height": 0.4,
+  "name": "Piplup",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_PRINPLUP"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_BUBBLE_FAST": false,
+    "MOVE_POUND_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "water"
+  ],
+  "weight": 5.2
+}

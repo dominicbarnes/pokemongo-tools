@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 222,
+    "defense": 151,
+    "stamina": 183
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_CLOSE_COMBAT": false,
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_SOLAR_BEAM": false
+  },
+  "family": "FAMILY_CHIMCHAR",
+  "generation": -1,
+  "height": 1.2,
+  "name": "Infernape",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_MONFERNO",
+  "quickMoves": {
+    "MOVE_FIRE_SPIN_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "weight": 55
+}

@@ -1,0 +1,31 @@
+{
+  "baseStats": {
+    "attack": 59,
+    "defense": 83,
+    "stamina": 102
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BUG_BUZZ": false
+  },
+  "family": "FAMILY_COMBEE",
+  "generation": -1,
+  "height": 0.3,
+  "name": "Combee",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_VESPIQUEN"
+    }
+  ],
+  "previousEvolution": "POKEMON_MOTHIM",
+  "quickMoves": {
+    "MOVE_BUG_BITE_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "weight": 5.5
+}

@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 156,
+    "defense": 270,
+    "stamina": 181
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_FUTURESIGHT": false,
+    "MOVE_SWIFT": false,
+    "MOVE_THUNDER": false
+  },
+  "family": "FAMILY_UXIE",
+  "generation": -1,
+  "height": 0.3,
+  "name": "Uxie",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_EXTRASENSORY_FAST": false
+  },
+  "rarity": "legendary",
+  "types": [
+    "psychic"
+  ],
+  "weight": 0.3
+}

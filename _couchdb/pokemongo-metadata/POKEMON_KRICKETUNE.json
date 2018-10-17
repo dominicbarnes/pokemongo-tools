@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 160,
+    "defense": 100,
+    "stamina": 184
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_BUG_BUZZ": false,
+    "MOVE_X_SCISSOR": false
+  },
+  "family": "FAMILY_KRICKETOT",
+  "generation": -1,
+  "height": 1,
+  "name": "Kricketune",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_KRICKETOT",
+  "quickMoves": {
+    "MOVE_FURY_CUTTER_FAST": false,
+    "MOVE_STRUGGLE_BUG_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "bug"
+  ],
+  "weight": 25.5
+}

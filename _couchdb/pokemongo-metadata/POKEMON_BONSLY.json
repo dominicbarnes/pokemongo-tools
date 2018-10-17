@@ -1,0 +1,33 @@
+{
+  "baseStats": {
+    "attack": 124,
+    "defense": 133,
+    "stamina": 137
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_BULLDOZE": false,
+    "MOVE_ROCK_SLIDE": false,
+    "MOVE_ROCK_TOMB": false
+  },
+  "family": "FAMILY_SUDOWOODO",
+  "generation": -1,
+  "height": 0.5,
+  "name": "Bonsly",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_SUDOWOODO"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_COUNTER_FAST": false,
+    "MOVE_ROCK_THROW_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "rock"
+  ],
+  "weight": 15
+}

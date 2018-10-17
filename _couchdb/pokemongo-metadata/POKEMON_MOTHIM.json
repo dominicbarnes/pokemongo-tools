@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 185,
+    "defense": 98,
+    "stamina": 172
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_BUG_BUZZ": false,
+    "MOVE_PSYBEAM": false
+  },
+  "family": "FAMILY_BURMY",
+  "generation": -1,
+  "height": 0.9,
+  "name": "Mothim",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_AIR_SLASH_FAST": false,
+    "MOVE_BUG_BITE_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "weight": 23.3
+}

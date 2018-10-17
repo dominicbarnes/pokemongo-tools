@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 225,
+    "defense": 217,
+    "stamina": 198
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_ANCIENT_POWER": false,
+    "MOVE_DAZZLING_GLEAM": false
+  },
+  "family": "FAMILY_TOGEPI",
+  "generation": -1,
+  "height": 1.5,
+  "name": "Togekiss",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_TOGETIC",
+  "quickMoves": {
+    "MOVE_AIR_SLASH_FAST": false,
+    "MOVE_HIDDEN_POWER_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "fairy",
+    "flying"
+  ],
+  "weight": 38
+}

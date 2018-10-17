@@ -1,0 +1,33 @@
+{
+  "baseStats": {
+    "attack": 127,
+    "defense": 78,
+    "stamina": 120
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_BRICK_BREAK": false,
+    "MOVE_CROSS_CHOP": false,
+    "MOVE_LOW_SWEEP": false
+  },
+  "family": "FAMILY_LUCARIO",
+  "generation": -1,
+  "height": 0.7,
+  "name": "Riolu",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_LUCARIO"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_COUNTER_FAST": false,
+    "MOVE_QUICK_ATTACK_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "fighting"
+  ],
+  "weight": 20.2
+}

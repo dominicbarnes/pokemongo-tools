@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 202,
+    "defense": 188,
+    "stamina": 216
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_SOLAR_BEAM": false,
+    "MOVE_STONE_EDGE": false
+  },
+  "family": "FAMILY_TURTWIG",
+  "generation": -1,
+  "height": 2.2,
+  "name": "Torterra",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_GROTLE",
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_RAZOR_LEAF_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "grass",
+    "ground"
+  ],
+  "weight": 310
+}

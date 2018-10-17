@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 251,
+    "defense": 213,
+    "stamina": 209
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_FIRE_BLAST": false,
+    "MOVE_IRON_HEAD": false,
+    "MOVE_STONE_EDGE": false
+  },
+  "family": "FAMILY_HEATRAN",
+  "generation": -1,
+  "height": 1.7,
+  "name": "Heatran",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_BUG_BITE_FAST": false,
+    "MOVE_FIRE_SPIN_FAST": false
+  },
+  "rarity": "legendary",
+  "types": [
+    "fire",
+    "steel"
+  ],
+  "weight": 430
+}

@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 285,
+    "defense": 198,
+    "stamina": 172
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_DARK_PULSE": false,
+    "MOVE_FOCUS_BLAST": false,
+    "MOVE_SHADOW_BALL": false
+  },
+  "family": "FAMILY_DARKRAI",
+  "generation": -1,
+  "height": 1.5,
+  "name": "Darkrai",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_FEINT_ATTACK_FAST": false,
+    "MOVE_SNARL_FAST": false
+  },
+  "rarity": "mythic",
+  "types": [
+    "dark"
+  ],
+  "weight": 50.5
+}

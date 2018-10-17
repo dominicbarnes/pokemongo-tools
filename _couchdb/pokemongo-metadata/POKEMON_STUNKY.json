@@ -1,0 +1,34 @@
+{
+  "baseStats": {
+    "attack": 121,
+    "defense": 90,
+    "stamina": 160
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_CRUNCH": false,
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
+  "family": "FAMILY_STUNKY",
+  "generation": -1,
+  "height": 0.4,
+  "name": "Stunky",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_SKUNTANK"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_SCRATCH_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "poison",
+    "dark"
+  ],
+  "weight": 19.2
+}

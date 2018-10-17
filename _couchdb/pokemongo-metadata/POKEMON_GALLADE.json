@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 237,
+    "defense": 195,
+    "stamina": 169
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_CLOSE_COMBAT": false,
+    "MOVE_LEAF_BLADE": false,
+    "MOVE_PSYCHIC": false
+  },
+  "family": "FAMILY_RALTS",
+  "generation": -1,
+  "height": 1.6,
+  "name": "Gallade",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_KIRLIA",
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_LOW_KICK_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "psychic",
+    "fighting"
+  ],
+  "weight": 52
+}

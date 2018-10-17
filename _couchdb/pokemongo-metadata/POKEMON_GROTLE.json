@@ -1,0 +1,33 @@
+{
+  "baseStats": {
+    "attack": 157,
+    "defense": 143,
+    "stamina": 181
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BODY_SLAM": false,
+    "MOVE_ENERGY_BALL": false,
+    "MOVE_SOLAR_BEAM": false
+  },
+  "family": "FAMILY_TURTWIG",
+  "generation": -1,
+  "height": 1.1,
+  "name": "Grotle",
+  "nextEvolutions": [
+    {
+      "candy": 100,
+      "pokemon": "POKEMON_TORTERRA"
+    }
+  ],
+  "previousEvolution": "POKEMON_TURTWIG",
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_RAZOR_LEAF_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "grass"
+  ],
+  "weight": 97
+}

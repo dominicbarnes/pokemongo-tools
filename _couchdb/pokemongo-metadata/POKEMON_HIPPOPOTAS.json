@@ -1,0 +1,33 @@
+{
+  "baseStats": {
+    "attack": 124,
+    "defense": 118,
+    "stamina": 169
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_BODY_SLAM": false,
+    "MOVE_DIG": false,
+    "MOVE_ROCK_TOMB": false
+  },
+  "family": "FAMILY_HIPPOPOTAS",
+  "generation": -1,
+  "height": 0.8,
+  "name": "Hippopotas",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_HIPPOWDON"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "ground"
+  ],
+  "weight": 49.5
+}

@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 211,
+    "defense": 187,
+    "stamina": 155
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_DARK_PULSE": false,
+    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_SHADOW_BALL": false
+  },
+  "family": "FAMILY_MISDREAVUS",
+  "generation": -1,
+  "height": 0.9,
+  "name": "Mismagius",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_MISDREAVUS",
+  "quickMoves": {
+    "MOVE_HEX_FAST": false,
+    "MOVE_SUCKER_PUNCH_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "ghost"
+  ],
+  "weight": 4.4
+}

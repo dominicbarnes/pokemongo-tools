@@ -1,0 +1,33 @@
+{
+  "baseStats": {
+    "attack": 137,
+    "defense": 117,
+    "stamina": 286
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_BODY_SLAM": false,
+    "MOVE_BULLDOZE": false,
+    "MOVE_GUNK_SHOT": false
+  },
+  "family": "FAMILY_SNORLAX",
+  "generation": -1,
+  "height": 0.6,
+  "name": "Munchlax",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_SNORLAX"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_LICK_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
+  "weight": 105
+}

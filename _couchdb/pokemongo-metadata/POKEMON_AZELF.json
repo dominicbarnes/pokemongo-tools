@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 270,
+    "defense": 151,
+    "stamina": 181
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_FIRE_BLAST": false,
+    "MOVE_FUTURESIGHT": false,
+    "MOVE_SWIFT": false
+  },
+  "family": "FAMILY_AZELF",
+  "generation": -1,
+  "height": 0.3,
+  "name": "Azelf",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_EXTRASENSORY_FAST": false
+  },
+  "rarity": "legendary",
+  "types": [
+    "psychic"
+  ],
+  "weight": 0.3
+}

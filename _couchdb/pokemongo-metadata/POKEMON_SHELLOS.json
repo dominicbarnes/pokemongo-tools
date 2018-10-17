@@ -1,0 +1,106 @@
+{
+  "baseStats": {
+    "attack": 103,
+    "defense": 105,
+    "stamina": 183
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_BODY_SLAM": false,
+    "MOVE_MUD_BOMB": false,
+    "MOVE_WATER_PULSE": false
+  },
+  "defaultForm": "normal",
+  "family": "FAMILY_SHELLOS",
+  "forms": {
+    "east_sea": {
+      "assetBundle": 12,
+      "baseStats": {
+        "attack": 103,
+        "defense": 105,
+        "stamina": 183
+      },
+      "buddyDistance": 5,
+      "chargeMoves": {
+        "MOVE_BODY_SLAM": false,
+        "MOVE_MUD_BOMB": false,
+        "MOVE_WATER_PULSE": false
+      },
+      "family": "FAMILY_SHELLOS",
+      "generation": -1,
+      "height": 0.3,
+      "name": "Shellos (East Sea)",
+      "nextEvolutions": [
+        {
+          "candy": 50,
+          "form": "west_sea",
+          "pokemon": "POKEMON_GASTRODON"
+        }
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_HIDDEN_POWER_FAST": false,
+        "MOVE_MUD_SLAP_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "water"
+      ],
+      "weight": 6.3
+    },
+    "west_sea": {
+      "assetBundle": 11,
+      "baseStats": {
+        "attack": 103,
+        "defense": 105,
+        "stamina": 183
+      },
+      "buddyDistance": 5,
+      "chargeMoves": {
+        "MOVE_BODY_SLAM": false,
+        "MOVE_MUD_BOMB": false,
+        "MOVE_WATER_PULSE": false
+      },
+      "family": "FAMILY_SHELLOS",
+      "generation": -1,
+      "height": 0.3,
+      "name": "Shellos (West Sea)",
+      "nextEvolutions": [
+        {
+          "candy": 50,
+          "form": "west_sea",
+          "pokemon": "POKEMON_GASTRODON"
+        }
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_HIDDEN_POWER_FAST": false,
+        "MOVE_MUD_SLAP_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "water"
+      ],
+      "weight": 6.3
+    }
+  },
+  "generation": -1,
+  "height": 0.3,
+  "name": "Shellos",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_GASTRODON"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_HIDDEN_POWER_FAST": false,
+    "MOVE_MUD_SLAP_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "water"
+  ],
+  "weight": 6.3
+}

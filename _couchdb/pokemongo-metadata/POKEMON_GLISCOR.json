@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 185,
+    "defense": 222,
+    "stamina": 181
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_NIGHT_SLASH": false
+  },
+  "family": "FAMILY_GLIGAR",
+  "generation": -1,
+  "height": 2,
+  "name": "Gliscor",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_GLIGAR",
+  "quickMoves": {
+    "MOVE_FURY_CUTTER_FAST": false,
+    "MOVE_WING_ATTACK_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "ground",
+    "flying"
+  ],
+  "weight": 42.5
+}

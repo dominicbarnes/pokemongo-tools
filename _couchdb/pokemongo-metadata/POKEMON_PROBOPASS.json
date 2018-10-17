@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 135,
+    "defense": 275,
+    "stamina": 155
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_MAGNET_BOMB": false,
+    "MOVE_ROCK_SLIDE": false,
+    "MOVE_THUNDERBOLT": false
+  },
+  "family": "FAMILY_NOSEPASS",
+  "generation": -1,
+  "height": 1.4,
+  "name": "Probopass",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_NOSEPASS",
+  "quickMoves": {
+    "MOVE_ROCK_THROW_FAST": false,
+    "MOVE_SPARK_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "weight": 340
+}

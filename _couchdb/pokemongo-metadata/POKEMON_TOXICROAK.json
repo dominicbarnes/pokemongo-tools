@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 211,
+    "defense": 133,
+    "stamina": 195
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_DYNAMIC_PUNCH": false,
+    "MOVE_MUD_BOMB": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
+  "family": "FAMILY_CROAGUNK",
+  "generation": -1,
+  "height": 1.3,
+  "name": "Toxicroak",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_CROAGUNK",
+  "quickMoves": {
+    "MOVE_COUNTER_FAST": false,
+    "MOVE_POISON_JAB_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "poison",
+    "fighting"
+  ],
+  "weight": 44.4
+}

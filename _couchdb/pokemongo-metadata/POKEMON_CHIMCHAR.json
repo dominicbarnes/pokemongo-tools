@@ -1,0 +1,33 @@
+{
+  "baseStats": {
+    "attack": 113,
+    "defense": 86,
+    "stamina": 127
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_FLAME_CHARGE": false,
+    "MOVE_FLAME_WHEEL": false
+  },
+  "family": "FAMILY_CHIMCHAR",
+  "generation": -1,
+  "height": 0.5,
+  "name": "Chimchar",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_MONFERNO"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_SCRATCH_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "fire"
+  ],
+  "weight": 6.2
+}

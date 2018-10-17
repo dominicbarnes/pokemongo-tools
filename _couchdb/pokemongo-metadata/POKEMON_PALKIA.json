@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 280,
+    "defense": 215,
+    "stamina": 189
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_DRACO_METEOR": false,
+    "MOVE_FIRE_BLAST": false,
+    "MOVE_HYDRO_PUMP": false
+  },
+  "family": "FAMILY_PALKIA",
+  "generation": -1,
+  "height": 4.2,
+  "name": "Palkia",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_DRAGON_BREATH_FAST": false,
+    "MOVE_DRAGON_TAIL_FAST": false
+  },
+  "rarity": "legendary",
+  "types": [
+    "water",
+    "dragon"
+  ],
+  "weight": 336
+}

@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 161,
+    "defense": 181,
+    "stamina": 242
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_SOLAR_BEAM": false
+  },
+  "family": "FAMILY_LICKITUNG",
+  "generation": -1,
+  "height": 1.7,
+  "name": "Lickilicky",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_LICKITUNG",
+  "quickMoves": {
+    "MOVE_LICK_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
+  "weight": 140
+}

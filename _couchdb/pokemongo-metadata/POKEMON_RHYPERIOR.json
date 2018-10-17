@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 241,
+    "defense": 190,
+    "stamina": 251
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_EARTHQUAKE": false,
+    "MOVE_STONE_EDGE": false,
+    "MOVE_SURF": false
+  },
+  "family": "FAMILY_RHYHORN",
+  "generation": -1,
+  "height": 2.4,
+  "name": "Rhyperior",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_RHYDON",
+  "quickMoves": {
+    "MOVE_MUD_SLAP_FAST": false,
+    "MOVE_SMACK_DOWN_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "weight": 282.8
+}

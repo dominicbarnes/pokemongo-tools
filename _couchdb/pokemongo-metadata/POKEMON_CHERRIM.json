@@ -1,0 +1,92 @@
+{
+  "baseStats": {
+    "attack": 170,
+    "defense": 153,
+    "stamina": 172
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_POWER_WHIP": false,
+    "MOVE_SOLAR_BEAM": false
+  },
+  "defaultForm": "normal",
+  "family": "FAMILY_CHERUBI",
+  "forms": {
+    "overcast": {
+      "assetBundle": 11,
+      "baseStats": {
+        "attack": 170,
+        "defense": 153,
+        "stamina": 172
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_POWER_WHIP": false,
+        "MOVE_SOLAR_BEAM": false
+      },
+      "family": "FAMILY_CHERUBI",
+      "generation": -1,
+      "height": 0.5,
+      "name": "Cherrim (Overcast)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_CHERUBI",
+      "quickMoves": {
+        "MOVE_BULLET_SEED_FAST": false,
+        "MOVE_RAZOR_LEAF_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "grass"
+      ],
+      "weight": 9.3
+    },
+    "sunny": {
+      "assetBundle": 12,
+      "baseStats": {
+        "attack": 170,
+        "defense": 153,
+        "stamina": 172
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_POWER_WHIP": false,
+        "MOVE_SOLAR_BEAM": false
+      },
+      "family": "FAMILY_CHERUBI",
+      "generation": -1,
+      "height": 0.5,
+      "name": "Cherrim (Sunny)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_CHERUBI",
+      "quickMoves": {
+        "MOVE_BULLET_SEED_FAST": false,
+        "MOVE_RAZOR_LEAF_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "grass"
+      ],
+      "weight": 9.3
+    }
+  },
+  "generation": -1,
+  "height": 0.5,
+  "name": "Cherrim",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_CHERUBI",
+  "quickMoves": {
+    "MOVE_BULLET_SEED_FAST": false,
+    "MOVE_RAZOR_LEAF_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "grass"
+  ],
+  "weight": 9.3
+}

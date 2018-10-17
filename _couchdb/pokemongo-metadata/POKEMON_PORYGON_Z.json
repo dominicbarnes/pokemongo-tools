@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 264,
+    "defense": 150,
+    "stamina": 198
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_SOLAR_BEAM": false,
+    "MOVE_ZAP_CANNON": false
+  },
+  "family": "FAMILY_PORYGON",
+  "generation": -1,
+  "height": 0.9,
+  "name": "Porygon Z",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_PORYGON2",
+  "quickMoves": {
+    "MOVE_CHARGE_BEAM_FAST": false,
+    "MOVE_HIDDEN_POWER_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal"
+  ],
+  "weight": 34
+}

@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 183,
+    "defense": 91,
+    "stamina": 183
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_HEAT_WAVE": false,
+    "MOVE_NIGHT_SHADE": false,
+    "MOVE_SKY_ATTACK": false
+  },
+  "family": "FAMILY_CHATOT",
+  "generation": -1,
+  "height": 0.5,
+  "name": "Chatot",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_PECK_FAST": false,
+    "MOVE_STEEL_WING_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "weight": 1.9
+}

@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 231,
+    "defense": 156,
+    "stamina": 200
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_AERIAL_ACE": false,
+    "MOVE_ANCIENT_POWER": false,
+    "MOVE_BUG_BUZZ": false
+  },
+  "family": "FAMILY_YANMA",
+  "generation": -1,
+  "height": 1.9,
+  "name": "Yanmega",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_YANMA",
+  "quickMoves": {
+    "MOVE_BUG_BITE_FAST": false,
+    "MOVE_WING_ATTACK_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "weight": 51.5
+}

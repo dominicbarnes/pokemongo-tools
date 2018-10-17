@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 243,
+    "defense": 103,
+    "stamina": 225
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BRAVE_BIRD": false,
+    "MOVE_DARK_PULSE": false,
+    "MOVE_PSYCHIC": false
+  },
+  "family": "FAMILY_MURKROW",
+  "generation": -1,
+  "height": 0.9,
+  "name": "Honchkrow",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_MURKROW",
+  "quickMoves": {
+    "MOVE_PECK_FAST": false,
+    "MOVE_SNARL_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "weight": 27.3
+}

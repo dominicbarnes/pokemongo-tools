@@ -1,0 +1,33 @@
+{
+  "baseStats": {
+    "attack": 150,
+    "defense": 139,
+    "stamina": 162
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BUBBLE_BEAM": false,
+    "MOVE_HYDRO_PUMP": false,
+    "MOVE_ICY_WIND": false
+  },
+  "family": "FAMILY_PIPLUP",
+  "generation": -1,
+  "height": 0.8,
+  "name": "Prinplup",
+  "nextEvolutions": [
+    {
+      "candy": 100,
+      "pokemon": "POKEMON_EMPOLEON"
+    }
+  ],
+  "previousEvolution": "POKEMON_PIPLUP",
+  "quickMoves": {
+    "MOVE_BUBBLE_FAST": false,
+    "MOVE_METAL_CLAW_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "water"
+  ],
+  "weight": 23
+}

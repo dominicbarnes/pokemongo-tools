@@ -1,0 +1,47 @@
+{
+  "baseStats": {
+    "attack": 108,
+    "defense": 92,
+    "stamina": 128
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_PETAL_BLIZZARD": false,
+    "MOVE_POWER_WHIP": false,
+    "MOVE_SEED_BOMB": false
+  },
+  "family": "FAMILY_CHERUBI",
+  "generation": -1,
+  "height": 0.4,
+  "name": "Cherubi",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "form": "overcast",
+      "pokemon": "POKEMON_CHERRIM"
+    },
+    {
+      "candy": 50,
+      "form": "sunny",
+      "pokemon": "POKEMON_CHERRIM"
+    },
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_undefined"
+    },
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_undefined"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_BULLET_SEED_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "grass"
+  ],
+  "weight": 3.3
+}

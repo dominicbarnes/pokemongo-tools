@@ -1,0 +1,34 @@
+{
+  "baseStats": {
+    "attack": 158,
+    "defense": 105,
+    "stamina": 162
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_FLAME_WHEEL": false,
+    "MOVE_LOW_SWEEP": false
+  },
+  "family": "FAMILY_CHIMCHAR",
+  "generation": -1,
+  "height": 0.9,
+  "name": "Monferno",
+  "nextEvolutions": [
+    {
+      "candy": 100,
+      "pokemon": "POKEMON_INFERNAPE"
+    }
+  ],
+  "previousEvolution": "POKEMON_CHIMCHAR",
+  "quickMoves": {
+    "MOVE_EMBER_FAST": false,
+    "MOVE_ROCK_SMASH_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "weight": 22
+}

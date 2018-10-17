@@ -1,0 +1,34 @@
+{
+  "baseStats": {
+    "attack": 76,
+    "defense": 195,
+    "stamina": 102
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_ANCIENT_POWER": false,
+    "MOVE_HEAVY_SLAM": false,
+    "MOVE_ROCK_TOMB": false
+  },
+  "family": "FAMILY_SHIELDON",
+  "generation": -1,
+  "height": 0.5,
+  "name": "Shieldon",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_BASTIODON"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_IRON_TAIL_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "weight": 57
+}

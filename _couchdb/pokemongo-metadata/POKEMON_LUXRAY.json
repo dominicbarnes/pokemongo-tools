@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 232,
+    "defense": 156,
+    "stamina": 190
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_CRUNCH": false,
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_WILD_CHARGE": false
+  },
+  "family": "FAMILY_SHINX",
+  "generation": -1,
+  "height": 1.4,
+  "name": "Luxray",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_LUXIO",
+  "quickMoves": {
+    "MOVE_SNARL_FAST": false,
+    "MOVE_SPARK_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "electric"
+  ],
+  "weight": 42
+}

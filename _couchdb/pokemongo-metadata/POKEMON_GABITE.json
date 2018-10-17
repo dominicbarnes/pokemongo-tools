@@ -1,0 +1,34 @@
+{
+  "baseStats": {
+    "attack": 172,
+    "defense": 125,
+    "stamina": 169
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_DIG": false,
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_TWISTER": false
+  },
+  "family": "FAMILY_GIBLE",
+  "generation": -1,
+  "height": 1.4,
+  "name": "Gabite",
+  "nextEvolutions": [
+    {
+      "candy": 100,
+      "pokemon": "POKEMON_GARCHOMP"
+    }
+  ],
+  "previousEvolution": "POKEMON_GIBLE",
+  "quickMoves": {
+    "MOVE_MUD_SHOT_FAST": false,
+    "MOVE_TAKE_DOWN_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "dragon",
+    "ground"
+  ],
+  "weight": 56
+}

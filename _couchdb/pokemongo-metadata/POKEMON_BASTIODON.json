@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 94,
+    "defense": 286,
+    "stamina": 155
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_FLASH_CANNON": false,
+    "MOVE_STONE_EDGE": false
+  },
+  "family": "FAMILY_SHIELDON",
+  "generation": -1,
+  "height": 1.3,
+  "name": "Bastiodon",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_SHIELDON",
+  "quickMoves": {
+    "MOVE_IRON_TAIL_FAST": false,
+    "MOVE_SMACK_DOWN_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "weight": 149.5
+}

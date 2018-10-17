@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 295,
+    "defense": 109,
+    "stamina": 219
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_OUTRAGE": false,
+    "MOVE_ROCK_SLIDE": false
+  },
+  "family": "FAMILY_CRANIDOS",
+  "generation": -1,
+  "height": 1.6,
+  "name": "Rampardos",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_CRANIDOS",
+  "quickMoves": {
+    "MOVE_SMACK_DOWN_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "rock",
+    "rock"
+  ],
+  "weight": 102.5
+}

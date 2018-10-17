@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 249,
+    "defense": 163,
+    "stamina": 181
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_THUNDER": false,
+    "MOVE_THUNDER_PUNCH": false,
+    "MOVE_WILD_CHARGE": false
+  },
+  "family": "FAMILY_ELECTABUZZ",
+  "generation": -1,
+  "height": 1.8,
+  "name": "Electivire",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_ELECTABUZZ",
+  "quickMoves": {
+    "MOVE_LOW_KICK_FAST": false,
+    "MOVE_THUNDER_SHOCK_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "electric"
+  ],
+  "weight": 138.6
+}

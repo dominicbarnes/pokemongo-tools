@@ -1,0 +1,34 @@
+{
+  "baseStats": {
+    "attack": 116,
+    "defense": 76,
+    "stamina": 134
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BRICK_BREAK": false,
+    "MOVE_LOW_SWEEP": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
+  "family": "FAMILY_CROAGUNK",
+  "generation": -1,
+  "height": 0.7,
+  "name": "Croagunk",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_TOXICROAK"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_POISON_JAB_FAST": false,
+    "MOVE_POISON_STING_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "poison",
+    "fighting"
+  ],
+  "weight": 23
+}

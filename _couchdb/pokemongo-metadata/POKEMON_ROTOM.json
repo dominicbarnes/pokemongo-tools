@@ -1,0 +1,219 @@
+{
+  "baseStats": {
+    "attack": 204,
+    "defense": 219,
+    "stamina": 137
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_OMINOUS_WIND": false,
+    "MOVE_THUNDER": false,
+    "MOVE_THUNDERBOLT": false
+  },
+  "defaultForm": "normal",
+  "family": "FAMILY_ROTOM",
+  "forms": {
+    "fan": {
+      "assetBundle": 13,
+      "baseStats": {
+        "attack": 204,
+        "defense": 219,
+        "stamina": 137
+      },
+      "buddyDistance": 5,
+      "chargeMoves": {
+        "MOVE_OMINOUS_WIND": false,
+        "MOVE_THUNDER": false,
+        "MOVE_THUNDERBOLT": false
+      },
+      "family": "FAMILY_ROTOM",
+      "generation": -1,
+      "height": 0.3,
+      "name": "Rotom (Fan)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_AIR_SLASH_FAST": false,
+        "MOVE_TACKLE_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "electric",
+        "flying"
+      ],
+      "weight": 0.3
+    },
+    "frost": {
+      "assetBundle": 12,
+      "baseStats": {
+        "attack": 204,
+        "defense": 219,
+        "stamina": 137
+      },
+      "buddyDistance": 5,
+      "chargeMoves": {
+        "MOVE_BLIZZARD": false,
+        "MOVE_THUNDER": false,
+        "MOVE_THUNDERBOLT": false
+      },
+      "family": "FAMILY_ROTOM",
+      "generation": -1,
+      "height": 0.3,
+      "name": "Rotom (Frost)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_TACKLE_FAST": false,
+        "MOVE_THUNDER_SHOCK_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "electric",
+        "ice"
+      ],
+      "weight": 0.3
+    },
+    "heat": {
+      "assetBundle": 16,
+      "baseStats": {
+        "attack": 204,
+        "defense": 219,
+        "stamina": 137
+      },
+      "buddyDistance": 5,
+      "chargeMoves": {
+        "MOVE_OVERHEAT": false,
+        "MOVE_THUNDER": false,
+        "MOVE_THUNDERBOLT": false
+      },
+      "family": "FAMILY_ROTOM",
+      "generation": -1,
+      "height": 0.3,
+      "name": "Rotom (Heat)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_TACKLE_FAST": false,
+        "MOVE_THUNDER_SHOCK_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "electric",
+        "fire"
+      ],
+      "weight": 0.3
+    },
+    "mow": {
+      "assetBundle": 14,
+      "baseStats": {
+        "attack": 204,
+        "defense": 219,
+        "stamina": 137
+      },
+      "buddyDistance": 5,
+      "chargeMoves": {
+        "MOVE_OMINOUS_WIND": false,
+        "MOVE_THUNDER": false,
+        "MOVE_THUNDERBOLT": false
+      },
+      "family": "FAMILY_ROTOM",
+      "generation": -1,
+      "height": 0.3,
+      "name": "Rotom (Mow)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_TACKLE_FAST": false,
+        "MOVE_THUNDER_SHOCK_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "electric",
+        "grass"
+      ],
+      "weight": 0.3
+    },
+    "normal": {
+      "assetBundle": 11,
+      "baseStats": {
+        "attack": 204,
+        "defense": 219,
+        "stamina": 137
+      },
+      "buddyDistance": 5,
+      "chargeMoves": {
+        "MOVE_OMINOUS_WIND": false,
+        "MOVE_THUNDER": false,
+        "MOVE_THUNDERBOLT": false
+      },
+      "family": "FAMILY_ROTOM",
+      "generation": -1,
+      "height": 0.3,
+      "name": "Rotom",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_TACKLE_FAST": false,
+        "MOVE_THUNDER_SHOCK_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "electric",
+        "ghost"
+      ],
+      "weight": 0.3
+    },
+    "wash": {
+      "assetBundle": 15,
+      "baseStats": {
+        "attack": 185,
+        "defense": 159,
+        "stamina": 137
+      },
+      "buddyDistance": 5,
+      "chargeMoves": {
+        "MOVE_HYDRO_PUMP": false,
+        "MOVE_THUNDER": false,
+        "MOVE_THUNDERBOLT": false
+      },
+      "family": "FAMILY_ROTOM",
+      "generation": -1,
+      "height": 0.3,
+      "name": "Rotom (Wash)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_TACKLE_FAST": false,
+        "MOVE_THUNDER_SHOCK_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "electric",
+        "water"
+      ],
+      "weight": 0.3
+    }
+  },
+  "generation": -1,
+  "height": 0.3,
+  "name": "Rotom",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_TACKLE_FAST": false,
+    "MOVE_THUNDER_SHOCK_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "electric",
+    "ghost"
+  ],
+  "weight": 0.3
+}

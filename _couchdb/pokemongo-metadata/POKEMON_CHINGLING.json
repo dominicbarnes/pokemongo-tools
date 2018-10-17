@@ -1,0 +1,33 @@
+{
+  "baseStats": {
+    "attack": 114,
+    "defense": 94,
+    "stamina": 128
+  },
+  "buddyDistance": 1,
+  "chargeMoves": {
+    "MOVE_PSYSHOCK": false,
+    "MOVE_SHADOW_BALL": false,
+    "MOVE_WRAP": false
+  },
+  "family": "FAMILY_CHIMECHO",
+  "generation": -1,
+  "height": 0.2,
+  "name": "Chingling",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_CHIMECHO"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_ASTONISH_FAST": false,
+    "MOVE_ZEN_HEADBUTT_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "psychic"
+  ],
+  "weight": 0.6
+}

@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 207,
+    "defense": 184,
+    "stamina": 225
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_ANCIENT_POWER": false,
+    "MOVE_SLUDGE_BOMB": false,
+    "MOVE_SOLAR_BEAM": false
+  },
+  "family": "FAMILY_TANGELA",
+  "generation": -1,
+  "height": 2,
+  "name": "Tangrowth",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_TANGELA",
+  "quickMoves": {
+    "MOVE_INFESTATION_FAST": false,
+    "MOVE_VINE_WHIP_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "grass"
+  ],
+  "weight": 128.6
+}

@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 275,
+    "defense": 211,
+    "stamina": 205
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_DRACO_METEOR": false,
+    "MOVE_IRON_HEAD": false,
+    "MOVE_THUNDER": false
+  },
+  "family": "FAMILY_DIALGA",
+  "generation": -1,
+  "height": 5.4,
+  "name": "Dialga",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_DRAGON_BREATH_FAST": false,
+    "MOVE_METAL_CLAW_FAST": false
+  },
+  "rarity": "legendary",
+  "types": [
+    "steel",
+    "dragon"
+  ],
+  "weight": 683
+}

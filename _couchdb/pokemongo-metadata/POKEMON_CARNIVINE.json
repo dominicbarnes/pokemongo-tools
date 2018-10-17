@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 187,
+    "defense": 136,
+    "stamina": 179
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_CRUNCH": false,
+    "MOVE_ENERGY_BALL": false,
+    "MOVE_POWER_WHIP": false
+  },
+  "family": "FAMILY_CARNIVINE",
+  "generation": -1,
+  "height": 1.4,
+  "name": "Carnivine",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_VINE_WHIP_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "grass"
+  ],
+  "weight": 27
+}

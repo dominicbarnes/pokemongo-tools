@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 142,
+    "defense": 170,
+    "stamina": 170
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BLIZZARD": false,
+    "MOVE_SILVER_WIND": false,
+    "MOVE_WATER_PULSE": false
+  },
+  "family": "FAMILY_FINNEON",
+  "generation": -1,
+  "height": 1.2,
+  "name": "Lumineon",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_WATERFALL_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "water"
+  ],
+  "weight": 24
+}

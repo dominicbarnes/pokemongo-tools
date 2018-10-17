@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 161,
+    "defense": 213,
+    "stamina": 167
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_FLASH_CANNON": false,
+    "MOVE_HEAVY_SLAM": false,
+    "MOVE_PSYCHIC": false
+  },
+  "family": "FAMILY_BRONZOR",
+  "generation": -1,
+  "height": 1.3,
+  "name": "Bronzong",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_BRONZOR",
+  "quickMoves": {
+    "MOVE_CONFUSION_FAST": false,
+    "MOVE_FEINT_ATTACK_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "weight": 187
+}

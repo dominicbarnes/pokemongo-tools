@@ -1,0 +1,33 @@
+{
+  "baseStats": {
+    "attack": 159,
+    "defense": 95,
+    "stamina": 155
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_CRUNCH": false,
+    "MOVE_THUNDERBOLT": false,
+    "MOVE_WILD_CHARGE": false
+  },
+  "family": "FAMILY_SHINX",
+  "generation": -1,
+  "height": 0.9,
+  "name": "Luxio",
+  "nextEvolutions": [
+    {
+      "candy": 100,
+      "pokemon": "POKEMON_LUXRAY"
+    }
+  ],
+  "previousEvolution": "POKEMON_SHINX",
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_SPARK_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "electric"
+  ],
+  "weight": 30.5
+}

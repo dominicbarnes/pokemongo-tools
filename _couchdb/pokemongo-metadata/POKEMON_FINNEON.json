@@ -1,0 +1,33 @@
+{
+  "baseStats": {
+    "attack": 96,
+    "defense": 116,
+    "stamina": 135
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_ICE_BEAM": false,
+    "MOVE_SILVER_WIND": false,
+    "MOVE_WATER_PULSE": false
+  },
+  "family": "FAMILY_FINNEON",
+  "generation": -1,
+  "height": 0.4,
+  "name": "Finneon",
+  "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_LUMINEON"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_POUND_FAST": false,
+    "MOVE_WATER_GUN_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "water"
+  ],
+  "weight": 7
+}

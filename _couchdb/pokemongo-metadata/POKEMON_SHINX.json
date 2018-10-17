@@ -1,0 +1,33 @@
+{
+  "baseStats": {
+    "attack": 117,
+    "defense": 64,
+    "stamina": 128
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_DISCHARGE": false,
+    "MOVE_SWIFT": false,
+    "MOVE_THUNDERBOLT": false
+  },
+  "family": "FAMILY_SHINX",
+  "generation": -1,
+  "height": 0.5,
+  "name": "Shinx",
+  "nextEvolutions": [
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_LUXIO"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_SPARK_FAST": false,
+    "MOVE_TACKLE_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "electric"
+  ],
+  "weight": 9.5
+}

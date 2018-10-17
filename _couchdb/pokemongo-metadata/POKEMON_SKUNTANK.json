@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 184,
+    "defense": 132,
+    "stamina": 230
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_CRUNCH": false,
+    "MOVE_FLAMETHROWER": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
+  "family": "FAMILY_STUNKY",
+  "generation": -1,
+  "height": 1,
+  "name": "Skuntank",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_STUNKY",
+  "quickMoves": {
+    "MOVE_BITE_FAST": false,
+    "MOVE_POISON_JAB_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "poison",
+    "dark"
+  ],
+  "weight": 38
+}

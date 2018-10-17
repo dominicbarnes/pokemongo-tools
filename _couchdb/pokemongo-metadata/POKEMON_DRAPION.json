@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "attack": 180,
+    "defense": 202,
+    "stamina": 172
+  },
+  "buddyDistance": 5,
+  "chargeMoves": {
+    "MOVE_AQUA_TAIL": false,
+    "MOVE_CRUNCH": false,
+    "MOVE_SLUDGE_BOMB": false
+  },
+  "family": "FAMILY_SKORUPI",
+  "generation": -1,
+  "height": 1.3,
+  "name": "Drapion",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_SKORUPI",
+  "quickMoves": {
+    "MOVE_INFESTATION_FAST": false,
+    "MOVE_POISON_STING_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "poison",
+    "dark"
+  ],
+  "weight": 61.5
+}

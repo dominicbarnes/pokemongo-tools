@@ -1,0 +1,572 @@
+{
+  "baseStats": {
+    "attack": 238,
+    "defense": 238,
+    "stamina": 237
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_FUTURESIGHT": false,
+    "MOVE_HYPER_BEAM": false,
+    "MOVE_OUTRAGE": false
+  },
+  "defaultForm": "normal",
+  "family": "FAMILY_ARCEUS",
+  "forms": {
+    "bug": {
+      "assetBundle": 17,
+      "baseStats": {
+        "attack": 238,
+        "defense": 238,
+        "stamina": 237
+      },
+      "buddyDistance": 20,
+      "chargeMoves": {
+        "MOVE_FUTURESIGHT": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false
+      },
+      "family": "FAMILY_ARCEUS",
+      "generation": -1,
+      "height": 3.2,
+      "name": "Arceus (Bug)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_IRON_TAIL_FAST": false,
+        "MOVE_SHADOW_CLAW_FAST": false
+      },
+      "rarity": "mythic",
+      "types": [
+        "bug"
+      ],
+      "weight": 320
+    },
+    "dark": {
+      "assetBundle": 27,
+      "baseStats": {
+        "attack": 238,
+        "defense": 238,
+        "stamina": 237
+      },
+      "buddyDistance": 20,
+      "chargeMoves": {
+        "MOVE_FUTURESIGHT": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false
+      },
+      "family": "FAMILY_ARCEUS",
+      "generation": -1,
+      "height": 3.2,
+      "name": "Arceus (Dark)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_IRON_TAIL_FAST": false,
+        "MOVE_SHADOW_CLAW_FAST": false
+      },
+      "rarity": "mythic",
+      "types": [
+        "dark"
+      ],
+      "weight": 320
+    },
+    "dragon": {
+      "assetBundle": 26,
+      "baseStats": {
+        "attack": 238,
+        "defense": 238,
+        "stamina": 237
+      },
+      "buddyDistance": 20,
+      "chargeMoves": {
+        "MOVE_FUTURESIGHT": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false
+      },
+      "family": "FAMILY_ARCEUS",
+      "generation": -1,
+      "height": 3.2,
+      "name": "Arceus (Dragon)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_IRON_TAIL_FAST": false,
+        "MOVE_SHADOW_CLAW_FAST": false
+      },
+      "rarity": "mythic",
+      "types": [
+        "dragon"
+      ],
+      "weight": 320
+    },
+    "electric": {
+      "assetBundle": 23,
+      "baseStats": {
+        "attack": 238,
+        "defense": 238,
+        "stamina": 237
+      },
+      "buddyDistance": 20,
+      "chargeMoves": {
+        "MOVE_FUTURESIGHT": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false
+      },
+      "family": "FAMILY_ARCEUS",
+      "generation": -1,
+      "height": 3.2,
+      "name": "Arceus (Electric)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_IRON_TAIL_FAST": false,
+        "MOVE_SHADOW_CLAW_FAST": false
+      },
+      "rarity": "mythic",
+      "types": [
+        "electric"
+      ],
+      "weight": 320
+    },
+    "fairy": {
+      "assetBundle": 28,
+      "baseStats": {
+        "attack": 238,
+        "defense": 238,
+        "stamina": 237
+      },
+      "buddyDistance": 20,
+      "chargeMoves": {
+        "MOVE_FUTURESIGHT": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false
+      },
+      "family": "FAMILY_ARCEUS",
+      "generation": -1,
+      "height": 3.2,
+      "name": "Arceus (Fairy)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_IRON_TAIL_FAST": false,
+        "MOVE_SHADOW_CLAW_FAST": false
+      },
+      "rarity": "mythic",
+      "types": [
+        "fairy"
+      ],
+      "weight": 320
+    },
+    "fighting": {
+      "assetBundle": 12,
+      "baseStats": {
+        "attack": 238,
+        "defense": 238,
+        "stamina": 237
+      },
+      "buddyDistance": 20,
+      "chargeMoves": {
+        "MOVE_FUTURESIGHT": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false
+      },
+      "family": "FAMILY_ARCEUS",
+      "generation": -1,
+      "height": 3.2,
+      "name": "Arceus (Fighting)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_IRON_TAIL_FAST": false,
+        "MOVE_SHADOW_CLAW_FAST": false
+      },
+      "rarity": "mythic",
+      "types": [
+        "fighting"
+      ],
+      "weight": 320
+    },
+    "fire": {
+      "assetBundle": 20,
+      "baseStats": {
+        "attack": 238,
+        "defense": 238,
+        "stamina": 237
+      },
+      "buddyDistance": 20,
+      "chargeMoves": {
+        "MOVE_FUTURESIGHT": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false
+      },
+      "family": "FAMILY_ARCEUS",
+      "generation": -1,
+      "height": 3.2,
+      "name": "Arceus (Fire)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_IRON_TAIL_FAST": false,
+        "MOVE_SHADOW_CLAW_FAST": false
+      },
+      "rarity": "mythic",
+      "types": [
+        "fire"
+      ],
+      "weight": 320
+    },
+    "flying": {
+      "assetBundle": 13,
+      "baseStats": {
+        "attack": 238,
+        "defense": 238,
+        "stamina": 237
+      },
+      "buddyDistance": 20,
+      "chargeMoves": {
+        "MOVE_FUTURESIGHT": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false
+      },
+      "family": "FAMILY_ARCEUS",
+      "generation": -1,
+      "height": 3.2,
+      "name": "Arceus (Flying)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_IRON_TAIL_FAST": false,
+        "MOVE_SHADOW_CLAW_FAST": false
+      },
+      "rarity": "mythic",
+      "types": [
+        "flying"
+      ],
+      "weight": 320
+    },
+    "ghost": {
+      "assetBundle": 18,
+      "baseStats": {
+        "attack": 238,
+        "defense": 238,
+        "stamina": 237
+      },
+      "buddyDistance": 20,
+      "chargeMoves": {
+        "MOVE_FUTURESIGHT": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false
+      },
+      "family": "FAMILY_ARCEUS",
+      "generation": -1,
+      "height": 3.2,
+      "name": "Arceus (Ghost)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_IRON_TAIL_FAST": false,
+        "MOVE_SHADOW_CLAW_FAST": false
+      },
+      "rarity": "mythic",
+      "types": [
+        "ghost"
+      ],
+      "weight": 320
+    },
+    "grass": {
+      "assetBundle": 22,
+      "baseStats": {
+        "attack": 238,
+        "defense": 238,
+        "stamina": 237
+      },
+      "buddyDistance": 20,
+      "chargeMoves": {
+        "MOVE_FUTURESIGHT": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false
+      },
+      "family": "FAMILY_ARCEUS",
+      "generation": -1,
+      "height": 3.2,
+      "name": "Arceus (Grass)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_IRON_TAIL_FAST": false,
+        "MOVE_SHADOW_CLAW_FAST": false
+      },
+      "rarity": "mythic",
+      "types": [
+        "grass"
+      ],
+      "weight": 320
+    },
+    "ground": {
+      "assetBundle": 15,
+      "baseStats": {
+        "attack": 238,
+        "defense": 238,
+        "stamina": 237
+      },
+      "buddyDistance": 20,
+      "chargeMoves": {
+        "MOVE_FUTURESIGHT": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false
+      },
+      "family": "FAMILY_ARCEUS",
+      "generation": -1,
+      "height": 3.2,
+      "name": "Arceus (Ground)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_IRON_TAIL_FAST": false,
+        "MOVE_SHADOW_CLAW_FAST": false
+      },
+      "rarity": "mythic",
+      "types": [
+        "ground"
+      ],
+      "weight": 320
+    },
+    "ice": {
+      "assetBundle": 25,
+      "baseStats": {
+        "attack": 238,
+        "defense": 238,
+        "stamina": 237
+      },
+      "buddyDistance": 20,
+      "chargeMoves": {
+        "MOVE_FUTURESIGHT": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false
+      },
+      "family": "FAMILY_ARCEUS",
+      "generation": -1,
+      "height": 3.2,
+      "name": "Arceus (Ice)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_IRON_TAIL_FAST": false,
+        "MOVE_SHADOW_CLAW_FAST": false
+      },
+      "rarity": "mythic",
+      "types": [
+        "ice"
+      ],
+      "weight": 320
+    },
+    "normal": {
+      "assetBundle": 11,
+      "baseStats": {
+        "attack": 238,
+        "defense": 238,
+        "stamina": 237
+      },
+      "buddyDistance": 20,
+      "chargeMoves": {
+        "MOVE_FUTURESIGHT": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false
+      },
+      "family": "FAMILY_ARCEUS",
+      "generation": -1,
+      "height": 3.2,
+      "name": "Arceus",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_IRON_TAIL_FAST": false,
+        "MOVE_SHADOW_CLAW_FAST": false
+      },
+      "rarity": "mythic",
+      "types": [
+        "normal"
+      ],
+      "weight": 320
+    },
+    "poison": {
+      "assetBundle": 14,
+      "baseStats": {
+        "attack": 238,
+        "defense": 238,
+        "stamina": 237
+      },
+      "buddyDistance": 20,
+      "chargeMoves": {
+        "MOVE_FUTURESIGHT": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false
+      },
+      "family": "FAMILY_ARCEUS",
+      "generation": -1,
+      "height": 3.2,
+      "name": "Arceus (Poison)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_IRON_TAIL_FAST": false,
+        "MOVE_SHADOW_CLAW_FAST": false
+      },
+      "rarity": "mythic",
+      "types": [
+        "poison"
+      ],
+      "weight": 320
+    },
+    "psychic": {
+      "assetBundle": 24,
+      "baseStats": {
+        "attack": 238,
+        "defense": 238,
+        "stamina": 237
+      },
+      "buddyDistance": 20,
+      "chargeMoves": {
+        "MOVE_FUTURESIGHT": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false
+      },
+      "family": "FAMILY_ARCEUS",
+      "generation": -1,
+      "height": 3.2,
+      "name": "Arceus (Psychic)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_IRON_TAIL_FAST": false,
+        "MOVE_SHADOW_CLAW_FAST": false
+      },
+      "rarity": "mythic",
+      "types": [
+        "psychic"
+      ],
+      "weight": 320
+    },
+    "rock": {
+      "assetBundle": 16,
+      "baseStats": {
+        "attack": 238,
+        "defense": 238,
+        "stamina": 237
+      },
+      "buddyDistance": 20,
+      "chargeMoves": {
+        "MOVE_FUTURESIGHT": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false
+      },
+      "family": "FAMILY_ARCEUS",
+      "generation": -1,
+      "height": 3.2,
+      "name": "Arceus (Rock)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_IRON_TAIL_FAST": false,
+        "MOVE_SHADOW_CLAW_FAST": false
+      },
+      "rarity": "mythic",
+      "types": [
+        "rock"
+      ],
+      "weight": 320
+    },
+    "steel": {
+      "assetBundle": 19,
+      "baseStats": {
+        "attack": 238,
+        "defense": 238,
+        "stamina": 237
+      },
+      "buddyDistance": 20,
+      "chargeMoves": {
+        "MOVE_FUTURESIGHT": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false
+      },
+      "family": "FAMILY_ARCEUS",
+      "generation": -1,
+      "height": 3.2,
+      "name": "Arceus (Steel)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_IRON_TAIL_FAST": false,
+        "MOVE_SHADOW_CLAW_FAST": false
+      },
+      "rarity": "mythic",
+      "types": [
+        "steel"
+      ],
+      "weight": 320
+    },
+    "water": {
+      "assetBundle": 21,
+      "baseStats": {
+        "attack": 238,
+        "defense": 238,
+        "stamina": 237
+      },
+      "buddyDistance": 20,
+      "chargeMoves": {
+        "MOVE_FUTURESIGHT": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false
+      },
+      "family": "FAMILY_ARCEUS",
+      "generation": -1,
+      "height": 3.2,
+      "name": "Arceus (Water)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_IRON_TAIL_FAST": false,
+        "MOVE_SHADOW_CLAW_FAST": false
+      },
+      "rarity": "mythic",
+      "types": [
+        "water"
+      ],
+      "weight": 320
+    }
+  },
+  "generation": -1,
+  "height": 3.2,
+  "name": "Arceus",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_IRON_TAIL_FAST": false,
+    "MOVE_SHADOW_CLAW_FAST": false
+  },
+  "rarity": "mythic",
+  "types": [
+    "normal"
+  ],
+  "weight": 320
+}

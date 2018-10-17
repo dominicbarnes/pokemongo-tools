@@ -1,0 +1,29 @@
+{
+  "baseStats": {
+    "attack": 247,
+    "defense": 172,
+    "stamina": 181
+  },
+  "buddyDistance": 3,
+  "chargeMoves": {
+    "MOVE_BRICK_BREAK": false,
+    "MOVE_FIRE_BLAST": false,
+    "MOVE_FIRE_PUNCH": false
+  },
+  "family": "FAMILY_MAGMAR",
+  "generation": -1,
+  "height": 1.6,
+  "name": "Magmortar",
+  "nextEvolutions": [
+  ],
+  "previousEvolution": "POKEMON_MAGMAR",
+  "quickMoves": {
+    "MOVE_FIRE_SPIN_FAST": false,
+    "MOVE_KARATE_CHOP_FAST": false
+  },
+  "rarity": "common",
+  "types": [
+    "fire"
+  ],
+  "weight": 68
+}
