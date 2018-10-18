@@ -12,9 +12,10 @@
         <shiny-badge v-if="pokemon.shiny" />
       </div>
       <div>
-        <type-badge v-for="type in pokemon.types" v-bind:type="type" />
-        &bull;
-        <type-badge v-for="type in moveTypes" v-bind:type="type" />
+        <type-badge v-for="(type, i) in pokemon.types" v-bind:type="type" v-bind:title="'Type ' + (i + 1)" v-b-tooltip.hover.top />
+      </div>
+      <div>
+        <type-badge v-for="move in moves" v-bind:type="move.type" v-bind:title="move.name" v-b-tooltip.hover.bottom />
       </div>
       <b-card-img v-bind:src="pokemon.spriteURL" v-img-fallback="fallbackSpriteURL" />
       <b-alert show v-if="pokemon.notes" variant="info" class="card-text mt-2">
@@ -33,22 +34,10 @@
         </stat-grid-cell>
       </stat-grid>
     </b-card-body>
-    <b-card-footer>
-      <b-row no-gutters class="text-muted">
-        <b-col class="text-left">
-          <small v-if="pokemon.caughtAt">
-            Caught <rel-time v-bind:datetime="pokemon.caughtAt" format-tooltip="LL" refresh="1m" />
-          </small>
-        </b-col>
-        <b-col class="text-right">
-          <small v-if="pokemon.updatedAt">
-            Updated <rel-time v-bind:datetime="pokemon.updatedAt" format-tooltip="LLLL" refresh="1m" />
-          </small>
-          <small v-else>
-            Added <rel-time v-bind:datetime="pokemon.addedAt" format-tooltip="LLLL" refresh="1m" />
-          </small>
-        </b-col>
-      </b-row>
+    <b-card-footer class="text-right text-muted">
+      <small v-if="pokemon.caughtAt">
+        Caught <rel-time v-bind:datetime="pokemon.caughtAt" format-tooltip="LL" refresh="1m" />
+      </small>
     </b-card-footer>
   </b-card>
 </template>
@@ -96,8 +85,8 @@
         return { name: 'catalog-view', params: { pokemon: this.pokemon.id } }
       },
 
-      moveTypes() {
-        return [ this.pokemon.quickMove, this.pokemon.chargeMove ].filter(Boolean).map(move => move.type)
+      moves() {
+        return [ this.pokemon.quickMove, this.pokemon.chargeMove ].filter(Boolean)
       }
     },
 

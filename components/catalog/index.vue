@@ -32,7 +32,7 @@
               <b-button v-on:click="filters = null" variant="secondary">Remove Filters</b-button>
             </b-alert>
             <template slot="item" slot-scope="{ item: pokemon }">
-              <b-col v-bind:key="pokemon.id" cols="12" md="6" lg="4" v-on:click="toggleItem(pokemon.id)">
+              <b-col v-bind:key="pokemon.id" cols="12" md="6" lg="3" v-on:click="toggleItem(pokemon.id)">
                 <catalog-item v-bind:pokemon="pokemon" v-bind:selected="isSelected(pokemon.id)" />
               </b-col>
             </template>
