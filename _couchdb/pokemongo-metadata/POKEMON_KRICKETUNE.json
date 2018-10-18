@@ -10,8 +10,9 @@
     "MOVE_BUG_BUZZ": false,
     "MOVE_X_SCISSOR": false
   },
+  "dex": 402,
   "family": "FAMILY_KRICKETOT",
-  "generation": -1,
+  "generation": 4,
   "height": 1,
   "name": "Kricketune",
   "nextEvolutions": [

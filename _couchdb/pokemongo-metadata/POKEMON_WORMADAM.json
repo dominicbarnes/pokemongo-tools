@@ -9,6 +9,7 @@
     "MOVE_STRUGGLE": false
   },
   "defaultForm": "normal",
+  "dex": 413,
   "family": "FAMILY_BURMY",
   "forms": {
     "plant": {
@@ -24,8 +25,9 @@
         "MOVE_ENERGY_BALL": false,
         "MOVE_PSYBEAM": false
       },
+      "dex": 413,
       "family": "FAMILY_BURMY",
-      "generation": -1,
+      "generation": 4,
       "height": 0.5,
       "name": "Wormadam (Plant)",
       "nextEvolutions": [
@@ -55,8 +57,9 @@
         "MOVE_BULLDOZE": false,
         "MOVE_PSYBEAM": false
       },
+      "dex": 413,
       "family": "FAMILY_BURMY",
-      "generation": -1,
+      "generation": 4,
       "height": 0.5,
       "name": "Wormadam (Sandy)",
       "nextEvolutions": [
@@ -86,8 +89,9 @@
         "MOVE_IRON_HEAD": false,
         "MOVE_PSYBEAM": false
       },
+      "dex": 413,
       "family": "FAMILY_BURMY",
-      "generation": -1,
+      "generation": 4,
       "height": 0.5,
       "name": "Wormadam (Trash)",
       "nextEvolutions": [
@@ -105,7 +109,7 @@
       "weight": 6.5
     }
   },
-  "generation": -1,
+  "generation": 4,
   "height": 0.5,
   "name": "Wormadam",
   "nextEvolutions": [

@@ -9,8 +9,9 @@
     "MOVE_AERIAL_ACE": false,
     "MOVE_BRAVE_BIRD": false
   },
+  "dex": 396,
   "family": "FAMILY_STARLY",
-  "generation": -1,
+  "generation": 4,
   "height": 0.3,
   "name": "Starly",
   "nextEvolutions": [

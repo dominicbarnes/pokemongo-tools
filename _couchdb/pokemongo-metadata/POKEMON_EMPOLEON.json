@@ -10,8 +10,9 @@
     "MOVE_FLASH_CANNON": false,
     "MOVE_HYDRO_PUMP": false
   },
+  "dex": 395,
   "family": "FAMILY_PIPLUP",
-  "generation": -1,
+  "generation": 4,
   "height": 1.7,
   "name": "Empoleon",
   "nextEvolutions": [

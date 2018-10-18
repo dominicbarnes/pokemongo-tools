@@ -10,8 +10,9 @@
     "MOVE_DIG": false,
     "MOVE_ROCK_TOMB": false
   },
+  "dex": 449,
   "family": "FAMILY_HIPPOPOTAS",
-  "generation": -1,
+  "generation": 4,
   "height": 0.8,
   "name": "Hippopotas",
   "nextEvolutions": [

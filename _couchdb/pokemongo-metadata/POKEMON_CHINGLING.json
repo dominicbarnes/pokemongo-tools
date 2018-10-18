@@ -10,8 +10,9 @@
     "MOVE_SHADOW_BALL": false,
     "MOVE_WRAP": false
   },
+  "dex": 433,
   "family": "FAMILY_CHIMECHO",
-  "generation": -1,
+  "generation": 4,
   "height": 0.2,
   "name": "Chingling",
   "nextEvolutions": [

@@ -10,8 +10,9 @@
     "MOVE_BRAVE_BIRD": false,
     "MOVE_HEAT_WAVE": false
   },
+  "dex": 397,
   "family": "FAMILY_STARLY",
-  "generation": -1,
+  "generation": 4,
   "height": 0.6,
   "name": "Staravia",
   "nextEvolutions": [

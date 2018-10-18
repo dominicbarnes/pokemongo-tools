@@ -10,8 +10,9 @@
     "MOVE_FOCUS_BLAST": false,
     "MOVE_FOUL_PLAY": false
   },
+  "dex": 461,
   "family": "FAMILY_SNEASEL",
-  "generation": -1,
+  "generation": 4,
   "height": 1.1,
   "name": "Weavile",
   "nextEvolutions": [

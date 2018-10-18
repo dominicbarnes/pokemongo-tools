@@ -10,8 +10,9 @@
     "MOVE_FLAME_WHEEL": false,
     "MOVE_LOW_SWEEP": false
   },
+  "dex": 391,
   "family": "FAMILY_CHIMCHAR",
-  "generation": -1,
+  "generation": 4,
   "height": 0.9,
   "name": "Monferno",
   "nextEvolutions": [

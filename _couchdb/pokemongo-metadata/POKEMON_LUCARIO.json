@@ -10,8 +10,9 @@
     "MOVE_FLASH_CANNON": false,
     "MOVE_SHADOW_BALL": false
   },
+  "dex": 448,
   "family": "FAMILY_LUCARIO",
-  "generation": -1,
+  "generation": 4,
   "height": 1.2,
   "name": "Lucario",
   "nextEvolutions": [

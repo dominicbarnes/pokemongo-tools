@@ -10,8 +10,9 @@
     "MOVE_WILD_CHARGE": false,
     "MOVE_ZAP_CANNON": false
   },
+  "dex": 462,
   "family": "FAMILY_MAGNEMITE",
-  "generation": -1,
+  "generation": 4,
   "height": 1.2,
   "name": "Magnezone",
   "nextEvolutions": [

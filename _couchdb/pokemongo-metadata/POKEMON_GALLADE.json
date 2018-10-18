@@ -10,8 +10,9 @@
     "MOVE_LEAF_BLADE": false,
     "MOVE_PSYCHIC": false
   },
+  "dex": 475,
   "family": "FAMILY_RALTS",
-  "generation": -1,
+  "generation": 4,
   "height": 1.6,
   "name": "Gallade",
   "nextEvolutions": [

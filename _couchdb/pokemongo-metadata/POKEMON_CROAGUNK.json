@@ -10,8 +10,9 @@
     "MOVE_LOW_SWEEP": false,
     "MOVE_SLUDGE_BOMB": false
   },
+  "dex": 453,
   "family": "FAMILY_CROAGUNK",
-  "generation": -1,
+  "generation": 4,
   "height": 0.7,
   "name": "Croagunk",
   "nextEvolutions": [

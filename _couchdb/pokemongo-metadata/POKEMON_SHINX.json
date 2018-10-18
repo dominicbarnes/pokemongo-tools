@@ -10,8 +10,9 @@
     "MOVE_SWIFT": false,
     "MOVE_THUNDERBOLT": false
   },
+  "dex": 403,
   "family": "FAMILY_SHINX",
-  "generation": -1,
+  "generation": 4,
   "height": 0.5,
   "name": "Shinx",
   "nextEvolutions": [

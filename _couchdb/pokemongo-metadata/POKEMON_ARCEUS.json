@@ -11,6 +11,7 @@
     "MOVE_OUTRAGE": false
   },
   "defaultForm": "normal",
+  "dex": 493,
   "family": "FAMILY_ARCEUS",
   "forms": {
     "bug": {
@@ -26,8 +27,9 @@
         "MOVE_HYPER_BEAM": false,
         "MOVE_OUTRAGE": false
       },
+      "dex": 493,
       "family": "FAMILY_ARCEUS",
-      "generation": -1,
+      "generation": 4,
       "height": 3.2,
       "name": "Arceus (Bug)",
       "nextEvolutions": [
@@ -56,8 +58,9 @@
         "MOVE_HYPER_BEAM": false,
         "MOVE_OUTRAGE": false
       },
+      "dex": 493,
       "family": "FAMILY_ARCEUS",
-      "generation": -1,
+      "generation": 4,
       "height": 3.2,
       "name": "Arceus (Dark)",
       "nextEvolutions": [
@@ -86,8 +89,9 @@
         "MOVE_HYPER_BEAM": false,
         "MOVE_OUTRAGE": false
       },
+      "dex": 493,
       "family": "FAMILY_ARCEUS",
-      "generation": -1,
+      "generation": 4,
       "height": 3.2,
       "name": "Arceus (Dragon)",
       "nextEvolutions": [
@@ -116,8 +120,9 @@
         "MOVE_HYPER_BEAM": false,
         "MOVE_OUTRAGE": false
       },
+      "dex": 493,
       "family": "FAMILY_ARCEUS",
-      "generation": -1,
+      "generation": 4,
       "height": 3.2,
       "name": "Arceus (Electric)",
       "nextEvolutions": [
@@ -146,8 +151,9 @@
         "MOVE_HYPER_BEAM": false,
         "MOVE_OUTRAGE": false
       },
+      "dex": 493,
       "family": "FAMILY_ARCEUS",
-      "generation": -1,
+      "generation": 4,
       "height": 3.2,
       "name": "Arceus (Fairy)",
       "nextEvolutions": [
@@ -176,8 +182,9 @@
         "MOVE_HYPER_BEAM": false,
         "MOVE_OUTRAGE": false
       },
+      "dex": 493,
       "family": "FAMILY_ARCEUS",
-      "generation": -1,
+      "generation": 4,
       "height": 3.2,
       "name": "Arceus (Fighting)",
       "nextEvolutions": [
@@ -206,8 +213,9 @@
         "MOVE_HYPER_BEAM": false,
         "MOVE_OUTRAGE": false
       },
+      "dex": 493,
       "family": "FAMILY_ARCEUS",
-      "generation": -1,
+      "generation": 4,
       "height": 3.2,
       "name": "Arceus (Fire)",
       "nextEvolutions": [
@@ -236,8 +244,9 @@
         "MOVE_HYPER_BEAM": false,
         "MOVE_OUTRAGE": false
       },
+      "dex": 493,
       "family": "FAMILY_ARCEUS",
-      "generation": -1,
+      "generation": 4,
       "height": 3.2,
       "name": "Arceus (Flying)",
       "nextEvolutions": [
@@ -266,8 +275,9 @@
         "MOVE_HYPER_BEAM": false,
         "MOVE_OUTRAGE": false
       },
+      "dex": 493,
       "family": "FAMILY_ARCEUS",
-      "generation": -1,
+      "generation": 4,
       "height": 3.2,
       "name": "Arceus (Ghost)",
       "nextEvolutions": [
@@ -296,8 +306,9 @@
         "MOVE_HYPER_BEAM": false,
         "MOVE_OUTRAGE": false
       },
+      "dex": 493,
       "family": "FAMILY_ARCEUS",
-      "generation": -1,
+      "generation": 4,
       "height": 3.2,
       "name": "Arceus (Grass)",
       "nextEvolutions": [
@@ -326,8 +337,9 @@
         "MOVE_HYPER_BEAM": false,
         "MOVE_OUTRAGE": false
       },
+      "dex": 493,
       "family": "FAMILY_ARCEUS",
-      "generation": -1,
+      "generation": 4,
       "height": 3.2,
       "name": "Arceus (Ground)",
       "nextEvolutions": [
@@ -356,8 +368,9 @@
         "MOVE_HYPER_BEAM": false,
         "MOVE_OUTRAGE": false
       },
+      "dex": 493,
       "family": "FAMILY_ARCEUS",
-      "generation": -1,
+      "generation": 4,
       "height": 3.2,
       "name": "Arceus (Ice)",
       "nextEvolutions": [
@@ -386,8 +399,9 @@
         "MOVE_HYPER_BEAM": false,
         "MOVE_OUTRAGE": false
       },
+      "dex": 493,
       "family": "FAMILY_ARCEUS",
-      "generation": -1,
+      "generation": 4,
       "height": 3.2,
       "name": "Arceus",
       "nextEvolutions": [
@@ -416,8 +430,9 @@
         "MOVE_HYPER_BEAM": false,
         "MOVE_OUTRAGE": false
       },
+      "dex": 493,
       "family": "FAMILY_ARCEUS",
-      "generation": -1,
+      "generation": 4,
       "height": 3.2,
       "name": "Arceus (Poison)",
       "nextEvolutions": [
@@ -446,8 +461,9 @@
         "MOVE_HYPER_BEAM": false,
         "MOVE_OUTRAGE": false
       },
+      "dex": 493,
       "family": "FAMILY_ARCEUS",
-      "generation": -1,
+      "generation": 4,
       "height": 3.2,
       "name": "Arceus (Psychic)",
       "nextEvolutions": [
@@ -476,8 +492,9 @@
         "MOVE_HYPER_BEAM": false,
         "MOVE_OUTRAGE": false
       },
+      "dex": 493,
       "family": "FAMILY_ARCEUS",
-      "generation": -1,
+      "generation": 4,
       "height": 3.2,
       "name": "Arceus (Rock)",
       "nextEvolutions": [
@@ -506,8 +523,9 @@
         "MOVE_HYPER_BEAM": false,
         "MOVE_OUTRAGE": false
       },
+      "dex": 493,
       "family": "FAMILY_ARCEUS",
-      "generation": -1,
+      "generation": 4,
       "height": 3.2,
       "name": "Arceus (Steel)",
       "nextEvolutions": [
@@ -536,8 +554,9 @@
         "MOVE_HYPER_BEAM": false,
         "MOVE_OUTRAGE": false
       },
+      "dex": 493,
       "family": "FAMILY_ARCEUS",
-      "generation": -1,
+      "generation": 4,
       "height": 3.2,
       "name": "Arceus (Water)",
       "nextEvolutions": [
@@ -554,7 +573,7 @@
       "weight": 320
     }
   },
-  "generation": -1,
+  "generation": 4,
   "height": 3.2,
   "name": "Arceus",
   "nextEvolutions": [

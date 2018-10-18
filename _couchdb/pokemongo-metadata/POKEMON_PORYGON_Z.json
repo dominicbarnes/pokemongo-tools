@@ -10,8 +10,9 @@
     "MOVE_SOLAR_BEAM": false,
     "MOVE_ZAP_CANNON": false
   },
+  "dex": 474,
   "family": "FAMILY_PORYGON",
-  "generation": -1,
+  "generation": 4,
   "height": 0.9,
   "name": "Porygon Z",
   "nextEvolutions": [

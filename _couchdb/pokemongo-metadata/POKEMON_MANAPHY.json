@@ -10,8 +10,9 @@
     "MOVE_PSYCHIC": false,
     "MOVE_SURF": false
   },
+  "dex": 490,
   "family": "FAMILY_MANAPHY",
-  "generation": -1,
+  "generation": 4,
   "height": 0.3,
   "name": "Manaphy",
   "nextEvolutions": [

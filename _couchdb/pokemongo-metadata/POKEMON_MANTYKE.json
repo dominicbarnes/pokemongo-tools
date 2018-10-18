@@ -10,8 +10,9 @@
     "MOVE_ICE_BEAM": false,
     "MOVE_WATER_PULSE": false
   },
+  "dex": 458,
   "family": "FAMILY_MANTINE",
-  "generation": -1,
+  "generation": 4,
   "height": 1,
   "name": "Mantyke",
   "nextEvolutions": [

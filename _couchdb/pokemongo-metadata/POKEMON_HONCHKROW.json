@@ -10,8 +10,9 @@
     "MOVE_DARK_PULSE": false,
     "MOVE_PSYCHIC": false
   },
+  "dex": 430,
   "family": "FAMILY_MURKROW",
-  "generation": -1,
+  "generation": 4,
   "height": 0.9,
   "name": "Honchkrow",
   "nextEvolutions": [

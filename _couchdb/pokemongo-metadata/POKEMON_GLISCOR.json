@@ -10,8 +10,9 @@
     "MOVE_EARTHQUAKE": false,
     "MOVE_NIGHT_SLASH": false
   },
+  "dex": 472,
   "family": "FAMILY_GLIGAR",
-  "generation": -1,
+  "generation": 4,
   "height": 2,
   "name": "Gliscor",
   "nextEvolutions": [

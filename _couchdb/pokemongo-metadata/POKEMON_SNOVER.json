@@ -10,8 +10,9 @@
     "MOVE_ICE_BEAM": false,
     "MOVE_STOMP": false
   },
+  "dex": 459,
   "family": "FAMILY_SNOVER",
-  "generation": -1,
+  "generation": 4,
   "height": 1,
   "name": "Snover",
   "nextEvolutions": [

@@ -10,8 +10,9 @@
     "MOVE_ROCK_SLIDE": false,
     "MOVE_THUNDERBOLT": false
   },
+  "dex": 476,
   "family": "FAMILY_NOSEPASS",
-  "generation": -1,
+  "generation": 4,
   "height": 1.4,
   "name": "Probopass",
   "nextEvolutions": [

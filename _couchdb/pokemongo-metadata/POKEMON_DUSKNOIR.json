@@ -10,8 +10,9 @@
     "MOVE_OMINOUS_WIND": false,
     "MOVE_PSYCHIC": false
   },
+  "dex": 477,
   "family": "FAMILY_DUSKULL",
-  "generation": -1,
+  "generation": 4,
   "height": 2.2,
   "name": "Dusknoir",
   "nextEvolutions": [

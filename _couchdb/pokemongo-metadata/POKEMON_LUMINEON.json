@@ -10,8 +10,9 @@
     "MOVE_SILVER_WIND": false,
     "MOVE_WATER_PULSE": false
   },
+  "dex": 457,
   "family": "FAMILY_FINNEON",
-  "generation": -1,
+  "generation": 4,
   "height": 1.2,
   "name": "Lumineon",
   "nextEvolutions": [

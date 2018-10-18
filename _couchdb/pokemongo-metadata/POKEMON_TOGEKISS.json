@@ -10,8 +10,9 @@
     "MOVE_ANCIENT_POWER": false,
     "MOVE_DAZZLING_GLEAM": false
   },
+  "dex": 468,
   "family": "FAMILY_TOGEPI",
-  "generation": -1,
+  "generation": 4,
   "height": 1.5,
   "name": "Togekiss",
   "nextEvolutions": [

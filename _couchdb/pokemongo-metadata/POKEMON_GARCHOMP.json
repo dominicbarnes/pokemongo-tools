@@ -10,8 +10,9 @@
     "MOVE_FIRE_BLAST": false,
     "MOVE_OUTRAGE": false
   },
+  "dex": 445,
   "family": "FAMILY_GIBLE",
-  "generation": -1,
+  "generation": 4,
   "height": 1.9,
   "name": "Garchomp",
   "nextEvolutions": [

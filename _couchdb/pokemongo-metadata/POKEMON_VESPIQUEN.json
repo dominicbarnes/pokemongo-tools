@@ -10,8 +10,9 @@
     "MOVE_POWER_GEM": false,
     "MOVE_X_SCISSOR": false
   },
+  "dex": 416,
   "family": "FAMILY_COMBEE",
-  "generation": -1,
+  "generation": 4,
   "height": 1.2,
   "name": "Vespiquen",
   "nextEvolutions": [

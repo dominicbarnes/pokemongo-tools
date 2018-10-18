@@ -10,8 +10,9 @@
     "MOVE_OUTRAGE": false,
     "MOVE_ROCK_SLIDE": false
   },
+  "dex": 409,
   "family": "FAMILY_CRANIDOS",
-  "generation": -1,
+  "generation": 4,
   "height": 1.6,
   "name": "Rampardos",
   "nextEvolutions": [

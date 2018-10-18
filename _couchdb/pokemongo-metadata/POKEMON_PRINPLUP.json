@@ -10,8 +10,9 @@
     "MOVE_HYDRO_PUMP": false,
     "MOVE_ICY_WIND": false
   },
+  "dex": 394,
   "family": "FAMILY_PIPLUP",
-  "generation": -1,
+  "generation": 4,
   "height": 0.8,
   "name": "Prinplup",
   "nextEvolutions": [

@@ -9,8 +9,9 @@
     "MOVE_DAZZLING_GLEAM": false,
     "MOVE_PSYCHIC": false
   },
+  "dex": 440,
   "family": "FAMILY_CHANSEY",
-  "generation": -1,
+  "generation": 4,
   "height": 0.6,
   "name": "Happiny",
   "nextEvolutions": [

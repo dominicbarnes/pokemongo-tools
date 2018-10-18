@@ -10,8 +10,9 @@
     "MOVE_LEAF_BLADE": false,
     "MOVE_SOLAR_BEAM": false
   },
+  "dex": 470,
   "family": "FAMILY_EEVEE",
-  "generation": -1,
+  "generation": 4,
   "height": 1,
   "name": "Leafeon",
   "nextEvolutions": [

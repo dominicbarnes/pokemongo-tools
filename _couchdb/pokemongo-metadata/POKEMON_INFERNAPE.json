@@ -10,8 +10,9 @@
     "MOVE_FLAMETHROWER": false,
     "MOVE_SOLAR_BEAM": false
   },
+  "dex": 392,
   "family": "FAMILY_CHIMCHAR",
-  "generation": -1,
+  "generation": 4,
   "height": 1.2,
   "name": "Infernape",
   "nextEvolutions": [

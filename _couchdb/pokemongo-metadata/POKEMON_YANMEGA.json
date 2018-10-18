@@ -10,8 +10,9 @@
     "MOVE_ANCIENT_POWER": false,
     "MOVE_BUG_BUZZ": false
   },
+  "dex": 469,
   "family": "FAMILY_YANMA",
-  "generation": -1,
+  "generation": 4,
   "height": 1.9,
   "name": "Yanmega",
   "nextEvolutions": [

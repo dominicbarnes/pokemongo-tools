@@ -10,8 +10,9 @@
     "MOVE_BULLDOZE": false,
     "MOVE_STONE_EDGE": false
   },
+  "dex": 473,
   "family": "FAMILY_SWINUB",
-  "generation": -1,
+  "generation": 4,
   "height": 2.5,
   "name": "Mamoswine",
   "nextEvolutions": [

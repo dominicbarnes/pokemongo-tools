@@ -10,8 +10,9 @@
     "MOVE_SILVER_WIND": false,
     "MOVE_WATER_PULSE": false
   },
+  "dex": 456,
   "family": "FAMILY_FINNEON",
-  "generation": -1,
+  "generation": 4,
   "height": 0.4,
   "name": "Finneon",
   "nextEvolutions": [

@@ -10,8 +10,9 @@
     "MOVE_STONE_EDGE": false,
     "MOVE_SURF": false
   },
+  "dex": 464,
   "family": "FAMILY_RHYHORN",
-  "generation": -1,
+  "generation": 4,
   "height": 2.4,
   "name": "Rhyperior",
   "nextEvolutions": [

@@ -10,8 +10,9 @@
     "MOVE_HYPER_FANG": false,
     "MOVE_SURF": false
   },
+  "dex": 400,
   "family": "FAMILY_BIDOOF",
-  "generation": -1,
+  "generation": 4,
   "height": 1,
   "name": "Bibarel",
   "nextEvolutions": [

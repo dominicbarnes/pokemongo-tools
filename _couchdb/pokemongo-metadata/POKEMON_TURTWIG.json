@@ -10,8 +10,9 @@
     "MOVE_ENERGY_BALL": false,
     "MOVE_SEED_BOMB": false
   },
+  "dex": 387,
   "family": "FAMILY_TURTWIG",
-  "generation": -1,
+  "generation": 4,
   "height": 0.4,
   "name": "Turtwig",
   "nextEvolutions": [

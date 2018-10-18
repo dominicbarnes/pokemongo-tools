@@ -10,8 +10,9 @@
     "MOVE_HYPER_BEAM": false,
     "MOVE_WILD_CHARGE": false
   },
+  "dex": 405,
   "family": "FAMILY_SHINX",
-  "generation": -1,
+  "generation": 4,
   "height": 1.4,
   "name": "Luxray",
   "nextEvolutions": [

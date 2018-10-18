@@ -10,8 +10,9 @@
     "MOVE_ROCK_SLIDE": false,
     "MOVE_ROCK_TOMB": false
   },
+  "dex": 438,
   "family": "FAMILY_SUDOWOODO",
-  "generation": -1,
+  "generation": 4,
   "height": 0.5,
   "name": "Bonsly",
   "nextEvolutions": [

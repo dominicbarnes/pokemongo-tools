@@ -10,8 +10,9 @@
     "MOVE_EARTHQUAKE": false,
     "MOVE_STONE_EDGE": false
   },
+  "dex": 450,
   "family": "FAMILY_HIPPOPOTAS",
-  "generation": -1,
+  "generation": 4,
   "height": 2,
   "name": "Hippowdon",
   "nextEvolutions": [

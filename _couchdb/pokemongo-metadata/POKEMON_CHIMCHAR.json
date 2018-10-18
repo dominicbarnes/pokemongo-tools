@@ -10,8 +10,9 @@
     "MOVE_FLAME_CHARGE": false,
     "MOVE_FLAME_WHEEL": false
   },
+  "dex": 390,
   "family": "FAMILY_CHIMCHAR",
-  "generation": -1,
+  "generation": 4,
   "height": 0.5,
   "name": "Chimchar",
   "nextEvolutions": [

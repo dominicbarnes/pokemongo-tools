@@ -11,6 +11,7 @@
     "MOVE_THUNDERBOLT": false
   },
   "defaultForm": "normal",
+  "dex": 479,
   "family": "FAMILY_ROTOM",
   "forms": {
     "fan": {
@@ -26,8 +27,9 @@
         "MOVE_THUNDER": false,
         "MOVE_THUNDERBOLT": false
       },
+      "dex": 479,
       "family": "FAMILY_ROTOM",
-      "generation": -1,
+      "generation": 4,
       "height": 0.3,
       "name": "Rotom (Fan)",
       "nextEvolutions": [
@@ -57,8 +59,9 @@
         "MOVE_THUNDER": false,
         "MOVE_THUNDERBOLT": false
       },
+      "dex": 479,
       "family": "FAMILY_ROTOM",
-      "generation": -1,
+      "generation": 4,
       "height": 0.3,
       "name": "Rotom (Frost)",
       "nextEvolutions": [
@@ -88,8 +91,9 @@
         "MOVE_THUNDER": false,
         "MOVE_THUNDERBOLT": false
       },
+      "dex": 479,
       "family": "FAMILY_ROTOM",
-      "generation": -1,
+      "generation": 4,
       "height": 0.3,
       "name": "Rotom (Heat)",
       "nextEvolutions": [
@@ -119,8 +123,9 @@
         "MOVE_THUNDER": false,
         "MOVE_THUNDERBOLT": false
       },
+      "dex": 479,
       "family": "FAMILY_ROTOM",
-      "generation": -1,
+      "generation": 4,
       "height": 0.3,
       "name": "Rotom (Mow)",
       "nextEvolutions": [
@@ -150,8 +155,9 @@
         "MOVE_THUNDER": false,
         "MOVE_THUNDERBOLT": false
       },
+      "dex": 479,
       "family": "FAMILY_ROTOM",
-      "generation": -1,
+      "generation": 4,
       "height": 0.3,
       "name": "Rotom",
       "nextEvolutions": [
@@ -181,8 +187,9 @@
         "MOVE_THUNDER": false,
         "MOVE_THUNDERBOLT": false
       },
+      "dex": 479,
       "family": "FAMILY_ROTOM",
-      "generation": -1,
+      "generation": 4,
       "height": 0.3,
       "name": "Rotom (Wash)",
       "nextEvolutions": [
@@ -200,7 +207,7 @@
       "weight": 0.3
     }
   },
-  "generation": -1,
+  "generation": 4,
   "height": 0.3,
   "name": "Rotom",
   "nextEvolutions": [

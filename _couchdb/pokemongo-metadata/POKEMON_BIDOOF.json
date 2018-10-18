@@ -10,8 +10,9 @@
     "MOVE_GRASS_KNOT": false,
     "MOVE_HYPER_FANG": false
   },
+  "dex": 399,
   "family": "FAMILY_BIDOOF",
-  "generation": -1,
+  "generation": 4,
   "height": 0.5,
   "name": "Bidoof",
   "nextEvolutions": [

@@ -10,8 +10,9 @@
     "MOVE_THUNDERBOLT": false,
     "MOVE_THUNDER_PUNCH": false
   },
+  "dex": 417,
   "family": "FAMILY_PACHIRISU",
-  "generation": -1,
+  "generation": 4,
   "height": 0.4,
   "name": "Pachirisu",
   "nextEvolutions": [

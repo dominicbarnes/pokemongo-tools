@@ -10,8 +10,9 @@
     "MOVE_CLOSE_COMBAT": false,
     "MOVE_HEAT_WAVE": false
   },
+  "dex": 398,
   "family": "FAMILY_STARLY",
-  "generation": -1,
+  "generation": 4,
   "height": 1.2,
   "name": "Staraptor",
   "nextEvolutions": [

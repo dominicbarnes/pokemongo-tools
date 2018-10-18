@@ -10,8 +10,9 @@
     "MOVE_DIG": false,
     "MOVE_TWISTER": false
   },
+  "dex": 443,
   "family": "FAMILY_GIBLE",
-  "generation": -1,
+  "generation": 4,
   "height": 0.7,
   "name": "Gible",
   "nextEvolutions": [

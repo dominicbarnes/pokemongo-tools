@@ -10,8 +10,9 @@
     "MOVE_THUNDERBOLT": false,
     "MOVE_WILD_CHARGE": false
   },
+  "dex": 404,
   "family": "FAMILY_SHINX",
-  "generation": -1,
+  "generation": 4,
   "height": 0.9,
   "name": "Luxio",
   "nextEvolutions": [

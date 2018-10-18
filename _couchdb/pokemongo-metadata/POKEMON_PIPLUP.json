@@ -10,8 +10,9 @@
     "MOVE_DRILL_PECK": false,
     "MOVE_ICY_WIND": false
   },
+  "dex": 393,
   "family": "FAMILY_PIPLUP",
-  "generation": -1,
+  "generation": 4,
   "height": 0.4,
   "name": "Piplup",
   "nextEvolutions": [

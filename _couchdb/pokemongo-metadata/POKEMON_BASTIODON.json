@@ -10,8 +10,9 @@
     "MOVE_FLASH_CANNON": false,
     "MOVE_STONE_EDGE": false
   },
+  "dex": 411,
   "family": "FAMILY_SHIELDON",
-  "generation": -1,
+  "generation": 4,
   "height": 1.3,
   "name": "Bastiodon",
   "nextEvolutions": [

@@ -10,8 +10,9 @@
     "MOVE_HYPER_BEAM": false,
     "MOVE_SOLAR_BEAM": false
   },
+  "dex": 463,
   "family": "FAMILY_LICKITUNG",
-  "generation": -1,
+  "generation": 4,
   "height": 1.7,
   "name": "Lickilicky",
   "nextEvolutions": [

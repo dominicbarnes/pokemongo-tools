@@ -10,8 +10,9 @@
     "MOVE_SLUDGE_BOMB": false,
     "MOVE_SOLAR_BEAM": false
   },
+  "dex": 407,
   "family": "FAMILY_ROSELIA",
-  "generation": -1,
+  "generation": 4,
   "height": 0.9,
   "name": "Roserade",
   "nextEvolutions": [

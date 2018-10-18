@@ -10,8 +10,9 @@
     "MOVE_SWIFT": false,
     "MOVE_THUNDER": false
   },
+  "dex": 480,
   "family": "FAMILY_UXIE",
-  "generation": -1,
+  "generation": 4,
   "height": 0.3,
   "name": "Uxie",
   "nextEvolutions": [

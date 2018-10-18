@@ -10,8 +10,9 @@
     "MOVE_BULLDOZE": false,
     "MOVE_ROCK_TOMB": false
   },
+  "dex": 408,
   "family": "FAMILY_CRANIDOS",
-  "generation": -1,
+  "generation": 4,
   "height": 0.9,
   "name": "Cranidos",
   "nextEvolutions": [

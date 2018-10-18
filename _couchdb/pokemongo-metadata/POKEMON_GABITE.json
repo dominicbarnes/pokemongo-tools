@@ -10,8 +10,9 @@
     "MOVE_FLAMETHROWER": false,
     "MOVE_TWISTER": false
   },
+  "dex": 444,
   "family": "FAMILY_GIBLE",
-  "generation": -1,
+  "generation": 4,
   "height": 1.4,
   "name": "Gabite",
   "nextEvolutions": [

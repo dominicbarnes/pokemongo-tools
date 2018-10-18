@@ -10,8 +10,9 @@
     "MOVE_ENERGY_BALL": false,
     "MOVE_OUTRAGE": false
   },
+  "dex": 460,
   "family": "FAMILY_SNOVER",
-  "generation": -1,
+  "generation": 4,
   "height": 2.2,
   "name": "Abomasnow",
   "nextEvolutions": [

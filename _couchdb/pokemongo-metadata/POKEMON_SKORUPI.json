@@ -10,8 +10,9 @@
     "MOVE_CROSS_POISON": false,
     "MOVE_SLUDGE_BOMB": false
   },
+  "dex": 451,
   "family": "FAMILY_SKORUPI",
-  "generation": -1,
+  "generation": 4,
   "height": 0.8,
   "name": "Skorupi",
   "nextEvolutions": [

@@ -10,8 +10,9 @@
     "MOVE_FUTURESIGHT": false,
     "MOVE_SWIFT": false
   },
+  "dex": 482,
   "family": "FAMILY_AZELF",
-  "generation": -1,
+  "generation": 4,
   "height": 0.3,
   "name": "Azelf",
   "nextEvolutions": [

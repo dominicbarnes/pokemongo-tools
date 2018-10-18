@@ -10,8 +10,9 @@
     "MOVE_FOCUS_BLAST": false,
     "MOVE_SHADOW_BALL": false
   },
+  "dex": 491,
   "family": "FAMILY_DARKRAI",
-  "generation": -1,
+  "generation": 4,
   "height": 1.5,
   "name": "Darkrai",
   "nextEvolutions": [

@@ -10,8 +10,9 @@
     "MOVE_FUTURESIGHT": false,
     "MOVE_SWIFT": false
   },
+  "dex": 481,
   "family": "FAMILY_MESPRIT",
-  "generation": -1,
+  "generation": 4,
   "height": 0.3,
   "name": "Mesprit",
   "nextEvolutions": [

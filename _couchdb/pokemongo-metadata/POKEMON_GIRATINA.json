@@ -11,6 +11,7 @@
     "MOVE_SHADOW_SNEAK": false
   },
   "defaultForm": "normal",
+  "dex": 487,
   "family": "FAMILY_GIRATINA",
   "forms": {
     "altered": {
@@ -26,8 +27,9 @@
         "MOVE_DRAGON_CLAW": false,
         "MOVE_SHADOW_SNEAK": false
       },
+      "dex": 487,
       "family": "FAMILY_GIRATINA",
-      "generation": -1,
+      "generation": 4,
       "height": 4.5,
       "name": "Giratina (Altered)",
       "nextEvolutions": [
@@ -57,8 +59,9 @@
         "MOVE_DRAGON_CLAW": false,
         "MOVE_SHADOW_SNEAK": false
       },
+      "dex": 487,
       "family": "FAMILY_GIRATINA",
-      "generation": -1,
+      "generation": 4,
       "height": 4.5,
       "name": "Giratina (Origin)",
       "nextEvolutions": [
@@ -76,7 +79,7 @@
       "weight": 750
     }
   },
-  "generation": -1,
+  "generation": 4,
   "height": 4.5,
   "name": "Giratina",
   "nextEvolutions": [

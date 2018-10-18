@@ -10,8 +10,9 @@
     "MOVE_IRON_HEAD": false,
     "MOVE_STONE_EDGE": false
   },
+  "dex": 485,
   "family": "FAMILY_HEATRAN",
-  "generation": -1,
+  "generation": 4,
   "height": 1.7,
   "name": "Heatran",
   "nextEvolutions": [

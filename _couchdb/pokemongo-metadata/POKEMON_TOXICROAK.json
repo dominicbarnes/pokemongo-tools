@@ -10,8 +10,9 @@
     "MOVE_MUD_BOMB": false,
     "MOVE_SLUDGE_BOMB": false
   },
+  "dex": 454,
   "family": "FAMILY_CROAGUNK",
-  "generation": -1,
+  "generation": 4,
   "height": 1.3,
   "name": "Toxicroak",
   "nextEvolutions": [

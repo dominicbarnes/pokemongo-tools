@@ -10,8 +10,9 @@
     "MOVE_PLAY_ROUGH": false,
     "MOVE_THUNDER": false
   },
+  "dex": 432,
   "family": "FAMILY_GLAMEOW",
-  "generation": -1,
+  "generation": 4,
   "height": 1,
   "name": "Purugly",
   "nextEvolutions": [

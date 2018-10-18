@@ -10,8 +10,9 @@
     "MOVE_IRON_HEAD": false,
     "MOVE_THUNDER": false
   },
+  "dex": 483,
   "family": "FAMILY_DIALGA",
-  "generation": -1,
+  "generation": 4,
   "height": 5.4,
   "name": "Dialga",
   "nextEvolutions": [

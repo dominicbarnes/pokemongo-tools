@@ -10,8 +10,9 @@
     "MOVE_SURF": false,
     "MOVE_WATER_PULSE": false
   },
+  "dex": 489,
   "family": "FAMILY_PHIONE",
-  "generation": -1,
+  "generation": 4,
   "height": 0.4,
   "name": "Phione",
   "nextEvolutions": [

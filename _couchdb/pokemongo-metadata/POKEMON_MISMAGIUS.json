@@ -10,8 +10,9 @@
     "MOVE_DAZZLING_GLEAM": false,
     "MOVE_SHADOW_BALL": false
   },
+  "dex": 429,
   "family": "FAMILY_MISDREAVUS",
-  "generation": -1,
+  "generation": 4,
   "height": 0.9,
   "name": "Mismagius",
   "nextEvolutions": [

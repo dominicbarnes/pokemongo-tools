@@ -10,8 +10,9 @@
     "MOVE_PLAY_ROUGH": false,
     "MOVE_THUNDERBOLT": false
   },
+  "dex": 431,
   "family": "FAMILY_GLAMEOW",
-  "generation": -1,
+  "generation": 4,
   "height": 0.5,
   "name": "Glameow",
   "nextEvolutions": [

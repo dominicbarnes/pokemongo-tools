@@ -10,8 +10,9 @@
     "MOVE_CROSS_CHOP": false,
     "MOVE_LOW_SWEEP": false
   },
+  "dex": 447,
   "family": "FAMILY_LUCARIO",
-  "generation": -1,
+  "generation": 4,
   "height": 0.7,
   "name": "Riolu",
   "nextEvolutions": [

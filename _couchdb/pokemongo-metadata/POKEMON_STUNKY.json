@@ -10,8 +10,9 @@
     "MOVE_FLAMETHROWER": false,
     "MOVE_SLUDGE_BOMB": false
   },
+  "dex": 434,
   "family": "FAMILY_STUNKY",
-  "generation": -1,
+  "generation": 4,
   "height": 0.4,
   "name": "Stunky",
   "nextEvolutions": [

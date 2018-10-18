@@ -10,8 +10,9 @@
     "MOVE_THUNDER_PUNCH": false,
     "MOVE_WILD_CHARGE": false
   },
+  "dex": 466,
   "family": "FAMILY_ELECTABUZZ",
-  "generation": -1,
+  "generation": 4,
   "height": 1.8,
   "name": "Electivire",
   "nextEvolutions": [

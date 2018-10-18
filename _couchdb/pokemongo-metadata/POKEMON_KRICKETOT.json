@@ -8,8 +8,9 @@
   "chargeMoves": {
     "MOVE_STRUGGLE": false
   },
+  "dex": 401,
   "family": "FAMILY_KRICKETOT",
-  "generation": -1,
+  "generation": 4,
   "height": 0.3,
   "name": "Kricketot",
   "nextEvolutions": [

@@ -10,8 +10,9 @@
     "MOVE_POWER_WHIP": false,
     "MOVE_SEED_BOMB": false
   },
+  "dex": 420,
   "family": "FAMILY_CHERUBI",
-  "generation": -1,
+  "generation": 4,
   "height": 0.4,
   "name": "Cherubi",
   "nextEvolutions": [

@@ -10,8 +10,9 @@
     "MOVE_SHADOW_BALL": false,
     "MOVE_SHADOW_SNEAK": false
   },
+  "dex": 442,
   "family": "FAMILY_SPIRITOMB",
-  "generation": -1,
+  "generation": 4,
   "height": 1,
   "name": "Spiritomb",
   "nextEvolutions": [

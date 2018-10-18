@@ -10,8 +10,9 @@
     "MOVE_FUTURESIGHT": false,
     "MOVE_MOONBLAST": false
   },
+  "dex": 488,
   "family": "FAMILY_CRESSELIA",
-  "generation": -1,
+  "generation": 4,
   "height": 1.5,
   "name": "Cresselia",
   "nextEvolutions": [

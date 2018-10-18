@@ -10,8 +10,9 @@
     "MOVE_ICE_BEAM": false,
     "MOVE_ICY_WIND": false
   },
+  "dex": 471,
   "family": "FAMILY_EEVEE",
-  "generation": -1,
+  "generation": 4,
   "height": 0.8,
   "name": "Glaceon",
   "nextEvolutions": [

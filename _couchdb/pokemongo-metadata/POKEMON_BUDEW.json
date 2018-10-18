@@ -9,8 +9,9 @@
     "MOVE_ENERGY_BALL": false,
     "MOVE_GRASS_KNOT": false
   },
+  "dex": 406,
   "family": "FAMILY_ROSELIA",
-  "generation": -1,
+  "generation": 4,
   "height": 0.2,
   "name": "Budew",
   "nextEvolutions": [

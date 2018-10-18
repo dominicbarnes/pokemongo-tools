@@ -10,8 +10,9 @@
     "MOVE_CRUNCH": false,
     "MOVE_SLUDGE_BOMB": false
   },
+  "dex": 452,
   "family": "FAMILY_SKORUPI",
-  "generation": -1,
+  "generation": 4,
   "height": 1.3,
   "name": "Drapion",
   "nextEvolutions": [

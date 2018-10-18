@@ -10,8 +10,9 @@
     "MOVE_NIGHT_SHADE": false,
     "MOVE_SKY_ATTACK": false
   },
+  "dex": 441,
   "family": "FAMILY_CHATOT",
-  "generation": -1,
+  "generation": 4,
   "height": 0.5,
   "name": "Chatot",
   "nextEvolutions": [

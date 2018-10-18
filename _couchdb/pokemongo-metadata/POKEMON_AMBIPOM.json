@@ -10,8 +10,9 @@
     "MOVE_HYPER_BEAM": false,
     "MOVE_LOW_SWEEP": false
   },
+  "dex": 424,
   "family": "FAMILY_AIPOM",
-  "generation": -1,
+  "generation": 4,
   "height": 1.2,
   "name": "Ambipom",
   "nextEvolutions": [

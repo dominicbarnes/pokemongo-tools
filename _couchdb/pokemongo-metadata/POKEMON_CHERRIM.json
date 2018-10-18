@@ -11,6 +11,7 @@
     "MOVE_SOLAR_BEAM": false
   },
   "defaultForm": "normal",
+  "dex": 421,
   "family": "FAMILY_CHERUBI",
   "forms": {
     "overcast": {
@@ -26,8 +27,9 @@
         "MOVE_POWER_WHIP": false,
         "MOVE_SOLAR_BEAM": false
       },
+      "dex": 421,
       "family": "FAMILY_CHERUBI",
-      "generation": -1,
+      "generation": 4,
       "height": 0.5,
       "name": "Cherrim (Overcast)",
       "nextEvolutions": [
@@ -56,8 +58,9 @@
         "MOVE_POWER_WHIP": false,
         "MOVE_SOLAR_BEAM": false
       },
+      "dex": 421,
       "family": "FAMILY_CHERUBI",
-      "generation": -1,
+      "generation": 4,
       "height": 0.5,
       "name": "Cherrim (Sunny)",
       "nextEvolutions": [
@@ -74,7 +77,7 @@
       "weight": 9.3
     }
   },
-  "generation": -1,
+  "generation": 4,
   "height": 0.5,
   "name": "Cherrim",
   "nextEvolutions": [

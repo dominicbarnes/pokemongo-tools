@@ -10,8 +10,9 @@
     "MOVE_HEAVY_SLAM": false,
     "MOVE_PSYSHOCK": false
   },
+  "dex": 436,
   "family": "FAMILY_BRONZOR",
-  "generation": -1,
+  "generation": 4,
   "height": 0.5,
   "name": "Bronzor",
   "nextEvolutions": [

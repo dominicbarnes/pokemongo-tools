@@ -8,8 +8,9 @@
   "chargeMoves": {
     "MOVE_BUG_BUZZ": false
   },
+  "dex": 415,
   "family": "FAMILY_COMBEE",
-  "generation": -1,
+  "generation": 4,
   "height": 0.3,
   "name": "Combee",
   "nextEvolutions": [

@@ -9,8 +9,9 @@
     "MOVE_FIRE_PUNCH": false,
     "MOVE_SWIFT": false
   },
+  "dex": 427,
   "family": "FAMILY_BUNEARY",
-  "generation": -1,
+  "generation": 4,
   "height": 0.4,
   "name": "Buneary",
   "nextEvolutions": [

@@ -10,8 +10,9 @@
     "MOVE_SLUDGE_BOMB": false,
     "MOVE_SOLAR_BEAM": false
   },
+  "dex": 465,
   "family": "FAMILY_TANGELA",
-  "generation": -1,
+  "generation": 4,
   "height": 2,
   "name": "Tangrowth",
   "nextEvolutions": [

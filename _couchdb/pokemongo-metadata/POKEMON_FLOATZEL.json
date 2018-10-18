@@ -10,8 +10,9 @@
     "MOVE_HYDRO_PUMP": false,
     "MOVE_SWIFT": false
   },
+  "dex": 419,
   "family": "FAMILY_BUIZEL",
-  "generation": -1,
+  "generation": 4,
   "height": 1.1,
   "name": "Floatzel",
   "nextEvolutions": [

@@ -8,8 +8,9 @@
   "chargeMoves": {
     "MOVE_STRUGGLE": false
   },
+  "dex": 412,
   "family": "FAMILY_BURMY",
-  "generation": -1,
+  "generation": 4,
   "height": 0.2,
   "name": "Burmy",
   "nextEvolutions": [

@@ -10,8 +10,9 @@
     "MOVE_HEAVY_SLAM": false,
     "MOVE_ROCK_TOMB": false
   },
+  "dex": 410,
   "family": "FAMILY_SHIELDON",
-  "generation": -1,
+  "generation": 4,
   "height": 0.5,
   "name": "Shieldon",
   "nextEvolutions": [

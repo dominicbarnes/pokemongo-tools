@@ -10,8 +10,9 @@
     "MOVE_ENERGY_BALL": false,
     "MOVE_POWER_WHIP": false
   },
+  "dex": 455,
   "family": "FAMILY_CARNIVINE",
-  "generation": -1,
+  "generation": 4,
   "height": 1.4,
   "name": "Carnivine",
   "nextEvolutions": [

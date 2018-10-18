@@ -11,6 +11,7 @@
     "MOVE_WATER_PULSE": false
   },
   "defaultForm": "normal",
+  "dex": 422,
   "family": "FAMILY_SHELLOS",
   "forms": {
     "east_sea": {
@@ -26,8 +27,9 @@
         "MOVE_MUD_BOMB": false,
         "MOVE_WATER_PULSE": false
       },
+      "dex": 422,
       "family": "FAMILY_SHELLOS",
-      "generation": -1,
+      "generation": 4,
       "height": 0.3,
       "name": "Shellos (East Sea)",
       "nextEvolutions": [
@@ -61,8 +63,9 @@
         "MOVE_MUD_BOMB": false,
         "MOVE_WATER_PULSE": false
       },
+      "dex": 422,
       "family": "FAMILY_SHELLOS",
-      "generation": -1,
+      "generation": 4,
       "height": 0.3,
       "name": "Shellos (West Sea)",
       "nextEvolutions": [
@@ -84,7 +87,7 @@
       "weight": 6.3
     }
   },
-  "generation": -1,
+  "generation": 4,
   "height": 0.3,
   "name": "Shellos",
   "nextEvolutions": [

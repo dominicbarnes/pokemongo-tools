@@ -10,8 +10,9 @@
     "MOVE_FOCUS_BLAST": false,
     "MOVE_HYPER_BEAM": false
   },
+  "dex": 428,
   "family": "FAMILY_BUNEARY",
-  "generation": -1,
+  "generation": 4,
   "height": 1.2,
   "name": "Lopunny",
   "nextEvolutions": [

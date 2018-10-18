@@ -10,8 +10,9 @@
     "MOVE_BUG_BUZZ": false,
     "MOVE_PSYBEAM": false
   },
+  "dex": 414,
   "family": "FAMILY_BURMY",
-  "generation": -1,
+  "generation": 4,
   "height": 0.9,
   "name": "Mothim",
   "nextEvolutions": [

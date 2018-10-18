@@ -10,8 +10,9 @@
     "MOVE_SWIFT": false,
     "MOVE_WATER_PULSE": false
   },
+  "dex": 418,
   "family": "FAMILY_BUIZEL",
-  "generation": -1,
+  "generation": 4,
   "height": 0.7,
   "name": "Buizel",
   "nextEvolutions": [

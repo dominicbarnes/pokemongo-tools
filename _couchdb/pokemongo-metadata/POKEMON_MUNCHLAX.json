@@ -10,8 +10,9 @@
     "MOVE_BULLDOZE": false,
     "MOVE_GUNK_SHOT": false
   },
+  "dex": 446,
   "family": "FAMILY_SNORLAX",
-  "generation": -1,
+  "generation": 4,
   "height": 0.6,
   "name": "Munchlax",
   "nextEvolutions": [

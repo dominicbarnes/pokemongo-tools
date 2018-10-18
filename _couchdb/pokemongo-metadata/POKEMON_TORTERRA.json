@@ -10,8 +10,9 @@
     "MOVE_SOLAR_BEAM": false,
     "MOVE_STONE_EDGE": false
   },
+  "dex": 389,
   "family": "FAMILY_TURTWIG",
-  "generation": -1,
+  "generation": 4,
   "height": 2.2,
   "name": "Torterra",
   "nextEvolutions": [

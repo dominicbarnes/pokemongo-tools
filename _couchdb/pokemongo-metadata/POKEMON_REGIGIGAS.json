@@ -10,8 +10,9 @@
     "MOVE_HEAVY_SLAM": false,
     "MOVE_STONE_EDGE": false
   },
+  "dex": 486,
   "family": "FAMILY_REGIGIGAS",
-  "generation": -1,
+  "generation": 4,
   "height": 3.7,
   "name": "Regigigas",
   "nextEvolutions": [

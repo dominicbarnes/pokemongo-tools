@@ -10,8 +10,9 @@
     "MOVE_PSYCHIC": false,
     "MOVE_PSYSHOCK": false
   },
+  "dex": 439,
   "family": "FAMILY_MR_MIME",
-  "generation": -1,
+  "generation": 4,
   "height": 0.6,
   "name": "Mime Jr",
   "nextEvolutions": [
