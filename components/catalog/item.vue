@@ -22,22 +22,22 @@
         <b>Notes:</b> {{ pokemon.notes }}
       </b-alert>
       <stat-grid class="mt-2">
-        <stat-grid-cell cols="6" label="CP">{{ pokemon.cp | number('0,0') }}</stat-grid-cell>
-        <stat-grid-cell cols="6" label="HP">{{ pokemon.hp | number('0,0') }}</stat-grid-cell>
-        <stat-grid-cell cols="6" label="IVs">
-          <b-badge v-if="pokemon.percentIV === 1" variant="success">Wonder</b-badge>
-          <b-badge v-else>{{ pokemon.percentIV | number('0%') }}</b-badge>
+        <stat-grid-cell cols="4" label="CP">
+          {{ pokemon.cp | number('0,0') }}
         </stat-grid-cell>
-        <stat-grid-cell cols="6" label="Level">
-          <b-badge v-if="pokemon.level === 40" variant="success">Max</b-badge>
-          <span v-else>{{ pokemon.level | number('0.0') }}</span>
+        <stat-grid-cell cols="4" label="HP">
+          {{ pokemon.hp | number('0,0') }}
+        </stat-grid-cell>
+        <stat-grid-cell cols="4" label="IVs">
+          <b-badge v-bind:variant="ivVariant">{{ pokemon.percentIV | number('0%') }}</b-badge>
+        </stat-grid-cell>
+        <stat-grid-cell cols="12" label="Level">
+          <b-progress v-bind:value="pokemon.level" v-bind:max="40" show-value v-bind:variant="levelVariant" />
         </stat-grid-cell>
       </stat-grid>
     </b-card-body>
-    <b-card-footer class="text-right text-muted">
-      <small v-if="pokemon.caughtAt">
-        Caught <rel-time v-bind:datetime="pokemon.caughtAt" format-tooltip="LL" refresh="1m" />
-      </small>
+    <b-card-footer v-if="pokemon.caughtAt" class="text-right text-muted">
+      <small>Caught <rel-time v-bind:datetime="pokemon.caughtAt" format-tooltip="LL" refresh="1m" /></small>
     </b-card-footer>
   </b-card>
 </template>
@@ -45,6 +45,8 @@
 <script>
   import numeral from 'numeral'
   import { mapGetters } from 'vuex'
+
+  import { variantTotalIV, variantLevel } from '../../utils.js'
 
   import GenerationBadge from '../badges/generation.vue'
   import LevelBadge from '../badges/level.vue'
@@ -87,6 +89,14 @@
 
       moves() {
         return [ this.pokemon.quickMove, this.pokemon.chargeMove ].filter(Boolean)
+      },
+
+      ivVariant() {
+        return variantTotalIV(this.pokemon.percentIV)
+      },
+
+      levelVariant() {
+        return variantLevel(this.pokemon.level)
       }
     },
 

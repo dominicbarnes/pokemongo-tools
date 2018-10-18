@@ -1,6 +1,6 @@
 <template>
   <b-card title="Level">
-    <b-progress v-bind:value="pokemon.level" v-bind:max="40" v-bind:precision="1" show-value variant="success" class="mb-2" />
+    <b-progress v-bind:value="pokemon.level" v-bind:max="40" v-bind:precision="1" show-value v-bind:variant="variant" class="mb-2" />
     <b-alert v-if="pokemon.level < 40" variant="info" show>
       To fully power up this Pokémon, you will need
       <b-badge>{{ upgradeCost.stardust | number('0,0') }}</b-badge>
@@ -12,6 +12,8 @@
       This Pokémon is fully powered up.
     </b-alert>
     <b-dropdown v-if="pokemon.level < 40" split text="Power Up" variant="success" v-on:click="powerUp(pokemon.level + 0.5)">
+      <b-dropdown-item v-if="pokemon.level <= 39" v-on:click="powerUp(pokemon.level + 1)">Level {{ pokemon.level + 1 }} (2 times)</b-dropdown-item>
+      <b-dropdown-item v-if="pokemon.level <= 35" v-on:click="powerUp(pokemon.level + 5)">Level {{ pokemon.level + 5 }} (10 times)</b-dropdown-item>
       <b-dropdown-item v-on:click="powerUp(40)">Max (level 40)</b-dropdown-item>
     </b-dropdown>
   </b-card>
@@ -20,7 +22,7 @@
 <script>
   import { mapGetters } from 'vuex';
 
-  import { dex } from '../../../utils.js'
+  import { dex, variantLevel } from '../../../utils.js'
   import { BadgeGeneration, BadgeRarity, BadgeType } from '../../badges/index.js'
 
   export default {
@@ -52,6 +54,10 @@
           }
         }
         return total
+      },
+
+      variant() {
+        return variantLevel(this.pokemon.level)
       }
     },
 
@@ -66,8 +72,6 @@
       },
     },
 
-    components: {
-      BadgeGeneration, BadgeRarity, BadgeType
-    }
+    components: { BadgeGeneration, BadgeRarity, BadgeType }
   }
 </script>

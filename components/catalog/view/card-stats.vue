@@ -1,33 +1,26 @@
 <template>
   <b-card title="Stats">
-    <b-row class="text-center mb-2">
-      <b-col cols="4">
-        <div>{{ pokemon.cp | number('0,0') }}</div>
-        <small class="text-muted">CP</small>
-      </b-col>
-      <b-col cols="4">
-        <div>{{ pokemon.hp | number('0,0') }}</div>
-        <small class="text-muted">HP</small>
-      </b-col>
-      <b-col cols="4">
-        <div v-b-tooltip.hover.right v-bind:title="ivTooltip">{{ pokemon.percentIV | percentage }}</div>
-        <small class="text-muted">IVs</small>
-      </b-col>
-    </b-row>
-    <b-row class="text-center mb-2">
-      <b-col cols="4">
-        <div v-b-tooltip.hover.right v-bind:title="attackTooltip">{{ pokemon.attack | number('0,0') }}</div>
-        <small class="text-muted">Attack</small>
-      </b-col>
-      <b-col cols="4">
-        <div v-b-tooltip.hover.right v-bind:title="defenseTooltip">{{ pokemon.defense | number('0,0') }}</div>
-        <small class="text-muted">Defense</small>
-      </b-col>
-      <b-col cols="4">
-        <div v-b-tooltip.hover.right v-bind:title="staminaTooltip">{{ pokemon.stamina | number('0,0') }}</div>
-        <small class="text-muted">Stamina</small>
-      </b-col>
-    </b-row>
+
+    <stat-grid>
+      <stat-grid-cell cols="4" label="CP">
+        {{ pokemon.cp | number('0,0') }}
+      </stat-grid-cell>
+      <stat-grid-cell cols="4" label="HP">
+        {{ pokemon.hp | number('0,0') }}
+      </stat-grid-cell>
+      <stat-grid-cell cols="4" label="IVs">
+        <b-badge v-bind:variant="ivTotalVariant">{{ pokemon.percentIV | number('0%') }}</b-badge>
+      </stat-grid-cell>
+      <stat-grid-cell cols="4" label="ATK">
+        <b-progress v-bind:value="pokemon.attackIV" v-bind:max="15" show-value v-bind:variant="ivVariant(pokemon.attackIV)" />
+      </stat-grid-cell>
+      <stat-grid-cell cols="4" label="DEF">
+        <b-progress v-bind:value="pokemon.defenseIV" v-bind:max="15" show-value v-bind:variant="ivVariant(pokemon.defenseIV)" />
+      </stat-grid-cell>
+      <stat-grid-cell cols="4" label="STA">
+        <b-progress v-bind:value="pokemon.staminaIV" v-bind:max="15" show-value v-bind:variant="ivVariant(pokemon.staminaIV)" />
+      </stat-grid-cell>
+    </stat-grid>
     <b-alert show v-if="pokemon.uncertainIV" variant="warning">
       <b>NOTE:</b>
       These stats are uncertain.
@@ -38,6 +31,11 @@
 <script>
   import { mapGetters } from 'vuex'
 
+  import { variantTotalIV, variantIV } from '../../../utils.js'
+
+  import StatGrid from '../../stat-grid.vue'
+  import StatGridCell from '../../stat-grid-cell.vue'
+
   export default {
     props: {
       pokemon: {
@@ -47,22 +45,17 @@
     },
 
     computed: {
-      attackTooltip() {
-        const { baseAttack: base, attackIV: iv } = this.pokemon
-        return `= ${base} (Base) + ${iv} (IV)`
-      },
-      defenseTooltip() {
-        const { baseDefense: base, defenseIV: iv } = this.pokemon
-        return `= ${base} (Base) + ${iv} (IV)`
-      },
-      staminaTooltip() {
-        const { baseStamina: base, staminaIV: iv } = this.pokemon
-        return `= ${base} (Base) + ${iv} (IV)`
-      },
-      ivTooltip() {
-        const { attackIV, defenseIV, staminaIV } = this.pokemon
-        return `= ${attackIV}/15 ATK + ${defenseIV}/15 DEF + ${staminaIV}/15 STA`
+      ivTotalVariant() {
+        return variantTotalIV(this.pokemon.percentIV)
       }
-    }
+    },
+
+    methods: {
+      ivVariant(iv) {
+        return variantIV(iv)
+      }
+    },
+
+    components: { StatGrid, StatGridCell }
   }
 </script>
