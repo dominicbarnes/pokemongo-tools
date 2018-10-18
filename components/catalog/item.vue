@@ -8,7 +8,7 @@
       <div>
         <b-badge variant="dark">{{ pokemon.dex | dex }}</b-badge>
         <generation-badge v-bind:generation="pokemon.generation" />
-        <rarity-badge v-if="pokemon.rarity" v-bind:rarity="pokemon.rarity" />
+        <rarity-badge v-if="pokemon.rarity !== 'common'" v-bind:rarity="pokemon.rarity" />
         <shiny-badge v-if="pokemon.shiny" />
       </div>
       <div>
