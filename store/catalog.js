@@ -39,7 +39,7 @@ const getters = {
       query.$and.push({ $or: [ { name: re }, { species: re }, { notes: re } ] })
     }
 
-    if (family) query.$and.push({ family })
+    if (family) query.$and.push({ familyID: family })
     if (generation) query.$and.push({ generation })
     if (ivs) {
       query.$and.push({
@@ -59,14 +59,14 @@ const getters = {
     }
     if (rarity) query.$and.push({ rarity })
     if (types && types.length) query.$and.push({ types: { $all: types.slice() } })
-    if (quickMove) query.$and.push({ 'quickMove._id': quickMove })
-    if (chargeMove) query.$and.push({ 'chargeMove._id': chargeMove })
+    if (quickMove) query.$and.push({ quickMoveID: quickMove })
+    if (chargeMove) query.$and.push({ chargeMoveID: chargeMove })
     if (form) query.$and.push({ form })
     if (typeof shiny === 'boolean') query.$and.push({ shiny })
     if (typeof uncertain === 'boolean') query.$and.push({ uncertain })
     if (typeof evolves === 'boolean') {
       query.$and.push({
-        pokemon: { [evolves ? '$in' : '$nin']: pokemonThatEvolve }
+        pokemonID: { [evolves ? '$in' : '$nin']: pokemonThatEvolve }
       })
     }
 
