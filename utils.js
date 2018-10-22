@@ -23,30 +23,6 @@ exports.multiplier = function (cp, attack, defense, stamina) {
   return Math.sqrt((cp * 10) / (attack * Math.sqrt(defense) * Math.sqrt(stamina)))
 }
 
-// variants correlate with the appraisal system
-// see: https://pokemongohub.net/pokemon-go-appraisal-chart
-
-exports.variantTotalIV = function (percentage) {
-  if (percentage === 1) return 'primary'
-  if (percentage >= 0.822) return 'success'
-  if (percentage >= 0.667) return 'warning'
-  if (percentage >= 0.511) return 'warning'
-  return 'danger'
-}
-
-exports.variantIV = function (iv) {
-  if (iv === 15) return 'primary'
-  if (iv >= 13) return 'success'
-  if (iv >= 8) return 'warning'
-  return 'danger'
-}
-
-exports.variantLevel = function (level) {
-  if (level === 40) return 'primary'
-  if (level >= 35) return 'success'
-  return 'secondary'
-}
-
 // sprites come from github, until it gets embedded
 
 const baseSpriteURL = 'https://raw.githubusercontent.com/ZeChrales/PogoAssets/master'

@@ -1,6 +1,5 @@
 <template>
   <b-card title="Stats">
-
     <stat-grid>
       <stat-grid-cell cols="4" label="CP">
         {{ pokemon.cp | number('0,0') }}
@@ -9,16 +8,16 @@
         {{ pokemon.hp | number('0,0') }}
       </stat-grid-cell>
       <stat-grid-cell cols="4" label="IVs">
-        <b-badge v-bind:variant="ivTotalVariant">{{ pokemon.percentIV | number('0%') }}</b-badge>
+        <badge-ivs v-bind:percentage="pokemon.percentIV" v-bind:uncertain="pokemon.uncertainIV" />
       </stat-grid-cell>
       <stat-grid-cell cols="4" label="ATK">
-        <b-progress v-bind:value="pokemon.attackIV" v-bind:max="15" show-value v-bind:variant="ivVariant(pokemon.attackIV)" />
+        <progress-iv v-bind:iv="pokemon.attackIV" />
       </stat-grid-cell>
       <stat-grid-cell cols="4" label="DEF">
-        <b-progress v-bind:value="pokemon.defenseIV" v-bind:max="15" show-value v-bind:variant="ivVariant(pokemon.defenseIV)" />
+        <progress-iv v-bind:iv="pokemon.defenseIV" />
       </stat-grid-cell>
       <stat-grid-cell cols="4" label="STA">
-        <b-progress v-bind:value="pokemon.staminaIV" v-bind:max="15" show-value v-bind:variant="ivVariant(pokemon.staminaIV)" />
+        <progress-iv v-bind:iv="pokemon.staminaIV" />
       </stat-grid-cell>
     </stat-grid>
     <b-alert show v-if="pokemon.uncertainIV" variant="warning">
@@ -31,7 +30,8 @@
 <script>
   import { mapGetters } from 'vuex'
 
-  import { variantTotalIV, variantIV } from '../../../utils.js'
+  import { BadgeIvs } from '../../badges'
+  import { ProgressIv } from '../../progress'
 
   import StatGrid from '../../stat-grid.vue'
   import StatGridCell from '../../stat-grid-cell.vue'
@@ -44,18 +44,12 @@
       }
     },
 
-    computed: {
-      ivTotalVariant() {
-        return variantTotalIV(this.pokemon.percentIV)
-      }
-    },
-
     methods: {
       ivVariant(iv) {
         return variantIV(iv)
       }
     },
 
-    components: { StatGrid, StatGridCell }
+    components: { BadgeIvs, ProgressIv, StatGrid, StatGridCell }
   }
 </script>
