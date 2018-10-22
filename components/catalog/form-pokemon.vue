@@ -6,15 +6,9 @@
       </b-col>
 
       <b-col md="9">
-        <b-form-group label="Pokémon" description="Choose the Pokémon species and whether it is shiny.">
+        <b-form-group label="Pokémon" description="Choose the Pokémon species, form and costume where applicable.">
           <b-input-group>
             <b-form-select id="add-species-input" v-bind:options="pokemonOptions" v-model="value.pokemonID" required size="lg" v-focus />
-            <b-input-group-append is-text>
-              <label class="m-0">
-                Shiny?
-                <input type="checkbox" v-model="value.shiny" />
-              </label>
-            </b-input-group-append>
             <b-dropdown v-if="formOptions" text="Alternate Forms" variant="secondary" slot="append">
               <b-dropdown-item v-for="option in formOptions" v-bind:key="option.value" v-on:click="value.form = option.value">{{ option.text }}</b-dropdown-item>
             </b-dropdown>
@@ -22,6 +16,12 @@
               <b-dropdown-item v-for="option in costumeOptions" v-bind:key="option.value" v-on:click="value.costume = option.value">{{ option.text }}</b-dropdown-item>
             </b-dropdown>
           </b-input-group>
+        </b-form-group>
+
+        <b-form-group class="mb-3">
+          <b-form-checkbox v-model="value.shiny">Shiny</b-form-checkbox>
+          <b-form-checkbox v-model="value.lucky">Lucky</b-form-checkbox>
+          <b-form-checkbox v-model="value.uncertainStats">Stats are uncertain</b-form-checkbox>
         </b-form-group>
 
         <b-form-group id="add-nickname" label="Nickname" label-for="add-nickname">
@@ -64,11 +64,6 @@
                 <b-input-group-prepend is-text>Stamina IV</b-input-group-prepend>
                 <b-form-input type="number" min="0" max="15" v-model.number="value.staminaIV" />
               </b-input-group>
-            </b-col>
-            <b-col sm class="mb-2">
-              <b-form-checkbox v-model="value.uncertainStats" title="Check this if the stats you've entered are not certain (such as when multiple IV combinations lead to the same CP/HP).">
-                I'm uncertain about these stats
-              </b-form-checkbox>
             </b-col>
           </b-form-row>
         </b-form-group>
@@ -152,6 +147,7 @@
       defenseIV: Number,
       form: String,
       level: Number,
+      lucky: Boolean,
       nickname: String,
       notes: String,
       pokemonID: String,

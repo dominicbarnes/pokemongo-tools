@@ -10,6 +10,7 @@
         <badge-generation v-bind:generation="pokemon.generation" />
         <badge-rarity v-if="pokemon.rarity !== 'common'" v-bind:rarity="pokemon.rarity" />
         <badge-shiny v-if="pokemon.shiny" />
+        <b-badge variant="info" v-if="pokemon.lucky">Lucky</b-badge>
       </div>
       <div>
         <badge-type v-for="(type, i) in pokemon.types" v-bind:type="type" v-bind:title="'Type ' + (i + 1)" v-b-tooltip.hover.top />

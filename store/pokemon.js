@@ -69,6 +69,7 @@ export default function pokemon (catalog, state) {
     notes: catalog.notes,
     rarity: metadata.rarity,
     shiny: !!catalog.shiny,
+    lucky: !!catalog.lucky,
 
     // images
     spriteURL: spriteURL(metadata, catalog),
