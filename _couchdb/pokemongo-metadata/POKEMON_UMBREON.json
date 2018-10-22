@@ -7,7 +7,8 @@
   "buddyDistance": 5,
   "chargeMoves": {
     "MOVE_DARK_PULSE": false,
-    "MOVE_FOUL_PLAY": false
+    "MOVE_FOUL_PLAY": false,
+    "MOVE_LAST_RESORT": "special"
   },
   "dex": 197,
   "family": "FAMILY_EEVEE",

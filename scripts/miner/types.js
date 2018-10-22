@@ -3,6 +3,8 @@ const POGOProtos = require('node-pogo-protos-vnext')
 const sortBy = require('sort-by')
 
 module.exports = function (m, data) {
+  if (!data.has('typeEffective')) return
+
   const list = Array.from(data.get('typeEffective')).map(effective => {
     const id = effective.attackType
 

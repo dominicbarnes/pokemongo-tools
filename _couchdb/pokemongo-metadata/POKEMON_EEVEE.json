@@ -7,6 +7,7 @@
   "buddyDistance": 5,
   "chargeMoves": {
     "MOVE_DIG": false,
+    "MOVE_LAST_RESORT": "special",
     "MOVE_SWIFT": false
   },
   "dex": 133,

@@ -6,6 +6,7 @@
   },
   "buddyDistance": 5,
   "chargeMoves": {
+    "MOVE_DRACO_METEOR": "special",
     "MOVE_HURRICANE": false,
     "MOVE_HYPER_BEAM": false,
     "MOVE_OUTRAGE": false

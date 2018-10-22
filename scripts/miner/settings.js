@@ -1,12 +1,16 @@
 
 module.exports = function (m, data) {
-  data.get('playerLevel').forEach(function (settings) {
-    m.set('CP_MULTIPLIERS', cpMultipliers(settings))
-  })
+  if (data.has('playerLevel')) {
+    data.get('playerLevel').forEach(function (settings) {
+      m.set('CP_MULTIPLIERS', cpMultipliers(settings))
+    })
+  }
 
-  data.get('pokemonUpgrades').forEach(function (settings) {
-    m.set('UPGRADE_COSTS', pokemonUpgrades(settings))
-  })
+  if (data.has('pokemonUpgrades')) {
+    data.get('pokemonUpgrades').forEach(function (settings) {
+      m.set('UPGRADE_COSTS', pokemonUpgrades(settings))
+    })
+  }
 }
 
 function cpMultipliers (settings) {

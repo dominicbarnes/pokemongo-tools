@@ -3,49 +3,53 @@ const Case = require('case')
 const POGOProtos = require('node-pogo-protos-vnext')
 const costumes = require('./costumes.json')
 
-module.exports = function (m, data) {
+module.exports = function (m, data, special) {
   const pokemon = new Map()
 
-  // set up all the base/normal forms (skip any alternate forms)
-  data.get('pokemonSettings').forEach(settings => {
-    if (settings.form) return
-    pokemon.set(`POKEMON_${settings.pokemonId}`, document(settings))
-  })
+  if (data.has('pokemonSettings')) {
+    // set up all the base/normal forms (skip any alternate forms)
+    data.get('pokemonSettings').forEach(settings => {
+      if (settings.form) return
+      pokemon.set(`POKEMON_${settings.pokemonId}`, document(settings))
+    })
 
-  // set up alternate forms that have their own metadata/stats
-  data.get('pokemonSettings').forEach(settings => {
-    if (!settings.form) return
-    const f = form(settings)
-    const doc = pokemon.get(`POKEMON_${settings.pokemonId}`)
-    if (!doc.forms) {
-      doc.defaultForm = 'normal'
-      doc.forms = Object.create(null)
-    }
-    doc.forms[f] = document(settings)
-  })
-
-  // extract asset bundle ids for alternate forms
-  data.get('formSettings').forEach(settings => {
-    if (!settings.forms) return
-    const doc = pokemon.get(`POKEMON_${settings.pokemon}`)
-    settings.forms.forEach(form => {
-      if (typeof form.form !== 'string') return // HACK
-      const f = form.form.replace(`${settings.pokemon}_`, '').toLowerCase()
+    // set up alternate forms that have their own metadata/stats
+    data.get('pokemonSettings').forEach(settings => {
+      if (!settings.form) return
+      const f = form(settings)
+      const doc = pokemon.get(`POKEMON_${settings.pokemonId}`)
       if (!doc.forms) {
-        doc.defaultForm = f
+        doc.defaultForm = 'normal'
         doc.forms = Object.create(null)
       }
-      if (!doc.forms[f]) {
-        doc.forms[f] = { name: `${doc.name} (${Case.title(f)})`, assetBundle: form.assetBundleValue }
-      } else {
-        doc.forms[f].assetBundle = form.assetBundleValue
-      }
+      doc.forms[f] = document(settings)
     })
-  })
+  }
+
+  if (data.has('formSettings')) {
+    // extract asset bundle ids for alternate forms
+    data.get('formSettings').forEach(settings => {
+      if (!settings.forms) return
+      const doc = pokemon.get(`POKEMON_${settings.pokemon}`)
+      settings.forms.forEach(form => {
+        if (typeof form.form !== 'string') return // HACK
+        const f = form.form.replace(`${settings.pokemon}_`, '').toLowerCase()
+        if (!doc.forms) {
+          doc.defaultForm = f
+          doc.forms = Object.create(null)
+        }
+        if (!doc.forms[f]) {
+          doc.forms[f] = { name: `${doc.name} (${Case.title(f)})`, assetBundle: form.assetBundleValue }
+        } else {
+          doc.forms[f].assetBundle = form.assetBundleValue
+        }
+      })
+    })
+  }
 
   for (const [ id, doc ] of pokemon.entries()) {
     if (m.has(id)) {
-      m.set(id, merge(m.get(id), doc))
+      m.set(id, merge(m.get(id), doc, special))
     } else {
       m.set(id, doc)
     }
@@ -133,24 +137,28 @@ function moves (ids) {
   }, Object.create(null))
 }
 
-function merge (prev, next) {
+function merge (prev, next, special) {
   if (!prev) return next
-  return Object.assign(Object.create(null), next, {
-    quickMoves: mergeMoves(prev.quickMoves, next.quickMoves),
-    chargeMoves: mergeMoves(prev.chargeMoves, next.chargeMoves)
+  return Object.assign(Object.create(null), prev, next, {
+    quickMoves: mergeMoves(prev.quickMoves, next.quickMoves, special),
+    chargeMoves: mergeMoves(prev.chargeMoves, next.chargeMoves, special)
   })
 }
 
-function mergeMoves (a, b) {
+function mergeMoves (a, b, special) {
   const c = Object.create(null)
   if (a) {
     Object.keys(a).forEach(id => {
-      c[id] = true
+      c[id] = special ? a[id] : true
     })
   }
   if (b) {
     Object.keys(b).forEach(id => {
-      c[id] = b[id]
+      if (special) {
+        c[id] = (!(id in c) || c[id] === 'special') ? 'special' : false
+      } else {
+        c[id] = b[id]
+      }
     })
   }
   return c

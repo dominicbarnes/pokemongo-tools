@@ -19,7 +19,8 @@
   ],
   "previousEvolution": null,
   "quickMoves": {
-    "MOVE_CHARGE_BEAM_FAST": false
+    "MOVE_CHARGE_BEAM_FAST": false,
+    "MOVE_THUNDER_SHOCK_FAST": "special"
   },
   "rarity": "legendary",
   "types": [

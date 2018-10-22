@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_FIRE_BLAST": false,
     "MOVE_HEAT_WAVE": false,
-    "MOVE_OVERHEAT": false
+    "MOVE_OVERHEAT": false,
+    "MOVE_SKY_ATTACK": "special"
   },
   "dex": 146,
   "family": "FAMILY_MOLTRES",

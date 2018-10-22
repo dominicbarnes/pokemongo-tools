@@ -20,7 +20,8 @@
   "previousEvolution": "POKEMON_PUPITAR",
   "quickMoves": {
     "MOVE_BITE_FAST": false,
-    "MOVE_IRON_TAIL_FAST": false
+    "MOVE_IRON_TAIL_FAST": false,
+    "MOVE_SMACK_DOWN_FAST": "special"
   },
   "rarity": "common",
   "types": [

@@ -7,6 +7,7 @@
   "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_AQUA_JET": false,
+    "MOVE_HYDRO_CANNON": "special",
     "MOVE_HYDRO_PUMP": false,
     "MOVE_ICE_BEAM": false
   },

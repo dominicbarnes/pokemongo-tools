@@ -7,6 +7,7 @@
   "buddyDistance": 20,
   "chargeMoves": {
     "MOVE_BLIZZARD": false,
+    "MOVE_HURRICANE": "special",
     "MOVE_ICE_BEAM": false,
     "MOVE_ICY_WIND": false
   },

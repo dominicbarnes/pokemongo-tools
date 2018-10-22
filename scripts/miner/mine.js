@@ -7,9 +7,9 @@ const transformers = [
   require('./settings.js')
 ]
 
-module.exports = function (m, raw) {
+module.exports = function (m, raw, special) {
   const data = prepare(raw)
-  transformers.forEach(fn => fn(m, data))
+  transformers.forEach(fn => fn(m, data, special))
 }
 
 function prepare (data) {

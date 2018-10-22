@@ -2,6 +2,8 @@
 const Case = require('case')
 
 module.exports = function (m, data) {
+  if (!data.has('typeEffective')) return
+
   const types = Array.from(data.get('typeEffective')).map(effective => {
     return effective.attackType.replace('POKEMON_TYPE_', '').toLowerCase()
   })

@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_FIRE_BLAST": false,
     "MOVE_FLAMETHROWER": false,
+    "MOVE_LAST_RESORT": "special",
     "MOVE_OVERHEAT": false
   },
   "dex": 136,

@@ -6,6 +6,7 @@
   },
   "buddyDistance": 3,
   "chargeMoves": {
+    "MOVE_FRENZY_PLANT": "special",
     "MOVE_PETAL_BLIZZARD": false,
     "MOVE_SLUDGE_BOMB": false,
     "MOVE_SOLAR_BEAM": false

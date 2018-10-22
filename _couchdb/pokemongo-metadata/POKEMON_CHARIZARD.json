@@ -6,6 +6,7 @@
   },
   "buddyDistance": 3,
   "chargeMoves": {
+    "MOVE_BLAST_BURN": "special",
     "MOVE_DRAGON_CLAW": false,
     "MOVE_FIRE_BLAST": false,
     "MOVE_OVERHEAT": false

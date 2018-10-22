@@ -5,20 +5,29 @@ const stringify = require('json-stable-stringify')
 const mine = require('./mine.js')
 
 const root = path.resolve(__dirname, '../..')
-const input = path.join(root, 'pokemongo-game-master/versions')
+const input = path.join(root, 'pokemongo-game-master')
 const output = path.join(root, '_couchdb/pokemongo-metadata')
 
 module.exports = async function () {
   const data = new Map()
-  const files = await fs.readdir(input)
-  const versions = files.map(name => parseInt(name, 10)).filter(version => version > 0).sort()
 
   console.log('importing GAME_MASTER data')
+
+  const files = await fs.readdir(path.join(input, 'versions'))
+  const versions = files.map(name => parseInt(name, 10)).filter(version => version > 0).sort()
   for (const version of versions) {
     console.log('> version %s', version)
-    const file = path.join(input, version.toString(), 'GAME_MASTER.json')
+    const file = path.join(input, 'versions', version.toString(), 'GAME_MASTER.json')
     const json = await fs.readJson(file)
     mine(data, json)
+  }
+
+  const specials = await fs.readdir(path.join(input, 'special'))
+  for (const special of specials) {
+    console.log('> special %s', path.basename(special, '.json'))
+    const file = path.join(input, 'special', special)
+    const json = await fs.readJson(file)
+    mine(data, json, true)
   }
 
   console.log('outputting %s CouchDB documents', data.size)
