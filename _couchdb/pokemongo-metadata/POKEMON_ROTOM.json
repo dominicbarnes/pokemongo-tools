@@ -1,7 +1,7 @@
 {
   "baseStats": {
-    "attack": 204,
-    "defense": 219,
+    "attack": 185,
+    "defense": 159,
     "stamina": 137
   },
   "buddyDistance": 5,
@@ -145,8 +145,8 @@
     "normal": {
       "assetBundle": 11,
       "baseStats": {
-        "attack": 204,
-        "defense": 219,
+        "attack": 185,
+        "defense": 159,
         "stamina": 137
       },
       "buddyDistance": 5,
@@ -177,8 +177,8 @@
     "wash": {
       "assetBundle": 15,
       "baseStats": {
-        "attack": 185,
-        "defense": 159,
+        "attack": 204,
+        "defense": 219,
         "stamina": 137
       },
       "buddyDistance": 5,

@@ -24,8 +24,7 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_BITE_FAST": false,
-    "MOVE_ROCK_SMASH_FAST": false,
-    "MOVE_SMACK_DOWN_FAST": "special"
+    "MOVE_ROCK_SMASH_FAST": false
   },
   "rarity": "common",
   "types": [

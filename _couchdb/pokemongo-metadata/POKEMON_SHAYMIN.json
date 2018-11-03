@@ -1,7 +1,7 @@
 {
   "baseStats": {
-    "attack": 261,
-    "defense": 166,
+    "attack": 210,
+    "defense": 210,
     "stamina": 225
   },
   "buddyDistance": 20,
@@ -17,8 +17,8 @@
     "land": {
       "assetBundle": 11,
       "baseStats": {
-        "attack": 261,
-        "defense": 166,
+        "attack": 210,
+        "defense": 210,
         "stamina": 225
       },
       "buddyDistance": 20,
@@ -48,8 +48,8 @@
     "sky": {
       "assetBundle": 12,
       "baseStats": {
-        "attack": 210,
-        "defense": 210,
+        "attack": 261,
+        "defense": 166,
         "stamina": 225
       },
       "buddyDistance": 20,

@@ -8,7 +8,6 @@
   "chargeMoves": {
     "MOVE_AQUA_JET": false,
     "MOVE_AQUA_TAIL": false,
-    "MOVE_HYDRO_CANNON": "special",
     "MOVE_WATER_PULSE": false
   },
   "costumes": {

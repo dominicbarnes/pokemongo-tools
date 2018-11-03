@@ -7,7 +7,6 @@
   "buddyDistance": 5,
   "chargeMoves": {
     "MOVE_DISCHARGE": false,
-    "MOVE_DRAGON_PULSE": "special",
     "MOVE_POWER_GEM": false,
     "MOVE_THUNDERBOLT": false
   },

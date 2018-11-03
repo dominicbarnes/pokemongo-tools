@@ -1,0 +1,10 @@
+{
+  "damageWindowEnd": 2500,
+  "damageWindowStart": 2300,
+  "duration": 2600,
+  "energyDelta": -50,
+  "name": "Meteor Mash",
+  "power": 100,
+  "quick": false,
+  "type": "steel"
+}

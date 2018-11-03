@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_EARTHQUAKE": false,
     "MOVE_FLASH_CANNON": false,
+    "MOVE_METEOR_MASH": "special",
     "MOVE_PSYCHIC": false,
     "MOVE_STRUGGLE": true
   },

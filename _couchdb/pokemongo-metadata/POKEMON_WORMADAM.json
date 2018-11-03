@@ -47,8 +47,8 @@
     "sandy": {
       "assetBundle": 12,
       "baseStats": {
-        "attack": 127,
-        "defense": 175,
+        "attack": 141,
+        "defense": 180,
         "stamina": 155
       },
       "buddyDistance": 1,
@@ -79,8 +79,8 @@
     "trash": {
       "assetBundle": 13,
       "baseStats": {
-        "attack": 141,
-        "defense": 180,
+        "attack": 127,
+        "defense": 175,
         "stamina": 155
       },
       "buddyDistance": 1,

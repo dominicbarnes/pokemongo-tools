@@ -8,7 +8,6 @@
   "chargeMoves": {
     "MOVE_BODY_SLAM": false,
     "MOVE_DISCHARGE": false,
-    "MOVE_DRAGON_PULSE": "special",
     "MOVE_THUNDERBOLT": false
   },
   "dex": 179,
