@@ -195,5 +195,5 @@ export default {
 // this helper function will only be necessary until kvnneff/sort-by#10 lands
 // @see https://github.com/kvnneff/sort-by/pull/10
 function sortMapper (key, value) {
-  return value.valueOf()
+  return value && value.valueOf()
 }
