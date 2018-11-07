@@ -80,6 +80,11 @@ const getters = {
     return moves.filter(move => !move._id.endsWith('_FAST')).slice()
   },
 
+  familyByID ({ families }) {
+    const m = index(families, '_id')
+    return id => m.get(id)
+  },
+
   cpMultipliers ({ cpMultipliers }) {
     return level => {
       if (!cpMultipliers.levels) return null

@@ -1,7 +1,5 @@
 <template>
-  <b-form-group label="Evolution Family">
-    <b-select v-bind:options="options" v-bind:value="value" v-on:change="update" />
-  </b-form-group>
+  <b-select v-bind:options="options" v-bind:value="value" v-on:change="update" />
 </template>
 
 <script>
@@ -19,7 +17,9 @@ export default {
 
     options() {
       const list = this.families.map(family => {
-        return { value: family._id, text: `${family.name} Family` }
+        const value = family._id
+        const text = `${family.name} Family`
+        return { value, text }
       })
 
       list.unshift({ value: null, text: '&mdash;' })

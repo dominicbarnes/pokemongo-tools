@@ -11,7 +11,8 @@ const { hoodie } = window
 
 const state = {
   raw: [],
-  filterBy: { ivs: [ 0, 100 ], levels: [ 0, 40 ] },
+  search: '',
+  filterBy: {},
   sortBy: 'recent'
 }
 
@@ -29,48 +30,19 @@ const getters = {
     return raw.map(catalog => pokemon(catalog, state))
   },
   filterer (state, getters, rootState, { pokemonThatEvolve }) {
-    if (!state.filterBy) return null
+    const { search, filterBy } = state
 
-    const { name, family, generation, ivs, levels, types, evolves, rarity, quickMove, chargeMove, form, shiny, uncertain } = state.filterBy
-    const query = { $and: [] }
+    const $and = []
+    if (search) {
+      const re = new RegExp(search, 'i')
+      $and.push({ $or: [ { name: re }, { species: re }, { notes: re } ] })
+    }
+    Object.keys(filterBy).map(key => filterBy[key].value).forEach(f => $and.push(f))
 
-    if (name) {
-      const re = new RegExp(name, 'i')
-      query.$and.push({ $or: [ { name: re }, { species: re }, { notes: re } ] })
-    }
-
-    if (family) query.$and.push({ familyID: family })
-    if (generation) query.$and.push({ generation })
-    if (ivs) {
-      query.$and.push({
-        percentIV: {
-          $gte: ivs[0] / 100,
-          $lte: ivs[1] / 100
-        }
-      })
-    }
-    if (levels) {
-      query.$and.push({
-        level: {
-          $gte: levels[0],
-          $lte: levels[1]
-        }
-      })
-    }
-    if (rarity) query.$and.push({ rarity })
-    if (types && types.length) query.$and.push({ types: { $all: types.slice() } })
-    if (quickMove) query.$and.push({ quickMoveID: quickMove })
-    if (chargeMove) query.$and.push({ chargeMoveID: chargeMove })
-    if (form) query.$and.push({ form })
-    if (typeof shiny === 'boolean') query.$and.push({ shiny })
-    if (typeof uncertain === 'boolean') query.$and.push({ uncertain })
-    if (typeof evolves === 'boolean') {
-      query.$and.push({
-        pokemonID: { [evolves ? '$in' : '$nin']: pokemonThatEvolve }
-      })
-    }
-
-    return sift(query)
+    return $and.length ? sift({ $and }) : null
+  },
+  isFiltered ({ filterBy }) {
+    return Object.keys(filterBy).length > 0
   },
   sorter (state) {
     switch (state.sortBy) {
@@ -135,8 +107,17 @@ const mutations = {
   reset ({ raw }) {
     raw.splice(0, raw.length)
   },
-  filter (state, filter) {
-    Vue.set(state, 'filterBy', filter)
+  addFilter ({ filterBy }, { id, value, label }) {
+    Vue.set(filterBy, id, { value, label })
+  },
+  removeFilter ({ filterBy }, id) {
+    Vue.delete(filterBy, id)
+  },
+  removeAllFilters (state) {
+    Vue.set(state, 'filterBy', {})
+  },
+  search (state, search) {
+    Vue.set(state, 'search', search)
   },
   sorter (state, sorter) {
     Vue.set(state, 'sortBy', sorter)
@@ -176,9 +157,20 @@ const actions = {
     window.analytics.track('Removed Pokémon', { pokemon })
   },
 
-  filter ({ commit }, filter) {
-    commit('filter', filter)
+  addFilter ({ commit }, { id, value, label }) {
+    commit('addFilter', { id, value, label })
   },
+  removeFilter ({ commit }, id) {
+    commit('removeFilter', id)
+  },
+  removeAllFilters ({ commit }) {
+    commit('removeAllFilters')
+  },
+
+  search: debounce(({ commit }, search) => {
+    commit('search', search)
+  }, 250),
+
   sort ({ commit }, sorter) {
     commit('sorter', sorter)
   }
