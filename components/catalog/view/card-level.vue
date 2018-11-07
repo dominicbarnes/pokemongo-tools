@@ -1,14 +1,14 @@
 <template>
   <b-card title="Level">
     <progress-level v-bind:level="pokemon.level" class="mb-2" />
-    <b-alert v-if="pokemon.level < 40" variant="info" show>
+    <b-alert v-if="pokemon.level < 40" variant="secondary" show>
       To fully power up this Pokémon, you will need
       <b-badge>{{ upgradeCost.stardust | number('0,0') }}</b-badge>
       stardust and
       <b-badge>{{ upgradeCost.candy }}</b-badge>
       candy.
     </b-alert>
-    <b-alert v-else variant="success" show>
+    <b-alert v-else variant="primary" show>
       This Pokémon is fully powered up.
     </b-alert>
     <b-dropdown v-if="pokemon.level < 40" split text="Power Up" variant="success" v-on:click="powerUp(pokemon.level + 0.5)">
