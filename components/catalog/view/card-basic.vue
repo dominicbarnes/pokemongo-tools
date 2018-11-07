@@ -15,7 +15,7 @@
     <b-button v-if="pokemon.nextEvolutions.length" v-b-modal.modalEvolve variant="info">Evolve</b-button>
     <b-modal id="modalEvolve" title="Evolve" v-on:ok="evolve()">
       <b-row>
-        <b-col>
+        <b-col md="6">
           <b-form-group label="Pokémon" description="Choose the Pokémon species that you evolved into.">
             <template slot="description">
               Calculated
@@ -33,8 +33,10 @@
             <b-form-select v-bind:options="chargeMoveOptions" v-model="changes.chargeMove" />
           </b-form-group>
         </b-col>
-        <b-col>
-          <img v-bind:src="newSpriteURL" v-img-fallback="fallbackSpriteURL" height="256" width="256" />
+        <b-col md="6">
+          <center>
+            <img v-bind:src="newSpriteURL" v-img-fallback="fallbackSpriteURL" height="256" width="256" />
+          </center>
         </b-col>
       </b-row>
     </b-modal>
