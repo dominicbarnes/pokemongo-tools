@@ -1,4 +1,33 @@
 
+0.12.0 / 2018-11-08
+===================
+
+  * chore(metadata): update and rebuild
+  * feat(catalog): mirror variant for alert + progress bar for level
+  * feat(catalog): make evolve modal responsive
+  * fix(catalog): make sort-by more robust to missing values
+  * fix(catalog): properly sort ivs when missing added
+  * chore(metadata): update submodule
+  * chore(metadata): update
+  * feat(metadata): include special moves
+  * feat(catalog): add lucky flag
+  * refactor(catalog): clean up badge and progress components
+  * fix(catalog): some filters got broken during the last big refactor
+  * feat(catalog): stop showing common badge
+  * feat(catalog): add helpers for badge variants, use consistently for ivs and level
+  * refactor: remove unused slugify dep
+  * refactor(catalog): use 4 per row and adapt content accordingly
+  * chore(metadata): update node-pogo-protos-vnext and rebuild
+  * chore: update game-master for gen 4
+  * dev: add script for only mining local data
+  * fix(catalog): show added at when not yet updated
+  * feat(catalog): clean up list view
+  * feat(catalog+pokedex): clean up some badges
+  * feat(catalog): remove added date from list
+  * refactor: put fallback sprite url behind a shared getter
+  * fix(catalog): if no move, do not attempt to decorate
+  * refactor(catalog): break down into smaller components
+
 0.11.0 / 2018-10-13
 ===================
 
