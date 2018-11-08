@@ -16,6 +16,12 @@
     <b-tab title="Level" v-on:click="refresh">
       <vue-slider ref="levels" type="range" v-bind:min="1" v-bind:max="40" v-bind:interval="0.5" v-bind:value="levels" tooltip="hover" v-on:input="setLevels" />
     </b-tab>
+    <b-tab title="Quick Move">
+      <b-select v-bind:options="quickMoveOptions" v-on:input="setQuickMove" />
+    </b-tab>
+    <b-tab title="Charge Move">
+      <b-select v-bind:options="chargeMoveOptions" v-on:input="setChargeMove" />
+    </b-tab>
     <b-tab title="Generation">
       <b-select v-bind:options="generationOptions" v-on:input="setGeneration" />
     </b-tab>
@@ -59,7 +65,14 @@
     },
 
     computed: {
-      ...mapGetters([ 'familyByID', 'pokemonThatEvolve', 'pokemonGenerations' ]),
+      ...mapGetters([
+        'chargeMoves',
+        'familyByID',
+        'movesByID',
+        'pokemonThatEvolve',
+        'pokemonGenerations',
+        'quickMoves'
+      ]),
 
       ...mapState({
         families: state => state.metadata.families,
@@ -70,6 +83,22 @@
         return this.options(this.families.map(family => {
           const value = family._id
           const text = `${family.name} Family`
+          return { value, text }
+        }))
+      },
+
+      quickMoveOptions() {
+        return this.options(this.quickMoves.map(move => {
+          const value = move._id
+          const text = `${move.name} (${move.type})`
+          return { value, text }
+        }))
+      },
+
+      chargeMoveOptions() {
+        return this.options(this.chargeMoves.map(move => {
+          const value = move._id
+          const text = `${move.name} (${move.type})`
           return { value, text }
         }))
       },
@@ -199,7 +228,17 @@
           label += range.join('-')
           value.level = { $gte: range[0], $lte: range[1] }
         }
-        this.set('ivs', value, label)
+        this.set('levels', value, label)
+      },
+
+      setQuickMove(quickMoveID) {
+        const move = this.movesByID(quickMoveID)
+        this.set('quickMove', { quickMoveID }, `Quick Move ${move.name}`)
+      },
+
+      setChargeMove(chargeMoveID) {
+        const move = this.movesByID(chargeMoveID)
+        this.set('chargeMove', { chargeMoveID }, `Charge Move ${move.name}`)
       }
     },
 
