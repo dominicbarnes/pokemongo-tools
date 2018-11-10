@@ -11,10 +11,19 @@
       </b-form-checkbox-group>
     </b-tab>
     <b-tab title="Individual Values" v-on:click="refresh">
-      <vue-slider ref="ivs" type="range" v-bind:min="0" v-bind:max="100" v-bind:value="ivs" tooltip="hover" v-on:input="setIVs" />
+      <vue-slider ref="ivs" type="range" v-bind:min="0" v-bind:max="100" v-bind:value="ivs" v-on:input="setIVs" class="mb-3" />
+      <b-button variant="primary" block class="mb-1" v-on:click="ivs = [ 100, 100 ]">Wonder / Class S (100%)</b-button>
+      <b-button variant="success" block class="mb-1" v-on:click="ivs = [ 90, 99 ]">Class A (90-99%)</b-button>
+      <b-button variant="warning" block class="mb-1" v-on:click="ivs = [ 80, 89 ]">Class B (80-89%)</b-button>
+      <b-button variant="warning" block class="mb-1" v-on:click="ivs = [ 70, 79 ]">Class C (70-79%)</b-button>
+      <b-button variant="warning" block class="mb-1" v-on:click="ivs = [ 60, 69 ]">Class D (60-58%)</b-button>
+      <b-button variant="danger" block v-on:click="ivs = [ 0, 60 ]">Class F (0-59%)</b-button>
     </b-tab>
     <b-tab title="Level" v-on:click="refresh">
-      <vue-slider ref="levels" type="range" v-bind:min="1" v-bind:max="40" v-bind:interval="0.5" v-bind:value="levels" tooltip="hover" v-on:input="setLevels" />
+      <vue-slider ref="levels" type="range" v-bind:min="1" v-bind:max="40" v-bind:interval="0.5" v-bind:value="levels" v-on:input="setLevels" class="mb-3" />
+      <b-button variant="primary" block class="mb-1" v-on:click="levels = [ 40, 40 ]">Max (40)</b-button>
+      <b-button variant="info" block class="mb-1" v-on:click="levels = [ 20, 20 ]">Hatch / Raid</b-button>
+      <b-button variant="info" block class="mb-1" v-on:click="levels = [ 15, 15 ]">Research</b-button>
     </b-tab>
     <b-tab title="Quick Move">
       <b-select v-bind:options="quickMoveOptions" v-on:input="setQuickMove" />
