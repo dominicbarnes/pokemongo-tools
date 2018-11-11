@@ -1,4 +1,5 @@
 
+import clone from 'clone'
 import debounce from 'debounce'
 import sift from 'sift'
 import sortBy from 'sort-by'
@@ -11,6 +12,8 @@ const { hoodie } = window
 
 const state = {
   raw: [],
+  lists: [],
+  list: null,
   search: '',
   filterBy: {},
   sortBy: 'recent'
@@ -40,6 +43,44 @@ const getters = {
     Object.keys(filterBy).map(key => filterBy[key].value).forEach(f => $and.push(f))
 
     return $and.length ? sift({ $and }) : null
+  },
+  presetLists () {
+    return [
+      {
+        _id: 'preset-wonder',
+        name: 'Wonder / Class S',
+        filters: {
+          ivs: {
+            label: '100% IVs',
+            value: { percentIV: 1 }
+          }
+        }
+      },
+      {
+        _id: 'preset-shinies',
+        name: 'Shinies',
+        filters: {
+          ivs: {
+            label: 'Shiny',
+            value: { shiny: true }
+          }
+        }
+      },
+      {
+        _id: 'preset-luckies',
+        name: 'Luckies',
+        filters: {
+          ivs: {
+            label: 'Lucky',
+            value: { lucky: true }
+          }
+        }
+      }
+    ]
+  },
+  listsByID ({ lists }, { presetLists }) {
+    const m = index(lists.concat(presetLists), '_id')
+    return id => m.get(id)
   },
   isFiltered ({ filterBy }) {
     return Object.keys(filterBy).length > 0
@@ -87,20 +128,48 @@ const mutations = {
     const x = raw.findIndex(item => item._id === id)
     raw.splice(x, 1)
   },
-  changes ({ raw }, changes) {
+  lists (state, lists) {
+    Vue.set(state, 'lists', lists)
+  },
+  addList ({ lists }, doc) {
+    lists.push(doc)
+  },
+  updateList ({ lists }, doc) {
+    const x = lists.findIndex(item => item._id === doc._id)
+    Vue.set(lists, x, doc)
+  },
+  removeList ({ lists }, id) {
+    const x = lists.findIndex(item => item._id === id)
+    lists.splice(x, 1)
+  },
+  changes ({ raw, lists }, changes) {
     changes.forEach(change => {
       const { kind, doc } = change
 
-      switch (kind) {
-        case 'add':
-          raw.push(doc)
-          break
-        case 'update':
-          Vue.set(raw, raw.findIndex(item => item._id === doc._id), doc)
-          break
-        case 'remove':
-          raw.splice(raw.findIndex(item => item._id === doc._id), 1)
-          break
+      if (doc.type === 'pokemon') {
+        switch (kind) {
+          case 'add':
+            raw.push(doc)
+            break
+          case 'update':
+            Vue.set(raw, raw.findIndex(item => item._id === doc._id), doc)
+            break
+          case 'remove':
+            raw.splice(raw.findIndex(item => item._id === doc._id), 1)
+            break
+        }
+      } else if (doc.type === 'list') {
+        switch (kind) {
+          case 'add':
+            lists.push(doc)
+            break
+          case 'update':
+            Vue.set(lists, lists.findIndex(item => item._id === doc._id), doc)
+            break
+          case 'remove':
+            lists.splice(lists.findIndex(item => item._id === doc._id), 1)
+            break
+        }
       }
     })
   },
@@ -108,13 +177,20 @@ const mutations = {
     raw.splice(0, raw.length)
   },
   addFilter ({ filterBy }, { id, value, label }) {
+    Vue.delete(state, 'list')
     Vue.set(filterBy, id, { value, label })
   },
   removeFilter ({ filterBy }, id) {
+    Vue.delete(state, 'list')
     Vue.delete(filterBy, id)
   },
   removeAllFilters (state) {
+    Vue.delete(state, 'list')
     Vue.set(state, 'filterBy', {})
+  },
+  showList (state, list) {
+    Vue.set(state, 'list', list)
+    Vue.set(state, 'filterBy', clone(list.filters))
   },
   search (state, search) {
     Vue.set(state, 'search', search)
@@ -127,6 +203,7 @@ const mutations = {
 const actions = {
   async init ({ commit }) {
     commit('set', await hoodie.store.findAll(doc => doc.type === 'pokemon'))
+    commit('lists', await hoodie.store.findAll(doc => doc.type === 'list'))
 
     hoodie.store.on('reset', () => commit('reset'))
 
@@ -137,22 +214,22 @@ const actions = {
     }, 500)
 
     hoodie.store.on('change', (kind, doc) => {
-      if (doc.type !== 'pokemon') return
-
-      changes.push({ kind, doc })
-      flush()
+      if (doc.type === 'pokemon' || doc.type === 'list') {
+        changes.push({ kind, doc })
+        flush()
+      }
     })
   },
-  async add ({ commit }, { pokemon, trigger }) {
+  async add (context, { pokemon, trigger }) {
     const input = Object.assign({ type: 'pokemon' }, pokemon)
     await hoodie.store.add(input)
     window.analytics.track('Added Pokémon', { pokemon, trigger })
   },
-  async update ({ commit }, { pokemon, trigger }) {
+  async update (context, { pokemon, trigger }) {
     await hoodie.store.update(pokemon._id, pokemon)
     window.analytics.track('Updated Pokémon', { pokemon, trigger })
   },
-  async remove ({ commit }, { pokemon, trigger }) {
+  async remove (context, { pokemon }) {
     await hoodie.store.remove(pokemon)
     window.analytics.track('Removed Pokémon', { pokemon })
   },
@@ -164,6 +241,23 @@ const actions = {
     commit('removeFilter', id)
   },
   removeAllFilters ({ commit }) {
+    commit('removeAllFilters')
+  },
+
+  showList ({ commit, getters }, id) {
+    const list = getters.listsByID(id)
+    commit('showList', list)
+  },
+  async saveList ({ commit, state }, name) {
+    const doc = await hoodie.store.add({
+      name: name,
+      filters: state.filterBy,
+      type: 'list'
+    })
+    commit('showList', doc)
+  },
+  async removeList ({ commit }, id) {
+    await hoodie.store.remove(id)
     commit('removeAllFilters')
   },
 

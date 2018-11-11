@@ -8,13 +8,26 @@
             <b-input-group-append>
               <b-button v-b-modal.filter>Add Filter</b-button>
             </b-input-group-append>
+            <b-input-group-append>
+              <b-dropdown right text="Show List">
+                <b-dropdown-item v-for="list in presetLists" v-on:click="showList(list._id)">{{list.name}}</b-dropdown-item>
+                <template v-if="lists.length">
+                  <b-dropdown-divider />
+                  <b-dropdown-item v-for="list in lists" v-on:click="showList(list._id)">{{list.name}}</b-dropdown-item>
+                </template>
+              </b-dropdown>
+            </b-input-group-append>
           </b-input-group>
         </b-col>
         <b-col v-if="isFiltered" cols="12" class="mt-2">
-          Showing:
-          <b-button v-for="(filter, index) in filters" v-on:click="removeFilter(index)" size="sm" variant="info" title="Click to Remove Filter" class="mr-1">
+          <template v-if="showingList">{{showingList.name}}:</template>
+          <template v-else>Showing:</template>
+          <b-button v-for="(filter, index) in filters" v-on:click="removeFilter(index)" size="sm" variant="info" title="Click to Remove Filter" class="ml-1">
             {{ filter.label }}
           </b-button>
+          <b-button variant="warning" size="sm" v-on:click="removeAllFilters()">Remove All Filters</b-button>
+          <b-button v-if="!showingList" v-b-modal.save variant="success" size="sm" class="float-right">Save as List</b-button>
+          <b-button v-if="showingList && showingList._rev" v-b-modal.remove variant="danger" size="sm" class="float-right">Delete List</b-button>
         </b-col>
       </b-row>
       <b-row class="my-2">
@@ -51,6 +64,14 @@
     <b-modal id="filter" title="Add Filter" v-on:ok="addFilter(filter)">
       <catalog-filters v-model="filter" />
     </b-modal>
+    <b-modal id="save" title="Save List" v-on:ok="saveList()">
+      <b-form-group description="Enter a name for your new list." label="List name">
+        <b-form-input v-model.trim="newList" />
+      </b-form-group>
+    </b-modal>
+    <b-modal id="remove" title="Delete List" v-on:ok="removeList()">
+      <p v-if="showingList">Are you sure you want to delete the "{{showingList.name}}" list?</p>
+    </b-modal>
   </loading-panel>
 </template>
 
@@ -66,7 +87,8 @@
       return {
         bulk: false,
         selected: Object.create(null),
-        filter: null
+        filter: null,
+        newList: null
       }
     },
 
@@ -79,11 +101,14 @@
         sortBy: 'catalog/sortOptions',
         sorter: 'catalog/sorter',
         filterer: 'catalog/filterer',
-        isFiltered: 'catalog/isFiltered'
+        isFiltered: 'catalog/isFiltered',
+        presetLists: 'catalog/presetLists'
       }),
 
       ...mapState({
-        filters: state => state.catalog.filterBy
+        filters: state => state.catalog.filterBy,
+        showingList: state => state.catalog.list,
+        lists: state => state.catalog.lists
       }),
 
       bulkSelected() {
@@ -147,6 +172,16 @@
       },
       removeAllFilters() {
         this.$store.dispatch('catalog/removeAllFilters')
+      },
+
+      showList(list) {
+        this.$store.dispatch('catalog/showList', list)
+      },
+      saveList() {
+        this.$store.dispatch('catalog/saveList', this.newList)
+      },
+      removeList() {
+        this.$store.dispatch('catalog/removeList', this.showingList._id)
       }
     },
 
