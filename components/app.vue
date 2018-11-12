@@ -67,7 +67,7 @@
 </template>
 
 <script>
-  import { mapGetters } from 'vuex'
+  import { mapState, mapGetters } from 'vuex'
 
   import config from '../config'
 
@@ -83,11 +83,25 @@
     },
 
     computed: {
+      ...mapState('hoodie/account', {
+        account: state => state.properties,
+        profile: state => state.profile
+      }),
+
+      ...mapGetters('hoodie/account', {
+        loggedIn: 'loggedIn',
+      }),
+
       ...mapGetters({
-        loggedIn: 'account/loggedIn',
-        username: 'account/username',
         catalogCount: 'catalog/totalCount'
       }),
+
+      username({ account, profile }) {
+        if (!account) return null
+        if (!account.session) return null
+        if (!profile) return account.username
+        return profile.nickname || account.username
+      },
 
       loading() {
         return this.$store.state.metadata.loading
@@ -98,7 +112,7 @@
       async signUp() {
         try {
           const { username, password } = this.signup
-          await this.$store.dispatch('account/signUp', { username, password })
+          await this.$store.dispatch('hoodie/account/signUp', { username, password })
           this.$refs.signup.hide()
         } catch (err) {
           this.signupError = err.message
@@ -108,7 +122,7 @@
       async signIn() {
         try {
           const { username, password } = this.signin
-          await this.$store.dispatch('account/signIn', { username, password })
+          await this.$store.dispatch('hoodie/account/signIn', { username, password })
           this.$refs.signin.hide()
         } catch (err) {
           this.signinError = err.message
@@ -116,7 +130,7 @@
       },
 
       async signOut() {
-        await this.$store.dispatch('account/signOut')
+        await this.$store.dispatch('hoodie/account/signOut')
       }
     }
   }

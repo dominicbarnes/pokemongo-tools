@@ -3,19 +3,19 @@ import Vuex from 'vuex'
 
 import { env } from '../config'
 
+import hoodie from './hoodie'
 import metadata from './metadata'
-import account from './account'
 import catalog from './catalog'
 
 Vue.use(Vuex)
 
 const store = new Vuex.Store({
-  modules: { metadata, account, catalog },
+  modules: { hoodie, metadata, catalog },
   strict: env !== 'production'
 })
 
 store.dispatch('init')
-store.dispatch('account/init')
 store.dispatch('catalog/init')
+store.dispatch('hoodie/init')
 
 export default store
