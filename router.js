@@ -90,12 +90,4 @@ const router = new Router({
   ]
 })
 
-router.beforeEach(function (to, from, next) {
-  if (to.meta && to.meta.title) {
-    window.analytics.page(to.meta.title, { url: window.location.href })
-  }
-
-  next()
-})
-
 export default router

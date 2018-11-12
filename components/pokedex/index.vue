@@ -61,14 +61,6 @@
       }
     },
 
-    watch: {
-      filtering(flag) {
-        if (flag) {
-          window.analytics.track('Filtered Pokédex', { filters: this.filters })
-        }
-      }
-    },
-
     components: { PaginatedList, PokedexFilters, PokedexItem }
   }
 </script>

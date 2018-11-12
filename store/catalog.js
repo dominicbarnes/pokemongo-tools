@@ -223,15 +223,12 @@ const actions = {
   async add (context, { pokemon, trigger }) {
     const input = Object.assign({ type: 'pokemon' }, pokemon)
     await hoodie.store.add(input)
-    window.analytics.track('Added Pokémon', { pokemon, trigger })
   },
   async update (context, { pokemon, trigger }) {
     await hoodie.store.update(pokemon._id, pokemon)
-    window.analytics.track('Updated Pokémon', { pokemon, trigger })
   },
   async remove (context, { pokemon }) {
     await hoodie.store.remove(pokemon)
-    window.analytics.track('Removed Pokémon', { pokemon })
   },
 
   addFilter ({ commit }, { id, value, label }) {

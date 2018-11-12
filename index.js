@@ -6,7 +6,7 @@ import markdown from 'nano-markdown'
 import numeral from 'numeral'
 import Vue from 'vue'
 
-import { stage, segmentWriteKey } from './config.js'
+import { stage } from './config.js'
 import store from './store/index.js'
 import router from './router.js'
 import App from './components/app.vue'
@@ -31,16 +31,6 @@ new Vue({ // eslint-disable-line
     return createElement(App)
   }
 })
-
-if (segmentWriteKey) {
-  if (window.analytics) {
-    window.analytics.load(segmentWriteKey)
-  } else {
-    console.warn('Segment library not found, analytics cannot be tracked')
-  }
-} else {
-  console.warn('Segment write key not found, analytics will not be tracked')
-}
 
 // replace "no-js" with "js" to signify that JS is running
 document.documentElement.className = 'js'
