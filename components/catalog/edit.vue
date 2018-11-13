@@ -2,7 +2,7 @@
   <loading-panel>
     <b-container fluid class="p-3">
       <h1>Edit Pokémon in Catalog</h1>
-      <form-pokemon v-if="catalog" v-bind="catalog" v-on:submit="update">
+      <form-pokemon v-if="catalog" v-bind="catalog.raw" v-on:submit="update">
         <b-button type="submit" variant="primary">Save</b-button>
       </form-pokemon>
     </b-container>
@@ -17,7 +17,7 @@
   export default {
     computed: {
       ...mapGetters({
-        catalogByID: 'catalog/rawByID'
+        catalogByID: 'catalog/pokemonByID'
       }),
 
       catalog() {
@@ -28,7 +28,7 @@
 
     methods: {
       async update(pokemon) {
-        await this.$store.dispatch('catalog/update', {
+        await this.$store.dispatch('catalog/pokemonUpdate', {
           pokemon: pokemon,
           trigger: 'edit-form'
         })

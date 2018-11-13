@@ -69,20 +69,18 @@ export default {
       commit('data', await hoodie.store.findAll())
     },
 
-    async signUp (context, { username, password }) {
-      await hoodie.account.signUp({ username, password })
+    async add (context, doc) {
+      const added = await hoodie.store.add(doc)
+      return added
     },
 
-    async signIn (context, { username, password }) {
-      await hoodie.account.signIn({ username, password })
+    async update (context, doc) {
+      const updated = await hoodie.store.update(doc)
+      return updated
     },
 
-    async signOut (context) {
-      await hoodie.account.signOut()
-    },
-
-    async profile ({ commit }, profile) {
-      await hoodie.account.profile.update(profile)
+    async remove (context, doc) {
+      await hoodie.store.remove(doc)
     }
   }
 }

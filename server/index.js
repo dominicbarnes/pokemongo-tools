@@ -55,6 +55,9 @@ server.register({
       if (is404 && !isHoodie) {
         return h.file('index.html').code(200)
       }
+      if (is404 && request.url.pathname === '/hoodie') {
+        return h.response('success').type('text/plain')
+      }
       return h.continue()
     })
 

@@ -7,40 +7,29 @@ export default {
   namespaced: true,
 
   state: {
-    ok: null
-  },
-
-  getters: {
-    online ({ ok }) {
-      return !!ok
-    },
-    offline (state, { online }) {
-      return !online
-    }
+    ok: false
   },
 
   mutations: {
-    props (state, properties) {
-      Vue.set(state, 'properties', properties)
-    },
-    profile (state, profile) {
-      Vue.set(state.properties, 'profile', profile)
+    ok (state, ok) {
+      Vue.set(state, 'ok', ok)
     }
   },
 
   actions: {
     async init ({ commit }) {
-      hoodie.connectionStatus.on('disconnect reconnect reset', function () {
-        console.log('connection status', arguments)
-      })
+      hoodie.connectionStatus.on('disconnect', () => commit('ok', false))
+      hoodie.connectionStatus.on('reconnect reset', () => commit('ok', true))
+
+      await hoodie.connectionStatus.check()
+      commit('ok', !!hoodie.connectionStatus.ok)
 
       hoodie.connectionStatus.startChecking({
-        interval: 30 * 1000 // 30s
+        interval: {
+          connected: 30 * 1000, // 30s
+          disconnected: 5 * 1000 // 5s
+        }
       })
-    },
-
-    async check (context) {
-      await hoodie.connectionStatus.check()
     }
   }
 }

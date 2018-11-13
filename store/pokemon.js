@@ -1,4 +1,5 @@
 
+import clone from 'clone'
 import moment from 'moment'
 
 import { cp, hp, spriteURL, smallIconURL } from '../utils.js'
@@ -78,7 +79,10 @@ export default function pokemon (catalog, state) {
     // timeline
     addedAt: date(hoodie.createdAt),
     caughtAt: date(catalog.caughtAt),
-    updatedAt: date(hoodie.updatedAt)
+    updatedAt: date(hoodie.updatedAt),
+
+    // raw
+    raw: clone(catalog)
   }
 }
 

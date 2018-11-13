@@ -73,7 +73,7 @@
 
     computed: {
       ...mapGetters([ 'pokemonByID', 'quickMoves', 'chargeMoves', 'fallbackSpriteURL' ]),
-      ...mapGetters({ catalogByID: 'catalog/rawByID' }),
+      ...mapGetters({ catalogByID: 'catalog/pokemonByID' }),
 
       title() {
         return this.pokemon.nickname || this.pokemon.species
@@ -113,14 +113,14 @@
       },
 
       newSpriteURL() {
-        const catalog = this.catalogByID(this.changes._id)
+        const catalog = this.catalogByID(this.changes._id).raw
         const metadata = this.pokemonByID(this.changes.pokemonID, catalog.form)
         return spriteURL(metadata, catalog)
       },
 
       newCP() {
         const { attackIV, defenseIV, staminaIV, multiplier } = this.pokemon
-        const { form } = this.catalogByID(this.changes._id)
+        const { form } = this.catalogByID(this.changes._id).raw
         const metadata = this.pokemonByID(this.changes.pokemonID, form)
         if (!metadata) return 0
         const attack = metadata.baseStats.attack + attackIV
@@ -131,7 +131,7 @@
 
       newHP() {
         const { staminaIV, multiplier } = this.pokemon
-        const { form } = this.catalogByID(this.changes._id)
+        const { form } = this.catalogByID(this.changes._id).raw
         const metadata = this.pokemonByID(this.changes.pokemonID, form)
         if (!metadata) return 0
         const stamina = metadata.baseStats.stamina + staminaIV
@@ -141,7 +141,7 @@
 
     methods: {
       async evolve() {
-        await this.$store.dispatch('catalog/update', { pokemon: this.changes })
+        await this.$store.dispatch('catalog/pokemonUpdate', { pokemon: this.changes })
       }
     },
 

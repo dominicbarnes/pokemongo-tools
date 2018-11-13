@@ -93,7 +93,7 @@
       }),
 
       ...mapGetters({
-        catalogCount: 'catalog/totalCount'
+        catalogCount: 'catalog/pokemonCount'
       }),
 
       username({ account, profile }) {

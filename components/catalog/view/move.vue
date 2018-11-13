@@ -30,7 +30,7 @@
 
     methods: {
       async useTM(quickMove, chargeMove) {
-        await this.$store.dispatch('catalog/update', {
+        await this.$store.dispatch('catalog/pokemonUpdate', {
           pokemon: {
             _id: this.catalog.id,
             quickMove: quickMove,

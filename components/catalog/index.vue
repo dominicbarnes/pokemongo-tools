@@ -8,13 +8,9 @@
             <b-input-group-append>
               <b-button v-b-modal.filter>Add Filter</b-button>
             </b-input-group-append>
-            <b-input-group-append>
+            <b-input-group-append v-if="lists.length">
               <b-dropdown right text="Show List">
-                <b-dropdown-item v-for="list in presetLists" v-on:click="showList(list._id)">{{list.name}}</b-dropdown-item>
-                <template v-if="lists.length">
-                  <b-dropdown-divider />
-                  <b-dropdown-item v-for="list in lists" v-on:click="showList(list._id)">{{list.name}}</b-dropdown-item>
-                </template>
+                <b-dropdown-item v-for="list in lists" v-on:click="showList(list)">{{list.name}}</b-dropdown-item>
               </b-dropdown>
             </b-input-group-append>
           </b-input-group>
@@ -97,18 +93,17 @@
         ready: 'ready',
         loggedIn: 'account/loggedIn',
         movesByID: 'movesByID',
-        list: 'catalog/all',
+        list: 'catalog/pokemon',
         sortBy: 'catalog/sortOptions',
         sorter: 'catalog/sorter',
         filterer: 'catalog/filterer',
         isFiltered: 'catalog/isFiltered',
-        presetLists: 'catalog/presetLists'
+        lists: 'catalog/lists'
       }),
 
       ...mapState({
         filters: state => state.catalog.filterBy,
         showingList: state => state.catalog.list,
-        lists: state => state.catalog.lists
       }),
 
       bulkSelected() {
@@ -155,7 +150,7 @@
       },
 
       async deleteBulk() {
-        await this.$store.dispatch('catalog/remove', {
+        await this.$store.dispatch('catalog/pokemonRemove', {
           pokemon: this.bulkSelected,
           trigger: 'bulk-delete-button'
         })
@@ -175,13 +170,13 @@
       },
 
       showList(list) {
-        this.$store.dispatch('catalog/showList', list)
+        this.$store.dispatch('catalog/listShow', { list })
       },
       saveList() {
-        this.$store.dispatch('catalog/saveList', this.newList)
+        this.$store.dispatch('catalog/listAdd', { list: this.newList })
       },
       removeList() {
-        this.$store.dispatch('catalog/removeList', this.showingList._id)
+        this.$store.dispatch('catalog/listRemove', { list: this.showingList })
       }
     },
 

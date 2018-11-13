@@ -44,7 +44,7 @@
 
     methods: {
       async deletePokemon() {
-        await this.$store.dispatch('catalog/remove', {
+        await this.$store.dispatch('catalog/pokemonRemove', {
           trigger: 'delete-button',
           pokemon: this.$route.params.pokemon
         })

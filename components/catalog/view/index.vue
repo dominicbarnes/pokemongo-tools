@@ -32,7 +32,7 @@
   export default {
     computed: {
       ...mapGetters({
-        pokemonByID: 'catalog/byID',
+        pokemonByID: 'catalog/pokemonByID',
         pokemonByDex: 'pokemonByDex'
       }),
 

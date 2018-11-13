@@ -60,7 +60,7 @@
 
     methods: {
       async powerUp(level) {
-        await this.$store.dispatch('catalog/update', {
+        await this.$store.dispatch('catalog/pokemonUpdate', {
           pokemon: {
             _id: this.pokemon.id,
             level: level

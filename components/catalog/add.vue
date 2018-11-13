@@ -23,7 +23,7 @@
 
     methods: {
       async save(pokemon) {
-        await this.$store.dispatch('catalog/add', {
+        await this.$store.dispatch('catalog/pokemonAdd', {
           pokemon: pokemon,
           trigger: 'add-form'
         })

@@ -81,7 +81,7 @@
 
     methods: {
       async useTM(quickMove, chargeMove) {
-        await this.$store.dispatch('catalog/update', { pokemon: this.changes })
+        await this.$store.dispatch('catalog/pokemonUpdate', { pokemon: this.changes })
       }
     },
 

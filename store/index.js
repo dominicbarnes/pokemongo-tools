@@ -15,7 +15,6 @@ const store = new Vuex.Store({
 })
 
 store.dispatch('init')
-store.dispatch('catalog/init')
 store.dispatch('hoodie/init')
 
 export default store
