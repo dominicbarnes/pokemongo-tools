@@ -148,15 +148,17 @@ function mergeMoves (a, b, special) {
   const c = Object.create(null)
   if (a) {
     Object.keys(a).forEach(id => {
-      c[id] = special ? a[id] : true
+      c[id] = typeof a[id] === 'boolean' ? true : a[id]
     })
   }
   if (b) {
     Object.keys(b).forEach(id => {
       if (special) {
-        c[id] = (!(id in c) || c[id] === 'special') ? 'special' : false
-      } else {
+        c[id] = 'special'
+      } else if (id in c) {
         c[id] = b[id]
+      } else {
+        c[id] = false
       }
     })
   }
