@@ -1,8 +1,8 @@
 {
   "baseStats": {
     "attack": 186,
-    "defense": 148,
-    "stamina": 100
+    "defense": 131,
+    "stamina": 137
   },
   "buddyDistance": 3,
   "chargeMoves": {
@@ -17,8 +17,13 @@
   "height": 0.3,
   "name": "Roselia",
   "nextEvolutions": [
+    {
+      "candy": 100,
+      "item": 1106,
+      "pokemon": "POKEMON_ROSERADE"
+    }
   ],
-  "previousEvolution": null,
+  "previousEvolution": "POKEMON_BUDEW",
   "quickMoves": {
     "MOVE_POISON_JAB_FAST": false,
     "MOVE_RAZOR_LEAF_FAST": false,

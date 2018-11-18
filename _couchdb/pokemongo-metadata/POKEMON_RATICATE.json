@@ -1,8 +1,8 @@
 {
   "baseStats": {
     "attack": 161,
-    "defense": 144,
-    "stamina": 110
+    "defense": 139,
+    "stamina": 146
   },
   "buddyDistance": 1,
   "chargeMoves": {
@@ -18,8 +18,8 @@
       "assetBundle": 61,
       "baseStats": {
         "attack": 135,
-        "defense": 159,
-        "stamina": 150
+        "defense": 154,
+        "stamina": 181
       },
       "buddyDistance": 1,
       "chargeMoves": {
@@ -49,8 +49,8 @@
     "normal": {
       "baseStats": {
         "attack": 161,
-        "defense": 144,
-        "stamina": 110
+        "defense": 139,
+        "stamina": 146
       },
       "buddyDistance": 1,
       "chargeMoves": {

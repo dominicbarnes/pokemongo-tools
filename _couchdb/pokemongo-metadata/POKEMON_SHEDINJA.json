@@ -1,8 +1,8 @@
 {
   "baseStats": {
     "attack": 153,
-    "defense": 80,
-    "stamina": 2
+    "defense": 73,
+    "stamina": 1
   },
   "buddyDistance": 5,
   "chargeMoves": {
@@ -20,9 +20,11 @@
   ],
   "previousEvolution": "POKEMON_NINCADA",
   "quickMoves": {
-    "MOVE_BITE_FAST": false,
+    "MOVE_BITE_FAST": true,
+    "MOVE_BUG_BITE_FAST": false,
+    "MOVE_SHADOW_CLAW_FAST": false,
     "MOVE_SPLASH_FAST": true,
-    "MOVE_STRUGGLE_BUG_FAST": false
+    "MOVE_STRUGGLE_BUG_FAST": true
   },
   "rarity": "common",
   "types": [

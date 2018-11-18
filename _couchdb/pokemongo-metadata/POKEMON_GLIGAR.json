@@ -1,8 +1,8 @@
 {
   "baseStats": {
     "attack": 143,
-    "defense": 204,
-    "stamina": 130
+    "defense": 184,
+    "stamina": 163
   },
   "buddyDistance": 5,
   "chargeMoves": {
@@ -16,6 +16,11 @@
   "height": 1.09,
   "name": "Gligar",
   "nextEvolutions": [
+    {
+      "candy": 100,
+      "item": 1106,
+      "pokemon": "POKEMON_GLISCOR"
+    }
   ],
   "previousEvolution": null,
   "quickMoves": {

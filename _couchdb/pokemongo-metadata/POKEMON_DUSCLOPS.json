@@ -2,7 +2,7 @@
   "baseStats": {
     "attack": 124,
     "defense": 234,
-    "stamina": 80
+    "stamina": 120
   },
   "buddyDistance": 3,
   "chargeMoves": {
@@ -16,6 +16,11 @@
   "height": 1.6,
   "name": "Dusclops",
   "nextEvolutions": [
+    {
+      "candy": 100,
+      "item": 1106,
+      "pokemon": "POKEMON_DUSKNOIR"
+    }
   ],
   "previousEvolution": "POKEMON_DUSKULL",
   "quickMoves": {

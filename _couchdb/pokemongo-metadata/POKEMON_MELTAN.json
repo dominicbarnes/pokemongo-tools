@@ -1,0 +1,32 @@
+{
+  "baseStats": {
+    "attack": 112,
+    "defense": 113,
+    "stamina": 130
+  },
+  "buddyDistance": 20,
+  "chargeMoves": {
+    "MOVE_FLASH_CANNON": false,
+    "MOVE_THUNDERBOLT": false
+  },
+  "dex": 808,
+  "family": "FAMILY_MELTAN",
+  "generation": 7,
+  "height": 0.2,
+  "name": "Meltan",
+  "nextEvolutions": [
+    {
+      "candy": 400,
+      "pokemon": "POKEMON_MELMETAL"
+    }
+  ],
+  "previousEvolution": null,
+  "quickMoves": {
+    "MOVE_THUNDER_SHOCK_FAST": false
+  },
+  "rarity": "mythic",
+  "types": [
+    "steel"
+  ],
+  "weight": 8
+}

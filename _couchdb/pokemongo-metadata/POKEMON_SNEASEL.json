@@ -1,8 +1,8 @@
 {
   "baseStats": {
     "attack": 189,
-    "defense": 157,
-    "stamina": 110
+    "defense": 146,
+    "stamina": 146
   },
   "buddyDistance": 3,
   "chargeMoves": {
@@ -16,6 +16,11 @@
   "height": 0.89,
   "name": "Sneasel",
   "nextEvolutions": [
+    {
+      "candy": 100,
+      "item": 1106,
+      "pokemon": "POKEMON_WEAVILE"
+    }
   ],
   "previousEvolution": null,
   "quickMoves": {

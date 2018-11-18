@@ -1,8 +1,8 @@
 {
   "baseStats": {
     "attack": 40,
-    "defense": 88,
-    "stamina": 110
+    "defense": 83,
+    "stamina": 146
   },
   "buddyDistance": 3,
   "chargeMoves": {

@@ -28,8 +28,8 @@
   },
   "rarity": "common",
   "types": [
-    "ice",
-    "grass"
+    "grass",
+    "ice"
   ],
   "weight": 50.5
 }

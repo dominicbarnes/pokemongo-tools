@@ -2,7 +2,7 @@
   "baseStats": {
     "attack": 175,
     "defense": 87,
-    "stamina": 120
+    "stamina": 155
   },
   "buddyDistance": 3,
   "chargeMoves": {
@@ -16,6 +16,11 @@
   "height": 0.51,
   "name": "Murkrow",
   "nextEvolutions": [
+    {
+      "candy": 100,
+      "item": 1106,
+      "pokemon": "POKEMON_HONCHKROW"
+    }
   ],
   "previousEvolution": null,
   "quickMoves": {

@@ -1,8 +1,8 @@
 {
   "baseStats": {
     "attack": 206,
-    "defense": 169,
-    "stamina": 130
+    "defense": 154,
+    "stamina": 163
   },
   "buddyDistance": 5,
   "chargeMoves": {
@@ -16,6 +16,11 @@
   "height": 1.3,
   "name": "Magmar",
   "nextEvolutions": [
+    {
+      "candy": 100,
+      "item": 1106,
+      "pokemon": "POKEMON_MAGMORTAR"
+    }
   ],
   "previousEvolution": "POKEMON_MAGBY",
   "quickMoves": {

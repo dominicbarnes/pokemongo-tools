@@ -4,7 +4,7 @@
     "defense": 217,
     "stamina": 198
   },
-  "buddyDistance": 1,
+  "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_AERIAL_ACE": false,
     "MOVE_ANCIENT_POWER": false,

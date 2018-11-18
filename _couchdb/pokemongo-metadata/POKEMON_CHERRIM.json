@@ -6,8 +6,9 @@
   },
   "buddyDistance": 3,
   "chargeMoves": {
+    "MOVE_DAZZLING_GLEAM": false,
     "MOVE_HYPER_BEAM": false,
-    "MOVE_POWER_WHIP": false,
+    "MOVE_POWER_WHIP": true,
     "MOVE_SOLAR_BEAM": false
   },
   "defaultForm": "normal",
@@ -23,8 +24,8 @@
       },
       "buddyDistance": 3,
       "chargeMoves": {
+        "MOVE_DAZZLING_GLEAM": false,
         "MOVE_HYPER_BEAM": false,
-        "MOVE_POWER_WHIP": false,
         "MOVE_SOLAR_BEAM": false
       },
       "dex": 421,
@@ -54,8 +55,8 @@
       },
       "buddyDistance": 3,
       "chargeMoves": {
+        "MOVE_DAZZLING_GLEAM": false,
         "MOVE_HYPER_BEAM": false,
-        "MOVE_POWER_WHIP": false,
         "MOVE_SOLAR_BEAM": false
       },
       "dex": 421,

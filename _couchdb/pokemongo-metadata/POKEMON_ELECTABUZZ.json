@@ -1,8 +1,8 @@
 {
   "baseStats": {
     "attack": 198,
-    "defense": 173,
-    "stamina": 130
+    "defense": 158,
+    "stamina": 163
   },
   "buddyDistance": 5,
   "chargeMoves": {
@@ -16,6 +16,11 @@
   "height": 1.1,
   "name": "Electabuzz",
   "nextEvolutions": [
+    {
+      "candy": 100,
+      "item": 1106,
+      "pokemon": "POKEMON_ELECTIVIRE"
+    }
   ],
   "previousEvolution": "POKEMON_ELEKID",
   "quickMoves": {

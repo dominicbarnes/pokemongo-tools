@@ -6,7 +6,7 @@
   },
   "buddyDistance": 5,
   "chargeMoves": {
-    "MOVE_DAZZLING_GLEAM": false,
+    "MOVE_DAZZLING_GLEAM": true,
     "MOVE_PSYCHIC": false
   },
   "dex": 440,

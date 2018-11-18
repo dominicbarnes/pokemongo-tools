@@ -1,8 +1,8 @@
 {
   "baseStats": {
     "attack": 167,
-    "defense": 167,
-    "stamina": 120
+    "defense": 154,
+    "stamina": 155
   },
   "buddyDistance": 3,
   "chargeMoves": {
@@ -16,6 +16,11 @@
   "height": 0.71,
   "name": "Misdreavus",
   "nextEvolutions": [
+    {
+      "candy": 100,
+      "item": 1106,
+      "pokemon": "POKEMON_MISMAGIUS"
+    }
   ],
   "previousEvolution": null,
   "quickMoves": {

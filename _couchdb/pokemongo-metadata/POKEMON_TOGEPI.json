@@ -2,7 +2,7 @@
   "baseStats": {
     "attack": 67,
     "defense": 116,
-    "stamina": 70
+    "stamina": 111
   },
   "buddyDistance": 3,
   "chargeMoves": {
@@ -17,7 +17,7 @@
   "name": "Togepi",
   "nextEvolutions": [
     {
-      "candy": 50,
+      "candy": 25,
       "pokemon": "POKEMON_TOGETIC"
     }
   ],

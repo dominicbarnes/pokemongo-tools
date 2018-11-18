@@ -6,7 +6,8 @@
   },
   "buddyDistance": 1,
   "chargeMoves": {
-    "MOVE_BULLDOZE": false,
+    "MOVE_BULLDOZE": true,
+    "MOVE_EARTHQUAKE": false,
     "MOVE_ROCK_SLIDE": false,
     "MOVE_ROCK_TOMB": false
   },

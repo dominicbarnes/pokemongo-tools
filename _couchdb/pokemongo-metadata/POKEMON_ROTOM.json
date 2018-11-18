@@ -37,7 +37,7 @@
       "previousEvolution": null,
       "quickMoves": {
         "MOVE_AIR_SLASH_FAST": false,
-        "MOVE_TACKLE_FAST": false
+        "MOVE_ASTONISH_FAST": false
       },
       "rarity": "common",
       "types": [
@@ -68,7 +68,7 @@
       ],
       "previousEvolution": null,
       "quickMoves": {
-        "MOVE_TACKLE_FAST": false,
+        "MOVE_ASTONISH_FAST": false,
         "MOVE_THUNDER_SHOCK_FAST": false
       },
       "rarity": "common",
@@ -100,7 +100,7 @@
       ],
       "previousEvolution": null,
       "quickMoves": {
-        "MOVE_TACKLE_FAST": false,
+        "MOVE_ASTONISH_FAST": false,
         "MOVE_THUNDER_SHOCK_FAST": false
       },
       "rarity": "common",
@@ -132,7 +132,7 @@
       ],
       "previousEvolution": null,
       "quickMoves": {
-        "MOVE_TACKLE_FAST": false,
+        "MOVE_ASTONISH_FAST": false,
         "MOVE_THUNDER_SHOCK_FAST": false
       },
       "rarity": "common",
@@ -164,7 +164,7 @@
       ],
       "previousEvolution": null,
       "quickMoves": {
-        "MOVE_TACKLE_FAST": false,
+        "MOVE_ASTONISH_FAST": false,
         "MOVE_THUNDER_SHOCK_FAST": false
       },
       "rarity": "common",
@@ -196,7 +196,7 @@
       ],
       "previousEvolution": null,
       "quickMoves": {
-        "MOVE_TACKLE_FAST": false,
+        "MOVE_ASTONISH_FAST": false,
         "MOVE_THUNDER_SHOCK_FAST": false
       },
       "rarity": "common",
@@ -214,7 +214,8 @@
   ],
   "previousEvolution": null,
   "quickMoves": {
-    "MOVE_TACKLE_FAST": false,
+    "MOVE_ASTONISH_FAST": false,
+    "MOVE_TACKLE_FAST": true,
     "MOVE_THUNDER_SHOCK_FAST": false
   },
   "rarity": "common",

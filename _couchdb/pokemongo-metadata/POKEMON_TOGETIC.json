@@ -1,8 +1,8 @@
 {
   "baseStats": {
     "attack": 139,
-    "defense": 191,
-    "stamina": 110
+    "defense": 181,
+    "stamina": 146
   },
   "buddyDistance": 3,
   "chargeMoves": {
@@ -16,6 +16,11 @@
   "height": 0.61,
   "name": "Togetic",
   "nextEvolutions": [
+    {
+      "candy": 100,
+      "item": 1106,
+      "pokemon": "POKEMON_TOGEKISS"
+    }
   ],
   "previousEvolution": "POKEMON_TOGEPI",
   "quickMoves": {

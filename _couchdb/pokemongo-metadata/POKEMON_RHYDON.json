@@ -1,8 +1,8 @@
 {
   "baseStats": {
     "attack": 222,
-    "defense": 206,
-    "stamina": 210
+    "defense": 171,
+    "stamina": 233
   },
   "buddyDistance": 3,
   "chargeMoves": {
@@ -17,6 +17,11 @@
   "height": 1.9,
   "name": "Rhydon",
   "nextEvolutions": [
+    {
+      "candy": 100,
+      "item": 1106,
+      "pokemon": "POKEMON_RHYPERIOR"
+    }
   ],
   "previousEvolution": "POKEMON_RHYHORN",
   "quickMoves": {

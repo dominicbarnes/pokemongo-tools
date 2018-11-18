@@ -1,8 +1,8 @@
 {
   "baseStats": {
     "attack": 198,
-    "defense": 183,
-    "stamina": 170
+    "defense": 180,
+    "stamina": 198
   },
   "buddyDistance": 3,
   "chargeMoves": {
@@ -16,6 +16,11 @@
   "height": 0.61,
   "name": "Porygon2",
   "nextEvolutions": [
+    {
+      "candy": 100,
+      "item": 1106,
+      "pokemon": "POKEMON_PORYGON_Z"
+    }
   ],
   "previousEvolution": "POKEMON_PORYGON",
   "quickMoves": {

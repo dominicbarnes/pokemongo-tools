@@ -1,8 +1,8 @@
 {
   "baseStats": {
     "attack": 80,
-    "defense": 153,
-    "stamina": 62
+    "defense": 126,
+    "stamina": 104
   },
   "buddyDistance": 5,
   "chargeMoves": {
@@ -20,10 +20,6 @@
     {
       "candy": 50,
       "pokemon": "POKEMON_NINJASK"
-    },
-    {
-      "candy": 50,
-      "pokemon": "POKEMON_SHEDINJA"
     }
   ],
   "previousEvolution": null,

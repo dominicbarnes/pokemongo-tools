@@ -6,8 +6,9 @@
   },
   "buddyDistance": 3,
   "chargeMoves": {
+    "MOVE_DAZZLING_GLEAM": false,
     "MOVE_PETAL_BLIZZARD": false,
-    "MOVE_POWER_WHIP": false,
+    "MOVE_POWER_WHIP": true,
     "MOVE_SEED_BOMB": false
   },
   "dex": 420,
@@ -25,14 +26,6 @@
       "candy": 50,
       "form": "sunny",
       "pokemon": "POKEMON_CHERRIM"
-    },
-    {
-      "candy": 50,
-      "pokemon": "POKEMON_undefined"
-    },
-    {
-      "candy": 50,
-      "pokemon": "POKEMON_undefined"
     }
   ],
   "previousEvolution": null,
