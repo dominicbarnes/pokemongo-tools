@@ -1,16 +1,15 @@
 
 const Case = require('case')
-const POGOProtos = require('node-pogo-protos-vnext')
 const costumes = require('./costumes.json')
 
-module.exports = function (m, data, special) {
+module.exports = function (m, data, special, enums) {
   const pokemon = new Map()
 
   if (data.has('pokemonSettings')) {
     // set up all the base/normal forms (skip any alternate forms)
     data.get('pokemonSettings').forEach(settings => {
       if (settings.form) return
-      pokemon.set(`POKEMON_${settings.pokemonId}`, document(settings))
+      pokemon.set(`POKEMON_${settings.pokemonId}`, document(settings, enums))
     })
 
     // set up alternate forms that have their own metadata/stats
@@ -22,7 +21,7 @@ module.exports = function (m, data, special) {
         doc.defaultForm = 'normal'
         doc.forms = Object.create(null)
       }
-      doc.forms[f] = document(settings)
+      doc.forms[f] = document(settings, enums)
     })
   }
 
@@ -64,13 +63,13 @@ function generation (dex) {
     case dex <= 493: return 4
     case dex <= 649: return 5
     case dex <= 721: return 6
-    case dex <= 802: return 7
+    case dex <= 809: return 7
     default: return -1
   }
 }
 
-function document (pokemon) {
-  const dex = POGOProtos.Enums.PokemonId[pokemon.pokemonId]
+function document (pokemon, { PokemonId }) {
+  const dex = PokemonId[pokemon.pokemonId]
 
   return {
     name: name(pokemon),

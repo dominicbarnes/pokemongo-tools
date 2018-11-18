@@ -50,7 +50,6 @@
     "nano-blue": "^0.3.0",
     "nano-markdown": "^1.2.0",
     "nano-promises": "^1.2.0",
-    "node-pogo-protos-vnext": "^2.28.0",
     "node-prune": "^1.0.2",
     "numeral": "^2.0.6",
     "postcss-cli": "^5.0.1",
@@ -58,6 +57,7 @@
     "postcss-url": "^7.3.1",
     "pouchdb": "^6.3.4",
     "pouchdb-browser": "^6.3.4",
+    "protobufjs": "^6.8.8",
     "sift": "^5.1.0",
     "sort-by": "^1.2.0",
     "uglifyify": "^4.0.5",
@@ -104,6 +104,7 @@
   "eslintIgnore": [
     "_couchdb/**",
     "public/**",
-    "pokemongo-game-master/**"
+    "pokemongo-game-master/**",
+    "POGOProtos/**"
   ]
 }

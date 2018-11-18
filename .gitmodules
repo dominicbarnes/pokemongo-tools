@@ -2,3 +2,7 @@
 	path = pokemongo-game-master
 	url = https://github.com/pokemongo-dev-contrib/pokemongo-game-master.git
 	branch = pogoprotos-2.36.0
+
+[submodule "POGOProtos"]
+	path = POGOProtos
+	url = git@github.com:Furtif/POGOProtos.git

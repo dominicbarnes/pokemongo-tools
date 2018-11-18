@@ -8,7 +8,7 @@ const root = path.resolve(__dirname, '../..')
 const input = path.join(root, 'pokemongo-game-master')
 const output = path.join(root, '_couchdb/pokemongo-metadata')
 
-module.exports = async function () {
+module.exports = async function (enums) {
   const data = new Map()
 
   console.log('importing GAME_MASTER data')
@@ -19,7 +19,7 @@ module.exports = async function () {
     console.log('> version %s', version)
     const file = path.join(input, 'versions', version.toString(), 'GAME_MASTER.json')
     const json = await fs.readJson(file)
-    mine(data, json)
+    mine(data, json, false, enums)
   }
 
   const specials = await fs.readdir(path.join(input, 'special'))
@@ -27,7 +27,7 @@ module.exports = async function () {
     console.log('> special %s', path.basename(special, '.json'))
     const file = path.join(input, 'special', special)
     const json = await fs.readJson(file)
-    mine(data, json, true)
+    mine(data, json, true, enums)
   }
 
   console.log('outputting %s CouchDB documents', data.size)

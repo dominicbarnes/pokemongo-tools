@@ -1,8 +1,7 @@
 
-const POGOProtos = require('node-pogo-protos-vnext')
 const sortBy = require('sort-by')
 
-module.exports = function (m, data) {
+module.exports = function (m, data, special, { PokemonType }) {
   if (!data.has('typeEffective')) return
 
   const list = Array.from(data.get('typeEffective')).map(effective => {
@@ -10,7 +9,7 @@ module.exports = function (m, data) {
 
     return {
       name: id.replace('POKEMON_TYPE_', '').toLowerCase(),
-      sort: POGOProtos.Enums.PokemonType[id],
+      sort: PokemonType[id],
       multipliers: effective.attackScalar
     }
   })

@@ -7,9 +7,9 @@ const transformers = [
   require('./settings.js')
 ]
 
-module.exports = function (m, raw, special) {
+module.exports = async function (m, raw, special, enums) {
   const data = prepare(raw)
-  transformers.forEach(fn => fn(m, data, special))
+  transformers.forEach(fn => fn(m, data, special, enums))
 }
 
 function prepare (data) {
