@@ -10,7 +10,7 @@
         <b-collapse is-nav id="main-nav">
           <b-navbar-nav>
             <b-nav-item to="/pokedex">Pokédex</b-nav-item>
-            <b-nav-item to="/types">Type Chart</b-nav-item>
+            <b-nav-item to="/types">Types</b-nav-item>
             <b-nav-item to="/catalog">
               Catalog
               <b-badge v-if="catalogCount > 0">{{ catalogCount }}</b-badge>
