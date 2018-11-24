@@ -1,25 +1,37 @@
 <template>
   <loading-panel>
     <b-container fluid>
-      <b-row>
-        <b-col md="3" lg="2" class="bg-light pt-2">
-          <h3>Filters</h3>
-          <pokedex-filters v-model="filters" />
+      <b-row class="py-2 bg-light">
+        <b-col cols="12">
+          <b-input-group prepend="Search">
+            <b-form-input v-model="search" type="search" placeholder="Enter Keywords..." />
+            <b-input-group-append>
+              <b-button v-b-modal.filter>Add Filter</b-button>
+            </b-input-group-append>
+          </b-input-group>
         </b-col>
-        <b-col md="9" lg="10" class="pt-2">
-          <div class="mb-2">
-            <b-button v-bind:pressed.sync="shiny">Shiny Forms</b-button>
-          </div>
-          <paginated-list v-bind:list="list" v-bind:filter="filterer">
-            <template slot="item" slot-scope="{ item: pokemon }">
-              <b-col v-bind:key="pokemon.id" cols="12" md="6" lg="3">
-                <pokedex-item v-bind:pokemon="pokemon" v-bind:shiny="shiny" />
-              </b-col>
-            </template>
-          </paginated-list>
+        <b-col v-if="isFiltered" cols="12" class="mt-2">
+          Showing:
+          <b-button v-for="(filter, index) in filterBy" v-on:click="removeFilter(index)" size="sm" variant="info" title="Click to Remove Filter" class="ml-1">
+            {{ filter.label }}
+          </b-button>
+          <b-button variant="warning" size="sm" v-on:click="removeAllFilters()">Remove All Filters</b-button>
         </b-col>
       </b-row>
+      <div class="mb-2">
+        <b-button v-bind:pressed.sync="shiny">Shiny Forms</b-button>
+      </div>
+      <paginated-list v-bind:list="list" v-bind:filter="filterer">
+        <template slot="item" slot-scope="{ item: pokemon }">
+          <b-col v-bind:key="pokemon.id" cols="12" md="6" lg="3">
+            <pokedex-item v-bind:pokemon="pokemon" v-bind:shiny="shiny" />
+          </b-col>
+        </template>
+      </paginated-list>
     </b-container>
+    <b-modal id="filter" title="Add Filter" v-on:ok="addFilter(filter)">
+      <pokedex-filters v-model="filter" />
+    </b-modal>
   </loading-panel>
 </template>
 
@@ -35,7 +47,9 @@
     data() {
       return {
         shiny: false,
-        filters: Object.create(null)
+        search: '',
+        filter: null,
+        filterBy: {}
       }
     },
 
@@ -48,16 +62,35 @@
       },
 
       filterer() {
-        const { name, types, rarity, generation, family } = this.filters
-        const query = {}
+        const { search, filterBy } = this
+        const $and = []
 
-        if (name) query.name = new RegExp(name, 'i')
-        if (types && types.length) query.types = { $all: types.slice() }
-        if (rarity) query.rarity = rarity === 'common' ? null : rarity
-        if (generation) query.generation = generation
-        if (family) query.family = family
+        if (search) {
+          $and.push({ name: new RegExp(search, 'i') })
+        }
+        if (filterBy) {
+          Object.keys(filterBy).map(key => filterBy[key].value).forEach(f => $and.push(f))
+        }
 
-        return Object.keys(query).length ? sift(query) : null
+        return $and.length ? sift({ $and }) : null
+      },
+
+      isFiltered() {
+        return Object.keys(this.filterBy).length > 0
+      }
+    },
+
+    methods: {
+      addFilter({ id, value, label }) {
+        this.$set(this.filterBy, id, { value, label })
+      },
+
+      removeFilter(id) {
+        this.$delete(this.filterBy, id)
+      },
+
+      removeAllFilters() {
+        this.$set(this, 'filterBy', {})
       }
     },
 
