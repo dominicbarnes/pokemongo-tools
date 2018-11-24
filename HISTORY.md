@@ -1,4 +1,25 @@
 
+0.13.0 / 2018-11-24
+===================
+
+  * chore(dependencies): update POGOProtos
+  * feat(pokedex): port new filter system from catalog
+  * feat(metadata): pull every 1m, rather than only on load
+  * feat(types): rewrite types page to be more useable (fixes #2)
+  * fix(service-worker): workbox@3 updates, precache pokemon 000 icon
+  * test(travis-ci): fix gitmodules so it will work on CI, switch back to master for game-master
+  * feat(service-worker): upgrade to workbox@3, add caching for icons
+  * chore(metadata): process versions in proper order
+  * feat(metadata): switch from node-pogo-protos-vnext to using POGOProtos directly
+  * chore(metadata): build using a branch to get stat rebalance + meltan family
+  * refactor(catalog): use updated vuex hoodie module
+  * refactor(store): rewriting vuex internals regarding hoodie
+  * feat: remove analytics/tracking
+  * feat(catalog): initial implementation of lists
+  * feat(catalog): add presets for iv and level filters
+  * feat(catalog): add move filters, fix level filter
+  * feat(catalog): rewrite filter ui and internals in preparation for lists
+
 0.12.0 / 2018-11-08
 ===================
 
