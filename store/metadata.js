@@ -147,7 +147,7 @@ const mutations = {
 }
 
 const actions = {
-  async init ({ commit, state }) {
+  async init ({ commit, dispatch }) {
     try {
       commit('metadata', await store.findAll())
       commit('loaded')
@@ -155,9 +155,16 @@ const actions = {
       console.warn('metadata not found in local cache')
     }
 
-    await store.pull()
-    commit('metadata', await store.findAll())
+    await dispatch('pull')
     commit('loaded')
+
+    setInterval(() => dispatch('pull'), 60000)
+  },
+
+  async pull ({ commit }) {
+    const pulled = await store.pull()
+    if (!pulled.length) return
+    commit('metadata', await store.findAll())
   }
 }
 
