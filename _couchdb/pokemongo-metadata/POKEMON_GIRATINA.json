@@ -10,7 +10,7 @@
     "MOVE_DRAGON_CLAW": false,
     "MOVE_SHADOW_SNEAK": false
   },
-  "defaultForm": "normal",
+  "defaultForm": "altered",
   "dex": 487,
   "family": "FAMILY_GIRATINA",
   "forms": {

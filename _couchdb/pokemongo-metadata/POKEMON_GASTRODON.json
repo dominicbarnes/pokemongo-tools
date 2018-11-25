@@ -10,7 +10,7 @@
     "MOVE_EARTHQUAKE": false,
     "MOVE_WATER_PULSE": false
   },
-  "defaultForm": "normal",
+  "defaultForm": "west_sea",
   "dex": 423,
   "family": "FAMILY_SHELLOS",
   "forms": {

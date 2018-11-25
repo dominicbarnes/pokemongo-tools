@@ -10,7 +10,7 @@
     "MOVE_GRASS_KNOT": false,
     "MOVE_SOLAR_BEAM": false
   },
-  "defaultForm": "normal",
+  "defaultForm": "land",
   "dex": 492,
   "family": "FAMILY_SHAYMIN",
   "forms": {
