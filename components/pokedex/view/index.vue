@@ -26,7 +26,7 @@
         </b-row>
         <b-card-group columns>
           <card-basic v-bind:metadata="pokemon" />
-          <card-evolutions v-bind:metadata="pokemon" />
+          <card-evolutions v-if="hasEvolutions" v-bind:metadata="pokemon" />
           <card-stats v-bind:metadata="pokemon" />
           <card-moves v-bind:metadata="pokemon" />
         </b-card-group>
@@ -53,6 +53,11 @@
 
       pokemon() {
         return this.pokemonByID(this.$route.params.pokemon)
+      },
+
+      hasEvolutions() {
+        const { previousEvolution, nextEvolutions } = this.pokemon
+        return !!previousEvolution || nextEvolutions.length > 0
       },
 
       prev() {
