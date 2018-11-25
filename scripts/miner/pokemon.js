@@ -15,12 +15,9 @@ module.exports = function (m, data, special, enums) {
     // set up alternate forms that have their own metadata/stats
     data.get('pokemonSettings').forEach(settings => {
       if (!settings.form) return
-      const f = form(settings)
       const doc = pokemon.get(`POKEMON_${settings.pokemonId}`)
-      if (!doc.forms) {
-        doc.defaultForm = 'normal'
-        doc.forms = Object.create(null)
-      }
+      const f = form(settings)
+      if (!doc.forms) doc.forms = Object.create(null)
       doc.forms[f] = document(settings, enums)
     })
   }
@@ -33,10 +30,8 @@ module.exports = function (m, data, special, enums) {
       settings.forms.forEach(form => {
         if (typeof form.form !== 'string') return // HACK
         const f = form.form.replace(`${settings.pokemon}_`, '').toLowerCase()
-        if (!doc.forms) {
-          doc.defaultForm = f
-          doc.forms = Object.create(null)
-        }
+        if (!doc.forms) doc.forms = Object.create(null)
+        if (!doc.defaultForm) doc.defaultForm = f
         if (!doc.forms[f]) {
           doc.forms[f] = { name: `${doc.name} (${Case.title(f)})`, assetBundle: form.assetBundleValue }
         } else {
