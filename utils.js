@@ -30,7 +30,7 @@ const baseSpriteURL = 'https://raw.githubusercontent.com/ZeChrales/PogoAssets/ma
 // TODO: rename sprite -> icon
 exports.spriteURL = function (metadata, catalog) {
   if (!metadata) return `${baseSpriteURL}/pokemon_icons/pokemon_icon_000.png`
-  const bundle = metadata.assetBundle || 0
+  const bundle = getAssetBundle(metadata, catalog)
   let basename = `pokemon_icon_${numeral(metadata.dex).format('000')}_${numeral(bundle).format('00')}`
   if (catalog) {
     if (catalog.costume) {
@@ -48,4 +48,13 @@ exports.smallIconURL = function (metadata) {
   if (!metadata) return null
   let basename = `pokemon_icon_${numeral(metadata.dex).format('000')}_00`
   return `${baseSpriteURL}/pixels/${basename}.png`
+}
+
+function getAssetBundle (metadata, catalog) {
+  const form = catalog.form || metadata.defaultForm
+  if (form && metadata.forms && form in metadata.forms) {
+    const formMetadata = metadata.forms[form]
+    if (formMetadata.assetBundle) return formMetadata.assetBundle
+  }
+  return metadata.assetBundle
 }

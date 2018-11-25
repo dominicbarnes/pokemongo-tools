@@ -12,6 +12,7 @@
     <b-form inline class="mt-3">
       <b-form-checkbox v-model="shiny">Shiny</b-form-checkbox>
       <b-form-select v-if="metadata.costumes" v-model="costume" v-bind:options="costumeOptions" />
+      <b-form-select v-if="metadata.forms" v-model="form" v-bind:options="formOptions" />
     </b-form>
   </b-card>
 </template>
@@ -27,6 +28,7 @@
   export default {
     data() {
       return {
+        form: this.metadata.defaultForm,
         costume: null,
         shiny: false
       }
@@ -43,8 +45,8 @@
       ...mapGetters([ 'fallbackSpriteURL' ]),
 
       spriteURL() {
-        const { metadata, costume, shiny } = this
-        return spriteURL(metadata, { costume, shiny })
+        const { metadata, form, costume, shiny } = this
+        return spriteURL(metadata, { form, costume, shiny })
       },
 
       costumeOptions() {
@@ -56,6 +58,17 @@
           options.push({ text: Case.title(key), value: key })
         })
         return options
+      },
+
+      formOptions() {
+        const { forms } = this.metadata
+        return Object.keys(forms).sort().map(key => {
+          const metadata = Object.assign({}, this.metadata, forms[key])
+          return {
+            text: metadata.name,
+            value: key
+          }
+        })
       }
     },
 

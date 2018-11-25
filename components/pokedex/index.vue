@@ -55,10 +55,7 @@
 
     computed: {
       list() {
-        return this.$store.getters.pokemonSort([ 'dex', 'name' ]).map(pokemon => {
-          const { _id: id, dex, name, types, rarity, generation, family, assetBundle } = pokemon
-          return { dex, id, name, types, rarity, generation, family, assetBundle }
-        })
+        return this.$store.getters.pokemonSort([ 'dex', 'name' ])
       },
 
       filterer() {

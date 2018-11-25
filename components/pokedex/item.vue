@@ -3,7 +3,7 @@
     <b-card-img v-bind:src="spriteURL" v-img-fallback="fallbackSpriteURL" />
     <b-card-body>
       <h2 class="h3 mt-1 mb-0">
-        <b-link v-bind:to="{ name: 'pokedex-view', params: { pokemon: pokemon.id } }">{{pokemon.name}}</b-link>
+        <b-link v-bind:to="{ name: 'pokedex-view', params: { pokemon: pokemon._id } }">{{pokemon.name}}</b-link>
       </h2>
       <b-badge variant="dark">{{ pokemon.dex | dex }}</b-badge>
       <generation-badge v-bind:generation="pokemon.generation" />
