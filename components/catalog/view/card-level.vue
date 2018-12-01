@@ -2,11 +2,17 @@
   <b-card title="Level">
     <progress-level v-bind:level="pokemon.level" class="mb-2" />
     <b-alert v-if="pokemon.level < 40" variant="secondary" show>
-      To fully power up this Pokémon, you will need
-      <b-badge>{{ upgradeCost.stardust | number('0,0') }}</b-badge>
-      stardust and
-      <b-badge>{{ upgradeCost.candy }}</b-badge>
-      candy.
+      <p>
+        To fully power up this Pokémon, you will need
+        <b-badge>{{ upgradeCost.stardust | number('0,0') }}</b-badge>
+        stardust and
+        <b-badge>{{ upgradeCost.candy }}</b-badge>
+        candy.
+      </p>
+      <p class="mb-0">
+        The maximum possible CP is:
+        <b-badge>{{ pokemon.maxCP | number('0,0') }}</b-badge>
+      </p>
     </b-alert>
     <b-alert v-else variant="primary" show>
       This Pokémon is fully powered up.

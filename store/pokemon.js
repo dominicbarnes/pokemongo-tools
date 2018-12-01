@@ -12,6 +12,7 @@ export default function pokemon (catalog, state) {
 
   const species = pokemonByID(catalog.pokemonID)
   const multiplier = cpMultipliers(catalog.level)
+  const multiplier40 = cpMultipliers(40)
 
   const { attack, defense, stamina } = metadata.baseStats
   const { hoodie, attackIV = 0, defenseIV = 0, staminaIV = 0 } = catalog
@@ -44,6 +45,8 @@ export default function pokemon (catalog, state) {
     level: catalog.level,
     cp: cp(totalAttack, totalDefense, totalStamina, multiplier),
     hp: hp(totalStamina, multiplier),
+    maxCP: cp(attack + 15, defense + 15, stamina + 15, multiplier40),
+    maxHP: hp(stamina + 15, multiplier40),
     multiplier: multiplier,
     attack: totalAttack,
     defense: totalDefense,
