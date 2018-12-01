@@ -7,7 +7,7 @@ import Vue from 'vue'
 
 import config from '../config'
 import { index } from './utils'
-import { spriteURL } from '../utils.js'
+import { spriteURL, cp } from '../utils.js'
 
 const store = new Store('pokemongo-metadata', {
   PouchDB: PouchDB,
@@ -105,6 +105,16 @@ const getters = {
       }
       return parseFloat(xlevel)
     }
+  },
+  maxPossibleCP ({ pokemon }, { cpMultipliers }) {
+    const multiplier = cpMultipliers(40)
+    const cps = pokemon.map(doc => {
+      const attack = doc.baseStats.attack + 15
+      const defense = doc.baseStats.defense + 15
+      const stamina = doc.baseStats.defense + 15
+      return cp(attack, defense, stamina, multiplier)
+    })
+    return Math.max(...cps)
   },
 
   upgradeCosts ({ upgradeCosts }) {

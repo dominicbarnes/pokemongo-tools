@@ -25,6 +25,11 @@
       <b-button variant="info" block class="mb-1" v-on:click="levels = [ 20, 20 ]">Hatch / Raid</b-button>
       <b-button variant="info" block class="mb-1" v-on:click="levels = [ 15, 15 ]">Research</b-button>
     </b-tab>
+    <b-tab title="Combat Power" v-on:click="refresh">
+      <vue-slider ref="cp" type="range" v-bind:min="10" v-bind:max="maxPossibleCP" v-bind:interval="1" v-bind:value="cp" v-on:input="setCP" class="mb-3" />
+      <b-button variant="primary" block class="mb-1" v-on:click="cp = [ 10, 2500 ]">Ultra League</b-button>
+      <b-button variant="info" block class="mb-1" v-on:click="cp = [ 10, 1500 ]">Great League</b-button>
+    </b-tab>
     <b-tab title="Quick Move">
       <b-select v-bind:options="quickMoveOptions" v-on:input="setQuickMove" />
     </b-tab>
@@ -55,6 +60,7 @@
 <script>
   import { mapGetters, mapState } from 'vuex'
   import Case from 'case'
+  import numeral from 'numeral'
 
   import VueSlider from 'vue-slider-component'
   import { BadgeType } from '../badges'
@@ -68,6 +74,7 @@
   export default {
     data() {
       return {
+        cp: [ 10, 10 ],
         ivs: [ 0, 100 ],
         levels: [ 1, 40 ]
       }
@@ -80,7 +87,8 @@
         'movesByID',
         'pokemonThatEvolve',
         'pokemonGenerations',
-        'quickMoves'
+        'quickMoves',
+        'maxPossibleCP'
       ]),
 
       ...mapState({
@@ -150,6 +158,7 @@
         this.$nextTick(() => {
           this.$refs.ivs.refresh()
           this.$refs.levels.refresh()
+          this.$refs.cp.refresh()
         })
       },
 
@@ -216,7 +225,7 @@
           label = `${range[0]}% IVs`
           value.percentIV = range[0] / 100
         } else {
-          label = range.join('-') + '% IVs'
+          label = range.join(' ➜ ') + '% IVs'
           value.percentIV = {
             $gte: range[0] / 100,
             $lte: range[1] / 100
@@ -234,10 +243,25 @@
           label += range[0]
           value.level = range[0]
         } else {
-          label += range.join('-')
+          label += range.join(' ➜ ')
           value.level = { $gte: range[0], $lte: range[1] }
         }
         this.set('levels', value, label)
+      },
+
+      setCP(range) {
+        let label
+        let value = { cp: null }
+
+        if (range[0] === range[1]) {
+          label = numeral(range[0]).format('0,0')
+          value.cp = range[0]
+        } else {
+          label = range.map(x => numeral(x).format('0,0')).join(' ➜ ')
+          value.cp = { $gte: range[0], $lte: range[1] }
+        }
+        label += ' CP'
+        this.set('cp', value, label)
       },
 
       setQuickMove(quickMoveID) {
@@ -251,6 +275,10 @@
       }
     },
 
-    components: { BadgeType, VueSlider }
+    components: { BadgeType, VueSlider },
+
+    created() {
+      this.cp[1] = this.maxPossibleCP
+    }
   }
 </script>
