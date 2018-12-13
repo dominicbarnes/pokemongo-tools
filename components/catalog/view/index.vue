@@ -10,7 +10,7 @@
       <b-container fluid class="p-3">
         <b-card-group columns>
           <card-basic v-bind:pokemon="pokemon" />
-          <card-level v-bind:pokemon="pokemon" />
+          <card-power-up v-bind:pokemon="pokemon" />
           <card-stats v-bind:pokemon="pokemon" />
           <card-moves v-bind:pokemon="pokemon" />
           <card-history v-bind:pokemon="pokemon" />
@@ -25,8 +25,8 @@
 
   import CardBasic from './card-basic.vue'
   import CardHistory from './card-history.vue'
-  import CardLevel from './card-level.vue'
   import CardMoves from './card-moves.vue'
+  import CardPowerUp from './card-power-up.vue'
   import CardStats from './card-stats.vue'
 
   export default {
@@ -45,6 +45,6 @@
       }
     },
 
-    components: { CardBasic, CardHistory, CardLevel, CardMoves, CardStats }
+    components: { CardBasic, CardHistory, CardMoves, CardPowerUp, CardStats }
   }
 </script>

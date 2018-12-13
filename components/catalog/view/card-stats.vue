@@ -19,6 +19,9 @@
       <stat-grid-cell cols="4" label="STA">
         <progress-iv v-bind:iv="pokemon.staminaIV" />
       </stat-grid-cell>
+      <stat-grid-cell cols="4" label="Level">
+        <progress-level v-bind:level="pokemon.level" />
+      </stat-grid-cell>
     </stat-grid>
     <b-alert show v-if="pokemon.uncertainIV" variant="warning">
       <b>NOTE:</b>
@@ -31,7 +34,7 @@
   import { mapGetters } from 'vuex'
 
   import { BadgeIvs } from '../../badges'
-  import { ProgressIv } from '../../progress'
+  import { ProgressIv, ProgressLevel } from '../../progress'
 
   import StatGrid from '../../stat-grid.vue'
   import StatGridCell from '../../stat-grid-cell.vue'
@@ -50,6 +53,6 @@
       }
     },
 
-    components: { BadgeIvs, ProgressIv, StatGrid, StatGridCell }
+    components: { BadgeIvs, ProgressIv, ProgressLevel, StatGrid, StatGridCell }
   }
 </script>
