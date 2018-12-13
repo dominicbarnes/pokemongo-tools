@@ -19,7 +19,7 @@
       <stat-grid-cell cols="4" label="STA">
         <progress-iv v-bind:iv="pokemon.staminaIV" />
       </stat-grid-cell>
-      <stat-grid-cell cols="4" label="Level">
+      <stat-grid-cell cols="12" label="Level">
         <progress-level v-bind:level="pokemon.level" />
       </stat-grid-cell>
     </stat-grid>
