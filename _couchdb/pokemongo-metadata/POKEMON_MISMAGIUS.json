@@ -4,7 +4,7 @@
     "defense": 187,
     "stamina": 155
   },
-  "buddyDistance": 1,
+  "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_DARK_PULSE": false,
     "MOVE_DAZZLING_GLEAM": false,

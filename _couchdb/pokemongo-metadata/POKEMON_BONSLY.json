@@ -4,7 +4,7 @@
     "defense": 133,
     "stamina": 137
   },
-  "buddyDistance": 1,
+  "buddyDistance": 5,
   "chargeMoves": {
     "MOVE_BULLDOZE": true,
     "MOVE_EARTHQUAKE": false,

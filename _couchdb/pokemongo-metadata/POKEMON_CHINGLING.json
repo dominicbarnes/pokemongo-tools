@@ -4,7 +4,7 @@
     "defense": 94,
     "stamina": 128
   },
-  "buddyDistance": 1,
+  "buddyDistance": 5,
   "chargeMoves": {
     "MOVE_PSYSHOCK": false,
     "MOVE_SHADOW_BALL": false,

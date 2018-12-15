@@ -19,7 +19,7 @@
   "nextEvolutions": [
     {
       "candy": 100,
-      "item": 1106,
+      "item": "ITEM_GEN4_EVOLUTION_STONE",
       "pokemon": "POKEMON_ROSERADE"
     }
   ],
