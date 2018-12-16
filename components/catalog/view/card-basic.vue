@@ -11,6 +11,9 @@
     <center>
       <b-img v-bind:src="pokemon.spriteURL" v-img-fallback="fallbackSpriteURL" />
     </center>
+    <b-alert show v-if="pokemon.notes" variant="info" class="card-text mt-2">
+      <b>Notes:</b> {{ pokemon.notes }}
+    </b-alert>
     <b-button v-bind:to="{ name: 'pokedex-view', params: { pokemon: pokemon.pokemonID } }" target="_blank">Pokédex</b-button>
     <b-button v-if="pokemon.nextEvolutions.length" v-b-modal.modalEvolve variant="info">Evolve</b-button>
     <b-modal id="modalEvolve" title="Evolve" v-on:ok="evolve()">
