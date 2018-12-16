@@ -1,4 +1,20 @@
 
+0.14.0 / 2018-12-15
+===================
+
+  * feat(types): new UI
+  * chore: update submodules
+  * feat(catalog): have level slider span whole row
+  * feat(catalog): new and improved power up card
+  * chore: update submodules
+  * feat(catalog): add max cp/hp stats
+  * feat(catalog): add cp filter
+  * chore(package): update dependencies
+  * chore(metadata): regenerate
+  * fix(metadata): handle default form when normal is not available
+  * feat(pokedex): support alternate forms (fixes #16)
+  * feat(pokedex): hide evolutions card when not relevant
+
 0.13.0 / 2018-11-24
 ===================
 
