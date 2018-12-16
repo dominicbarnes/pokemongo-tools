@@ -16,6 +16,10 @@
     </stat-grid>
     <vue-slider ref="level" v-bind:min="pokemon.level" v-bind:max="40" v-bind:interval="0.5" v-model="level" />
     <center class="mt-3">
+      <b-button v-if="greatLeagueLevel" v-on:click="level = greatLeagueLevel">Great League</b-button>
+      <b-button v-if="ultraLeagueLevel" v-on:click="level = ultraLeagueLevel">Ultra League</b-button>
+    </center>
+    <center class="mt-3">
       <b-button v-on:click="powerUp(level)" v-bind:disabled="level === pokemon.level" variant="success">Power Up to Level {{ level | number('0.0') }}</b-button>
     </center>
   </b-card>
@@ -72,6 +76,14 @@
 
       calculatedHP() {
         return hp(this.pokemon.stamina, this.multiplier)
+      },
+
+      greatLeagueLevel() {
+        return this.getMaxLevel(1500)
+      },
+
+      ultraLeagueLevel() {
+        return this.getMaxLevel(2500)
       }
     },
 
@@ -84,6 +96,20 @@
           }
         })
       },
+
+      getMaxLevel(maxCP) {
+        const { attack, defense, stamina } = this.pokemon
+        const { cpMultipliers } = this
+
+        if (this.pokemon.cp > 2500) return null
+
+        for (let x = this.pokemon.level; x <= 40; x += 0.5) {
+          const newCP = cp(attack, defense, stamina, cpMultipliers(x))
+          if (newCP > maxCP) return x - 0.5
+        }
+
+        return 40
+      }
     },
 
     mounted() {
