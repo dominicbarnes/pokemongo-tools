@@ -101,7 +101,7 @@
         const { attack, defense, stamina } = this.pokemon
         const { cpMultipliers } = this
 
-        if (this.pokemon.cp > 2500) return null
+        if (this.pokemon.cp > maxCP) return null
 
         for (let x = this.pokemon.level; x <= 40; x += 0.5) {
           const newCP = cp(attack, defense, stamina, cpMultipliers(x))
