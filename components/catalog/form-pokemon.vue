@@ -69,7 +69,7 @@
         </b-form-group>
 
           <b-row>
-            <b-col md="6">
+            <b-col md="4">
               <b-form-group label="Quick Move">
                 <b-form-select v-model="value.quickMove">
                   <option v-bind:value="null">&mdash;</option>
@@ -90,9 +90,30 @@
                 </b-form-select>
               </b-form-group>
             </b-col>
-            <b-col md="6">
+            <b-col md="4">
               <b-form-group label="Charge Move">
                 <b-form-select v-model="value.chargeMove">
+                  <option v-bind:value="null">&mdash;</option>
+                  <optgroup v-if="metadataChargeMoves" label="Can be learned by selected Pokémon">
+                    <option v-for="move in metadataChargeMoves" v-bind:key="move.id" v-bind:value="move.id">
+                      {{ move.name }}
+                      ({{move.type}})
+                      <template v-if="move.legacy">(legacy)</template>
+                    </option>
+                  </optgroup>
+                  <optgroup label="All available charge moves">
+                    <option v-for="move in chargeMoves" v-bind:key="move.id" v-bind:value="move.id">
+                      {{ move.name }}
+                      ({{move.type}})
+                      <template v-if="move.legacy">(legacy)</template>
+                    </option>
+                  </optgroup>
+                </b-form-select>
+              </b-form-group>
+            </b-col>
+            <b-col md="4">
+              <b-form-group label="2nd Charge Move">
+                <b-form-select v-model="value.chargeMove2">
                   <option v-bind:value="null">&mdash;</option>
                   <optgroup v-if="metadataChargeMoves" label="Can be learned by selected Pokémon">
                     <option v-for="move in metadataChargeMoves" v-bind:key="move.id" v-bind:value="move.id">

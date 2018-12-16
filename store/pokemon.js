@@ -35,6 +35,7 @@ export default function pokemon (catalog, state) {
     familyID: metadata.family,
     quickMoveID: catalog.quickMove,
     chargeMoveID: catalog.chargeMove,
+    chargeMove2ID: catalog.chargeMove2,
 
     // naming
     name: catalog.nickname || metadata.name,
@@ -68,6 +69,7 @@ export default function pokemon (catalog, state) {
     // moves
     quickMove: move(metadata.types, metadata.quickMoves, movesByID(catalog.quickMove, catalog.hiddenPowerType)),
     chargeMove: move(metadata.types, metadata.chargeMoves, movesByID(catalog.chargeMove)),
+    chargeMove2: move(metadata.types, metadata.chargeMoves, movesByID(catalog.chargeMove2)),
 
     // misc
     notes: catalog.notes,

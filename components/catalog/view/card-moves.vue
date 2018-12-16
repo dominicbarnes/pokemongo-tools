@@ -14,6 +14,11 @@
         <move v-if="pokemon.chargeMove" v-bind:move="pokemon.chargeMove" />
         <div v-else><i>(n/a)</i></div>
       </b-list-group-item>
+      <b-list-group-item v-if="pokemon.chargeMove2">
+        <b>2nd Charge Move</b>
+        <move v-if="pokemon.chargeMove2" v-bind:move="pokemon.chargeMove2" />
+        <div v-else><i>(n/a)</i></div>
+      </b-list-group-item>
     </b-list-group>
     <b-card-body>
       <b-button v-b-modal.modalUseTM variant="info">Use TM</b-button>
@@ -22,9 +27,11 @@
       <b-form-group label="Quick Move" description="Select the new quick move.">
         <b-form-select v-bind:options="quickMoveOptions" v-model="changes.quickMove" />
       </b-form-group>
-
       <b-form-group label="Charge Move" description="Select the new charge move.">
         <b-form-select v-bind:options="chargeMoveOptions" v-model="changes.chargeMove" />
+      </b-form-group>
+      <b-form-group label="2nd Charge Move" description="Select the new charge move.">
+        <b-form-select v-bind:options="chargeMoveOptions" v-model="changes.chargeMove2" />
       </b-form-group>
     </b-modal>
   </b-card>
@@ -43,7 +50,8 @@
         changes: {
           _id: this.pokemon.id,
           quickMove: this.pokemon.quickMoveID,
-          chargeMove: this.pokemon.chargeMoveID
+          chargeMove: this.pokemon.chargeMoveID,
+          chargeMove2: this.pokemon.chargeMove2ID
         }
       }
     },
