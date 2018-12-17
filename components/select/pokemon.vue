@@ -1,11 +1,18 @@
 <template>
-  <vue-multiselect v-bind:options="options" v-model="selected" track-by="id" label="label" />
+  <vue-multiselect v-bind:options="options" v-model="selected" track-by="id" label="label">
+    <template slot="option" slot-scope="{ option: pokemon }">
+      {{ pokemon.name }}
+      ({{ pokemon.dex | dex }})
+      <badge-type v-for="type in pokemon.types" v-bind:type="type" />
+    </template>
+  </vue-multiselect>
 </template>
 
 <script>
   import { mapGetters } from 'vuex'
   import VueMultiselect from 'vue-multiselect'
 
+  import { BadgeType } from '../badges'
   import { dex } from '../../utils.js'
 
   export default {
@@ -29,7 +36,9 @@
       option(pokemon) {
         return {
           id: pokemon._id,
-          label: `${pokemon.name} (${dex(pokemon.dex)})`
+          name: pokemon.name,
+          dex: pokemon.dex,
+          types: pokemon.types
         }
       }
     },
@@ -47,6 +56,6 @@
       }
     },
 
-    components: { VueMultiselect }
+    components: { BadgeType, VueMultiselect }
   }
 </script>
