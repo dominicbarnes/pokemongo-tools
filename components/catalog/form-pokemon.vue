@@ -2,7 +2,7 @@
   <b-form v-on:submit.stop.prevent="$emit('submit', value)">
     <b-row>
       <b-col md="3" order-md="12">
-        <b-img v-bind:src="spriteURL" v-img-fallback="fallbackSpriteURL" />
+        <pokemon-icon v-bind:pokemon="value.pokemonID" v-bind:form="value.form" v-bind:costume="value.costume" v-bind:lucky="value.lucky" v-bind:shiny="value.shiny" />
       </b-col>
 
       <b-col md="9">
@@ -108,7 +108,7 @@
   import numeral from 'numeral'
   import { mapGetters } from 'vuex'
 
-  import { cp, hp, dex, spriteURL } from '../../utils'
+  import { cp, hp, } from '../../utils'
   import { SelectMove, SelectPokemon } from '../select'
 
   export default {
@@ -139,7 +139,7 @@
     },
 
     computed: {
-      ...mapGetters([ 'cpMultipliers', 'fallbackSpriteURL', 'pokemonByID' ]),
+      ...mapGetters([ 'cpMultipliers', 'pokemonByID' ]),
 
       metadata() {
         const { pokemonID } = this.value
@@ -209,13 +209,6 @@
       },
       calculatedIVs() {
         return this.totalIVs / 45
-      },
-      spriteURL() {
-        const metadata = this.formMetadata
-        return spriteURL(metadata, {
-          costume: this.value.costume,
-          shiny: this.value.shiny
-        })
       }
     },
 

@@ -1,15 +1,15 @@
 <template>
   <b-card class="border rounded mb-3" no-body>
-    <b-card-img v-bind:src="spriteURL" v-img-fallback="fallbackSpriteURL" />
+    <pokemon-icon v-bind:pokemon="pokemon._id" v-bind:shiny="shiny" />
     <b-card-body>
       <h2 class="h3 mt-1 mb-0">
         <b-link v-bind:to="{ name: 'pokedex-view', params: { pokemon: pokemon._id } }">{{pokemon.name}}</b-link>
       </h2>
       <b-badge variant="dark">{{ pokemon.dex | dex }}</b-badge>
-      <generation-badge v-bind:generation="pokemon.generation" />
-      <rarity-badge v-if="pokemon.rarity" v-bind:rarity="pokemon.rarity" />
+      <badge-generation v-bind:generation="pokemon.generation" />
+      <badge-rarity v-if="pokemon.rarity" v-bind:rarity="pokemon.rarity" />
       <br />
-      <type-badge v-for="type in pokemon.types" v-bind:type="type" />
+      <badge-type v-for="type in pokemon.types" v-bind:type="type" />
     </b-card-body>
   </b-card>
 </template>
@@ -17,11 +17,8 @@
 <script>
   import { mapGetters } from 'vuex'
 
-  import { spriteURL } from '../../utils.js'
-
-  import GenerationBadge from '../badges/generation.vue'
-  import RarityBadge from '../badges/rarity.vue'
-  import TypeBadge from '../badges/type.vue'
+  import PokemonIcon from '../pokemon-icon.vue'
+  import { BadgeGeneration, BadgeRarity, BadgeType } from '../badges'
 
   export default {
     props: {
@@ -32,15 +29,6 @@
       shiny: Boolean
     },
 
-    computed: {
-      ...mapGetters([ 'fallbackSpriteURL' ]),
-
-      spriteURL() {
-        const { pokemon, shiny } = this
-        return spriteURL(pokemon, { shiny })
-      }
-    },
-
-    components: { GenerationBadge, RarityBadge, TypeBadge }
+    components: { BadgeGeneration, BadgeRarity, BadgeType, PokemonIcon }
   }
 </script>

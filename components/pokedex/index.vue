@@ -18,7 +18,7 @@
           <b-button variant="warning" size="sm" v-on:click="removeAllFilters()">Remove All Filters</b-button>
         </b-col>
       </b-row>
-      <div class="mb-2">
+      <div class="my-2">
         <b-button v-bind:pressed.sync="shiny">Shiny Forms</b-button>
       </div>
       <paginated-list v-bind:list="list" v-bind:filter="filterer">

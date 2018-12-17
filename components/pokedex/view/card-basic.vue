@@ -7,7 +7,7 @@
     &bull;
     <badge-rarity v-bind:rarity="metadata.rarity" />
     <center>
-      <b-img v-bind:src="spriteURL" v-img-fallback="fallbackSpriteURL" />
+      <pokemon-icon v-bind:pokemon="metadata._id" v-bind:form="form" v-bind:costume="costume" v-bind:shiny="shiny" />
     </center>
     <b-form inline class="mt-3">
       <b-form-checkbox v-model="shiny">Shiny</b-form-checkbox>
@@ -19,11 +19,10 @@
 
 <script>
   import Case from 'case'
-  import { mapGetters } from 'vuex';
 
+  import PokemonIcon from '../../pokemon-icon.vue'
   import { BadgeGeneration, BadgeRarity, BadgeType } from '../../badges/index.js'
-
-  import { dex, spriteURL } from '../../../utils.js'
+  import { dex } from '../../../utils.js'
 
   export default {
     data() {
@@ -42,13 +41,6 @@
     },
 
     computed: {
-      ...mapGetters([ 'fallbackSpriteURL' ]),
-
-      spriteURL() {
-        const { metadata, form, costume, shiny } = this
-        return spriteURL(metadata, { form, costume, shiny })
-      },
-
       costumeOptions() {
         const { costumes } = this.metadata
         const options = [
@@ -79,8 +71,6 @@
       }
     },
 
-    components: {
-      BadgeGeneration, BadgeRarity, BadgeType
-    }
+    components: { BadgeGeneration, BadgeRarity, BadgeType, PokemonIcon }
   }
 </script>

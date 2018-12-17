@@ -7,7 +7,7 @@ import Vue from 'vue'
 
 import config from '../config'
 import { index } from './utils'
-import { spriteURL, cp } from '../utils.js'
+import { cp } from '../utils.js'
 
 const store = new Store('pokemongo-metadata', {
   PouchDB: PouchDB,
@@ -125,10 +125,6 @@ const getters = {
       if (!upgradeCosts.levels) return null
       return upgradeCosts.levels[level]
     }
-  },
-
-  fallbackSpriteURL () {
-    return spriteURL(null, null)
   }
 }
 

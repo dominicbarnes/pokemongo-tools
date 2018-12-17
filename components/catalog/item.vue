@@ -18,7 +18,9 @@
       <div>
         <badge-type v-for="move in moves" v-bind:type="move.type" v-bind:title="move.name" v-b-tooltip.hover.bottom />
       </div>
-      <b-card-img v-bind:src="pokemon.spriteURL" v-img-fallback="fallbackSpriteURL" />
+      <center>
+        <pokemon-icon v-bind:pokemon="pokemon.pokemonID" v-bind:form="pokemon.form" v-bind:costume="pokemon.costume" v-bind:lucky="pokemon.lucky" v-bind:shiny="pokemon.shiny" />
+      </center>
       <b-alert show v-if="pokemon.notes" variant="info" class="card-text mt-2">
         <b>Notes:</b> {{ pokemon.notes }}
       </b-alert>
@@ -45,15 +47,13 @@
 
 <script>
   import numeral from 'numeral'
-  import { mapGetters } from 'vuex'
 
   import { BadgeIvs, BadgeGeneration, BadgeRarity, BadgeShiny, BadgeType } from '../badges'
   import { ProgressLevel } from '../progress'
-
   import StatGrid from '../stat-grid.vue'
   import StatGridCell from '../stat-grid-cell.vue'
-
   import RelTime from '../rel-time.vue'
+  import PokemonIcon from '../pokemon-icon.vue'
 
   export default {
     props: {
@@ -68,8 +68,6 @@
     },
 
     computed: {
-      ...mapGetters([ 'fallbackSpriteURL' ]),
-
       title() {
         const { nickname, species } = this.pokemon
         return nickname || species
@@ -89,6 +87,6 @@
       }
     },
 
-    components: { BadgeIvs, BadgeGeneration, BadgeRarity, BadgeShiny, BadgeType, ProgressLevel, StatGrid, StatGridCell, RelTime }
+    components: { BadgeIvs, BadgeGeneration, BadgeRarity, BadgeShiny, BadgeType, ProgressLevel, StatGrid, StatGridCell, PokemonIcon, RelTime }
   }
 </script>

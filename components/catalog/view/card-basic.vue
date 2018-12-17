@@ -9,7 +9,7 @@
     <badge-shiny v-if="pokemon.shiny" />
     <b-badge variant="info" v-if="pokemon.lucky">Lucky</b-badge>
     <center>
-      <b-img v-bind:src="pokemon.spriteURL" v-img-fallback="fallbackSpriteURL" />
+      <pokemon-icon v-bind:pokemon="pokemon.pokemonID" v-bind:form="pokemon.form" v-bind:costume="pokemon.costume" v-bind:lucky="pokemon.lucky" v-bind:shiny="pokemon.shiny" />
     </center>
     <b-alert show v-if="pokemon.notes" variant="info" class="mt-2">
       <b>Notes:</b> {{ pokemon.notes }}
@@ -42,7 +42,7 @@
         </b-col>
         <b-col md="6">
           <center>
-            <img v-bind:src="newSpriteURL" v-img-fallback="fallbackSpriteURL" height="256" width="256" />
+            <pokemon-icon v-bind:pokemon="changes.pokemonID" v-bind:form="pokemon.form" v-bind:costume="pokemon.costume" v-bind:lucky="pokemon.lucky" v-bind:shiny="pokemon.shiny" />
           </center>
         </b-col>
       </b-row>
@@ -54,9 +54,10 @@
   import sortBy from 'sort-by'
   import { mapGetters } from 'vuex'
 
-  import { cp, dex, hp, spriteURL } from '../../../utils.js'
+  import { cp, dex, hp } from '../../../utils.js'
   import { BadgeGeneration, BadgeRarity, BadgeShiny, BadgeType } from '../../badges'
   import { SelectMove } from '../../select'
+  import PokemonIcon from '../../pokemon-icon.vue'
 
   export default {
     data() {
@@ -81,7 +82,7 @@
     },
 
     computed: {
-      ...mapGetters([ 'pokemonByID', 'fallbackSpriteURL' ]),
+      ...mapGetters([ 'pokemonByID' ]),
       ...mapGetters({ catalogByID: 'catalog/pokemonByID' }),
 
       title() {
@@ -99,12 +100,6 @@
           const value = metadata._id
           return { text, value }
         })
-      },
-
-      newSpriteURL() {
-        const catalog = this.catalogByID(this.changes._id).raw
-        const metadata = this.pokemonByID(this.changes.pokemonID, catalog.form)
-        return spriteURL(metadata, catalog)
       },
 
       newCP() {
@@ -125,6 +120,12 @@
         if (!metadata) return 0
         const stamina = metadata.baseStats.stamina + staminaIV
         return hp(stamina, multiplier)
+      },
+
+      iconClasses() {
+        return {
+          'pokemon-lucky': !!this.pokemon.lucky
+        }
       }
     },
 
@@ -134,6 +135,6 @@
       }
     },
 
-    components: { BadgeGeneration, BadgeRarity, BadgeShiny, BadgeType, SelectMove }
+    components: { BadgeGeneration, BadgeRarity, BadgeShiny, BadgeType, PokemonIcon, SelectMove }
   }
 </script>
