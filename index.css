@@ -1,5 +1,6 @@
 @import url('bootstrap/dist/css/bootstrap.css');
 @import url('bootstrap-vue/dist/bootstrap-vue.css');
+@import url('vue-multiselect/dist/vue-multiselect.min.css');
 
 .browserupgrade {
   margin: 0.2em 0;

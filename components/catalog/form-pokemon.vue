@@ -6,22 +6,22 @@
       </b-col>
 
       <b-col md="9">
-        <b-form-group label="Pokémon" description="Choose the Pokémon species, form and costume where applicable.">
-          <b-input-group>
-            <b-form-select id="add-species-input" v-bind:options="pokemonOptions" v-model="value.pokemonID" required size="lg" v-focus />
-            <b-dropdown v-if="formOptions" text="Alternate Forms" variant="secondary" slot="append">
-              <b-dropdown-item v-for="option in formOptions" v-bind:key="option.value" v-on:click="value.form = option.value">{{ option.text }}</b-dropdown-item>
-            </b-dropdown>
-            <b-dropdown v-if="costumeOptions" text="Costumes" variant="secondary" slot="append">
-              <b-dropdown-item v-for="option in costumeOptions" v-bind:key="option.value" v-on:click="value.costume = option.value">{{ option.text }}</b-dropdown-item>
-            </b-dropdown>
-          </b-input-group>
+        <b-form-group label="Pokémon">
+          <select-pokemon v-model="value.pokemonID" />
         </b-form-group>
 
         <b-form-group class="mb-3">
-          <b-form-checkbox v-model="value.shiny">Shiny</b-form-checkbox>
-          <b-form-checkbox v-model="value.lucky">Lucky</b-form-checkbox>
-          <b-form-checkbox v-model="value.uncertainStats">Stats are uncertain</b-form-checkbox>
+          <b-button-group size="sm">
+            <b-dropdown v-if="formOptions" text="Alternate Forms" variant="secondary" size="sm">
+              <b-dropdown-item v-for="option in formOptions" v-bind:key="option.value" v-on:click="value.form = option.value">{{ option.text }}</b-dropdown-item>
+            </b-dropdown>
+            <b-dropdown v-if="costumeOptions" text="Costumes" variant="secondary" size="sm">
+              <b-dropdown-item v-for="option in costumeOptions" v-bind:key="option.value" v-on:click="value.costume = option.value">{{ option.text }}</b-dropdown-item>
+            </b-dropdown>
+            <b-button v-bind:pressed.sync="value.shiny">Shiny</b-button>
+            <b-button v-bind:pressed.sync="value.lucky">Lucky</b-button>
+            <b-button v-bind:pressed.sync="value.uncertainStats">Stats are uncertain</b-button>
+          </b-button-group>
         </b-form-group>
 
         <b-form-group id="add-nickname" label="Nickname" label-for="add-nickname">
@@ -71,65 +71,17 @@
           <b-row>
             <b-col md="4">
               <b-form-group label="Quick Move">
-                <b-form-select v-model="value.quickMove">
-                  <option v-bind:value="null">&mdash;</option>
-                  <optgroup v-if="metadataQuickMoves" label="Can be learned by selected Pokémon">
-                    <option v-for="move in metadataQuickMoves" v-bind:key="move.id" v-bind:value="move.id">
-                      {{ move.name }}
-                      ({{move.type}})
-                      <template v-if="move.legacy">(legacy)</template>
-                    </option>
-                  </optgroup>
-                  <optgroup label="All available quick moves">
-                    <option v-for="move in quickMoves" v-bind:key="move.id" v-bind:value="move.id">
-                      {{ move.name }}
-                      ({{move.type}})
-                      <template v-if="move.legacy">(legacy)</template>
-                    </option>
-                  </optgroup>
-                </b-form-select>
+                <select-move kind="quick" v-model="value.quickMove" v-bind:pokemon="value.pokemonID" />
               </b-form-group>
             </b-col>
             <b-col md="4">
               <b-form-group label="Charge Move">
-                <b-form-select v-model="value.chargeMove">
-                  <option v-bind:value="null">&mdash;</option>
-                  <optgroup v-if="metadataChargeMoves" label="Can be learned by selected Pokémon">
-                    <option v-for="move in metadataChargeMoves" v-bind:key="move.id" v-bind:value="move.id">
-                      {{ move.name }}
-                      ({{move.type}})
-                      <template v-if="move.legacy">(legacy)</template>
-                    </option>
-                  </optgroup>
-                  <optgroup label="All available charge moves">
-                    <option v-for="move in chargeMoves" v-bind:key="move.id" v-bind:value="move.id">
-                      {{ move.name }}
-                      ({{move.type}})
-                      <template v-if="move.legacy">(legacy)</template>
-                    </option>
-                  </optgroup>
-                </b-form-select>
+                <select-move kind="charge" v-model="value.chargeMove" v-bind:pokemon="value.pokemonID" />
               </b-form-group>
             </b-col>
             <b-col md="4">
               <b-form-group label="2nd Charge Move">
-                <b-form-select v-model="value.chargeMove2">
-                  <option v-bind:value="null">&mdash;</option>
-                  <optgroup v-if="metadataChargeMoves" label="Can be learned by selected Pokémon">
-                    <option v-for="move in metadataChargeMoves" v-bind:key="move.id" v-bind:value="move.id">
-                      {{ move.name }}
-                      ({{move.type}})
-                      <template v-if="move.legacy">(legacy)</template>
-                    </option>
-                  </optgroup>
-                  <optgroup label="All available charge moves">
-                    <option v-for="move in chargeMoves" v-bind:key="move.id" v-bind:value="move.id">
-                      {{ move.name }}
-                      ({{move.type}})
-                      <template v-if="move.legacy">(legacy)</template>
-                    </option>
-                  </optgroup>
-                </b-form-select>
+                <select-move kind="charge" v-model="value.chargeMove2" v-bind:pokemon="value.pokemonID" />
               </b-form-group>
             </b-col>
           </b-row>
@@ -154,9 +106,10 @@
   import Case from 'case'
   import clone from 'clone'
   import numeral from 'numeral'
+  import { mapGetters } from 'vuex'
 
   import { cp, hp, dex, spriteURL } from '../../utils'
-  import { mapGetters } from 'vuex'
+  import { SelectMove, SelectPokemon } from '../select'
 
   export default {
      props: {
@@ -164,6 +117,7 @@
       attackIV: Number,
       caughtAt: String,
       chargeMove: String,
+      chargeMove2: String,
       costume: String,
       defenseIV: Number,
       form: String,
@@ -179,11 +133,13 @@
     },
 
     data(vm) {
-      return { value: clone(vm.$props) }
+      return {
+        value: clone(vm.$props)
+      }
     },
 
     computed: {
-      ...mapGetters([ 'cpMultipliers', 'fallbackSpriteURL', 'movesByID', 'pokemonByID' ]),
+      ...mapGetters([ 'cpMultipliers', 'fallbackSpriteURL', 'pokemonByID' ]),
 
       metadata() {
         const { pokemonID } = this.value
@@ -191,13 +147,21 @@
         return this.pokemonByID(pokemonID)
       },
 
-      pokemonOptions() {
-        return this.$store.getters.pokemonSort([ 'dex' ]).map(pokemon => {
-          const text = `${pokemon.name} (${dex(pokemon.dex)})`
-          const value = pokemon._id
-          return { text, value }
-        })
+      formMetadata() {
+        const { metadata, value } = this
+        if (!metadata) return null
+
+        const form = value.form || metadata.defaultForm
+        if (form) {
+          const o = clone(metadata)
+          Object.assign(o, o.forms[form])
+          delete o.forms
+          return o
+        } else {
+          return metadata
+        }
       },
+
       formOptions() {
         const { metadata } = this
         if (metadata && metadata.forms) {
@@ -220,24 +184,6 @@
         }
         return null
       },
-      quickMoves() {
-        return this.$store.getters.quickMoves.map(move => this.moveOption(move))
-      },
-      metadataQuickMoves() {
-        const metadata = this.getMetadata()
-        if (!metadata) return null
-        return Object.keys(metadata.quickMoves)
-          .map(id => this.moveOption(this.movesByID(id), !!metadata.quickMoves[id]))
-      },
-      chargeMoves() {
-        return this.$store.getters.chargeMoves.map(move => this.moveOption(move))
-      },
-      metadataChargeMoves() {
-        const metadata = this.getMetadata()
-        if (!metadata) return null
-        return Object.keys(metadata.chargeMoves)
-          .map(id => this.moveOption(this.movesByID(id), !!metadata.chargeMoves[id]))
-      },
 
       totalIVs() {
         const { attackIV = 0, defenseIV = 0, staminaIV = 0 } = this.value
@@ -245,7 +191,7 @@
       },
       calculatedCP() {
         const { level, attackIV = 0, defenseIV = 0, staminaIV = 0 } = this.value
-        const metadata = this.getMetadata()
+        const metadata = this.formMetadata
         if (!metadata) return 0
         const attack = metadata.baseStats.attack + attackIV
         const defense = metadata.baseStats.defense + defenseIV
@@ -255,7 +201,7 @@
       },
       calculatedHP() {
         const { level, staminaIV } = this.value
-        const metadata = this.getMetadata()
+        const metadata = this.formMetadata
         if (!metadata) return 0
         const stamina = metadata.baseStats.stamina + (staminaIV || 0)
         const multiplier = this.cpMultipliers(level)
@@ -265,7 +211,7 @@
         return this.totalIVs / 45
       },
       spriteURL() {
-        const metadata = this.getMetadata()
+        const metadata = this.formMetadata
         return spriteURL(metadata, {
           costume: this.value.costume,
           shiny: this.value.shiny
@@ -273,33 +219,9 @@
       }
     },
 
-    methods: {
-      moveOption(move, legacy) {
-        return {
-          id: move._id,
-          name: move.name,
-          type: move.type,
-          legacy: legacy
-        }
-      },
-      getMetadata() {
-        const { metadata, value } = this
-        if (!metadata) return null
-
-        const form = value.form || metadata.defaultForm
-        if (form) {
-          const o = clone(metadata)
-          Object.assign(o, o.forms[form])
-          delete o.forms
-          return o
-        } else {
-          return metadata
-        }
-      }
-    },
-
     watch: {
       'value.pokemonID': function () {
+        if (!this.metadata) return
         this.value.form = this.metadata.defaultForm || null
         this.value.costume = null
       }
@@ -311,6 +233,8 @@
           el.focus()
         }
       }
-    }
+    },
+
+    components: { SelectMove, SelectPokemon }
   }
 </script>

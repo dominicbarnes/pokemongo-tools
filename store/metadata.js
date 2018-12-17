@@ -48,7 +48,7 @@ const getters = {
     }
   },
   pokemonSort ({ pokemon }) {
-    return keys => pokemon.slice().sort(sortBy.apply(null, keys))
+    return keys => pokemon.slice().sort(sortBy.apply(null, toArray(keys)))
   },
   pokemonCount ({ pokemon }) {
     return pokemon.length
@@ -78,6 +78,9 @@ const getters = {
   },
   chargeMoves ({ moves }) {
     return moves.filter(move => !move._id.endsWith('_FAST')).slice()
+  },
+  allMoves ({ moves }) {
+    return moves.slice()
   },
 
   familyByID ({ families }) {
@@ -183,4 +186,8 @@ export default {
   getters,
   mutations,
   actions
+}
+
+function toArray (input) {
+  return Array.isArray(input) ? input : [input]
 }

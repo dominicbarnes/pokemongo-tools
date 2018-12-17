@@ -113,7 +113,8 @@
     },
 
     mounted() {
-      this.$refs.level.refresh()
+      const { level } = this.$refs
+      if (level) level.refresh()
     },
 
     components: { StatGrid, StatGridCell, VueSlider }

@@ -29,11 +29,15 @@
           </b-form-group>
 
           <b-form-group label="Quick Move" description="Select the new quick move.">
-            <b-form-select v-bind:options="quickMoveOptions" v-model="changes.quickMove" />
+            <select-move kind="quick" v-model="changes.quickMove" v-bind:pokemon="changes.pokemonID" />
           </b-form-group>
 
           <b-form-group label="Charge Move" description="Select the new charge move.">
-            <b-form-select v-bind:options="chargeMoveOptions" v-model="changes.chargeMove" />
+            <select-move kind="charge" v-model="changes.chargeMove" v-bind:pokemon="changes.pokemonID" />
+          </b-form-group>
+
+          <b-form-group label="2nd Charge Move" description="Select the new 2nd charge move.">
+            <select-move kind="charge" v-model="changes.chargeMove2" v-bind:pokemon="changes.pokemonID" />
           </b-form-group>
         </b-col>
         <b-col md="6">
@@ -51,7 +55,8 @@
   import { mapGetters } from 'vuex'
 
   import { cp, dex, hp, spriteURL } from '../../../utils.js'
-  import { BadgeGeneration, BadgeRarity, BadgeShiny, BadgeType } from '../../badges/index.js'
+  import { BadgeGeneration, BadgeRarity, BadgeShiny, BadgeType } from '../../badges'
+  import { SelectMove } from '../../select'
 
   export default {
     data() {
@@ -62,7 +67,8 @@
           _id: this.pokemon.id,
           pokemonID: this.pokemon.nextEvolutions.length ? this.pokemon.nextEvolutions[0].pokemonID : null,
           quickMove: this.pokemon.quickMoveID,
-          chargeMove: this.pokemon.chargeMoveID
+          chargeMove: this.pokemon.chargeMoveID,
+          chargeMove2: this.pokemon.chargeMove2ID
         }
       }
     },
@@ -75,7 +81,7 @@
     },
 
     computed: {
-      ...mapGetters([ 'pokemonByID', 'quickMoves', 'chargeMoves', 'fallbackSpriteURL' ]),
+      ...mapGetters([ 'pokemonByID', 'fallbackSpriteURL' ]),
       ...mapGetters({ catalogByID: 'catalog/pokemonByID' }),
 
       title() {
@@ -89,30 +95,10 @@
       evolutionOptions() {
         return this.pokemon.nextEvolutions.map(evolution => {
           const metadata = this.pokemonByID(evolution.pokemonID)
-          const text = metadata.name
+          const text = `${metadata.name} (${dex(metadata.dex)})`
           const value = metadata._id
           return { text, value }
         })
-      },
-
-      quickMoveOptions() {
-        const options = this.quickMoves.sort(sortBy('name')).map(move => {
-          const text = `${move.name} (${move.type})`
-          const value = move._id
-          return { text, value }
-        })
-
-        return [ { text: 'Choose a Move', value: null } ].concat(options)
-      },
-
-      chargeMoveOptions() {
-        const options = this.chargeMoves.sort(sortBy('name')).map(move => {
-          const text = `${move.name} (${move.type})`
-          const value = move._id
-          return { text, value }
-        })
-
-        return [ { text: 'Choose a Move', value: null } ].concat(options)
       },
 
       newSpriteURL() {
@@ -148,6 +134,6 @@
       }
     },
 
-    components: { BadgeGeneration, BadgeRarity, BadgeShiny, BadgeType }
+    components: { BadgeGeneration, BadgeRarity, BadgeShiny, BadgeType, SelectMove }
   }
 </script>

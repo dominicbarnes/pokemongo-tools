@@ -25,13 +25,13 @@
     </b-card-body>
     <b-modal id="modalUseTM" title="Use TM" v-on:ok="useTM()">
       <b-form-group label="Quick Move" description="Select the new quick move.">
-        <b-form-select v-bind:options="quickMoveOptions" v-model="changes.quickMove" />
+        <select-move kind="quick" v-model="changes.quickMove" v-bind:pokemon="changes.pokemonID" />
       </b-form-group>
       <b-form-group label="Charge Move" description="Select the new charge move.">
-        <b-form-select v-bind:options="chargeMoveOptions" v-model="changes.chargeMove" />
+        <select-move kind="charge" v-model="changes.chargeMove" v-bind:pokemon="pokemon.pokemonID" />
       </b-form-group>
       <b-form-group label="2nd Charge Move" description="Select the new charge move.">
-        <b-form-select v-bind:options="chargeMoveOptions" v-model="changes.chargeMove2" />
+        <select-move kind="charge" v-model="changes.chargeMove2" v-bind:pokemon="pokemon.pokemonID" />
       </b-form-group>
     </b-modal>
   </b-card>
@@ -41,7 +41,7 @@
   import sortBy from 'sort-by'
   import { mapGetters } from 'vuex';
 
-  import { BadgeType } from '../../badges'
+  import { SelectMove } from '../../select'
   import Move from './move.vue'
 
   export default {
@@ -63,36 +63,12 @@
       }
     },
 
-    computed: {
-      ...mapGetters([ 'quickMoves', 'chargeMoves' ]),
-
-      quickMoveOptions() {
-        const options = this.quickMoves.sort(sortBy('name')).map(move => {
-          const text = `${move.name} (${move.type})`
-          const value = move._id
-          return { text, value }
-        })
-
-        return [ { text: 'Choose a Move', value: null } ].concat(options)
-      },
-
-      chargeMoveOptions() {
-        const options = this.chargeMoves.sort(sortBy('name')).map(move => {
-          const text = `${move.name} (${move.type})`
-          const value = move._id
-          return { text, value }
-        })
-
-        return [ { text: 'Choose a Move', value: null } ].concat(options)
-      }
-    },
-
     methods: {
       async useTM(quickMove, chargeMove) {
         await this.$store.dispatch('catalog/pokemonUpdate', { pokemon: this.changes })
       }
     },
 
-    components: { BadgeType, Move }
+    components: { Move, SelectMove }
   }
 </script>
