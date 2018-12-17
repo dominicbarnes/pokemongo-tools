@@ -6,7 +6,7 @@
     <badge-type v-for="type in pokemon.types" v-bind:type="type" />
     &bull;
     <badge-rarity v-bind:rarity="pokemon.rarity" />
-    <shiny-badge v-if="pokemon.shiny" />
+    <badge-shiny v-if="pokemon.shiny" />
     <b-badge variant="info" v-if="pokemon.lucky">Lucky</b-badge>
     <center>
       <b-img v-bind:src="pokemon.spriteURL" v-img-fallback="fallbackSpriteURL" />
@@ -51,7 +51,7 @@
   import { mapGetters } from 'vuex'
 
   import { cp, dex, hp, spriteURL } from '../../../utils.js'
-  import { BadgeGeneration, BadgeRarity, BadgeType } from '../../badges/index.js'
+  import { BadgeGeneration, BadgeRarity, BadgeShiny, BadgeType } from '../../badges/index.js'
 
   export default {
     data() {
@@ -148,8 +148,6 @@
       }
     },
 
-    components: {
-      BadgeGeneration, BadgeRarity, BadgeType
-    }
+    components: { BadgeGeneration, BadgeRarity, BadgeShiny, BadgeType }
   }
 </script>
