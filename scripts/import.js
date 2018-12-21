@@ -5,7 +5,7 @@ const protobuf = require('protobufjs')
 const couchdb = require('./couchdb')
 const miner = require('./miner')
 
-const POGOProtos = path.resolve(__dirname, '../../POGOProtos')
+const POGOProtos = path.resolve(__dirname, '../POGOProtos')
 
 main().catch(err => console.error(err))
 

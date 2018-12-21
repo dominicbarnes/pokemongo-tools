@@ -3,7 +3,7 @@ const miner = require('./miner')
 const path = require('path')
 const protobuf = require('protobufjs')
 
-const POGOProtos = path.resolve(__dirname, '../../POGOProtos')
+const POGOProtos = path.resolve(__dirname, '../POGOProtos')
 
 main().catch(err => console.error(err))
 
