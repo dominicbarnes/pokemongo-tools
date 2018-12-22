@@ -160,7 +160,7 @@
     },
 
     computed: {
-      ...mapGetters([ 'pokemonByID', 'maxPossibleCP', 'maxPossibleHP', 'cpMultipliers', 'levels', 'possibleLevelsForStardust', 'stardustOptions' ]),
+      ...mapGetters([ 'pokemonByID', 'maxPossibleCP', 'maxPossibleHP', 'cpMultipliers', 'levels', 'possibleLevelsForStardust', 'stardustTiers' ]),
 
       metadata() {
         return this.pokemonByID(this.pokemonID)
@@ -174,9 +174,21 @@
         ]
       },
 
+      stardustOptions() {
+        const { lucky, stardustTiers } = this
+        return stardustTiers.map(n => {
+          const value = lucky ? n / 2 : n
+          return {
+            text: numeral(value).format('0,0'),
+            value: n
+          }
+        })
+      },
+
       possibleLevels() {
-        const { stardust, possibleLevelsForStardust } = this
-        return stardust ? possibleLevelsForStardust(stardust) : range(1, 40, 0.5)
+        const { stardust, possibleLevelsForStardust,notPoweredUp } = this
+        const list = stardust ? possibleLevelsForStardust(stardust) : range(1, 40, 0.5)
+        return notPoweredUp ? list.filter(level => level % 1 === 0) : list
       },
 
       query() {

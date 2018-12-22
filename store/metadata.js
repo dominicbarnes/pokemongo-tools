@@ -149,7 +149,7 @@ const getters = {
         .map(key => parseFloat(key))
     }
   },
-  stardustOptions ({ upgradeCosts }) {
+  stardustTiers ({ upgradeCosts }) {
     const { levels } = upgradeCosts
     if (!levels) return []
     return Array.from(new Set(Object.keys(levels).map(key => levels[key].stardust)))
