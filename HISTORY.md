@@ -1,4 +1,29 @@
 
+0.15.0 / 2018-12-21
+===================
+
+  * fix(catalog): fix type chart
+  * feat(catalog): add type chart to view page (fixes #6)
+  * feat(select-move): add support for alternate forms
+  * feat(select-pokemon): add autofocus support
+  * fix(pokedex): restore icon scale
+  * feat(iv-calculator): add ability to add to catalog (fixes #42)
+  * fix(iv-calculator): various UI improvements
+  * fix(iv-calculator): support 'lucky' and 'not powered-up' checkboxes (fixes #41)
+  * feat: add IV Calculator
+  * feat(service-worker): cache all PogoAssets URLs
+  * fix(select): handle unset and properly show label
+  * fix(catalog): add missing PokemonIcon ref to add/edit form
+  * chore(deps): update POGOProtos and mine script
+  * refactor: add pokemon-icon component
+  * feat(select): add type badges to pokemon options
+  * feat(catalog): use vue-multiselect for better pokemon and move selection
+  * fix(catalog): restore shiny badge ref
+  * fix(catalog): ensure that great/ultra league buttons show up when relevant
+  * feat(catalog): add helpers to find great/ultra league levels
+  * feat(catalog): show notes on view page
+  * feat(catalog): support 2nd charge move
+
 0.14.0 / 2018-12-15
 ===================
 
