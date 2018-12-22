@@ -88,10 +88,10 @@
               {{ matches.length }}
             </stat-grid-cell>
             <stat-grid-cell label="Min IV">
-              {{ matchesMinIV | number('0.0%') }}
+              {{ matchesMinIV | number('0%') }}
             </stat-grid-cell>
             <stat-grid-cell label="Max IV">
-              {{ matchesMaxIV | number('0.0%') }}
+              {{ matchesMaxIV | number('0%') }}
             </stat-grid-cell>
           </stat-grid>
           <b-table v-bind:items="matches" v-bind:fields="fields" />
@@ -152,7 +152,7 @@
           {
             key: 'percentIV',
             label: 'Percentage',
-            formatter: value => numeral(value).format('0.0%'),
+            formatter: value => numeral(value).format('0%'),
             sortable: true
           }
         ]
@@ -176,13 +176,7 @@
 
       stardustOptions() {
         const { lucky, stardustTiers } = this
-        return stardustTiers.map(n => {
-          const value = lucky ? n / 2 : n
-          return {
-            text: numeral(value).format('0,0'),
-            value: n
-          }
-        })
+        return stardustTiers.map(n => lucky ? n / 2 : n)
       },
 
       possibleLevels() {
@@ -287,7 +281,7 @@
         return [
           { text: '', value: null },
           { text: best, value: 'best' },
-          { text: high, value: 'low' },
+          { text: high, value: 'high' },
           { text: mid, value: 'mid' },
           { text: low, value: 'low' }
         ]
