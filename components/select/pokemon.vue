@@ -1,5 +1,5 @@
 <template>
-  <vue-multiselect v-bind:options="options" v-model="selected" track-by="id" label="label">
+  <vue-multiselect v-bind:options="options" v-model="selected" track-by="id" label="name">
     <template slot="option" slot-scope="{ option: pokemon }">
       {{ pokemon.name }}
       ({{ pokemon.dex | dex }})
@@ -45,7 +45,11 @@
 
     watch: {
       selected(option) {
-        this.$emit('input', option.id)
+        if (option && option.id) {
+          this.$emit('input', option.id)
+        } else {
+          this.$emit('input', null)
+        }
       }
     },
 
