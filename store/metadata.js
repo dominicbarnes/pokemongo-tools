@@ -7,7 +7,7 @@ import Vue from 'vue'
 
 import config from '../config'
 import { index } from './utils'
-import { cp } from '../utils.js'
+import { cp, hp } from '../utils.js'
 
 const store = new Store('pokemongo-metadata', {
   PouchDB: PouchDB,
@@ -94,6 +94,12 @@ const getters = {
       return cpMultipliers.levels[level]
     }
   },
+  levels ({ cpMultipliers }) {
+    if (!cpMultipliers.levels) return null
+    return Object.keys(cpMultipliers.levels)
+      .map(key => parseFloat(key))
+      .sort((a, b) => a - b)
+  },
   level ({ cpMultipliers }) {
     return input => {
       let xdelta = Infinity
@@ -119,12 +125,34 @@ const getters = {
     })
     return Math.max(...cps)
   },
+  maxPossibleHP ({ pokemon }, { cpMultipliers }) {
+    const multiplier = cpMultipliers(40)
+    const hps = pokemon.map(doc => {
+      const stamina = doc.baseStats.defense + 15
+      return hp(stamina, multiplier)
+    })
+    return Math.max(...hps)
+  },
 
   upgradeCosts ({ upgradeCosts }) {
     return level => {
       if (!upgradeCosts.levels) return null
       return upgradeCosts.levels[level]
     }
+  },
+  possibleLevelsForStardust ({ upgradeCosts }) {
+    const { levels } = upgradeCosts
+    return input => {
+      if (!levels) return null
+      return Object.keys(levels)
+        .filter(key => levels[key].stardust === input)
+        .map(key => parseFloat(key))
+    }
+  },
+  stardustOptions ({ upgradeCosts }) {
+    const { levels } = upgradeCosts
+    if (!levels) return []
+    return Array.from(new Set(Object.keys(levels).map(key => levels[key].stardust)))
   }
 }
 

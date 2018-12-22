@@ -1,0 +1,44 @@
+{
+  "instinct": {
+    "overall": {
+      "best": "...looks like it can really battle with the best of them!",
+      "high": "...is really strong!",
+      "mid": "...is pretty decent!",
+      "low": "...has room for improvement as far as battling goes."
+    },
+    "max": {
+      "best": "It's stats are the best I've ever seen! No doubt about it!",
+      "high": "It's stats are really strong! Impressive.",
+      "mid": "It's definitely got some good stats. Definitely!",
+      "low": "It's stats are all right, but kinda basic, as far as I can see."
+    }
+  },
+  "mystic": {
+    "overall": {
+      "best": "...is a wonder! What a breathtaking Pokemon!",
+      "high": "...has certainly caught my attention.",
+      "mid": "...is above average.",
+      "low": "...is not likely to make much headway in battle."
+    },
+    "max": {
+      "best": "It's stats exceed my calculations. It's incredible!",
+      "high": "I am certainly impressed by its stats, I must say.",
+      "mid": "It's stats are noticeably trending to the positive.",
+      "low": "It's stats are not out of the norm, in my opinion"
+    }
+  },
+  "valor": {
+    "overall": {
+      "best": "...simply amazes me. It can accomplish anything!",
+      "high": "...is a strong Pokemon. You should be proud!",
+      "mid": "...is a decent Pokemon.",
+      "low": "...may not be great in battle, but I still like it!"
+    },
+    "max": {
+      "best": "I'm blown away by its stats. WOW!",
+      "high": "It's got excellent stats! How exciting!",
+      "mid": "It's stats indicate that in battle, it'll get the job done.",
+      "low": "It's stats are all right, but kinda basic, as far as I can see."
+    }
+  }
+}

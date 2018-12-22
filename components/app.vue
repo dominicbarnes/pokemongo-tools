@@ -15,6 +15,9 @@
               Catalog
               <b-badge v-if="catalogCount > 0">{{ catalogCount }}</b-badge>
             </b-nav-item>
+            <b-nav-item-dropdown text="Calculators">
+              <b-dropdown-item to="/calculators/iv">Individual Values (IVs)</b-dropdown-item>
+            </b-nav-item-dropdown>
           </b-navbar-nav>
 
           <b-navbar-nav v-if="loggedIn" class="ml-auto">
