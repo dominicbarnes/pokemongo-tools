@@ -1,6 +1,8 @@
 <template>
   <b-card class="border rounded mb-3" no-body>
-    <pokemon-icon v-bind:pokemon="pokemon._id" v-bind:shiny="shiny" />
+    <center>
+      <pokemon-icon v-bind:pokemon="pokemon._id" v-bind:shiny="shiny" />
+    </center>
     <b-card-body>
       <h2 class="h3 mt-1 mb-0">
         <b-link v-bind:to="{ name: 'pokedex-view', params: { pokemon: pokemon._id } }">{{pokemon.name}}</b-link>
