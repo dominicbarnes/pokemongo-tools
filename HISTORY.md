@@ -1,4 +1,9 @@
 
+0.15.1 / 2018-12-21
+===================
+
+  * fix(catalog): do not autofocus pokemon when prefilled
+
 0.15.0 / 2018-12-21
 ===================
 
