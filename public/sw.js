@@ -13,6 +13,7 @@ workbox.routing.registerRoute('/hoodie/(.*)', networkOnly)
 
 // third-party
 workbox.precaching.precacheAndRoute([
-  'https://raw.githubusercontent.com/ZeChrales/PogoAssets/master/pokemon_icons/pokemon_icon_000.png'
+  'https://raw.githubusercontent.com/ZeChrales/PogoAssets/master/pokemon_icons/pokemon_icon_000.png',
+  'https://raw.githubusercontent.com/ZeChrales/PogoAssets/master/static_assets/png/ui_bg_lucky_pokemon.png'
 ])
-workbox.routing.registerRoute(/https:\/\/raw.githubusercontent.com\/ZeChrales\/PogoAssets\/master\/pokemon_icons\/.+\.png$/, staleWhileRevalidate)
+workbox.routing.registerRoute(/https:\/\/raw\.githubusercontent\.com\/ZeChrales\/PogoAssets\/master\//, staleWhileRevalidate)
