@@ -108,8 +108,9 @@
   import numeral from 'numeral'
   import { mapGetters } from 'vuex'
 
-  import { cp, hp, } from '../../utils'
+  import PokemonIcon from '../pokemon-icon.vue'
   import { SelectMove, SelectPokemon } from '../select'
+  import { cp, hp } from '../../utils'
 
   export default {
      props: {
@@ -228,6 +229,6 @@
       }
     },
 
-    components: { SelectMove, SelectPokemon }
+    components: { PokemonIcon, SelectMove, SelectPokemon }
   }
 </script>
