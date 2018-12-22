@@ -24,6 +24,7 @@
     props: {
       kind: String,
       pokemon: String,
+      form: String,
       value: String
     },
 
@@ -36,7 +37,7 @@
 
       metadata() {
         if (!this.pokemon) return null
-        return this.pokemonByID(this.pokemon)
+        return this.pokemonByID(this.pokemon, this.form)
       },
 
       groupLabel() {

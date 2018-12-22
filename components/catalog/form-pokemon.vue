@@ -71,17 +71,17 @@
           <b-row>
             <b-col md="4">
               <b-form-group label="Quick Move">
-                <select-move kind="quick" v-model="value.quickMove" v-bind:pokemon="value.pokemonID" />
+                <select-move kind="quick" v-model="value.quickMove" v-bind:pokemon="value.pokemonID" v-bind:form="value.form" />
               </b-form-group>
             </b-col>
             <b-col md="4">
               <b-form-group label="Charge Move">
-                <select-move kind="charge" v-model="value.chargeMove" v-bind:pokemon="value.pokemonID" />
+                <select-move kind="charge" v-model="value.chargeMove" v-bind:pokemon="value.pokemonID" v-bind:form="value.form" />
               </b-form-group>
             </b-col>
             <b-col md="4">
               <b-form-group label="2nd Charge Move">
-                <select-move kind="charge" v-model="value.chargeMove2" v-bind:pokemon="value.pokemonID" />
+                <select-move kind="charge" v-model="value.chargeMove2" v-bind:pokemon="value.pokemonID" v-bind:form="value.form" />
               </b-form-group>
             </b-col>
           </b-row>
