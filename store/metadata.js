@@ -153,6 +153,35 @@ const getters = {
     const { levels } = upgradeCosts
     if (!levels) return []
     return Array.from(new Set(Object.keys(levels).map(key => levels[key].stardust)))
+  },
+
+  attackerTypes ({ types }) {
+    if (!types) return null
+
+    const { list, matrix } = types
+    if (!list || !matrix) return null
+
+    return list.reduce((acc, t1, i1) => {
+      acc[t1] = list.reduce((acc, t2, i2) => {
+        acc[t2] = matrix[i1][i2]
+        return acc
+      }, {})
+      return acc
+    }, {})
+  },
+  defenderTypes ({ types }) {
+    if (!types) return null
+
+    const { list, matrix } = types
+    if (!list || !matrix) return null
+
+    return list.reduce((acc, t1, i1) => {
+      acc[t1] = list.reduce((acc, t2, i2) => {
+        acc[t2] = matrix[i2][i1]
+        return acc
+      }, {})
+      return acc
+    }, {})
   }
 }
 
