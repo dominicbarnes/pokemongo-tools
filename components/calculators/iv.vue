@@ -24,9 +24,14 @@
               </b-form-group>
             </b-col>
           </b-row>
-          <b-form-group>
-            <b-form-checkbox v-model="lucky">Lucky</b-form-checkbox>
-            <b-form-checkbox v-model="notPoweredUp">Not yet powered-up</b-form-checkbox>
+          <b-form-group class="mb-3">
+            <b-button-group size="sm">
+              <b-dropdown v-if="formOptions" text="Alternate Forms" variant="secondary" size="sm">
+                <b-dropdown-item v-for="option in formOptions" v-bind:key="option.value" v-on:click="form = option.value">{{ option.text }}</b-dropdown-item>
+              </b-dropdown>
+              <b-button v-bind:pressed.sync="lucky">Lucky</b-button>
+              <b-button v-bind:pressed.sync="notPoweredUp">Not yet powered-up</b-button>
+            </b-button-group>
           </b-form-group>
           <b-tabs nav-class="nav-fill" content-class="py-3">
             <b-tab title-item-class="w-25">
@@ -94,7 +99,11 @@
               {{ matchesMaxIV | number('0%') }}
             </stat-grid-cell>
           </stat-grid>
-          <b-table v-bind:items="matches" v-bind:fields="fields" />
+          <b-table v-bind:items="matches" v-bind:fields="fields">
+            <template slot="actions" slot-scope="data">
+              <b-button v-on:click.stop="add(data)" size="sm">Add</b-button>
+            </template>
+          </b-table>
         </div>
       </b-col>
     </b-row>
@@ -104,6 +113,7 @@
 <script>
   import { mapGetters } from 'vuex'
   import cartesian from 'cartesian'
+  import clone from 'clone'
   import numeral from 'numeral'
   import range from 'range-inclusive'
   import sortBy from 'sort-by'
@@ -119,6 +129,7 @@
     data() {
       return {
         pokemonID: null,
+        form: null,
         cp: null,
         hp: null,
         stardust: null,
@@ -154,6 +165,10 @@
             label: 'Percentage',
             formatter: value => numeral(value).format('0%'),
             sortable: true
+          },
+          {
+            key: 'actions',
+            label: ''
           }
         ]
       }
@@ -164,6 +179,33 @@
 
       metadata() {
         return this.pokemonByID(this.pokemonID)
+      },
+
+      formMetadata() {
+        const { metadata } = this
+        if (!metadata) return null
+
+        const form = this.form || metadata.defaultForm
+        if (form) {
+          const o = clone(metadata)
+          Object.assign(o, o.forms[form])
+          delete o.forms
+          return o
+        } else {
+          return metadata
+        }
+      },
+
+      formOptions() {
+        const { metadata } = this
+
+        if (!metadata) return null
+        if (!metadata.forms) return null
+
+        return Object.keys(metadata.forms).map(key => {
+          const form = metadata.forms[key]
+          return { text: form && form.name, value: key }
+        })
       },
 
       statOptions() {
@@ -307,7 +349,7 @@
       },
 
       calculate() {
-        const { metadata, cp, hp, cpMultipliers } = this
+        const { formMetadata: metadata, cp, hp, cpMultipliers } = this
 
         if (!metadata) return null
         const { attack, defense, stamina } = metadata.baseStats
@@ -322,6 +364,16 @@
           })
           .filter(combo => combo.calculatedCP === cp && combo.calculatedHP === hp)
           .sort(sortBy('percentIV'))
+      },
+
+      add(data) {
+        const { pokemonID, form, lucky } = this
+        const { level, attackIV, defenseIV, staminaIV } = data.item
+
+        this.$router.push({
+          name: 'catalog-add',
+          query: { pokemonID, form, lucky, level, attackIV, defenseIV, staminaIV }
+        })
       }
     },
 

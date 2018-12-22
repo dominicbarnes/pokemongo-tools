@@ -53,6 +53,7 @@
     "nano-promises": "^1.2.0",
     "node-prune": "^1.0.2",
     "numeral": "^2.0.6",
+    "parse-string-boolean": "^1.0.1",
     "postcss-cli": "^5.0.1",
     "postcss-import": "^11.0.0",
     "postcss-url": "^7.3.1",
