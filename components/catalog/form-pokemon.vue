@@ -7,7 +7,7 @@
 
       <b-col md="9">
         <b-form-group label="Pokémon">
-          <select-pokemon autofocus v-model="value.pokemonID" />
+          <select-pokemon v-bind:autofocus="!value.pokemonID" v-model="value.pokemonID" />
         </b-form-group>
 
         <b-form-group class="mb-3">
