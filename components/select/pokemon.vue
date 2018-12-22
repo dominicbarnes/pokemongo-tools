@@ -1,5 +1,5 @@
 <template>
-  <vue-multiselect v-bind:options="options" v-model="selected" track-by="id" label="name">
+  <vue-multiselect ref="multiselect" v-bind:options="options" v-model="selected" track-by="id" label="name">
     <template slot="option" slot-scope="{ option: pokemon }">
       {{ pokemon.name }}
       ({{ pokemon.dex | dex }})
@@ -17,7 +17,8 @@
 
   export default {
     props: {
-      value: String
+      value: String,
+      autofocus: Boolean
     },
 
     data() {
@@ -57,6 +58,12 @@
       if (this.value) {
         const pokemon = this.pokemonByID(this.value)
         this.selected = this.option(pokemon)
+      }
+    },
+
+    mounted() {
+      if (this.autofocus) {
+        this.$refs.multiselect.$el.focus()
       }
     },
 
