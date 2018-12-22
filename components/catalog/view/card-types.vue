@@ -6,17 +6,17 @@
     <b-list-group flush>
       <b-list-group-item>
         <h5><u>Attacker</u></h5>
-        <h6>Strengths</h6>
+        <h6>Strong Against</h6>
         <badge-type v-bind:type="type" v-for="type in strongAttacker" />
-        <h6 class="mt-2">Weaknesses</h6>
+        <h6 class="mt-2">Weak Against</h6>
         <badge-type v-bind:type="type" v-for="type in weakAttacker" />
       </b-list-group-item>
       <b-list-group-item>
         <h5><u>Defender</u></h5>
-        <h6>Strengths</h6>
-        <badge-type v-bind:type="type" v-for="type in strongDefender" />
-        <h6 class="mt-2">Weaknesses</h6>
+        <h6>Weaknesses</h6>
         <badge-type v-bind:type="type" v-for="type in weakDefender" />
+        <h6 class="mt-2">Resistances</h6>
+        <badge-type v-bind:type="type" v-for="type in strongDefender" />
       </b-list-group-item>
     </b-list-group>
   </b-card>
@@ -60,12 +60,12 @@
 
       strongDefender() {
         const { pokemonDefenderTypes: types } = this
-        return Object.keys(types).filter(t => types[t] > 1).sort()
+        return Object.keys(types).filter(t => types[t] < 1).sort()
       },
 
       weakDefender() {
         const { pokemonDefenderTypes: types } = this
-        return Object.keys(types).filter(t => types[t] < 1).sort()
+        return Object.keys(types).filter(t => types[t] > 1).sort()
       }
     },
 
