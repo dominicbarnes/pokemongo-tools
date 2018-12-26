@@ -155,6 +155,10 @@ const getters = {
     return Array.from(new Set(Object.keys(levels).map(key => levels[key].stardust)))
   },
 
+  types ({ types }) {
+    if (!types.list) return null
+    return types.list.slice().sort()
+  },
   attackerTypes ({ types }) {
     if (!types) return null
 

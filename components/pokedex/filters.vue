@@ -35,12 +35,12 @@
     computed: {
       ...mapGetters([
         'familyByID',
-        'pokemonGenerations'
+        'pokemonGenerations',
+        'types'
       ]),
 
       ...mapState({
-        families: state => state.metadata.families,
-        types: state => state.metadata.types.list
+        families: state => state.metadata.families
       }),
 
       familyOptions() {

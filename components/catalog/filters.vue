@@ -88,12 +88,12 @@
         'pokemonThatEvolve',
         'pokemonGenerations',
         'quickMoves',
-        'maxPossibleCP'
+        'maxPossibleCP',
+        'types'
       ]),
 
       ...mapState({
-        families: state => state.metadata.families,
-        types: state => state.metadata.types.list
+        families: state => state.metadata.families
       }),
 
       familyOptions() {
