@@ -7,89 +7,26 @@
           <b-form-group label="Select Pokemon">
             <select-pokemon v-model="pokemonID" />
           </b-form-group>
-          <b-row>
-            <b-col md="4">
-              <b-form-group label="CP">
-                <b-form-input type="number" min="10" max="maxPossibleCP" v-model.number="cp" required />
-              </b-form-group>
-            </b-col>
-            <b-col md="4">
-              <b-form-group label="HP">
-                <b-form-input type="number" min="10" max="maxPossibleHP" v-model.number="hp" required />
-              </b-form-group>
-            </b-col>
-            <b-col md="4">
-              <b-form-group label="Stardust Cost">
-                <b-form-select v-bind:options="stardustOptions" v-model.number="stardust" required />
-              </b-form-group>
-            </b-col>
-          </b-row>
           <b-form-group class="mb-3">
             <b-button-group size="sm">
               <b-dropdown v-if="formOptions" text="Alternate Forms" variant="secondary" size="sm">
                 <b-dropdown-item v-for="option in formOptions" v-bind:key="option.value" v-on:click="form = option.value">{{ option.text }}</b-dropdown-item>
               </b-dropdown>
-              <b-button v-bind:pressed.sync="lucky">Lucky</b-button>
-              <b-button v-bind:pressed.sync="notPoweredUp">Not yet powered-up</b-button>
             </b-button-group>
           </b-form-group>
-          <b-tabs nav-class="nav-fill" content-class="py-3">
-            <b-tab title-item-class="w-25">
-              <template slot="title">
-                <b-img fluid v-bind:src="teamLogoURL('yellow')" title="Team Instict" style="max-width: 150px;" />
-              </template>
-              <b-form-group label="Overall, your Pokémon...">
-                <b-form-select v-bind:options="appraisalOverallOptions('instinct')" v-model="appraisalOverall" />
-              </b-form-group>
-              <b-form-group label="Stats">
-                <b-form-checkbox-group v-bind:options="statOptions" v-model="appraisalStats" />
-              </b-form-group>
-              <b-form-group label="Stats feedback">
-                <b-form-select v-bind:options="appraisalMaxOptions('instinct')" v-model="appraisalMax" />
-              </b-form-group>
-            </b-tab>
-            <b-tab title-item-class="w-25">
-              <template slot="title">
-                <b-img fluid v-bind:src="teamLogoURL('blue')" title="Team Mystic" style="max-width: 150px;" />
-              </template>
-              <b-form-group label="Overall, your Pokémon...">
-                <b-form-select v-bind:options="appraisalOverallOptions('mystic')" v-model="appraisalOverall" />
-              </b-form-group>
-              <b-form-group label="Stats">
-                <b-form-checkbox-group v-bind:options="statOptions" v-model="appraisalStats" />
-              </b-form-group>
-              <b-form-group label="Stats feedback">
-                <b-form-select v-bind:options="appraisalMaxOptions('mystic')" v-model="appraisalMax" />
-              </b-form-group>
-            </b-tab>
-            <b-tab title-item-class="w-25">
-              <template slot="title">
-                <b-img fluid v-bind:src="teamLogoURL('red')" title="Team Valor" style="max-width: 150px;" />
-              </template>
-              <b-form-group label="Overall, your Pokémon...">
-                <b-form-select v-bind:options="appraisalOverallOptions('valor')" v-model="appraisalOverall" />
-              </b-form-group>
-              <b-form-group label="Stats">
-                <b-form-checkbox-group v-bind:options="statOptions" v-model="appraisalStats" />
-              </b-form-group>
-              <b-form-group label="Stats feedback">
-                <b-form-select v-bind:options="appraisalMaxOptions('valor')" v-model="appraisalMax" />
-              </b-form-group>
-            </b-tab>
-          </b-tabs>
+          <b-form-group label="Level">
+            <vue-slider ref="level" type="range" v-bind:min="1" v-bind:max="40" v-bind:interval="0.5" v-model="level" />
+          </b-form-group>
           <b-button type="submit" variant="primary">Calculate</b-button>
         </b-form>
       </b-col>
       <b-col md="6">
-        <b-alert v-if="!matches" show variant="warning">
-          Enter more information to calculate possible <abbr title="Individual Values">IVs</abbr>.
-        </b-alert>
-        <b-alert v-else-if="!matches.length" show variant="danger">
-          No possible IVs found for those values.
+        <b-alert v-if="!ready" show variant="warning">
+          Enter more information to calculate possible <abbr title="Combat Power">CP</abbr>.
         </b-alert>
         <div v-else>
           <stat-grid class="my-2">
-            <stat-grid-cell label="Combinations">
+            <stat-grid-cell label="CP">
               {{ matches.length }}
             </stat-grid-cell>
             <stat-grid-cell label="Min IV">
@@ -99,11 +36,6 @@
               {{ matchesMaxIV | number('0%') }}
             </stat-grid-cell>
           </stat-grid>
-          <b-table v-bind:items="matches" v-bind:fields="fields">
-            <template slot="actions" slot-scope="data">
-              <b-button v-on:click.stop="add(data)" size="sm">Add</b-button>
-            </template>
-          </b-table>
         </div>
       </b-col>
     </b-row>

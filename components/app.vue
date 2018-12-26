@@ -16,6 +16,7 @@
               <b-badge v-if="catalogCount > 0">{{ catalogCount }}</b-badge>
             </b-nav-item>
             <b-nav-item-dropdown text="Calculators">
+              <b-dropdown-item to="/calculators/cp">Combat Power (CP)</b-dropdown-item>
               <b-dropdown-item to="/calculators/iv">Individual Values (IVs)</b-dropdown-item>
             </b-nav-item-dropdown>
           </b-navbar-nav>

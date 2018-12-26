@@ -9,6 +9,11 @@
   padding: 0.2em 0;
 }
 
+/* https://stackoverflow.com/a/46374965/188702 */
+.multiselect--active {
+  z-index: 100;
+}
+
 :root {
   --normal: #a8a77a;
   --fire: #ee8130;
