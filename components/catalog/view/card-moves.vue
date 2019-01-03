@@ -25,7 +25,7 @@
     </b-card-body>
     <b-modal id="modalUseTM" title="Use TM" v-on:ok="useTM()">
       <b-form-group label="Quick Move" description="Select the new quick move.">
-        <select-move kind="quick" v-model="changes.quickMove" v-bind:pokemon="changes.pokemonID" />
+        <select-move kind="quick" v-model="changes.quickMove" v-bind:pokemon="pokemon.pokemonID" />
       </b-form-group>
       <b-form-group label="Charge Move" description="Select the new charge move.">
         <select-move kind="charge" v-model="changes.chargeMove" v-bind:pokemon="pokemon.pokemonID" />
