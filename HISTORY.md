@@ -1,4 +1,13 @@
 
+0.15.2 / 2019-01-02
+===================
+
+  * chore: update deps
+  * refactor: move defensive type chart to pokedex, remove offensive type chart from catalog
+  * fix(catalog): correctly bind pokemon id to quick move selector in tm modal
+  * feat: sort types alphabetically in filters
+  * feat(calculators): add basic CP calculator
+
 0.15.1 / 2018-12-21
 ===================
 
