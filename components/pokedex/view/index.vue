@@ -26,6 +26,7 @@
         </b-row>
         <b-card-group columns>
           <card-basic v-bind:metadata="pokemon" />
+          <card-types v-bind:metadata="pokemon" />
           <card-evolutions v-if="hasEvolutions" v-bind:metadata="pokemon" />
           <card-stats v-bind:metadata="pokemon" />
           <card-moves v-bind:metadata="pokemon" />
@@ -42,6 +43,7 @@
   import CardEvolutions from './card-evolutions.vue'
   import CardMoves from './card-moves.vue'
   import CardStats from './card-stats.vue'
+  import CardTypes from './card-types.vue'
 
   export default {
     computed: {
@@ -71,6 +73,6 @@
       }
     },
 
-    components: { CardBasic, CardEvolutions, CardMoves, CardStats }
+    components: { CardBasic, CardEvolutions, CardMoves, CardStats, CardTypes }
   }
 </script>
