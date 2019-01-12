@@ -83,7 +83,7 @@
       },
 
       moves() {
-        return [ this.pokemon.quickMove, this.pokemon.chargeMove ].filter(Boolean)
+        return [ this.pokemon.quickMove, this.pokemon.chargeMove, this.pokemon.chargeMove2 ].filter(Boolean)
       }
     },
 
