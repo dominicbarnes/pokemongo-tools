@@ -54,6 +54,9 @@
     <b-tab title="Evolves">
       <b-select v-bind:options="evolvesOptions" v-on:input="setEvolves" />
     </b-tab>
+    <b-tab title="The Silph League">
+      <b-select v-bind:options="leagueOptions" v-on:input="setLeague" />
+    </b-tab>
   </b-tabs>
 </template>
 
@@ -69,6 +72,16 @@
     common: 'Common',
     legendary: 'Legendary',
     mythic: 'Mythical'
+  }
+
+  const leagues = {
+    boulder: {
+      name: 'Boulder Cup',
+      filter: {
+        cp: { $lte: 1500 },
+        types: { $in: [ 'rock', 'ground', 'fighting', 'steel' ] }
+      }
+    }
   }
 
   export default {
@@ -150,6 +163,12 @@
 
       uncertainOptions() {
         return this.boolOptions('Uncertain Stats', 'Certain Stats')
+      },
+
+      leagueOptions() {
+        return this.options(Object.keys(leagues).sort().map(id => {
+          return { value: id, text: leagues[id].name }
+        }))
       }
     },
 
@@ -272,6 +291,11 @@
       setChargeMove(chargeMoveID) {
         const move = this.movesByID(chargeMoveID)
         this.set('chargeMove', { chargeMoveID }, `Charge Move ${move.name}`)
+      },
+
+      setLeague(league) {
+        const { name, filter } = leagues[league]
+        this.set('league', filter, name)
       }
     },
 
