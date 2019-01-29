@@ -81,6 +81,13 @@
         cp: { $lte: 1500 },
         types: { $in: [ 'rock', 'ground', 'fighting', 'steel' ] }
       }
+    },
+    twilight: {
+      name: 'Twilight Cup',
+      filter: {
+        cp: { $lte: 1500 },
+        types: { $in: [ 'dark', 'fairy', 'poison', 'ghost' ] }
+      }
     }
   }
 
