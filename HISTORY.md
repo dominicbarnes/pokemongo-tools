@@ -1,4 +1,13 @@
 
+0.16.0 / 2019-01-28
+===================
+
+  * feat(catalog): add Twilight Cup to filters
+  * feat(catalog): add league filter
+  * chore(package): update deps
+  * feat(catalog): add 2nd charge move to move type badges
+  * chore: update POGOProtos
+
 0.15.2 / 2019-01-02
 ===================
 
