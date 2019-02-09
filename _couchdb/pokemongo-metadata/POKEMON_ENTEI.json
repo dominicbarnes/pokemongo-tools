@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_FIRE_BLAST": false,
     "MOVE_FLAMETHROWER": false,
+    "MOVE_IRON_HEAD": false,
     "MOVE_OVERHEAT": false
   },
   "dex": 244,

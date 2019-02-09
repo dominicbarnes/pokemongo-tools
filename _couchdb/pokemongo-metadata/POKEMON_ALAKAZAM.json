@@ -6,6 +6,7 @@
   },
   "buddyDistance": 3,
   "chargeMoves": {
+    "MOVE_FIRE_PUNCH": false,
     "MOVE_FOCUS_BLAST": false,
     "MOVE_FUTURESIGHT": false,
     "MOVE_SHADOW_BALL": false

@@ -20,7 +20,8 @@
   "previousEvolution": "POKEMON_KABUTO",
   "quickMoves": {
     "MOVE_MUD_SHOT_FAST": false,
-    "MOVE_ROCK_SMASH_FAST": false
+    "MOVE_ROCK_SMASH_FAST": false,
+    "MOVE_WATERFALL_FAST": false
   },
   "rarity": "common",
   "types": [

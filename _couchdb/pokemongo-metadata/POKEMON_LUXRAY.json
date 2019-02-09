@@ -19,6 +19,7 @@
   ],
   "previousEvolution": "POKEMON_LUXIO",
   "quickMoves": {
+    "MOVE_HIDDEN_POWER_FAST": false,
     "MOVE_SNARL_FAST": false,
     "MOVE_SPARK_FAST": false
   },

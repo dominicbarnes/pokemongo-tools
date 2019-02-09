@@ -4,11 +4,12 @@
     "defense": 172,
     "stamina": 181
   },
-  "buddyDistance": 3,
+  "buddyDistance": 5,
   "chargeMoves": {
     "MOVE_BRICK_BREAK": false,
     "MOVE_FIRE_BLAST": false,
-    "MOVE_FIRE_PUNCH": false
+    "MOVE_FIRE_PUNCH": false,
+    "MOVE_PSYCHIC": false
   },
   "dex": 467,
   "family": "FAMILY_MAGMAR",

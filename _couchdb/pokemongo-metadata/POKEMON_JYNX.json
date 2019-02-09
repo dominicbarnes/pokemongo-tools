@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_AVALANCHE": false,
     "MOVE_DRAINING_KISS": false,
+    "MOVE_FOCUS_BLAST": false,
     "MOVE_PSYSHOCK": false
   },
   "dex": 124,

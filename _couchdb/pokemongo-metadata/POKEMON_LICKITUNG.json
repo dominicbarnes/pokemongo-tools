@@ -16,6 +16,11 @@
   "height": 1.2,
   "name": "Lickitung",
   "nextEvolutions": [
+    {
+      "candy": 100,
+      "item": "ITEM_GEN4_EVOLUTION_STONE",
+      "pokemon": "POKEMON_LICKILICKY"
+    }
   ],
   "previousEvolution": null,
   "quickMoves": {

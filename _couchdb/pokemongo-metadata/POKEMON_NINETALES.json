@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_HEAT_WAVE": false,
     "MOVE_OVERHEAT": false,
+    "MOVE_PSYSHOCK": false,
     "MOVE_SOLAR_BEAM": false
   },
   "defaultForm": "normal",
@@ -25,7 +26,8 @@
       "chargeMoves": {
         "MOVE_BLIZZARD": false,
         "MOVE_DAZZLING_GLEAM": false,
-        "MOVE_ICE_BEAM": false
+        "MOVE_ICE_BEAM": false,
+        "MOVE_PSYSHOCK": false
       },
       "dex": 38,
       "family": "FAMILY_VULPIX",
@@ -56,6 +58,7 @@
       "chargeMoves": {
         "MOVE_HEAT_WAVE": false,
         "MOVE_OVERHEAT": false,
+        "MOVE_PSYSHOCK": false,
         "MOVE_SOLAR_BEAM": false
       },
       "dex": 38,

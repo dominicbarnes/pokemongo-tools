@@ -16,6 +16,11 @@
   "height": 1,
   "name": "Tangela",
   "nextEvolutions": [
+    {
+      "candy": 100,
+      "item": "ITEM_GEN4_EVOLUTION_STONE",
+      "pokemon": "POKEMON_TANGROWTH"
+    }
   ],
   "previousEvolution": null,
   "quickMoves": {

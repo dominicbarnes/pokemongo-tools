@@ -8,7 +8,9 @@
   "chargeMoves": {
     "MOVE_BODY_SLAM": false,
     "MOVE_GYRO_BALL": false,
-    "MOVE_STOMP": false
+    "MOVE_ICE_BEAM": false,
+    "MOVE_STOMP": false,
+    "MOVE_THUNDERBOLT": false
   },
   "dex": 241,
   "family": "FAMILY_MILTANK",

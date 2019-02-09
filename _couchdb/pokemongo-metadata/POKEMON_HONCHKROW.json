@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_BRAVE_BIRD": false,
     "MOVE_DARK_PULSE": false,
-    "MOVE_PSYCHIC": false
+    "MOVE_PSYCHIC": false,
+    "MOVE_SKY_ATTACK": false
   },
   "dex": 430,
   "family": "FAMILY_MURKROW",

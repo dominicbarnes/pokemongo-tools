@@ -4,7 +4,7 @@
     "defense": 179,
     "stamina": 128
   },
-  "buddyDistance": 3,
+  "buddyDistance": 5,
   "chargeMoves": {
     "MOVE_AERIAL_ACE": false,
     "MOVE_ICE_BEAM": false,
@@ -17,6 +17,7 @@
   "name": "Mantyke",
   "nextEvolutions": [
     {
+      "candy": 50,
       "pokemon": "POKEMON_MANTINE"
     }
   ],

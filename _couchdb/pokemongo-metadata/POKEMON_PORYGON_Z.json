@@ -6,6 +6,7 @@
   },
   "buddyDistance": 3,
   "chargeMoves": {
+    "MOVE_BLIZZARD": false,
     "MOVE_HYPER_BEAM": false,
     "MOVE_SOLAR_BEAM": false,
     "MOVE_ZAP_CANNON": false

@@ -21,7 +21,7 @@
       "pokemon": "POKEMON_BLISSEY"
     }
   ],
-  "previousEvolution": null,
+  "previousEvolution": "POKEMON_HAPPINY",
   "quickMoves": {
     "MOVE_POUND_FAST": false,
     "MOVE_ZEN_HEADBUTT_FAST": false

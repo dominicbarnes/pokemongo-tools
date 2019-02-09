@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_DRAGON_PULSE": "special",
     "MOVE_FOCUS_BLAST": false,
+    "MOVE_POWER_GEM": false,
     "MOVE_THUNDER": false,
     "MOVE_ZAP_CANNON": false
   },

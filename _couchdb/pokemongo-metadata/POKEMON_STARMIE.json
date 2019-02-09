@@ -7,8 +7,10 @@
   "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_HYDRO_PUMP": false,
+    "MOVE_ICE_BEAM": false,
     "MOVE_POWER_GEM": false,
-    "MOVE_PSYCHIC": false
+    "MOVE_PSYCHIC": false,
+    "MOVE_THUNDER": false
   },
   "dex": 121,
   "family": "FAMILY_STARYU",

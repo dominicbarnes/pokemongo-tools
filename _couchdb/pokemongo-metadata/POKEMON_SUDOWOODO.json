@@ -17,7 +17,7 @@
   "name": "Sudowoodo",
   "nextEvolutions": [
   ],
-  "previousEvolution": null,
+  "previousEvolution": "POKEMON_BONSLY",
   "quickMoves": {
     "MOVE_COUNTER_FAST": false,
     "MOVE_ROCK_THROW_FAST": false

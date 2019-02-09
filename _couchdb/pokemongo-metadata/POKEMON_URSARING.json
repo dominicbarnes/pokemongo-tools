@@ -20,7 +20,8 @@
   "previousEvolution": "POKEMON_TEDDIURSA",
   "quickMoves": {
     "MOVE_COUNTER_FAST": false,
-    "MOVE_METAL_CLAW_FAST": false
+    "MOVE_METAL_CLAW_FAST": false,
+    "MOVE_SHADOW_CLAW_FAST": false
   },
   "rarity": "common",
   "types": [

@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_DAZZLING_GLEAM": false,
     "MOVE_HYPER_BEAM": false,
+    "MOVE_ICE_BEAM": false,
     "MOVE_PLAY_ROUGH": false
   },
   "dex": 40,

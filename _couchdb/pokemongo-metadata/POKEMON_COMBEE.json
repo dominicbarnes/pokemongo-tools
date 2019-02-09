@@ -19,7 +19,7 @@
       "pokemon": "POKEMON_VESPIQUEN"
     }
   ],
-  "previousEvolution": "POKEMON_MOTHIM",
+  "previousEvolution": null,
   "quickMoves": {
     "MOVE_BUG_BITE_FAST": false
   },

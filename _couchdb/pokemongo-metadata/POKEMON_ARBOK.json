@@ -20,7 +20,8 @@
   "previousEvolution": "POKEMON_EKANS",
   "quickMoves": {
     "MOVE_ACID_FAST": false,
-    "MOVE_BITE_FAST": false
+    "MOVE_BITE_FAST": false,
+    "MOVE_DRAGON_TAIL_FAST": false
   },
   "rarity": "common",
   "types": [

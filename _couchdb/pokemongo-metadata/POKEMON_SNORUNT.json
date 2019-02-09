@@ -18,7 +18,12 @@
   "name": "Snorunt",
   "nextEvolutions": [
     {
-      "candy": 50,
+      "candy": 100,
+      "item": "ITEM_GEN4_EVOLUTION_STONE",
+      "pokemon": "POKEMON_FROSLASS"
+    },
+    {
+      "candy": 100,
       "pokemon": "POKEMON_GLALIE"
     }
   ],

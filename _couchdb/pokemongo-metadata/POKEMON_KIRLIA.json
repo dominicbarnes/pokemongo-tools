@@ -19,6 +19,11 @@
   "nextEvolutions": [
     {
       "candy": 100,
+      "item": "ITEM_GEN4_EVOLUTION_STONE",
+      "pokemon": "POKEMON_GALLADE"
+    },
+    {
+      "candy": 100,
       "pokemon": "POKEMON_GARDEVOIR"
     }
   ],

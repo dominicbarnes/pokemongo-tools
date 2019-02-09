@@ -20,6 +20,7 @@
   ],
   "previousEvolution": "POKEMON_SHELGON",
   "quickMoves": {
+    "MOVE_BITE_FAST": false,
     "MOVE_DRAGON_TAIL_FAST": false,
     "MOVE_FIRE_FANG_FAST": false,
     "MOVE_SPLASH_FAST": true

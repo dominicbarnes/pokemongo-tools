@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_DARK_PULSE": false,
     "MOVE_GUNK_SHOT": false,
-    "MOVE_SLUDGE_WAVE": false
+    "MOVE_SLUDGE_WAVE": false,
+    "MOVE_THUNDER_PUNCH": false
   },
   "defaultForm": "normal",
   "dex": 89,
@@ -37,7 +38,8 @@
       "previousEvolution": "POKEMON_GRIMER",
       "quickMoves": {
         "MOVE_BITE_FAST": false,
-        "MOVE_POISON_JAB_FAST": false
+        "MOVE_POISON_JAB_FAST": false,
+        "MOVE_SNARL_FAST": false
       },
       "rarity": "common",
       "types": [
@@ -56,7 +58,8 @@
       "chargeMoves": {
         "MOVE_DARK_PULSE": false,
         "MOVE_GUNK_SHOT": false,
-        "MOVE_SLUDGE_WAVE": false
+        "MOVE_SLUDGE_WAVE": false,
+        "MOVE_THUNDER_PUNCH": false
       },
       "dex": 89,
       "family": "FAMILY_GRIMER",

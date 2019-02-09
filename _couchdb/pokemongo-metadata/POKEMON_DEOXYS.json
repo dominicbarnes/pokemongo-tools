@@ -58,7 +58,7 @@
       "chargeMoves": {
         "MOVE_PSYCHO_BOOST": false,
         "MOVE_ROCK_SLIDE": false,
-        "MOVE_ZAP_CANNON": false
+        "MOVE_THUNDERBOLT": false
       },
       "dex": 386,
       "family": "FAMILY_DEOXYS",
@@ -120,7 +120,7 @@
       "chargeMoves": {
         "MOVE_PSYCHO_BOOST": false,
         "MOVE_SWIFT": false,
-        "MOVE_ZAP_CANNON": false
+        "MOVE_THUNDERBOLT": false
       },
       "dex": 386,
       "family": "FAMILY_DEOXYS",

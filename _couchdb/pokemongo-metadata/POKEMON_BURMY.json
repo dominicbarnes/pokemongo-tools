@@ -36,16 +36,6 @@
         },
         {
           "candy": 50,
-          "form": "sandy",
-          "pokemon": "POKEMON_WORMADAM"
-        },
-        {
-          "candy": 50,
-          "form": "trash",
-          "pokemon": "POKEMON_WORMADAM"
-        },
-        {
-          "candy": 50,
           "pokemon": "POKEMON_MOTHIM"
         }
       ],
@@ -79,17 +69,7 @@
       "nextEvolutions": [
         {
           "candy": 50,
-          "form": "plant",
-          "pokemon": "POKEMON_WORMADAM"
-        },
-        {
-          "candy": 50,
           "form": "sandy",
-          "pokemon": "POKEMON_WORMADAM"
-        },
-        {
-          "candy": 50,
-          "form": "trash",
           "pokemon": "POKEMON_WORMADAM"
         },
         {
@@ -127,16 +107,6 @@
       "nextEvolutions": [
         {
           "candy": 50,
-          "form": "plant",
-          "pokemon": "POKEMON_WORMADAM"
-        },
-        {
-          "candy": 50,
-          "form": "sandy",
-          "pokemon": "POKEMON_WORMADAM"
-        },
-        {
-          "candy": 50,
           "form": "trash",
           "pokemon": "POKEMON_WORMADAM"
         },
@@ -164,16 +134,6 @@
     {
       "candy": 50,
       "form": "plant",
-      "pokemon": "POKEMON_WORMADAM"
-    },
-    {
-      "candy": 50,
-      "form": "sandy",
-      "pokemon": "POKEMON_WORMADAM"
-    },
-    {
-      "candy": 50,
-      "form": "trash",
       "pokemon": "POKEMON_WORMADAM"
     },
     {

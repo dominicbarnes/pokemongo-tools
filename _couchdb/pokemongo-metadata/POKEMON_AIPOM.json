@@ -16,6 +16,11 @@
   "height": 0.79,
   "name": "Aipom",
   "nextEvolutions": [
+    {
+      "candy": 100,
+      "item": "ITEM_GEN4_EVOLUTION_STONE",
+      "pokemon": "POKEMON_AMBIPOM"
+    }
   ],
   "previousEvolution": null,
   "quickMoves": {

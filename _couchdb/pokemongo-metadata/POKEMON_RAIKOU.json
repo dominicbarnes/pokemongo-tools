@@ -6,6 +6,7 @@
   },
   "buddyDistance": 20,
   "chargeMoves": {
+    "MOVE_SHADOW_BALL": false,
     "MOVE_THUNDER": false,
     "MOVE_THUNDERBOLT": false,
     "MOVE_WILD_CHARGE": false

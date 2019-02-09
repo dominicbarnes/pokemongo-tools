@@ -4,7 +4,7 @@
     "defense": 219,
     "stamina": 163
   },
-  "buddyDistance": 3,
+  "buddyDistance": 5,
   "chargeMoves": {
     "MOVE_ENERGY_BALL": false,
     "MOVE_LEAF_BLADE": false,

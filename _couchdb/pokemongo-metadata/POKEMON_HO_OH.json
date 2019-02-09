@@ -20,6 +20,7 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_EXTRASENSORY_FAST": false,
+    "MOVE_HIDDEN_POWER_FAST": false,
     "MOVE_STEEL_WING_FAST": false
   },
   "rarity": "legendary",

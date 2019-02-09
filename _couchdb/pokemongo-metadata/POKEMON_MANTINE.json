@@ -20,6 +20,7 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_BUBBLE_FAST": false,
+    "MOVE_BULLET_SEED_FAST": false,
     "MOVE_WING_ATTACK_FAST": false
   },
   "rarity": "common",

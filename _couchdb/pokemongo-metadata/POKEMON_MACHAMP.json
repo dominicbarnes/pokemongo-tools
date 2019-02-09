@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_CLOSE_COMBAT": false,
     "MOVE_DYNAMIC_PUNCH": false,
-    "MOVE_HEAVY_SLAM": false
+    "MOVE_HEAVY_SLAM": false,
+    "MOVE_ROCK_SLIDE": false
   },
   "dex": 68,
   "family": "FAMILY_MACHOP",
