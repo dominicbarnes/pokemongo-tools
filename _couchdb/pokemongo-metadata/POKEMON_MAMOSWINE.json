@@ -6,6 +6,7 @@
   },
   "buddyDistance": 3,
   "chargeMoves": {
+    "MOVE_ANCIENT_POWER": "special",
     "MOVE_AVALANCHE": false,
     "MOVE_BULLDOZE": false,
     "MOVE_STONE_EDGE": false

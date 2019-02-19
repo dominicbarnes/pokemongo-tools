@@ -61,7 +61,7 @@
       "dex": 492,
       "family": "FAMILY_SHAYMIN",
       "generation": 4,
-      "height": 0.2,
+      "height": 0.4,
       "name": "Shaymin (Sky)",
       "nextEvolutions": [
       ],
@@ -75,7 +75,7 @@
         "grass",
         "flying"
       ],
-      "weight": 2.1
+      "weight": 5.2
     }
   },
   "generation": 4,

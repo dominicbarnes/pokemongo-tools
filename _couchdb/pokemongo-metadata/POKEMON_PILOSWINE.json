@@ -16,6 +16,11 @@
   "height": 1.09,
   "name": "Piloswine",
   "nextEvolutions": [
+    {
+      "candy": 100,
+      "item": "ITEM_GEN4_EVOLUTION_STONE",
+      "pokemon": "POKEMON_MAMOSWINE"
+    }
   ],
   "previousEvolution": "POKEMON_SWINUB",
   "quickMoves": {

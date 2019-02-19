@@ -62,7 +62,7 @@
       "dex": 487,
       "family": "FAMILY_GIRATINA",
       "generation": 4,
-      "height": 4.5,
+      "height": 6.9,
       "name": "Giratina (Origin)",
       "nextEvolutions": [
       ],
@@ -76,7 +76,7 @@
         "ghost",
         "dragon"
       ],
-      "weight": 750
+      "weight": 650
     }
   },
   "generation": 4,

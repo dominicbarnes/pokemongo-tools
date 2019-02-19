@@ -17,7 +17,7 @@
   "name": "Swinub",
   "nextEvolutions": [
     {
-      "candy": 50,
+      "candy": 25,
       "pokemon": "POKEMON_PILOSWINE"
     }
   ],
