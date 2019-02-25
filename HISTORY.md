@@ -1,4 +1,15 @@
 
+0.16.1 / 2019-02-24
+===================
+
+  * feat(catalog): add Tempest Cup for Silph League
+  * chore: npm update
+  * chore(metadata): update and rebuild
+  * chore(metadata): update
+  * chore: downgrade postcss to fix vue issues
+  * chore: update dependencies
+  * build: switch to npm ci
+
 0.16.0 / 2019-01-28
 ===================
 
