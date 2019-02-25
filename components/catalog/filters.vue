@@ -88,6 +88,13 @@
         cp: { $lte: 1500 },
         types: { $in: [ 'dark', 'fairy', 'poison', 'ghost' ] }
       }
+    },
+    tempest: {
+      name: 'Tempest Cup',
+      filter: {
+        cp: { $lte: 1500 },
+        types: { $in: [ 'electric', 'ice', 'flying', 'ground' ] }
+      }
     }
   }
 
