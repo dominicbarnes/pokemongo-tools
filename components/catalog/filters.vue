@@ -196,7 +196,7 @@
       },
 
       options(list) {
-        list.unshift({ value: null, text: '&mdash;' })
+        list.unshift({ value: null, text: '—' })
         return list
       },
 
