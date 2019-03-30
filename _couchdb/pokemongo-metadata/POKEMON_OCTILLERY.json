@@ -6,6 +6,7 @@
   },
   "buddyDistance": 1,
   "chargeMoves": {
+    "MOVE_ACID_SPRAY": false,
     "MOVE_AURORA_BEAM": false,
     "MOVE_GUNK_SHOT": false,
     "MOVE_WATER_PULSE": false

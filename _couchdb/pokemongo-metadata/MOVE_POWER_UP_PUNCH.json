@@ -1,0 +1,10 @@
+{
+  "damageWindowEnd": 1900,
+  "damageWindowStart": 1700,
+  "duration": 2000,
+  "energyDelta": -33,
+  "name": "Power Up Punch",
+  "power": 50,
+  "quick": false,
+  "type": "fighting"
+}

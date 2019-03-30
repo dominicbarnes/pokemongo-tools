@@ -125,6 +125,7 @@ function rarity (pokemon) {
 }
 
 function moves (ids) {
+  if (!ids) return Object.create(null)
   return ids.map(id => `MOVE_${id}`).reduce((acc, key) => {
     acc[key] = false
     return acc

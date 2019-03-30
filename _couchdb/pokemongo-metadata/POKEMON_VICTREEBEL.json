@@ -6,7 +6,9 @@
   },
   "buddyDistance": 3,
   "chargeMoves": {
+    "MOVE_ACID_SPRAY": false,
     "MOVE_LEAF_BLADE": false,
+    "MOVE_LEAF_TORNADO": false,
     "MOVE_SLUDGE_BOMB": false,
     "MOVE_SOLAR_BEAM": false
   },

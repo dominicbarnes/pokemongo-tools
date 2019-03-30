@@ -18,7 +18,7 @@
   "name": "Chimecho",
   "nextEvolutions": [
   ],
-  "previousEvolution": null,
+  "previousEvolution": "POKEMON_CHINGLING",
   "quickMoves": {
     "MOVE_ASTONISH_FAST": false,
     "MOVE_EXTRASENSORY_FAST": false,

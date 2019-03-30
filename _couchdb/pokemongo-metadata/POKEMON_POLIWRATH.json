@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_DYNAMIC_PUNCH": false,
     "MOVE_HYDRO_PUMP": false,
-    "MOVE_ICE_PUNCH": false
+    "MOVE_ICE_PUNCH": false,
+    "MOVE_POWER_UP_PUNCH": false
   },
   "dex": 62,
   "family": "FAMILY_POLIWAG",

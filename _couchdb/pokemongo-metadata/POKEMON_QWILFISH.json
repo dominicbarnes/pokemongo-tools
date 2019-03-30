@@ -6,6 +6,7 @@
   },
   "buddyDistance": 3,
   "chargeMoves": {
+    "MOVE_ACID_SPRAY": false,
     "MOVE_AQUA_TAIL": false,
     "MOVE_ICE_BEAM": false,
     "MOVE_SLUDGE_WAVE": false

@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_DYNAMIC_PUNCH": false,
     "MOVE_ICE_PUNCH": false,
+    "MOVE_POWER_UP_PUNCH": false,
     "MOVE_PSYCHIC": false,
     "MOVE_STRUGGLE": true
   },

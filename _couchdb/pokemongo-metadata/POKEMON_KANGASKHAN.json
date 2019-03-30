@@ -8,7 +8,8 @@
   "chargeMoves": {
     "MOVE_CRUNCH": false,
     "MOVE_EARTHQUAKE": false,
-    "MOVE_OUTRAGE": false
+    "MOVE_OUTRAGE": false,
+    "MOVE_POWER_UP_PUNCH": false
   },
   "dex": 115,
   "family": "FAMILY_KANGASKHAN",

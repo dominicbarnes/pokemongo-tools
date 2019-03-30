@@ -17,7 +17,7 @@
   "name": "Mothim",
   "nextEvolutions": [
   ],
-  "previousEvolution": null,
+  "previousEvolution": "POKEMON_BURMY",
   "quickMoves": {
     "MOVE_AIR_SLASH_FAST": false,
     "MOVE_BUG_BITE_FAST": false

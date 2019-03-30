@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_CLOSE_COMBAT": false,
     "MOVE_FLASH_CANNON": false,
+    "MOVE_POWER_UP_PUNCH": false,
     "MOVE_SHADOW_BALL": false
   },
   "dex": 448,

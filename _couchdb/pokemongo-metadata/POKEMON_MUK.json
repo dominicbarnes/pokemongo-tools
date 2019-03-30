@@ -6,6 +6,7 @@
   },
   "buddyDistance": 3,
   "chargeMoves": {
+    "MOVE_ACID_SPRAY": false,
     "MOVE_DARK_PULSE": false,
     "MOVE_GUNK_SHOT": false,
     "MOVE_SLUDGE_WAVE": false,
@@ -24,6 +25,7 @@
       },
       "buddyDistance": 3,
       "chargeMoves": {
+        "MOVE_ACID_SPRAY": false,
         "MOVE_DARK_PULSE": false,
         "MOVE_GUNK_SHOT": false,
         "MOVE_SLUDGE_WAVE": false
@@ -56,6 +58,7 @@
       },
       "buddyDistance": 3,
       "chargeMoves": {
+        "MOVE_ACID_SPRAY": false,
         "MOVE_DARK_PULSE": false,
         "MOVE_GUNK_SHOT": false,
         "MOVE_SLUDGE_WAVE": false,

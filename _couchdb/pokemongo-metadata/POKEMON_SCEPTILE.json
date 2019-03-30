@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_AERIAL_ACE": false,
     "MOVE_EARTHQUAKE": false,
+    "MOVE_FRENZY_PLANT": "special",
     "MOVE_LEAF_BLADE": false,
     "MOVE_STRUGGLE": true
   },

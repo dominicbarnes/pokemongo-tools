@@ -6,7 +6,7 @@
   },
   "buddyDistance": 3,
   "chargeMoves": {
-    "MOVE_STRUGGLE": false
+    "MOVE_STRUGGLE": true
   },
   "dex": 235,
   "family": "FAMILY_SMEARGLE",
@@ -17,7 +17,7 @@
   ],
   "previousEvolution": null,
   "quickMoves": {
-    "MOVE_TACKLE_FAST": false
+    "MOVE_TACKLE_FAST": true
   },
   "rarity": "common",
   "types": [

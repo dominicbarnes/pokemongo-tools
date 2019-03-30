@@ -15,7 +15,7 @@
   "family": "FAMILY_ROTOM",
   "forms": {
     "fan": {
-      "assetBundle": 13,
+      "assetBundle": 15,
       "baseStats": {
         "attack": 204,
         "defense": 219,
@@ -47,7 +47,7 @@
       "weight": 0.3
     },
     "frost": {
-      "assetBundle": 12,
+      "assetBundle": 14,
       "baseStats": {
         "attack": 204,
         "defense": 219,
@@ -79,7 +79,7 @@
       "weight": 0.3
     },
     "heat": {
-      "assetBundle": 16,
+      "assetBundle": 12,
       "baseStats": {
         "attack": 204,
         "defense": 219,
@@ -111,7 +111,7 @@
       "weight": 0.3
     },
     "mow": {
-      "assetBundle": 14,
+      "assetBundle": 16,
       "baseStats": {
         "attack": 204,
         "defense": 219,
@@ -175,7 +175,7 @@
       "weight": 0.3
     },
     "wash": {
-      "assetBundle": 15,
+      "assetBundle": 13,
       "baseStats": {
         "attack": 204,
         "defense": 219,

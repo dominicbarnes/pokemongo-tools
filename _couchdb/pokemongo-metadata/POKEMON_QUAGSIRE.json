@@ -6,6 +6,7 @@
   },
   "buddyDistance": 3,
   "chargeMoves": {
+    "MOVE_ACID_SPRAY": false,
     "MOVE_EARTHQUAKE": false,
     "MOVE_SLUDGE_BOMB": false,
     "MOVE_STONE_EDGE": false

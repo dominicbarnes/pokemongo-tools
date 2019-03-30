@@ -1,0 +1,10 @@
+{
+  "damageWindowEnd": 2600,
+  "damageWindowStart": 2000,
+  "duration": 3100,
+  "energyDelta": -33,
+  "name": "Leaf Tornado",
+  "power": 45,
+  "quick": false,
+  "type": "grass"
+}

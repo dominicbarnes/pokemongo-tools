@@ -1,0 +1,10 @@
+{
+  "damageWindowEnd": 2800,
+  "damageWindowStart": 2100,
+  "duration": 3000,
+  "energyDelta": -50,
+  "name": "Acid Spray",
+  "power": 20,
+  "quick": false,
+  "type": "poison"
+}

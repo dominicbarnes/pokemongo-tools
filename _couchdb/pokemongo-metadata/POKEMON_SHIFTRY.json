@@ -9,6 +9,7 @@
     "MOVE_FOUL_PLAY": false,
     "MOVE_HURRICANE": false,
     "MOVE_LEAF_BLADE": false,
+    "MOVE_LEAF_TORNADO": false,
     "MOVE_STRUGGLE": true
   },
   "dex": 275,

@@ -55,9 +55,9 @@
       },
       "buddyDistance": 20,
       "chargeMoves": {
-        "MOVE_ANCIENT_POWER": false,
-        "MOVE_DRAGON_CLAW": false,
-        "MOVE_SHADOW_SNEAK": false
+        "MOVE_DRAGON_PULSE": false,
+        "MOVE_OMINOUS_WIND": false,
+        "MOVE_SHADOW_BALL": false
       },
       "dex": 487,
       "family": "FAMILY_GIRATINA",
@@ -68,7 +68,7 @@
       ],
       "previousEvolution": null,
       "quickMoves": {
-        "MOVE_DRAGON_BREATH_FAST": false,
+        "MOVE_DRAGON_TAIL_FAST": false,
         "MOVE_SHADOW_CLAW_FAST": false
       },
       "rarity": "legendary",

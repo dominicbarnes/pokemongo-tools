@@ -9,6 +9,7 @@
     "MOVE_CLOSE_COMBAT": false,
     "MOVE_FIRE_PUNCH": false,
     "MOVE_ICE_PUNCH": false,
+    "MOVE_POWER_UP_PUNCH": false,
     "MOVE_THUNDER_PUNCH": false
   },
   "dex": 107,
