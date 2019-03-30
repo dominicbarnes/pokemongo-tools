@@ -1,4 +1,10 @@
 
+0.16.3 / 2019-03-30
+===================
+
+  * fix: use real mdash instead of html entity
+  * chore(metadata): update and rebuild
+
 0.16.2 / 2019-02-24
 ===================
 
