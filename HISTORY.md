@@ -1,4 +1,10 @@
 
+0.16.4 / 2019-04-14
+===================
+
+  * feat(catalog): add kingdom cup filter
+  * chore: update POGOProtos
+
 0.16.3 / 2019-03-30
 ===================
 
