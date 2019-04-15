@@ -95,6 +95,13 @@
         cp: { $lte: 1500 },
         types: { $in: [ 'electric', 'ice', 'flying', 'ground' ] }
       }
+    },
+    kingdom: {
+      name: 'Kindgom Cup',
+      filter: {
+        cp: { $lte: 1500 },
+        types: { $in: [ 'dragon', 'steel', 'fire', 'ice' ] }
+      }
     }
   }
 
