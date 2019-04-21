@@ -1,4 +1,9 @@
 
+0.16.5 / 2019-04-20
+===================
+
+  * feat(catalog): add nightmare cup, remove unnecessary sort
+
 0.16.4 / 2019-04-14
 ===================
 
