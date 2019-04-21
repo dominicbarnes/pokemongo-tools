@@ -102,6 +102,15 @@
         cp: { $lte: 1500 },
         types: { $in: [ 'dragon', 'steel', 'fire', 'ice' ] }
       }
+    },
+    nightmare: {
+      name: 'Nightmare Cup',
+      filter: {
+        cp: { $lte: 1500 },
+        types: { $in: [ 'fighting', 'psychic', 'dark' ] },
+        rarity: 'common',
+        familyID: { $nin: [ 'FAMILY_MEDITITE', 'FAMILY_SABLEYE' ] }
+      }
     }
   }
 
@@ -187,7 +196,7 @@
       },
 
       leagueOptions() {
-        return this.options(Object.keys(leagues).sort().map(id => {
+        return this.options(Object.keys(leagues).map(id => {
           return { value: id, text: leagues[id].name }
         }))
       }
