@@ -11,6 +11,7 @@
         <badge-rarity v-if="pokemon.rarity !== 'common'" v-bind:rarity="pokemon.rarity" />
         <badge-shiny v-if="pokemon.shiny" />
         <b-badge variant="info" v-if="pokemon.lucky">Lucky</b-badge>
+        <b-badge variant="warning" v-if="legacyMoves">Legacy Moves</b-badge>
       </div>
       <div>
         <badge-type v-for="(type, i) in pokemon.types" v-bind:type="type" v-bind:title="'Type ' + (i + 1)" v-b-tooltip.hover.top />
@@ -84,6 +85,10 @@
 
       moves() {
         return [ this.pokemon.quickMove, this.pokemon.chargeMove, this.pokemon.chargeMove2 ].filter(Boolean)
+      },
+
+      legacyMoves() {
+        return this.moves.some(move => move.legacy)
       }
     },
 
