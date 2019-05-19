@@ -11,13 +11,13 @@
         <badge-rarity v-if="pokemon.rarity !== 'common'" v-bind:rarity="pokemon.rarity" />
         <badge-shiny v-if="pokemon.shiny" />
         <b-badge variant="info" v-if="pokemon.lucky">Lucky</b-badge>
-        <b-badge variant="warning" v-if="legacyMoves">Legacy Moves</b-badge>
       </div>
       <div>
         <badge-type v-for="(type, i) in pokemon.types" v-bind:type="type" v-bind:title="'Type ' + (i + 1)" v-b-tooltip.hover.top />
       </div>
       <div>
         <badge-type v-for="move in moves" v-bind:type="move.type" v-bind:title="move.name" v-b-tooltip.hover.bottom />
+        <b-badge variant="warning" v-if="legacyMoves">Legacy Moves</b-badge>
       </div>
       <center>
         <pokemon-icon v-bind:pokemon="pokemon.pokemonID" v-bind:form="pokemon.form" v-bind:costume="pokemon.costume" v-bind:lucky="pokemon.lucky" v-bind:shiny="pokemon.shiny" />
