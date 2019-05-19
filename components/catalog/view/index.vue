@@ -10,8 +10,8 @@
       <b-container fluid class="p-3">
         <b-card-group columns>
           <card-basic v-bind:pokemon="pokemon" />
-          <card-power-up v-bind:pokemon="pokemon" />
           <card-stats v-bind:pokemon="pokemon" />
+          <card-power-up v-bind:pokemon="pokemon" />
           <card-moves v-bind:pokemon="pokemon" />
           <card-history v-bind:pokemon="pokemon" />
         </b-card-group>
