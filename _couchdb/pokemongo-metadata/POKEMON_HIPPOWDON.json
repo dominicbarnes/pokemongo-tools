@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_BODY_SLAM": false,
     "MOVE_EARTHQUAKE": false,
+    "MOVE_EARTH_POWER": false,
     "MOVE_STONE_EDGE": false
   },
   "dex": 450,

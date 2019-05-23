@@ -35,6 +35,14 @@
     {
       "candy": 25,
       "pokemon": "POKEMON_UMBREON"
+    },
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_LEAFEON"
+    },
+    {
+      "candy": 25,
+      "pokemon": "POKEMON_GLACEON"
     }
   ],
   "previousEvolution": null,

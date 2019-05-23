@@ -16,6 +16,10 @@
   "height": 1,
   "name": "Magneton",
   "nextEvolutions": [
+    {
+      "candy": 100,
+      "pokemon": "POKEMON_MAGNEZONE"
+    }
   ],
   "previousEvolution": "POKEMON_MAGNEMITE",
   "quickMoves": {

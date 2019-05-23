@@ -7,6 +7,7 @@
   "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_EARTHQUAKE": false,
+    "MOVE_EARTH_POWER": false,
     "MOVE_MEGAHORN": false,
     "MOVE_SLUDGE_WAVE": false
   },

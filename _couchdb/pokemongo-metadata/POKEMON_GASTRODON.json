@@ -4,10 +4,11 @@
     "defense": 143,
     "stamina": 244
   },
-  "buddyDistance": 5,
+  "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_BODY_SLAM": false,
-    "MOVE_EARTHQUAKE": false,
+    "MOVE_EARTHQUAKE": true,
+    "MOVE_EARTH_POWER": false,
     "MOVE_WATER_PULSE": false
   },
   "defaultForm": "west_sea",
@@ -21,10 +22,10 @@
         "defense": 143,
         "stamina": 244
       },
-      "buddyDistance": 5,
+      "buddyDistance": 3,
       "chargeMoves": {
         "MOVE_BODY_SLAM": false,
-        "MOVE_EARTHQUAKE": false,
+        "MOVE_EARTH_POWER": false,
         "MOVE_WATER_PULSE": false
       },
       "dex": 423,
@@ -53,10 +54,10 @@
         "defense": 143,
         "stamina": 244
       },
-      "buddyDistance": 5,
+      "buddyDistance": 3,
       "chargeMoves": {
         "MOVE_BODY_SLAM": false,
-        "MOVE_EARTHQUAKE": false,
+        "MOVE_EARTH_POWER": false,
         "MOVE_WATER_PULSE": false
       },
       "dex": 423,

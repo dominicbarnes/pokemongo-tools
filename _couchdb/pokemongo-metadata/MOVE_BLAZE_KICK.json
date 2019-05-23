@@ -1,0 +1,10 @@
+{
+  "damageWindowEnd": 800,
+  "damageWindowStart": 450,
+  "duration": 1200,
+  "energyDelta": -33,
+  "name": "Blaze Kick",
+  "power": 45,
+  "quick": false,
+  "type": "fire"
+}

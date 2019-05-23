@@ -17,6 +17,10 @@
   "height": 0.99,
   "name": "Nosepass",
   "nextEvolutions": [
+    {
+      "candy": 50,
+      "pokemon": "POKEMON_PROBOPASS"
+    }
   ],
   "previousEvolution": null,
   "quickMoves": {

@@ -27,7 +27,8 @@
       "buddyDistance": 5,
       "chargeMoves": {
         "MOVE_ENERGY_BALL": false,
-        "MOVE_HURRICANE": false
+        "MOVE_HURRICANE": false,
+        "MOVE_WEATHER_BALL_ROCK": false
       },
       "dex": 351,
       "family": "FAMILY_CASTFORM",
@@ -57,7 +58,8 @@
       "buddyDistance": 5,
       "chargeMoves": {
         "MOVE_HYDRO_PUMP": false,
-        "MOVE_THUNDER": false
+        "MOVE_THUNDER": false,
+        "MOVE_WEATHER_BALL_WATER": false
       },
       "dex": 351,
       "family": "FAMILY_CASTFORM",
@@ -87,7 +89,8 @@
       "buddyDistance": 5,
       "chargeMoves": {
         "MOVE_BLIZZARD": false,
-        "MOVE_ICE_BEAM": false
+        "MOVE_ICE_BEAM": false,
+        "MOVE_WEATHER_BALL_ICE": false
       },
       "dex": 351,
       "family": "FAMILY_CASTFORM",
@@ -117,7 +120,8 @@
       "buddyDistance": 5,
       "chargeMoves": {
         "MOVE_FIRE_BLAST": false,
-        "MOVE_SOLAR_BEAM": false
+        "MOVE_SOLAR_BEAM": false,
+        "MOVE_WEATHER_BALL_FIRE": false
       },
       "dex": 351,
       "family": "FAMILY_CASTFORM",

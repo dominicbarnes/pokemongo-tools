@@ -4,7 +4,7 @@
     "defense": 92,
     "stamina": 128
   },
-  "buddyDistance": 3,
+  "buddyDistance": 1,
   "chargeMoves": {
     "MOVE_DAZZLING_GLEAM": false,
     "MOVE_PETAL_BLIZZARD": false,
@@ -20,11 +20,6 @@
     {
       "candy": 50,
       "form": "overcast",
-      "pokemon": "POKEMON_CHERRIM"
-    },
-    {
-      "candy": 50,
-      "form": "sunny",
       "pokemon": "POKEMON_CHERRIM"
     }
   ],

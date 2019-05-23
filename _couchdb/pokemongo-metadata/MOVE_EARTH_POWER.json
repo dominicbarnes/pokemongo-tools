@@ -1,0 +1,10 @@
+{
+  "damageWindowEnd": 3400,
+  "damageWindowStart": 2700,
+  "duration": 3600,
+  "energyDelta": -50,
+  "name": "Earth Power",
+  "power": 100,
+  "quick": false,
+  "type": "ground"
+}

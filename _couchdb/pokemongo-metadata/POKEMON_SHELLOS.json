@@ -4,7 +4,7 @@
     "defense": 105,
     "stamina": 183
   },
-  "buddyDistance": 5,
+  "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_BODY_SLAM": false,
     "MOVE_MUD_BOMB": false,
@@ -21,7 +21,7 @@
         "defense": 105,
         "stamina": 183
       },
-      "buddyDistance": 5,
+      "buddyDistance": 3,
       "chargeMoves": {
         "MOVE_BODY_SLAM": false,
         "MOVE_MUD_BOMB": false,
@@ -57,7 +57,7 @@
         "defense": 105,
         "stamina": 183
       },
-      "buddyDistance": 5,
+      "buddyDistance": 3,
       "chargeMoves": {
         "MOVE_BODY_SLAM": false,
         "MOVE_MUD_BOMB": false,
@@ -93,6 +93,7 @@
   "nextEvolutions": [
     {
       "candy": 50,
+      "form": "east_sea",
       "pokemon": "POKEMON_GASTRODON"
     }
   ],
