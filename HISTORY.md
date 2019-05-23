@@ -1,4 +1,16 @@
 
+0.16.6 / 2019-05-23
+===================
+
+  * chore(npm): update
+  * chore(metadata): update
+  * feat(travis): cache ~/.npm when using npm ci
+  * chore(travis): pin to node 10 for builds
+  * feat(catalog): move legacy moves badge to the same line as the move type badges
+  * feat(catalog): move stats above power-up card
+  * feat(catalog): add badge for pokemon with legacy moves
+  * chore(deps): update POGOProtos
+
 0.16.5 / 2019-04-20
 ===================
 
