@@ -1,6 +1,6 @@
 {
   "name": "pokemongo-tools",
-  "version": "0.16.6",
+  "version": "0.16.7",
   "private": true,
   "dependencies": {
     "@hoodie/server": "^23.0.0",
