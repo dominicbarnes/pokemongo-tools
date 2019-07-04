@@ -151,6 +151,14 @@ const leagues = {
       generation: { $in: [1, 2] },
       form: "normal"
     }
+  },
+  jungle: {
+    name: "Jungle Cup",
+    filter: {
+      cp: { $lte: 1500 },
+      types: { $in: ["electric", "bug", "grass", "normal"] },
+      familyID: { $nin: ["FAMILY_TROPIUS", "FAMILY_BURMY"] }
+    }
   }
 };
 
