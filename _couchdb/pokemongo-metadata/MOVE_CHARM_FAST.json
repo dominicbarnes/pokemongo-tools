@@ -1,0 +1,10 @@
+{
+  "damageWindowEnd": 1200,
+  "damageWindowStart": 900,
+  "duration": 1500,
+  "energyDelta": 11,
+  "name": "Charm",
+  "power": 20,
+  "quick": true,
+  "type": "fairy"
+}

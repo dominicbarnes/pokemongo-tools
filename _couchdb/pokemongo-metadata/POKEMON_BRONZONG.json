@@ -6,9 +6,11 @@
   },
   "buddyDistance": 3,
   "chargeMoves": {
+    "MOVE_BULLDOZE": false,
     "MOVE_FLASH_CANNON": false,
     "MOVE_HEAVY_SLAM": false,
-    "MOVE_PSYCHIC": false
+    "MOVE_PSYCHIC": false,
+    "MOVE_PSYSHOCK": false
   },
   "dex": 437,
   "family": "FAMILY_BRONZOR",

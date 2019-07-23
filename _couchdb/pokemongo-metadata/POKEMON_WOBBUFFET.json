@@ -17,6 +17,7 @@
   ],
   "previousEvolution": "POKEMON_WYNAUT",
   "quickMoves": {
+    "MOVE_CHARM_FAST": false,
     "MOVE_COUNTER_FAST": false,
     "MOVE_SPLASH_FAST": false
   },

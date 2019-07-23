@@ -6,6 +6,8 @@
   },
   "buddyDistance": 20,
   "chargeMoves": {
+    "MOVE_ANCIENT_POWER": false,
+    "MOVE_DRILL_PECK": false,
     "MOVE_THUNDER": false,
     "MOVE_THUNDERBOLT": false,
     "MOVE_ZAP_CANNON": false

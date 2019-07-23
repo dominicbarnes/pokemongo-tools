@@ -1,0 +1,10 @@
+{
+  "damageWindowEnd": 2300,
+  "damageWindowStart": 1800,
+  "duration": 3100,
+  "energyDelta": -100,
+  "name": "Skull Bash",
+  "power": 130,
+  "quick": false,
+  "type": "normal"
+}

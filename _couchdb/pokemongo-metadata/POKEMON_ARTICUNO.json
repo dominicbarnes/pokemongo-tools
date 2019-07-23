@@ -6,6 +6,7 @@
   },
   "buddyDistance": 20,
   "chargeMoves": {
+    "MOVE_ANCIENT_POWER": false,
     "MOVE_BLIZZARD": false,
     "MOVE_HURRICANE": "special",
     "MOVE_ICE_BEAM": false,
@@ -20,7 +21,8 @@
   ],
   "previousEvolution": null,
   "quickMoves": {
-    "MOVE_FROST_BREATH_FAST": false
+    "MOVE_FROST_BREATH_FAST": false,
+    "MOVE_ICE_SHARD_FAST": false
   },
   "rarity": "legendary",
   "types": [

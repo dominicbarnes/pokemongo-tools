@@ -6,9 +6,12 @@
   },
   "buddyDistance": 3,
   "chargeMoves": {
+    "MOVE_FIRE_PUNCH": false,
     "MOVE_FOCUS_BLAST": false,
     "MOVE_FUTURESIGHT": false,
-    "MOVE_PSYCHIC": false
+    "MOVE_ICE_PUNCH": false,
+    "MOVE_PSYCHIC": false,
+    "MOVE_THUNDER_PUNCH": false
   },
   "dex": 97,
   "family": "FAMILY_DROWZEE",

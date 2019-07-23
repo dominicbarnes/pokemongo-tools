@@ -9,6 +9,7 @@
     "MOVE_DRACO_METEOR": false,
     "MOVE_FIRE_BLAST": false,
     "MOVE_HYDRO_PUMP": false,
+    "MOVE_OUTRAGE": "special",
     "MOVE_STRUGGLE": true
   },
   "dex": 373,

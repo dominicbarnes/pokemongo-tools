@@ -22,6 +22,7 @@
   "previousEvolution": null,
   "quickMoves": {
     "MOVE_BITE_FAST": false,
+    "MOVE_ROCK_THROW_FAST": false,
     "MOVE_STEEL_WING_FAST": false
   },
   "rarity": "common",

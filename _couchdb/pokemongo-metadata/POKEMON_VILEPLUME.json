@@ -8,6 +8,7 @@
   "chargeMoves": {
     "MOVE_MOONBLAST": false,
     "MOVE_PETAL_BLIZZARD": false,
+    "MOVE_SLUDGE_BOMB": false,
     "MOVE_SOLAR_BEAM": false
   },
   "dex": 45,

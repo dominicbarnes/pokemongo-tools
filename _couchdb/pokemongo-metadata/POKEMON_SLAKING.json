@@ -6,6 +6,7 @@
   },
   "buddyDistance": 5,
   "chargeMoves": {
+    "MOVE_BODY_SLAM": "special",
     "MOVE_EARTHQUAKE": false,
     "MOVE_HYPER_BEAM": false,
     "MOVE_PLAY_ROUGH": false,

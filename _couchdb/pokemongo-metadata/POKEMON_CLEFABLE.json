@@ -21,6 +21,7 @@
   "previousEvolution": "POKEMON_CLEFAIRY",
   "quickMoves": {
     "MOVE_CHARGE_BEAM_FAST": false,
+    "MOVE_CHARM_FAST": false,
     "MOVE_ZEN_HEADBUTT_FAST": false
   },
   "rarity": "common",

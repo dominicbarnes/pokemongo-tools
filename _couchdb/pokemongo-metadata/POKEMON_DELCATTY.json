@@ -20,6 +20,7 @@
   ],
   "previousEvolution": "POKEMON_SKITTY",
   "quickMoves": {
+    "MOVE_CHARM_FAST": false,
     "MOVE_FEINT_ATTACK_FAST": false,
     "MOVE_SPLASH_FAST": true,
     "MOVE_ZEN_HEADBUTT_FAST": false

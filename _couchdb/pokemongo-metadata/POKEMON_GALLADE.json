@@ -19,6 +19,7 @@
   ],
   "previousEvolution": "POKEMON_KIRLIA",
   "quickMoves": {
+    "MOVE_CHARM_FAST": false,
     "MOVE_CONFUSION_FAST": false,
     "MOVE_LOW_KICK_FAST": false
   },

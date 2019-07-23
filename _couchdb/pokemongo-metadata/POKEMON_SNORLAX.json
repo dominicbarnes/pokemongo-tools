@@ -9,7 +9,8 @@
     "MOVE_EARTHQUAKE": false,
     "MOVE_HEAVY_SLAM": false,
     "MOVE_HYPER_BEAM": false,
-    "MOVE_OUTRAGE": false
+    "MOVE_OUTRAGE": false,
+    "MOVE_SKULL_BASH": false
   },
   "dex": 143,
   "family": "FAMILY_SNORLAX",
@@ -21,6 +22,7 @@
   "previousEvolution": "POKEMON_MUNCHLAX",
   "quickMoves": {
     "MOVE_LICK_FAST": false,
+    "MOVE_YAWN_FAST": "special",
     "MOVE_ZEN_HEADBUTT_FAST": false
   },
   "rarity": "common",

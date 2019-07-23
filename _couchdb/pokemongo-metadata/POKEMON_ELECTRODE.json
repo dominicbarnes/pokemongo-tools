@@ -7,6 +7,7 @@
   "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_DISCHARGE": false,
+    "MOVE_FOUL_PLAY": false,
     "MOVE_HYPER_BEAM": false,
     "MOVE_THUNDERBOLT": false
   },

@@ -20,6 +20,7 @@
   ],
   "previousEvolution": "POKEMON_JIGGLYPUFF",
   "quickMoves": {
+    "MOVE_CHARM_FAST": false,
     "MOVE_FEINT_ATTACK_FAST": false,
     "MOVE_POUND_FAST": false
   },

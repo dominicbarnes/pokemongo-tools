@@ -7,6 +7,7 @@
   "buddyDistance": 3,
   "chargeMoves": {
     "MOVE_EARTHQUAKE": false,
+    "MOVE_SKULL_BASH": false,
     "MOVE_STONE_EDGE": false,
     "MOVE_SURF": false
   },

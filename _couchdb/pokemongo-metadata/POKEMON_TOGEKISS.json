@@ -21,6 +21,7 @@
   "previousEvolution": "POKEMON_TOGETIC",
   "quickMoves": {
     "MOVE_AIR_SLASH_FAST": false,
+    "MOVE_CHARM_FAST": false,
     "MOVE_HIDDEN_POWER_FAST": false
   },
   "rarity": "common",

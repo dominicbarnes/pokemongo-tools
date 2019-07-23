@@ -19,6 +19,7 @@
   ],
   "previousEvolution": "POKEMON_PHANPY",
   "quickMoves": {
+    "MOVE_CHARM_FAST": false,
     "MOVE_COUNTER_FAST": false,
     "MOVE_MUD_SLAP_FAST": false,
     "MOVE_TACKLE_FAST": false

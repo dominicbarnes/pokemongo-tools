@@ -6,6 +6,7 @@
   },
   "buddyDistance": 5,
   "chargeMoves": {
+    "MOVE_ICE_PUNCH": false,
     "MOVE_THUNDER": false,
     "MOVE_THUNDER_PUNCH": false,
     "MOVE_WILD_CHARGE": false

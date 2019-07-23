@@ -11,7 +11,8 @@
     "MOVE_ENERGY_BALL": false,
     "MOVE_HURRICANE": false,
     "MOVE_STOMP": true,
-    "MOVE_STRUGGLE": true
+    "MOVE_STRUGGLE": true,
+    "MOVE_WEATHER_BALL_ROCK": "special"
   },
   "defaultForm": "normal",
   "dex": 351,

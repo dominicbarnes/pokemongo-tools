@@ -23,6 +23,7 @@
   "quickMoves": {
     "MOVE_CONFUSION_FAST": false,
     "MOVE_EXTRASENSORY_FAST": false,
+    "MOVE_MUD_SLAP_FAST": false,
     "MOVE_SPLASH_FAST": true
   },
   "rarity": "common",

@@ -21,6 +21,7 @@
   ],
   "previousEvolution": null,
   "quickMoves": {
+    "MOVE_CHARM_FAST": false,
     "MOVE_DRAGON_BREATH_FAST": false,
     "MOVE_SPLASH_FAST": true,
     "MOVE_ZEN_HEADBUTT_FAST": false

@@ -2,9 +2,9 @@
   "damageWindowEnd": 1600,
   "damageWindowStart": 1400,
   "duration": 1700,
-  "energyDelta": -50,
+  "energyDelta": -33,
   "name": "Doom Desire",
-  "power": 80,
+  "power": 70,
   "quick": false,
   "type": "steel"
 }

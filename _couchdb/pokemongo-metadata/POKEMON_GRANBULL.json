@@ -20,6 +20,7 @@
   "previousEvolution": "POKEMON_SNUBBULL",
   "quickMoves": {
     "MOVE_BITE_FAST": false,
+    "MOVE_CHARM_FAST": false,
     "MOVE_SNARL_FAST": false
   },
   "rarity": "common",
