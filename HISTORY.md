@@ -1,4 +1,10 @@
 
+0.16.10 / 2019-07-23
+====================
+
+  * feat(catalog): add filters for season 1 regionals and jungle cup
+  * chore(metadata): update
+
 0.16.9 / 2019-07-04
 ===================
 
