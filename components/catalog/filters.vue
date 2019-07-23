@@ -143,6 +143,13 @@ const leagues = {
       familyID: { $nin: ["FAMILY_MEDITITE", "FAMILY_SABLEYE"] }
     }
   },
+  season1regionals: {
+    name: "Season 1 Regionals",
+    filter: {
+      cp: { $lte: 1500 },
+      types: { $in: ["ground", "rock", "steel", "fighting", "dark", "poison", "fairy", "ghost", "ice", "electric", "flying", "fire", "dragon"] }
+    }
+  },
   rainbow: {
     name: "Rainbow Cup",
     filter: {
@@ -157,7 +164,7 @@ const leagues = {
     filter: {
       cp: { $lte: 1500 },
       types: { $in: ["electric", "bug", "grass", "normal"] },
-      familyID: { $nin: ["FAMILY_TROPIUS", "FAMILY_BURMY"] }
+      familyID: { $nin: ["FAMILY_BURMY", "FAMILY_TROPIUS"] }
     }
   }
 };
