@@ -11,8 +11,104 @@
     "MOVE_SLUDGE_BOMB": false,
     "MOVE_SOLAR_BEAM": false
   },
+  "defaultForm": "normal",
   "dex": 3,
   "family": "FAMILY_BULBASAUR",
+  "forms": {
+    "normal": {
+      "baseStats": {
+        "attack": 198,
+        "defense": 189,
+        "stamina": 190
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_PETAL_BLIZZARD": false,
+        "MOVE_SLUDGE_BOMB": false,
+        "MOVE_SOLAR_BEAM": false
+      },
+      "dex": 3,
+      "family": "FAMILY_BULBASAUR",
+      "generation": 1,
+      "height": 2,
+      "name": "Venusaur",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_IVYSAUR",
+      "quickMoves": {
+        "MOVE_RAZOR_LEAF_FAST": false,
+        "MOVE_VINE_WHIP_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "weight": 100
+    },
+    "purified": {
+      "baseStats": {
+        "attack": 198,
+        "defense": 189,
+        "stamina": 190
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_PETAL_BLIZZARD": false,
+        "MOVE_SLUDGE_BOMB": false,
+        "MOVE_SOLAR_BEAM": false
+      },
+      "dex": 3,
+      "family": "FAMILY_BULBASAUR",
+      "generation": 1,
+      "height": 2,
+      "name": "Venusaur (Purified)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_IVYSAUR",
+      "quickMoves": {
+        "MOVE_RAZOR_LEAF_FAST": false,
+        "MOVE_VINE_WHIP_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "weight": 100
+    },
+    "shadow": {
+      "baseStats": {
+        "attack": 198,
+        "defense": 189,
+        "stamina": 190
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_PETAL_BLIZZARD": false,
+        "MOVE_SLUDGE_BOMB": false,
+        "MOVE_SOLAR_BEAM": false
+      },
+      "dex": 3,
+      "family": "FAMILY_BULBASAUR",
+      "generation": 1,
+      "height": 2,
+      "name": "Venusaur (Shadow)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_IVYSAUR",
+      "quickMoves": {
+        "MOVE_RAZOR_LEAF_FAST": false,
+        "MOVE_VINE_WHIP_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "weight": 100
+    }
+  },
   "generation": 1,
   "height": 2,
   "name": "Venusaur",

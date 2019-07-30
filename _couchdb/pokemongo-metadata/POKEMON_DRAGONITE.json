@@ -11,8 +11,104 @@
     "MOVE_HYPER_BEAM": false,
     "MOVE_OUTRAGE": false
   },
+  "defaultForm": "normal",
   "dex": 149,
   "family": "FAMILY_DRATINI",
+  "forms": {
+    "normal": {
+      "baseStats": {
+        "attack": 263,
+        "defense": 198,
+        "stamina": 209
+      },
+      "buddyDistance": 5,
+      "chargeMoves": {
+        "MOVE_HURRICANE": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false
+      },
+      "dex": 149,
+      "family": "FAMILY_DRATINI",
+      "generation": 1,
+      "height": 2.2,
+      "name": "Dragonite",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_DRAGONAIR",
+      "quickMoves": {
+        "MOVE_DRAGON_TAIL_FAST": false,
+        "MOVE_STEEL_WING_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "weight": 210
+    },
+    "purified": {
+      "baseStats": {
+        "attack": 263,
+        "defense": 198,
+        "stamina": 209
+      },
+      "buddyDistance": 5,
+      "chargeMoves": {
+        "MOVE_HURRICANE": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false
+      },
+      "dex": 149,
+      "family": "FAMILY_DRATINI",
+      "generation": 1,
+      "height": 2.2,
+      "name": "Dragonite (Purified)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_DRAGONAIR",
+      "quickMoves": {
+        "MOVE_DRAGON_TAIL_FAST": false,
+        "MOVE_STEEL_WING_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "weight": 210
+    },
+    "shadow": {
+      "baseStats": {
+        "attack": 263,
+        "defense": 198,
+        "stamina": 209
+      },
+      "buddyDistance": 5,
+      "chargeMoves": {
+        "MOVE_HURRICANE": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false
+      },
+      "dex": 149,
+      "family": "FAMILY_DRATINI",
+      "generation": 1,
+      "height": 2.2,
+      "name": "Dragonite (Shadow)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_DRAGONAIR",
+      "quickMoves": {
+        "MOVE_DRAGON_TAIL_FAST": false,
+        "MOVE_STEEL_WING_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "weight": 210
+    }
+  },
   "generation": 1,
   "height": 2.2,
   "name": "Dragonite",

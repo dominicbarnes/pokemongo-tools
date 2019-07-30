@@ -10,14 +10,126 @@
     "MOVE_POISON_FANG": false,
     "MOVE_SWIFT": false
   },
+  "defaultForm": "normal",
   "dex": 41,
   "family": "FAMILY_ZUBAT",
+  "forms": {
+    "normal": {
+      "baseStats": {
+        "attack": 83,
+        "defense": 73,
+        "stamina": 120
+      },
+      "buddyDistance": 1,
+      "chargeMoves": {
+        "MOVE_AIR_CUTTER": false,
+        "MOVE_POISON_FANG": false,
+        "MOVE_SWIFT": false
+      },
+      "dex": 41,
+      "family": "FAMILY_ZUBAT",
+      "generation": 1,
+      "height": 0.8,
+      "name": "Zubat",
+      "nextEvolutions": [
+        {
+          "candy": 25,
+          "form": "normal",
+          "pokemon": "POKEMON_GOLBAT"
+        }
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_BITE_FAST": false,
+        "MOVE_QUICK_ATTACK_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "weight": 7.5
+    },
+    "purified": {
+      "baseStats": {
+        "attack": 83,
+        "defense": 73,
+        "stamina": 120
+      },
+      "buddyDistance": 1,
+      "chargeMoves": {
+        "MOVE_AIR_CUTTER": false,
+        "MOVE_POISON_FANG": false,
+        "MOVE_SWIFT": false
+      },
+      "dex": 41,
+      "family": "FAMILY_ZUBAT",
+      "generation": 1,
+      "height": 0.8,
+      "name": "Zubat (Purified)",
+      "nextEvolutions": [
+        {
+          "candy": 22,
+          "form": "purified",
+          "pokemon": "POKEMON_GOLBAT"
+        }
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_BITE_FAST": false,
+        "MOVE_QUICK_ATTACK_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "weight": 7.5
+    },
+    "shadow": {
+      "baseStats": {
+        "attack": 83,
+        "defense": 73,
+        "stamina": 120
+      },
+      "buddyDistance": 1,
+      "chargeMoves": {
+        "MOVE_AIR_CUTTER": false,
+        "MOVE_POISON_FANG": false,
+        "MOVE_SWIFT": false
+      },
+      "dex": 41,
+      "family": "FAMILY_ZUBAT",
+      "generation": 1,
+      "height": 0.8,
+      "name": "Zubat (Shadow)",
+      "nextEvolutions": [
+        {
+          "candy": 25,
+          "form": "shadow",
+          "pokemon": "POKEMON_GOLBAT"
+        }
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_BITE_FAST": false,
+        "MOVE_QUICK_ATTACK_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "weight": 7.5
+    }
+  },
   "generation": 1,
   "height": 0.8,
   "name": "Zubat",
   "nextEvolutions": [
     {
       "candy": 25,
+      "form": "normal",
       "pokemon": "POKEMON_GOLBAT"
     }
   ],

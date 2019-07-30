@@ -10,8 +10,104 @@
     "MOVE_SHADOW_BALL": false,
     "MOVE_SLUDGE_BOMB": false
   },
+  "defaultForm": "normal",
   "dex": 169,
   "family": "FAMILY_ZUBAT",
+  "forms": {
+    "normal": {
+      "baseStats": {
+        "attack": 194,
+        "defense": 178,
+        "stamina": 198
+      },
+      "buddyDistance": 1,
+      "chargeMoves": {
+        "MOVE_AIR_CUTTER": false,
+        "MOVE_SHADOW_BALL": false,
+        "MOVE_SLUDGE_BOMB": false
+      },
+      "dex": 169,
+      "family": "FAMILY_ZUBAT",
+      "generation": 2,
+      "height": 1.8,
+      "name": "Crobat",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_GOLBAT",
+      "quickMoves": {
+        "MOVE_AIR_SLASH_FAST": false,
+        "MOVE_BITE_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "weight": 75
+    },
+    "purified": {
+      "baseStats": {
+        "attack": 194,
+        "defense": 178,
+        "stamina": 198
+      },
+      "buddyDistance": 1,
+      "chargeMoves": {
+        "MOVE_AIR_CUTTER": false,
+        "MOVE_SHADOW_BALL": false,
+        "MOVE_SLUDGE_BOMB": false
+      },
+      "dex": 169,
+      "family": "FAMILY_ZUBAT",
+      "generation": 2,
+      "height": 1.8,
+      "name": "Crobat (Purified)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_GOLBAT",
+      "quickMoves": {
+        "MOVE_AIR_SLASH_FAST": false,
+        "MOVE_BITE_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "weight": 75
+    },
+    "shadow": {
+      "baseStats": {
+        "attack": 194,
+        "defense": 178,
+        "stamina": 198
+      },
+      "buddyDistance": 1,
+      "chargeMoves": {
+        "MOVE_AIR_CUTTER": false,
+        "MOVE_SHADOW_BALL": false,
+        "MOVE_SLUDGE_BOMB": false
+      },
+      "dex": 169,
+      "family": "FAMILY_ZUBAT",
+      "generation": 2,
+      "height": 1.8,
+      "name": "Crobat (Shadow)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_GOLBAT",
+      "quickMoves": {
+        "MOVE_AIR_SLASH_FAST": false,
+        "MOVE_BITE_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "weight": 75
+    }
+  },
   "generation": 2,
   "height": 1.8,
   "name": "Crobat",

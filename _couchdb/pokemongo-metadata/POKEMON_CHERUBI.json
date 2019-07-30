@@ -21,6 +21,11 @@
       "candy": 50,
       "form": "overcast",
       "pokemon": "POKEMON_CHERRIM"
+    },
+    {
+      "candy": 50,
+      "form": "sunny",
+      "pokemon": "POKEMON_CHERRIM"
     }
   ],
   "previousEvolution": null,

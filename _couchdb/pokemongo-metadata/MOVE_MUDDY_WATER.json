@@ -1,0 +1,10 @@
+{
+  "damageWindowEnd": 1900,
+  "damageWindowStart": 1200,
+  "duration": 2200,
+  "energyDelta": -33,
+  "name": "Muddy Water",
+  "power": 50,
+  "quick": false,
+  "type": "water"
+}

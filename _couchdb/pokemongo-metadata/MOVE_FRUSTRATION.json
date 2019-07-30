@@ -1,0 +1,10 @@
+{
+  "damageWindowEnd": 1800,
+  "damageWindowStart": 1000,
+  "duration": 2000,
+  "energyDelta": -33,
+  "name": "Frustration",
+  "power": 10,
+  "quick": false,
+  "type": "normal"
+}

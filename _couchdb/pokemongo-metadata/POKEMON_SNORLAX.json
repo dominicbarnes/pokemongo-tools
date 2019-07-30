@@ -12,8 +12,107 @@
     "MOVE_OUTRAGE": false,
     "MOVE_SKULL_BASH": false
   },
+  "defaultForm": "normal",
   "dex": 143,
   "family": "FAMILY_SNORLAX",
+  "forms": {
+    "normal": {
+      "baseStats": {
+        "attack": 190,
+        "defense": 169,
+        "stamina": 330
+      },
+      "buddyDistance": 5,
+      "chargeMoves": {
+        "MOVE_EARTHQUAKE": false,
+        "MOVE_HEAVY_SLAM": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false,
+        "MOVE_SKULL_BASH": false
+      },
+      "dex": 143,
+      "family": "FAMILY_SNORLAX",
+      "generation": 1,
+      "height": 2.1,
+      "name": "Snorlax",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_MUNCHLAX",
+      "quickMoves": {
+        "MOVE_LICK_FAST": false,
+        "MOVE_ZEN_HEADBUTT_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "normal"
+      ],
+      "weight": 460
+    },
+    "purified": {
+      "baseStats": {
+        "attack": 190,
+        "defense": 169,
+        "stamina": 330
+      },
+      "buddyDistance": 5,
+      "chargeMoves": {
+        "MOVE_EARTHQUAKE": false,
+        "MOVE_HEAVY_SLAM": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false,
+        "MOVE_SKULL_BASH": false
+      },
+      "dex": 143,
+      "family": "FAMILY_SNORLAX",
+      "generation": 1,
+      "height": 2.1,
+      "name": "Snorlax (Purified)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_MUNCHLAX",
+      "quickMoves": {
+        "MOVE_LICK_FAST": false,
+        "MOVE_ZEN_HEADBUTT_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "normal"
+      ],
+      "weight": 460
+    },
+    "shadow": {
+      "baseStats": {
+        "attack": 190,
+        "defense": 169,
+        "stamina": 330
+      },
+      "buddyDistance": 5,
+      "chargeMoves": {
+        "MOVE_EARTHQUAKE": false,
+        "MOVE_HEAVY_SLAM": false,
+        "MOVE_HYPER_BEAM": false,
+        "MOVE_OUTRAGE": false,
+        "MOVE_SKULL_BASH": false
+      },
+      "dex": 143,
+      "family": "FAMILY_SNORLAX",
+      "generation": 1,
+      "height": 2.1,
+      "name": "Snorlax (Shadow)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_MUNCHLAX",
+      "quickMoves": {
+        "MOVE_LICK_FAST": false,
+        "MOVE_ZEN_HEADBUTT_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "normal"
+      ],
+      "weight": 460
+    }
+  },
   "generation": 1,
   "height": 2.1,
   "name": "Snorlax",

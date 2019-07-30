@@ -11,14 +11,126 @@
     "MOVE_STRUGGLE": true,
     "MOVE_SURF": false
   },
+  "defaultForm": "normal",
   "dex": 259,
   "family": "FAMILY_MUDKIP",
+  "forms": {
+    "normal": {
+      "baseStats": {
+        "attack": 156,
+        "defense": 133,
+        "stamina": 172
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_MUD_BOMB": false,
+        "MOVE_SLUDGE": false,
+        "MOVE_SURF": false
+      },
+      "dex": 259,
+      "family": "FAMILY_MUDKIP",
+      "generation": 3,
+      "height": 0.71,
+      "name": "Marshtomp",
+      "nextEvolutions": [
+        {
+          "candy": 100,
+          "form": "normal",
+          "pokemon": "POKEMON_SWAMPERT"
+        }
+      ],
+      "previousEvolution": "POKEMON_MUDKIP",
+      "quickMoves": {
+        "MOVE_MUD_SHOT_FAST": false,
+        "MOVE_WATER_GUN_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "water",
+        "ground"
+      ],
+      "weight": 28
+    },
+    "purified": {
+      "baseStats": {
+        "attack": 156,
+        "defense": 133,
+        "stamina": 172
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_MUD_BOMB": false,
+        "MOVE_SLUDGE": false,
+        "MOVE_SURF": false
+      },
+      "dex": 259,
+      "family": "FAMILY_MUDKIP",
+      "generation": 3,
+      "height": 0.71,
+      "name": "Marshtomp (Purified)",
+      "nextEvolutions": [
+        {
+          "candy": 90,
+          "form": "purified",
+          "pokemon": "POKEMON_SWAMPERT"
+        }
+      ],
+      "previousEvolution": "POKEMON_MUDKIP",
+      "quickMoves": {
+        "MOVE_MUD_SHOT_FAST": false,
+        "MOVE_WATER_GUN_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "water",
+        "ground"
+      ],
+      "weight": 28
+    },
+    "shadow": {
+      "baseStats": {
+        "attack": 156,
+        "defense": 133,
+        "stamina": 172
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_MUD_BOMB": false,
+        "MOVE_SLUDGE": false,
+        "MOVE_SURF": false
+      },
+      "dex": 259,
+      "family": "FAMILY_MUDKIP",
+      "generation": 3,
+      "height": 0.71,
+      "name": "Marshtomp (Shadow)",
+      "nextEvolutions": [
+        {
+          "candy": 100,
+          "form": "shadow",
+          "pokemon": "POKEMON_SWAMPERT"
+        }
+      ],
+      "previousEvolution": "POKEMON_MUDKIP",
+      "quickMoves": {
+        "MOVE_MUD_SHOT_FAST": false,
+        "MOVE_WATER_GUN_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "water",
+        "ground"
+      ],
+      "weight": 28
+    }
+  },
   "generation": 3,
   "height": 0.71,
   "name": "Marshtomp",
   "nextEvolutions": [
     {
       "candy": 100,
+      "form": "normal",
       "pokemon": "POKEMON_SWAMPERT"
     }
   ],

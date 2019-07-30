@@ -13,14 +13,132 @@
   "costumes": {
     "sunglasses": 5
   },
+  "defaultForm": "normal",
   "dex": 8,
   "family": "FAMILY_SQUIRTLE",
+  "forms": {
+    "normal": {
+      "baseStats": {
+        "attack": 126,
+        "defense": 155,
+        "stamina": 153
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_AQUA_JET": false,
+        "MOVE_HYDRO_PUMP": false,
+        "MOVE_ICE_BEAM": false
+      },
+      "costumes": {
+        "sunglasses": 5
+      },
+      "dex": 8,
+      "family": "FAMILY_SQUIRTLE",
+      "generation": 1,
+      "height": 1,
+      "name": "Wartortle",
+      "nextEvolutions": [
+        {
+          "candy": 100,
+          "form": "normal",
+          "pokemon": "POKEMON_BLASTOISE"
+        }
+      ],
+      "previousEvolution": "POKEMON_SQUIRTLE",
+      "quickMoves": {
+        "MOVE_BITE_FAST": false,
+        "MOVE_WATER_GUN_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "water"
+      ],
+      "weight": 22.5
+    },
+    "purified": {
+      "baseStats": {
+        "attack": 126,
+        "defense": 155,
+        "stamina": 153
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_AQUA_JET": false,
+        "MOVE_HYDRO_PUMP": false,
+        "MOVE_ICE_BEAM": false
+      },
+      "costumes": {
+        "sunglasses": 5
+      },
+      "dex": 8,
+      "family": "FAMILY_SQUIRTLE",
+      "generation": 1,
+      "height": 1,
+      "name": "Wartortle (Purified)",
+      "nextEvolutions": [
+        {
+          "candy": 90,
+          "form": "purified",
+          "pokemon": "POKEMON_BLASTOISE"
+        }
+      ],
+      "previousEvolution": "POKEMON_SQUIRTLE",
+      "quickMoves": {
+        "MOVE_BITE_FAST": false,
+        "MOVE_WATER_GUN_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "water"
+      ],
+      "weight": 22.5
+    },
+    "shadow": {
+      "baseStats": {
+        "attack": 126,
+        "defense": 155,
+        "stamina": 153
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_AQUA_JET": false,
+        "MOVE_HYDRO_PUMP": false,
+        "MOVE_ICE_BEAM": false
+      },
+      "costumes": {
+        "sunglasses": 5
+      },
+      "dex": 8,
+      "family": "FAMILY_SQUIRTLE",
+      "generation": 1,
+      "height": 1,
+      "name": "Wartortle (Shadow)",
+      "nextEvolutions": [
+        {
+          "candy": 100,
+          "form": "shadow",
+          "pokemon": "POKEMON_BLASTOISE"
+        }
+      ],
+      "previousEvolution": "POKEMON_SQUIRTLE",
+      "quickMoves": {
+        "MOVE_BITE_FAST": false,
+        "MOVE_WATER_GUN_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "water"
+      ],
+      "weight": 22.5
+    }
+  },
   "generation": 1,
   "height": 1,
   "name": "Wartortle",
   "nextEvolutions": [
     {
       "candy": 100,
+      "form": "normal",
       "pokemon": "POKEMON_BLASTOISE"
     }
   ],

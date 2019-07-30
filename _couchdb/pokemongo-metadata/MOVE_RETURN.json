@@ -1,0 +1,10 @@
+{
+  "damageWindowEnd": 350,
+  "damageWindowStart": 100,
+  "duration": 700,
+  "energyDelta": -33,
+  "name": "Return",
+  "power": 35,
+  "quick": false,
+  "type": "normal"
+}

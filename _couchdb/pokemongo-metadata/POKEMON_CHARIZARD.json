@@ -11,8 +11,104 @@
     "MOVE_FIRE_BLAST": false,
     "MOVE_OVERHEAT": false
   },
+  "defaultForm": "normal",
   "dex": 6,
   "family": "FAMILY_CHARMANDER",
+  "forms": {
+    "normal": {
+      "baseStats": {
+        "attack": 223,
+        "defense": 173,
+        "stamina": 186
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_DRAGON_CLAW": false,
+        "MOVE_FIRE_BLAST": false,
+        "MOVE_OVERHEAT": false
+      },
+      "dex": 6,
+      "family": "FAMILY_CHARMANDER",
+      "generation": 1,
+      "height": 1.7,
+      "name": "Charizard",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_CHARMELEON",
+      "quickMoves": {
+        "MOVE_AIR_SLASH_FAST": false,
+        "MOVE_FIRE_SPIN_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "weight": 90.5
+    },
+    "purified": {
+      "baseStats": {
+        "attack": 223,
+        "defense": 173,
+        "stamina": 186
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_DRAGON_CLAW": false,
+        "MOVE_FIRE_BLAST": false,
+        "MOVE_OVERHEAT": false
+      },
+      "dex": 6,
+      "family": "FAMILY_CHARMANDER",
+      "generation": 1,
+      "height": 1.7,
+      "name": "Charizard (Purified)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_CHARMELEON",
+      "quickMoves": {
+        "MOVE_AIR_SLASH_FAST": false,
+        "MOVE_FIRE_SPIN_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "weight": 90.5
+    },
+    "shadow": {
+      "baseStats": {
+        "attack": 223,
+        "defense": 173,
+        "stamina": 186
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_DRAGON_CLAW": false,
+        "MOVE_FIRE_BLAST": false,
+        "MOVE_OVERHEAT": false
+      },
+      "dex": 6,
+      "family": "FAMILY_CHARMANDER",
+      "generation": 1,
+      "height": 1.7,
+      "name": "Charizard (Shadow)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_CHARMELEON",
+      "quickMoves": {
+        "MOVE_AIR_SLASH_FAST": false,
+        "MOVE_FIRE_SPIN_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "weight": 90.5
+    }
+  },
   "generation": 1,
   "height": 1.7,
   "name": "Charizard",

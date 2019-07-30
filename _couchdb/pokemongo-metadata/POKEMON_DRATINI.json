@@ -10,14 +10,123 @@
     "MOVE_TWISTER": false,
     "MOVE_WRAP": false
   },
+  "defaultForm": "normal",
   "dex": 147,
   "family": "FAMILY_DRATINI",
+  "forms": {
+    "normal": {
+      "baseStats": {
+        "attack": 119,
+        "defense": 91,
+        "stamina": 121
+      },
+      "buddyDistance": 5,
+      "chargeMoves": {
+        "MOVE_AQUA_TAIL": false,
+        "MOVE_TWISTER": false,
+        "MOVE_WRAP": false
+      },
+      "dex": 147,
+      "family": "FAMILY_DRATINI",
+      "generation": 1,
+      "height": 1.8,
+      "name": "Dratini",
+      "nextEvolutions": [
+        {
+          "candy": 25,
+          "form": "normal",
+          "pokemon": "POKEMON_DRAGONAIR"
+        }
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_DRAGON_BREATH_FAST": false,
+        "MOVE_IRON_TAIL_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "dragon"
+      ],
+      "weight": 3.3
+    },
+    "purified": {
+      "baseStats": {
+        "attack": 119,
+        "defense": 91,
+        "stamina": 121
+      },
+      "buddyDistance": 5,
+      "chargeMoves": {
+        "MOVE_AQUA_TAIL": false,
+        "MOVE_TWISTER": false,
+        "MOVE_WRAP": false
+      },
+      "dex": 147,
+      "family": "FAMILY_DRATINI",
+      "generation": 1,
+      "height": 1.8,
+      "name": "Dratini (Purified)",
+      "nextEvolutions": [
+        {
+          "candy": 22,
+          "form": "purified",
+          "pokemon": "POKEMON_DRAGONAIR"
+        }
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_DRAGON_BREATH_FAST": false,
+        "MOVE_IRON_TAIL_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "dragon"
+      ],
+      "weight": 3.3
+    },
+    "shadow": {
+      "baseStats": {
+        "attack": 119,
+        "defense": 91,
+        "stamina": 121
+      },
+      "buddyDistance": 5,
+      "chargeMoves": {
+        "MOVE_AQUA_TAIL": false,
+        "MOVE_TWISTER": false,
+        "MOVE_WRAP": false
+      },
+      "dex": 147,
+      "family": "FAMILY_DRATINI",
+      "generation": 1,
+      "height": 1.8,
+      "name": "Dratini (Shadow)",
+      "nextEvolutions": [
+        {
+          "candy": 25,
+          "form": "shadow",
+          "pokemon": "POKEMON_DRAGONAIR"
+        }
+      ],
+      "previousEvolution": null,
+      "quickMoves": {
+        "MOVE_DRAGON_BREATH_FAST": false,
+        "MOVE_IRON_TAIL_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "dragon"
+      ],
+      "weight": 3.3
+    }
+  },
   "generation": 1,
   "height": 1.8,
   "name": "Dratini",
   "nextEvolutions": [
     {
       "candy": 25,
+      "form": "normal",
       "pokemon": "POKEMON_DRAGONAIR"
     }
   ],

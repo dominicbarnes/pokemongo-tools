@@ -10,14 +10,123 @@
     "MOVE_FLAMETHROWER": false,
     "MOVE_FLAME_BURST": false
   },
+  "defaultForm": "normal",
   "dex": 5,
   "family": "FAMILY_CHARMANDER",
+  "forms": {
+    "normal": {
+      "baseStats": {
+        "attack": 158,
+        "defense": 126,
+        "stamina": 151
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_FIRE_PUNCH": false,
+        "MOVE_FLAMETHROWER": false,
+        "MOVE_FLAME_BURST": false
+      },
+      "dex": 5,
+      "family": "FAMILY_CHARMANDER",
+      "generation": 1,
+      "height": 1.1,
+      "name": "Charmeleon",
+      "nextEvolutions": [
+        {
+          "candy": 100,
+          "form": "normal",
+          "pokemon": "POKEMON_CHARIZARD"
+        }
+      ],
+      "previousEvolution": "POKEMON_CHARMANDER",
+      "quickMoves": {
+        "MOVE_EMBER_FAST": false,
+        "MOVE_FIRE_FANG_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "fire"
+      ],
+      "weight": 19
+    },
+    "purified": {
+      "baseStats": {
+        "attack": 158,
+        "defense": 126,
+        "stamina": 151
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_FIRE_PUNCH": false,
+        "MOVE_FLAMETHROWER": false,
+        "MOVE_FLAME_BURST": false
+      },
+      "dex": 5,
+      "family": "FAMILY_CHARMANDER",
+      "generation": 1,
+      "height": 1.1,
+      "name": "Charmeleon (Purified)",
+      "nextEvolutions": [
+        {
+          "candy": 90,
+          "form": "purified",
+          "pokemon": "POKEMON_CHARIZARD"
+        }
+      ],
+      "previousEvolution": "POKEMON_CHARMANDER",
+      "quickMoves": {
+        "MOVE_EMBER_FAST": false,
+        "MOVE_FIRE_FANG_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "fire"
+      ],
+      "weight": 19
+    },
+    "shadow": {
+      "baseStats": {
+        "attack": 158,
+        "defense": 126,
+        "stamina": 151
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_FIRE_PUNCH": false,
+        "MOVE_FLAMETHROWER": false,
+        "MOVE_FLAME_BURST": false
+      },
+      "dex": 5,
+      "family": "FAMILY_CHARMANDER",
+      "generation": 1,
+      "height": 1.1,
+      "name": "Charmeleon (Shadow)",
+      "nextEvolutions": [
+        {
+          "candy": 100,
+          "form": "shadow",
+          "pokemon": "POKEMON_CHARIZARD"
+        }
+      ],
+      "previousEvolution": "POKEMON_CHARMANDER",
+      "quickMoves": {
+        "MOVE_EMBER_FAST": false,
+        "MOVE_FIRE_FANG_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "fire"
+      ],
+      "weight": 19
+    }
+  },
   "generation": 1,
   "height": 1.1,
   "name": "Charmeleon",
   "nextEvolutions": [
     {
       "candy": 100,
+      "form": "normal",
       "pokemon": "POKEMON_CHARIZARD"
     }
   ],

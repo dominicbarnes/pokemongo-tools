@@ -15,8 +15,113 @@
   "costumes": {
     "sunglasses": 5
   },
+  "defaultForm": "normal",
   "dex": 9,
   "family": "FAMILY_SQUIRTLE",
+  "forms": {
+    "normal": {
+      "baseStats": {
+        "attack": 171,
+        "defense": 207,
+        "stamina": 188
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_FLASH_CANNON": false,
+        "MOVE_HYDRO_PUMP": false,
+        "MOVE_ICE_BEAM": false,
+        "MOVE_SKULL_BASH": false
+      },
+      "costumes": {
+        "sunglasses": 5
+      },
+      "dex": 9,
+      "family": "FAMILY_SQUIRTLE",
+      "generation": 1,
+      "height": 1.6,
+      "name": "Blastoise",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_WARTORTLE",
+      "quickMoves": {
+        "MOVE_BITE_FAST": false,
+        "MOVE_WATER_GUN_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "water"
+      ],
+      "weight": 85.5
+    },
+    "purified": {
+      "baseStats": {
+        "attack": 171,
+        "defense": 207,
+        "stamina": 188
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_FLASH_CANNON": false,
+        "MOVE_HYDRO_PUMP": false,
+        "MOVE_ICE_BEAM": false,
+        "MOVE_SKULL_BASH": false
+      },
+      "costumes": {
+        "sunglasses": 5
+      },
+      "dex": 9,
+      "family": "FAMILY_SQUIRTLE",
+      "generation": 1,
+      "height": 1.6,
+      "name": "Blastoise (Purified)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_WARTORTLE",
+      "quickMoves": {
+        "MOVE_BITE_FAST": false,
+        "MOVE_WATER_GUN_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "water"
+      ],
+      "weight": 85.5
+    },
+    "shadow": {
+      "baseStats": {
+        "attack": 171,
+        "defense": 207,
+        "stamina": 188
+      },
+      "buddyDistance": 3,
+      "chargeMoves": {
+        "MOVE_FLASH_CANNON": false,
+        "MOVE_HYDRO_PUMP": false,
+        "MOVE_ICE_BEAM": false,
+        "MOVE_SKULL_BASH": false
+      },
+      "costumes": {
+        "sunglasses": 5
+      },
+      "dex": 9,
+      "family": "FAMILY_SQUIRTLE",
+      "generation": 1,
+      "height": 1.6,
+      "name": "Blastoise (Shadow)",
+      "nextEvolutions": [
+      ],
+      "previousEvolution": "POKEMON_WARTORTLE",
+      "quickMoves": {
+        "MOVE_BITE_FAST": false,
+        "MOVE_WATER_GUN_FAST": false
+      },
+      "rarity": "common",
+      "types": [
+        "water"
+      ],
+      "weight": 85.5
+    }
+  },
   "generation": 1,
   "height": 1.6,
   "name": "Blastoise",
