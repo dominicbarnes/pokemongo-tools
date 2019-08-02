@@ -18,9 +18,7 @@
   "environment": {
     "hoodie_dbUrl": "http://localhost:5984/",
     "hoodie_dbUrlUsername": "admin",
-    "hoodie_dbUrlPassword": "secret",
-    "METADATA_USERNAME": "admin",
-    "METADATA_PASSWORD": "secret"
+    "hoodie_dbUrlPassword": "secret"
   },
   "stages": {
     "development": {
@@ -29,13 +27,7 @@
       }
     },
     "staging": {
-      "domain": "stage.pokemongo.tools",
-      "environment": {
-        "hoodie_dbUrl": "https://c38aeb6d-2e18-40ca-b7e9-404da06abd39-bluemix.cloudant.com/",
-        "hoodie_dbUrlUsername": "c38aeb6d-2e18-40ca-b7e9-404da06abd39-bluemix",
-        "METADATA_USERNAME": "pokemongo-metadata",
-        "METADATA_PASSWORD": "readonly"
-      }
+      "domain": "stage.pokemongo.tool"
     },
     "production": {
       "domain": "pokemongo.tools",
