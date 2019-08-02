@@ -79,7 +79,7 @@
     "watch:css": "postcss index.css -o public/index.css -w",
     "predev": "npm run couchdb",
     "dev": "concurrently 'npm start' 'npm run watch'",
-    "start": "hoodie --port $PORT",
+    "start": "hoodie --port $PORT --in-memory",
     "stop": "docker-compose stop",
     "clean": "git clean -fdx ./public",
     "distclean": "docker-compose down",
