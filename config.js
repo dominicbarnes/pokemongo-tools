@@ -8,25 +8,13 @@ exports.version = pkg.version
 exports.env = process.env.NODE_ENV || 'development'
 exports.stage = process.env.UP_STAGE || 'development'
 
-// server
-exports.port = process.env.PORT || 8080
-
-// db
-exports.couchdbURL = process.env.COUCHDB_URL || 'http://localhost:5984'
-exports.adminUsername = process.env.ADMIN_USERNAME || 'admin'
-exports.adminPassword = process.env.ADMIN_PASSWORD || 'secret'
-exports.metadataUsername = process.env.METADATA_USERNAME
-exports.metadataPassword = process.env.METADATA_PASSWORD
+// metrics
 exports.segmentWriteKey = process.env.SEGMENT_WRITE_KEY
 
-exports.adminURL = function () {
-  const { couchdbURL, adminUsername, adminPassword } = exports
-  const u = url.parse(couchdbURL)
-  if (adminUsername && adminPassword) {
-    u.auth = `${adminUsername}:${adminPassword}`
-  }
-  return url.format(u)
-}
+// db
+exports.couchdbURL = process.env.hoodie_dbUrl
+exports.metadataUsername = process.env.METADATA_USERNAME
+exports.metadataPassword = process.env.METADATA_PASSWORD
 
 exports.metadataURL = function () {
   const { couchdbURL, metadataUsername, metadataPassword } = exports

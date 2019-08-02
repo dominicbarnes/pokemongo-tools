@@ -6,7 +6,7 @@ cache:
   - "$HOME/.npm"
 before_deploy:
 - sudo chown -R $(whoami) /usr/local/bin/
-- curl -SL https://github.com/apex/up/releases/download/v0.6.8/up_0.6.8_linux_amd64.tar.gz | tar xz -C /usr/local/bin up
+- curl -SL https://github.com/apex/up/releases/download/v1.3.0/up_1.3.0_linux_amd64.tar.gz | tar xz -C /usr/local/bin up
 - up upgrade
 deploy:
 - provider: script
@@ -14,7 +14,6 @@ deploy:
   skip_cleanup: true
   on:
     branch: master
-    tags: false
 - provider: script
   script: up deploy production
   skip_cleanup: true

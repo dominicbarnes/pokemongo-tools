@@ -3,15 +3,7 @@
   "version": "0.16.10",
   "private": true,
   "dependencies": {
-    "@hoodie/server": "^23.0.0",
-    "array-flatten": "^2.1.2",
-    "camelcase": "^5.3.1",
-    "good": "^7.3.0",
-    "hapi": "^16.7.0",
-    "inert": "^4.2.1",
-    "pouchdb-adapter-http": "^6.4.1",
-    "pouchdb-core": "^6.4.1",
-    "pouchdb-mapreduce": "^6.4.1"
+    "hoodie": "^28.2.8"
   },
   "devDependencies": {
     "@hoodie/client": "^10.1.1",
@@ -26,6 +18,7 @@
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.20",
     "browserify": "^16.2.3",
+    "camelcase": "^5.3.1",
     "cartesian": "^1.0.1",
     "case": "^1.6.1",
     "clone": "^2.1.2",
@@ -84,8 +77,9 @@
     "watch": "concurrently 'npm run watch:js' 'npm run watch:css'",
     "watch:js": "watchify -d -t babelify -g envify -t vueify index.js -o public/index.js",
     "watch:css": "postcss index.css -o public/index.css -w",
-    "prestart": "npm run couchdb",
-    "start": "concurrently 'node server/index.js' 'npm run watch'",
+    "predev": "npm run couchdb",
+    "dev": "concurrently 'npm start' 'npm run watch'",
+    "start": "hoodie --port $PORT",
     "stop": "docker-compose stop",
     "clean": "git clean -fdx ./public",
     "distclean": "docker-compose down",
