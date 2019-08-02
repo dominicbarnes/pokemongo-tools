@@ -19,7 +19,7 @@
     "hoodie_dbUrl": "http://localhost:5984",
     "hoodie_dbUrlUsername": "admin",
     "hoodie_dbUrlPassword": "secret",
-    "hoodie_loglevel": "verbose",
+    "hoodie_loglevel": "info",
     "METADATA_USERNAME": "admin",
     "METADATA_PASSWORD": "secret"
   },
