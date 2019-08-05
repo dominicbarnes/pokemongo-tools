@@ -1,4 +1,3 @@
-import 'babel-polyfill'
 import './hoodie.js'
 
 import BootstrapVue from 'bootstrap-vue'

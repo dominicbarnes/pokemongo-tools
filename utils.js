@@ -1,25 +1,25 @@
 
 import numeral from 'numeral'
 
-exports.page = function (list, currentPage, perPage) {
+export function page (list, currentPage, perPage) {
   const start = (currentPage - 1) * perPage
   const end = start + perPage
   return list.slice(start, end)
 }
 
-exports.dex = function (number) {
+export function dex (number) {
   return `#${numeral(number).format('000')}`
 }
 
-exports.cp = function (attack, defense, stamina, multiplier) {
+export function cp (attack, defense, stamina, multiplier) {
   return Math.max(Math.floor((attack * Math.sqrt(defense) * Math.sqrt(stamina) * Math.pow(multiplier, 2)) / 10), 10)
 }
 
-exports.hp = function (stamina, multiplier) {
+export function hp (stamina, multiplier) {
   return Math.max(Math.floor(stamina * multiplier), 10)
 }
 
-exports.multiplier = function (cp, attack, defense, stamina) {
+export function multiplier (cp, attack, defense, stamina) {
   return Math.sqrt((cp * 10) / (attack * Math.sqrt(defense) * Math.sqrt(stamina)))
 }
 
@@ -28,7 +28,7 @@ exports.multiplier = function (cp, attack, defense, stamina) {
 const baseSpriteURL = 'https://raw.githubusercontent.com/ZeChrales/PogoAssets/master'
 
 // TODO: rename sprite -> icon
-exports.spriteURL = function (metadata, catalog) {
+export function spriteURL (metadata, catalog) {
   if (!metadata) return `${baseSpriteURL}/pokemon_icons/pokemon_icon_000.png`
   const bundle = getAssetBundle(metadata, catalog)
   let basename = `pokemon_icon_${numeral(metadata.dex).format('000')}_${numeral(bundle).format('00')}`
@@ -44,7 +44,7 @@ exports.spriteURL = function (metadata, catalog) {
   return `${baseSpriteURL}/pokemon_icons/${basename}.png`
 }
 
-exports.smallIconURL = function (metadata) {
+export function smallIconURL (metadata) {
   if (!metadata) return null
   let basename = `pokemon_icon_${numeral(metadata.dex).format('000')}_00`
   return `${baseSpriteURL}/pixels/${basename}.png`

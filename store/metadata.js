@@ -222,7 +222,7 @@ const actions = {
       commit('metadata', await store.findAll())
       commit('loaded')
     } catch (err) {
-      console.warn('metadata not found in local cache')
+      console.warn('metadata not found in local cache', err)
     }
 
     await dispatch('pull')

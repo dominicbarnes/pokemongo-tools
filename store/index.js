@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-import { env } from '../config'
+import { env } from '../config.js'
 
-import hoodie from './hoodie'
-import metadata from './metadata'
-import catalog from './catalog'
+import hoodie from './hoodie/index.js'
+import metadata from './metadata.js'
+import catalog from './catalog.js'
 
 Vue.use(Vuex)
 
