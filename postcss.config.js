@@ -1,5 +1,5 @@
 
-const { env } = require('./config')
+const env = process.env.NODE_ENV || 'development'
 
 let plugins = [
   require('postcss-import')(),

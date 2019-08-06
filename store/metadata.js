@@ -5,13 +5,13 @@ import sortBy from 'sort-by'
 import Store from '@hoodie/store-client'
 import Vue from 'vue'
 
-import config from '../config'
+import { metadataURL } from '../config'
 import { index } from './utils'
 import { cp, hp } from '../utils.js'
 
 const store = new Store('pokemongo-metadata', {
   PouchDB: PouchDB,
-  remote: config.metadataURL()
+  remote: metadataURL
 })
 
 const state = {

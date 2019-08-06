@@ -73,7 +73,7 @@
 <script>
   import { mapState, mapGetters } from 'vuex'
 
-  import config from '../config'
+  import { version } from '../config'
 
   export default {
     data() {
@@ -82,7 +82,7 @@
         signupError: null,
         signin: Object.create(null),
         signinError: null,
-        version: config.version
+        version: version
       }
     },
 
