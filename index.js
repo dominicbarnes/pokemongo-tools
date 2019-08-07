@@ -1,7 +1,4 @@
 
-import PouchDB from 'pouchdb-browser'
-PouchDB.debug.enable('*')
-
 import './index.css'
 import './hoodie.js'
 
@@ -10,7 +7,7 @@ import markdown from 'nano-markdown'
 import numeral from 'numeral'
 import Vue from 'vue'
 
-import { stage } from './config.js'
+// import { stage } from './config.js'
 import store from './store/index.js'
 import router from './router.js'
 import App from './components/app.vue'
