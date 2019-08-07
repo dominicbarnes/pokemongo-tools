@@ -2,6 +2,6 @@
 import Client from '@hoodie/client'
 import PouchDB from 'pouchdb-browser'
 
-const url = window.location.origin
+import { hoodieURL as url } from './config.js'
 
 window.hoodie = new Client({ PouchDB, url })
