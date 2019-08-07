@@ -7,7 +7,7 @@ import PluginNodeGlobals from 'rollup-plugin-node-globals'
 import PluginNodeResolve from 'rollup-plugin-node-resolve'
 import PluginPostCSS from 'rollup-plugin-postcss'
 import PluginReplace from 'rollup-plugin-replace'
-import PluginTerser from 'rollup-plugin-terser'
+import { terser as PluginTerser } from 'rollup-plugin-terser'
 import PluginVue from 'rollup-plugin-vue'
 
 // postcss plugins
