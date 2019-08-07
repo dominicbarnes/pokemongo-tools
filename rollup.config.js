@@ -33,7 +33,7 @@ const plugins = [
   PluginPostCSS({
     extract: true,
     sourceMap: true,
-    minimize: env !== 'development',
+    minimize: env === 'production',
     plugins: [
       PostCSSImport(),
       PostCSSURL({
@@ -45,7 +45,7 @@ const plugins = [
   })
 ]
 
-if (env !== 'development') {
+if (env === 'production') {
   plugins.push(PluginBabelMinify({ comments: false }))
 }
 
