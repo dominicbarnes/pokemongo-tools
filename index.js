@@ -1,4 +1,7 @@
 
+import PouchDB from 'pouchdb-browser'
+PouchDB.debug.enable('*')
+
 import './index.css'
 import './hoodie.js'
 
@@ -37,16 +40,16 @@ new Vue({ // eslint-disable-line
 document.documentElement.className = 'js'
 
 // register service worker
-if (stage !== 'development' && 'serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js', { scope: '.' }).then(function (reg) {
-    if (reg.installing) {
-      console.log('Service worker installing')
-    } else if (reg.waiting) {
-      console.log('Service worker installed')
-    } else if (reg.active) {
-      console.log('Service worker active')
-    }
-  }).catch(function (error) {
-    console.error('Service worker registration failed', error)
-  })
-}
+// if (stage !== 'development' && 'serviceWorker' in navigator) {
+//   navigator.serviceWorker.register('/sw.js', { scope: '.' }).then(function (reg) {
+//     if (reg.installing) {
+//       console.log('Service worker installing')
+//     } else if (reg.waiting) {
+//       console.log('Service worker installed')
+//     } else if (reg.active) {
+//       console.log('Service worker active')
+//     }
+//   }).catch(function (error) {
+//     console.error('Service worker registration failed', error)
+//   })
+// }
