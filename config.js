@@ -5,8 +5,8 @@ import pkg from './package.json'
 export const version = pkg.version
 
 // env
-export const env = process.env.NODE_ENV || 'development'
-export const stage = process.env.UP_STAGE || 'development'
+export const env = process.env.NODE_ENV
+export const stage = process.env.UP_STAGE
 
 // metrics
 export const segmentWriteKey = process.env.SEGMENT_WRITE_KEY

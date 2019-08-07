@@ -1,4 +1,5 @@
 import './hoodie.js'
+import './index.css'
 
 import BootstrapVue from 'bootstrap-vue'
 import markdown from 'nano-markdown'
