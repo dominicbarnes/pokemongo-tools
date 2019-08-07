@@ -16,4 +16,6 @@ export const metadataURL = env === 'development'
   ? 'http://admin:secret@localhost:5984/pokemongo-metadata'
   : 'https://pokemongo-metadata:readonly@c38aeb6d-2e18-40ca-b7e9-404da06abd39-bluemix.cloudant.com/pokemongo-metadata'
 
-export const hoodieURL = window.location.origin
+const { origin, protocol, hostname, port } = window.location
+
+export const hoodieURL = origin || `${protocol}//${hostname}:${port}`
