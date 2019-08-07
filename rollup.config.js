@@ -1,6 +1,5 @@
 
 // rollup plugins
-import PluginBabelMinify from 'rollup-plugin-babel-minify'
 import PluginCommonJS from 'rollup-plugin-commonjs'
 import PluginJSON from 'rollup-plugin-json'
 import PluginNodeBuiltins from 'rollup-plugin-node-builtins'
@@ -8,6 +7,7 @@ import PluginNodeGlobals from 'rollup-plugin-node-globals'
 import PluginNodeResolve from 'rollup-plugin-node-resolve'
 import PluginPostCSS from 'rollup-plugin-postcss'
 import PluginReplace from 'rollup-plugin-replace'
+import PluginTerser from 'rollup-plugin-terser'
 import PluginVue from 'rollup-plugin-vue'
 
 // postcss plugins
@@ -33,7 +33,7 @@ const plugins = [
   PluginPostCSS({
     extract: true,
     sourceMap: true,
-    minimize: env === 'production',
+    minimize: env !== 'development',
     plugins: [
       PostCSSImport(),
       PostCSSURL({
@@ -45,8 +45,8 @@ const plugins = [
   })
 ]
 
-if (env === 'production') {
-  plugins.push(PluginBabelMinify({ comments: false }))
+if (env !== 'development') {
+  plugins.push(PluginTerser())
 }
 
 export default {
