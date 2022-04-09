@@ -31,7 +31,7 @@
     "fs-extra": "^7.0.1",
     "husky": "^0.14.3",
     "json-stable-stringify": "^1.0.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "nano": "^6.4.4",
     "nano-blue": "^0.3.0",
     "nano-markdown": "^1.2.0",
