@@ -43,7 +43,7 @@
     "postcss-url": "^7.3.1",
     "pouchdb": "^6.3.4",
     "pouchdb-browser": "^6.3.4",
-    "protobufjs": "^6.8.8",
+    "protobufjs": "^6.11.3",
     "range-inclusive": "^1.0.2",
     "rollup": "^1.18.0",
     "rollup-plugin-alias": "^1.5.2",
